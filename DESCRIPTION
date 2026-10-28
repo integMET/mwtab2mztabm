@@ -1,0 +1,33 @@
+Package: mwtab2mztabm
+Title: Convert Metabolomics Workbench mwTab Files to mzTab-M
+Version: 0.1.0
+Authors@R:
+    person("Kozo", "Nishida", email = "kozo.nishida@gmail.com",
+           role = c("aut", "cre"))
+Description: Downloads mwTab JSON files from the Metabolomics Workbench,
+    exports their sample metadata to a TOML file and their metabolite-wise
+    quantification table to a Parquet file, and assembles both into an
+    mzTab-M 2.1 file. The mzTab-M metadata (MTD) section is built from the
+    TOML file and the small molecule (SML) section from the Parquet file using
+    the RmzTabM reference implementation.
+License: Artistic-2.0
+URL: https://github.com/integMET/mwtab2mztabm
+BugReports: https://github.com/integMET/mwtab2mztabm/issues
+Depends:
+    R (>= 4.6)
+Imports:
+    jsonlite,
+    nanoparquet (>= 0.3.0),
+    RcppTOML,
+    RmzTabM,
+    stats,
+    utils
+Suggests:
+    testthat (>= 3.0.0)
+Remotes:
+    rformassspectrometry/RmzTabM
+biocViews: MassSpectrometry, Metabolomics, DataImport
+Config/testthat/edition: 3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Config/roxygen2/version: 8.1.1

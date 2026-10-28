@@ -1,0 +1,57 @@
+[
+{
+"METABOLOMICS WORKBENCH":{"STUDY_ID":"ST999999","ANALYSIS_ID":"AN999998","PROJECT_ID":"PR999999","VERSION":"1","CREATED_ON":"October 28, 2026"},
+"PROJECT":{"PROJECT_TITLE":"Synthetic example project","PROJECT_TYPE":"Example","PROJECT_SUMMARY":"Synthetic mwTab file for the mwtab2mztabm package.","INSTITUTE":"Example Institute","LAST_NAME":"Doe","FIRST_NAME":"Jane","EMAIL":"jane.doe@example.org"},
+"STUDY":{"STUDY_TITLE":"Synthetic example study: LC-MS","STUDY_SUMMARY":"A synthetic study with two genotypes,\ttwo doses\nand a QC sample.","INSTITUTE":"Example Institute","LAST_NAME":"Doe","FIRST_NAME":"Jane","EMAIL":"jane.doe@example.org"},
+"SUBJECT":{"SUBJECT_TYPE":"Mammal","SUBJECT_SPECIES":"Mus musculus","TAXONOMY_ID":"10090"},
+"SUBJECT_SAMPLE_FACTORS":[
+{"Subject ID":"M1","Sample ID":"S1","Factors":{"Genotype":"WT","Dose [mg]":"0","Treatment":"Control, untreated"},"Additional sample data":{"RAW_FILE_NAME":"s1.mzML","injection_order":"1"}},
+{"Subject ID":"M2","Sample ID":"S2","Factors":{"Genotype":"KO","Dose [mg]":"10","Treatment":"Drug A"},"Additional sample data":{"RAW_FILE_NAME":"s2.mzML","injection_order":"2"}},
+{"Subject ID":"M3","Sample ID":"S3","Factors":{"Genotype":"WT","Dose [mg]":"10","Treatment":"Drug A"},"Additional sample data":{"RAW_FILE_NAME":"s3.mzML","injection_order":"3"}},
+{"Subject ID":"-","Sample ID":"QC1","Factors":{"Genotype":"pool","Dose [mg]":"","Treatment":"QC"},"Additional sample data":{"RAW_FILE_NAME":"qc1.mzML","injection_order":"4"}},
+{"Subject ID":"M4","Sample ID":"S4","Factors":{"Genotype":"KO","Dose [mg]":"0","Treatment":"Control, untreated"},"Additional sample data":{"RAW_FILE_NAME":"s4.mzML","injection_order":"5"}}
+],
+"COLLECTION":{"COLLECTION_SUMMARY":"Synthetic.","SAMPLE_TYPE":"Blood (plasma)"},
+"CHROMATOGRAPHY":{"CHROMATOGRAPHY_TYPE":"Reversed phase","INSTRUMENT_NAME":"Example UHPLC","COLUMN_NAME":"C18 (100mm x 2.1mm, 1.7um)"},
+"ANALYSIS":{"ANALYSIS_TYPE":"MS"},
+"MS":{"INSTRUMENT_NAME":"Thermo Q Exactive","INSTRUMENT_TYPE":"Orbitrap","MS_TYPE":"ESI","ION_MODE":"POSITIVE"},
+"MS_METABOLITE_DATA":{
+"Units":"Peak area",
+"Data":[
+{"Metabolite":"caffeine","S1":"1000","S2":"1200","S3":"900.5","QC1":"1050","S4":"1100"},
+{"Metabolite":"glucose","S1":"500","S2":"","S3":"450","QC1":"480","S4":"<LOD"},
+{"Metabolite":"unknown_123","S1":"10","S2":"12","S3":"11","QC1":"11","S4":"9"}
+],
+"Metabolites":[
+{"Metabolite":"caffeine","HMDB":"HMDB0001847","KEGG ID":"C07481","Adduct":"[M+H]+","quantified m/z":"195.0877"},
+{"Metabolite":"glucose","HMDB":"","KEGG ID":"C00031","Adduct":"[M+Na]+","quantified m/z":"203.0526"},
+{"Metabolite":"unknown_123","HMDB":"","KEGG ID":"","Adduct":"","quantified m/z":"301.1412"}
+]
+}
+},
+{
+"METABOLOMICS WORKBENCH":{"STUDY_ID":"ST999999","ANALYSIS_ID":"AN999999","PROJECT_ID":"PR999999","VERSION":"1","CREATED_ON":"October 28, 2026"},
+"PROJECT":{"PROJECT_TITLE":"Synthetic example project","PROJECT_TYPE":"Example","PROJECT_SUMMARY":"Synthetic mwTab file for the mwtab2mztabm package.","INSTITUTE":"Example Institute","LAST_NAME":"Doe","FIRST_NAME":"Jane","EMAIL":"jane.doe@example.org"},
+"STUDY":{"STUDY_TITLE":"Synthetic example study: GC-MS","STUDY_SUMMARY":"A synthetic GC-MS analysis.","INSTITUTE":"Example Institute","LAST_NAME":"Doe","FIRST_NAME":"Jane","EMAIL":"jane.doe@example.org"},
+"SUBJECT":{"SUBJECT_TYPE":"Mammal","SUBJECT_SPECIES":"Mus musculus","TAXONOMY_ID":"10090"},
+"SUBJECT_SAMPLE_FACTORS":[
+{"Subject ID":"M1","Sample ID":"S1","Factors":{"Genotype":"WT"}},
+{"Subject ID":"M2","Sample ID":"S2","Factors":{"Genotype":"KO"}}
+],
+"COLLECTION":{"SAMPLE_TYPE":"Blood (plasma)"},
+"CHROMATOGRAPHY":{"CHROMATOGRAPHY_TYPE":"GC","INSTRUMENT_NAME":"Example GC"},
+"ANALYSIS":{"ANALYSIS_TYPE":"MS"},
+"MS":{"INSTRUMENT_NAME":"Example ISQ","INSTRUMENT_TYPE":"Single quadrupole","MS_TYPE":"EI","ION_MODE":"NEGATIVE"},
+"MS_METABOLITE_DATA":{
+"Units":"not applicable",
+"Data":[
+{"Metabolite":"alanine","S1":"5","S2":"6"},
+{"Metabolite":"lactate","S1":"7","S2":"8"}
+],
+"Metabolites":[
+{"metabolite_name":"alanine","pubchem_id":"5950"},
+{"metabolite_name":"lactate","pubchem_id":"612"}
+]
+}
+}
+]
