@@ -47,6 +47,38 @@ mwTab JSON is downloaded from the Metabolomics Workbench REST service
 A study can contain several analyses; one set of TOML, Parquet and mzTab-M
 files is created for each.
 
+## Example output: ST000010
+
+The [ST000010](ST000010) folder contains the output for study ST000010. It
+was created on 2026-10-31 at commit `d8f1786`, by running the following from
+the root of this repository:
+
+```r
+pkgload::load_all(".", quiet = TRUE)
+
+url <- paste0("https://www.metabolomicsworkbench.org/data/DRCCMetadata.php?",
+              "Mode=Study&StudyID=ST000010&StudyType=MS&ResultType=1")
+res <- mwtabToMzTabM(url, outdir = "ST000010")
+#> Converting analysis AN000025
+#> 29 metabolite(s) were matched to the 'Metabolites' block by their normalized name
+#> Validation finished successfully: 0 message(s) found.
+#> Converting analysis AN000026
+#> 9 metabolite(s) were matched to the 'Metabolites' block by their normalized name
+#> Validation finished successfully: 0 message(s) found.
+#> Warning messages:
+#> 1: 8 metabolite(s) have no annotation in the 'Metabolites' block
+#> 2: 9 metabolite(s) have no annotation in the 'Metabolites' block
+```
+
+The warnings refer to metabolites of the quantification table without an entry
+in the `Metabolites` block of the mwTab file. They are kept in the output, but
+have no database identifier.
+
+| Analysis | Ion mode | Metabolites | Samples |
+|---|---|---|---|
+| AN000025 | positive | 403 | 39 |
+| AN000026 | negative | 281 | 39 |
+
 ## Step by step
 
 ```r
