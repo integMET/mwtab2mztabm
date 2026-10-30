@@ -1,0 +1,542 @@
+# mwTab metadata of study ST000010, analysis AN000026
+# Exported by mwtab2mztabm 0.1.0.
+# Sample metadata is listed in [[SUBJECT_SAMPLE_FACTORS]].
+
+[mwtab2mztabm]
+format_version = 1
+factor_order = ["FCS", "Hours", "REFED", "TGF"]
+additional_data_order = []
+
+["METABOLOMICS WORKBENCH"]
+STUDY_ID = "ST000010"
+ANALYSIS_ID = "AN000026"
+VERSION = "1"
+CREATED_ON = "2016-09-17"
+
+[PROJECT]
+PROJECT_TITLE = "Metabolomics of EMT"
+PROJECT_TYPE = "MS analysis"
+PROJECT_SUMMARY = "Lung Cancer Cells 4"
+INSTITUTE = "University of Michigan"
+LABORATORY = "Keshamouni Lab (MCTP)"
+LAST_NAME = "Keshamouni"
+FIRST_NAME = "Venkat"
+ADDRESS = "-"
+EMAIL = "vkeshamo@umich.edu"
+PHONE = "-"
+
+[STUDY]
+STUDY_TITLE = "Lung Cancer Cells 4"
+STUDY_TYPE = "MS analysis"
+STUDY_SUMMARY = "Lung Cancer Cells 4"
+INSTITUTE = "University of Michigan"
+LABORATORY = "Keshamouni Lab (MCTP)"
+LAST_NAME = "Keshamouni"
+FIRST_NAME = "Venkat"
+ADDRESS = "-"
+EMAIL = "vkeshamo@umich.edu"
+PHONE = "-"
+NUM_GROUPS = "13"
+TOTAL_SUBJECTS = "39"
+
+[SUBJECT]
+SUBJECT_TYPE = "Cells"
+SUBJECT_SPECIES = "Homo sapiens"
+TAXONOMY_ID = "9606"
+SPECIES_GROUP = "Human"
+
+[COLLECTION]
+COLLECTION_SUMMARY = "-"
+
+[TREATMENT]
+TREATMENT_SUMMARY = "-"
+
+[SAMPLEPREP]
+SAMPLEPREP_SUMMARY = "-"
+
+[CHROMATOGRAPHY]
+CHROMATOGRAPHY_TYPE = "-"
+INSTRUMENT_NAME = "-"
+COLUMN_NAME = "-"
+
+[ANALYSIS]
+ANALYSIS_TYPE = "MS"
+DETECTOR_TYPE = "LC/Electro-spray/QTOF MS Negative"
+
+[MS]
+MS_COMMENTS = "-"
+INSTRUMENT_NAME = "Agilent 6530 QTOF"
+INSTRUMENT_TYPE = "QTOF"
+MS_TYPE = "ESI"
+ION_MODE = "NEGATIVE"
+
+[MS_METABOLITE_DATA]
+Units = "Peak area"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00010482"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+FCS = "FCS"
+Hours = "72"
+REFED = "NO_REFED"
+TGF = "NO_TGF"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00010483"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+FCS = "FCS"
+Hours = "72"
+REFED = "NO_REFED"
+TGF = "NO_TGF"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00010484"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+FCS = "FCS"
+Hours = "72"
+REFED = "NO_REFED"
+TGF = "NO_TGF"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00010485"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+FCS = "FCS"
+Hours = "72"
+REFED = "NO_REFED"
+TGF = "TGF"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00010486"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+FCS = "FCS"
+Hours = "72"
+REFED = "NO_REFED"
+TGF = "TGF"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00010487"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+FCS = "FCS"
+Hours = "72"
+REFED = "NO_REFED"
+TGF = "TGF"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00010449"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+FCS = "NO_FCS"
+Hours = "0"
+REFED = "NO_REFED"
+TGF = "NO_TGF"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00010450"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+FCS = "NO_FCS"
+Hours = "0"
+REFED = "NO_REFED"
+TGF = "NO_TGF"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00010451"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+FCS = "NO_FCS"
+Hours = "0"
+REFED = "NO_REFED"
+TGF = "NO_TGF"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00010458"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+FCS = "NO_FCS"
+Hours = "12"
+REFED = "NO_REFED"
+TGF = "NO_TGF"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00010459"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+FCS = "NO_FCS"
+Hours = "12"
+REFED = "NO_REFED"
+TGF = "NO_TGF"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00010460"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+FCS = "NO_FCS"
+Hours = "12"
+REFED = "NO_REFED"
+TGF = "NO_TGF"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00010461"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+FCS = "NO_FCS"
+Hours = "12"
+REFED = "NO_REFED"
+TGF = "TGF"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00010462"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+FCS = "NO_FCS"
+Hours = "12"
+REFED = "NO_REFED"
+TGF = "TGF"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00010463"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+FCS = "NO_FCS"
+Hours = "12"
+REFED = "NO_REFED"
+TGF = "TGF"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00010464"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+FCS = "NO_FCS"
+Hours = "24"
+REFED = "NO_REFED"
+TGF = "NO_TGF"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00010465"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+FCS = "NO_FCS"
+Hours = "24"
+REFED = "NO_REFED"
+TGF = "NO_TGF"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00010466"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+FCS = "NO_FCS"
+Hours = "24"
+REFED = "NO_REFED"
+TGF = "NO_TGF"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00010467"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+FCS = "NO_FCS"
+Hours = "24"
+REFED = "NO_REFED"
+TGF = "TGF"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00010468"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+FCS = "NO_FCS"
+Hours = "24"
+REFED = "NO_REFED"
+TGF = "TGF"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00010469"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+FCS = "NO_FCS"
+Hours = "24"
+REFED = "NO_REFED"
+TGF = "TGF"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00010452"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+FCS = "NO_FCS"
+Hours = "2"
+REFED = "NO_REFED"
+TGF = "NO_TGF"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00010453"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+FCS = "NO_FCS"
+Hours = "2"
+REFED = "NO_REFED"
+TGF = "NO_TGF"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00010454"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+FCS = "NO_FCS"
+Hours = "2"
+REFED = "NO_REFED"
+TGF = "NO_TGF"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00010455"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+FCS = "NO_FCS"
+Hours = "2"
+REFED = "NO_REFED"
+TGF = "TGF"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00010456"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+FCS = "NO_FCS"
+Hours = "2"
+REFED = "NO_REFED"
+TGF = "TGF"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00010457"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+FCS = "NO_FCS"
+Hours = "2"
+REFED = "NO_REFED"
+TGF = "TGF"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00010470"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+FCS = "NO_FCS"
+Hours = "72"
+REFED = "NO_REFED"
+TGF = "NO_TGF"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00010471"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+FCS = "NO_FCS"
+Hours = "72"
+REFED = "NO_REFED"
+TGF = "NO_TGF"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00010472"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+FCS = "NO_FCS"
+Hours = "72"
+REFED = "NO_REFED"
+TGF = "NO_TGF"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00010473"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+FCS = "NO_FCS"
+Hours = "72"
+REFED = "NO_REFED"
+TGF = "TGF"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00010474"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+FCS = "NO_FCS"
+Hours = "72"
+REFED = "NO_REFED"
+TGF = "TGF"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00010475"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+FCS = "NO_FCS"
+Hours = "72"
+REFED = "NO_REFED"
+TGF = "TGF"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00010476"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+FCS = "NO_FCS"
+Hours = "72"
+REFED = "REFED_48"
+TGF = "NO_TGF"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00010477"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+FCS = "NO_FCS"
+Hours = "72"
+REFED = "REFED_48"
+TGF = "NO_TGF"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00010478"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+FCS = "NO_FCS"
+Hours = "72"
+REFED = "REFED_48"
+TGF = "NO_TGF"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00010479"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+FCS = "NO_FCS"
+Hours = "72"
+REFED = "REFED_48"
+TGF = "TGF"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00010480"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+FCS = "NO_FCS"
+Hours = "72"
+REFED = "REFED_48"
+TGF = "TGF"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00010481"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+FCS = "NO_FCS"
+Hours = "72"
+REFED = "REFED_48"
+TGF = "TGF"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
