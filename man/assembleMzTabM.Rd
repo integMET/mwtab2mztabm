@@ -25,8 +25,9 @@ write.}
 
 \item{validate}{\code{logical(1)} whether the written file should be validated
 with the jmzTab-M validator (see \code{\link[RmzTabM:mzTabMValidator]{RmzTabM::mzTabMValidator()}}). The
-validator is downloaded on first use. An error is thrown if the
-validation fails; the invalid file is kept for inspection.}
+validator is downloaded on first use. The study variable abundances are
+also checked with \code{\link[=checkStudyVariableAbundance]{checkStudyVariableAbundance()}}. An error is thrown if
+the validation fails; the invalid file is kept for inspection.}
 
 \item{reliability}{\code{character(1)} with the identification reliability
 reported for all metabolites. Defaults to \code{"2"} (\emph{putatively annotated

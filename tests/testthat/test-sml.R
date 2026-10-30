@@ -32,6 +32,25 @@ test_that("smlFromParquet adds study variable columns", {
     ## study variable 1 (Genotype WT): assays 1 and 3
     expect_equal(sml[["abundance_study_variable[1]"]],
                  rowMeans(cbind(c(1000, 500, 10), c(900.5, 450, 11))))
+    ## means ignore missing abundances: glucose has no value in assay 2
+    abundance <- as.matrix(sml[, paste0("abundance_assay[", 1:3, "]")])
+    expect_true(is.na(abundance[2L, 2L]))
+    for (sv in grep("^study_variable\\[[0-9]+\\]-assay_refs$", mtd[, 1L],
+                    value = TRUE)) {
+        refs <- strsplit(mtd_value(mtd, sv), "|", fixed = TRUE)[[1L]]
+        col <- paste0("abundance_", sub("-assay_refs$", "", sv))
+        expect_equal(sml[[col]], unname(rowMeans(
+            as.matrix(sml[, paste0("abundance_", refs), drop = FALSE]),
+            na.rm = TRUE)))
+    }
+    ## mean is only missing if all abundances are missing
+    tab2 <- tab
+    tab2[1L, attr(tab, "sample_columns")] <- NA_real_
+    sml2 <- smlFromParquet(tab2, mtd = mtd)
+    expect_true(is.na(sml2[["abundance_study_variable[1]"]][1L]))
+    expect_false(is.nan(sml2[["abundance_study_variable[1]"]][1L]))
+    expect_equal(sml2[["abundance_study_variable[1]"]][2:3],
+                 sml[["abundance_study_variable[1]"]][2:3])
 
     mtd2 <- suppressMessages(mtdFromToml(example_toml(),
                                          assays = c("S1", "S2")))

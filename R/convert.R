@@ -20,8 +20,9 @@
 #'
 #' @param validate `logical(1)` whether the written file should be validated
 #'     with the jmzTab-M validator (see [RmzTabM::mzTabMValidator()]). The
-#'     validator is downloaded on first use. An error is thrown if the
-#'     validation fails; the invalid file is kept for inspection.
+#'     validator is downloaded on first use. The study variable abundances are
+#'     also checked with [checkStudyVariableAbundance()]. An error is thrown if
+#'     the validation fails; the invalid file is kept for inspection.
 #'
 #' @inheritParams mtdFromToml
 #'
@@ -55,8 +56,10 @@ assembleMzTabM <- function(toml, parquet, file = NULL, validate = TRUE,
     if (is.null(file))
         return(mzt)
     RmzTabM::writeMzTabM(mzt, path = file, validate = FALSE)
-    if (validate)
+    if (validate) {
         .validate_mztab(file)
+        .validate_study_variable_abundance(file)
+    }
     invisible(mzt)
 }
 
@@ -75,6 +78,96 @@ assembleMzTabM <- function(toml, parquet, file = NULL, validate = TRUE,
     }
     RmzTabM::mzTabMValidator(file)
     invisible(TRUE)
+}
+
+.validate_study_variable_abundance <- function(file) {
+    res <- checkStudyVariableAbundance(file)
+    if (nrow(res))
+        stop("'", file, "': ", nrow(res), " abundance_study_variable value(s) ",
+             "differ from the mean of the abundance_assay values. First ",
+             "difference: SML_ID ", res$SML_ID[1L], ", ", res$study_variable[1L],
+             " (reported ", res$reported[1L], ", expected ", res$expected[1L],
+             ")", call. = FALSE)
+    invisible(TRUE)
+}
+
+#' Check the study variable abundances of an mzTab-M file
+#'
+#' `checkStudyVariableAbundance()` reads an mzTab-M file and compares each
+#' `abundance_study_variable[n]` value of the SML section with the mean of the
+#' `abundance_assay[n]` values of the assays listed in
+#' `study_variable[n]-assay_refs` of the MTD section.
+#'
+#' With the default `na.rm = TRUE` the mean of the available abundances is
+#' expected, as calculated by [smlFromParquet()]: it is only missing (`null`) if
+#' the abundances of all assays are missing. With `na.rm = FALSE` the mean is
+#' expected to be missing if the abundance of any of the assays is missing.
+#'
+#' @param file `character(1)` with the path to the mzTab-M file.
+#'
+#' @param na.rm `logical(1)` whether missing assay abundances should be ignored
+#'     when calculating the mean.
+#'
+#' @param tolerance `numeric(1)` with the accepted relative difference.
+#'
+#' @return `data.frame` with one row per difference and columns `"SML_ID"`,
+#'     `"study_variable"`, `"reported"` and `"expected"`. It has no rows if all
+#'     values are equal.
+#'
+#' @export
+#'
+#' @examples
+#' f <- system.file("extdata", "example_mwtab.json", package = "mwtab2mztabm")
+#' res <- mwtabToMzTabM(f, outdir = tempdir(), analysis_id = "AN999998",
+#'                      validate = FALSE)
+#'
+#' checkStudyVariableAbundance(res$mztab)
+#' checkStudyVariableAbundance(res$mztab, na.rm = FALSE)
+checkStudyVariableAbundance <- function(file, na.rm = TRUE, tolerance = 1e-8) {
+    lines <- readLines(file)
+    mtd <- .mztab_section(lines, "MTD")
+    sml <- .mztab_section(lines, "SML")
+    colnames(sml) <- .mztab_section(lines, "SMH")[1L, ]
+    refs <- which(grepl("^study_variable\\[[0-9]+\\]-assay_refs$", mtd[, 2L]))
+    res <- lapply(refs, function(i) {
+        sv <- sub("-assay_refs$", "", mtd[i, 2L])
+        svcol <- paste0("abundance_", sv)
+        acols <- paste0("abundance_",
+                        strsplit(mtd[i, 3L], "|", fixed = TRUE)[[1L]])
+        miss <- setdiff(c(svcol, acols), colnames(sml))
+        if (length(miss))
+            stop("Columns ", paste(miss, collapse = ", "), " not found in the ",
+                 "SML section of '", file, "'", call. = FALSE)
+        reported <- .mztab_abundance(sml[, svcol])
+        expected <- rowMeans(matrix(.mztab_abundance(sml[, acols]), nrow(sml)),
+                             na.rm = na.rm)
+        expected[is.nan(expected)] <- NA_real_
+        ok <- is.na(reported) == is.na(expected)
+        both <- !is.na(reported) & !is.na(expected)
+        ok[both] <- abs(reported[both] - expected[both]) <=
+            tolerance * abs(expected[both])
+        data.frame(SML_ID = as.integer(sml[!ok, "SML_ID"]),
+                   study_variable = rep(sv, sum(!ok)),
+                   reported = reported[!ok], expected = expected[!ok])
+    })
+    res <- do.call(rbind, c(list(data.frame(
+        SML_ID = integer(), study_variable = character(),
+        reported = numeric(), expected = numeric())), res))
+    rownames(res) <- NULL
+    res
+}
+
+## Cells of the lines of a section of an mzTab-M file as a character matrix.
+.mztab_section <- function(lines, prefix) {
+    lines <- lines[startsWith(lines, paste0(prefix, "\t"))]
+    if (!length(lines))
+        stop("No ", prefix, " lines found in the mzTab-M file", call. = FALSE)
+    do.call(rbind, strsplit(lines, "\t", fixed = TRUE))
+}
+
+.mztab_abundance <- function(x) {
+    x[x == "null"] <- NA_character_
+    as.numeric(x)
 }
 
 #' Convert mwTab files from the Metabolomics Workbench to mzTab-M

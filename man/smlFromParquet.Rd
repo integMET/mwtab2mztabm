@@ -32,7 +32,9 @@ quantification table exported with \code{\link[=mwtabToParquet]{mwtabToParquet()
 \code{\link[RmzTabM:smlCreate]{RmzTabM::smlCreate()}}. Each metabolite is reported as one small molecule
 with its abundances in each assay. If the MTD section is provided, the
 average and variation of the abundances per study variable are added with
-\code{\link[RmzTabM:smlAddStudyVariableColumns]{RmzTabM::smlAddStudyVariableColumns()}}.
+\code{\link[RmzTabM:smlAddStudyVariableColumns]{RmzTabM::smlAddStudyVariableColumns()}}. Both ignore missing abundances: the
+average is the mean of the available abundances and is only missing if the
+abundances of all assays of the study variable are missing.
 }
 \details{
 The metabolite annotations are mapped as follows:

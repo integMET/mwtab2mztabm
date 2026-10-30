@@ -50,8 +50,8 @@ files is created for each.
 ## Example output: ST000010
 
 The [ST000010](ST000010) folder contains the output for study ST000010. It
-was created on 2026-10-31 at commit `d8f1786`, by running the following from
-the root of this repository:
+was created on 2026-10-31, with the code of the commit that last changed the
+folder, by running the following from the root of this repository:
 
 ```r
 pkgload::load_all(".", quiet = TRUE)
@@ -189,5 +189,14 @@ key-value metadata of the file (see `?mwtabToParquet`).
 - `RmzTabM::mzTabMValidator()` (and thus `writeMzTabM(validate = TRUE)`)
   reports files without any validation message as failed. `assembleMzTabM()`
   handles that case itself.
+- `assembleMzTabM()` also confirms with `checkStudyVariableAbundance()` that
+  each `abundance_study_variable[n]` in the written file is the mean of the
+  `abundance_assay[n]` values of its assays.
+- Study variable abundances ignore missing values: they are the mean of the
+  available assay abundances, and `null` only if all assays of the study
+  variable are `null`. If a missing value means that a metabolite was below the
+  detection limit, these means are biased upward. This differs from
+  `RmzTabM::smlAddStudyVariableColumns()`, whose mean is `null` if any assay is
+  `null`.
 - Only mass spectrometry analyses with a `MS_METABOLITE_DATA` section are
   supported. Analyses whose results are in a separate file are not.

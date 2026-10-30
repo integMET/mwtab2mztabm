@@ -5,7 +5,9 @@
 #' [RmzTabM::smlCreate()]. Each metabolite is reported as one small molecule
 #' with its abundances in each assay. If the MTD section is provided, the
 #' average and variation of the abundances per study variable are added with
-#' [RmzTabM::smlAddStudyVariableColumns()].
+#' [RmzTabM::smlAddStudyVariableColumns()]. Both ignore missing abundances: the
+#' average is the mean of the available abundances and is only missing if the
+#' abundances of all assays of the study variable are missing.
 #'
 #' The metabolite annotations are mapped as follows:
 #'
@@ -80,7 +82,26 @@ smlFromParquet <- function(x, mtd = NULL, reliability = "2") {
             stop("The MTD section defines ", n, " assays but the ",
                  "quantification table has ", length(samples), " samples",
                  call. = FALSE)
-        sml <- RmzTabM::smlAddStudyVariableColumns(sml, mtd)
+        sml <- .sml_study_variable_means(
+            RmzTabM::smlAddStudyVariableColumns(sml, mtd), mtd)
+    }
+    sml
+}
+
+## RmzTabM::smlAddStudyVariableColumns() ignores missing abundances for the
+## variation of a study variable but not for its mean, which is thus missing
+## if the abundance of any assay is missing. Replace it with the mean of the
+## available abundances.
+.sml_study_variable_means <- function(sml, mtd) {
+    refs <- grep("^study_variable\\[[0-9]+\\]-assay_refs$", mtd[, 1L])
+    for (i in refs) {
+        sv <- sub("-assay_refs$", "", mtd[i, 1L])
+        acols <- paste0("abundance_",
+                        strsplit(mtd[i, 2L], "|", fixed = TRUE)[[1L]])
+        m <- unname(apply(sml[, acols, drop = FALSE], MARGIN = 1L, FUN = mean,
+                          na.rm = TRUE))
+        m[is.nan(m)] <- NA_real_
+        sml[[paste0("abundance_", sv)]] <- m
     }
     sml
 }
