@@ -154,6 +154,55 @@ test_that("mwtabToMzTabM does not overwrite analyses without IDs", {
     expect_true(all(file.exists(res$mztab)))
 })
 
+test_that("assembleMzTabM keeps non-ASCII text in the C locale", {
+    skip_on_os("windows")
+    title <- paste0("10 ", intToUtf8(0xb5), "M")
+    key <- paste0("BMI [kg/m", intToUtf8(0xb2), "]")
+    a <- readMwTab(example_file)[["AN999998"]]
+    a$STUDY$STUDY_TITLE <- title
+    for (i in seq_along(a$SUBJECT_SAMPLE_FACTORS))
+        a$SUBJECT_SAMPLE_FACTORS[[i]]$`Additional sample data`[[key]] <- "27"
+    toml <- tempfile(fileext = ".toml")
+    pq <- tempfile(fileext = ".parquet")
+    out <- tempfile(fileext = ".mztab")
+    mwtabToToml(a, toml)
+    suppressWarnings(mwtabToParquet(a, pq))
+
+    old <- Sys.getlocale("LC_CTYPE")
+    on.exit(Sys.setlocale("LC_CTYPE", old), add = TRUE)
+    Sys.setlocale("LC_CTYPE", "C")
+    expect_no_warning(assembleMzTabM(toml, pq, file = out, validate = FALSE))
+    expect_equal(Sys.getlocale("LC_CTYPE"), "C")
+
+    bytes <- readBin(out, "raw", file.size(out))
+    has <- function(x)
+        length(grepRaw(charToRaw(enc2utf8(x)), bytes, fixed = TRUE)) > 0L
+    expect_true(has(paste0("title\t", title)))
+    expect_true(has(paste0("[,,\"", key, "\", 27]")))
+    expect_false(has("<U+"))
+})
+
+test_that(".with_utf8_ctype restores the locale and warns without UTF-8", {
+    skip_on_os("windows")
+    old <- Sys.getlocale("LC_CTYPE")
+    on.exit(Sys.setlocale("LC_CTYPE", old), add = TRUE)
+    Sys.setlocale("LC_CTYPE", "C")
+
+    utf8 <- mwtab2mztabm:::.with_utf8_ctype(l10n_info()$`UTF-8`)
+    expect_true(utf8)
+    expect_equal(Sys.getlocale("LC_CTYPE"), "C")
+
+    ## also after an error
+    expect_error(mwtab2mztabm:::.with_utf8_ctype(stop("failed")), "failed")
+    expect_equal(Sys.getlocale("LC_CTYPE"), "C")
+
+    local_mocked_bindings(.UTF8_LOCALES = "not-a-locale")
+    expect_warning(res <- mwtab2mztabm:::.with_utf8_ctype(1L),
+                   "No UTF-8 locale")
+    expect_equal(res, 1L)
+    expect_equal(Sys.getlocale("LC_CTYPE"), "C")
+})
+
 test_that("converted files pass the jmzTab-M validator", {
     skip_on_cran()
     skip_if_offline("github.com")

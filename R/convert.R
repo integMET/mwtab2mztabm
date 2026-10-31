@@ -9,6 +9,12 @@
 #' columns of the Parquet file. Samples with metadata but without abundances
 #' are not reported.
 #'
+#' The mzTab-M file is written in UTF-8 regardless of the locale of the R
+#' session. If the session does not use a UTF-8 locale, the character type
+#' (`LC_CTYPE`) is changed to a UTF-8 locale during this function. A warning is
+#' issued if the system has no such locale, as non-ASCII characters might then be
+#' corrupted.
+#'
 #' @param toml `character(1)` with the path to the TOML file created by
 #'     [mwtabToToml()].
 #'
@@ -47,20 +53,22 @@
 #' cat(head(readLines(out), 10), sep = "\n")
 assembleMzTabM <- function(toml, parquet, file = NULL, validate = TRUE,
                            reliability = "2", scan_polarity = NULL) {
-    tab <- readMwTabParquet(parquet)
-    mtd <- mtdFromToml(toml, assays = attr(tab, "sample_columns"),
-                       databases = smlDatabases(tab),
-                       scan_polarity = scan_polarity)
-    sml <- smlFromParquet(tab, mtd = mtd, reliability = reliability)
-    mzt <- RmzTabM::MzTabM(mtd, sml = sml)
-    if (is.null(file))
-        return(mzt)
-    RmzTabM::writeMzTabM(mzt, path = file, validate = FALSE)
-    if (validate) {
-        .validate_mztab(file)
-        .validate_study_variable_abundance(file)
-    }
-    invisible(mzt)
+    .with_utf8_ctype({
+        tab <- readMwTabParquet(parquet)
+        mtd <- mtdFromToml(toml, assays = attr(tab, "sample_columns"),
+                           databases = smlDatabases(tab),
+                           scan_polarity = scan_polarity)
+        sml <- smlFromParquet(tab, mtd = mtd, reliability = reliability)
+        mzt <- RmzTabM::MzTabM(mtd, sml = sml)
+        if (!is.null(file)) {
+            RmzTabM::writeMzTabM(mzt, path = file, validate = FALSE)
+            if (validate) {
+                .validate_mztab(file)
+                .validate_study_variable_abundance(file)
+            }
+        }
+    })
+    if (is.null(file)) mzt else invisible(mzt)
 }
 
 ## RmzTabM::mzTabMValidator() reports a valid file without any validation

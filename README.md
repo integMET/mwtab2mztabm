@@ -189,6 +189,12 @@ key-value metadata of the file (see `?mwtabToParquet`).
 - The MS run location has to be a valid URI, so it is percent-encoded (e.g.
   `Sample # 1` becomes `Sample%20%23%201`). Path separators, URIs and values
   that are already percent-encoded are kept.
+- `assembleMzTabM()` writes the same UTF-8 file in any locale. In a non-UTF-8
+  locale, such as the `C` locale of jobs running without `LANG`,
+  `RmzTabM::writeMzTabM()` alone would corrupt non-ASCII characters, so
+  `assembleMzTabM()` temporarily changes `LC_CTYPE` to a UTF-8 locale. It warns
+  if the system has none. The TOML and Parquet files do not depend on the
+  locale.
 - `RmzTabM::mzTabMValidator()` (and thus `writeMzTabM(validate = TRUE)`)
   reports files without any validation message as failed. `assembleMzTabM()`
   handles that case itself.
