@@ -214,5 +214,9 @@ key-value metadata of the file (see `?mwtabToParquet`).
   The REST service can not return the study ID of an analysis ID, so a
   conversion of such an analysis with its analysis ID (e.g. `"AN000633"`) results
   in files named `AN000633`; use the study ID to get `ST000396_AN000633`.
+- The mwTab JSON files of some studies (e.g. ST000614) contain unescaped control
+  characters, which makes them invalid JSON. `readMwTab()` removes these with a
+  warning. The text around them stays as it is, so a damaged name such as
+  `uorene` in ST000614 (probably fluorene) is not repaired.
 - Only mass spectrometry analyses with a `MS_METABOLITE_DATA` section are
   supported. Analyses whose results are in a separate file are not.

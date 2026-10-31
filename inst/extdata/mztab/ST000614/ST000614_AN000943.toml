@@ -1,0 +1,1496 @@
+# mwTab metadata of study ST000614, analysis AN000943
+# Exported by mwtab2mztabm 0.1.0.
+# Sample metadata is listed in [[SUBJECT_SAMPLE_FACTORS]].
+
+[mwtab2mztabm]
+format_version = 1
+factor_order = ["Diagonsis", "Smoking Status"]
+additional_data_order = []
+
+["METABOLOMICS WORKBENCH"]
+STUDY_ID = "ST000614"
+ANALYSIS_ID = "AN000943"
+VERSION = "1"
+CREATED_ON = "May 31, 2017, 11:00 am"
+
+[PROJECT]
+PROJECT_TITLE = "Tobacco-specific carcinogens induce hypermethylation, DNA adducts and DNA damage in Bladder Cancer"
+PROJECT_SUMMARY = "Smoking is a major risk factor for the development of Bladder cancer (BCa); however, the metabolic alterations and functional consequences associated with cigarette smoke carcinogens in BCa remain poorly defined. We assessed the metabolic profile in BCa and identified the key alterations in metabolism associated with smoking."
+INSTITUTE = "Baylor College of Medicine"
+LAST_NAME = "Putluri"
+FIRST_NAME = "Nagireddy"
+ADDRESS = "One Baylor Plaza, Houston, TX, 77030, USA"
+EMAIL = "putluri@bcm.edu"
+PHONE = "713-798-3139"
+
+[STUDY]
+STUDY_TITLE = "Tobacco-specific carcinogens in Bladder Cancer"
+STUDY_SUMMARY = "Smoking induced methylation plays a critical role in the accumulation of methylated metabolites, DNA adducts damage and altered metabolism in BCa. These deregulated metabolites can be detected non-invasively and can be used as causal biomarkers that can predict the risk of developing BCa in smokers"
+INSTITUTE = "Baylor College of Medicine"
+LAST_NAME = "Putluri"
+FIRST_NAME = "Nagireddy"
+ADDRESS = "One Baylor Plaza"
+EMAIL = "putluri@bcm.edu"
+PHONE = "7137983144"
+
+[SUBJECT]
+SUBJECT_TYPE = "Bladder Cancer Tissues"
+SUBJECT_SPECIES = "Homo sapiens"
+TAXONOMY_ID = "9606"
+
+[COLLECTION]
+COLLECTION_SUMMARY = "Witten-Herdecke University;The University of Texas Southwestern Medical Center; Baylor College of Medicin"
+
+[TREATMENT]
+TREATMENT_SUMMARY = "NA"
+
+[SAMPLEPREP]
+SAMPLEPREP_SUMMARY = "All the tissues and urine samples used for this study were stored in -140oC. 50 mg of tissue was used for the extraction. For cell lines, 3 x106 cell pellets were thawed at 4 °C and subjected to three freeze-thaw cycles, freezing in liquid nitrogen and thawing on ice, to rupture the cell membranes. The extraction step start with 750 µL ice-cold methanol:water (4:1) containing 20 µL spiked internal standards was added to each cell pellet or tissue sample. Ice-cold chloroform and water was added in a 3:1 ratio for a final proportion of 1:4:3:1 water:methanol:chloroform:water. The organic (methanol and chloroform) and aqueous layers dried and re suspended with 50:50 methonal: water. The extract was deproteinized using a 3-kDa molecular filter (Amicon Ultracel-3K Membrane; Millipore Corporation, Billerica, MA) and the filtrate was dried under vacuum (Genevac EZ-2plus; Gardiner, Stone Ridge, NY). Prior to mass spectrometry, the dried extracts were resuspended in identical volumes of injection solvent composed of 1:1 water:methanol and subjected to liquid chromatography-mass spectrometry. 50 ul of urine was used for sample preparation. Internal standard was spiked into raw sample. Then it was processed through Amicon 3k filter. After that, 50 ul of urine sample was diluted with 450 solvent ( methanol water =50:50 v/v) and subjected to LC/MS analysis. The injection volume was 10 ul."
+
+[CHROMATOGRAPHY]
+CHROMATOGRAPHY_TYPE = "HILIC"
+INSTRUMENT_NAME = "Unspecified"
+COLUMN_NAME = "Phenomenex Luna NH2 (150 x 2.1mm, 3um)"
+
+[ANALYSIS]
+ANALYSIS_TYPE = "MS"
+
+[MS]
+MS_COMMENTS = "-"
+INSTRUMENT_NAME = "Agilent 6495 QQQ"
+INSTRUMENT_TYPE = "Triple quadrupole"
+MS_TYPE = "ESI"
+ION_MODE = "POSITIVE"
+
+[MS_METABOLITE_DATA]
+Units = "Peak intensity"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "19367"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Non-Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "21964"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Non-Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "62e27a7e"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Non-Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "cfc7fle8"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Non-Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ee79a098"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Non-Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H11273-14"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Non-Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H1135-15"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Non-Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H13302-13"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Non-Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H16586-14"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Non-Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H1694-14"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Non-Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H19419-13"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Non-Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H1947-14"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Non-Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H20182-13"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Non-Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H2059-14"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Non-Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H20870-13"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Non-Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H20909-13"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Non-Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H21750-13"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Non-Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H22582-13"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Non-Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H23671-13"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Non-Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H25638-14"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Non-Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H2574-14"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Non-Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H25817-13"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Non-Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H25875-14"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Non-Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H26184-14"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Non-Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H27622-14"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Non-Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H27975-13"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Non-Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H28074-13"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Non-Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H321-14"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Non-Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H4868-14"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Non-Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H7959-14"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Non-Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H8739-14"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Non-Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "W00015-15"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Non-Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "W00760-14"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Non-Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "W101-14"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Non-Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "W446-14"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Non-Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "W465-14"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Non-Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H14745-13"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Non-Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H15082-14"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Non-Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H15695-13"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Non-Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H15923-13"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Non-Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H16542-13"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Non-Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H16912-13"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Former Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H17983-13"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Former Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H18484-14"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Former Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "4856"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Former Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "8230"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Former Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "16276"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Former Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "16368"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Former Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "16763"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Former Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18132"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Former Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18890"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Former Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "19071"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Former Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "19627"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Former Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "19801"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Former Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "19846"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Former Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "20500"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Former Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "20636"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Former Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "21813"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Former Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "22186"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Former Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "22201"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Former Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "22233"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Former Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "07d3d7e4"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Former Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "0a15bd3c"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Former Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "0d33871d"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Former Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "0e54addb"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Former Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "1b44fdcd"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Former Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "200945e 4"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Former Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "276330f9"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Former Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "31842d51"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Former Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "4b24c7f3"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Former Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "6394FAA2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Former Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "a98f2fbe"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Former Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "dac57f3d"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Former Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ddae2cee"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Former Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H00545-15"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Former Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H19025-13"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Former Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H2153-14"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Former Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H21551-14"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Former Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H25045-13"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Former Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H6655-14(H5347-14)"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Former Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H8220-14(H10472-14)"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Former Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "W00853-14"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Former Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "W114-14"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Former Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H14335-13"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Current Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H16027-13"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Current Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "13742"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Current Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "14021"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Current Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "16867"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Current Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "19229"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Current Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "20957"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Current Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "21981"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Current Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "22018"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Current Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "04755f1cc"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Current Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "17F35E1F"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Current Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "1afbc5b2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Current Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "2192252c"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Current Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "5A929F9E"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Current Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "5b47e65a"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Current Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "9AB7EADC"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Current Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "9B7DA93A"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Current Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H13329-13"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Current Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H13928"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Current Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H17407-14"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Current Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H17745-14"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Current Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H20232-14"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Current Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H20475-13"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Current Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H20941-13"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Current Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H21013-14"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Current Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H21617-13"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Current Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H21956-14"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Current Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H2693-14"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Current Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H335-14"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Current Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H4407-14"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Current Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H4545-14"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Current Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H6181-14"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Current Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H6828-14"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Current Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "H8541-14"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Current Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "W610-14"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Current Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "W768-13"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Cancer"
+"Smoking Status" = "Current Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18132-1N"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Benign"
+"Smoking Status" = "Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "19071-1 N"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Benign"
+"Smoking Status" = "Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "19627-1 N"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Benign"
+"Smoking Status" = "Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "20500-1 N"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Benign"
+"Smoking Status" = "Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "20636-1 N"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Benign"
+"Smoking Status" = "Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "21813-N"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Benign"
+"Smoking Status" = "Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "22186-1N"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Benign"
+"Smoking Status" = "Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "22201-3 N"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Benign"
+"Smoking Status" = "Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "22233-1N"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Benign"
+"Smoking Status" = "Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "GN-5(0060539-03)"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Normal"
+"Smoking Status" = "Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "GN-8(0060808-03)"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Normal"
+"Smoking Status" = "Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "0059678-07"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Normal"
+"Smoking Status" = "Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "0060684-07"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Normal"
+"Smoking Status" = "Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "0061030-04"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Normal"
+"Smoking Status" = "Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "13742-N"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Benign"
+"Smoking Status" = "Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "19229-1N"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Benign"
+"Smoking Status" = "Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "20957-1 N"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Benign"
+"Smoking Status" = "Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "21981-N"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Benign"
+"Smoking Status" = "Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "22018-1 N"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Benign"
+"Smoking Status" = "Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "0060504-10"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Normal"
+"Smoking Status" = "Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "0060530-03"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Normal"
+"Smoking Status" = "Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "0060960-04"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Normal"
+"Smoking Status" = "Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "11(00601060-03)"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Normal"
+"Smoking Status" = "Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "19(0065349-03)"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagonsis = "Normal"
+"Smoking Status" = "Smoker"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]

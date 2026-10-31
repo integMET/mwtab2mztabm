@@ -25,6 +25,9 @@ file, which starts with the study or analysis ID if it was downloaded with
 \code{\link[=downloadMwTab]{downloadMwTab()}}. For a study ID, the analysis IDs are retrieved from the
 Metabolomics Workbench REST service. A warning is issued if the IDs can not
 be determined; such analyses are named \code{"analysis_1"}, \code{"analysis_2"}, etc.
+
+The JSON files of some studies (e.g. ST000614) are invalid because they
+contain unescaped control characters. These are removed with a warning.
 }
 \examples{
 f <- system.file("extdata", "example_mwtab.json", package = "mwtab2mztabm")

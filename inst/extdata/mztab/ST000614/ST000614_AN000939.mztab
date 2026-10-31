@@ -1,0 +1,1222 @@
+MTD	mzTab-version	2.1.0-M
+MTD	mzTab-ID	ST000614_AN000939
+MTD	mzTab-profile	M+S
+MTD	title	Tobacco-specific carcinogens in Bladder Cancer
+MTD	description	Smoking induced methylation plays a critical role in the accumulation of methylated metabolites, DNA adducts damage and altered metabolism in BCa. These deregulated metabolites can be detected non-invasively and can be used as causal biomarkers that can predict the risk of developing BCa in smokers
+MTD	instrument[1]-name	[MS, MS:1000031, instrument model, Agilent 6495 QQQ]
+MTD	instrument[1]-source	[MS, MS:1000073, electrospray ionization, ]
+MTD	instrument[1]-analyzer[1]	[MS, MS:1000081, quadrupole, ]
+MTD	software[1]	[MS, MS:1000799, custom unreleased software tool, mwtab2mztabm 0.1.0]
+MTD	publication[1]	doi:10.21228/M8161N
+MTD	contact[1]-name	Nagireddy Putluri
+MTD	contact[1]-affiliation	Baylor College of Medicine
+MTD	contact[1]-email	putluri@bcm.edu
+MTD	uri[1]	https://www.metabolomicsworkbench.org/data/DRCCMetadata.php?Mode=Study&StudyID=ST000614
+MTD	quantification_method	[MS, MS:1001834, LC-MS label-free quantitation analysis, ]
+MTD	sample[1]	04755f1cc
+MTD	sample[1]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[1]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[10]	21981
+MTD	sample[10]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[10]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[100]	H21750-13
+MTD	sample[100]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[100]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[101]	H22582-13
+MTD	sample[101]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[101]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[102]	H23671-13
+MTD	sample[102]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[102]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[103]	H25638-14
+MTD	sample[103]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[103]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[104]	H2574-14
+MTD	sample[104]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[104]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[105]	H25817-13
+MTD	sample[105]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[105]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[106]	H25875-14
+MTD	sample[106]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[106]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[107]	H26184-14
+MTD	sample[107]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[107]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[108]	H27622-14
+MTD	sample[108]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[108]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[109]	H27975-13
+MTD	sample[109]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[109]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[11]	22018
+MTD	sample[11]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[11]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[110]	H28074-13
+MTD	sample[110]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[110]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[111]	H321-14
+MTD	sample[111]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[111]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[112]	H4868-14
+MTD	sample[112]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[112]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[113]	H7959-14
+MTD	sample[113]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[113]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[114]	H8739-14
+MTD	sample[114]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[114]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[115]	W00015-15
+MTD	sample[115]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[115]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[116]	W00760-14
+MTD	sample[116]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[116]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[117]	W101-14
+MTD	sample[117]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[117]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[118]	W446-14
+MTD	sample[118]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[118]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[119]	W465-14
+MTD	sample[119]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[119]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[12]	5A929F9E
+MTD	sample[12]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[12]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[13]	5b47e65a
+MTD	sample[13]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[13]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[14]	9AB7EADC
+MTD	sample[14]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[14]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[15]	9B7DA93A
+MTD	sample[15]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[15]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[16]	H13329-13
+MTD	sample[16]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[16]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[17]	H13928
+MTD	sample[17]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[17]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[18]	H14335-13
+MTD	sample[18]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[18]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[19]	H16027-13
+MTD	sample[19]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[19]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[2]	13742
+MTD	sample[2]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[2]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[20]	H17407-14
+MTD	sample[20]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[20]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[21]	H17745-14
+MTD	sample[21]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[21]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[22]	H20232-14
+MTD	sample[22]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[22]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[23]	H20475-13
+MTD	sample[23]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[23]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[24]	H20941-13
+MTD	sample[24]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[24]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[25]	H21013-14
+MTD	sample[25]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[25]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[26]	H21617-13
+MTD	sample[26]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[26]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[27]	H21956-14
+MTD	sample[27]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[27]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[28]	H2693-14
+MTD	sample[28]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[28]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[29]	H335-14
+MTD	sample[29]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[29]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[3]	14021
+MTD	sample[3]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[3]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[30]	H4407-14
+MTD	sample[30]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[30]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[31]	H4545-14
+MTD	sample[31]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[31]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[32]	H6181-14
+MTD	sample[32]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[32]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[33]	H6828-14
+MTD	sample[33]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[33]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[34]	H8541-14
+MTD	sample[34]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[34]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[35]	W610-14
+MTD	sample[35]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[35]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[36]	W768-13
+MTD	sample[36]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[36]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[37]	07d3d7e4
+MTD	sample[37]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[37]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[38]	0a15bd3c
+MTD	sample[38]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[38]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[39]	0d33871d
+MTD	sample[39]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[39]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[4]	16867
+MTD	sample[4]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[4]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[40]	0e54addb
+MTD	sample[40]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[40]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[41]	16276
+MTD	sample[41]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[41]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[42]	16368
+MTD	sample[42]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[42]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[43]	16763
+MTD	sample[43]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[43]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[44]	18132
+MTD	sample[44]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[44]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[45]	18890
+MTD	sample[45]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[45]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[46]	19071
+MTD	sample[46]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[46]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[47]	19627
+MTD	sample[47]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[47]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[48]	19801
+MTD	sample[48]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[48]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[49]	19846
+MTD	sample[49]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[49]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[5]	17F35E1F
+MTD	sample[5]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[5]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[50]	1b44fdcd
+MTD	sample[50]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[50]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[51]	200945e 4
+MTD	sample[51]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[51]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[52]	20500
+MTD	sample[52]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[52]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[53]	20636
+MTD	sample[53]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[53]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[54]	21813
+MTD	sample[54]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[54]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[55]	22186
+MTD	sample[55]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[55]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[56]	22201
+MTD	sample[56]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[56]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[57]	22233
+MTD	sample[57]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[57]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[58]	276330f9
+MTD	sample[58]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[58]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[59]	31842d51
+MTD	sample[59]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[59]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[6]	19229
+MTD	sample[6]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[6]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[60]	4856
+MTD	sample[60]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[60]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[61]	4b24c7f3
+MTD	sample[61]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[61]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[62]	6394FAA2
+MTD	sample[62]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[62]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[63]	8230
+MTD	sample[63]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[63]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[64]	a98f2fbe
+MTD	sample[64]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[64]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[65]	dac57f3d
+MTD	sample[65]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[65]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[66]	ddae2cee
+MTD	sample[66]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[66]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[67]	H00545-15
+MTD	sample[67]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[67]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[68]	H16912-13
+MTD	sample[68]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[68]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[69]	H17983-13
+MTD	sample[69]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[69]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[7]	1afbc5b2
+MTD	sample[7]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[7]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[70]	H18484-14
+MTD	sample[70]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[70]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[71]	H19025-13
+MTD	sample[71]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[71]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[72]	H2153-14
+MTD	sample[72]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[72]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[73]	H21551-14
+MTD	sample[73]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[73]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[74]	H25045-13
+MTD	sample[74]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[74]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[75]	H6655-14(H5347-14)
+MTD	sample[75]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[75]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[76]	H8220-14(H10472-14)
+MTD	sample[76]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[76]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[77]	W00853-14
+MTD	sample[77]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[77]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[78]	W114-14
+MTD	sample[78]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[78]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[79]	19367
+MTD	sample[79]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[79]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[8]	20957
+MTD	sample[8]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[8]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[80]	21964
+MTD	sample[80]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[80]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[81]	62e27a7e
+MTD	sample[81]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[81]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[82]	cfc7fle8
+MTD	sample[82]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[82]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[83]	ee79a098
+MTD	sample[83]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[83]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[84]	H11273-14
+MTD	sample[84]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[84]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[85]	H1135-15
+MTD	sample[85]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[85]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[86]	H13302-13
+MTD	sample[86]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[86]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[87]	H14745-13
+MTD	sample[87]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[87]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[88]	H15082-14
+MTD	sample[88]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[88]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[89]	H15695-13
+MTD	sample[89]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[89]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[9]	2192252c
+MTD	sample[9]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[9]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[90]	H15923-13
+MTD	sample[90]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[90]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[91]	H16542-13
+MTD	sample[91]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[91]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[92]	H16586-14
+MTD	sample[92]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[92]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[93]	H1694-14
+MTD	sample[93]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[93]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[94]	H19419-13
+MTD	sample[94]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[94]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[95]	H1947-14
+MTD	sample[95]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[95]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[96]	H20182-13
+MTD	sample[96]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[96]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[97]	H2059-14
+MTD	sample[97]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[97]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[98]	H20870-13
+MTD	sample[98]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[98]-tissue[1]	[,, Bladder tissue, ]
+MTD	sample[99]	H20909-13
+MTD	sample[99]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[99]-tissue[1]	[,, Bladder tissue, ]
+MTD	ms_run[1]-location	04755f1cc
+MTD	ms_run[1]-instrument_ref	instrument[1]
+MTD	ms_run[1]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[2]-location	13742
+MTD	ms_run[2]-instrument_ref	instrument[1]
+MTD	ms_run[2]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[3]-location	14021
+MTD	ms_run[3]-instrument_ref	instrument[1]
+MTD	ms_run[3]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[4]-location	16867
+MTD	ms_run[4]-instrument_ref	instrument[1]
+MTD	ms_run[4]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[5]-location	17F35E1F
+MTD	ms_run[5]-instrument_ref	instrument[1]
+MTD	ms_run[5]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[6]-location	19229
+MTD	ms_run[6]-instrument_ref	instrument[1]
+MTD	ms_run[6]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[7]-location	1afbc5b2
+MTD	ms_run[7]-instrument_ref	instrument[1]
+MTD	ms_run[7]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[8]-location	20957
+MTD	ms_run[8]-instrument_ref	instrument[1]
+MTD	ms_run[8]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[9]-location	2192252c
+MTD	ms_run[9]-instrument_ref	instrument[1]
+MTD	ms_run[9]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[10]-location	21981
+MTD	ms_run[10]-instrument_ref	instrument[1]
+MTD	ms_run[10]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[11]-location	22018
+MTD	ms_run[11]-instrument_ref	instrument[1]
+MTD	ms_run[11]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[12]-location	5A929F9E
+MTD	ms_run[12]-instrument_ref	instrument[1]
+MTD	ms_run[12]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[13]-location	5b47e65a
+MTD	ms_run[13]-instrument_ref	instrument[1]
+MTD	ms_run[13]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[14]-location	9AB7EADC
+MTD	ms_run[14]-instrument_ref	instrument[1]
+MTD	ms_run[14]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[15]-location	9B7DA93A
+MTD	ms_run[15]-instrument_ref	instrument[1]
+MTD	ms_run[15]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[16]-location	H13329-13
+MTD	ms_run[16]-instrument_ref	instrument[1]
+MTD	ms_run[16]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[17]-location	H13928
+MTD	ms_run[17]-instrument_ref	instrument[1]
+MTD	ms_run[17]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[18]-location	H14335-13
+MTD	ms_run[18]-instrument_ref	instrument[1]
+MTD	ms_run[18]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[19]-location	H16027-13
+MTD	ms_run[19]-instrument_ref	instrument[1]
+MTD	ms_run[19]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[20]-location	H17407-14
+MTD	ms_run[20]-instrument_ref	instrument[1]
+MTD	ms_run[20]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[21]-location	H17745-14
+MTD	ms_run[21]-instrument_ref	instrument[1]
+MTD	ms_run[21]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[22]-location	H20232-14
+MTD	ms_run[22]-instrument_ref	instrument[1]
+MTD	ms_run[22]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[23]-location	H20475-13
+MTD	ms_run[23]-instrument_ref	instrument[1]
+MTD	ms_run[23]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[24]-location	H20941-13
+MTD	ms_run[24]-instrument_ref	instrument[1]
+MTD	ms_run[24]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[25]-location	H21013-14
+MTD	ms_run[25]-instrument_ref	instrument[1]
+MTD	ms_run[25]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[26]-location	H21617-13
+MTD	ms_run[26]-instrument_ref	instrument[1]
+MTD	ms_run[26]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[27]-location	H21956-14
+MTD	ms_run[27]-instrument_ref	instrument[1]
+MTD	ms_run[27]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[28]-location	H2693-14
+MTD	ms_run[28]-instrument_ref	instrument[1]
+MTD	ms_run[28]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[29]-location	H335-14
+MTD	ms_run[29]-instrument_ref	instrument[1]
+MTD	ms_run[29]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[30]-location	H4407-14
+MTD	ms_run[30]-instrument_ref	instrument[1]
+MTD	ms_run[30]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[31]-location	H4545-14
+MTD	ms_run[31]-instrument_ref	instrument[1]
+MTD	ms_run[31]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[32]-location	H6181-14
+MTD	ms_run[32]-instrument_ref	instrument[1]
+MTD	ms_run[32]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[33]-location	H6828-14
+MTD	ms_run[33]-instrument_ref	instrument[1]
+MTD	ms_run[33]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[34]-location	H8541-14
+MTD	ms_run[34]-instrument_ref	instrument[1]
+MTD	ms_run[34]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[35]-location	W610-14
+MTD	ms_run[35]-instrument_ref	instrument[1]
+MTD	ms_run[35]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[36]-location	W768-13
+MTD	ms_run[36]-instrument_ref	instrument[1]
+MTD	ms_run[36]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[37]-location	07d3d7e4
+MTD	ms_run[37]-instrument_ref	instrument[1]
+MTD	ms_run[37]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[38]-location	0a15bd3c
+MTD	ms_run[38]-instrument_ref	instrument[1]
+MTD	ms_run[38]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[39]-location	0d33871d
+MTD	ms_run[39]-instrument_ref	instrument[1]
+MTD	ms_run[39]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[40]-location	0e54addb
+MTD	ms_run[40]-instrument_ref	instrument[1]
+MTD	ms_run[40]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[41]-location	16276
+MTD	ms_run[41]-instrument_ref	instrument[1]
+MTD	ms_run[41]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[42]-location	16368
+MTD	ms_run[42]-instrument_ref	instrument[1]
+MTD	ms_run[42]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[43]-location	16763
+MTD	ms_run[43]-instrument_ref	instrument[1]
+MTD	ms_run[43]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[44]-location	18132
+MTD	ms_run[44]-instrument_ref	instrument[1]
+MTD	ms_run[44]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[45]-location	18890
+MTD	ms_run[45]-instrument_ref	instrument[1]
+MTD	ms_run[45]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[46]-location	19071
+MTD	ms_run[46]-instrument_ref	instrument[1]
+MTD	ms_run[46]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[47]-location	19627
+MTD	ms_run[47]-instrument_ref	instrument[1]
+MTD	ms_run[47]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[48]-location	19801
+MTD	ms_run[48]-instrument_ref	instrument[1]
+MTD	ms_run[48]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[49]-location	19846
+MTD	ms_run[49]-instrument_ref	instrument[1]
+MTD	ms_run[49]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[50]-location	1b44fdcd
+MTD	ms_run[50]-instrument_ref	instrument[1]
+MTD	ms_run[50]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[51]-location	200945e%204
+MTD	ms_run[51]-instrument_ref	instrument[1]
+MTD	ms_run[51]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[52]-location	20500
+MTD	ms_run[52]-instrument_ref	instrument[1]
+MTD	ms_run[52]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[53]-location	20636
+MTD	ms_run[53]-instrument_ref	instrument[1]
+MTD	ms_run[53]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[54]-location	21813
+MTD	ms_run[54]-instrument_ref	instrument[1]
+MTD	ms_run[54]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[55]-location	22186
+MTD	ms_run[55]-instrument_ref	instrument[1]
+MTD	ms_run[55]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[56]-location	22201
+MTD	ms_run[56]-instrument_ref	instrument[1]
+MTD	ms_run[56]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[57]-location	22233
+MTD	ms_run[57]-instrument_ref	instrument[1]
+MTD	ms_run[57]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[58]-location	276330f9
+MTD	ms_run[58]-instrument_ref	instrument[1]
+MTD	ms_run[58]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[59]-location	31842d51
+MTD	ms_run[59]-instrument_ref	instrument[1]
+MTD	ms_run[59]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[60]-location	4856
+MTD	ms_run[60]-instrument_ref	instrument[1]
+MTD	ms_run[60]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[61]-location	4b24c7f3
+MTD	ms_run[61]-instrument_ref	instrument[1]
+MTD	ms_run[61]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[62]-location	6394FAA2
+MTD	ms_run[62]-instrument_ref	instrument[1]
+MTD	ms_run[62]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[63]-location	8230
+MTD	ms_run[63]-instrument_ref	instrument[1]
+MTD	ms_run[63]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[64]-location	a98f2fbe
+MTD	ms_run[64]-instrument_ref	instrument[1]
+MTD	ms_run[64]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[65]-location	dac57f3d
+MTD	ms_run[65]-instrument_ref	instrument[1]
+MTD	ms_run[65]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[66]-location	ddae2cee
+MTD	ms_run[66]-instrument_ref	instrument[1]
+MTD	ms_run[66]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[67]-location	H00545-15
+MTD	ms_run[67]-instrument_ref	instrument[1]
+MTD	ms_run[67]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[68]-location	H16912-13
+MTD	ms_run[68]-instrument_ref	instrument[1]
+MTD	ms_run[68]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[69]-location	H17983-13
+MTD	ms_run[69]-instrument_ref	instrument[1]
+MTD	ms_run[69]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[70]-location	H18484-14
+MTD	ms_run[70]-instrument_ref	instrument[1]
+MTD	ms_run[70]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[71]-location	H19025-13
+MTD	ms_run[71]-instrument_ref	instrument[1]
+MTD	ms_run[71]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[72]-location	H2153-14
+MTD	ms_run[72]-instrument_ref	instrument[1]
+MTD	ms_run[72]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[73]-location	H21551-14
+MTD	ms_run[73]-instrument_ref	instrument[1]
+MTD	ms_run[73]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[74]-location	H25045-13
+MTD	ms_run[74]-instrument_ref	instrument[1]
+MTD	ms_run[74]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[75]-location	H6655-14%28H5347-14%29
+MTD	ms_run[75]-instrument_ref	instrument[1]
+MTD	ms_run[75]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[76]-location	H8220-14%28H10472-14%29
+MTD	ms_run[76]-instrument_ref	instrument[1]
+MTD	ms_run[76]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[77]-location	W00853-14
+MTD	ms_run[77]-instrument_ref	instrument[1]
+MTD	ms_run[77]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[78]-location	W114-14
+MTD	ms_run[78]-instrument_ref	instrument[1]
+MTD	ms_run[78]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[79]-location	19367
+MTD	ms_run[79]-instrument_ref	instrument[1]
+MTD	ms_run[79]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[80]-location	21964
+MTD	ms_run[80]-instrument_ref	instrument[1]
+MTD	ms_run[80]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[81]-location	62e27a7e
+MTD	ms_run[81]-instrument_ref	instrument[1]
+MTD	ms_run[81]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[82]-location	cfc7fle8
+MTD	ms_run[82]-instrument_ref	instrument[1]
+MTD	ms_run[82]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[83]-location	ee79a098
+MTD	ms_run[83]-instrument_ref	instrument[1]
+MTD	ms_run[83]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[84]-location	H11273-14
+MTD	ms_run[84]-instrument_ref	instrument[1]
+MTD	ms_run[84]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[85]-location	H1135-15
+MTD	ms_run[85]-instrument_ref	instrument[1]
+MTD	ms_run[85]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[86]-location	H13302-13
+MTD	ms_run[86]-instrument_ref	instrument[1]
+MTD	ms_run[86]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[87]-location	H14745-13
+MTD	ms_run[87]-instrument_ref	instrument[1]
+MTD	ms_run[87]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[88]-location	H15082-14
+MTD	ms_run[88]-instrument_ref	instrument[1]
+MTD	ms_run[88]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[89]-location	H15695-13
+MTD	ms_run[89]-instrument_ref	instrument[1]
+MTD	ms_run[89]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[90]-location	H15923-13
+MTD	ms_run[90]-instrument_ref	instrument[1]
+MTD	ms_run[90]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[91]-location	H16542-13
+MTD	ms_run[91]-instrument_ref	instrument[1]
+MTD	ms_run[91]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[92]-location	H16586-14
+MTD	ms_run[92]-instrument_ref	instrument[1]
+MTD	ms_run[92]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[93]-location	H1694-14
+MTD	ms_run[93]-instrument_ref	instrument[1]
+MTD	ms_run[93]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[94]-location	H19419-13
+MTD	ms_run[94]-instrument_ref	instrument[1]
+MTD	ms_run[94]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[95]-location	H1947-14
+MTD	ms_run[95]-instrument_ref	instrument[1]
+MTD	ms_run[95]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[96]-location	H20182-13
+MTD	ms_run[96]-instrument_ref	instrument[1]
+MTD	ms_run[96]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[97]-location	H2059-14
+MTD	ms_run[97]-instrument_ref	instrument[1]
+MTD	ms_run[97]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[98]-location	H20870-13
+MTD	ms_run[98]-instrument_ref	instrument[1]
+MTD	ms_run[98]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[99]-location	H20909-13
+MTD	ms_run[99]-instrument_ref	instrument[1]
+MTD	ms_run[99]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[100]-location	H21750-13
+MTD	ms_run[100]-instrument_ref	instrument[1]
+MTD	ms_run[100]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[101]-location	H22582-13
+MTD	ms_run[101]-instrument_ref	instrument[1]
+MTD	ms_run[101]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[102]-location	H23671-13
+MTD	ms_run[102]-instrument_ref	instrument[1]
+MTD	ms_run[102]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[103]-location	H25638-14
+MTD	ms_run[103]-instrument_ref	instrument[1]
+MTD	ms_run[103]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[104]-location	H2574-14
+MTD	ms_run[104]-instrument_ref	instrument[1]
+MTD	ms_run[104]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[105]-location	H25817-13
+MTD	ms_run[105]-instrument_ref	instrument[1]
+MTD	ms_run[105]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[106]-location	H25875-14
+MTD	ms_run[106]-instrument_ref	instrument[1]
+MTD	ms_run[106]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[107]-location	H26184-14
+MTD	ms_run[107]-instrument_ref	instrument[1]
+MTD	ms_run[107]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[108]-location	H27622-14
+MTD	ms_run[108]-instrument_ref	instrument[1]
+MTD	ms_run[108]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[109]-location	H27975-13
+MTD	ms_run[109]-instrument_ref	instrument[1]
+MTD	ms_run[109]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[110]-location	H28074-13
+MTD	ms_run[110]-instrument_ref	instrument[1]
+MTD	ms_run[110]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[111]-location	H321-14
+MTD	ms_run[111]-instrument_ref	instrument[1]
+MTD	ms_run[111]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[112]-location	H4868-14
+MTD	ms_run[112]-instrument_ref	instrument[1]
+MTD	ms_run[112]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[113]-location	H7959-14
+MTD	ms_run[113]-instrument_ref	instrument[1]
+MTD	ms_run[113]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[114]-location	H8739-14
+MTD	ms_run[114]-instrument_ref	instrument[1]
+MTD	ms_run[114]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[115]-location	W00015-15
+MTD	ms_run[115]-instrument_ref	instrument[1]
+MTD	ms_run[115]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[116]-location	W00760-14
+MTD	ms_run[116]-instrument_ref	instrument[1]
+MTD	ms_run[116]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[117]-location	W101-14
+MTD	ms_run[117]-instrument_ref	instrument[1]
+MTD	ms_run[117]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[118]-location	W446-14
+MTD	ms_run[118]-instrument_ref	instrument[1]
+MTD	ms_run[118]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[119]-location	W465-14
+MTD	ms_run[119]-instrument_ref	instrument[1]
+MTD	ms_run[119]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	assay[1]	04755f1cc
+MTD	assay[1]-sample_ref	sample[1]
+MTD	assay[1]-ms_run_ref	ms_run[1]
+MTD	assay[10]	21981
+MTD	assay[10]-sample_ref	sample[10]
+MTD	assay[10]-ms_run_ref	ms_run[10]
+MTD	assay[100]	H21750-13
+MTD	assay[100]-sample_ref	sample[100]
+MTD	assay[100]-ms_run_ref	ms_run[100]
+MTD	assay[101]	H22582-13
+MTD	assay[101]-sample_ref	sample[101]
+MTD	assay[101]-ms_run_ref	ms_run[101]
+MTD	assay[102]	H23671-13
+MTD	assay[102]-sample_ref	sample[102]
+MTD	assay[102]-ms_run_ref	ms_run[102]
+MTD	assay[103]	H25638-14
+MTD	assay[103]-sample_ref	sample[103]
+MTD	assay[103]-ms_run_ref	ms_run[103]
+MTD	assay[104]	H2574-14
+MTD	assay[104]-sample_ref	sample[104]
+MTD	assay[104]-ms_run_ref	ms_run[104]
+MTD	assay[105]	H25817-13
+MTD	assay[105]-sample_ref	sample[105]
+MTD	assay[105]-ms_run_ref	ms_run[105]
+MTD	assay[106]	H25875-14
+MTD	assay[106]-sample_ref	sample[106]
+MTD	assay[106]-ms_run_ref	ms_run[106]
+MTD	assay[107]	H26184-14
+MTD	assay[107]-sample_ref	sample[107]
+MTD	assay[107]-ms_run_ref	ms_run[107]
+MTD	assay[108]	H27622-14
+MTD	assay[108]-sample_ref	sample[108]
+MTD	assay[108]-ms_run_ref	ms_run[108]
+MTD	assay[109]	H27975-13
+MTD	assay[109]-sample_ref	sample[109]
+MTD	assay[109]-ms_run_ref	ms_run[109]
+MTD	assay[11]	22018
+MTD	assay[11]-sample_ref	sample[11]
+MTD	assay[11]-ms_run_ref	ms_run[11]
+MTD	assay[110]	H28074-13
+MTD	assay[110]-sample_ref	sample[110]
+MTD	assay[110]-ms_run_ref	ms_run[110]
+MTD	assay[111]	H321-14
+MTD	assay[111]-sample_ref	sample[111]
+MTD	assay[111]-ms_run_ref	ms_run[111]
+MTD	assay[112]	H4868-14
+MTD	assay[112]-sample_ref	sample[112]
+MTD	assay[112]-ms_run_ref	ms_run[112]
+MTD	assay[113]	H7959-14
+MTD	assay[113]-sample_ref	sample[113]
+MTD	assay[113]-ms_run_ref	ms_run[113]
+MTD	assay[114]	H8739-14
+MTD	assay[114]-sample_ref	sample[114]
+MTD	assay[114]-ms_run_ref	ms_run[114]
+MTD	assay[115]	W00015-15
+MTD	assay[115]-sample_ref	sample[115]
+MTD	assay[115]-ms_run_ref	ms_run[115]
+MTD	assay[116]	W00760-14
+MTD	assay[116]-sample_ref	sample[116]
+MTD	assay[116]-ms_run_ref	ms_run[116]
+MTD	assay[117]	W101-14
+MTD	assay[117]-sample_ref	sample[117]
+MTD	assay[117]-ms_run_ref	ms_run[117]
+MTD	assay[118]	W446-14
+MTD	assay[118]-sample_ref	sample[118]
+MTD	assay[118]-ms_run_ref	ms_run[118]
+MTD	assay[119]	W465-14
+MTD	assay[119]-sample_ref	sample[119]
+MTD	assay[119]-ms_run_ref	ms_run[119]
+MTD	assay[12]	5A929F9E
+MTD	assay[12]-sample_ref	sample[12]
+MTD	assay[12]-ms_run_ref	ms_run[12]
+MTD	assay[13]	5b47e65a
+MTD	assay[13]-sample_ref	sample[13]
+MTD	assay[13]-ms_run_ref	ms_run[13]
+MTD	assay[14]	9AB7EADC
+MTD	assay[14]-sample_ref	sample[14]
+MTD	assay[14]-ms_run_ref	ms_run[14]
+MTD	assay[15]	9B7DA93A
+MTD	assay[15]-sample_ref	sample[15]
+MTD	assay[15]-ms_run_ref	ms_run[15]
+MTD	assay[16]	H13329-13
+MTD	assay[16]-sample_ref	sample[16]
+MTD	assay[16]-ms_run_ref	ms_run[16]
+MTD	assay[17]	H13928
+MTD	assay[17]-sample_ref	sample[17]
+MTD	assay[17]-ms_run_ref	ms_run[17]
+MTD	assay[18]	H14335-13
+MTD	assay[18]-sample_ref	sample[18]
+MTD	assay[18]-ms_run_ref	ms_run[18]
+MTD	assay[19]	H16027-13
+MTD	assay[19]-sample_ref	sample[19]
+MTD	assay[19]-ms_run_ref	ms_run[19]
+MTD	assay[2]	13742
+MTD	assay[2]-sample_ref	sample[2]
+MTD	assay[2]-ms_run_ref	ms_run[2]
+MTD	assay[20]	H17407-14
+MTD	assay[20]-sample_ref	sample[20]
+MTD	assay[20]-ms_run_ref	ms_run[20]
+MTD	assay[21]	H17745-14
+MTD	assay[21]-sample_ref	sample[21]
+MTD	assay[21]-ms_run_ref	ms_run[21]
+MTD	assay[22]	H20232-14
+MTD	assay[22]-sample_ref	sample[22]
+MTD	assay[22]-ms_run_ref	ms_run[22]
+MTD	assay[23]	H20475-13
+MTD	assay[23]-sample_ref	sample[23]
+MTD	assay[23]-ms_run_ref	ms_run[23]
+MTD	assay[24]	H20941-13
+MTD	assay[24]-sample_ref	sample[24]
+MTD	assay[24]-ms_run_ref	ms_run[24]
+MTD	assay[25]	H21013-14
+MTD	assay[25]-sample_ref	sample[25]
+MTD	assay[25]-ms_run_ref	ms_run[25]
+MTD	assay[26]	H21617-13
+MTD	assay[26]-sample_ref	sample[26]
+MTD	assay[26]-ms_run_ref	ms_run[26]
+MTD	assay[27]	H21956-14
+MTD	assay[27]-sample_ref	sample[27]
+MTD	assay[27]-ms_run_ref	ms_run[27]
+MTD	assay[28]	H2693-14
+MTD	assay[28]-sample_ref	sample[28]
+MTD	assay[28]-ms_run_ref	ms_run[28]
+MTD	assay[29]	H335-14
+MTD	assay[29]-sample_ref	sample[29]
+MTD	assay[29]-ms_run_ref	ms_run[29]
+MTD	assay[3]	14021
+MTD	assay[3]-sample_ref	sample[3]
+MTD	assay[3]-ms_run_ref	ms_run[3]
+MTD	assay[30]	H4407-14
+MTD	assay[30]-sample_ref	sample[30]
+MTD	assay[30]-ms_run_ref	ms_run[30]
+MTD	assay[31]	H4545-14
+MTD	assay[31]-sample_ref	sample[31]
+MTD	assay[31]-ms_run_ref	ms_run[31]
+MTD	assay[32]	H6181-14
+MTD	assay[32]-sample_ref	sample[32]
+MTD	assay[32]-ms_run_ref	ms_run[32]
+MTD	assay[33]	H6828-14
+MTD	assay[33]-sample_ref	sample[33]
+MTD	assay[33]-ms_run_ref	ms_run[33]
+MTD	assay[34]	H8541-14
+MTD	assay[34]-sample_ref	sample[34]
+MTD	assay[34]-ms_run_ref	ms_run[34]
+MTD	assay[35]	W610-14
+MTD	assay[35]-sample_ref	sample[35]
+MTD	assay[35]-ms_run_ref	ms_run[35]
+MTD	assay[36]	W768-13
+MTD	assay[36]-sample_ref	sample[36]
+MTD	assay[36]-ms_run_ref	ms_run[36]
+MTD	assay[37]	07d3d7e4
+MTD	assay[37]-sample_ref	sample[37]
+MTD	assay[37]-ms_run_ref	ms_run[37]
+MTD	assay[38]	0a15bd3c
+MTD	assay[38]-sample_ref	sample[38]
+MTD	assay[38]-ms_run_ref	ms_run[38]
+MTD	assay[39]	0d33871d
+MTD	assay[39]-sample_ref	sample[39]
+MTD	assay[39]-ms_run_ref	ms_run[39]
+MTD	assay[4]	16867
+MTD	assay[4]-sample_ref	sample[4]
+MTD	assay[4]-ms_run_ref	ms_run[4]
+MTD	assay[40]	0e54addb
+MTD	assay[40]-sample_ref	sample[40]
+MTD	assay[40]-ms_run_ref	ms_run[40]
+MTD	assay[41]	16276
+MTD	assay[41]-sample_ref	sample[41]
+MTD	assay[41]-ms_run_ref	ms_run[41]
+MTD	assay[42]	16368
+MTD	assay[42]-sample_ref	sample[42]
+MTD	assay[42]-ms_run_ref	ms_run[42]
+MTD	assay[43]	16763
+MTD	assay[43]-sample_ref	sample[43]
+MTD	assay[43]-ms_run_ref	ms_run[43]
+MTD	assay[44]	18132
+MTD	assay[44]-sample_ref	sample[44]
+MTD	assay[44]-ms_run_ref	ms_run[44]
+MTD	assay[45]	18890
+MTD	assay[45]-sample_ref	sample[45]
+MTD	assay[45]-ms_run_ref	ms_run[45]
+MTD	assay[46]	19071
+MTD	assay[46]-sample_ref	sample[46]
+MTD	assay[46]-ms_run_ref	ms_run[46]
+MTD	assay[47]	19627
+MTD	assay[47]-sample_ref	sample[47]
+MTD	assay[47]-ms_run_ref	ms_run[47]
+MTD	assay[48]	19801
+MTD	assay[48]-sample_ref	sample[48]
+MTD	assay[48]-ms_run_ref	ms_run[48]
+MTD	assay[49]	19846
+MTD	assay[49]-sample_ref	sample[49]
+MTD	assay[49]-ms_run_ref	ms_run[49]
+MTD	assay[5]	17F35E1F
+MTD	assay[5]-sample_ref	sample[5]
+MTD	assay[5]-ms_run_ref	ms_run[5]
+MTD	assay[50]	1b44fdcd
+MTD	assay[50]-sample_ref	sample[50]
+MTD	assay[50]-ms_run_ref	ms_run[50]
+MTD	assay[51]	200945e 4
+MTD	assay[51]-sample_ref	sample[51]
+MTD	assay[51]-ms_run_ref	ms_run[51]
+MTD	assay[52]	20500
+MTD	assay[52]-sample_ref	sample[52]
+MTD	assay[52]-ms_run_ref	ms_run[52]
+MTD	assay[53]	20636
+MTD	assay[53]-sample_ref	sample[53]
+MTD	assay[53]-ms_run_ref	ms_run[53]
+MTD	assay[54]	21813
+MTD	assay[54]-sample_ref	sample[54]
+MTD	assay[54]-ms_run_ref	ms_run[54]
+MTD	assay[55]	22186
+MTD	assay[55]-sample_ref	sample[55]
+MTD	assay[55]-ms_run_ref	ms_run[55]
+MTD	assay[56]	22201
+MTD	assay[56]-sample_ref	sample[56]
+MTD	assay[56]-ms_run_ref	ms_run[56]
+MTD	assay[57]	22233
+MTD	assay[57]-sample_ref	sample[57]
+MTD	assay[57]-ms_run_ref	ms_run[57]
+MTD	assay[58]	276330f9
+MTD	assay[58]-sample_ref	sample[58]
+MTD	assay[58]-ms_run_ref	ms_run[58]
+MTD	assay[59]	31842d51
+MTD	assay[59]-sample_ref	sample[59]
+MTD	assay[59]-ms_run_ref	ms_run[59]
+MTD	assay[6]	19229
+MTD	assay[6]-sample_ref	sample[6]
+MTD	assay[6]-ms_run_ref	ms_run[6]
+MTD	assay[60]	4856
+MTD	assay[60]-sample_ref	sample[60]
+MTD	assay[60]-ms_run_ref	ms_run[60]
+MTD	assay[61]	4b24c7f3
+MTD	assay[61]-sample_ref	sample[61]
+MTD	assay[61]-ms_run_ref	ms_run[61]
+MTD	assay[62]	6394FAA2
+MTD	assay[62]-sample_ref	sample[62]
+MTD	assay[62]-ms_run_ref	ms_run[62]
+MTD	assay[63]	8230
+MTD	assay[63]-sample_ref	sample[63]
+MTD	assay[63]-ms_run_ref	ms_run[63]
+MTD	assay[64]	a98f2fbe
+MTD	assay[64]-sample_ref	sample[64]
+MTD	assay[64]-ms_run_ref	ms_run[64]
+MTD	assay[65]	dac57f3d
+MTD	assay[65]-sample_ref	sample[65]
+MTD	assay[65]-ms_run_ref	ms_run[65]
+MTD	assay[66]	ddae2cee
+MTD	assay[66]-sample_ref	sample[66]
+MTD	assay[66]-ms_run_ref	ms_run[66]
+MTD	assay[67]	H00545-15
+MTD	assay[67]-sample_ref	sample[67]
+MTD	assay[67]-ms_run_ref	ms_run[67]
+MTD	assay[68]	H16912-13
+MTD	assay[68]-sample_ref	sample[68]
+MTD	assay[68]-ms_run_ref	ms_run[68]
+MTD	assay[69]	H17983-13
+MTD	assay[69]-sample_ref	sample[69]
+MTD	assay[69]-ms_run_ref	ms_run[69]
+MTD	assay[7]	1afbc5b2
+MTD	assay[7]-sample_ref	sample[7]
+MTD	assay[7]-ms_run_ref	ms_run[7]
+MTD	assay[70]	H18484-14
+MTD	assay[70]-sample_ref	sample[70]
+MTD	assay[70]-ms_run_ref	ms_run[70]
+MTD	assay[71]	H19025-13
+MTD	assay[71]-sample_ref	sample[71]
+MTD	assay[71]-ms_run_ref	ms_run[71]
+MTD	assay[72]	H2153-14
+MTD	assay[72]-sample_ref	sample[72]
+MTD	assay[72]-ms_run_ref	ms_run[72]
+MTD	assay[73]	H21551-14
+MTD	assay[73]-sample_ref	sample[73]
+MTD	assay[73]-ms_run_ref	ms_run[73]
+MTD	assay[74]	H25045-13
+MTD	assay[74]-sample_ref	sample[74]
+MTD	assay[74]-ms_run_ref	ms_run[74]
+MTD	assay[75]	H6655-14(H5347-14)
+MTD	assay[75]-sample_ref	sample[75]
+MTD	assay[75]-ms_run_ref	ms_run[75]
+MTD	assay[76]	H8220-14(H10472-14)
+MTD	assay[76]-sample_ref	sample[76]
+MTD	assay[76]-ms_run_ref	ms_run[76]
+MTD	assay[77]	W00853-14
+MTD	assay[77]-sample_ref	sample[77]
+MTD	assay[77]-ms_run_ref	ms_run[77]
+MTD	assay[78]	W114-14
+MTD	assay[78]-sample_ref	sample[78]
+MTD	assay[78]-ms_run_ref	ms_run[78]
+MTD	assay[79]	19367
+MTD	assay[79]-sample_ref	sample[79]
+MTD	assay[79]-ms_run_ref	ms_run[79]
+MTD	assay[8]	20957
+MTD	assay[8]-sample_ref	sample[8]
+MTD	assay[8]-ms_run_ref	ms_run[8]
+MTD	assay[80]	21964
+MTD	assay[80]-sample_ref	sample[80]
+MTD	assay[80]-ms_run_ref	ms_run[80]
+MTD	assay[81]	62e27a7e
+MTD	assay[81]-sample_ref	sample[81]
+MTD	assay[81]-ms_run_ref	ms_run[81]
+MTD	assay[82]	cfc7fle8
+MTD	assay[82]-sample_ref	sample[82]
+MTD	assay[82]-ms_run_ref	ms_run[82]
+MTD	assay[83]	ee79a098
+MTD	assay[83]-sample_ref	sample[83]
+MTD	assay[83]-ms_run_ref	ms_run[83]
+MTD	assay[84]	H11273-14
+MTD	assay[84]-sample_ref	sample[84]
+MTD	assay[84]-ms_run_ref	ms_run[84]
+MTD	assay[85]	H1135-15
+MTD	assay[85]-sample_ref	sample[85]
+MTD	assay[85]-ms_run_ref	ms_run[85]
+MTD	assay[86]	H13302-13
+MTD	assay[86]-sample_ref	sample[86]
+MTD	assay[86]-ms_run_ref	ms_run[86]
+MTD	assay[87]	H14745-13
+MTD	assay[87]-sample_ref	sample[87]
+MTD	assay[87]-ms_run_ref	ms_run[87]
+MTD	assay[88]	H15082-14
+MTD	assay[88]-sample_ref	sample[88]
+MTD	assay[88]-ms_run_ref	ms_run[88]
+MTD	assay[89]	H15695-13
+MTD	assay[89]-sample_ref	sample[89]
+MTD	assay[89]-ms_run_ref	ms_run[89]
+MTD	assay[9]	2192252c
+MTD	assay[9]-sample_ref	sample[9]
+MTD	assay[9]-ms_run_ref	ms_run[9]
+MTD	assay[90]	H15923-13
+MTD	assay[90]-sample_ref	sample[90]
+MTD	assay[90]-ms_run_ref	ms_run[90]
+MTD	assay[91]	H16542-13
+MTD	assay[91]-sample_ref	sample[91]
+MTD	assay[91]-ms_run_ref	ms_run[91]
+MTD	assay[92]	H16586-14
+MTD	assay[92]-sample_ref	sample[92]
+MTD	assay[92]-ms_run_ref	ms_run[92]
+MTD	assay[93]	H1694-14
+MTD	assay[93]-sample_ref	sample[93]
+MTD	assay[93]-ms_run_ref	ms_run[93]
+MTD	assay[94]	H19419-13
+MTD	assay[94]-sample_ref	sample[94]
+MTD	assay[94]-ms_run_ref	ms_run[94]
+MTD	assay[95]	H1947-14
+MTD	assay[95]-sample_ref	sample[95]
+MTD	assay[95]-ms_run_ref	ms_run[95]
+MTD	assay[96]	H20182-13
+MTD	assay[96]-sample_ref	sample[96]
+MTD	assay[96]-ms_run_ref	ms_run[96]
+MTD	assay[97]	H2059-14
+MTD	assay[97]-sample_ref	sample[97]
+MTD	assay[97]-ms_run_ref	ms_run[97]
+MTD	assay[98]	H20870-13
+MTD	assay[98]-sample_ref	sample[98]
+MTD	assay[98]-ms_run_ref	ms_run[98]
+MTD	assay[99]	H20909-13
+MTD	assay[99]-sample_ref	sample[99]
+MTD	assay[99]-ms_run_ref	ms_run[99]
+MTD	study_variable_group[1]	[,,Diagonsis,]
+MTD	study_variable_group[1]-description	mwTab sample factor Diagonsis
+MTD	study_variable_group[1]-type	[STATO, STATO:0000252, categorical variable, ]
+MTD	study_variable_group[1]-datatype	xsd:string
+MTD	study_variable_group[1]-study_variable_refs	study_variable[1]
+MTD	study_variable_group[2]	[,,Smoking Status,]
+MTD	study_variable_group[2]-description	mwTab sample factor Smoking Status
+MTD	study_variable_group[2]-type	[STATO, STATO:0000252, categorical variable, ]
+MTD	study_variable_group[2]-datatype	xsd:string
+MTD	study_variable_group[2]-study_variable_refs	study_variable[2]|study_variable[3]|study_variable[4]
+MTD	study_variable[1]	Cancer
+MTD	study_variable[1]-assay_refs	assay[1]|assay[2]|assay[3]|assay[4]|assay[5]|assay[6]|assay[7]|assay[8]|assay[9]|assay[10]|assay[11]|assay[12]|assay[13]|assay[14]|assay[15]|assay[16]|assay[17]|assay[18]|assay[19]|assay[20]|assay[21]|assay[22]|assay[23]|assay[24]|assay[25]|assay[26]|assay[27]|assay[28]|assay[29]|assay[30]|assay[31]|assay[32]|assay[33]|assay[34]|assay[35]|assay[36]|assay[37]|assay[38]|assay[39]|assay[40]|assay[41]|assay[42]|assay[43]|assay[44]|assay[45]|assay[46]|assay[47]|assay[48]|assay[49]|assay[50]|assay[51]|assay[52]|assay[53]|assay[54]|assay[55]|assay[56]|assay[57]|assay[58]|assay[59]|assay[60]|assay[61]|assay[62]|assay[63]|assay[64]|assay[65]|assay[66]|assay[67]|assay[68]|assay[69]|assay[70]|assay[71]|assay[72]|assay[73]|assay[74]|assay[75]|assay[76]|assay[77]|assay[78]|assay[79]|assay[80]|assay[81]|assay[82]|assay[83]|assay[84]|assay[85]|assay[86]|assay[87]|assay[88]|assay[89]|assay[90]|assay[91]|assay[92]|assay[93]|assay[94]|assay[95]|assay[96]|assay[97]|assay[98]|assay[99]|assay[100]|assay[101]|assay[102]|assay[103]|assay[104]|assay[105]|assay[106]|assay[107]|assay[108]|assay[109]|assay[110]|assay[111]|assay[112]|assay[113]|assay[114]|assay[115]|assay[116]|assay[117]|assay[118]|assay[119]
+MTD	study_variable[1]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[1]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[1]-description	Variable Diagonsis, value Cancer
+MTD	study_variable[2]	Current Smoker
+MTD	study_variable[2]-assay_refs	assay[1]|assay[2]|assay[3]|assay[4]|assay[5]|assay[6]|assay[7]|assay[8]|assay[9]|assay[10]|assay[11]|assay[12]|assay[13]|assay[14]|assay[15]|assay[16]|assay[17]|assay[18]|assay[19]|assay[20]|assay[21]|assay[22]|assay[23]|assay[24]|assay[25]|assay[26]|assay[27]|assay[28]|assay[29]|assay[30]|assay[31]|assay[32]|assay[33]|assay[34]|assay[35]|assay[36]
+MTD	study_variable[2]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[2]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[2]-description	Variable Smoking Status, value Current Smoker
+MTD	study_variable[3]	Former Smoker
+MTD	study_variable[3]-assay_refs	assay[37]|assay[38]|assay[39]|assay[40]|assay[41]|assay[42]|assay[43]|assay[44]|assay[45]|assay[46]|assay[47]|assay[48]|assay[49]|assay[50]|assay[51]|assay[52]|assay[53]|assay[54]|assay[55]|assay[56]|assay[57]|assay[58]|assay[59]|assay[60]|assay[61]|assay[62]|assay[63]|assay[64]|assay[65]|assay[66]|assay[67]|assay[68]|assay[69]|assay[70]|assay[71]|assay[72]|assay[73]|assay[74]|assay[75]|assay[76]|assay[77]|assay[78]
+MTD	study_variable[3]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[3]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[3]-description	Variable Smoking Status, value Former Smoker
+MTD	study_variable[4]	Non-Smoker
+MTD	study_variable[4]-assay_refs	assay[79]|assay[80]|assay[81]|assay[82]|assay[83]|assay[84]|assay[85]|assay[86]|assay[87]|assay[88]|assay[89]|assay[90]|assay[91]|assay[92]|assay[93]|assay[94]|assay[95]|assay[96]|assay[97]|assay[98]|assay[99]|assay[100]|assay[101]|assay[102]|assay[103]|assay[104]|assay[105]|assay[106]|assay[107]|assay[108]|assay[109]|assay[110]|assay[111]|assay[112]|assay[113]|assay[114]|assay[115]|assay[116]|assay[117]|assay[118]|assay[119]
+MTD	study_variable[4]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[4]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[4]-description	Variable Smoking Status, value Non-Smoker
+MTD	custom[1]	[,, Metabolomics Workbench analysis ID, AN000939]
+MTD	custom[2]	[,, chromatography type, HILIC]
+MTD	custom[3]	[,, chromatography instrument, Unspecified]
+MTD	custom[4]	[,, chromatography column, "Waters XBridge Amide (100 x 4.6mm,3.5um)"]
+MTD	cv[1]-label	MS
+MTD	cv[1]-full_name	PSI-MS controlled vocabulary
+MTD	cv[1]-version	4.1.138
+MTD	cv[1]-uri	https://www.ebi.ac.uk/ols4/ontologies/ms
+MTD	cv[2]-label	PRIDE
+MTD	cv[2]-full_name	PRIDE PRoteomics IDEntifications (PRIDE) database controlled vocabulary
+MTD	cv[2]-version	16:10:2023 11:38
+MTD	cv[2]-uri	https://www.ebi.ac.uk/ols/ontologies/pride
+MTD	cv[3]-label	STATO
+MTD	cv[3]-full_name	General purpose STATistics Ontology
+MTD	cv[3]-version	2026-04-20
+MTD	cv[3]-uri	https://www.ebi.ac.uk/ols4/ontologies/stato
+MTD	cv[4]-label	NCBITaxon
+MTD	cv[4]-full_name	NCBI organismal classification
+MTD	cv[4]-version	unknown
+MTD	cv[4]-uri	http://purl.obolibrary.org/obo/ncbitaxon.owl
+MTD	database[1]	[,, KEGG, ]
+MTD	database[1]-prefix	KEGG
+MTD	database[1]-version	Unknown
+MTD	database[1]-uri	https://www.kegg.jp
+MTD	small_molecule-quantification_unit	[,, Peak intensity, ]
+MTD	small_molecule-identification_reliability	[MS, MS:1002896, compound identification confidence level, ]
+
+SMH	SML_ID	SMF_ID_REFS	database_identifier	chemical_formula	smiles	inchi	chemical_name	uri	theoretical_neutral_mass	adduct_ions	reliability	best_id_confidence_measure	best_id_confidence_value	abundance_assay[1]	abundance_assay[2]	abundance_assay[3]	abundance_assay[4]	abundance_assay[5]	abundance_assay[6]	abundance_assay[7]	abundance_assay[8]	abundance_assay[9]	abundance_assay[10]	abundance_assay[11]	abundance_assay[12]	abundance_assay[13]	abundance_assay[14]	abundance_assay[15]	abundance_assay[16]	abundance_assay[17]	abundance_assay[18]	abundance_assay[19]	abundance_assay[20]	abundance_assay[21]	abundance_assay[22]	abundance_assay[23]	abundance_assay[24]	abundance_assay[25]	abundance_assay[26]	abundance_assay[27]	abundance_assay[28]	abundance_assay[29]	abundance_assay[30]	abundance_assay[31]	abundance_assay[32]	abundance_assay[33]	abundance_assay[34]	abundance_assay[35]	abundance_assay[36]	abundance_assay[37]	abundance_assay[38]	abundance_assay[39]	abundance_assay[40]	abundance_assay[41]	abundance_assay[42]	abundance_assay[43]	abundance_assay[44]	abundance_assay[45]	abundance_assay[46]	abundance_assay[47]	abundance_assay[48]	abundance_assay[49]	abundance_assay[50]	abundance_assay[51]	abundance_assay[52]	abundance_assay[53]	abundance_assay[54]	abundance_assay[55]	abundance_assay[56]	abundance_assay[57]	abundance_assay[58]	abundance_assay[59]	abundance_assay[60]	abundance_assay[61]	abundance_assay[62]	abundance_assay[63]	abundance_assay[64]	abundance_assay[65]	abundance_assay[66]	abundance_assay[67]	abundance_assay[68]	abundance_assay[69]	abundance_assay[70]	abundance_assay[71]	abundance_assay[72]	abundance_assay[73]	abundance_assay[74]	abundance_assay[75]	abundance_assay[76]	abundance_assay[77]	abundance_assay[78]	abundance_assay[79]	abundance_assay[80]	abundance_assay[81]	abundance_assay[82]	abundance_assay[83]	abundance_assay[84]	abundance_assay[85]	abundance_assay[86]	abundance_assay[87]	abundance_assay[88]	abundance_assay[89]	abundance_assay[90]	abundance_assay[91]	abundance_assay[92]	abundance_assay[93]	abundance_assay[94]	abundance_assay[95]	abundance_assay[96]	abundance_assay[97]	abundance_assay[98]	abundance_assay[99]	abundance_assay[100]	abundance_assay[101]	abundance_assay[102]	abundance_assay[103]	abundance_assay[104]	abundance_assay[105]	abundance_assay[106]	abundance_assay[107]	abundance_assay[108]	abundance_assay[109]	abundance_assay[110]	abundance_assay[111]	abundance_assay[112]	abundance_assay[113]	abundance_assay[114]	abundance_assay[115]	abundance_assay[116]	abundance_assay[117]	abundance_assay[118]	abundance_assay[119]	abundance_study_variable[1]	abundance_study_variable[2]	abundance_study_variable[3]	abundance_study_variable[4]	abundance_variation_study_variable[1]	abundance_variation_study_variable[2]	abundance_variation_study_variable[3]	abundance_variation_study_variable[4]	opt_global_metabolite_name	opt_global_pubchem_id	opt_global_inchi_key	opt_global_kegg_id	opt_global_other_id	opt_global_other_id_type	opt_global_ri	opt_global_ri_type	opt_global_moverz_quant	opt_global_c_na_character_na_character_na_character_na_character
+SML	1	null	KEGG:C01152	null	null	null	1-Methyl-Histidine	https://www.kegg.jp/entry/C01152	null	null	2	null	null	1408834	965843	679426	2315047	1367676	1885251	1263581	2354059	1470752	1125465	1228751	5996871	1401589	579687	3382979	1669506	4474146	1221115	825508	557170	692047	856974	4567	1206581	5055401	2354396	1132040	46926	4716039	82520	33848	280240	115036	6741	2480723	3354692	2026218	1318032	2407466	2237352	3727329	1400574	1522801	4115579	1432194	17921273	3106135	1517961	2397567	4415133	3806851	835887	3891825	3016546	1809970	3594248	8255832	5049180	621224	7321508	1482758	2376965	4560583	996126	1553955	1050905	1673043	4265631	516136	1377592	3757600	926283	267575	2182646	254353	27929	1751405	56312	2652421	2575669	37316	142852	1610085	214103	943973	7956566	739916	6990695	2444259	3643897	865475	2667874	33261	1166573	18804	7883108	147135	761392	949661	2852972	6984329	15067453	970724	1720657	603816	9253404	357580	13552570	3065285	2712435	2112253	70816	4464621	68260	508542	1482599	68911	516055	2491831	2426795.43697479	1627556.30555556	2781582.9047619	2765125.56097561	1.19940941638899	0.932835659701599	1.07962120799283	1.29932293465287	1-Methyl-Histidine	null	null	C01152	null	null	null	null	null	null
+SML	2	null	KEGG:C00555	null	null	null	2-Aminobutyraldehyde	https://www.kegg.jp/entry/C00555	null	null	2	null	null	395880	770894	182776	641542	275044	474053	933129	524356	351700	354480	411341	379053	435329	799206	115817	238620	602198	234396	386450	182989	184546	563204	44344	227894	50753	154632	284421	3055763	374102	194819	574283	149342	1462866	429596	492305	272552	860169	180855	145711	271700	811291	70081	692976	240129	458565	274996	409251	336829	372879	192574	164290	273752	302002	321867	125268	725493	500651	288311	205279	339800	224920	725355	317495	83552	272966	583957	364004	397675	94936	260728	182149	212068	161360	173274	1329239	2225279	362769	24101	211002	738805	11879	1262050	807241	762335	122842	442334	284204	162646	314046	229557	436341	289154	2743805	112222	68898	179889	610204	83228	828055	319035	109884	155663	578287	106996	163979	138639	417094	201410	210207	656095	864425	659846	317185	75760	142452	828859	30668	205811	514136	429936.042016807	477907.638888889	394298.714285714	424321.170731707	1.0630379128487	1.09028419225771	0.975414241828668	1.11437786449184	2-Aminobutyraldehyde	null	null	C00555	null	null	null	null	null	null
+SML	3	null	null	null	null	null	null	null	null	null	2	null	null	3859661	1900078	2423317	4677275	4086114	2984002	2102405	2413047	1458618	3503237	2992605	5328269	3919335	8263246	2342834	6708419	3526343	5736044	7640220	2849407	432545	3806683	25866	3469587	4521890	7050595	2447475	1989945	4258846	1638732	1789845	13184652	2149828	958464	3304846	8592716	1603370	953040	2390950	2959172	1754603	2391432	2304398	6697471	7876437	7834847	1721523	5936038	3322598	1543308	2039806	10385469	4010298	3294687	1734714	2697232	4315989	3273636	2603773	3925437	5139364	4138258	7779238	2851395	1583341	1366820	4199883	3499336	3734698	7384004	7330204	6031288	8172244	10530778	1456840	598946	1943062	4859766	3266192	5381869	1084025	2747420	4050019	460602	5678003	4394695	10293773	2504693	8653199	9250566	4360998	2857310	1411289	4602045	3014150	20787458	1328903	16028832	4519592	4822873	4897494	5854497	1655633	4494366	577244	1778552	4240761	2595435	5417833	1932117	2463055	1016270	3723892	685057	2689810	4690440	3144783	2421394	7562624	4133163.42016807	3842694.19444444	4051659.35714286	4471701.53658537	0.757439309918883	0.685991118911747	0.640190012952562	0.887091926527982	2-Aminooctanoic acid	null	null	null	null	null	null	null	null	null
+SML	4	null	KEGG:C02502	null	null	null	2-Hydroxypyridine	https://www.kegg.jp/entry/C02502	null	null	2	null	null	172932	158631	132711	195940	281510	161734	399226	240414	168045	108549	98776	265190	416838	170639	128044	114826	981334	405033	94237	886144	316932	537517	95238	139049	312349	178514	120954	440195	329289	147698	241548	95260	430959	128765	606030	240312	160733	245390	457712	92017	116743	135394	171024	130030	142653	79671	165869	103050	106786	656214	420510	111577	92631	121071	97556	274061	140083	183614	245549	111255	1543368	199869	135270	72065	417591	566300	536685	143972	381845	615530	231918	94795	359068	655335	157912	198375	308313	125499	103701	229382	69800	222178	542831	491586	100091	113960	76225	124451	214077	264987	239736	748337	102967	143646	132971	356739	77911	387056	454932	203431	414841	322827	540092	132245	197770	73003	47677	146530	71277	452119	939082	555466	352991	438615	430065	274761	235943	780978	107664	278665.596638655	276148.944444444	269164.357142857	290608.317073171	0.825868195215839	0.760266954808372	0.977707300481087	0.741586999634585	2-Hydroxypyridine	null	null	C02502	null	null	null	null	null	null
+SML	5	null	KEGG:C01046	null	null	null	2-Methyl glutamic acid	https://www.kegg.jp/entry/C01046	null	null	2	null	null	193068	36474	124236	48626	66071	106971	103178	208391	155159	26781	80360	54617	111961	346195	38421	50132	213304	54167	75814	29106	16813	307379	9759	48610	102130	37824	221485	207145	47172	389499	158586	60802	89822	33841	97975	392276	174896	25270	21937	53637	148583	29027	123717	44584	60110	108150	133570	173086	179387	318570	23321	116186	101671	82016	82883	467760	75522	39652	97814	47029	22526	263106	51095	28815	24807	247395	92139	36508	27192	38488	43710	19861	85569	74115	63811	14894	65945	568146	74596	272030	86104	69903	385335	3004	13904	143589	31378	147248	199946	62591	52231	92768	30118	138037	222029	29619	166219	24524	86383	67972	15530	27651	106658	17024	21618	21590	92084	20523	25161	89074	208266	77402	49675	23060	61737	126887	43642	70571	864951	110951.949579832	120670.833333333	107059.523809524	106405.658536585	1.11081283870946	0.868280181146458	1.09124380936096	1.36487825851511	2-Methyl glutamic acid	null	null	C01046	null	null	null	null	null	null
+SML	6	null	KEGG:C01005	null	null	null	3-phospho-serine	https://www.kegg.jp/entry/C01005	null	null	2	null	null	319056	91264	511472	465322	276185	181841	261777	276708	184654	323615	424427	99379	276091	343179	88153	420225	705173	496708	561157	221635	261204	719949	2174	232833	11337	567289	96235	80699	225374	77062	8649	395061	92457	17851	258884	457663	181619	113987	313515	187841	74540	46455	259802	154225	271922	386869	300719	182118	524807	89655	27135	388542	154697	439226	33383	386792	357347	50919	161941	12657	333414	335229	491014	25171	140941	76649	341237	447046	393949	588193	335299	239492	471397	577275	26059	87110	270727	43544	125305	157821	45344	82491	550191	3228	352526	318011	499757	361728	337591	545517	172995	288410	31097	188033	90813	544549	73161	431882	439100	316619	309358	87962	176988	269702	242955	11733	156259	44135	297045	345653	160350	46990	125642	33514	136975	317581	19748	249299	471848	250563.924369748	278687.277777778	245820.452380952	230729.414634146	0.699523384842253	0.701739615989133	0.685546128597834	0.711038693789782	3-phospho-serine	null	null	C01005	null	null	null	null	null	null
+SML	7	null	KEGG:C00811	null	null	null	4-Coumarate	https://www.kegg.jp/entry/C00811	null	null	2	null	null	72621	964245	54193	27491	101277	136649	94822	260406	385937	38826	87654	71075	71636	123571	104823	74465	196442	40755	69247	66686	75076	119856	9136	71097	31229	40901	449116	175401	95611	223817	188403	25682	445482	96663	170941	112748	236085	90012	25080	29342	250789	33096	101325	93309	128561	29900	142183	51869	102446	182316	36540	38821	117341	54680	13314	254818	58600	35760	37046	73834	20671	49089	45297	44576	42324	60218	51024	53571	16023	15330	49522	10634	39774	32568	118079	43412	29824	292201	29944	328702	154933	115312	182717	34674	12673	98941	21981	72080	75808	28395	84519	85335	105044	152859	173306	34012	316347	41968	119102	111642	56505	34917	152210	23932	50213	207703	176990	77740	40739	79743	171342	27377	87042	163179	101862	211756	168190	116620	105212	109569.327731092	149277.222222222	76933.4285714286	108135.756097561	1.07206762778047	1.1861117106202	0.920412078604312	0.691683778208383	4-Coumarate	null	null	C00811	null	null	null	null	null	null
+SML	8	null	KEGG:C00989	null	null	null	4 Hydroxybutyric acid	https://www.kegg.jp/entry/C00989	null	null	2	null	null	734107	618367	1378212	1030354	275401	729648	156385	632183	722296	1225729	2295457	309206	568811	869867	258613	1452182	605044	1086609	1130542	228492	313679	715366	1998	311708	92826	824932	933781	813855	514941	691105	164281	1227865	653643	383797	517422	1049298	666111	178896	361143	709812	573097	560111	1690069	1102102	710313	733363	1181299	781190	1735068	295973	460112	1838366	525703	1492116	455188	732497	805099	923403	508816	1744919	597252	693004	2715444	750882	487128	325190	423886	640751	627186	959835	703002	558814	1103622	944849	135908	201684	959034	448136	970186	600178	1560450	1706051	1347618	39252	350299	563859	963886	1467273	536282	969820	641164	446877	159296	455117	549891	1329954	411958	1030444	1024840	342307	859042	110526	527561	1185691	331949	98823	886968	531118	539247	642297	695954	256317	175702	182838	493019	746752	304095	336898	857190	729305.579831933	708833.388888889	810485.071428571	664121.682926829	0.646539428473504	0.653063865936652	0.643186836639798	0.635623738540742	4 Hydroxybutyric acid	null	null	C00989	null	null	null	null	null	null
+SML	9	null	KEGG:C01879	null	null	null	5-oxo-proline	https://www.kegg.jp/entry/C01879	null	null	2	null	null	97172451	131958983	35089786	63391401	57741562	107026210	76136968	86061437	55395721	60927976	81575574	65008605	114285155	73073838	35760378	72969368	106833814	40607579	131071237	67890625	70544852	99060402	485012	42665945	10216701	34896456	35146826	50643322	81234568	39743911	17254691	21656612	45260102	35194133	99072905	45351428	100393048	39478291	54957136	67672395	163631741	14564511	106307406	79487201	95897437	65494854	105017464	62273327	64888210	61287547	54431967	75449940	93150195	77315005	41094266	120850175	97819421	57467517	44054021	80676498	43059420	98634623	54800680	38859517	49363232	86738068	60096323	106277916	44381683	49907390	33204301	27843165	40172136	56651614	16913097	14642442	50763887	65130741	92006415	140183151	22988460	57621646	104644973	629146	29406829	117789112	70710684	40453726	81086027	63043816	48234221	68853236	5937701	38700315	34953497	59629183	18759737	29750971	83053778	101583330	37923217	27714088	94363236	14115149	37091939	12444456	63488866	28252051	49097890	110578259	102682018	50116076	102703189	27547130	25496187	121697430	27118396	24091904	110057234	62404243.789916	63566848.1666667	65740471.6190476	57965821.195122	0.53764953887578	0.518251120426887	0.469477585967955	0.636614809248818	5-oxo-proline	null	null	C01879	null	null	null	null	null	null
+SML	10	null	KEGG:C19265	null	null	null	6-methyl 2-thiouracil	https://www.kegg.jp/entry/C19265	null	null	2	null	null	23050015	17889866	35750913	37679457	17964613	40615020	16816129	3415214	8825151	132989746	33092016	40977131	10546243	3900517	1411237	2264821	2054326	2444112	144566	24437046	21678734	7665067	446629	357681	63819	930527	862459	3478161	65778306	109174	2343332	270637	1385262	263123	23700458	1736353	14161070	39662053	89120955	36220479	13063036	8021447	4752773	18416545	8681136	30783165	15457829	10591879	44583302	16705037	86648583	5286726	9488849	125428110	43863336	72344656	3558397	109823074	42809695	12862816	88777771	41535735	20955907	8209033	105286366	55757897	4750993	768282	157797	613334	1102439	9644742	18176813	10624008	3349753	990394	66402541	268750	4489699	1684876	80342	37485	2489109	28970	25892	374434	12341123	7075459	34785178	995243	2100498	486861	25375	51054	23198	882313	10983	326885	18887	199585	1010508	35742	3723435	66553	41402	14808	58394	242801	58106	712982	1841148	126427	676069	52078	705131	321365	55080	1155240	80774	16525687.8655462	16314940.5833333	30945416.7380952	1939304.68292683	1.67720790567417	1.56969976146851	1.11627341105158	2.9569707463043	6-methyl 2-thiouracil	null	null	C19265	null	null	null	null	null	null
+SML	11	null	KEGG:C00811	null	null	null	Acetyl Carnitine	https://www.kegg.jp/entry/C00811	null	null	2	null	null	121875810	187981514	161394566	147089084	142963514	138278710	132862291	196296071	35102018	183004563	132089292	87320526	157920428	150599261	97628568	177295009	181907247	182595829	229981256	119455525	136722325	152185507	55092	161850887	32542168	116623293	211577468	51976933	138219902	152902259	37580544	214729964	145104662	146797560	151815017	146349133	210252629	51279080	129351948	141642396	189419816	113195833	162144886	131905239	160933829	185169669	203373978	153701384	183883708	124456326	78287202	197616862	165737386	160594216	115237163	208210371	170133891	89055300	138989644	137435813	147043775	101237271	218327101	118024005	70958061	97326953	142473756	144490803	73562594	165213799	168356838	216585849	165233568	150323468	63460976	29355206	147211342	172775640	155992569	237212521	107647632	127860682	208598608	3624955	155458206	166565570	173749985	158263348	126404392	146981404	159028791	135352890	24933014	131217119	154169785	126496258	104841518	192657614	166326440	180125586	157515544	70258648	192387392	109885233	89772873	42332869	184610714	95446631	191473154	146109679	155828754	80349876	136139603	56857657	129163708	126787889	146177975	158475707	160856528	138895652.865546	137796494.333333	142713561.285714	135949739.536585	0.353767583520782	0.386504345322996	0.325814782034543	0.3602903842812	Acetyl Carnitine	null	null	C00811	null	null	null	null	null	null
+SML	12	null	KEGG:C01996	null	null	null	Acetylcholine	https://www.kegg.jp/entry/C01996	null	null	2	null	null	2068079	936036	2942259	3326030	877544	1830443	2950318	2890591	1381010	1972164	2818758	1059385	796381	2465763	1140538	3922421	974937	2578317	3638199	683233	1579779	824814	14599	716391	307538	2624131	2018432	1516528	1416286	1536267	1619264	3292261	771122	656103	1049437	2361756	1361138	571924	3164917	2658619	2033540	2815024	1883367	1313291	3822547	1781739	1084876	4044872	3697617	1423466	1112602	3665857	2709542	1982892	892514	2260754	3969652	1952493	899113	2277868	1184008	2653998	3273662	1466810	1190329	1209821	2408755	2864799	1408017	3470254	2421766	1337040	1808203	2507930	1895969	853453	1748000	2002190	2015459	3243860	813929	3546021	2796882	105451	1111466	1868160	4274698	3305920	1038470	188462	1528803	797415	851076	1869158	2541645	3423608	814901	2132762	833462	2335074	3649229	381222	1031777	1516599	663120	282667	1151175	797440	2761443	2148205	1217453	1995253	2618435	675577	1300550	1405496	1245610	871601	1318909	1858073.82352941	1765475.38888889	2121076.85714286	1669962.02439024	0.548798254978141	0.574342836308572	0.447359989873789	0.636060314958783	Acetylcholine	null	null	C01996	null	null	null	null	null	null
+SML	13	null	KEGG:C00147	null	null	null	Adenine	https://www.kegg.jp/entry/C00147	null	null	2	null	null	1742573	1891339	2425257	1939825	2526733	3315744	3022564	4897654	4327987	3051429	3266172	1941920	3440663	4284318	2017033	1988228	6574616	2397720	1688834	2521672	2594489	4320044	102375	619017	793391	1152717	531611	10868	2247580	58602	42916	264940	95420	9774	2585474	386986	4107126	4724944	2313567	2387430	3666380	1456505	3025614	2268919	3493453	2418550	3198378	2438811	2964683	3299736	1158856	2014895	3374108	1999851	932271	5563491	2584243	1360014	1425057	2302327	1325576	2326024	2380804	763817	1706176	2421889	681230	2278392	1805093	2369099	200155	2427118	1267016	1837798	98197	10508	1968671	64780	2007047	3962388	22796	15438	5611461	87287	1384022	3587133	2067846	3004644	2015057	2141498	408280	2421495	122087	219104	69596	2304021	15039	169725	589394	1465387	1101329	1651574	1980352	551079	316787	1931995	422969	1632551	439910	4048400	4901721	30301	1332785	11761	156741	5443507	60852	279807	4240800	1930386.57983193	2085513.47222222	2152656	1566486.97560976	0.773463753517536	0.764901225133464	0.559095164203086	1.04033657658256	Adenine	null	null	C00147	null	null	null	null	null	null
+SML	14	null	KEGG:C05519	null	null	null	Allo-Threonine	https://www.kegg.jp/entry/C05519	null	null	2	null	null	5058262	19240170	4088603	5268136	3503641	7886237	8045153	12640653	5538445	5548757	6978075	2495203	9337395	11212777	1961943	15635022	9045370	2840131	6657067	4277239	3431697	6085393	220190	2323182	437835	4915745	3561086	1031917	4528681	1126644	553079	1047442	1401303	848464	8752232	4562798	12418503	1273340	2544804	4336571	10466622	919368	9123376	8986719	8024669	5252861	8161574	3927170	9643162	4292487	3840280	4702163	5995856	4977455	1727100	10576248	4999105	3145570	1762108	7705784	3052194	6139880	5241280	2118071	4374013	3539905	2130614	6685845	4354323	1986510	2360664	1769367	3245814	3934053	433100	176818	3675083	1555990	2773872	10434525	608543	808990	6945105	73504	2050716	10271494	5228946	3637826	4098843	4283640	3233597	4853703	121731	1330623	1161510	4074908	364461	1004173	3882452	7859917	1489244	1206782	4325219	838115	1618517	1853729	5464643	2593417	2468774	6752646	9097386	407263	4934574	420186	1658210	19527909	526415	798161	10173493	4562354.18487395	5335721.30555556	4656581.40476191	3786774.68292683	0.829187340778939	0.813875108444194	0.648313965236933	1.02996194902015	Allo-Threonine	null	null	C05519	null	null	null	null	null	null
+SML	15	null	KEGG:C00334	null	null	null	Aminobutyric acid	https://www.kegg.jp/entry/C00334	null	null	2	null	null	3499049	3310802	6661415	5430437	1576815	4064313	902845	5131599	3762516	6734796	10773632	1672700	3142744	7505309	1650471	7751552	5150432	6376759	6135989	1358749	1561533	3887551	53857	2032068	484990	4519395	8997060	4551653	3724668	4122669	1049837	6825711	5573264	2506305	2892870	5422265	5714365	1038480	1866001	4166223	3233267	3117387	7742714	6754847	3789538	4426988	5496199	4042031	9079660	2712514	2307817	9919503	3080156	7661979	2902763	6762256	4669448	5061825	2510424	9716268	3036605	4007053	14269525	3639440	2709142	1751717	2396095	4005260	3186013	4780566	3620996	3017566	5989381	4926461	924572	1087774	6011908	2807839	4916069	2838474	7756852	10618660	11453697	316693	2443772	3635643	5288555	8148484	2824811	5004346	3687096	2538250	983335	2961830	3105725	7187084	2698468	5573600	5824653	2159122	4924486	776150	3172807	7236209	1857505	672717	4862586	2942445	4144626	3637432	4324114	1598305	1296701	955443	3085118	6424272	1647066	2679917	4732470	4232561.12605042	4188850.55555556	4522394.42857143	3974038.73170732	0.613484360151665	0.603023229023365	0.599734771178135	0.646873030832937	Aminobutyric acid	null	null	C00334	null	null	null	null	null	null
+SML	16	null	KEGG:C00020	null	null	null	AMP	https://www.kegg.jp/entry/C00020	null	null	2	null	null	100998989	8518960	59968480	48642679	97604899	41915765	78198603	115433369	31622795	23148558	32800414	25847824	58073607	129688365	21253358	75035537	149784328	118716079	96312211	34502062	13303860	110255620	339564	105356844	1098383	113620848	26404621	15073085	36497276	25463355	1053363	89008209	29370825	3684925	93221896	130901510	82326425	60837839	100966323	102293499	42575405	17877841	87466962	1878323	95467517	103316278	11288941	41503137	77442086	100410679	16177991	99845564	38267187	59361263	9260181	103460676	82899160	16691700	83395047	9802242	37771066	49341190	49624956	980074	28184380	22745990	127381439	91849272	56743528	85258276	52479850	66816035	74406222	47143031	855477	8597824	45306861	18855933	20093283	103094027	10744231	6092380	147649327	48680	61864729	80749094	75031876	58322190	39890505	54694232	133110471	76862391	5223340	77443400	33708061	62225750	2577573	45537350	97666511	91289422	10564675	10113866	83388952	34678855	68957562	565321	161424924	1708430	166816411	87998942	104484677	5472266	82450220	4771852	15208119	149176577	23677101	84073155	111682682	58344606.2689076	59520029.6111111	54979849.2857143	60759351.4634146	0.736805409754521	0.750548820004449	0.648635990051788	0.803397312460723	AMP	null	null	C00020	null	null	null	null	null	null
+SML	17	null	KEGG:C00062	null	null	null	Arginine	https://www.kegg.jp/entry/C00062	null	null	2	null	null	24492138	116021960	35932215	74177716	32315254	68056755	19442545	56515829	38765741	65993149	77067843	30216937	19225255	31044064	53869024	59390739	27819055	39927396	35163019	27631895	35660003	15361228	896777	9528436	27873498	23233064	11310805	688625	45611039	949693	1048555	9353829	1309218	322127	31309506	43278210	77508003	15952994	26167674	31654403	78416563	35692216	57139672	118036318	58867294	65031986	64349739	43842815	77826662	49517315	41990301	42133097	61395347	65363792	31556850	48154552	68787962	62190492	6325681	90070550	30872641	41940540	60651868	53652644	68301674	45725848	31988661	65280397	14544974	39058368	36742986	10476855	41177133	23883217	400650	361036	39901943	1451084	71229161	67820830	660140	786459	33454361	106313	17689356	61049631	22088201	64690793	50718454	30057544	23997444	33924994	102339	17343529	1751999	40073833	683766	22400235	15722452	27647617	55955996	32162745	29907787	27739145	16063435	33500585	13665719	40408127	33010715	48367067	35049288	475909	33126873	723200	30367745	32456565	749811	13267176	29716919	35511783.1680672	33077865.0555556	45818685.6428571	27090591.6585366	0.703976037528573	0.785416772210991	0.556724401393875	0.735093970723265	Arginine	null	null	C00062	null	null	null	null	null	null
+SML	18	null	KEGG:C00152	null	null	null	Asparagine	https://www.kegg.jp/entry/C00152	null	null	2	null	null	1962379	5923030	1707728	2131705	2094177	3193200	3908883	3846862	2602962	1961438	2893371	919962	1920968	3819633	1335701	3680799	2588571	1140517	3028201	1120558	1068791	1621064	20549	1137829	209120	1872472	1738049	489853	1762336	303079	231923	895531	713105	320683	3765217	2815435	3472893	662321	1351256	1432475	5130993	828869	3768952	2458912	2684746	2029853	3320484	2932076	3406077	2449323	854712	2171737	2569746	1395000	557504	2721188	2662687	868275	691255	2006852	938613	2250540	2541404	1501605	722020	1629937	2204057	2439499	1110559	1663344	2435729	705351	2090185	1160160	164028	111284	1795363	442732	1238957	4579447	261636	344745	2431020	96459	609707	2845307	2001647	1330350	885265	1345395	2250319	1926839	80587	1259209	435971	1472669	141598	1285418	2135800	2696069	847860	689941	1734270	575876	1178564	186573	2421809	729182	1494107	3068735	2726455	196516	2512394	165767	1152686	4844088	162307	815487	3423055	1761851.78991597	1965157.80555556	1865109.42857143	1477563.07317073	0.68802617335279	0.680277570702371	0.582561269522434	0.809243199335015	Asparagine	null	null	C00152	null	null	null	null	null	null
+SML	19	null	KEGG:C00487	null	null	null	Carnitine	https://www.kegg.jp/entry/C00487	null	null	2	null	null	32980921	7704645	33368437	35205915	16291429	18359548	25302149	24257880	16064494	18808094	26744545	8486446	28951496	26280614	10595611	23572567	37045776	36973126	54394440	37925782	17723078	21910300	42378	27731861	10582670	31406622	21687498	39171474	20200427	36109574	14377054	54167272	34487276	29107507	20906586	42069818	29575389	7527210	37287403	22305257	11864051	14025449	27523457	13534303	34419620	29884050	11684552	23903052	14352150	8302159	19675130	47535415	23100856	21720286	8790574	36689438	33934696	11158874	19945265	8534485	42725001	23598435	40451421	12542925	20033155	18276192	24476714	39229068	29424988	30819115	30339177	20806055	32287722	59753401	30085205	21056552	13227558	45765511	12685182	19128979	8697395	69231191	28064414	4145874	28292344	24993191	48483147	30518932	13745662	19772785	15675261	12213350	13084313	39932619	30352743	26389086	26452431	47803122	43128673	34603438	30777131	8928401	12263520	9845388	8956553	4835768	14588701	9112558	35265174	22858039	21378799	22718605	30059391	16660156	13006135	25674884	32281954	34398767	15433015	24870619.302521	26138758.6111111	25051698	23571635.8780488	0.508093526830143	0.467651922311963	0.48572994399921	0.577557492269967	Carnitine	null	null	C00487	null	null	null	null	null	null
+SML	20	null	KEGG:C00114	null	null	null	Choline	https://www.kegg.jp/entry/C00114	null	null	2	null	null	3111097	3119076	5593047	4373644	1283062	4012998	802048	3244142	3205685	5183641	10752787	1341476	3126406	5805263	1220430	6693022	3453422	4458103	5372796	999021	1436567	4195787	13896	1495553	364523	3391352	5903907	3197640	2983183	3671760	849971	5491718	3559599	2242992	3192438	4383753	3591032	1100560	1176388	3495535	3475508	2704132	6309136	5060470	2929699	3123577	5022123	3266113	6899345	1857598	1851488	7992091	2021254	5618106	2148706	4020731	3986142	3938275	2804809	7125648	2373012	3539760	10291483	2855183	2116442	1480766	2176741	2735019	2560178	3916942	3200194	2250308	4570279	3456287	558672	737425	4295238	2244989	4169135	3274029	7801861	7334863	8055219	249251	1639982	2710156	4179293	6143805	2691188	4326804	2968944	2256330	586357	2221387	2892302	5738981	1957902	3739415	4753703	1883742	3032271	505511	3129824	4935898	1623308	508304	4013055	1979513	2373692	2860601	3786684	1154373	1110166	739888	2766327	4155611	1310045	1729134	4490768	3346074.04201681	3431272.36111111	3497080.57142857	3116576.14634146	0.602390670920321	0.622876173692823	0.570904393595742	0.626986214630174	Choline	null	null	C00114	null	null	null	null	null	null
+SML	21	null	KEGG:C00327	null	null	null	citrulline	https://www.kegg.jp/entry/C00327	null	null	2	null	null	810563	2995790	884001	2042330	905353	1679578	537367	991958	746749	1561203	1794951	932687	522919	679537	1151353	1387593	838497	585664	591843	615210	656530	448864	70949	281854	809915	672193	358221	49054	1382670	72532	138895	172772	76093	45918	980431	1107612	1954339	487676	731482	898114	2211741	794646	1330185	2785980	1083667	1549912	1706732	1419393	2398798	1615638	1560884	606099	1444799	1406957	761571	1029963	1702243	882808	315652	1864603	735901	1427112	1091815	1253294	1319766	1068388	780981	861357	377905	838569	752164	363490	611940	1235209	51640	23225	1036687	73601	1670441	2207294	35787	40102	958553	26729	382077	1706727	452560	1078211	1091097	574873	897067	1079634	32401	279845	25289	1420769	24769	380330	841203	870101	896499	983811	746562	953819	480244	1045158	760605	1122393	741023	1027658	1266179	43474	1015936	79945	681567	613784	75600	307646	1136399	891434.756302521	821656.916666667	1105879.19047619	733028.317073171	0.686426755736117	0.774087277012428	0.561800018475732	0.717418871574572	citrulline	null	null	C00327	null	null	null	null	null	null
+SML	22	null	KEGG:C00791	null	null	null	Creatinine	https://www.kegg.jp/entry/C00791	null	null	2	null	null	19329146	8375441	32473106	15281711	7587404	32892801	18081800	40611022	80648236	11725811	35826065	18268640	16463335	22482930	25616181	15904979	39340978	20293783	22447157	7278757	4675093	33197252	79894	44505781	64537572	27206934	18182365	24000291	17138400	16778890	17305318	7131503	38034712	14468321	14473874	53122664	38402520	6007277	20574651	6248030	15411901	11690859	21574852	8508122	18494632	80684178	42473454	11456787	27189205	16101091	14886400	9040866	31402601	21166407	6357054	38062535	72189429	15501071	20528420	17310519	30092268	9758779	47825537	28943926	20285402	12580089	18595592	16582487	9620316	38050724	24502315	33556863	6836081	13519828	150947393	7598137	11771549	17183470	12867245	16979243	20131718	20988800	18996776	4050185	12583946	15134509	16883942	22441169	27966191	42083166	29015710	21760914	120715345	72329423	19053084	9633566	37300513	8990173	16509422	38604023	19106105	77388299	8189771	29290299	11510417	92303335	15311943	51837971	44633654	16753031	35155368	15605263	27371123	25267973	11107544	25060371	24530860	71831116	59648575	27077343.2352941	24604670.75	25464609.9285714	30900538.5609756	0.853538686373821	0.688500911999506	1.0063487567038	0.811169179695648	Creatinine	null	null	C00791	null	null	null	null	null	null
+SML	23	null	KEGG:C02291	null	null	null	Cystathionine	https://www.kegg.jp/entry/C02291	null	null	2	null	null	21354124	975454	79095	330087	833110	8026977	99040	6575784	237256	3875274	1848277	130972	259357	4199883	724842	60078166	48283014	106389	497183	232917	39506	536008	4928	24060	262658	788297	1618889	281815	1233914	507963	10651	63934	1788804	36211	3147646	47825795	61092	51425	82411	288839	909077	134054	1482452	343203	243790	1227497	1374787	21437944	20063756	3338206	1170948	249009	1295765	52687	119555	66422	1115034	143670	73594	26699470	95534	2572889	67699	81833	534235	227933	1355858	2100558	418448	217197	6902152	83907	359788	1005685	22399	7350	3734663	2776624	25678	11513900	48818	53057	392097	19432	40753	5636433	105057	2728350	1637362	438501	205065	664566	6214	197644	29463	67831	17517	29215	159448	41648098	146418	909619	273847	7502578	21363752	411378	276681	894556	421093	11124376	417980	272682	1490330	2144	57680	5435388	5671	27481	6273600	3735121.61344538	6025507.77777778	2490224.73809524	2999311.04878049	2.6418760223996	2.43620959230524	2.36385893532717	2.50118027477141	Cystathionine	null	null	C02291	null	null	null	null	null	null
+SML	24	null	KEGG:C00491	null	null	null	Cystine	https://www.kegg.jp/entry/C00491	null	null	2	null	null	221	1214980	12059	12434	53	103790	251	24300	29681	34031	17695	91955	2171	9014	2156	28406	15844	11078	777	2562	25573	3521	833	21723	5169	51831	12319	1822	103460	2806	30927	21566	766	43	47890	166957	35159	63724	41	99	14717	54144	10746	58601	55533	1229	3247	309350	185675	1139	42756	916	67859	2842	147754	37713	93885	12008	1979	71549	143	82009	8321	120956	11681	73574	38709	7866	3935	22983	35446	3056	13209	695	53432	224	10438	14222	134194	45511	12181	183	4019	4	4272	96278	7284	149944	643052	4873	11113	64149	107	4983	83	6432	4726	13155	38560	6154	49841	9299	3825	5093	27680	53896	10253	58637	615	2630	1990	844	2533	11235	14844	7067	3647	141959	13533	46679.8823529412	58629.5555555556	42227.7142857143	40748.243902439	2.79724460964422	3.43853653369161	1.42199211798652	2.55669087385765	Cystine	null	null	C00491	null	null	null	null	null	null
+SML	25	null	KEGG:C00055	null	null	null	Cytidine 5 -Monophosphate (5-CMP)	https://www.kegg.jp/entry/C00055	null	null	2	null	null	6093142	4806166	1781009	2208621	4225647	3845750	5074765	6003648	2217996	1386376	3406763	1766990	3820940	13076934	2415757	4376885	15415875	3589996	5202220	1491427	2971925	9276303	3175	3082239	313645	2738482	2534739	314450	2409593	1033116	290746	2374360	1149302	505919	6254639	6911940	4664729	2378312	3533805	3089529	2667118	895138	6063568	1323541	4815338	2618147	3909648	843183	2170178	7402520	764180	4289395	2348874	1577952	467593	2410745	2900346	898555	2807853	573795	1676584	7778716	2376697	1118714	1043388	2951125	7206842	2249860	2253552	4830057	2313721	1514958	2887939	2671326	55451	63050	2711548	2330045	1229243	4374737	225991	817159	15887853	3625	2075362	4276397	3086358	1815495	3151542	4129686	6418466	6551365	143951	4101112	2336519	2804079	645629	2222623	2285099	6387548	1713886	1273131	3760611	1362181	2877034	96653	3484928	444388	3032131	5091610	7576346	500221	7765924	201726	1765991	18007244	1313058	3186979	13700359	3360868.36134454	3732541.11111111	2701133.69047619	3710347.31707317	0.959257187913045	0.897453538188963	0.700486054052515	1.09368991889069	Cytidine 5 -Monophosphate (5-CMP)	null	null	C00055	null	null	null	null	null	null
+SML	26	null	KEGG:C00380	null	null	null	Cytosine	https://www.kegg.jp/entry/C00380	null	null	2	null	null	23050015	17889866	35750913	37679457	17964613	40615020	16816129	3415214	8825151	132989746	33092016	40977131	10546243	3900517	1411237	2261039	2054326	46926968	210268	24437046	21678734	7665067	446629	357681	63819	930527	862459	3478161	65778306	207745	2343332	270637	1385262	263123	23700458	1736353	14161070	39662053	89120955	36220479	13063036	8021447	5557476	18416545	9629696	30783165	15457829	10591879	44583302	16705037	86648583	5286726	9488849	125428110	43863336	72344656	3558397	109823074	42809695	12862816	88777771	41535735	20787958	8209033	105286366	55757897	4750993	14751028	3029706	11776020	1102439	9644742	18176813	10624008	3349753	990394	66402541	199275	86202232	32349632	187322	719475	47790905	556235	497137	7189137	12341123	7075459	34785178	995243	2100498	9347746	487216	980252	445417	16940419	210892	6276203	362646	925842	12274546	686249	71489966	1277833	272655	162436	1121181	4661798	1124054	15584989	35350052	2427401	12980531	999902	13538523	6170210	1057554	22180626	1550867	20461340.1092437	17555033.5555556	31648587.6904762	11553111.7560976	1.38495594092594	1.480395106288	1.07499993401232	1.66766727778215	Cytosine	null	null	C00380	null	null	null	null	null	null
+SML	27	null	KEGG:C05543	null	null	null	Deoxy carnitine	https://www.kegg.jp/entry/C05543	null	null	2	null	null	6142529	2680549	6573403	8590880	2580119	4356537	9546061	9295204	3991179	5425832	7779844	3283721	2661910	8991355	4016262	9709543	4054435	5642447	9706223	1654888	5101009	2845203	39746	2774180	747532	8362389	6320663	3696619	3929018	6669619	4047846	8466549	2263138	2442644	4086181	6951020	5455428	1878156	9200219	5565814	6820153	8062915	4243788	3984742	11421978	4415950	4617263	12233624	10203175	5666281	2655480	9612274	7517912	5866227	2105755	8484253	10110665	5393544	3014877	6162394	3279607	7317512	7834049	3800315	4092761	3455455	5403211	7820844	3544397	8291308	5099445	3271664	5190203	7893246	1386355	2179329	3686845	5733069	6325471	11518215	2395087	7795079	9768517	87071	2805698	5147332	10913586	9110617	3865215	538785	3919267	2968581	737932	4761543	9638924	231616623	1874782	5354145	2881775	7692355	8819310	1187240	3031852	4238639	1887640	781547	4618052	1951186	7255726	6242082	6022684	3810228	7664419	1968472	4434219	5203229	4060732	2427051	4048020	7149308.29411765	5150729.91666667	5808868.61904762	10277290.9268293	2.92914714658785	0.52941985114286	0.464899200752395	3.45963291690355	Deoxy carnitine	null	null	C05543	null	null	null	null	null	null
+SML	28	null	KEGG:C00362	null	null	null	dGMP	https://www.kegg.jp/entry/C00362	null	null	2	null	null	514104	39698	200671	188806	460591	153469	327704	591849	152221	111026	117684	109143	256830	698592	92716	378611	793449	526941	419654	188028	28263	608501	1076	460359	3131	507009	97866	36865	149797	107226	3799	349199	119082	15722	419053	596330	383930	266576	566121	360638	183839	45122	408866	7262	468915	439211	36911	227450	338216	445786	40876	531933	183379	254323	23552	579110	388207	82187	394733	35265	158653	198094	236193	5823	46031	68314	558239	473737	223057	388268	251861	324264	357926	184699	1781	19004	146799	77107	54109	478757	48928	17806	741653	147	261683	380385	324616	256741	124131	296040	532323	437874	12632	321083	87598	218038	9358	206600	452904	439038	36519	40315	407193	91209	329444	1650	782162	4989	771492	365471	498142	22951	408497	10811	52790	786119	74565	381542	668886	266172.386554622	272918.472222222	247910.904761905	278955.87804878	0.815311980408075	0.829126459237852	0.725241839821996	0.881253968692508	dGMP	null	null	C00362	null	null	null	null	null	null
+SML	29	null	KEGG:C03626	null	null	null	Dimethyl Arginine	https://www.kegg.jp/entry/C03626	null	null	2	null	null	7431851	27554741	3407906	2404821	4629612	6564282	2188148	3691380	2045915	6847663	2219437	3905280	5161773	1129548	7710805	4246930	6831785	5043553	800547	2516780	4674252	2762882	12365	311275	1980851	1949882	889186	24010	2970408	8931	14391	388358	108997	9747	3270951	2426901	4364424	1177355	8003325	6995950	13537967	5511512	5044796	13101815	1722033	6326927	5986332	2812567	16719344	4037498	2783888	3039810	6106958	9922538	1678715	5251896	4382976	5564713	3136045	20002199	2529819	2584865	8093786	2533108	1493275	2930427	444605	3698761	4167915	1523073	1714714	7621728	1760184	7383039	19002	10106	3102886	56779	4801007	7693304	32013	88871	3759914	21322	1793619	6675902	4880542	5998937	16157325	2987550	456405	1367642	7157	1040297	2874	15478394	15077	804951	1209538	1559793	1889987	4578587	5577615	557350	420318	6684440	1061273	15371590	1583045	8555112	7813650	35977	6933718	35935	331863	6292867	7775	177496	2889631	4072659.34453781	3559337.33333333	4973325.11904762	3600747.87804878	1.10285182841395	1.32475402987342	0.881980406411671	1.21119919537601	Dimethyl Arginine	null	null	C03626	null	null	null	null	null	null
+SML	30	null	KEGG:C00408	null	null	null	DL-Pipecolic acid	https://www.kegg.jp/entry/C00408	null	null	2	null	null	97172451	131958983	35089786	63391401	57741562	107026210	76136968	86061437	55395721	60927976	81575574	65008605	114285155	73073838	35760378	72969368	106833814	40607579	131071237	67890625	70544852	99060402	485012	42665945	10216701	34896456	35146826	50643322	81234568	39743911	17254691	21656612	45260102	35194133	99072905	45351428	100393048	39478291	54957136	67672395	163631741	14564511	106307406	79487201	95897437	65494854	105017464	62273327	64888210	61287547	54431967	75449940	93150195	77315005	41094266	120850175	97819421	57467517	44054021	80676498	43059420	98634623	54800680	38859517	49363232	86738068	60096323	106277916	44381683	49907390	33204301	27843165	40172136	56651614	16913097	14642442	50763887	65130741	92006415	140183151	22988460	57621646	104644973	629146	29406829	117789112	70710684	40453726	81086027	63043816	48234221	68853236	5961473	38700315	34953497	59629183	18759737	29750971	83053778	101583330	37923217	27714088	94363236	14115149	37091939	12444456	63488866	28252051	49097890	110578259	102682018	50116076	102703189	27547130	25496187	121697430	27118396	24091904	110057234	62404443.5546219	63566848.1666667	65740471.6190476	57966401	0.537642385817876	0.518251120426887	0.469477585967955	0.636593989587986	DL-Pipecolic acid	null	null	C00408	null	null	null	null	null	null
+SML	31	null	KEGG:C05570	null	null	null	Ergothioneine	https://www.kegg.jp/entry/C05570	null	null	2	null	null	1100567	2010963	133181	624409	698797	984407	916705	243980	297545	450689	199903	592067	235616	33076	3030036	67422	495556	99749	296159	115904	114119	166172	6084	6240	1882	3768	92737	95898	165279	75534	61044	60316	334828	53079	113749	11295	32031	196622	1099678	524233	1252763	570502	82133	1233690	125242	128495	682197	196912	144485	636693	1048049	563420	178293	1242490	926691	341660	689435	1844702	1800549	1560461	531171	1010545	1168764	39461	661830	525589	47013	60058	55423	38373	42095	84867	22090	176115	183723	121176	1545763	20654	242129	719717	125622	1778786	151071	5213	12693	90396	15055	15497	281105	10483	1054	20952	294409	7738	55742	43463	128453	4407	17643	456787	5970	4366	163651	12768	5553	9362	11916	227393	7416	1498896	86678	118929	539149	90111	68105	158462	96096	70631	36371	379118.731092437	388576.527777778	558003.238095238	187566.780487805	1.40766193302693	1.57397929376406	0.978740001984304	1.96504197391559	Ergothioneine	null	null	C05570	null	null	null	null	null	null
+SML	32	null	KEGG:C02170	null	null	null	Ethylmalonate/Methyl Malonate	https://www.kegg.jp/entry/C02170	null	null	2	null	null	326734	1835073	1990017	1031196	944537	1001202	2296365	2320502	612213	1505303	373930	533005	3768712	2449777	1034799	1337947	618042	1049343	3075971	1116701	553163	1609405	387355	1899904	385358	2298980	797027	6496107	1152832	4216899	2515097	2684396	3911936	6152098	2320684	792837	1943531	202644	721019	1059550	1557166	172831	810353	900322	1393484	1688949	391194	312766	989143	543194	218879	1591452	1929375	653275	944851	1678446	188773	395811	1939958	481316	1036214	876636	2002721	479058	731496	774912	300333	1210750	1239771	169577	3035471	687515	927888	1368448	346331	4172594	378058	4950286	590866	700122	5159321	8905357	902238	633284	1069196	342517	1745854	574411	342076	2387652	904778	1012371	1842887	3685522	2262943	252283	4301592	729424	1265764	1916989	376195	540346	513317	264424	1310116	80800	1395161	175912	1736409	724076	567457	505556	1938439	2739476	1562630	1762226	3930405	4292283	1300872	1529708.69747899	1872095.75	1128484.30952381	1640086.51219512	0.952713340142071	0.807244442791925	0.894553724431383	1.04469145220285	Ethylmalonate/Methyl Malonate	null	null	C02170	null	null	null	null	null	null
+SML	33	null	KEGG:C00329	null	null	null	Glucosamine/Galactosamine	https://www.kegg.jp/entry/C00329	null	null	2	null	null	284353	399737	377048	282738	383792	309818	502336	408111	302811	419688	799020	334941	534055	621018	342012	436662	475649	344842	385390	452418	379360	435495	10901	494379	105124	537368	1390539	13548	441748	401245	257092	317620	637946	232993	374205	458953	571372	354644	415091	302865	472721	247966	339325	399279	341961	439736	546323	585821	325502	375347	193208	273678	567854	308761	148538	534529	405953	224335	418851	579013	382514	431452	292859	337427	131788	842708	306301	356771	44297	435393	362862	340052	384316	353214	171404	77673	416399	598396	423000	526140	228527	263723	484618	259819	432658	631373	318230	358328	356396	485259	475370	388071	179749	660943	545887	127762	117635	432613	494926	384754	307985	294942	366109	538752	405541	367224	271342	144942	444685	568782	571361	158974	424611	14528	586162	420953	321104	35239	391777	384321.411764706	413470.972222222	372345.214285714	370994.975609756	0.468869954341185	0.550379350671944	0.413981242682274	0.426396675299556	Glucosamine/Galactosamine	null	null	C00329	null	null	null	null	null	null
+SML	34	null	KEGG:C00025	null	null	null	Glutamic acid	https://www.kegg.jp/entry/C00025	null	null	2	null	null	69938162	65006340	17661318	36554314	35425258	63678059	54866324	42770100	33779918	38166958	40422890	33839400	62565661	38420808	37211411	37988128	51251425	30366788	41801211	47295201	53622466	57507717	202489	14467469	4453879	19353473	13734280	23320339	47457357	19970137	7981763	5472173	29328285	12570585	58000495	33041316	49961520	18709227	44488387	45602034	75538313	6657761	49205999	47845837	47042072	21633243	59765399	40108273	43288845	28256409	20420557	35724387	50998731	49594222	24898955	66220976	61197380	35554560	40128730	48310186	35108043	65274184	35619333	6830904	28857757	47002245	35583203	47822579	29975552	20133334	15573844	23923203	23430126	46866850	5008592	10539360	57845850	8813604	32316591	76847896	13052408	41224558	67693174	282616	8449981	64310438	34003634	25108954	63646893	27129099	28293369	39379276	3963937	12770285	21786009	47340159	10368943	7265905	31794743	32677725	13363811	17036618	71871198	6982425	10519072	5999492	38234619	19605911	22023172	69993058	63377421	11226292	50875390	6640878	13142279	57667384	21185248	14105714	67524281	34503658.1428571	35541497.1388889	37032394.4285714	31001972.097561	0.576936013825295	0.527565527297663	0.477892444816245	0.735596402595271	Glutamic acid	null	null	C00025	null	null	null	null	null	null
+SML	35	null	KEGG:C00064	null	null	null	Glutamine	https://www.kegg.jp/entry/C00064	null	null	2	null	null	35241392	69482357	15647937	27970329	30629230	44544025	30794404	38561221	28053850	30807325	35497795	27886426	49959880	35585322	15112418	36712900	49005045	20235714	70086933	29478719	26425893	49580973	222061	23440464	5579372	18971542	14521485	17727514	45520761	12944085	5240968	9765775	14271166	12737048	47828595	21475183	55578415	15549239	21063648	31546037	71084947	7237067	55606340	40859603	47225151	37127951	48130828	25806673	29584000	26681330	24002344	37224360	39084209	37681450	15152389	56012863	41174661	25973989	14671598	41826448	17225606	41403074	26089202	24194885	22435896	38705405	32876261	51967471	21481298	26536108	20389233	9680667	17919900	20605537	6237033	4598561	17984516	24481250	47786756	63924505	8224723	15640135	44913666	135758	15504879	43649343	32717476	18607229	33975445	32733500	21543274	31176929	1039839	17810269	13141187	21087635	5846139	14252035	48177466	59939023	22873360	13368788	41923400	7002055	18564788	6760263	31427784	8771285	26206137	44424627	44091861	15909367	48620923	9162350	14541137	62196412	7681035	9946375	49869698	28516070.6386555	29098502.9722222	30254701.0238095	26223630.6341463	0.580956101823283	0.574364382364484	0.501663973972388	0.682401083468778	Glutamine	null	null	C00064	null	null	null	null	null	null
+SML	36	null	null	null	null	null	null	null	null	null	2	null	null	135110	908675	170320	159688	186234	465996	177449	561123	471291	192075	274260	55174	105047	303027	99136	178337	417840	117083	251572	100043	138554	336301	1665	160593	26686	71932	488397	140080	131868	149137	94754	62021	230713	83053	251541	277764	525009	91309	116513	65320	684925	59310	303405	242931	411018	165354	415950	183088	264354	133485	70757	207866	320806	124148	23230	508551	202178	49140	49891	135140	50656	159669	165142	148452	70551	126816	130002	137516	31552	100741	61540	33919	125343	68310	35463	26133	93470	200516	118047	786564	80661	139468	238512	15086	34002	213764	71788	193300	143311	63851	216181	175998	17942	153566	157784	69200	131355	63849	206443	282457	73351	35916	152357	32450	65789	183262	173313	49932	79779	222684	253416	51423	165385	59970	113749	444961	97008	156033	325887	179863.882352941	221514.972222222	169511.166666667	153897.414634146	0.872115365794306	0.817819030623886	0.883958468097665	0.883608847144136	Gly-Gly	null	null	null	null	null	null	null	null	null
+SML	37	null	KEGG:C02155	null	null	null	Gly-Leu	https://www.kegg.jp/entry/C02155	null	null	2	null	null	125874	147679	95779	99760	186114	129459	277466	278631	310579	92163	88562	210593	247465	294883	193075	101172	133806	76621	148855	186370	130891	252937	6533	301378	50044	54504	365290	288758	145728	309304	259584	68375	1136422	490788	286816	162696	251854	307650	67240	82451	260283	79216	154111	79815	169946	58711	131635	86627	71744	335853	79326	68880	172084	72700	44377	372428	57152	44734	119855	44194	123878	178420	62667	122144	91335	122472	156557	74522	64651	62435	70724	53615	56262	67320	128301	169250	64862	189781	100538	213799	109592	200110	253800	214531	43204	223767	109177	79124	145335	62031	208532	139541	635367	150687	253654	50185	580275	48850	206440	200962	57729	72514	183013	55744	157230	136219	225967	79779	79861	186607	172088	87759	156381	171157	137848	249979	221678	294696	227087	167981.957983193	214859.833333333	120763.380952381	175191.146341463	0.828737220837337	0.882612497026589	0.675370228453339	0.687671687362747	Gly-Leu	null	null	C02155	null	null	null	null	null	null
+SML	38	null	KEGG:C00144	null	null	null	GMP	https://www.kegg.jp/entry/C00144	null	null	2	null	null	4838107	595787	1256948	1585845	4619600	3396071	2458276	2187845	2844727	636437	1651492	1051764	1818301	6694824	1645758	3611009	9121502	4553898	10255103	974925	669843	8583913	16573	1176380	66415	3764186	1733985	250920	2113968	696716	46279	3683393	644510	136155	3630099	7771428	1588778	1183736	2751703	3167001	1197932	719925	2475066	121654	3490390	2273628	1086032	1372014	1973019	2556451	467195	2151487	1868188	2096565	489564	5435540	5214119	714525	2434408	243322	1044029	7165709	576272	82027	704478	1559334	4577540	3927678	2285697	4545161	1923749	1221949	4513253	1640518	32560	33322	1983926	1146881	1231199	3958793	224935	121166	7619695	5315	1284873	8520692	4657587	2387080	1766561	2559290	4092913	5623669	51432	3225852	821647	4099427	55814	1376186	2968644	8010346	657404	307264	3082060	776986	2199041	52151	3718041	152379	3140513	6119828	5770610	437557	3359157	91859	1110406	6462849	486189	1596718	7686459	2509999.1092437	2799527.27777778	2048483.92857143	2728550.90243902	0.931892519033843	0.975385193020433	0.806459971559978	0.932238812634049	GMP	null	null	C00144	null	null	null	null	null	null
+SML	39	null	KEGG:C00387	null	null	null	Guanosine	https://www.kegg.jp/entry/C00387	null	null	2	null	null	90687	386228	12275	15747	54541	184803	9835	69722	103999	59246	68745	90218	24628	2785	239501	11824	97204	47101	35350	93335	60792	49788	1242	54076	11711	46736	1431484	1553895	109219	470095	1144652	37844	1376260	69970	96858	130272	70458	21520	35319	19463	190815	21969	75671	87560	104747	2186	400826	72051	23169	50724	41626	11672	75159	37526	94694	131321	19079	63519	83311	47185	1533	49573	16889	15346	60331	101195	205013	15991	7519	22057	55613	54088	51918	62311	861016	1077044	60445	377335	43702	163846	1594119	724827	148709	21779	17784	34353	8689	116205	216073	13202	94531	63435	735181	39514	157546	53921	349280	317778	251295	11912	112325	31614	267558	264962	80569	7214	16003	53556	76605	300074	88116	872935	245197	1284596	678031	33315	1280461	549063	16811	207194.462184874	231740.777777778	116113.976190476	278943.56097561	1.70586827234019	1.83346380100636	1.82416148438208	1.38867124490611	Guanosine	null	null	C00387	null	null	null	null	null	null
+SML	40	null	KEGG:C00135	null	null	null	Histidine	https://www.kegg.jp/entry/C00135	null	null	2	null	null	9399258	40131266	20637964	31501306	32982732	40851443	17313592	25653133	28024364	36264254	47470487	14598012	10526764	16501333	27617155	44290270	17355719	14276505	11079313	17070921	8763991	8137388	749780	8132222	2765037	19509095	3855188	935636	13542639	1886678	759845	8237892	2210750	633813	22596519	20549614	29376348	6157238	25395642	28933450	39988670	17170043	35561565	56443948	32793748	39618754	29222676	43986432	35991312	29876308	25991069	23907476	47834807	30647185	16798652	19290888	44570471	23580943	5351456	62002143	19190555	16008317	47675129	30199000	31306539	18253746	9940894	44098906	9523425	20269959	18921911	13924658	19872395	26648542	1433754	933400	36626328	1841529	24672688	39001310	1370361	767420	13106885	160664	11491130	41671760	10828279	38262397	10402343	21372044	29846735	18480239	229840	13627553	1843037	22441661	640518	20009412	9561090	28129433	31670305	9340462	14238892	15723633	10216697	17498708	16748744	19639201	41945979	26120235	19713013	534565	16267503	934373	11078168	21547841	1047041	5428745	21688196	20195556.210084	17411441.0555556	26599052.6428571	16080465.8536585	0.70014281291359	0.77170729531554	0.552374236691342	0.744096520980242	Histidine	null	null	C00135	null	null	null	null	null	null
+SML	41	null	KEGG:C05330	null	null	null	Homocysteine	https://www.kegg.jp/entry/C05330	null	null	2	null	null	37048	253565	41982	35220	89752	142359	110869	353489	317243	45269	134190	57759	60027	138973	100941	104656	229536	24464	92822	73835	47395	125656	3252	85256	42885	57941	657156	244659	113544	262119	252320	47135	430539	205909	176615	145750	307148	51641	19667	26929	269896	30640	70002	95657	188650	45868	177140	55990	129990	165223	29592	84664	117086	61450	15604	251519	100345	25716	13203	58819	35355	52064	91153	45216	29017	87249	75735	53751	10620	26149	68140	15563	56826	37149	112074	109829	27697	332035	27620	267138	200982	204522	239513	51335	19633	153525	34272	74958	61299	37897	131151	113084	99210	154542	126743	24202	402002	74273	160314	100535	107313	47034	22034	42518	83450	93736	66771	45055	74169	62508	170085	113646	53564	242959	205157	261929	140016	152160	90629	116249.361344538	148392.5	87096.6904761905	117889.829268293	0.882236671822512	0.901860882381408	0.922134238456402	0.705688263108531	Homocysteine	null	null	C05330	null	null	null	null	null	null
+SML	42	null	KEGG:C00263	null	null	null	Homoserine	https://www.kegg.jp/entry/C00263	null	null	2	null	null	5058262	19240170	4088603	5268136	3503641	7886237	8045153	12640653	5538445	5548757	6978075	2495203	9337395	11212777	1961943	15635022	9045370	2840131	6657067	4277239	3431697	6085393	220190	2323182	437835	4915745	3561086	1031917	4528681	1126644	553079	1047442	1401303	848464	8752232	4562798	12418503	1273340	2544804	4336571	10466622	919368	9123376	8986719	8024669	5252861	8161574	3927170	9643162	4292487	3840280	4702163	5995856	4977455	1727100	10576248	4999105	3145570	1762108	7705784	3052194	6139880	5241280	2118071	4374013	3539905	2130614	6685845	4354323	1986510	2360664	1769367	3245814	3934053	433100	176818	3675083	1555990	2773872	10434525	608543	808990	6945105	73504	2050716	10271494	5228946	3637826	4098843	4283640	3233597	4853703	121731	1330623	1161510	4074908	364461	1004173	3882452	7859917	1489244	1206782	4325219	838115	1618517	1853729	5464643	2593417	2468774	6752646	9097386	407263	4934574	420186	1658210	19527909	526415	798161	10173493	4562354.18487395	5335721.30555556	4656581.40476191	3786774.68292683	0.829187340778939	0.813875108444194	0.648313965236933	1.02996194902015	Homoserine	null	null	C00263	null	null	null	null	null	null
+SML	43	null	KEGG:C00407	null	null	null	Isoleucine	https://www.kegg.jp/entry/C00407	null	null	2	null	null	19050750	86727129	25132411	20741981	24758511	51939658	23504947	62490828	55435526	24947573	42175430	6299138	11821744	40029040	14248011	24869174	43145598	16292938	30785751	15071946	18631022	43294956	208689	17978657	3110550	9216387	62037525	18439293	17475187	21458912	13555669	9477415	30455035	11306676	31781019	38400910	57326224	10563313	17804921	9462789	69676313	7595375	37375045	31700971	53592167	24495098	50326695	23573003	37839081	18211283	8773096	28422762	43021595	19761887	3260315	61522304	26329407	6954891	7567396	17952178	6805204	22353929	22739582	22140947	9655080	15720348	15270672	20149708	4776662	14259261	8892671	4931458	17698208	10060816	6624161	3582328	16013333	21834892	15639855	75174637	10965698	19145163	26266500	1775048	4853258	27238490	9415787	26852310	19292177	8748503	26448096	25973085	2715415	18310246	23804547	10297957	17823683	6672941	26632300	34837022	11270855	4783267	20437415	4622920	8527846	22336223	24330193	6944431	11434087	30761432	34768734	8902086	22199981	7337760	17564987	51488669	11658433	19882141	42191448	22716293.9579832	27397110.7222222	21824223.0714286	19520137.2195122	0.740667262321815	0.689237574613374	0.768996583592398	0.730587352638159	Isoleucine	null	null	C00407	null	null	null	null	null	null
+SML	44	null	KEGG:C08342	null	null	null	Isovaleryl Carnitine	https://www.kegg.jp/entry/C08342	null	null	2	null	null	74826	141681	55611	40927	102846	105670	389638	395873	406059	58367	63224	272068	402208	266444	218965	60924	328227	32599	25373	97726	163591	157364	805995	32168	85793	22255	99758	7745	173177	21707	20010	8408	45349	12752	340346	10510	489743	753192	54328	61738	451342	140240	77062	88397	39343	45783	85167	95556	67839	676466	117998	32891	95756	36369	157245	449273	35115	128657	138799	98597	68741	64791	28289	218299	87523	153501	11822	23587	56706	54803	15911	70711	20968	36407	13020	2268	46831	31706	126019	342558	16267	20078	450880	13808	68726	76674	33161	63041	143141	60654	10663	104110	18905	47069	35891	58541	16590	16068	16816	51780	3937	179483	162361	3785	7590	286044	13816	153693	6630	92186	284140	10919	101117	12796	25610	330665	28108	34661	244550	123886.512605042	154060.666666667	129113.80952381	92037.3414634146	1.24917985373422	1.11087695995218	1.34577569120466	1.19951444774169	Isovaleryl Carnitine	null	null	C08342	null	null	null	null	null	null
+SML	45	null	KEGG:C01717	null	null	null	Kynurenic acid	https://www.kegg.jp/entry/C01717	null	null	2	null	null	37159	57141	27397	39591	55394	87438	58345	86953	95055	45630	23491	81969	32474	65969	105985	25817	89623	16736	43061	62137	36567	61165	3077	88932	60124	14837	79430	94359	38131	82236	153413	27748	221295	89661	45856	82596	93385	47445	39303	19540	48905	17425	74368	35411	41363	47824	47858	21827	26556	81066	24444	17074	54891	33972	17872	67042	35118	20746	33274	21833	19845	53368	25535	43266	36188	38540	65944	594797	13381	324007	28064	25144	17387	12068	347623	56546	24046	48676	25865	47615	49708	58165	70980	1000015	23061	36811	24461	42152	51174	38787	59444	77452	850831	90868	57778	16162	211499	17580	115898	66930	21837	103018	38749	40652	44544	289644	47381	82132	31012	62494	60357	49296	43063	50336	51161	86662	70567	51327	79691	78965.6974789916	64355.3333333333	65308.7380952381	105784.365853659	1.68782513450853	0.642123318969257	1.64132892339385	1.84290484526884	Kynurenic acid	null	null	C01717	null	null	null	null	null	null
+SML	46	null	KEGG:C00328	null	null	null	Kynurenine	https://www.kegg.jp/entry/C00328	null	null	2	null	null	152396	1039801	30857	147400	71929	803930	142292	394843	441255	69043	451602	175583	173562	115183	228425	84313	189659	39832	286276	46198	80036	112268	27020	93654	34463	22977	328864	337626	141722	796651	712028	112089	404801	234496	2024636	355247	227220	104895	33807	94974	413282	58448	84155	185914	335417	167808	853419	123652	102415	243945	43689	104937	350978	54449	16649	590650	275323	105941	363148	33892	58299	486893	66801	76692	52158	322097	194086	3351519	30510	173306	119703	83284	38229	34575	167827	159288	40976	286432	83091	4390411	352850	1410193	319377	222757	33192	1866765	73646	166303	101265	140415	132226	133359	103580	456783	223526	81298	1655040	100351	139920	306194	161719	59028	183484	25862	95056	68370	156013	43219	29021	1648631	360362	166392	463392	45193	848271	120667	365945	140443	315149	331120.991596639	302859.916666667	255040.047619048	433872.170731707	1.79449697748531	1.27050391582626	2.03453823796137	1.81248626982105	Kynurenine	null	null	C00328	null	null	null	null	null	null
+SML	47	null	KEGG:C00078	null	null	null	L-Tryptophan	https://www.kegg.jp/entry/C00078	null	null	2	null	null	2586515	1842758	2027166	2426637	1874061	1464555	2133718	2173822	1946458	2704440	2615540	2407514	2350522	2182716	2231105	2753351	1313004	2693718	2165787	1294737	2169422	1029386	9410	2948935	1423351	2960490	2011323	1447409	3668385	2471142	1527357	2183422	1585451	1635839	1696103	2846738	2597674	2494392	1970277	1861679	2290539	2026280	2081095	2249791	1858605	2054704	1841023	9410	2012213	1533296	2174786	2115413	1823856	2536277	1737585	1908318	2294591	2901654	2387052	1813617	2181369	2411721	2241884	2826248	2570865	2479465	1057909	2754156	1456389	2181125	2139376	2003417	1969830	2710081	1535621	1472448	1939423	1313585	1097018	2368410	2066836	2363726	2883613	2527050	1370029	2254684	2767809	3017918	1230908	2882127	3023469	1574780	1930825	2750462	1939967	2060484	1444143	2866915	3080129	2403483	2183682	2770566	1255927	1356737	2783017	1329266	1289170	1802470	2554160	2843165	3616759	2489325	1401149	1861143	1257832	1749358	1329590	1367466	3895546	2098003.68907563	2077841.30555556	2043310.45238095	2171734.46341463	0.305389108352147	0.322885085704199	0.256097897525973	0.334394670511815	L-Tryptophan	null	null	C00078	null	null	null	null	null	null
+SML	48	null	KEGG:C00047	null	null	null	Lysine	https://www.kegg.jp/entry/C00047	null	null	2	null	null	22153167	39325162	8777687	14436105	18700732	24225379	21880020	21364781	11997689	19229720	18288090	13950525	25725645	17720341	7490557	19492220	30587643	9213146	46094095	16135031	15348542	23392024	128504	12540229	2902106	9053422	7792936	9920011	20257943	7491821	2706702	5039876	7144268	6435959	24729181	9275396	26500468	8195970	12307137	18132621	37469143	3338002	34853167	23701590	24471353	22554927	24854433	13964811	14232739	14193977	12646720	19210520	20072807	18083213	8871527	27724615	23393064	14365209	7202766	21905800	8073484	21115266	15850508	9420411	12113014	21966758	15286688	28098278	10211545	15183286	11490520	5328249	10430130	12428520	2674574	2089153	8702638	13461200	25245880	34897728	4729739	8180794	25552282	82153	6722665	29889244	15591382	8832411	17091848	17363825	12078500	17125366	523479	10675112	6381549	10118259	2559593	7040914	26700204	35173736	11704198	7012374	21468886	3560286	8647500	4350113	15877379	5437617	16687784	29338787	24638063	10847796	26575482	4699869	7423989	32878346	4585627	5062091	25268842	15426379.394958	15859629.3055556	16099304.7857143	14356626.6341463	0.611620014526741	0.628587063252828	0.513475860763968	0.70961116826421	Lysine	null	null	C00047	null	null	null	null	null	null
+SML	49	null	null	null	null	null	null	null	null	null	2	null	null	49998575	51462725	56700066	65877959	68265271	55123153	73437185	76801449	71043890	53111526	31916487	66875248	66719058	75680147	67186859	52271732	75572779	51000350	44952392	59029684	55725742	66609468	49245	75322860	57061799	59218597	84985451	55536528	55520626	66445431	65228741	50669044	93365856	71571133	66554894	49189271	80278196	76640509	58495456	63901758	73789102	63410811	44392407	54741436	56262463	54872937	51473476	49021317	46172671	84727706	65626157	44262727	58056042	52756885	64699164	71184680	53739611	53097649	52951938	33364584	49450883	50278821	33064020	62790610	63879017	53790065	52843067	69289270	53259172	49381977	43287104	61509241	52140695	49038860	61277200	66094087	58967934	50503826	60138269	69057647	36687330	51797117	81932331	78353476	64834276	55711394	53357049	44924960	60108749	48313179	65007024	52135417	78059387	54745137	56322427	39744901	66242606	47598251	63585377	51719485	55520518	50848967	59814231	55098293	57786334	64482697	57296124	73194055	64925704	51655031	62701719	65111774	51290173	62507702	58871557	80942888	56903297	73442038	69333261	59049990.789916	60724478.3611111	56875369.7857143	59807369.5609756	0.21225752901597	0.261719893937687	0.194461802645471	0.174537415400886	L-Zeatine	null	null	null	null	null	null	null	null	null
+SML	50	null	KEGG:C02494	null	null	null	Methyl Adenosine	https://www.kegg.jp/entry/C02494	null	null	2	null	null	2527988	1742429	1579617	2376085	2546246	3552846	2200535	2276605	2428163	2063642	2040801	2622501	7345304	2542630	5330821	1553974	1980880	95438	94692	5928432	1611851	3093468	3194467	2792045	1390430	1557594	4414317	1183534	3263080	3032696	2079992	1657395	3202520	3138273	4180394	3574471	3119181	2490018	1539782	1598342	2736496	1984242	3961753	1343237	2418298	1336827	1839522	2102015	1915428	2479452	1838798	1264940	2283008	1760658	1878120	3339372	1726832	2027920	2110272	1318438	1614019	2898340	2610972	1762639	1887413	2213653	3580533	95672	69987	72064	1461172	1941720	1532889	1930788	2717166	1522490	1458163	2910975	90066	165003	122025	76964	157592	110827	91712	86411	2426186	2426656	2039667	2116035	2656343	117149	115006	145076	175622	85726	102501	205504	135909	114956	50139	100382	111978	109737	86969	117610	136016	98652	96228	75568	128352	86618	100720	102843	117337	177195	105842	93542	147433	1636099.65546219	2672115.44444444	1968895.38095238	385514.56097561	0.8554965657364	0.543710693552638	0.419672642557423	1.91883956537907	Methyl Adenosine	null	null	C02494	null	null	null	null	null	null
+SML	51	null	null	null	null	null	null	null	null	null	2	null	null	861065	2096025	374348	754640	794709	1407170	1050843	905371	565790	713923	1169734	590828	1592784	921192	332206	1092329	1751983	597333	2317487	1108494	1381851	1348260	2966	579969	394905	393828	326687	428025	1164833	274416	117861	304416	335503	250431	1234599	568640	1127075	281108	617160	935805	2051187	200908	1601268	861561	1242718	1241485	1172852	713254	824560	646888	590731	1048265	989999	1025442	380523	1407058	1009851	620621	388981	995406	433384	1212953	784304	486805	584951	950581	827325	1363172	831921	824215	529055	442181	711014	682102	148566	77783	566061	465082	1392090	1611621	160978	380834	880705	127619	405206	1292576	993447	833175	1307519	993347	682914	952944	34692	448425	330320	839656	90926	401397	1224637	1785493	713166	584250	1150422	264924	642268	936961	784126	661080	765262	1232668	1186131	294045	2055975	213956	304653	1761789	204425	237888	1386071	811362.907563025	836262.333333333	807051.452380952	793916.609756098	0.602762002159877	0.660933228640725	0.501105707898129	0.65417876843205	Methylglutaric acid	null	null	null	null	null	null	null	null	null
+SML	52	null	KEGG:C01152	null	null	null	Methyl Histidine	https://www.kegg.jp/entry/C01152	null	null	2	null	null	1474997	2683286	584679	1178278	2239446	1550477	2755612	2698221	1083339	807101	1089749	599575	3023939	3082473	645377	2182390	1307841	41279	98670	770497	696156	2176266	19846	539665	145354	1765638	816845	2864495	947401	1948551	1069932	936737	1535330	1240729	2177567	2187209	2267341	239323	1552221	1371958	1873534	582703	2542410	1504414	2269542	893482	2985925	2221230	1972984	1096673	279976	1716377	1729169	1168969	248043	1824095	1396924	650777	854825	2089351	1060818	1814400	1184904	433955	697333	1507637	1286003	125290	40258	41150	461186	500137	1210171	916626	1262656	1323721	845775	1123438	19925	150189	56893	183385	85182	9041	23954	142390	2142908	606173	1148601	1364960	893718	62633	38775	120506	68846	64605	51605	85014	56311	195904	21826	18782	35589	19205	13662	17566	127100	19248	62155	117639	92166	32203	113012	53307	56650	204652	66920	76823	233391	933496.344537814	1415692.97222222	1218278.66666667	218375.951219512	0.934987373076738	0.636553159030537	0.592992767618333	1.95974159530392	Methyl Histidine	null	null	C01152	null	null	null	null	null	null
+SML	53	null	KEGG:C02170	null	null	null	Methyl malonic acid	https://www.kegg.jp/entry/C02170	null	null	2	null	null	4195082	13515044	2688060	3465914	2723310	5037144	5600370	5968334	4226666	3057065	6454545	2133212	5738182	6460361	1593726	3939967	5179082	108949	305420	2851509	2344374	5304200	270507	2603340	428747	2996020	3808147	252921	4193541	239166	89455	1484579	211993	198557	3741819	2931721	9322141	1327780	1375436	1662190	6537864	1144767	6597688	4710983	3574800	3637127	5301188	2814972	6637791	2989452	1422636	3259017	3223612	2923438	1028183	5662431	3413065	1646279	1284280	5681404	1348526	3406849	3244252	1799607	1777353	2462906	1902584	168789	101797	144680	3215557	1524068	2763638	1977237	95148	136301	2321326	511149	84888	330897	7966	4006	225217	1491	58222	387932	3811442	2290211	2777092	3103205	4343001	201558	7594	96221	19543	104373	2660	47292	219332	386889	78137	54500	240349	50188	48491	103490	176604	76519	152517	255644	243968	7996	131024	6314	83672	447918	5487	67782	311489	2130037.31932773	3231695.25	2763816.45238095	513490.756097561	1.09809577742392	0.829047168589366	0.75869429199694	2.09616484391142	Methyl malonic acid	null	null	C02170	null	null	null	null	null	null
+SML	54	null	KEGG:C02918	null	null	null	Methyl Nicotinamide	https://www.kegg.jp/entry/C02918	null	null	2	null	null	106535	400656	358907	690146	82198	416216	30817	284217	494480	585770	726971	48064	214443	24502	232775	149726	64202	87560	30025	18152	79295	61392	2610	22991	147524	52459	321191	118429	96213	150277	512408	61167	77284	18818	165488	100091	425124	61639	192920	61162	422129	57122	91734	413742	363861	366403	431887	791280	482567	73910	151262	160400	402534	367575	93109	1015500	673216	221413	30583	139770	102939	103370	168554	650403	50025	165485	115262	20626	30977	183755	60306	140279	59498	42545	1503706	30104	165210	369636	236644	611241	35715	48395	544277	6831666	36127	137185	97057	111673	61073	53965	31543	43237	826376	37791	8758	31419	305750	76627	46732	103043	201223	177759	125319	108290	28523	140203	17784	47834	82750	300420	201628	66496	43292	854723	331978	54087	123253	87992	78390	267863.521008403	195388.861111111	272702.904761905	326542.390243902	2.44121558264167	1.02839948182178	1.10081495091072	3.24879632201067	Methyl Nicotinamide	null	null	C02918	null	null	null	null	null	null
+SML	55	null	KEGG:C08645	null	null	null	Methyl succinic acid	https://www.kegg.jp/entry/C08645	null	null	2	null	null	4078491	1046412	267266	496624	15184020	535744	10337630	654722	409439	499049	362118	377958	585457	587056	15844230	343357	729608	10992	10307	284341	270563	482905	11859	85818	49580	200982	112668	33569	457874	38175	14410	76851	23976	23301	538818	179724	505599	79371	3797091	2723391	964091	6113986	772046	474243	408721	494672	534363	309128	445809	20543111	138914	252068	639296	383091	143572	1141244	386688	220423	12364218	383295	204152	889574	158040	139493	257460	425270	251471	12403	9761	8298	198451	269889	180241	190394	19008	29424	289815	56663	12604	46570	1808	8356	23396	923	6151	46895	382293	194342	628957	234026	118212	17189	396	4943	2508	22664	565	3141	6038	23671	6825	6413	19901	3769	4021	4545	11870	3513	4937	26438	37990	1968	14180	803	3503	36682	688	7341	40816	967025.06722689	1534608.16666667	1376386.61904762	49313.4390243903	3.21491182214098	2.52487448463464	2.68824672661095	2.40218886012407	Methyl succinic acid	null	null	C08645	null	null	null	null	null	null
+SML	56	null	KEGG:C08322	null	null	null	Myristoleic acid	https://www.kegg.jp/entry/C08322	null	null	2	null	null	5643796	3848924	2658511	2814593	4561237	5497911	5270570	6122159	8218517	2634175	4281506	6342918	4791443	5425117	4393380	4248429	4485925	5452725	6064345	4145762	5136525	5752833	6262262	4713393	2382989	3105214	7887655	1336608	6305471	5487119	5127929	4875928	4625011	3700927	4875401	6590541	6200024	4849304	1999124	2506815	5429534	2994973	5639235	2047830	4883541	2116297	6538270	3118114	5917540	5756555	2479876	6468427	5523659	2303036	2488508	6966050	3465163	3014549	5279245	1935341	2431133	5194885	2053345	4318431	1962408	4937887	5616854	2051929	2083686	5948058	5772018	2475263	1846972	2886723	2764752	1801197	2353021	5005044	5810876	4606353	2251894	4572808	5880225	6008600	2046363	5104996	3767822	1920890	5799744	4758864	5640812	4252554	4663659	5062205	4191682	2228799	5624980	2012478	4220073	5564434	2004636	3919871	6408328	1781135	4224132	6431313	4946596	5237438	2535454	4168999	5855264	2503631	4353064	4694549	4320089	6098789	3773528	4889683	5586787	4337955.98319328	4862993.02777778	3843443.23809524	4383521.87804878	0.362844072447347	0.302350501109868	0.442485622470283	0.318183001150908	Myristoleic acid	null	null	C08322	null	null	null	null	null	null
+SML	57	null	null	null	null	null	null	null	null	null	2	null	null	4597367	26275084	25000667	11855305	14544447	13146479	39399175	45829157	9029983	19058872	5721182	10206369	62569406	45350205	13736146	20354996	9194416	12324661	56192002	16158093	8425811	25589171	28243	34081117	3697447	24145296	14243006	74863750	17883747	76472575	30005522	37528922	62907017	108753553	40238196	10310052	34210700	3099237	9365982	13333937	26956997	2306124	9627995	14590370	17068677	21589637	6301130	4802504	10920262	8723587	2962691	17547607	33066704	7481371	10518056	25611011	2249867	4506415	26910651	7075447	14161492	12796546	24561317	5791817	9825018	11968280	3317326	16435860	16759449	2505595	36938020	8635505	11831865	21594596	40571802	42805633	4959956	68475092	6384731	12654677	83941579	110317316	15382607	4620805	14226438	4961647	21103745	7707952	4778753	31042902	13616023	14482164	19365056	63651890	39354777	3361454	68348951	51351946	21210076	32256873	4460213	5916512	8142944	3636354	19393551	464480	27132691	1568576	19019009	10393105	10945469	16667654	34768065	38531874	26085537	31093159	70536633	79185869	20642787	23337700.9159664	28603262.1388889	16065764.952381	26163581.5609756	0.958712259172359	0.85942485499568	0.85503230535345	0.986326537176674	N-acetylalanine	null	null	null	null	null	null	null	null	null
+SML	58	null	null	null	null	null	null	null	null	null	2	null	null	1749958	2588688	1435440	895687	565505	1495843	964967	534374	463726	810664	1271774	603070	1246889	1059988	590433	4507998	2834969	1708243	424986	687809	602330	990315	7952	594097	324988	702721	387672	21687	855124	2650	13005	120187	30634	9964	599453	539375	1288278	284280	1192152	1836535	1727817	649462	2772123	1663280	349386	2381720	1687349	2278087	2253915	1105335	985879	692079	1400399	1468136	377831	1133315	1799992	1102180	416099	5450060	1117369	979797	2909596	239091	885903	1142336	243366	2074853	594101	310082	707533	1333801	908448	1451047	74125	3656	919953	27402	1364037	1310545	9576	29862	1124383	39546	1342171	1302935	725828	1124790	1217463	13684254	237354	583466	24925	280860	31333	3317996	29937	345249	427165	1036826	717780	1787186	603759	372755	209472	501071	610125	881555	1072766	1618926	1465782	8924	964912	22337	105118	723358	5683	58220	2849580	1080933.80672269	895643.472222222	1243289.23809524	1077312.43902439	1.36654521679946	1.01941703024349	0.800653505571609	1.99798848535594	N-acetyl-glutamine	null	null	null	null	null	null	null	null	null
+SML	59	null	KEGG:C03681	null	null	null	N-Acetyl Lysine	https://www.kegg.jp/entry/C03681	null	null	2	null	null	1758674	3282319	1360815	1053392	536589	1417541	887073	565120	387564	757571	631882	398350	1409481	1057041	608017	2098819	2627512	2300190	606898	1005284	554671	1192931	8101	637799	357244	508935	14605	49919	944520	26418	67137	137485	77008	16610	697739	744609	869654	272791	1097352	1865283	1704103	672590	2334018	1503349	294110	1233358	1824861	1804661	2396261	1219645	978915	403708	1626804	1749600	472993	1176560	2189358	1095132	396180	4292707	892627	1052861	1460095	201318	816143	1086136	246465	2070253	555797	301067	719463	895629	867565	1483206	298883	24976	913631	23907	1392143	1503878	43048	69284	1123810	152080	1091672	1523737	537970	894247	1215047	12360616	277899	544250	38342	431832	24932	3325297	52184	292087	648208	731062	531072	1425344	666406	359091	277809	478003	618068	989673	1040568	1413238	1555617	6632	682954	32290	151010	556085	13381	176003	1738939	1001308.28571429	855162.861111111	1128190.83333333	999653.853658537	1.3000432991481	0.908582018053133	0.724938305365014	1.93687330529789	N-Acetyl Lysine	null	null	C03681	null	null	null	null	null	null
+SML	60	null	KEGG:C00437	null	null	null	N-Acetylornithine	https://www.kegg.jp/entry/C00437	null	null	2	null	null	24492138	116021960	35932215	74177716	32315254	68056755	19442545	56515829	38765741	65993149	77067843	30216937	19225255	31044064	53869024	59390739	27819055	39927396	35163019	27631895	35660003	15361228	896777	9528436	27873498	23233064	11310805	49634	45611039	949693	56679	9353829	1309218	322127	31309506	43278210	77508003	15952994	26167674	31654403	78416563	35692216	57139672	118036318	58867294	65031986	64349739	43842815	77826662	49517315	41990301	42133097	61395347	65363792	31556850	48154552	68787962	62190492	6325681	90070550	30872641	41940540	60651868	53652644	68301674	45725848	31988661	65280397	14544974	39058368	36742986	10476855	41177133	23883217	400650	361036	39901943	1451084	71229161	67820830	660140	170998	33454361	106313	17689356	61049631	22088201	64690793	50718454	30057544	23997444	33924994	102339	17343529	1751999	40073833	683766	22400235	15722452	27647617	55955996	32162745	29907787	27739145	16063435	33500585	13665719	40408127	33010715	48367067	35049288	475909	33126873	723200	30367745	32456565	749811	13267176	29716919	35492906.4621849	33032563.1944444	45818685.6428571	27075580.4146341	0.70510142747973	0.788260608065348	0.556724401393875	0.73626032661409	N-Acetylornithine	null	null	C00437	null	null	null	null	null	null
+SML	61	null	KEGG:C02714	null	null	null	N-Acetylputrescine	https://www.kegg.jp/entry/C02714	null	null	2	null	null	92585	79682	55493	62744	127683	117472	219696	223080	227906	52883	39350	111646	139365	278404	121459	39524	169799	63282	90915	110977	100532	282617	2015	236699	61008	62073	220769	57957	90371	209376	109214	40794	328873	172118	221862	87753	256579	283520	54802	37119	262496	61422	124251	57269	97754	48180	94893	54749	38954	281322	62476	44272	100188	39559	42015	248462	35102	42335	88650	24820	54159	93491	29316	46575	72205	81817	104325	33388	40862	64840	66366	30285	68994	60786	46125	30701	46779	67970	53694	134718	61474	42769	338505	125535	34324	115863	45094	40817	94696	43434	149974	108552	70420	87839	114956	54611	119780	53191	174355	104699	52070	69417	97181	46032	127268	102848	132612	67994	53253	100522	184763	36954	88684	91100	107838	323539	111463	253330	238279	106576.43697479	130777.111111111	83813.6428571429	108645.048780488	0.721199043475743	0.627600520944727	0.858138121497072	0.660917774624229	N-Acetylputrescine	null	null	C02714	null	null	null	null	null	null
+SML	62	null	KEGG:C00438	null	null	null	N-carbamoyl-L-aspartate	https://www.kegg.jp/entry/C00438	null	null	2	null	null	19356	19628	23769	68140	35400	26486	22251	22570	22627	38698	19086	49540	22290	25063	58379	29128	17412	22846	21779	24212	15102	14089	830	24309	85305	18487	14716	2097	36783	932	1414	19754	5462	629	19044	20234	41075	43465	30424	34065	26293	23124	39876	49636	32968	35490	32275	41013	31308	74486	57916	18837	37527	35168	57253	22170	30240	39234	23494	31383	23319	33690	30103	36418	60054	28508	36784	51783	19682	19816	37011	13554	29918	19999	4081	3266	44253	329	56563	22858	624	4821	24739	907	64097	29309	16872	50005	30212	17716	31937	36906	2787	18568	19367	27511	3617	35177	18167	21787	50212	69347	23354	45896	52686	64056	7121	59399	34824	29184	21403	3545	20290	3229	22693	26209	3007	21305	16948	28221.7647058824	24106.8611111111	32887.8095238095	27055	0.626527140956952	0.752170173604247	0.455646705302227	0.706096781143358	N-carbamoyl-L-aspartate	null	null	C00438	null	null	null	null	null	null
+SML	63	null	KEGG:C00153	null	null	null	Nicotinamide	https://www.kegg.jp/entry/C00153	null	null	2	null	null	23001183	28407648	13416646	19490953	6515621	21882763	15077991	37386551	25159289	14165643	14666528	6694416	21063784	13037090	5828370	13479930	14895557	7847414	13129667	3141234	11208054	23623968	47913	1896052	310703	1863215	10919259	7532521	16872329	9811409	1412346	13071411	14399693	3780775	17276552	33064518	22900728	6217541	6878192	5498996	20382898	6005284	27028742	14687318	25356637	11600184	19977417	15354795	17822908	7682489	2050186	15900778	8056961	17385383	2463534	46585630	26123613	6798620	17105597	14982782	3616854	17412882	15625084	6244950	4786688	21171280	7531720	12294092	3046184	20473675	3795168	4054596	6988178	3642424	860087	1748669	6702097	15287397	11606596	38223744	12334117	3946900	20722038	195873	1202915	16288893	6237079	9951698	17264919	3994178	9347545	8460555	1998166	13236527	11413387	6796774	5753125	7561901	21543963	8164828	5952619	1898420	24910416	3773173	1766391	476368	3004666	1737572	3346198	26916994	20597221	12609159	24508875	545347	13736672	19472577	11187348	4020663	13672528	12066278.6722689	13482749.8888889	12384029.4761905	10497047.0243902	0.749377932351768	0.677541565651181	0.747637743091687	0.829807715756625	Nicotinamide	null	null	C00153	null	null	null	null	null	null
+SML	64	null	KEGG:C00455	null	null	null	Nicotinamide ribotide	https://www.kegg.jp/entry/C00455	null	null	2	null	null	60924	36323	62988	18015	287396	250137	230996	32944	586858	210860	19465	359642	50004	107035	75548	60223	741922	137175	97016	856027	45269	237295	5010	618072	23679	99621	49420	22556	340598	13753	21736	34437	23413	8689	397003	59074	640520	589796	730945	33030	48756	42584	344781	2136376	126289	43158	47718	174965	47998	2196428	62537	60961	159561	24323	15105	89501	64784	28351	183879	21891	112746	90215	372716	181601	229050	44047	426156	34053	51833	166139	105025	71669	174384	279532	2692	30886	35152	1296	14632	66701	45840	57443	659065	1423	271329	132201	44889	29952	134060	52962	390880	1397414	12619	38796	17317	145655	9411	113545	364091	56749	261380	167093	117774	90232	441051	5243	52905	36400	137602	207459	141726	89	49294	74777	110423	200965	7636	927103	150743	200348.075630252	174475.638888889	245795.928571429	176509	1.70221405181334	1.26306945837561	1.90495688634247	1.52578947968437	Nicotinamide ribotide	null	null	C00455	null	null	null	null	null	null
+SML	65	null	KEGG:C02838	null	null	null	Octonyl Carnitine	https://www.kegg.jp/entry/C02838	null	null	2	null	null	3291239	1349645	4198783	759517	2897366	3998446	11556998	438818	76977	6842494	2595664	1247101	4289115	945028	1795724	13462571	4090724	13843694	10231854	1941324	4181002	18086337	83109	2277770	1233493	2666835	9026670	3593986	1467233	10415091	2986582	6301932	2307343	3008833	4445773	1572810	1379676	496300	2981968	2490971	4467614	5952328	885025	3451807	2755910	12113053	4988923	1788311	4298452	2313730	2261018	3925590	1719034	3134404	1351060	3469254	1162459	2591773	2275664	891217	1688204	1008761	1471026	5820941	1094186	1424656	6235356	9875002	2437415	4238281	9506930	4310861	8134313	12695711	4397113	829212	1896012	5387021	2609987	6293371	2480886	2315116	1776919	1037408	2229898	5313238	13551253	6299492	2397718	3217167	2829798	18686065	2049085	19718322	4765952	1331454	2281040	13246391	1718755	10519412	6646830	2317409	3929587	7220970	1247070	774328	8569053	2505308	7200880	2002678	6240599	2595703	2595992	1085684	1333586	3690847	3086663	835375	25415199	4496360.59663866	4541885.58333333	3704679.57142857	5267377.75609756	0.989646418983274	0.96387252967728	0.809495037898225	1.05967009798355	Octonyl Carnitine	null	null	C02838	null	null	null	null	null	null
+SML	66	null	null	null	null	null	null	null	null	null	2	null	null	18824	465528	49223	28832	86274	119733	79697	639855	299806	46097	66141	19605	20329	177956	40631	50572	70487	20125	57734	24196	70720	21568	2600	315983	16340	34388	1235344	35705	52143	224014	26598	55603	192791	255370	60977	212358	163239	46468	30253	12205	319603	15240	88451	37548	197302	150744	140444	116003	49697	69590	13768	64566	169640	6279	15245	298768	197161	10713	21209	43628	5123	168803	73505	36183	11222	80095	40508	137876	6156	58753	12379	36865	53029	8237	10148	7909	71806	140088	19009	560114	19497	229018	276515	14650	73425	63552	31418	43798	53010	8957	88889	35880	78643	26166	147710	27470	484169	43911	42122	62718	20219	24142	46679	26254	18386	211155	43161	32542	119220	44519	63969	118049	89692	14940	110266	228155	83720	29355	63902	102937.495798319	144281.861111111	77058.3095238095	93145.512195122	1.49486852249178	1.611788608138	1.0204091112013	1.26363609768902	Phe-Glu	null	null	null	null	null	null	null	null	null
+SML	67	null	KEGG:C00079	null	null	null	Phenyl alanine	https://www.kegg.jp/entry/C00079	null	null	2	null	null	9280977	54455114	8037837	5320706	10441938	21122823	10763111	25581331	20014801	8961134	18887891	4526104	7360592	13472313	7702874	12834167	17563015	6010731	15831629	8928795	8478842	17014405	111603	7955002	1198346	4171663	42737530	17858012	13921494	17813171	10433563	4132003	27795773	10037434	14978477	20090042	25554926	5165380	4981797	3956824	30192283	2963592	16728459	10950847	26991646	10245460	24730185	6958447	15395983	9800353	2144086	11598300	24655256	6870770	1417222	23646389	10205766	3608127	3804881	6373395	2542722	11378705	8138440	6535616	3801114	9853243	8160789	7377931	1861092	5951908	4703177	1994850	5876206	3808554	5729827	4150205	5476181	18636509	5876920	39901677	10969421	21779349	15297841	2302113	1594968	17354632	4373575	8413150	11045572	4861269	12958473	13201471	5252183	13144195	14746080	4085431	22646151	4195681	9410862	15311462	5777122	2161576	12512446	1874043	4935493	8946206	13950048	3111384	5343654	12358806	16879253	9064372	13751900	5619672	12158206	19767435	12457487	12730327	14750212	11408527.7647059	14050701.1944444	9640891.5	10899319.9512195	0.76951191951349	0.768680191658388	0.811516800356373	0.666166955562702	Phenyl alanine	null	null	C00079	null	null	null	null	null	null
+SML	68	null	KEGG:C00588	null	null	null	Phospho Choline	https://www.kegg.jp/entry/C00588	null	null	2	null	null	6753877	1520057	7357883	6055303	4548666	3083872	3695092	5497764	3081139	4497240	5314794	1604531	4932811	4827062	1218297	6175035	12223245	8365407	8234189	3584548	3633690	10613358	2600	4065970	65723	8552824	1800909	1179572	3964396	1075424	148222	5402900	1484655	276991	3371577	6657902	3504302	2144627	3990901	2162322	1016499	461568	3589361	1655008	3775727	5296218	5245869	2132341	8354036	1619307	275750	6415821	2121556	5914908	429574	7411191	4444396	645652	3046889	302372	4168503	4849280	7493292	292623	2149530	1066725	4971513	5305547	5747570	7707889	4827880	2810049	6081921	7802962	391509	1254338	3120950	569759	2006350	2743899	580492	1165165	9207979	3229	3892865	4808439	7641602	6130749	5791308	7745514	3299742	5215546	357353	2538989	1521342	8242278	1274424	6261792	7760522	5064415	3584496	1038028	2787891	4973942	4126800	66270	2429374	594184	3919039	4926625	2394626	636753	2030254	476017	2642783	6147738	356039	4222390	5932700	3764500.02521008	4301875.69444444	3489715.11904762	3574144.95121951	0.708440896464144	0.701396728803593	0.699206842930469	0.715332868728166	Phospho Choline	null	null	C00588	null	null	null	null	null	null
+SML	69	null	KEGG:C00134	null	null	null	Putrescine	https://www.kegg.jp/entry/C00134	null	null	2	null	null	78178	43273	90424	140573	91026	34002	23436	9825	9039	15818	37396	74199	17686	25141	111442	63725	39801	82984	30366	49800	402603	55553	45803	27948	77628	74252	92007	38713	48140	29114	32767	31998	10777	11999	29283	25136	43166	7639	85147	216669	4790	180095	112606	132519	31437	33913	54637	124659	43191	10465	120815	31913	50115	67805	214122	12971	47152	80673	158421	139706	48409	36684	210576	44225	64842	109913	148337	141303	138595	33064	128757	192204	129200	161542	64420	48357	100516	64666	57892	14381	46708	12484	34493	92813	203026	126021	72203	90977	91226	62031	35493	41253	8894	40525	7213	136769	7539	191852	59557	83768	121211	376162	38845	119461	103900	89364	53731	269247	96453	203284	130005	34681	114091	7753	276839	12242	18008	10240	37623	80692.0084033614	58384.8611111111	92148.4761904762	88542.8780487805	0.890559097840665	1.14492937320425	0.661911968954026	0.935544670263007	Putrescine	null	null	C00134	null	null	null	null	null	null
+SML	70	null	KEGG:C14335	null	null	null	Pyrene	https://www.kegg.jp/entry/C14335	null	null	2	null	null	10694379	50531920	9951067	8099454	12314125	23816057	11891713	40771334	31125187	9605147	18856300	3944601	8224328	24578564	7628823	12940706	31177893	468905	604258	7467497	7191490	18084348	98821	8050080	2375992	8630938	36520265	6809200	7144997	16269542	7152703	6207920	16109860	4906394	21441213	19936886	37321827	5719349	6486213	6042911	36826979	4643777	12747902	14425937	29403807	11739145	21507028	12700453	19308395	18426352	5633652	11646436	25753897	8567670	1724327	34273886	15113235	4197837	3980654	8431165	4622766	12960358	11834188	7940978	4608322	7825953	6584113	847872	134630	566958	6901907	3082328	8972312	8727578	4996061	1926558	8046812	11771541	414986	2567515	373631	525781	1265598	57119	129215	789784	4063907	14085881	7134040	6199272	15042450	725139	32180	759399	789611	401548	430370	311230	1009218	1164360	389517	191515	466285	198301	318425	450942	767391	235057	424121	777992	1089012	135212	640087	208508	413478	1666853	408050	691315	1215485	8819804.67226891	14211747.4166667	11166049.2619048	1681945.85365854	1.16371433125743	0.831882364649909	0.854715960802398	1.96610732215921	Pyrene	null	null	C14335	null	null	null	null	null	null
+SML	71	null	KEGG:C00021	null	null	null	SAH	https://www.kegg.jp/entry/C00021	null	null	2	null	null	658769	620722	160537	539794	1016654	1013258	391435	1158823	1279982	585779	1191042	653153	285058	841651	254933	722794	662143	4341	2249	203743	168768	623762	3838	52822	5959	838915	418554	327650	945754	24987	1251	90267	64012	205210	1530691	1229993	1306710	295136	359602	548649	1407161	185190	1647667	683677	672646	337913	980606	873268	636986	366492	433422	234021	618738	773723	634984	1073567	894721	668573	410233	4771	275202	1488168	4195	522578	223293	509468	728876	5577	2516	3885	467190	88192	232484	643673	51731	9702	328550	19065	14971	23961	2257	1716	12649	2229	2538	20530	432426	437915	818684	423185	1532809	6210	2715	9214	2786	18637	2694	2520	11903	4398	2668	2756	9445	2252	2748	204	4355	3206	1223	13491	10807	22271	2462	2108	1458	10510	2393	4383	11437	372514.43697479	521647.027777778	515542.880952381	95051.8048780488	1.16735874962238	0.844501627212343	0.829326318218742	2.98052206490855	SAH	null	null	C00021	null	null	null	null	null	null
+SML	72	null	KEGG:C00750	null	null	null	Spermine	https://www.kegg.jp/entry/C00750	null	null	2	null	null	72410	175342	22436	15485	45715	75771	27390	27240	9399	55439	13417	23100	17801	6030	58839	40466	67820	37803	3298	14619	53203	15508	19518	6711	4633	5938	3002	13330	32744	2255	3826	1859	2249	8465	16546	14486	20265	16248	29362	55021	75663	36534	16402	127509	7604	53978	40006	6077	173784	29514	17498	13811	51019	65165	9456	41663	25395	27798	12096	253342	7482	25133	63881	11837	18087	15693	12722	51362	26836	5644	8561	56935	19886	50587	10024	62682	29288	2642	25139	66197	2115	9965	27417	11979	8090	45904	46348	22900	54557	18646	3300	19781	13700	5746	1386	112475	4631	6717	707	21474	6958	24720	36900	6950	9772	36938	7385	150738	15088	41377	83340	5816	48793	11950	2065	32521	2325	454	11922	31628.3277310924	28169.25	40106.9523809524	25980.1463414634	1.21369513214427	1.17686968723093	1.17714996328764	1.20603657121349	Spermine	null	null	C00750	null	null	null	null	null	null
+SML	73	null	KEGG:C00078	null	null	null	Tryptophan	https://www.kegg.jp/entry/C00078	null	null	2	null	null	1329746	5556089	984524	571813	1541013	2652608	1954557	3318454	2588801	864979	1785747	820080	883448	1927887	802672	2531347	2357915	682827	1622794	1140265	195459	2274934	13465	328872	50616	935654	4108058	1033829	1252320	2277841	595263	354783	4323158	2105721	953490	2152261	3117530	598484	707461	458721	3889253	282184	1748462	1306911	3546729	1327535	1974114	1028220	1900385	1973099	459408	1405515	2401251	836823	190688	2079199	1221072	261126	694846	776946	330523	491905	807765	1068329	647712	929283	878078	800993	287507	536792	567223	108828	491747	527155	545464	380872	583911	2276627	547760	379838	1506853	1147663	1543741	1210363	4277	200978	618587	1246623	1446816	735424	2333181	1737750	255792	1782579	1828955	520484	3503715	416616	1701190	2906169	695689	205857	1064303	178470	656588	829137	2208133	560038	469087	187002	2409966	360147	883225	697063	125381	2855928	1402386	1249080	1600931	1273392.69747899	1635369.16666667	1105873.23809524	1127165	0.807146731925369	0.7649015011254	0.82206447972107	0.758428898113214	Tryptophan	null	null	C00078	null	null	null	null	null	null
+SML	74	null	KEGG:C00082	null	null	null	Tyrosine	https://www.kegg.jp/entry/C00082	null	null	2	null	null	560320	4022089	233464	212356	509853	781429	475540	1258375	1496533	202010	598688	328036	326503	632023	570505	460477	915896	175830	356571	302976	576535	665060	24909	359261	122616	224316	3340607	710098	388839	1192370	993896	148755	2221192	621040	971272	504538	1594352	486406	128996	155932	1353350	205825	429009	656152	588013	179729	653814	297746	471562	948555	198180	215480	499975	219778	118888	976277	316513	174213	286381	525380	126430	249058	317740	283957	205752	319084	343224	229006	57924	106722	245000	66272	210397	124358	502709	221584	155968	1311590	179761	1419738	920627	695294	882421	212475	85591	516080	147848	444879	611285	189611	499875	430909	214063	767952	1030696	190699	1668740	245578	628517	555388	406980	219012	684120	138308	252678	959373	847456	284145	234834	340014	796245	199967	575838	747095	649597	1177181	1054933	589715	517972	566853.352941176	763466.055555556	398982.880952381	566182.682926829	1.00306459313114	1.10477765845817	0.895815154090238	0.651117370793388	Tyrosine	null	null	C00082	null	null	null	null	null	null
+SML	75	null	KEGG:C00105	null	null	null	UMP	https://www.kegg.jp/entry/C00105	null	null	2	null	null	2085307	45732	361479	521114	1273246	395351	1618948	1186034	472046	92774	224498	455838	930870	3155704	440519	1136226	3157556	1045461	1126107	304272	149111	2542928	4765	1587813	20535	1136373	1179262	10734	482173	59877	1440	2101341	36006	4816	1913022	2839924	800076	593452	1593227	1465841	405592	193438	953894	22584	744973	568545	142718	193668	592209	2213660	251166	720327	263720	830389	205522	1496116	498634	308808	1448778	84165	324072	2475554	346638	40464	299532	483192	2166114	675453	961108	1137206	1434210	559295	837086	625620	460	8207	1169433	240652	414024	786240	27211	15728	5208991	442	329634	1095055	1274790	1269128	689867	770014	2996493	613798	12110	2966234	173876	1256501	2742	913158	1585150	2633663	123843	244887	1084780	453168	982352	31237	2494037	28444	1228092	1376313	2128304	140633	1437571	8329	632560	4639780	82424	882763	2725800	926345.932773109	947200.055555556	723233.285714286	1116101.6097561	1.05220920036559	1.00240798557349	0.864098459047772	1.10931542941133	UMP	null	null	C00105	null	null	null	null	null	null
+SML	76	null	KEGG:C07715	null	null	null	uorene	https://www.kegg.jp/entry/C07715	null	null	2	null	null	2188642	1405783	4657496	2911174	1302663	1987134	4604692	3259315	2899801	2659081	3982744	6170477	1482031	6679464	6160375	3973137	1984644	154242	162124	480776	10846601	644642	524520	3128059	3319458	7722704	26683991	65407500	2088942	86475289	43489486	11258424	50570245	20528917	2277050	3080036	2401479	1913443	2909051	4581505	1897510	4991792	1333351	3292801	1676155	2228633	2630246	3536205	3323594	3659342	4489119	2127380	4348309	2528003	851694	4957147	4040371	4203268	1596022	1911632	3535557	3117497	3273181	3005742	2241300	2470106	4575207	694375	43952	213562	20138010	1905863	5861126	3953212	29619876	39716690	2402290	50047895	169026	280060	2780450	3400387	282680	266395	187230	51950	3837751	8694912	2228076	1694262	5215587	100544	402061	646277	1568162	109121	1175161	1420707	213761	73559	524655	95637	71103	404403	257793	101512	116456	153062	372972	126873	119750	3964229	403854	2741101	1213697	154483	2169123	677617	40346	5831108.71428572	11031990.5277778	5910559.35714286	1183092.31707317	2.22223401264814	1.78353943377493	1.72840300871435	1.49341552105615	uorene	null	null	C07715	null	null	null	null	null	null
+SML	77	null	KEGG:C00106	null	null	null	Uracil	https://www.kegg.jp/entry/C00106	null	null	2	null	null	1341691	2118887	1716927	1958708	2153885	1683983	4041265	3266469	4000589	1612681	1809033	3803946	2429611	3639814	3766648	1399741	2557556	1524257	1158032	2730142	3219423	2713622	6383784	268303	2981937	616345	723845	161073	2707733	170430	205245	138440	425661	130938	2831974	312519	5010415	5028262	1578909	1159083	4357479	3241762	1618269	2267561	1661582	1642756	2310889	2154047	1699478	6574119	2944648	1077181	2800573	1986628	2523471	3003334	1542935	2953217	2374478	2511035	1945181	1913041	1205745	3262623	2799846	2992093	549563	1307406	2091984	1482662	292100	1626615	1149009	1367461	210793	163510	2008135	143632	2684974	3497936	149912	133043	5706307	243274	1504294	1676224	1488285	2110132	2954639	1596710	286459	2464863	198114	180113	151624	1639233	132405	251214	254037	1592824	1749487	3404638	2098568	419044	394210	4753355	456143	3213124	267425	1812609	3263822	162839	1644530	420621	206987	3516083	160604	338156	2153530	1887151.57983193	2019587.13888889	2155559.76190476	1495911.97560976	0.753476185866509	0.720634253442953	0.618594511236592	0.954876086486869	Uracil	null	null	C00106	null	null	null	null	null	null
+
