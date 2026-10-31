@@ -40,7 +40,9 @@ Parquet file and write the mzTab-M file (\code{\link[=assembleMzTabM]{assembleMz
 }
 
 The files are named \verb{<STUDY_ID>_<ANALYSIS_ID>.toml}, \code{.parquet} and
-\code{.mztab}.
+\code{.mztab}. If the IDs can not be determined (see \code{\link[=readMwTab]{readMwTab()}}), the name of
+the analysis (e.g. \code{analysis_1}) is used so that each analysis has its own
+files.
 }
 \examples{
 f <- system.file("extdata", "example_mwtab.json", package = "mwtab2mztabm")

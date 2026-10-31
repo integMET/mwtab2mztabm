@@ -18,6 +18,14 @@ Workbench REST service) and returns its analyses. Each analysis is a named
 \code{list} with the mwTab sections (\code{"METABOLOMICS WORKBENCH"}, \code{"PROJECT"},
 \code{"STUDY"}, \code{"SUBJECT_SAMPLE_FACTORS"}, \code{"MS_METABOLITE_DATA"}, ...).
 }
+\details{
+The JSON files of some studies (e.g. ST000396) do not contain the
+\code{STUDY_ID} and \code{ANALYSIS_ID}. These are then determined from the name of the
+file, which starts with the study or analysis ID if it was downloaded with
+\code{\link[=downloadMwTab]{downloadMwTab()}}. For a study ID, the analysis IDs are retrieved from the
+Metabolomics Workbench REST service. A warning is issued if the IDs can not
+be determined; such analyses are named \code{"analysis_1"}, \code{"analysis_2"}, etc.
+}
 \examples{
 f <- system.file("extdata", "example_mwtab.json", package = "mwtab2mztabm")
 mw <- readMwTab(f)
