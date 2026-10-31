@@ -1,0 +1,511 @@
+# mwTab metadata of study ST001228, analysis AN002041
+# Exported by mwtab2mztabm 0.1.0.
+# Sample metadata is listed in [[SUBJECT_SAMPLE_FACTORS]].
+
+[mwtab2mztabm]
+format_version = 1
+factor_order = "Time Point"
+additional_data_order = ["Sample type", "Biological material", "10001 Visit 2 Stool NA#7"]
+
+["METABOLOMICS WORKBENCH"]
+STUDY_ID = "ST001228"
+ANALYSIS_ID = "AN002041"
+VERSION = "1"
+CREATED_ON = "July 31, 2019, 9:54 am"
+
+[PROJECT]
+PROJECT_TITLE = "Aquamin and Prevention of Colon Cancer"
+PROJECT_TYPE = "MS analysis"
+PROJECT_SUMMARY = "Effects of calcium and multi-mineral supplementation on gut microbes and microbially-derived metabolites in patients at risk for colon cancer"
+INSTITUTE = "University of Michigan"
+DEPARTMENT = "Pathology"
+LABORATORY = "Aslam Lab"
+LAST_NAME = "Aslam"
+FIRST_NAME = "Muhammad Nadeem"
+ADDRESS = "Ann Arbor, MI"
+EMAIL = "mnaslam@umich.edu"
+PHONE = "734-936-1897"
+
+[STUDY]
+STUDY_TITLE = "Aquamin and Prevention of Colon Cancer (part-IV)"
+STUDY_TYPE = "MS analysis"
+STUDY_SUMMARY = "We propose to evaluate microbial and metabolic profiles in baseline and endpoint colonic mucosal, fecal, and serum samples from human patients at risk for CRC and enrolled in a 90-day phase I clinical trial. Patients will receive daily supplementation with calcium alone, a calcium-rich multimineral (Aquamin?), or placebo (maltodextrin) (n=10 per group). We hypothesize that dietary supplementation will correlate with CRC-protective metabolic profiles and that multimineral supplementation will generate more favorable profiles than calcium supplementation alone."
+INSTITUTE = "University of Michigan"
+DEPARTMENT = "Biomedical Research Core Facilities"
+LABORATORY = "Metabolomics core"
+LAST_NAME = "Kachman"
+FIRST_NAME = "Maureen"
+ADDRESS = "Ann Arbor, MI"
+EMAIL = "mkachman@med.umich.edu"
+PHONE = "734-232-0842"
+NUM_GROUPS = "24"
+TOTAL_SUBJECTS = "18"
+STUDY_COMMENTS = "Colorectal cancer (CRC) is the third most common cancer and the second leading cause of cancer related death when both genders are combined. Epidemiologically, calcium intake has been protective against colonic adenomas and even colon cancer. Calcium supplementation has reduced the risk of colon adenoma formation in subjects with a history of previous colon polyps. The utility of calcium supplementation for colon cancer prevention is somewhat modulated by the modest or inconsistent level of protection afforded. Our preliminary data in mice and human enterocyte models shows that dietary supplementation with a multimineral supplement (Aquamin?) containing calcium in combination with 72 measureable trace minerals is more protective against tumors and epithelial growth dysregulation than calcium alone. One potential mechanism, supported by our rodent data, is that multimineral supplementation alters gut microbial populations to generate bile acid and short chain fatty acid (SCFA) profiles that are CRC-protective."
+
+[SUBJECT]
+SUBJECT_TYPE = "Human"
+SUBJECT_SPECIES = "Homo sapiens"
+TAXONOMY_ID = "9606"
+
+[COLLECTION]
+COLLECTION_SUMMARY = "Not available"
+SAMPLE_TYPE = "Feces"
+
+[TREATMENT]
+TREATMENT_SUMMARY = "Not avaialble"
+
+[SAMPLEPREP]
+SAMPLEPREP_SUMMARY = "Cold extraction of short chain fatty acids, measured by EI- GCMS without derivatization. SCFA species are reported as uM, with CV's generally ~10%."
+SAMPLEPREP_PROTOCOL_FILENAME = "Short_chain_fatty_acids_analysis.doc"
+
+[CHROMATOGRAPHY]
+CHROMATOGRAPHY_TYPE = "GC"
+INSTRUMENT_NAME = "Agilent 7890N"
+COLUMN_NAME = "Agilent HP5-MS (15m ? 0.25mm, 0.25 um)"
+
+[ANALYSIS]
+ANALYSIS_TYPE = "MS"
+ANALYSIS_PROTOCOL_FILE = "Short_chain_fatty_acids_analysis.doc"
+ACQUISITION_PARAMETERS_FILE = "WAXPLUS_100-200C_3_SPLIT10-1_SIM.M.zip"
+
+[MS]
+INSTRUMENT_NAME = "Agilent 5975"
+INSTRUMENT_TYPE = "Single quadrupole"
+MS_TYPE = "EI"
+ION_MODE = "POSITIVE"
+MS_COMMENTS = "Not available."
+
+[MS_METABOLITE_DATA]
+Units = "nmol/mg (wet weight)"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0021803"
+"Sample ID" = "S00031763"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Time Point" = "Baseline"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Sample type" = "Sample"
+"Biological material" = "Feces"
+"10001 Visit 2 Stool NA#7" = "10001 Visit 2 Stool NA#7"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0021804"
+"Sample ID" = "S00031764"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Time Point" = "Baseline"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Sample type" = "Sample"
+"Biological material" = "Feces"
+"10001 Visit 2 Stool NA#7" = "10002 Visit 2 Stool NA#7"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0021805"
+"Sample ID" = "S00031765"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Time Point" = "Baseline"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Sample type" = "Sample"
+"Biological material" = "Feces"
+"10001 Visit 2 Stool NA#7" = "10003 Visit 2 Stool NA#7"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0021806"
+"Sample ID" = "S00031766"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Time Point" = "Baseline"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Sample type" = "Sample"
+"Biological material" = "Feces"
+"10001 Visit 2 Stool NA#7" = "10004 Visit 2 Stool NA#7"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0021807"
+"Sample ID" = "S00031767"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Time Point" = "Baseline"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Sample type" = "Sample"
+"Biological material" = "Feces"
+"10001 Visit 2 Stool NA#7" = "10005 Visit 2 Stool NA#7"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0021808"
+"Sample ID" = "S00031768"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Time Point" = "Baseline"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Sample type" = "Sample"
+"Biological material" = "Feces"
+"10001 Visit 2 Stool NA#7" = "10006 Visit 2 Stool NA#7"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0021809"
+"Sample ID" = "S00031769"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Time Point" = "Baseline"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Sample type" = "Sample"
+"Biological material" = "Feces"
+"10001 Visit 2 Stool NA#7" = "10007 Visit 2 Stool NA#7"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0021810"
+"Sample ID" = "S00031770"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Time Point" = "Baseline"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Sample type" = "Sample"
+"Biological material" = "Feces"
+"10001 Visit 2 Stool NA#7" = "10008 Visit 2 Stool NA#7"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0021811"
+"Sample ID" = "S00031771"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Time Point" = "Baseline"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Sample type" = "Sample"
+"Biological material" = "Feces"
+"10001 Visit 2 Stool NA#7" = "10009 Visit 2 Stool NA#7"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0021812"
+"Sample ID" = "S00031772"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Time Point" = "Baseline"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Sample type" = "Sample"
+"Biological material" = "Feces"
+"10001 Visit 2 Stool NA#7" = "10010 Visit 2 Stool NA#7"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0021813"
+"Sample ID" = "S00031773"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Time Point" = "Baseline"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Sample type" = "Sample"
+"Biological material" = "Feces"
+"10001 Visit 2 Stool NA#7" = "10011 Visit 2 Stool NA#7"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0021814"
+"Sample ID" = "S00031774"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Time Point" = "Baseline"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Sample type" = "Sample"
+"Biological material" = "Feces"
+"10001 Visit 2 Stool NA#7" = "10012 Visit 2 Stool NA#7"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0021815"
+"Sample ID" = "S00031775"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Time Point" = "Baseline"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Sample type" = "Sample"
+"Biological material" = "Feces"
+"10001 Visit 2 Stool NA#7" = "10013 Visit 2 Stool NA#7"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0021816"
+"Sample ID" = "S00031776"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Time Point" = "Baseline"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Sample type" = "Sample"
+"Biological material" = "Feces"
+"10001 Visit 2 Stool NA#7" = "10014 Visit 2 Stool NA#7"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0021817"
+"Sample ID" = "S00031777"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Time Point" = "Baseline"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Sample type" = "Sample"
+"Biological material" = "Feces"
+"10001 Visit 2 Stool NA#7" = "10015 Visit 2 Stool NA#7"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0021818"
+"Sample ID" = "S00031778"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Time Point" = "Baseline"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Sample type" = "Sample"
+"Biological material" = "Feces"
+"10001 Visit 2 Stool NA#7" = "10016 Visit 2 Stool NA#7"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0021819"
+"Sample ID" = "S00031779"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Time Point" = "Baseline"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Sample type" = "Sample"
+"Biological material" = "Feces"
+"10001 Visit 2 Stool NA#7" = "10017 Visit 2 Stool NA#7"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0021820"
+"Sample ID" = "S00031780"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Time Point" = "Baseline"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Sample type" = "Sample"
+"Biological material" = "Feces"
+"10001 Visit 2 Stool NA#7" = "10018 Visit 2 Stool NA#7"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0021803"
+"Sample ID" = "S00031781"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Time Point" = "Day 90"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Sample type" = "Sample"
+"Biological material" = "Feces"
+"10001 Visit 2 Stool NA#7" = "10001 Visit 3 Stool NA#7"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0021804"
+"Sample ID" = "S00031782"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Time Point" = "Day 90"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Sample type" = "Sample"
+"Biological material" = "Feces"
+"10001 Visit 2 Stool NA#7" = "10002 Visit 3 Stool NA#7"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0021805"
+"Sample ID" = "S00031783"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Time Point" = "Day 90"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Sample type" = "Sample"
+"Biological material" = "Feces"
+"10001 Visit 2 Stool NA#7" = "10003 Visit 3 Stool NA#7"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0021806"
+"Sample ID" = "S00031784"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Time Point" = "Day 90"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Sample type" = "Sample"
+"Biological material" = "Feces"
+"10001 Visit 2 Stool NA#7" = "10004 Visit 3 Stool NA#7"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0021807"
+"Sample ID" = "S00031785"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Time Point" = "Day 90"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Sample type" = "Sample"
+"Biological material" = "Feces"
+"10001 Visit 2 Stool NA#7" = "10005 Visit 3 Stool NA#7"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0021808"
+"Sample ID" = "S00031786"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Time Point" = "Day 90"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Sample type" = "Sample"
+"Biological material" = "Feces"
+"10001 Visit 2 Stool NA#7" = "10006 Visit 3 Stool NA#7"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0021809"
+"Sample ID" = "S00031787"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Time Point" = "Day 90"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Sample type" = "Sample"
+"Biological material" = "Feces"
+"10001 Visit 2 Stool NA#7" = "10007 Visit 3 Stool NA#7"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0021810"
+"Sample ID" = "S00031788"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Time Point" = "Day 90"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Sample type" = "Sample"
+"Biological material" = "Feces"
+"10001 Visit 2 Stool NA#7" = "10008 Visit 3 Stool NA#7"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0021811"
+"Sample ID" = "S00031789"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Time Point" = "Day 90"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Sample type" = "Sample"
+"Biological material" = "Feces"
+"10001 Visit 2 Stool NA#7" = "10009 Visit 3 Stool NA#7"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0021812"
+"Sample ID" = "S00031790"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Time Point" = "Day 90"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Sample type" = "Sample"
+"Biological material" = "Feces"
+"10001 Visit 2 Stool NA#7" = "10010 Visit 3 Stool NA#7"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0021813"
+"Sample ID" = "S00031791"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Time Point" = "Day 90"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Sample type" = "Sample"
+"Biological material" = "Feces"
+"10001 Visit 2 Stool NA#7" = "10011 Visit 3 Stool NA#7"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0021814"
+"Sample ID" = "S00031792"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Time Point" = "Day 90"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Sample type" = "Sample"
+"Biological material" = "Feces"
+"10001 Visit 2 Stool NA#7" = "10012 Visit 3 Stool NA#7"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0021815"
+"Sample ID" = "S00031793"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Time Point" = "Day 90"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Sample type" = "Sample"
+"Biological material" = "Feces"
+"10001 Visit 2 Stool NA#7" = "10013 Visit 3 Stool NA#7"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0021816"
+"Sample ID" = "S00031794"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Time Point" = "Day 90"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Sample type" = "Sample"
+"Biological material" = "Feces"
+"10001 Visit 2 Stool NA#7" = "10014 Visit 3 Stool NA#7"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0021817"
+"Sample ID" = "S00031795"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Time Point" = "Day 90"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Sample type" = "Sample"
+"Biological material" = "Feces"
+"10001 Visit 2 Stool NA#7" = "10015 Visit 3 Stool NA#7"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0021818"
+"Sample ID" = "S00031796"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Time Point" = "Day 90"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Sample type" = "Sample"
+"Biological material" = "Feces"
+"10001 Visit 2 Stool NA#7" = "10016 Visit 3 Stool NA#7"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0021819"
+"Sample ID" = "S00031797"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Time Point" = "Day 90"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Sample type" = "Sample"
+"Biological material" = "Feces"
+"10001 Visit 2 Stool NA#7" = "10017 Visit 3 Stool NA#7"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0021820"
+"Sample ID" = "S00031798"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Time Point" = "Day 90"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Sample type" = "Sample"
+"Biological material" = "Feces"
+"10001 Visit 2 Stool NA#7" = "10018 Visit 3 Stool NA#7"

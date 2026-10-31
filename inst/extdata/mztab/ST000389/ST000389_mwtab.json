@@ -1,0 +1,603 @@
+[
+{
+"METABOLOMICS WORKBENCH":{"VERSION":"1","CREATED_ON":"July 9, 2016, 12:09 pm"},
+
+"PROJECT":{"PROJECT_TITLE":"Serum phosphatidylethanolamine levels distinguish benign from malignant solitary pulmonary nodules and represent a potential diagnostic biomarker for lung cancer.","PROJECT_SUMMARY":"Recent computed tomography (CT) screening trials showed that it is effective for early detection of lung cancer, but were plagued by high false positive rates. Additional blood biomarker tests designed to complement CT screening and reduce false positive rates are highly desirable. In the current study, we expand upon our initial experimental findings as part of the discovery phase by evaluating metabolites in serum from subjects with benign or malignant SPNs using a combined approach of gas chromatography time-of-flight mass spectrometry (GC-TOFMS) and hydrophilic liquid chromatography accurate mass quadrupole time-of-flight mass spectrometry (HILIC-qTOFMS). Furthermore, we evaluated serum collected pre-diagnosis and at-diagnosis of lung cancer in addition to samples obtained post-surgical intervention from subjects with malignant SPNs (post-diagnosis). We hypothesize that our systems biology approach to identify candidate metabolomics biomarkers will ultimately lead to improved early detection of lung cancer and can be used in as a companion blood test to LDCT screening.","INSTITUTE":"University of California, Davis","DEPARTMENT":"Genome and Biomedical Sciences Facility","LABORATORY":"WCMC Metabolomics Core","LAST_NAME":"Fiehn","FIRST_NAME":"Oliver","ADDRESS":"1315 Genome and Biomedical Sciences Facility, 451 Health Sciences Drive, Davis, CA 95616","EMAIL":"ofiehn@ucdavis.edu","PHONE":"(530) 754-8258","FUNDING_SOURCE":"NIH U24DK097154","PUBLICATIONS":"doi: 10.3233/CBM-160602."},
+
+"STUDY":{"STUDY_TITLE":"Serum phosphatidylethanolamine levels distinguish benign from malignant solitary pulmonary nodules and represent a potential diagnostic biomarker for lung cancer (part II)","STUDY_SUMMARY":"Recent computed tomography (CT) screening trials showed that it is effective for early detection of lung cancer, but were plagued by high false positive rates. Additional blood biomarker tests designed to complement CT screening and reduce false positive rates are highly desirable. In the current study, we expand upon our initial experimental findings as part of the discovery phase by evaluating metabolites in serum from subjects with benign or malignant SPNs using a combined approach of gas chromatography time-of-flight mass spectrometry (GC-TOFMS) and hydrophilic liquid chromatography accurate mass quadrupole time-of-flight mass spectrometry (HILIC-qTOFMS). Furthermore, we evaluated serum collected pre-diagnosis and at-diagnosis of lung cancer in addition to samples obtained post-surgical intervention from subjects with malignant SPNs (post-diagnosis). We hypothesize that our systems biology approach to identify candidate metabolomics biomarkers will ultimately lead to improved early detection of lung cancer and can be used in as a companion blood test to LDCT screening.","INSTITUTE":"University of California, Davis","DEPARTMENT":"Genome and Biomedical Sciences Facility","LABORATORY":"WCMC Metabolomics Core","LAST_NAME":"Fiehn","FIRST_NAME":"Oliver","ADDRESS":"1315 Genome and Biomedical Sciences Facility, 451 Health Sciences Drive, Davis, CA 95616","EMAIL":"ofiehn@ucdavis.edu","PHONE":"(530) 754-8258","PUBLICATIONS":"doi: 10.3233/CBM-160602."},
+
+"SUBJECT":{"SUBJECT_TYPE":"Human","SUBJECT_SPECIES":"Homo sapiens","TAXONOMY_ID":"9606","AGE_OR_AGE_RANGE":"53-81","GENDER":"Male/Female","HUMAN_SMOKING_STATUS":"Former/Current"},
+"SUBJECT_SAMPLE_FACTORS":[
+{
+"Subject ID":"63",
+"Sample ID":"131008dlvsa27_1",
+"Factors":{"Smoking Status":"Former","Gender":"Male","Emphysema/COPD":"Yes","Group":"Benign"},
+"Additional sample data":{"Cancer Type":"N/A","Nodule Classification":"SOLID NODULES ONLY"}
+},
+{
+"Subject ID":"44",
+"Sample ID":"131008dlvsa08_1",
+"Factors":{"Smoking Status":"Former","Gender":"Male","Emphysema/COPD":"No","Group":"Benign"},
+"Additional sample data":{"Cancer Type":"N/A","Nodule Classification":"SOLID NODULES ONLY"}
+},
+{
+"Subject ID":"111",
+"Sample ID":"131009dlvsa25_1",
+"Factors":{"Smoking Status":"Former","Gender":"Male","Emphysema/COPD":"Yes","Group":"Benign"},
+"Additional sample data":{"Cancer Type":"N/A","Nodule Classification":"SOLID NODULES ONLY"}
+},
+{
+"Subject ID":"33",
+"Sample ID":"131007dlvsa47_1",
+"Factors":{"Smoking Status":"Former","Gender":"Male","Emphysema/COPD":"Yes","Group":"Benign"},
+"Additional sample data":{"Cancer Type":"N/A","Nodule Classification":"SOLID NODULES ONLY"}
+},
+{
+"Subject ID":"56",
+"Sample ID":"131008dlvsa20_1",
+"Factors":{"Smoking Status":"Former","Gender":"Male","Emphysema/COPD":"Yes","Group":"Benign"},
+"Additional sample data":{"Cancer Type":"N/A","Nodule Classification":"GGO ONLY"}
+},
+{
+"Subject ID":"116",
+"Sample ID":"131009dlvsa30_1",
+"Factors":{"Smoking Status":"Former","Gender":"Female","Emphysema/COPD":"No","Group":"Benign"},
+"Additional sample data":{"Cancer Type":"N/A","Nodule Classification":"GGO ONLY"}
+},
+{
+"Subject ID":"119",
+"Sample ID":"131009dlvsa33_1",
+"Factors":{"Smoking Status":"Former","Gender":"Female","Emphysema/COPD":"Yes","Group":"Benign"},
+"Additional sample data":{"Cancer Type":"N/A","Nodule Classification":"GGO + SN"}
+},
+{
+"Subject ID":"109",
+"Sample ID":"131009dlvsa23_1",
+"Factors":{"Smoking Status":"Former","Gender":"Female","Emphysema/COPD":"No","Group":"Benign"},
+"Additional sample data":{"Cancer Type":"N/A","Nodule Classification":"SOLID NODULES ONLY"}
+},
+{
+"Subject ID":"74",
+"Sample ID":"131008dlvsa38_1",
+"Factors":{"Smoking Status":"Current","Gender":"Female","Emphysema/COPD":"No","Group":"Benign"},
+"Additional sample data":{"Cancer Type":"N/A","Nodule Classification":"SOLID NODULES ONLY"}
+},
+{
+"Subject ID":"10",
+"Sample ID":"131007dlvsa24_1",
+"Factors":{"Smoking Status":"Current","Gender":"Female","Emphysema/COPD":"Yes","Group":"Benign"},
+"Additional sample data":{"Cancer Type":"N/A","Nodule Classification":"GGO + SN"}
+},
+{
+"Subject ID":"122",
+"Sample ID":"131009dlvsa36_1",
+"Factors":{"Smoking Status":"Former","Gender":"Female","Emphysema/COPD":"Yes","Group":"Benign"},
+"Additional sample data":{"Cancer Type":"N/A","Nodule Classification":"GGO + SN"}
+},
+{
+"Subject ID":"9",
+"Sample ID":"131007dlvsa23_1",
+"Factors":{"Smoking Status":"Current","Gender":"Female","Emphysema/COPD":"Yes","Group":"Benign"},
+"Additional sample data":{"Cancer Type":"N/A","Nodule Classification":"GGO ONLY"}
+},
+{
+"Subject ID":"97",
+"Sample ID":"131009dlvsa11_1",
+"Factors":{"Smoking Status":"Former","Gender":"Female","Emphysema/COPD":"Yes","Group":"Benign"},
+"Additional sample data":{"Cancer Type":"N/A","Nodule Classification":"SOLID NODULES ONLY"}
+},
+{
+"Subject ID":"21",
+"Sample ID":"131007dlvsa35_1",
+"Factors":{"Smoking Status":"Current","Gender":"Female","Emphysema/COPD":"Yes","Group":"Benign"},
+"Additional sample data":{"Cancer Type":"N/A","Nodule Classification":"GGO ONLY"}
+},
+{
+"Subject ID":"4",
+"Sample ID":"131007dlvsa18_1",
+"Factors":{"Smoking Status":"Current","Gender":"Female","Emphysema/COPD":"Yes","Group":"Benign"},
+"Additional sample data":{"Cancer Type":"N/A","Nodule Classification":"SOLID NODULES ONLY"}
+},
+{
+"Subject ID":"27",
+"Sample ID":"131007dlvsa41_1",
+"Factors":{"Smoking Status":"Former","Gender":"Female","Emphysema/COPD":"No","Group":"Benign"},
+"Additional sample data":{"Cancer Type":"N/A","Nodule Classification":"SOLID NODULES ONLY"}
+},
+{
+"Subject ID":"99",
+"Sample ID":"131009dlvsa13_1",
+"Factors":{"Smoking Status":"Former","Gender":"Female","Emphysema/COPD":"Yes","Group":"Benign"},
+"Additional sample data":{"Cancer Type":"N/A","Nodule Classification":"SOLID NODULES ONLY"}
+},
+{
+"Subject ID":"3",
+"Sample ID":"131007dlvsa17_1",
+"Factors":{"Smoking Status":"Current","Gender":"Male","Emphysema/COPD":"Yes","Group":"Benign"},
+"Additional sample data":{"Cancer Type":"N/A","Nodule Classification":"SOLID NODULES ONLY"}
+},
+{
+"Subject ID":"29",
+"Sample ID":"131007dlvsa43_1",
+"Factors":{"Smoking Status":"Current","Gender":"Female","Emphysema/COPD":"Yes","Group":"Benign"},
+"Additional sample data":{"Cancer Type":"N/A","Nodule Classification":"SOLID NODULES ONLY"}
+},
+{
+"Subject ID":"68",
+"Sample ID":"131008dlvsa32_1",
+"Factors":{"Smoking Status":"Current","Gender":"Male","Emphysema/COPD":"No","Group":"Benign"},
+"Additional sample data":{"Cancer Type":"N/A","Nodule Classification":"SOLID NODULES ONLY"}
+},
+{
+"Subject ID":"15",
+"Sample ID":"131007dlvsa29_1",
+"Factors":{"Smoking Status":"Current","Gender":"Male","Emphysema/COPD":"Yes","Group":"Benign"},
+"Additional sample data":{"Cancer Type":"N/A","Nodule Classification":"GGO ONLY"}
+},
+{
+"Subject ID":"23",
+"Sample ID":"131007dlvsa37_1",
+"Factors":{"Smoking Status":"Current","Gender":"Female","Emphysema/COPD":"No","Group":"Benign"},
+"Additional sample data":{"Cancer Type":"N/A","Nodule Classification":"SOLID NODULES ONLY"}
+},
+{
+"Subject ID":"1",
+"Sample ID":"131007dlvsa15_1",
+"Factors":{"Smoking Status":"Former","Gender":"Female","Emphysema/COPD":"No","Group":"Benign"},
+"Additional sample data":{"Cancer Type":"N/A","Nodule Classification":"GGO + SN"}
+},
+{
+"Subject ID":"13",
+"Sample ID":"131007dlvsa27_1",
+"Factors":{"Smoking Status":"Current","Gender":"Female","Emphysema/COPD":"Yes","Group":"Benign"},
+"Additional sample data":{"Cancer Type":"N/A","Nodule Classification":"GGO ONLY"}
+},
+{
+"Subject ID":"24",
+"Sample ID":"131007dlvsa38_1",
+"Factors":{"Smoking Status":"Former","Gender":"Male","Emphysema/COPD":"No","Group":"Benign"},
+"Additional sample data":{"Cancer Type":"N/A","Nodule Classification":"SOLID NODULES ONLY"}
+},
+{
+"Subject ID":"34",
+"Sample ID":"131007dlvsa48_1",
+"Factors":{"Smoking Status":"Current","Gender":"Male","Emphysema/COPD":"No","Group":"Benign"},
+"Additional sample data":{"Cancer Type":"N/A","Nodule Classification":"GGO + SN"}
+},
+{
+"Subject ID":"20",
+"Sample ID":"131007dlvsa34_1",
+"Factors":{"Smoking Status":"Current","Gender":"Female","Emphysema/COPD":"Yes","Group":"Benign"},
+"Additional sample data":{"Cancer Type":"N/A","Nodule Classification":"GGO ONLY"}
+},
+{
+"Subject ID":"57",
+"Sample ID":"131008dlvsa21_1",
+"Factors":{"Smoking Status":"Former","Gender":"Female","Emphysema/COPD":"No","Group":"Benign"},
+"Additional sample data":{"Cancer Type":"N/A","Nodule Classification":"GGO ONLY"}
+},
+{
+"Subject ID":"75",
+"Sample ID":"131008dlvsa39_1",
+"Factors":{"Smoking Status":"Former","Gender":"Female","Emphysema/COPD":"Yes","Group":"Benign"},
+"Additional sample data":{"Cancer Type":"N/A","Nodule Classification":"GGO ONLY"}
+},
+{
+"Subject ID":"115",
+"Sample ID":"131009dlvsa29_1",
+"Factors":{"Smoking Status":"Former","Gender":"Female","Emphysema/COPD":"Yes","Group":"Benign"},
+"Additional sample data":{"Cancer Type":"N/A","Nodule Classification":"GGO + SN"}
+},
+{
+"Subject ID":"85",
+"Sample ID":"131008dlvsa49_1",
+"Factors":{"Smoking Status":"Former","Gender":"Male","Emphysema/COPD":"Yes","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"adeno 1a","Nodule Classification":"GGO + SN"}
+},
+{
+"Subject ID":"5",
+"Sample ID":"131007dlvsa19_1",
+"Factors":{"Smoking Status":"Current","Gender":"Male","Emphysema/COPD":"Yes","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"small cell","Nodule Classification":"SOLID NODULES ONLY"}
+},
+{
+"Subject ID":"11",
+"Sample ID":"131007dlvsa25_1",
+"Factors":{"Smoking Status":"Current","Gender":"Male","Emphysema/COPD":"Yes","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"adeno 1b","Nodule Classification":"GGO + SN"}
+},
+{
+"Subject ID":"12",
+"Sample ID":"131007dlvsa26_1",
+"Factors":{"Smoking Status":"Former","Gender":"Male","Emphysema/COPD":"Yes","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"adeno 1a and Small cell","Nodule Classification":"GGO + SN"}
+},
+{
+"Subject ID":"19",
+"Sample ID":"131007dlvsa33_1",
+"Factors":{"Smoking Status":"Former","Gender":"Female","Emphysema/COPD":"No","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"adeno 1a","Nodule Classification":"SOLID NODULES ONLY"}
+},
+{
+"Subject ID":"6",
+"Sample ID":"131007dlvsa20_1",
+"Factors":{"Smoking Status":"Former","Gender":"Male","Emphysema/COPD":"No","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"adeno 1a","Nodule Classification":"GGO ONLY"}
+},
+{
+"Subject ID":"103",
+"Sample ID":"131009dlvsa17_1",
+"Factors":{"Smoking Status":"Former","Gender":"Female","Emphysema/COPD":"No","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"adeno 1a","Nodule Classification":"GGO + SN"}
+},
+{
+"Subject ID":"8",
+"Sample ID":"131007dlvsa22_1",
+"Factors":{"Smoking Status":"Former","Gender":"Female","Emphysema/COPD":"Yes","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"adeno 1a","Nodule Classification":"GGO + SN"}
+},
+{
+"Subject ID":"2",
+"Sample ID":"131007dlvsa16_1",
+"Factors":{"Smoking Status":"Current","Gender":"Female","Emphysema/COPD":"Yes","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"adeno 1a","Nodule Classification":"GGO + SN"}
+},
+{
+"Subject ID":"18",
+"Sample ID":"131007dlvsa32_1",
+"Factors":{"Smoking Status":"Former","Gender":"Female","Emphysema/COPD":"No","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"adenocarcinoma 1A","Nodule Classification":"Single Nodule"}
+},
+{
+"Subject ID":"26",
+"Sample ID":"131007dlvsa40_1",
+"Factors":{"Smoking Status":"Former","Gender":"Female","Emphysema/COPD":"No","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"squamous 1a","Nodule Classification":"GGO + SN"}
+},
+{
+"Subject ID":"37",
+"Sample ID":"131008dlvsa01_1",
+"Factors":{"Smoking Status":"Former","Gender":"Female","Emphysema/COPD":"Yes","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"small cell (metastatic)","Nodule Classification":"GGO + SN"}
+},
+{
+"Subject ID":"22",
+"Sample ID":"131007dlvsa36_1",
+"Factors":{"Smoking Status":"Former","Gender":"Female","Emphysema/COPD":"No","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"adeno 1A","Nodule Classification":"SOLID NODULES ONLY"}
+},
+{
+"Subject ID":"55",
+"Sample ID":"131008dlvsa19_1",
+"Factors":{"Smoking Status":"Former","Gender":"Female","Emphysema/COPD":"Yes","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"adeno 1A","Nodule Classification":"GGO + SN"}
+},
+{
+"Subject ID":"46",
+"Sample ID":"131008dlvsa10_1",
+"Factors":{"Smoking Status":"Current","Gender":"Female","Emphysema/COPD":"No","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"adeno stage 2","Nodule Classification":"SOLID NODULES ONLY"}
+},
+{
+"Subject ID":"28",
+"Sample ID":"131007dlvsa42_1",
+"Factors":{"Smoking Status":"Former","Gender":"Male","Emphysema/COPD":"No","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"adeno Stg IV","Nodule Classification":"No NODULES"}
+},
+{
+"Subject ID":"16",
+"Sample ID":"131007dlvsa30_1",
+"Factors":{"Smoking Status":"Former","Gender":"Female","Emphysema/COPD":"No","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"adeno 1A","Nodule Classification":"GGO + SN"}
+},
+{
+"Subject ID":"42",
+"Sample ID":"131008dlvsa06_1",
+"Factors":{"Smoking Status":"Former","Gender":"Male","Emphysema/COPD":"No","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"adeno 1b","Nodule Classification":"GGO ONLY"}
+},
+{
+"Subject ID":"107",
+"Sample ID":"131009dlvsa21_1",
+"Factors":{"Smoking Status":"Current","Gender":"Female","Emphysema/COPD":"Yes","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"adeno 1A","Nodule Classification":"GGO ONLY"}
+},
+{
+"Subject ID":"25",
+"Sample ID":"131007dlvsa39_1",
+"Factors":{"Smoking Status":"Former","Gender":"Female","Emphysema/COPD":"No","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"adeno  1a","Nodule Classification":"GGO + SN"}
+},
+{
+"Subject ID":"14",
+"Sample ID":"131007dlvsa28_1",
+"Factors":{"Smoking Status":"Current","Gender":"Female","Emphysema/COPD":"No","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"adeno  1a","Nodule Classification":"No NODULES"}
+},
+{
+"Subject ID":"87",
+"Sample ID":"131009dlvsa01_1",
+"Factors":{"Smoking Status":"Current","Gender":"Male","Emphysema/COPD":"No","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"squa IIIa","Nodule Classification":"SOLID NODULES ONLY"}
+},
+{
+"Subject ID":"92",
+"Sample ID":"131009dlvsa06_1",
+"Factors":{"Smoking Status":"Former","Gender":"Female","Emphysema/COPD":"No","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"adeno 1a","Nodule Classification":"GGO + SN"}
+},
+{
+"Subject ID":"86",
+"Sample ID":"131008dlvsa50_1",
+"Factors":{"Smoking Status":"Current","Gender":"Female","Emphysema/COPD":"Yes","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"adeno 1a","Nodule Classification":"GGO + SN"}
+},
+{
+"Subject ID":"41",
+"Sample ID":"131008dlvsa05_1",
+"Factors":{"Smoking Status":"Former","Gender":"Female","Emphysema/COPD":"Yes","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"adeno 1a","Nodule Classification":"GGO + SN"}
+},
+{
+"Subject ID":"47",
+"Sample ID":"131008dlvsa11_1",
+"Factors":{"Smoking Status":"Current","Gender":"Male","Emphysema/COPD":"Yes","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"small cell","Nodule Classification":"SOLID NODULES ONLY"}
+},
+{
+"Subject ID":"38",
+"Sample ID":"131008dlvsa02_1",
+"Factors":{"Smoking Status":"Former","Gender":"Female","Emphysema/COPD":"Yes","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"adeno 1A","Nodule Classification":"GGO + SN"}
+},
+{
+"Subject ID":"17",
+"Sample ID":"131007dlvsa31_1",
+"Factors":{"Smoking Status":"Former","Gender":"Female","Emphysema/COPD":"No","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"adeno  1a","Nodule Classification":"GGO + SN"}
+},
+{
+"Subject ID":"52",
+"Sample ID":"131008dlvsa16_1",
+"Factors":{"Smoking Status":"Current","Gender":"Male","Emphysema/COPD":"No","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"squa IIIa","Nodule Classification":"SOLID NODULES ONLY"}
+},
+{
+"Subject ID":"100",
+"Sample ID":"131009dlvsa14_1",
+"Factors":{"Smoking Status":"Former","Gender":"Male","Emphysema/COPD":"Yes","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"adeno 1a","Nodule Classification":"GGO + SN"}
+},
+{
+"Subject ID":"89",
+"Sample ID":"131009dlvsa03_1",
+"Factors":{"Smoking Status":"Current","Gender":"Male","Emphysema/COPD":"Yes","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"adeno 1b","Nodule Classification":"GGO + SN"}
+},
+{
+"Subject ID":"83",
+"Sample ID":"131008dlvsa47_1",
+"Factors":{"Smoking Status":"Former","Gender":"Male","Emphysema/COPD":"No","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"adeno 1b","Nodule Classification":"GGO + SN"}
+},
+{
+"Subject ID":"53",
+"Sample ID":"131008dlvsa17_1",
+"Factors":{"Smoking Status":"Former","Gender":"Female","Emphysema/COPD":"No","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"adeno 1a","Nodule Classification":"SOLID NODULES ONLY"}
+},
+{
+"Subject ID":"78",
+"Sample ID":"131008dlvsa42_1",
+"Factors":{"Smoking Status":"Former","Gender":"Male","Emphysema/COPD":"No","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"adeno 1a","Nodule Classification":"GGO ONLY"}
+},
+{
+"Subject ID":"91",
+"Sample ID":"131009dlvsa05_1",
+"Factors":{"Smoking Status":"Former","Gender":"Female","Emphysema/COPD":"No","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"adeno 1a","Nodule Classification":"GGO + SN"}
+},
+{
+"Subject ID":"93",
+"Sample ID":"131009dlvsa07_1",
+"Factors":{"Smoking Status":"Current","Gender":"Female","Emphysema/COPD":"Yes","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"adeno 1b","Nodule Classification":"GGO + SN"}
+},
+{
+"Subject ID":"108",
+"Sample ID":"131009dlvsa22_1",
+"Factors":{"Smoking Status":"Current","Gender":"Male","Emphysema/COPD":"Yes","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"adeno 1a","Nodule Classification":"SOLID NODULES ONLY"}
+},
+{
+"Subject ID":"112",
+"Sample ID":"131009dlvsa26_1",
+"Factors":{"Smoking Status":"Former","Gender":"Female","Emphysema/COPD":"Yes","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"adeno 1a","Nodule Classification":"GGO + SN"}
+},
+{
+"Subject ID":"65",
+"Sample ID":"131008dlvsa29_1",
+"Factors":{"Smoking Status":"Current","Gender":"Female","Emphysema/COPD":"Yes","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"squamous 1b","Nodule Classification":"SOLID NODULES ONLY"}
+},
+{
+"Subject ID":"73",
+"Sample ID":"131008dlvsa37_1",
+"Factors":{"Smoking Status":"Current","Gender":"Female","Emphysema/COPD":"Yes","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"adeno 1a","Nodule Classification":"GGO + SN"}
+},
+{
+"Subject ID":"36",
+"Sample ID":"131007dlvsa50_1",
+"Factors":{"Smoking Status":"Former","Gender":"Female","Emphysema/COPD":"No","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"adenocarcinoma 1A","Nodule Classification":"Single Nodule"}
+},
+{
+"Subject ID":"50",
+"Sample ID":"131008dlvsa14_1",
+"Factors":{"Smoking Status":"Former","Gender":"Female","Emphysema/COPD":"No","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"squamous 1a","Nodule Classification":"GGO + SN"}
+},
+{
+"Subject ID":"106",
+"Sample ID":"131009dlvsa20_1",
+"Factors":{"Smoking Status":"Former","Gender":"Female","Emphysema/COPD":"Yes","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"adeno 1A","Nodule Classification":"GGO + SN"}
+},
+{
+"Subject ID":"102",
+"Sample ID":"131009dlvsa16_1",
+"Factors":{"Smoking Status":"Former","Gender":"Female","Emphysema/COPD":"Yes","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"adeno 1A","Nodule Classification":"GGO + SN"}
+},
+{
+"Subject ID":"113",
+"Sample ID":"131009dlvsa27_1",
+"Factors":{"Smoking Status":"Current","Gender":"Female","Emphysema/COPD":"No","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"adeno stage 2","Nodule Classification":"SOLID NODULES ONLY"}
+},
+{
+"Subject ID":"101",
+"Sample ID":"131009dlvsa15_1",
+"Factors":{"Smoking Status":"Former","Gender":"Female","Emphysema/COPD":"No","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"adeno 1A","Nodule Classification":"GGO + SN"}
+},
+{
+"Subject ID":"121",
+"Sample ID":"131009dlvsa35_1",
+"Factors":{"Smoking Status":"Former","Gender":"Male","Emphysema/COPD":"No","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"adeno 1b","Nodule Classification":"GGO ONLY"}
+},
+{
+"Subject ID":"124",
+"Sample ID":"131009dlvsa38_1",
+"Factors":{"Smoking Status":"Current","Gender":"Female","Emphysema/COPD":"Yes","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"adeno 1A","Nodule Classification":"GGO ONLY"}
+},
+{
+"Subject ID":"77",
+"Sample ID":"131008dlvsa41_1",
+"Factors":{"Smoking Status":"Current","Gender":"Male","Emphysema/COPD":"Yes","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"small cell","Nodule Classification":"SOLID NODULES ONLY"}
+},
+{
+"Subject ID":"72",
+"Sample ID":"131008dlvsa36_1",
+"Factors":{"Smoking Status":"Former","Gender":"Male","Emphysema/COPD":"No","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"adeno 1a","Nodule Classification":"GGO ONLY"}
+},
+{
+"Subject ID":"80",
+"Sample ID":"131008dlvsa44_1",
+"Factors":{"Smoking Status":"Former","Gender":"Male","Emphysema/COPD":"Yes","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"adeno 1a","Nodule Classification":"GGO + SN"}
+},
+{
+"Subject ID":"49",
+"Sample ID":"131008dlvsa13_1",
+"Factors":{"Smoking Status":"Current","Gender":"Male","Emphysema/COPD":"Yes","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"adeno 1b","Nodule Classification":"GGO + SN"}
+},
+{
+"Subject ID":"125",
+"Sample ID":"131009dlvsa39_1",
+"Factors":{"Smoking Status":"Former","Gender":"Male","Emphysema/COPD":"Yes","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"adeno 1a and Small cell","Nodule Classification":"GGO + SN"}
+},
+{
+"Subject ID":"105",
+"Sample ID":"131009dlvsa19_1",
+"Factors":{"Smoking Status":"Former","Gender":"Female","Emphysema/COPD":"No","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"adeno 1a","Nodule Classification":"SOLID NODULES ONLY"}
+},
+{
+"Subject ID":"110",
+"Sample ID":"131009dlvsa24_1",
+"Factors":{"Smoking Status":"Former","Gender":"Female","Emphysema/COPD":"No","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"adeno 1a","Nodule Classification":"GGO + SN"}
+},
+{
+"Subject ID":"45",
+"Sample ID":"131008dlvsa09_1",
+"Factors":{"Smoking Status":"Current","Gender":"Male","Emphysema/COPD":"Yes","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"adeno 1a","Nodule Classification":"SOLID NODULES ONLY"}
+},
+{
+"Subject ID":"114",
+"Sample ID":"131009dlvsa28_1",
+"Factors":{"Smoking Status":"Former","Gender":"Female","Emphysema/COPD":"Yes","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"adeno 1a","Nodule Classification":"GGO + SN"}
+},
+{
+"Subject ID":"117",
+"Sample ID":"131009dlvsa31_1",
+"Factors":{"Smoking Status":"Current","Gender":"Female","Emphysema/COPD":"Yes","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"squamous 1b","Nodule Classification":"SOLID NODULES ONLY"}
+},
+{
+"Subject ID":"66",
+"Sample ID":"131008dlvsa30_1",
+"Factors":{"Smoking Status":"Current","Gender":"Female","Emphysema/COPD":"Yes","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"adeno 1a","Nodule Classification":"GGO + SN"}
+},
+{
+"Subject ID":"118",
+"Sample ID":"131009dlvsa32_1",
+"Factors":{"Smoking Status":"Former","Gender":"Female","Emphysema/COPD":"Yes","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"small cell (metastatic)","Nodule Classification":"GGO + SN"}
+},
+{
+"Subject ID":"58",
+"Sample ID":"131008dlvsa22_1",
+"Factors":{"Smoking Status":"Former","Gender":"Female","Emphysema/COPD":"No","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"adeno 1A","Nodule Classification":"SOLID NODULES ONLY"}
+},
+{
+"Subject ID":"64",
+"Sample ID":"131008dlvsa28_1",
+"Factors":{"Smoking Status":"Former","Gender":"Female","Emphysema/COPD":"Yes","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"adeno 1A","Nodule Classification":"GGO + SN"}
+},
+{
+"Subject ID":"76",
+"Sample ID":"131008dlvsa40_1",
+"Factors":{"Smoking Status":"Current","Gender":"Female","Emphysema/COPD":"No","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"adeno stage 2","Nodule Classification":"SOLID NODULES ONLY"}
+},
+{
+"Subject ID":"81",
+"Sample ID":"131008dlvsa45_1",
+"Factors":{"Smoking Status":"Former","Gender":"Female","Emphysema/COPD":"No","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"adeno 1A","Nodule Classification":"GGO + SN"}
+},
+{
+"Subject ID":"82",
+"Sample ID":"131008dlvsa46_1",
+"Factors":{"Smoking Status":"Former","Gender":"Male","Emphysema/COPD":"No","Group":"Cancer"},
+"Additional sample data":{"Cancer Type":"adeno Stg IV","Nodule Classification":"No NODULES"}
+}
+],
+"COLLECTION":{"COLLECTION_SUMMARY":"Blood samples were collected from all patients enrolled in the protocol before diagnosis (>6 months prior to surgery, pre-diagnostic). Additional blood samples were collected from some of the lung cancer patients, at-diagnosis (at diagnosis) and post-treatment (after surgery). All but one patient had their “at-diagnosis” sample collected before surgery, usually within days prior to surgery, likely on their pre-operation visit. Surgery was usually performed within 1–3 months of diagnosis. Diagnosis was made by biopsy and/or surgery with all tissue diagnoses confirmed by pathology.","SAMPLE_TYPE":"Blood","BLOOD_SERUM_OR_PLASMA":"Serum"},
+
+"TREATMENT":{"TREATMENT_SUMMARY":"The NYU Lung Cancer Biomarker Center performs low-dose CT-scan screening for high-risk smokers as part of the National Cancer Institute’s Early Detection Research Network Program (EDRN). Lung cancer cases for this study were confirmed by pathology (Table 1). Patients with benign nodules were those with stable nodules or ground glass opacity (GGO) over at least two year period with annual CT scans performed. Post-diagnosis samples were collected at least one month post-surgery. Selection of cases was performed by NYU and the blinded serum samples were sent to University of California, Davis Medical Center (UCDMC) for analysis. None of the study subjects had previous cancer or chemotherapy. All subjects had blood drawn by EDRN protocol, performed spirometry according to ATS guidelines,and answered questionnaires with smoking and occupational history."},
+
+"SAMPLEPREP":{"SAMPLEPREP_SUMMARY":"1. Switch on bath to pre-cool at –20°C (±2°C validity temperature range) 2. Gently rotate or aspirate the blood samples for about 10s to obtain a homogenised sample. 3. Aliquot 30µl of plasma sample to a 1.0 mL extraction solution. The extraction solution has to be prechilled using the ThermoElectron Neslab RTE 740 cooling bath set to -20°C. 4. Vortex the sample for about 10s and shake for 5 min at 4°C using the Orbital Mixing Chilling/Heating Plate. If you are using more than one sample, keep the rest of the sample on ice (chilled at <0°C with sodium chloride). 5. Centrifuge samples for 2min at 14000 rcf using the centrifuge Eppendorf 5415 D. 6. Aliquot two 450µL portions of the supernatant. One for analysis and one for a backup sample. Store the backup aliquot in -20°C freezer. 7. Evaporate one 450µL aliquots of the sample in the Labconco Centrivap cold trap concentrator to complete dryness. 8. The dried aliquot is then re-suspended with 450 µL 50% acetonitrile (degassed as given above). 9. Centrifuged for 2 min at 14000 rcf using the centrifuge Eppendorf 5415. 10. Remove supernatant to a new Eppendorf tube. 11. Evaporate the supernatant to dryness in the Labconco Centrivap cold trap concentrator. 12. Submit to derivatization.","SAMPLEPREP_PROTOCOL_FILENAME":"SOP blood-GCTOF-11082012.pdf"},
+
+"CHROMATOGRAPHY":{"CHROMATOGRAPHY_TYPE":"GC","INSTRUMENT_NAME":"Leco Pegasus III GC","COLUMN_NAME":"Restek Corporation Rtx-5Sil MS","FLOW_RATE":"1 ml/min","COLUMN_TEMPERATURE":"50-330C","COLUMN_PRESSURE":"7.7 PSI","INJECTION_TEMPERATURE":"50 C ramped to 250 C by 12 C/s","SAMPLE_INJECTION":"0.5 uL","TRANSFERLINE_TEMPERATURE":"230C","WASHING_BUFFER":"Ethyl Acetate","SAMPLE_LOOP_SIZE":"30 m length x 0.25 mm internal diameter","RANDOMIZATION_ORDER":"Excel generated"},
+
+"ANALYSIS":{"ANALYSIS_TYPE":"MS","LABORATORY_NAME":"WCMC Metabolomics Core","DETECTOR_TYPE":"TOF","SOFTWARE_VERSION":"ChromaTOF","DATA_FORMAT":".peg, .txt, .cdf"},
+
+"MS":{"MS_COMMENTS":"-","INSTRUMENT_NAME":"Leco Pegasus III GC TOF","INSTRUMENT_TYPE":"GC-TOF","MS_TYPE":"EI","ION_MODE":"POSITIVE","ION_SOURCE_TEMPERATURE":"250 C","IONIZATION":"Pos","IONIZATION_ENERGY":"70 eV","MASS_ACCURACY":"Nominal","SOURCE_TEMPERATURE":"250 C","SCAN_RANGE_MOVERZ":"85-500 Da","SCANNING_CYCLE":"17 Hz","SCANNING_RANGE":"85-500 Da","SKIMMER_VOLTAGE":"1850 V"},
+
+"MS_METABOLITE_DATA":{
+"Units":"counts",
+
+"Data":[false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false],
+
+"Metabolites":[{"Metabolite":"xylose","retention index":"542808","quantified m/z":"103","KEGG id":"C00181","PubChem id":"6027"},{"Metabolite":"xylitol","retention index":"566749","quantified m/z":"217","KEGG id":"C00379","PubChem id":"6912"},{"Metabolite":"xanthine","retention index":"702391","quantified m/z":"353","KEGG id":"C00385","PubChem id":"1188"},{"Metabolite":"valine","retention index":"309905","quantified m/z":"144","KEGG id":"C00183","PubChem id":"6287"},{"Metabolite":"uridine","retention index":"856953","quantified m/z":"258","KEGG id":"C00299","PubChem id":"6029"},{"Metabolite":"uric acid","retention index":"730534","quantified m/z":"441","KEGG id":"C00366","PubChem id":"1175"},{"Metabolite":"urea","retention index":"337230","quantified m/z":"171","KEGG id":"","PubChem id":""},{"Metabolite":"tyrosine","retention index":"653134","quantified m/z":"179","KEGG id":"","PubChem id":""},{"Metabolite":"tryptophan","retention index":"782085","quantified m/z":"202","KEGG id":"C00078","PubChem id":"6305"},{"Metabolite":"trans-4-hydroxyproline","retention index":"460567","quantified m/z":"158","KEGG id":"C01157","PubChem id":"5810"},{"Metabolite":"tocopherol alpha","retention index":"1067178","quantified m/z":"237","KEGG id":"C02477","PubChem id":"14985"},{"Metabolite":"threonine","retention index":"409445","quantified m/z":"117","KEGG id":"","PubChem id":""},{"Metabolite":"threonic acid","retention index":"500046","quantified m/z":"292","KEGG id":"","PubChem id":""},{"Metabolite":"taurine","retention index":"557250","quantified m/z":"326","KEGG id":"C00245","PubChem id":"1123"},{"Metabolite":"tagatose","retention index":"630162","quantified m/z":"307","KEGG id":"D09007","PubChem id":"92092"},{"Metabolite":"sucrose","retention index":"913309","quantified m/z":"271","KEGG id":"C00089","PubChem id":"5988"},{"Metabolite":"succinic acid","retention index":"370724","quantified m/z":"247","KEGG id":"","PubChem id":""},{"Metabolite":"stearic acid","retention index":"787358","quantified m/z":"117","KEGG id":"C01530","PubChem id":"5281"},{"Metabolite":"shikimic acid","retention index":"609587","quantified m/z":"204","KEGG id":"","PubChem id":""},{"Metabolite":"serine","retention index":"394656","quantified m/z":"204","KEGG id":"C00065","PubChem id":"5951"},{"Metabolite":"salicylic acid","retention index":"480445","quantified m/z":"267","KEGG id":"C00805","PubChem id":"338"},{"Metabolite":"ribose","retention index":"553058","quantified m/z":"307","KEGG id":"C00121","PubChem id":"5779"},{"Metabolite":"ribitol","retention index":"575571","quantified m/z":"217","KEGG id":"C00474","PubChem id":"827"},{"Metabolite":"quinic acid","retention index":"634266","quantified m/z":"255","KEGG id":"C00296","PubChem id":"6508"},{"Metabolite":"pseudo uridine","retention index":"813744","quantified m/z":"217","KEGG id":"C02067","PubChem id":"15047"},{"Metabolite":"proline","retention index":"366261","quantified m/z":"142","KEGG id":"","PubChem id":""},{"Metabolite":"pipecolic acid","retention index":"403598","quantified m/z":"156","KEGG id":"C00408","PubChem id":"439227"},{"Metabolite":"phenylethylamine","retention index":"510041","quantified m/z":"174","KEGG id":"","PubChem id":""},{"Metabolite":"phenylalanine","retention index":"538016","quantified m/z":"218","KEGG id":"C00079","PubChem id":"6140"},{"Metabolite":"pelargonic acid","retention index":"399114","quantified m/z":"117","KEGG id":"C01601","PubChem id":"8158"},{"Metabolite":"palmitoleic acid","retention index":"704757","quantified m/z":"129","KEGG id":"C08362","PubChem id":"445638"},{"Metabolite":"palmitic acid","retention index":"711066","quantified m/z":"313","KEGG id":"C00249","PubChem id":"985"},{"Metabolite":"oxoproline","retention index":"489576","quantified m/z":"156","KEGG id":"C01879","PubChem id":"7405"},{"Metabolite":"oxalic acid","retention index":"259625","quantified m/z":"147","KEGG id":"C00209","PubChem id":"971"},{"Metabolite":"ornithine","retention index":"594392","quantified m/z":"174","KEGG id":"C00077","PubChem id":"6262"},{"Metabolite":"oleic acid","retention index":"778858","quantified m/z":"339","KEGG id":"C00712","PubChem id":"445639"},{"Metabolite":"octadecanol","retention index":"755073","quantified m/z":"327","KEGG id":"D01924","PubChem id":"8221"},{"Metabolite":"N-methylalanine","retention index":"288435","quantified m/z":"130","KEGG id":"","PubChem id":""},{"Metabolite":"N-acetylmannosamine minor2","retention index":"735289","quantified m/z":"205","KEGG id":"","PubChem id":""},{"Metabolite":"N-acetylglycine NIST","retention index":"356109","quantified m/z":"174","KEGG id":"n/a","PubChem id":"10972"},{"Metabolite":"myristic acid","retention index":"634167","quantified m/z":"285","KEGG id":"","PubChem id":""},{"Metabolite":"monoolein","retention index":"950757","quantified m/z":"129","KEGG id":"","PubChem id":""},{"Metabolite":"methylhexadecanoic acid","retention index":"750645","quantified m/z":"117","KEGG id":"n/a","PubChem id":"10465"},{"Metabolite":"methionine","retention index":"482984","quantified m/z":"176","KEGG id":"C00073","PubChem id":"6137"},{"Metabolite":"methanolphosphate","retention index":"290163","quantified m/z":"241","KEGG id":"n/a","PubChem id":"13130"},{"Metabolite":"mannose","retention index":"644818","quantified m/z":"319","KEGG id":"","PubChem id":""},{"Metabolite":"maltose","retention index":"946798","quantified m/z":"361","KEGG id":"C00208","PubChem id":"6255"},{"Metabolite":"malic acid","retention index":"461034","quantified m/z":"233","KEGG id":"C00149","PubChem id":"222656"},{"Metabolite":"maleimide","retention index":"244928","quantified m/z":"154","KEGG id":"C07272","PubChem id":"10935"},{"Metabolite":"lysine","retention index":"663088","quantified m/z":"156","KEGG id":"C00047","PubChem id":"5962"},{"Metabolite":"linoleic acid","retention index":"777102","quantified m/z":"337","KEGG id":"C01595","PubChem id":"5280450"},{"Metabolite":"levoglucosan","retention index":"569799","quantified m/z":"204","KEGG id":"n/a","PubChem id":"2724705"},{"Metabolite":"leucine","retention index":"345709","quantified m/z":"158","KEGG id":"","PubChem id":""},{"Metabolite":"lauric acid","retention index":"547440","quantified m/z":"117","KEGG id":"C02679","PubChem id":"3893"},{"Metabolite":"lactobionic acid","retention index":"952195","quantified m/z":"204","KEGG id":"n/a","PubChem id":"517381"},{"Metabolite":"lactic acid","retention index":"215720","quantified m/z":"191","KEGG id":"C00186","PubChem id":"612"},{"Metabolite":"lactamide","retention index":"265523","quantified m/z":"232","KEGG id":"","PubChem id":""},{"Metabolite":"kynurenine","retention index":"769271","quantified m/z":"218","KEGG id":"C00328","PubChem id":"161166"},{"Metabolite":"isothreonic acid","retention index":"490829","quantified m/z":"292","KEGG id":"","PubChem id":""},{"Metabolite":"isoleucine","retention index":"355832","quantified m/z":"158","KEGG id":"C00407","PubChem id":"6306"},{"Metabolite":"isocitric acid","retention index":"617706","quantified m/z":"245","KEGG id":"","PubChem id":""},{"Metabolite":"inulobiose","retention index":"930708","quantified m/z":"204","KEGG id":"C01711","PubChem id":"439552"},{"Metabolite":"inositol myo- delta","retention index":"733355","quantified m/z":"305","KEGG id":"","PubChem id":""},{"Metabolite":"inosine","retention index":"896340","quantified m/z":"230","KEGG id":"C00294","PubChem id":"6021"},{"Metabolite":"indole-3-lactate","retention index":"764543","quantified m/z":"202","KEGG id":"C02043","PubChem id":"92904"},{"Metabolite":"indole-3-acetate","retention index":"685195","quantified m/z":"202","KEGG id":"C00954","PubChem id":"802"},{"Metabolite":"hydroxylamine","retention index":"255313","quantified m/z":"146","KEGG id":"C00192","PubChem id":"787"},{"Metabolite":"histidine","retention index":"663773","quantified m/z":"154","KEGG id":"C00135","PubChem id":"6274"},{"Metabolite":"heptadecanoic acid NIST","retention index":"737676","quantified m/z":"117","KEGG id":"n/a","PubChem id":"10465"},{"Metabolite":"glycolic acid","retention index":"227487","quantified m/z":"177","KEGG id":"C00160","PubChem id":"757"},{"Metabolite":"glycine","retention index":"364262","quantified m/z":"174","KEGG id":"C00037","PubChem id":"750"},{"Metabolite":"glycerol-alpha-phosphate","retention index":"588999","quantified m/z":"299","KEGG id":"C00093","PubChem id":"754"},{"Metabolite":"glycerol-3-galactoside","retention index":"805516","quantified m/z":"204","KEGG id":"C05401","PubChem id":"656504"},{"Metabolite":"glycerol","retention index":"343749","quantified m/z":"205","KEGG id":"C00116","PubChem id":"753"},{"Metabolite":"glyceric acid","retention index":"379389","quantified m/z":"189","KEGG id":"","PubChem id":""},{"Metabolite":"glutamic acid","retention index":"529370","quantified m/z":"246","KEGG id":"C00025","PubChem id":"33032"},{"Metabolite":"glutamine","retention index":"598894","quantified m/z":"156","KEGG id":"C00064","PubChem id":"5961"},{"Metabolite":"glucuronic acid","retention index":"666401","quantified m/z":"333","KEGG id":"C00191","PubChem id":"94715"},{"Metabolite":"glucose","retention index":"650726","quantified m/z":"160","KEGG id":"C00031","PubChem id":"107526"},{"Metabolite":"gluconic acid","retention index":"693140","quantified m/z":"333","KEGG id":"C00257","PubChem id":"10690"},{"Metabolite":"gamma-tocopherol","retention index":"1026222","quantified m/z":"223","KEGG id":"C02483","PubChem id":"92729"},{"Metabolite":"galactonic acid","retention index":"692399","quantified m/z":"292","KEGG id":"C00880","PubChem id":"128869"},{"Metabolite":"fumaric acid","retention index":"390708","quantified m/z":"245","KEGG id":"C00122","PubChem id":"444972"},{"Metabolite":"fucose + rhamnose","retention index":"577861","quantified m/z":"117","KEGG id":"C01018","PubChem id":"94270"},{"Metabolite":"fructose","retention index":"638202","quantified m/z":"307","KEGG id":"C00095","PubChem id":"5984"},{"Metabolite":"ethanolamine","retention index":"342787","quantified m/z":"174","KEGG id":"C00189","PubChem id":"700"},{"Metabolite":"erythritol","retention index":"473277","quantified m/z":"205","KEGG id":"","PubChem id":""},{"Metabolite":"dihydroabietic acid","retention index":"849610","quantified m/z":"239","KEGG id":"n/a","PubChem id":"227277"},{"Metabolite":"cystine","retention index":"804143","quantified m/z":"218","KEGG id":"C00491","PubChem id":"67678"},{"Metabolite":"cysteine-glycine","retention index":"715639","quantified m/z":"220","KEGG id":"C01419","PubChem id":"439498"},{"Metabolite":"cysteine","retention index":"497030","quantified m/z":"220","KEGG id":"","PubChem id":""},{"Metabolite":"creatinine","retention index":"504442","quantified m/z":"115","KEGG id":"","PubChem id":""},{"Metabolite":"conduritol-beta-epoxide minor","retention index":"672349","quantified m/z":"217","KEGG id":"","PubChem id":""},{"Metabolite":"conduritol beta expoxide minor","retention index":"704785","quantified m/z":"318","KEGG id":"","PubChem id":""},{"Metabolite":"citrulline","retention index":"620728","quantified m/z":"157","KEGG id":"C00327","PubChem id":"9750"},{"Metabolite":"citric acid","retention index":"617723","quantified m/z":"273","KEGG id":"C00158","PubChem id":"311"},{"Metabolite":"cholesterol","retention index":"1080995","quantified m/z":"129","KEGG id":"C00187","PubChem id":"5997"},{"Metabolite":"caprylic acid","retention index":"343899","quantified m/z":"201","KEGG id":"C06423","PubChem id":"379"},{"Metabolite":"capric acid","retention index":"451122","quantified m/z":"117","KEGG id":"C01571","PubChem id":"2969"},{"Metabolite":"beta-mannosylglycerate","retention index":"633028","quantified m/z":"259","KEGG id":"n/a","PubChem id":"5460194"},{"Metabolite":"beta-alanine","retention index":"431950","quantified m/z":"248","KEGG id":"C00099","PubChem id":"239"},{"Metabolite":"benzoic acid","retention index":"338714","quantified m/z":"179","KEGG id":"C00180","PubChem id":"243"},{"Metabolite":"aspartic acid","retention index":"478092","quantified m/z":"232","KEGG id":"C00049","PubChem id":"5960"},{"Metabolite":"asparagine","retention index":"553169","quantified m/z":"116","KEGG id":"C00152","PubChem id":"236"},{"Metabolite":"arachidonic acid isomer","retention index":"835751","quantified m/z":"91","KEGG id":"n/a","PubChem id":"5312542"},{"Metabolite":"arachidic acid","retention index":"856203","quantified m/z":"117","KEGG id":"C06425","PubChem id":"10467"},{"Metabolite":"arabitol","retention index":"572427","quantified m/z":"307","KEGG id":"C01904","PubChem id":"94154"},{"Metabolite":"arabinose","retention index":"546892","quantified m/z":"217","KEGG id":"C00259","PubChem id":"229"},{"Metabolite":"aminomalonic acid","retention index":"455266","quantified m/z":"218","KEGG id":"C00872","PubChem id":"100714"},{"Metabolite":"alpha-terpineol","retention index":"260892","quantified m/z":"267","KEGG id":"","PubChem id":""},{"Metabolite":"alpha ketoglutaric acid","retention index":"507734","quantified m/z":"198","KEGG id":"C00026","PubChem id":"51"},{"Metabolite":"alanine","retention index":"236539","quantified m/z":"116","KEGG id":"C00041","PubChem id":"5950"},{"Metabolite":"aconitic acid delta","retention index":"589666","quantified m/z":"229","KEGG id":"","PubChem id":""},{"Metabolite":"5-methoxytryptamine","retention index":"863982","quantified m/z":"174","KEGG id":"C05659","PubChem id":"1833"},{"Metabolite":"4-hydroxyproline","retention index":"487405","quantified m/z":"230","KEGG id":"","PubChem id":""},{"Metabolite":"3,6-anhydrogalactose","retention index":"587014","quantified m/z":"231","KEGG id":"C06474","PubChem id":"441040"},{"Metabolite":"3-hydroxybutanoic acid","retention index":"278651","quantified m/z":"191","KEGG id":"C01089","PubChem id":"92135"},{"Metabolite":"3-aminoisobutyric acid","retention index":"309799","quantified m/z":"102","KEGG id":"C01205","PubChem id":"64956"},{"Metabolite":"2,3-dihydroxybutanoic acid NIST","retention index":"384445","quantified m/z":"292","KEGG id":"n/a","PubChem id":"13120900"},{"Metabolite":"2-phenylpropanol NIST","retention index":"319992","quantified m/z":"193","KEGG id":"n/a","PubChem id":"447661"},{"Metabolite":"2-ketoisocaproic acid","retention index":"311320","quantified m/z":"200","KEGG id":"","PubChem id":""},{"Metabolite":"2-hydroxyvaleric acid","retention index":"310750","quantified m/z":"131","KEGG id":"n/a","PubChem id":"98009"},{"Metabolite":"2-hydroxyglutaric acid","retention index":"507692","quantified m/z":"129","KEGG id":"C02630","PubChem id":"43"},{"Metabolite":"2-hydroxybutanoic acid","retention index":"257844","quantified m/z":"131","KEGG id":"C05984","PubChem id":"94318"},{"Metabolite":"1-monostearin","retention index":"956148","quantified m/z":"399","KEGG id":"D01947","PubChem id":"24699"},{"Metabolite":"1-monopalmitin","retention index":"900928","quantified m/z":"371","KEGG id":"n/a","PubChem id":"14900"},{"Metabolite":"314770=228070~307909","retention index":"700265","quantified m/z":"220","KEGG id":"","PubChem id":""},{"Metabolite":"302365 similar to beta-alanine minor","retention index":"308309","quantified m/z":"102","KEGG id":"","PubChem id":""},{"Metabolite":"233005 carbohydrate","retention index":"817340","quantified m/z":"204","KEGG id":"","PubChem id":""}]
+}
+
+}
+]

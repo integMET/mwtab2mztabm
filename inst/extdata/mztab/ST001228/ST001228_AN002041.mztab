@@ -1,0 +1,534 @@
+MTD	mzTab-version	2.1.0-M
+MTD	mzTab-ID	ST001228_AN002041
+MTD	mzTab-profile	M+S
+MTD	title	Aquamin and Prevention of Colon Cancer (part-IV)
+MTD	description	We propose to evaluate microbial and metabolic profiles in baseline and endpoint colonic mucosal, fecal, and serum samples from human patients at risk for CRC and enrolled in a 90-day phase I clinical trial. Patients will receive daily supplementation with calcium alone, a calcium-rich multimineral (Aquamin?), or placebo (maltodextrin) (n=10 per group). We hypothesize that dietary supplementation will correlate with CRC-protective metabolic profiles and that multimineral supplementation will generate more favorable profiles than calcium supplementation alone.
+MTD	instrument[1]-name	[MS, MS:1000031, instrument model, Agilent 5975]
+MTD	instrument[1]-source	[MS, MS:1000389, electron ionization, ]
+MTD	instrument[1]-analyzer[1]	[MS, MS:1000081, quadrupole, ]
+MTD	software[1]	[MS, MS:1000799, custom unreleased software tool, mwtab2mztabm 0.1.0]
+MTD	contact[1]-name	Maureen Kachman
+MTD	contact[1]-affiliation	University of Michigan
+MTD	contact[1]-email	mkachman@med.umich.edu
+MTD	uri[1]	https://www.metabolomicsworkbench.org/data/DRCCMetadata.php?Mode=Study&StudyID=ST001228
+MTD	quantification_method	[MS, MS:1001833, quantitation analysis summary, ]
+MTD	sample[1]	S00031763
+MTD	sample[1]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[1]-tissue[1]	[,, Feces, ]
+MTD	sample[1]-custom[1]	[,,Subject ID, SU0021803]
+MTD	sample[1]-custom[2]	[,,Sample type, Sample]
+MTD	sample[1]-custom[3]	[,,Biological material, Feces]
+MTD	sample[1]-custom[4]	[,,10001 Visit 2 Stool NA#7, 10001 Visit 2 Stool NA#7]
+MTD	sample[10]	S00031772
+MTD	sample[10]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[10]-tissue[1]	[,, Feces, ]
+MTD	sample[10]-custom[1]	[,,Subject ID, SU0021812]
+MTD	sample[10]-custom[2]	[,,Sample type, Sample]
+MTD	sample[10]-custom[3]	[,,Biological material, Feces]
+MTD	sample[10]-custom[4]	[,,10001 Visit 2 Stool NA#7, 10010 Visit 2 Stool NA#7]
+MTD	sample[11]	S00031773
+MTD	sample[11]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[11]-tissue[1]	[,, Feces, ]
+MTD	sample[11]-custom[1]	[,,Subject ID, SU0021813]
+MTD	sample[11]-custom[2]	[,,Sample type, Sample]
+MTD	sample[11]-custom[3]	[,,Biological material, Feces]
+MTD	sample[11]-custom[4]	[,,10001 Visit 2 Stool NA#7, 10011 Visit 2 Stool NA#7]
+MTD	sample[12]	S00031774
+MTD	sample[12]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[12]-tissue[1]	[,, Feces, ]
+MTD	sample[12]-custom[1]	[,,Subject ID, SU0021814]
+MTD	sample[12]-custom[2]	[,,Sample type, Sample]
+MTD	sample[12]-custom[3]	[,,Biological material, Feces]
+MTD	sample[12]-custom[4]	[,,10001 Visit 2 Stool NA#7, 10012 Visit 2 Stool NA#7]
+MTD	sample[13]	S00031775
+MTD	sample[13]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[13]-tissue[1]	[,, Feces, ]
+MTD	sample[13]-custom[1]	[,,Subject ID, SU0021815]
+MTD	sample[13]-custom[2]	[,,Sample type, Sample]
+MTD	sample[13]-custom[3]	[,,Biological material, Feces]
+MTD	sample[13]-custom[4]	[,,10001 Visit 2 Stool NA#7, 10013 Visit 2 Stool NA#7]
+MTD	sample[14]	S00031776
+MTD	sample[14]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[14]-tissue[1]	[,, Feces, ]
+MTD	sample[14]-custom[1]	[,,Subject ID, SU0021816]
+MTD	sample[14]-custom[2]	[,,Sample type, Sample]
+MTD	sample[14]-custom[3]	[,,Biological material, Feces]
+MTD	sample[14]-custom[4]	[,,10001 Visit 2 Stool NA#7, 10014 Visit 2 Stool NA#7]
+MTD	sample[15]	S00031777
+MTD	sample[15]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[15]-tissue[1]	[,, Feces, ]
+MTD	sample[15]-custom[1]	[,,Subject ID, SU0021817]
+MTD	sample[15]-custom[2]	[,,Sample type, Sample]
+MTD	sample[15]-custom[3]	[,,Biological material, Feces]
+MTD	sample[15]-custom[4]	[,,10001 Visit 2 Stool NA#7, 10015 Visit 2 Stool NA#7]
+MTD	sample[16]	S00031778
+MTD	sample[16]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[16]-tissue[1]	[,, Feces, ]
+MTD	sample[16]-custom[1]	[,,Subject ID, SU0021818]
+MTD	sample[16]-custom[2]	[,,Sample type, Sample]
+MTD	sample[16]-custom[3]	[,,Biological material, Feces]
+MTD	sample[16]-custom[4]	[,,10001 Visit 2 Stool NA#7, 10016 Visit 2 Stool NA#7]
+MTD	sample[17]	S00031779
+MTD	sample[17]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[17]-tissue[1]	[,, Feces, ]
+MTD	sample[17]-custom[1]	[,,Subject ID, SU0021819]
+MTD	sample[17]-custom[2]	[,,Sample type, Sample]
+MTD	sample[17]-custom[3]	[,,Biological material, Feces]
+MTD	sample[17]-custom[4]	[,,10001 Visit 2 Stool NA#7, 10017 Visit 2 Stool NA#7]
+MTD	sample[18]	S00031780
+MTD	sample[18]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[18]-tissue[1]	[,, Feces, ]
+MTD	sample[18]-custom[1]	[,,Subject ID, SU0021820]
+MTD	sample[18]-custom[2]	[,,Sample type, Sample]
+MTD	sample[18]-custom[3]	[,,Biological material, Feces]
+MTD	sample[18]-custom[4]	[,,10001 Visit 2 Stool NA#7, 10018 Visit 2 Stool NA#7]
+MTD	sample[19]	S00031781
+MTD	sample[19]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[19]-tissue[1]	[,, Feces, ]
+MTD	sample[19]-custom[1]	[,,Subject ID, SU0021803]
+MTD	sample[19]-custom[2]	[,,Sample type, Sample]
+MTD	sample[19]-custom[3]	[,,Biological material, Feces]
+MTD	sample[19]-custom[4]	[,,10001 Visit 2 Stool NA#7, 10001 Visit 3 Stool NA#7]
+MTD	sample[2]	S00031764
+MTD	sample[2]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[2]-tissue[1]	[,, Feces, ]
+MTD	sample[2]-custom[1]	[,,Subject ID, SU0021804]
+MTD	sample[2]-custom[2]	[,,Sample type, Sample]
+MTD	sample[2]-custom[3]	[,,Biological material, Feces]
+MTD	sample[2]-custom[4]	[,,10001 Visit 2 Stool NA#7, 10002 Visit 2 Stool NA#7]
+MTD	sample[20]	S00031782
+MTD	sample[20]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[20]-tissue[1]	[,, Feces, ]
+MTD	sample[20]-custom[1]	[,,Subject ID, SU0021804]
+MTD	sample[20]-custom[2]	[,,Sample type, Sample]
+MTD	sample[20]-custom[3]	[,,Biological material, Feces]
+MTD	sample[20]-custom[4]	[,,10001 Visit 2 Stool NA#7, 10002 Visit 3 Stool NA#7]
+MTD	sample[21]	S00031783
+MTD	sample[21]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[21]-tissue[1]	[,, Feces, ]
+MTD	sample[21]-custom[1]	[,,Subject ID, SU0021805]
+MTD	sample[21]-custom[2]	[,,Sample type, Sample]
+MTD	sample[21]-custom[3]	[,,Biological material, Feces]
+MTD	sample[21]-custom[4]	[,,10001 Visit 2 Stool NA#7, 10003 Visit 3 Stool NA#7]
+MTD	sample[22]	S00031784
+MTD	sample[22]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[22]-tissue[1]	[,, Feces, ]
+MTD	sample[22]-custom[1]	[,,Subject ID, SU0021806]
+MTD	sample[22]-custom[2]	[,,Sample type, Sample]
+MTD	sample[22]-custom[3]	[,,Biological material, Feces]
+MTD	sample[22]-custom[4]	[,,10001 Visit 2 Stool NA#7, 10004 Visit 3 Stool NA#7]
+MTD	sample[23]	S00031785
+MTD	sample[23]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[23]-tissue[1]	[,, Feces, ]
+MTD	sample[23]-custom[1]	[,,Subject ID, SU0021807]
+MTD	sample[23]-custom[2]	[,,Sample type, Sample]
+MTD	sample[23]-custom[3]	[,,Biological material, Feces]
+MTD	sample[23]-custom[4]	[,,10001 Visit 2 Stool NA#7, 10005 Visit 3 Stool NA#7]
+MTD	sample[24]	S00031786
+MTD	sample[24]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[24]-tissue[1]	[,, Feces, ]
+MTD	sample[24]-custom[1]	[,,Subject ID, SU0021808]
+MTD	sample[24]-custom[2]	[,,Sample type, Sample]
+MTD	sample[24]-custom[3]	[,,Biological material, Feces]
+MTD	sample[24]-custom[4]	[,,10001 Visit 2 Stool NA#7, 10006 Visit 3 Stool NA#7]
+MTD	sample[25]	S00031787
+MTD	sample[25]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[25]-tissue[1]	[,, Feces, ]
+MTD	sample[25]-custom[1]	[,,Subject ID, SU0021809]
+MTD	sample[25]-custom[2]	[,,Sample type, Sample]
+MTD	sample[25]-custom[3]	[,,Biological material, Feces]
+MTD	sample[25]-custom[4]	[,,10001 Visit 2 Stool NA#7, 10007 Visit 3 Stool NA#7]
+MTD	sample[26]	S00031788
+MTD	sample[26]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[26]-tissue[1]	[,, Feces, ]
+MTD	sample[26]-custom[1]	[,,Subject ID, SU0021810]
+MTD	sample[26]-custom[2]	[,,Sample type, Sample]
+MTD	sample[26]-custom[3]	[,,Biological material, Feces]
+MTD	sample[26]-custom[4]	[,,10001 Visit 2 Stool NA#7, 10008 Visit 3 Stool NA#7]
+MTD	sample[27]	S00031789
+MTD	sample[27]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[27]-tissue[1]	[,, Feces, ]
+MTD	sample[27]-custom[1]	[,,Subject ID, SU0021811]
+MTD	sample[27]-custom[2]	[,,Sample type, Sample]
+MTD	sample[27]-custom[3]	[,,Biological material, Feces]
+MTD	sample[27]-custom[4]	[,,10001 Visit 2 Stool NA#7, 10009 Visit 3 Stool NA#7]
+MTD	sample[28]	S00031790
+MTD	sample[28]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[28]-tissue[1]	[,, Feces, ]
+MTD	sample[28]-custom[1]	[,,Subject ID, SU0021812]
+MTD	sample[28]-custom[2]	[,,Sample type, Sample]
+MTD	sample[28]-custom[3]	[,,Biological material, Feces]
+MTD	sample[28]-custom[4]	[,,10001 Visit 2 Stool NA#7, 10010 Visit 3 Stool NA#7]
+MTD	sample[29]	S00031791
+MTD	sample[29]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[29]-tissue[1]	[,, Feces, ]
+MTD	sample[29]-custom[1]	[,,Subject ID, SU0021813]
+MTD	sample[29]-custom[2]	[,,Sample type, Sample]
+MTD	sample[29]-custom[3]	[,,Biological material, Feces]
+MTD	sample[29]-custom[4]	[,,10001 Visit 2 Stool NA#7, 10011 Visit 3 Stool NA#7]
+MTD	sample[3]	S00031765
+MTD	sample[3]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[3]-tissue[1]	[,, Feces, ]
+MTD	sample[3]-custom[1]	[,,Subject ID, SU0021805]
+MTD	sample[3]-custom[2]	[,,Sample type, Sample]
+MTD	sample[3]-custom[3]	[,,Biological material, Feces]
+MTD	sample[3]-custom[4]	[,,10001 Visit 2 Stool NA#7, 10003 Visit 2 Stool NA#7]
+MTD	sample[30]	S00031792
+MTD	sample[30]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[30]-tissue[1]	[,, Feces, ]
+MTD	sample[30]-custom[1]	[,,Subject ID, SU0021814]
+MTD	sample[30]-custom[2]	[,,Sample type, Sample]
+MTD	sample[30]-custom[3]	[,,Biological material, Feces]
+MTD	sample[30]-custom[4]	[,,10001 Visit 2 Stool NA#7, 10012 Visit 3 Stool NA#7]
+MTD	sample[31]	S00031793
+MTD	sample[31]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[31]-tissue[1]	[,, Feces, ]
+MTD	sample[31]-custom[1]	[,,Subject ID, SU0021815]
+MTD	sample[31]-custom[2]	[,,Sample type, Sample]
+MTD	sample[31]-custom[3]	[,,Biological material, Feces]
+MTD	sample[31]-custom[4]	[,,10001 Visit 2 Stool NA#7, 10013 Visit 3 Stool NA#7]
+MTD	sample[32]	S00031794
+MTD	sample[32]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[32]-tissue[1]	[,, Feces, ]
+MTD	sample[32]-custom[1]	[,,Subject ID, SU0021816]
+MTD	sample[32]-custom[2]	[,,Sample type, Sample]
+MTD	sample[32]-custom[3]	[,,Biological material, Feces]
+MTD	sample[32]-custom[4]	[,,10001 Visit 2 Stool NA#7, 10014 Visit 3 Stool NA#7]
+MTD	sample[33]	S00031795
+MTD	sample[33]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[33]-tissue[1]	[,, Feces, ]
+MTD	sample[33]-custom[1]	[,,Subject ID, SU0021817]
+MTD	sample[33]-custom[2]	[,,Sample type, Sample]
+MTD	sample[33]-custom[3]	[,,Biological material, Feces]
+MTD	sample[33]-custom[4]	[,,10001 Visit 2 Stool NA#7, 10015 Visit 3 Stool NA#7]
+MTD	sample[34]	S00031796
+MTD	sample[34]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[34]-tissue[1]	[,, Feces, ]
+MTD	sample[34]-custom[1]	[,,Subject ID, SU0021818]
+MTD	sample[34]-custom[2]	[,,Sample type, Sample]
+MTD	sample[34]-custom[3]	[,,Biological material, Feces]
+MTD	sample[34]-custom[4]	[,,10001 Visit 2 Stool NA#7, 10016 Visit 3 Stool NA#7]
+MTD	sample[35]	S00031797
+MTD	sample[35]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[35]-tissue[1]	[,, Feces, ]
+MTD	sample[35]-custom[1]	[,,Subject ID, SU0021819]
+MTD	sample[35]-custom[2]	[,,Sample type, Sample]
+MTD	sample[35]-custom[3]	[,,Biological material, Feces]
+MTD	sample[35]-custom[4]	[,,10001 Visit 2 Stool NA#7, 10017 Visit 3 Stool NA#7]
+MTD	sample[36]	S00031798
+MTD	sample[36]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[36]-tissue[1]	[,, Feces, ]
+MTD	sample[36]-custom[1]	[,,Subject ID, SU0021820]
+MTD	sample[36]-custom[2]	[,,Sample type, Sample]
+MTD	sample[36]-custom[3]	[,,Biological material, Feces]
+MTD	sample[36]-custom[4]	[,,10001 Visit 2 Stool NA#7, 10018 Visit 3 Stool NA#7]
+MTD	sample[4]	S00031766
+MTD	sample[4]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[4]-tissue[1]	[,, Feces, ]
+MTD	sample[4]-custom[1]	[,,Subject ID, SU0021806]
+MTD	sample[4]-custom[2]	[,,Sample type, Sample]
+MTD	sample[4]-custom[3]	[,,Biological material, Feces]
+MTD	sample[4]-custom[4]	[,,10001 Visit 2 Stool NA#7, 10004 Visit 2 Stool NA#7]
+MTD	sample[5]	S00031767
+MTD	sample[5]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[5]-tissue[1]	[,, Feces, ]
+MTD	sample[5]-custom[1]	[,,Subject ID, SU0021807]
+MTD	sample[5]-custom[2]	[,,Sample type, Sample]
+MTD	sample[5]-custom[3]	[,,Biological material, Feces]
+MTD	sample[5]-custom[4]	[,,10001 Visit 2 Stool NA#7, 10005 Visit 2 Stool NA#7]
+MTD	sample[6]	S00031768
+MTD	sample[6]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[6]-tissue[1]	[,, Feces, ]
+MTD	sample[6]-custom[1]	[,,Subject ID, SU0021808]
+MTD	sample[6]-custom[2]	[,,Sample type, Sample]
+MTD	sample[6]-custom[3]	[,,Biological material, Feces]
+MTD	sample[6]-custom[4]	[,,10001 Visit 2 Stool NA#7, 10006 Visit 2 Stool NA#7]
+MTD	sample[7]	S00031769
+MTD	sample[7]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[7]-tissue[1]	[,, Feces, ]
+MTD	sample[7]-custom[1]	[,,Subject ID, SU0021809]
+MTD	sample[7]-custom[2]	[,,Sample type, Sample]
+MTD	sample[7]-custom[3]	[,,Biological material, Feces]
+MTD	sample[7]-custom[4]	[,,10001 Visit 2 Stool NA#7, 10007 Visit 2 Stool NA#7]
+MTD	sample[8]	S00031770
+MTD	sample[8]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[8]-tissue[1]	[,, Feces, ]
+MTD	sample[8]-custom[1]	[,,Subject ID, SU0021810]
+MTD	sample[8]-custom[2]	[,,Sample type, Sample]
+MTD	sample[8]-custom[3]	[,,Biological material, Feces]
+MTD	sample[8]-custom[4]	[,,10001 Visit 2 Stool NA#7, 10008 Visit 2 Stool NA#7]
+MTD	sample[9]	S00031771
+MTD	sample[9]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[9]-tissue[1]	[,, Feces, ]
+MTD	sample[9]-custom[1]	[,,Subject ID, SU0021811]
+MTD	sample[9]-custom[2]	[,,Sample type, Sample]
+MTD	sample[9]-custom[3]	[,,Biological material, Feces]
+MTD	sample[9]-custom[4]	[,,10001 Visit 2 Stool NA#7, 10009 Visit 2 Stool NA#7]
+MTD	ms_run[1]-location	S00031763
+MTD	ms_run[1]-instrument_ref	instrument[1]
+MTD	ms_run[1]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[2]-location	S00031764
+MTD	ms_run[2]-instrument_ref	instrument[1]
+MTD	ms_run[2]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[3]-location	S00031765
+MTD	ms_run[3]-instrument_ref	instrument[1]
+MTD	ms_run[3]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[4]-location	S00031766
+MTD	ms_run[4]-instrument_ref	instrument[1]
+MTD	ms_run[4]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[5]-location	S00031767
+MTD	ms_run[5]-instrument_ref	instrument[1]
+MTD	ms_run[5]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[6]-location	S00031768
+MTD	ms_run[6]-instrument_ref	instrument[1]
+MTD	ms_run[6]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[7]-location	S00031769
+MTD	ms_run[7]-instrument_ref	instrument[1]
+MTD	ms_run[7]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[8]-location	S00031770
+MTD	ms_run[8]-instrument_ref	instrument[1]
+MTD	ms_run[8]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[9]-location	S00031771
+MTD	ms_run[9]-instrument_ref	instrument[1]
+MTD	ms_run[9]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[10]-location	S00031772
+MTD	ms_run[10]-instrument_ref	instrument[1]
+MTD	ms_run[10]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[11]-location	S00031773
+MTD	ms_run[11]-instrument_ref	instrument[1]
+MTD	ms_run[11]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[12]-location	S00031774
+MTD	ms_run[12]-instrument_ref	instrument[1]
+MTD	ms_run[12]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[13]-location	S00031775
+MTD	ms_run[13]-instrument_ref	instrument[1]
+MTD	ms_run[13]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[14]-location	S00031776
+MTD	ms_run[14]-instrument_ref	instrument[1]
+MTD	ms_run[14]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[15]-location	S00031777
+MTD	ms_run[15]-instrument_ref	instrument[1]
+MTD	ms_run[15]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[16]-location	S00031778
+MTD	ms_run[16]-instrument_ref	instrument[1]
+MTD	ms_run[16]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[17]-location	S00031779
+MTD	ms_run[17]-instrument_ref	instrument[1]
+MTD	ms_run[17]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[18]-location	S00031780
+MTD	ms_run[18]-instrument_ref	instrument[1]
+MTD	ms_run[18]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[19]-location	S00031781
+MTD	ms_run[19]-instrument_ref	instrument[1]
+MTD	ms_run[19]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[20]-location	S00031782
+MTD	ms_run[20]-instrument_ref	instrument[1]
+MTD	ms_run[20]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[21]-location	S00031783
+MTD	ms_run[21]-instrument_ref	instrument[1]
+MTD	ms_run[21]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[22]-location	S00031784
+MTD	ms_run[22]-instrument_ref	instrument[1]
+MTD	ms_run[22]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[23]-location	S00031785
+MTD	ms_run[23]-instrument_ref	instrument[1]
+MTD	ms_run[23]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[24]-location	S00031786
+MTD	ms_run[24]-instrument_ref	instrument[1]
+MTD	ms_run[24]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[25]-location	S00031787
+MTD	ms_run[25]-instrument_ref	instrument[1]
+MTD	ms_run[25]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[26]-location	S00031788
+MTD	ms_run[26]-instrument_ref	instrument[1]
+MTD	ms_run[26]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[27]-location	S00031789
+MTD	ms_run[27]-instrument_ref	instrument[1]
+MTD	ms_run[27]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[28]-location	S00031790
+MTD	ms_run[28]-instrument_ref	instrument[1]
+MTD	ms_run[28]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[29]-location	S00031791
+MTD	ms_run[29]-instrument_ref	instrument[1]
+MTD	ms_run[29]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[30]-location	S00031792
+MTD	ms_run[30]-instrument_ref	instrument[1]
+MTD	ms_run[30]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[31]-location	S00031793
+MTD	ms_run[31]-instrument_ref	instrument[1]
+MTD	ms_run[31]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[32]-location	S00031794
+MTD	ms_run[32]-instrument_ref	instrument[1]
+MTD	ms_run[32]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[33]-location	S00031795
+MTD	ms_run[33]-instrument_ref	instrument[1]
+MTD	ms_run[33]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[34]-location	S00031796
+MTD	ms_run[34]-instrument_ref	instrument[1]
+MTD	ms_run[34]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[35]-location	S00031797
+MTD	ms_run[35]-instrument_ref	instrument[1]
+MTD	ms_run[35]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[36]-location	S00031798
+MTD	ms_run[36]-instrument_ref	instrument[1]
+MTD	ms_run[36]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	assay[1]	S00031763
+MTD	assay[1]-sample_ref	sample[1]
+MTD	assay[1]-ms_run_ref	ms_run[1]
+MTD	assay[10]	S00031772
+MTD	assay[10]-sample_ref	sample[10]
+MTD	assay[10]-ms_run_ref	ms_run[10]
+MTD	assay[11]	S00031773
+MTD	assay[11]-sample_ref	sample[11]
+MTD	assay[11]-ms_run_ref	ms_run[11]
+MTD	assay[12]	S00031774
+MTD	assay[12]-sample_ref	sample[12]
+MTD	assay[12]-ms_run_ref	ms_run[12]
+MTD	assay[13]	S00031775
+MTD	assay[13]-sample_ref	sample[13]
+MTD	assay[13]-ms_run_ref	ms_run[13]
+MTD	assay[14]	S00031776
+MTD	assay[14]-sample_ref	sample[14]
+MTD	assay[14]-ms_run_ref	ms_run[14]
+MTD	assay[15]	S00031777
+MTD	assay[15]-sample_ref	sample[15]
+MTD	assay[15]-ms_run_ref	ms_run[15]
+MTD	assay[16]	S00031778
+MTD	assay[16]-sample_ref	sample[16]
+MTD	assay[16]-ms_run_ref	ms_run[16]
+MTD	assay[17]	S00031779
+MTD	assay[17]-sample_ref	sample[17]
+MTD	assay[17]-ms_run_ref	ms_run[17]
+MTD	assay[18]	S00031780
+MTD	assay[18]-sample_ref	sample[18]
+MTD	assay[18]-ms_run_ref	ms_run[18]
+MTD	assay[19]	S00031781
+MTD	assay[19]-sample_ref	sample[19]
+MTD	assay[19]-ms_run_ref	ms_run[19]
+MTD	assay[2]	S00031764
+MTD	assay[2]-sample_ref	sample[2]
+MTD	assay[2]-ms_run_ref	ms_run[2]
+MTD	assay[20]	S00031782
+MTD	assay[20]-sample_ref	sample[20]
+MTD	assay[20]-ms_run_ref	ms_run[20]
+MTD	assay[21]	S00031783
+MTD	assay[21]-sample_ref	sample[21]
+MTD	assay[21]-ms_run_ref	ms_run[21]
+MTD	assay[22]	S00031784
+MTD	assay[22]-sample_ref	sample[22]
+MTD	assay[22]-ms_run_ref	ms_run[22]
+MTD	assay[23]	S00031785
+MTD	assay[23]-sample_ref	sample[23]
+MTD	assay[23]-ms_run_ref	ms_run[23]
+MTD	assay[24]	S00031786
+MTD	assay[24]-sample_ref	sample[24]
+MTD	assay[24]-ms_run_ref	ms_run[24]
+MTD	assay[25]	S00031787
+MTD	assay[25]-sample_ref	sample[25]
+MTD	assay[25]-ms_run_ref	ms_run[25]
+MTD	assay[26]	S00031788
+MTD	assay[26]-sample_ref	sample[26]
+MTD	assay[26]-ms_run_ref	ms_run[26]
+MTD	assay[27]	S00031789
+MTD	assay[27]-sample_ref	sample[27]
+MTD	assay[27]-ms_run_ref	ms_run[27]
+MTD	assay[28]	S00031790
+MTD	assay[28]-sample_ref	sample[28]
+MTD	assay[28]-ms_run_ref	ms_run[28]
+MTD	assay[29]	S00031791
+MTD	assay[29]-sample_ref	sample[29]
+MTD	assay[29]-ms_run_ref	ms_run[29]
+MTD	assay[3]	S00031765
+MTD	assay[3]-sample_ref	sample[3]
+MTD	assay[3]-ms_run_ref	ms_run[3]
+MTD	assay[30]	S00031792
+MTD	assay[30]-sample_ref	sample[30]
+MTD	assay[30]-ms_run_ref	ms_run[30]
+MTD	assay[31]	S00031793
+MTD	assay[31]-sample_ref	sample[31]
+MTD	assay[31]-ms_run_ref	ms_run[31]
+MTD	assay[32]	S00031794
+MTD	assay[32]-sample_ref	sample[32]
+MTD	assay[32]-ms_run_ref	ms_run[32]
+MTD	assay[33]	S00031795
+MTD	assay[33]-sample_ref	sample[33]
+MTD	assay[33]-ms_run_ref	ms_run[33]
+MTD	assay[34]	S00031796
+MTD	assay[34]-sample_ref	sample[34]
+MTD	assay[34]-ms_run_ref	ms_run[34]
+MTD	assay[35]	S00031797
+MTD	assay[35]-sample_ref	sample[35]
+MTD	assay[35]-ms_run_ref	ms_run[35]
+MTD	assay[36]	S00031798
+MTD	assay[36]-sample_ref	sample[36]
+MTD	assay[36]-ms_run_ref	ms_run[36]
+MTD	assay[4]	S00031766
+MTD	assay[4]-sample_ref	sample[4]
+MTD	assay[4]-ms_run_ref	ms_run[4]
+MTD	assay[5]	S00031767
+MTD	assay[5]-sample_ref	sample[5]
+MTD	assay[5]-ms_run_ref	ms_run[5]
+MTD	assay[6]	S00031768
+MTD	assay[6]-sample_ref	sample[6]
+MTD	assay[6]-ms_run_ref	ms_run[6]
+MTD	assay[7]	S00031769
+MTD	assay[7]-sample_ref	sample[7]
+MTD	assay[7]-ms_run_ref	ms_run[7]
+MTD	assay[8]	S00031770
+MTD	assay[8]-sample_ref	sample[8]
+MTD	assay[8]-ms_run_ref	ms_run[8]
+MTD	assay[9]	S00031771
+MTD	assay[9]-sample_ref	sample[9]
+MTD	assay[9]-ms_run_ref	ms_run[9]
+MTD	study_variable_group[1]	[,,Time Point,]
+MTD	study_variable_group[1]-description	mwTab sample factor Time Point
+MTD	study_variable_group[1]-type	[STATO, STATO:0000252, categorical variable, ]
+MTD	study_variable_group[1]-datatype	xsd:string
+MTD	study_variable_group[1]-study_variable_refs	study_variable[1]|study_variable[2]
+MTD	study_variable[1]	Baseline
+MTD	study_variable[1]-assay_refs	assay[1]|assay[2]|assay[3]|assay[4]|assay[5]|assay[6]|assay[7]|assay[8]|assay[9]|assay[10]|assay[11]|assay[12]|assay[13]|assay[14]|assay[15]|assay[16]|assay[17]|assay[18]
+MTD	study_variable[1]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[1]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[1]-description	Variable Time Point, value Baseline
+MTD	study_variable[2]	Day 90
+MTD	study_variable[2]-assay_refs	assay[19]|assay[20]|assay[21]|assay[22]|assay[23]|assay[24]|assay[25]|assay[26]|assay[27]|assay[28]|assay[29]|assay[30]|assay[31]|assay[32]|assay[33]|assay[34]|assay[35]|assay[36]
+MTD	study_variable[2]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[2]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[2]-description	Variable Time Point, value Day 90
+MTD	custom[1]	[,, Metabolomics Workbench analysis ID, AN002041]
+MTD	custom[2]	[,, chromatography type, GC]
+MTD	custom[3]	[,, chromatography instrument, Agilent 7890N]
+MTD	custom[4]	[,, chromatography column, "Agilent HP5-MS (15m ? 0.25mm, 0.25 um)"]
+MTD	cv[1]-label	MS
+MTD	cv[1]-full_name	PSI-MS controlled vocabulary
+MTD	cv[1]-version	4.1.138
+MTD	cv[1]-uri	https://www.ebi.ac.uk/ols4/ontologies/ms
+MTD	cv[2]-label	PRIDE
+MTD	cv[2]-full_name	PRIDE PRoteomics IDEntifications (PRIDE) database controlled vocabulary
+MTD	cv[2]-version	16:10:2023 11:38
+MTD	cv[2]-uri	https://www.ebi.ac.uk/ols/ontologies/pride
+MTD	cv[3]-label	STATO
+MTD	cv[3]-full_name	General purpose STATistics Ontology
+MTD	cv[3]-version	2026-04-20
+MTD	cv[3]-uri	https://www.ebi.ac.uk/ols4/ontologies/stato
+MTD	cv[4]-label	NCBITaxon
+MTD	cv[4]-full_name	NCBI organismal classification
+MTD	cv[4]-version	unknown
+MTD	cv[4]-uri	http://purl.obolibrary.org/obo/ncbitaxon.owl
+MTD	database[1]	[,, PubChem, ]
+MTD	database[1]-prefix	PubChem
+MTD	database[1]-version	Unknown
+MTD	database[1]-uri	https://pubchem.ncbi.nlm.nih.gov
+MTD	small_molecule-quantification_unit	[,, nmol/mg (wet weight), ]
+MTD	small_molecule-identification_reliability	[MS, MS:1002896, compound identification confidence level, ]
+
+SMH	SML_ID	SMF_ID_REFS	database_identifier	chemical_formula	smiles	inchi	chemical_name	uri	theoretical_neutral_mass	adduct_ions	reliability	best_id_confidence_measure	best_id_confidence_value	abundance_assay[1]	abundance_assay[2]	abundance_assay[3]	abundance_assay[4]	abundance_assay[5]	abundance_assay[6]	abundance_assay[7]	abundance_assay[8]	abundance_assay[9]	abundance_assay[10]	abundance_assay[11]	abundance_assay[12]	abundance_assay[13]	abundance_assay[14]	abundance_assay[15]	abundance_assay[16]	abundance_assay[17]	abundance_assay[18]	abundance_assay[19]	abundance_assay[20]	abundance_assay[21]	abundance_assay[22]	abundance_assay[23]	abundance_assay[24]	abundance_assay[25]	abundance_assay[26]	abundance_assay[27]	abundance_assay[28]	abundance_assay[29]	abundance_assay[30]	abundance_assay[31]	abundance_assay[32]	abundance_assay[33]	abundance_assay[34]	abundance_assay[35]	abundance_assay[36]	abundance_study_variable[1]	abundance_study_variable[2]	abundance_variation_study_variable[1]	abundance_variation_study_variable[2]	opt_global_metabolite_name	opt_global_pubchem_id
+SML	1	null	PubChem:176	null	null	null	Acetate	https://pubchem.ncbi.nlm.nih.gov/compound/176	null	null	2	null	null	5.4128	23.1385	12.2052	83.5626	0.0087	15.6614	30.8313	11.4587	6.0536	21.0272	10.1695	21.368	18.9944	18.0531	22.7094	38.0901	15.1582	27.2954	17.7829	0.0106	30.0469	53.2871	8.6838	15.4034	25.2398	10.1158	4.9019	24.8182	4.5074	27.1967	16.797	22.2228	18.5868	24.0894	21.98	18.61	21.1776722222222	19.1266944444444	0.858359479890506	0.628525465197353	Acetate	176
+SML	2	null	PubChem:1032	null	null	null	Propionate	https://pubchem.ncbi.nlm.nih.gov/compound/1032	null	null	2	null	null	0.617	7.0777	4.0988	21.7521	9e-04	3.1991	6.9402	2.1778	2.1748	7.5323	2.9186	4.1497	7.0154	7.3179	1.6701	15.6751	3.7035	9.3318	1.681	0.0044	17.6175	21.0259	0.4066	3.1809	4.2386	4.0719	1.2768	6.4869	2.0444	4.0876	8.2299	9.5327	1.9579	10.0401	7.8715	6.8353	5.96404444444444	6.14388333333333	0.911671467565057	0.931824101425337	Propionate	1032
+SML	3	null	PubChem:264	null	null	null	Butyrate	https://pubchem.ncbi.nlm.nih.gov/compound/264	null	null	2	null	null	0.1715	4.1226	1.0582	17.7859	2e-04	2.4345	5.475	4.8318	0.788	3.2596	0.9691	4.4336	4.1397	7.0103	5.4094	12.1693	1.5216	8.6785	2.248	0.0017	9.0994	6.5229	0.0758	5.0778	3.2521	5.0577	0.3362	7.0281	1.0308	5.7901	3.8306	5.2358	1.9932	7.9955	4.3325	4.2279	4.68104444444444	4.06311666666667	0.972666130724774	0.669815899297485	Butyrate	264
+SML	4	null	PubChem:10430	null	null	null	Isovalerate	https://pubchem.ncbi.nlm.nih.gov/compound/10430	null	null	2	null	null	0.032	0.3572	0.3497	0.7475	1e-04	0.363	1.2773	0.8058	0.255	0.8088	0.3412	0.3927	0.4352	0.3709	1.0064	2.0548	0.3376	0.9708	1.5039	3e-04	2.0204	0.4441	0.0114	0.8566	1.3429	0.4155	0.1191	0.3127	0.1703	0.577	0.8177	0.2803	0.1707	0.3913	1.0426	0.8869	0.605888888888889	0.631316666666667	0.82257571131191	0.888907918960858	Isovalerate	10430
+SML	5	null	PubChem:7991	null	null	null	Valerate	https://pubchem.ncbi.nlm.nih.gov/compound/7991	null	null	2	null	null	0.0498	0.6899	0.6639	2.1159	1e-04	0.6993	1.4936	0.9186	0.1963	0.8322	0.4613	0.6111	0.971	0.6588	1.3449	5.8437	0.4027	2.1096	1.3134	5e-04	4.032	1.8023	0.0267	1.5819	1.4482	0.6373	0.1141	1.2716	0.1754	1.1564	1.0424	1.0788	0.7858	2.0369	1.1786	1.1322	1.11459444444444	1.15636111111111	1.18910935076806	0.808348329976994	Valerate	7991
+SML	6	null	PubChem:8892	null	null	null	Hexanoate	https://pubchem.ncbi.nlm.nih.gov/compound/8892	null	null	2	null	null	0.0695	0.6117	0.0423	0.3956	1e-04	0.3272	0.584	0.5289	0.0298	0.2274	0.0415	0.6071	0.2617	0.0301	8.4846	0.0831	0.1304	1.2535	0.0931	2e-04	0.0459	0.1726	0.0332	0.7843	0.1912	0.6402	0.0464	0.8548	0.038	1.0079	0.1306	0.0498	1.4536	0.0924	0.1975	0.5056	0.761583333333333	0.352072222222222	2.5655671427364	1.20462050926829	Hexanoate	8892
+SML	7	null	PubChem:8094	null	null	null	Heptanoate	https://pubchem.ncbi.nlm.nih.gov/compound/8094	null	null	2	null	null	0.0105	0.0811	0.0164	0.0127	0	0.0586	0.1628	0.0682	0.0084	0.0408	0.0106	0.0521	0.037	0.007	2.5291	0.0073	0.028	0.2003	0.0223	0	0.0082	0.0103	0.0112	0.143	0.0332	0.0167	0.0089	0.0853	0.0092	0.0952	0.0119	0.0056	0.3343	0.0064	0.0278	0.0776	0.18505	0.0503944444444444	3.17507505198033	1.61195637758057	Heptanoate	8094
+SML	8	null	PubChem:379	null	null	null	Octanoate	https://pubchem.ncbi.nlm.nih.gov/compound/379	null	null	2	null	null	0.8428	0.4805	0.3809	0.3044	5e-04	0.4159	1.0269	0.9325	0.2458	0.2948	0.3179	0.3485	0.3244	0.1624	26.1941	0.1737	0.4675	0.3652	0.1882	4e-04	0.1543	0.2067	0.2323	0.3713	0.6451	8.9502	0.3009	0.1196	0.0814	0.3019	0.0687	0.0622	0.7387	0.0428	0.2464	0.1233	1.84881666666667	0.713022222222222	3.28946744683398	2.89627482647882	Octanoate	379
+

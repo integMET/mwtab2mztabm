@@ -1,0 +1,343 @@
+# mwTab metadata of study ST000824, analysis AN001310
+# Exported by mwtab2mztabm 0.1.0.
+# Sample metadata is listed in [[SUBJECT_SAMPLE_FACTORS]].
+
+[mwtab2mztabm]
+format_version = 1
+factor_order = ["Cell line", "IDH1-R132H EXPRESSION", "IDH1-R132H INHIBITOR"]
+additional_data_order = []
+
+["METABOLOMICS WORKBENCH"]
+STUDY_ID = "ST000824"
+ANALYSIS_ID = "AN001310"
+VERSION = "1"
+CREATED_ON = "12-15-2022"
+
+[PROJECT]
+PROJECT_TITLE = "Production of 2HG of human glioma cells"
+PROJECT_TYPE = "MS analysis"
+PROJECT_SUMMARY = "Evaluate the concentration of 2HG in human glioma cells harboring IDH1-R132H mutation"
+INSTITUTE = "University of Michigan"
+DEPARTMENT = "Neurosurgery"
+LABORATORY = "Castro Lab"
+LAST_NAME = "Castro"
+FIRST_NAME = "Maria"
+ADDRESS = "Ann Arbor, MI"
+EMAIL = "mariacas@umich.edu"
+PHONE = "734-764-0850"
+DOI = "http://dx.doi.org/10.21228/M8XD4X"
+
+[STUDY]
+STUDY_TITLE = "2HG concentration in human IDH1m cells"
+STUDY_TYPE = "MS analysis"
+STUDY_SUMMARY = "SJGBM2 and MGG8 glioma cells were stable transfected with IDH1-R132H mutated. The expression of IDH1-R132H was confirmed by Western Blot assay. The aim of this project is analyze the production of 2HG in the stable transfected cells (SJGBM-IDH1m and MGG8-IDH1m) compared with the control group WT."
+INSTITUTE = "University of Michigan"
+DEPARTMENT = "Biomedical Research Core Facilities"
+LABORATORY = "Metabolomics core"
+LAST_NAME = "Kachman"
+FIRST_NAME = "Maureen"
+ADDRESS = "6300 Brehm Tower, 1000 Wall Street, Ann Arbor, MI 48105-5714"
+EMAIL = "mkachman@med.umich.edu"
+PHONE = "(734) 232-8175"
+SUBMIT_DATE = "2017-07-14"
+
+[SUBJECT]
+SUBJECT_TYPE = "HUMAN"
+SUBJECT_SPECIES = "Homo sapiens"
+TAXONOMY_ID = "9606"
+SPECIES_GROUP = "Human"
+
+[COLLECTION]
+COLLECTION_SUMMARY = "-"
+SAMPLE_TYPE = "Glioma cells"
+
+[TREATMENT]
+TREATMENT_SUMMARY = "-"
+
+[SAMPLEPREP]
+SAMPLEPREP_SUMMARY = "-"
+SAMPLEPREP_PROTOCOL_FILENAME = "A037-2HG_cells_updated-20160721.pdf"
+
+[CHROMATOGRAPHY]
+INSTRUMENT_NAME = "Agilent"
+COLUMN_NAME = "Phenomenex Luna NH2 (150 x 1mm,3um)"
+SOLVENT_A = "100% water; 2mM ammonium formate, pH 3.3-4.01,adjust with formic acid"
+SOLVENT_B = "100% acetonitrile; 0.1% formic acid"
+CHROMATOGRAPHY_TYPE = "HILIC"
+
+[ANALYSIS]
+ANALYSIS_TYPE = "MS"
+ANALYSIS_PROTOCOL_FILE = "A037-2HG cells updated-20160721.pdf"
+
+[MS]
+INSTRUMENT_NAME = "Agilent 6490A QQQ"
+INSTRUMENT_TYPE = "Triple quadrupole"
+MS_TYPE = "ESI"
+ION_MODE = "NEGATIVE"
+
+[MS_METABOLITE_DATA]
+Units = "uM/ng protein"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0018091"
+"Sample ID" = "S00028188"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Cell line" = "MGG8"
+"IDH1-R132H EXPRESSION" = "NO"
+"IDH1-R132H INHIBITOR" = "NO"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0018091"
+"Sample ID" = "S00028189"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Cell line" = "MGG8"
+"IDH1-R132H EXPRESSION" = "NO"
+"IDH1-R132H INHIBITOR" = "NO"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0018091"
+"Sample ID" = "S00028190"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Cell line" = "MGG8"
+"IDH1-R132H EXPRESSION" = "NO"
+"IDH1-R132H INHIBITOR" = "NO"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0018091"
+"Sample ID" = "S00028200"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Cell line" = "MGG8"
+"IDH1-R132H EXPRESSION" = "NO"
+"IDH1-R132H INHIBITOR" = "YES"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0018091"
+"Sample ID" = "S00028201"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Cell line" = "MGG8"
+"IDH1-R132H EXPRESSION" = "NO"
+"IDH1-R132H INHIBITOR" = "YES"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0018091"
+"Sample ID" = "S00028202"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Cell line" = "MGG8"
+"IDH1-R132H EXPRESSION" = "NO"
+"IDH1-R132H INHIBITOR" = "YES"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0018091"
+"Sample ID" = "S00028185"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Cell line" = "MGG8"
+"IDH1-R132H EXPRESSION" = "YES"
+"IDH1-R132H INHIBITOR" = "NO"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0018091"
+"Sample ID" = "S00028186"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Cell line" = "MGG8"
+"IDH1-R132H EXPRESSION" = "YES"
+"IDH1-R132H INHIBITOR" = "NO"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0018091"
+"Sample ID" = "S00028187"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Cell line" = "MGG8"
+"IDH1-R132H EXPRESSION" = "YES"
+"IDH1-R132H INHIBITOR" = "NO"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0018091"
+"Sample ID" = "S00028197"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Cell line" = "MGG8"
+"IDH1-R132H EXPRESSION" = "YES"
+"IDH1-R132H INHIBITOR" = "YES"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0018091"
+"Sample ID" = "S00028198"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Cell line" = "MGG8"
+"IDH1-R132H EXPRESSION" = "YES"
+"IDH1-R132H INHIBITOR" = "YES"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0018091"
+"Sample ID" = "S00028199"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Cell line" = "MGG8"
+"IDH1-R132H EXPRESSION" = "YES"
+"IDH1-R132H INHIBITOR" = "YES"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0018091"
+"Sample ID" = "S00028182"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Cell line" = "SJGBM2"
+"IDH1-R132H EXPRESSION" = "NO"
+"IDH1-R132H INHIBITOR" = "NO"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0018091"
+"Sample ID" = "S00028183"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Cell line" = "SJGBM2"
+"IDH1-R132H EXPRESSION" = "NO"
+"IDH1-R132H INHIBITOR" = "NO"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0018091"
+"Sample ID" = "S00028184"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Cell line" = "SJGBM2"
+"IDH1-R132H EXPRESSION" = "NO"
+"IDH1-R132H INHIBITOR" = "NO"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0018091"
+"Sample ID" = "S00028194"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Cell line" = "SJGBM2"
+"IDH1-R132H EXPRESSION" = "NO"
+"IDH1-R132H INHIBITOR" = "YES"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0018091"
+"Sample ID" = "S00028195"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Cell line" = "SJGBM2"
+"IDH1-R132H EXPRESSION" = "NO"
+"IDH1-R132H INHIBITOR" = "YES"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0018091"
+"Sample ID" = "S00028196"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Cell line" = "SJGBM2"
+"IDH1-R132H EXPRESSION" = "NO"
+"IDH1-R132H INHIBITOR" = "YES"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0018091"
+"Sample ID" = "S00028179"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Cell line" = "SJGBM2"
+"IDH1-R132H EXPRESSION" = "YES"
+"IDH1-R132H INHIBITOR" = "NO"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0018091"
+"Sample ID" = "S00028180"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Cell line" = "SJGBM2"
+"IDH1-R132H EXPRESSION" = "YES"
+"IDH1-R132H INHIBITOR" = "NO"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0018091"
+"Sample ID" = "S00028181"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Cell line" = "SJGBM2"
+"IDH1-R132H EXPRESSION" = "YES"
+"IDH1-R132H INHIBITOR" = "NO"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0018091"
+"Sample ID" = "S00028191"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Cell line" = "SJGBM2"
+"IDH1-R132H EXPRESSION" = "YES"
+"IDH1-R132H INHIBITOR" = "YES"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0018091"
+"Sample ID" = "S00028192"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Cell line" = "SJGBM2"
+"IDH1-R132H EXPRESSION" = "YES"
+"IDH1-R132H INHIBITOR" = "YES"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SU0018091"
+"Sample ID" = "S00028193"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Cell line" = "SJGBM2"
+"IDH1-R132H EXPRESSION" = "YES"
+"IDH1-R132H INHIBITOR" = "YES"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]

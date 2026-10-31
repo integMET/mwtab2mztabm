@@ -1,0 +1,224 @@
+# mwTab metadata of study ST000505, analysis AN000774
+# Exported by mwtab2mztabm 0.1.0.
+# Sample metadata is listed in [[SUBJECT_SAMPLE_FACTORS]].
+
+[mwtab2mztabm]
+format_version = 1
+factor_order = ["Treatment Factor", "13C media incubation time"]
+additional_data_order = "assay"
+
+["METABOLOMICS WORKBENCH"]
+STUDY_ID = "ST000505"
+ANALYSIS_ID = "AN000774"
+VERSION = "1"
+CREATED_ON = "November 29, 2016, 3:06 pm"
+
+[PROJECT]
+PROJECT_TITLE = "Mayo Metabolomics Pilot and Feasibility Award: Metabolic Dissection of Aberrant Glutamine Metabolism in Prostate Cancer"
+PROJECT_TYPE = "MS targeted analysis"
+PROJECT_SUMMARY = "In this project, we propose to define the specific role(s) of three crucial oncogenic signaling cascades (androgen receptor, Myc and AMPK) in regulating glutamine metabolism in prostate cancer using 13C-labeled glutamine with mass spectrometry-based metabolic flux analyses."
+INSTITUTE = "Mayo Clinic"
+LABORATORY = "Mayo Metabolomics Core"
+LAST_NAME = "Frigo"
+FIRST_NAME = "Daniel"
+ADDRESS = "Department of Biology and Biochemistry, University of Houston, Houston, Texas 77204-5001"
+EMAIL = "frigo@uh.edu"
+PHONE = "832-842-8824"
+
+[STUDY]
+STUDY_TITLE = "Timecourse of Amino Acid Metabolites in LNCaP Cell pellets"
+STUDY_TYPE = "timecourse"
+STUDY_SUMMARY = "Timecourse of Amino Acid Metabolites in LNCaP Cell pellets"
+INSTITUTE = "Mayo Clinic"
+LABORATORY = "Mayo Metabolomics Core"
+LAST_NAME = "Frigo"
+FIRST_NAME = "Daniel"
+ADDRESS = "Department of Biology and Biochemistry, University of Houston, Houston, Texas 77204-5001"
+EMAIL = "frigo@uh.edu"
+PHONE = "832-842-8824"
+
+[SUBJECT]
+SUBJECT_TYPE = "Human"
+SUBJECT_SPECIES = "Homo sapiens"
+TAXONOMY_ID = "9606"
+
+[COLLECTION]
+COLLECTION_SUMMARY = "LNCaP cell media"
+
+[TREATMENT]
+TREATMENT_SUMMARY = "LNCaP cells that were serum starved and incubated with 2mM [U-13C]glutamine and treated with dose response of a synthetic androgen (R1881) for 24 or 72 hours."
+
+[SAMPLEPREP]
+SAMPLEPREP_SUMMARY = "Concentration of Amino Acids metabolites in cell media"
+
+[CHROMATOGRAPHY]
+CHROMATOGRAPHY_TYPE = "Reversed phase"
+INSTRUMENT_NAME = "Waters Acquity"
+COLUMN_NAME = "Waters Acquity BEH C18 (150 x 2.1mm, 1.7um)"
+
+[ANALYSIS]
+ANALYSIS_TYPE = "MS"
+
+[MS]
+MS_COMMENTS = "-"
+INSTRUMENT_NAME = "Thermo Quantum Ultra"
+INSTRUMENT_TYPE = "Triple quadrupole"
+MS_TYPE = "ESI"
+ION_MODE = "POSITIVE"
+
+[MS_METABOLITE_DATA]
+Units = "micromolar"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms5459-1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Treatment Factor" = "treated-vehicle (ethanol)"
+"13C media incubation time" = "24 hours"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+assay = "Concentration of AA  + metabolites in cell media"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms5459-2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Treatment Factor" = "treated-100 pM R1881"
+"13C media incubation time" = "24 hours"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+assay = "Concentration of AA  + metabolites in cell media"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms5459-3"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Treatment Factor" = "treated-1 nM R1881"
+"13C media incubation time" = "24 hours"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+assay = "Concentration of AA  + metabolites in cell media"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms5459-4"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Treatment Factor" = "treated-10 nM R1881"
+"13C media incubation time" = "24 hours"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+assay = "Concentration of AA  + metabolites in cell media"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms5459-5"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Treatment Factor" = "treated-vehicle (ethanol)"
+"13C media incubation time" = "24 hours"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+assay = "Concentration of AA  + metabolites in cell media"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms5459-6"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Treatment Factor" = "treated-100 pM R1881"
+"13C media incubation time" = "24 hours"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+assay = "Concentration of AA  + metabolites in cell media"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms5459-7"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Treatment Factor" = "treated-10 nM R1881"
+"13C media incubation time" = "24 hours"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+assay = "Concentration of AA  + metabolites in cell media"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms5459-8"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Treatment Factor" = "treated-vehicle (ethanol)"
+"13C media incubation time" = "72 hours"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+assay = "Concentration of AA  + metabolites in cell media"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms5459-9"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Treatment Factor" = "treated-100 pM R1881"
+"13C media incubation time" = "72 hours"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+assay = "Concentration of AA  + metabolites in cell media"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms5459-10"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Treatment Factor" = "treated-1 nM R1881"
+"13C media incubation time" = "72 hours"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+assay = "Concentration of AA  + metabolites in cell media"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms5459-11"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Treatment Factor" = "treated-10 nM R1881"
+"13C media incubation time" = "72 hours"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+assay = "Concentration of AA  + metabolites in cell media"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms5459-12"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Treatment Factor" = "treated-vehicle (ethanol)"
+"13C media incubation time" = "72 hours"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+assay = "Concentration of AA  + metabolites in cell media"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms5459-13"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Treatment Factor" = "treated-100 pM R1881"
+"13C media incubation time" = "72 hours"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+assay = "Concentration of AA  + metabolites in cell media"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms5459-14"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Treatment Factor" = "treated-10 nM R1881"
+"13C media incubation time" = "72 hours"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+assay = "Concentration of AA  + metabolites in cell media"

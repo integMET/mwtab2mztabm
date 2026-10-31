@@ -1,0 +1,153 @@
+# mwTab metadata of study ST000231, analysis AN000345
+# Exported by mwtab2mztabm 0.1.0.
+# Sample metadata is listed in [[SUBJECT_SAMPLE_FACTORS]].
+
+[mwtab2mztabm]
+format_version = 1
+factor_order = "Tissue Type"
+additional_data_order = []
+
+["METABOLOMICS WORKBENCH"]
+STUDY_ID = "ST000231"
+ANALYSIS_ID = "AN000345"
+VERSION = "1"
+CREATED_ON = "2016-09-17"
+
+[PROJECT]
+PROJECT_TITLE = "Comprehensive analysis of transcriptome and metabolome analysis in Intrahepatic and Hepatocellular Carcinoma"
+PROJECT_TYPE = "Population Genetics for comparison between cholangiocarcinoma and carcinoma"
+PROJECT_SUMMARY = "Intrahepatic cholangiocarcinoma (ICC) and hepatocellular carcinoma (HCC) are originated malignant tumors. The prognosis of ICC is generally worse than that HCC because there is lack of early diagnostic marker for ICC and the mechanism of ICC is not fully understood. So our aim was to perform metabolome transcriptome analysis to reveal the carcinogenetic mechanism and to detect an diagnostic marker for ICC Ten ICC and 6 HCC which were resected surgically, enrolled. miRNA and mRNA expression analysis were performed by microarray on and HCC and their corresponding non-tumor tissues (ICC_NT and HCC_NT). Compound was performed using capillary electrophoresis time-of-flight mass spectrometry Principle component analysis (PCA) revealed that our four sample groups ICC_NT, HCC, and HCC_NT) have 14 compounds, 62 mRNAs and 17 miRNAs with expressive patterns. There were two distinct patterns among the 4 groups; one tumor and non-tumor, the other is ICC and non-ICC. To clarify the biological of individual genes and compounds, we performed pathway analysis. ICC formation related to RNA synthesis, amino acid synthesis, and glucose-lipid synthesis ICC was classified by distinct pattern of compounds with high accuracy PCA revealed that several pathways were associated with the development of and distinguished ICC from other diseases. These findings are a promising step establishing novel biomarkers that can be clinically applicable."
+INSTITUTE = "Osaka City University"
+DEPARTMENT = "Department of Hepatology"
+LAST_NAME = "Murakami"
+FIRST_NAME = "Yoshiki"
+ADDRESS = "1-4-3, asahimachi, Abeno-ku, Osaka 545-8585, Osaka Japan"
+EMAIL = "m2079633@med.osaka-cu.ac.jp"
+PHONE = "81-6-6645-3811"
+
+[STUDY]
+STUDY_TITLE = "Comprehensive analysis of transcriptome and metabolome in Intrahepatic and Hepatocellular Carcinoma (part II)"
+STUDY_TYPE = "tissue type comparison"
+STUDY_SUMMARY = "Cholangiocarcinoma tissue, surrounded non-tumor tissue, Hepatocellular tissue, and surrounded non-tumor tissue were compared via metabolomic analysis."
+INSTITUTE = "Osaka City University"
+DEPARTMENT = "Department of Hepatology"
+LAST_NAME = "Murakami"
+FIRST_NAME = "Yoshiki"
+ADDRESS = "1-4-3, asahimachi, Abeno-ku, Osaka 545-8585, Osaka Japan"
+EMAIL = "m2079633@med.osaka-cu.ac.jp"
+PHONE = "81-6-6645-3811"
+NUM_GROUPS = "2"
+TOTAL_SUBJECTS = "9 samples"
+
+[SUBJECT]
+SUBJECT_TYPE = "human tissue"
+SUBJECT_SPECIES = "Homo sapiens"
+
+[COLLECTION]
+COLLECTION_SUMMARY = "-"
+
+[TREATMENT]
+TREATMENT_SUMMARY = "-"
+
+[SAMPLEPREP]
+SAMPLEPREP_SUMMARY = "-"
+
+[CHROMATOGRAPHY]
+CHROMATOGRAPHY_TYPE = "-"
+INSTRUMENT_NAME = "-"
+COLUMN_NAME = "-"
+
+[ANALYSIS]
+ANALYSIS_TYPE = "MS"
+
+[MS]
+MS_COMMENTS = "-"
+INSTRUMENT_NAME = "Agilent 6220 TOF"
+INSTRUMENT_TYPE = "TOF"
+MS_TYPE = "ESI"
+ION_MODE = "NEGATIVE"
+TUBE_LENS_VOLTAGE = "ANION (NEGATIVE)"
+
+[MS_METABOLITE_DATA]
+Units = "Peak area"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Tissue Type" = "ICC (Intrahepatic cholangiocarcinoma)"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "25"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Tissue Type" = "ICC (Intrahepatic cholangiocarcinoma)"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "27"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Tissue Type" = "ICC (Intrahepatic cholangiocarcinoma)"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "29"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Tissue Type" = "ICC (Intrahepatic cholangiocarcinoma)"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "31"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Tissue Type" = "ICC (Intrahepatic cholangiocarcinoma)"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "26"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Tissue Type" = "ICC-NT (surrounded non tumor of ICC)"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "28"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Tissue Type" = "ICC-NT (surrounded non tumor of ICC)"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "30"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Tissue Type" = "ICC-NT (surrounded non tumor of ICC)"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "32"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Tissue Type" = "ICC-NT (surrounded non tumor of ICC)"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]

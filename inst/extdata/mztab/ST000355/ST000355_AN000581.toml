@@ -1,0 +1,4991 @@
+# mwTab metadata of study ST000355, analysis AN000581
+# Exported by mwtab2mztabm 0.1.0.
+# Sample metadata is listed in [[SUBJECT_SAMPLE_FACTORS]].
+
+[mwtab2mztabm]
+format_version = 1
+factor_order = ["Diagnosis", "Stage"]
+additional_data_order = ["Sub-group", "Clinical_Parameters", "ER", "PR", "HER-2 neu", "YOB", "Age (now)", "Age (BOD-OD)", "Race", "Stage OB", "BMI", "Year of Sample Collection", "Prog/Relapse by 9/7/11"]
+
+["METABOLOMICS WORKBENCH"]
+STUDY_ID = "ST000355"
+ANALYSIS_ID = "AN000581"
+VERSION = "1"
+CREATED_ON = "March 10, 2016, 8:10 am"
+
+[PROJECT]
+PROJECT_TITLE = "Breast Cancer GC/MS and LC/MS plasma data from City of Hope Hospital"
+PROJECT_TYPE = "GC/MS and LC/MS metabolomics profiling"
+PROJECT_SUMMARY = "Breast cancer diagnosis profiling"
+INSTITUTE = "UNIVERSITY OF HAWAII CANCER CENTER"
+DEPARTMENT = "Metabolomics Shared Resource, Cancer Center"
+LAST_NAME = "Xie"
+FIRST_NAME = "Guoxiang"
+ADDRESS = "701 ILALO STREET HONOLULU, HI 96813"
+EMAIL = "gxie@cc.hawaii.edu"
+PHONE = "(808) 564-5938"
+
+[STUDY]
+STUDY_TITLE = "GC/MS and LC/MS metabolomics profiling for breast cancer plasma data and control plasma data"
+STUDY_TYPE = "metabolomics profiling"
+STUDY_SUMMARY = "Use GC/MS and LC/MS technique to profile breast cancer samples and normal control samples"
+INSTITUTE = "UNIVERSITY OF HAWAII CANCER CENTER"
+DEPARTMENT = "Metabolomics Shared Resource"
+LAST_NAME = "Xie"
+FIRST_NAME = "Guoxiang"
+ADDRESS = "701 ILALO STREET HONOLULU, HI 96813"
+EMAIL = "gxie@cc.hawaii.edu"
+PHONE = "(808) 564-5938"
+
+[SUBJECT]
+SUBJECT_TYPE = "Human breast cancer and normal controls plasma metabolomics profiling"
+SUBJECT_SPECIES = "Homo sapiens"
+
+[COLLECTION]
+COLLECTION_SUMMARY = "city of hope metabolomics profiling data"
+
+[TREATMENT]
+TREATMENT_SUMMARY = "No treatment done for these samples"
+
+[SAMPLEPREP]
+SAMPLEPREP_SUMMARY = "A 50 µL aliquot of plasma/serum sample was spiked with two internal standard solutions (10 µl p-chlorophenylalanine in water, 0.1 mg/mL; 10 µL heptadecanoic acid in methanol, 1 mg/mL). The mixed solution was extracted with 175 µL of methanol: chloroform (3:1) and vortexed for 30 seconds. After storing for 10 minutes at –20°C, the samples were centrifuged at 13,000 rpm for 10 minutes. An aliquot of 200 µL supernatant was transferred to a glass sampling vial to vacuum dry at room temperature. The residue was derivatized using a two-step procedure. First, 50 µL methoxyamine (15 mg/mL in pyridine) was added to the vial and kept at 30°C for 90 minutes. After adding 10 µL C10-C40 (all even alkanes, 12.5 µg/mL) as retention index, 50 µL N,O-bis-(trimetylsilyl) trifluoroacetamide (BSTFA) (1% trimethylchlorosilane, TMCS) was added to the samples, before being derivatized at 70°C for 60 minutes. Each 1 µL aliquot of the derivatized solution was injected in splitless mode into an Agilent 6890N gas chromatography coupled with a Pegasus HT time-of-flight mass spectrometry (Leco Co., St. Joseph, MI, USA). To minimize systematic analytical deviations, each control sample was separated by 1 or 2 breast cancer samples. Breast cancer samples from different stages were also run evenly in the whole experiment. Separation was achieved on an Rxi-5 ms capillary column (Crossbond ® 5% diphenyl/95% dimethyl polysiloxane, Restek, PA, USA), with helium as the carrier gas at a constant flow rate of 1.0 mL/min. The temperatures of injection, transfer interface, and ion source were set to 260, 260, and 210°C, respectively. The GC temperature programming was set to 2 min isothermal heating at 80°C, followed by 10°C/min oven temperature ramped to 220°C, 5°C/min to 240°C, and 25°C/min to 290°C, and a final eight minute maintenance at 290°C. Electron impact ionization (70 eV) at full scan mode (m/z 40–600) was used, with an acquisition rate of 20 spectra/second in the TOFMS setting. The data generated in the GC-TOFMS instrument were analyzed by the ChromaTOF software (v4.33, Leco Co, CA, USA). Using the statistic component, the aligned comma separated value (CSV) file can be obtained with sample information, peak information and peak intensity. Peak areas of unique mass were normalized to the internal standard. Compound identification was performed by comparing the mass fragments with NIST 05 Standard mass spectral databases in NIST MS search 2.0 (NIST,Gaithersburg, MD, USA) software with a similarity of more than 70% and reference standards (with retention time, or retention index if available in the library, as another parameter). Internal standards and any known artificial peaks, such as peaks caused by noise, column bleed and BSTFA derivatization procedure, were removed from the dataset before statistical analysis."
+
+[CHROMATOGRAPHY]
+CHROMATOGRAPHY_TYPE = "Reversed phase"
+INSTRUMENT_NAME = "Agilent 1200"
+COLUMN_NAME = "-"
+
+[ANALYSIS]
+ANALYSIS_TYPE = "MS"
+
+[MS]
+MS_COMMENTS = "-"
+INSTRUMENT_NAME = "Agilent 6220 TOF"
+INSTRUMENT_TYPE = "TOF"
+MS_TYPE = "ESI"
+ION_MODE = "UNSPECIFIED"
+
+[MS_METABOLITE_DATA]
+Units = "Peak Intensity"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00506"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "89"
+ER = "-"
+PR = "-"
+"HER-2 neu" = "-"
+YOB = "1977"
+"Age (now)" = "37"
+"Age (BOD-OD)" = "31"
+Race = "Other"
+"Stage OB" = "2"
+BMI = "21.8"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00032"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "218"
+ER = "-"
+PR = "-"
+"HER-2 neu" = "1"
+YOB = "1974"
+"Age (now)" = "40"
+"Age (BOD-OD)" = "32"
+Race = "Other"
+"Stage OB" = "2b"
+BMI = "22.9"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN01613"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "182"
+ER = "-"
+PR = "-"
+"HER-2 neu" = "1"
+YOB = "1977"
+"Age (now)" = "37"
+"Age (BOD-OD)" = "32"
+Race = "White"
+"Stage OB" = "3"
+BMI = "23.1"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN01461"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "178"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "1978"
+"Age (now)" = "36"
+"Age (BOD-OD)" = "32"
+Race = "white"
+"Stage OB" = "3a"
+BMI = "NA"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00516"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "93"
+ER = "-"
+PR = "-"
+"HER-2 neu" = "-"
+YOB = "1975"
+"Age (now)" = "39"
+"Age (BOD-OD)" = "33"
+Race = "White"
+"Stage OB" = "3"
+BMI = "24.4"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00528"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "100"
+ER = "-"
+PR = "-"
+"HER-2 neu" = "-"
+YOB = "1975"
+"Age (now)" = "39"
+"Age (BOD-OD)" = "33"
+Race = "White"
+"Stage OB" = "3"
+BMI = "30"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00746"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "126"
+ER = "-"
+PR = "-"
+"HER-2 neu" = "-"
+YOB = "1975"
+"Age (now)" = "39"
+"Age (BOD-OD)" = "34"
+Race = "White"
+"Stage OB" = "2"
+BMI = "34.4"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00529"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "103"
+ER = "1"
+PR = "-"
+"HER-2 neu" = "-"
+YOB = "1972"
+"Age (now)" = "42"
+"Age (BOD-OD)" = "36"
+Race = "Black"
+"Stage OB" = "2"
+BMI = "45.5"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03439"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "4"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "NA"
+Clinical_Parameters = "190"
+ER = "-"
+PR = "-"
+"HER-2 neu" = "EQUIVOCAL FOR EXPRESSION"
+YOB = "1973"
+"Age (now)" = "41"
+"Age (BOD-OD)" = "37"
+Race = "White"
+"Stage OB" = "4"
+BMI = "25.7"
+"Year of Sample Collection" = "2010"
+"Prog/Relapse by 9/7/11" = "40473"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00867"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "137"
+ER = "-"
+PR = "-"
+"HER-2 neu" = "-"
+YOB = "1973"
+"Age (now)" = "41"
+"Age (BOD-OD)" = "37"
+Race = "White"
+"Stage OB" = "3"
+BMI = "42.9"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00515"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "91"
+ER = "-"
+PR = "-"
+"HER-2 neu" = "1"
+YOB = "1970"
+"Age (now)" = "44"
+"Age (BOD-OD)" = "38"
+Race = "Asian"
+"Stage OB" = "2"
+BMI = "22.9"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00418"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "51"
+ER = "-"
+PR = "-"
+"HER-2 neu" = "-"
+YOB = "1970"
+"Age (now)" = "44"
+"Age (BOD-OD)" = "38"
+Race = "White"
+"Stage OB" = "3"
+BMI = "36.8"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00031"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "17"
+ER = "-"
+PR = "-"
+"HER-2 neu" = "1"
+YOB = "1968"
+"Age (now)" = "46"
+"Age (BOD-OD)" = "38"
+Race = "Black"
+"Stage OB" = "2"
+BMI = "28.5"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN01144"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "159"
+ER = "-"
+PR = "-"
+"HER-2 neu" = "-"
+YOB = "1970"
+"Age (now)" = "44"
+"Age (BOD-OD)" = "39"
+Race = "White"
+"Stage OB" = "2"
+BMI = "25.4"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00027"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "8"
+ER = "-"
+PR = "-"
+"HER-2 neu" = "1"
+YOB = "1967"
+"Age (now)" = "47"
+"Age (BOD-OD)" = "39"
+Race = "Asian"
+"Stage OB" = "3"
+BMI = "25.4"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00527"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "97"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "-"
+YOB = "1968"
+"Age (now)" = "46"
+"Age (BOD-OD)" = "40"
+Race = "Other"
+"Stage OB" = "2"
+BMI = "26.5"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00862"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "135"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "1"
+YOB = "1969"
+"Age (now)" = "45"
+"Age (BOD-OD)" = "40"
+Race = "White"
+"Stage OB" = "3"
+BMI = "32.9"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03126"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "4"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "NA"
+Clinical_Parameters = "75"
+ER = "-"
+PR = "-"
+"HER-2 neu" = "-"
+YOB = "1970"
+"Age (now)" = "44"
+"Age (BOD-OD)" = "40"
+Race = "White"
+"Stage OB" = "4"
+BMI = "30.2"
+"Year of Sample Collection" = "2010"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN01884"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "192"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "1970"
+"Age (now)" = "44"
+"Age (BOD-OD)" = "40"
+Race = "Asian"
+"Stage OB" = "2b"
+BMI = "NA"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00414"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "48"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "-"
+YOB = "1967"
+"Age (now)" = "47"
+"Age (BOD-OD)" = "41"
+Race = "White"
+"Stage OB" = "2"
+BMI = "22.7"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00538"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "104"
+ER = "1"
+PR = "-"
+"HER-2 neu" = "-"
+YOB = "1967"
+"Age (now)" = "47"
+"Age (BOD-OD)" = "41"
+Race = "White"
+"Stage OB" = "2"
+BMI = "29.8"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN02097"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "209"
+ER = "-"
+PR = "-"
+"HER-2 neu" = "1"
+YOB = "1968"
+"Age (now)" = "46"
+"Age (BOD-OD)" = "42"
+Race = "unknown"
+"Stage OB" = "3a"
+BMI = "28.5"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00888"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "139"
+ER = "-"
+PR = "-"
+"HER-2 neu" = "-"
+YOB = "1966"
+"Age (now)" = "48"
+"Age (BOD-OD)" = "43"
+Race = "Black"
+"Stage OB" = "2b"
+BMI = "33.7"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00614-1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "112"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "1"
+YOB = "1965"
+"Age (now)" = "49"
+"Age (BOD-OD)" = "43"
+Race = "White"
+"Stage OB" = "3"
+BMI = "41.5"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00038"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "26"
+ER = "-"
+PR = "-"
+"HER-2 neu" = "-"
+YOB = "1962"
+"Age (now)" = "52"
+"Age (BOD-OD)" = "44"
+Race = "White"
+"Stage OB" = "2"
+BMI = "35.5"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00743"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "123"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "1"
+YOB = "1965"
+"Age (now)" = "49"
+"Age (BOD-OD)" = "44"
+Race = "White"
+"Stage OB" = "2"
+BMI = "29.2"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00937"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "149"
+ER = "1"
+PR = "-"
+"HER-2 neu" = "1"
+YOB = "1965"
+"Age (now)" = "49"
+"Age (BOD-OD)" = "44"
+Race = "White"
+"Stage OB" = "2"
+BMI = "30.5"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00036"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "23"
+ER = "-"
+PR = "-"
+"HER-2 neu" = "1"
+YOB = "1962"
+"Age (now)" = "52"
+"Age (BOD-OD)" = "44"
+Race = "Asian"
+"Stage OB" = "3"
+BMI = "23.2"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00751"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "127"
+ER = "-"
+PR = "-"
+"HER-2 neu" = "-"
+YOB = "1965"
+"Age (now)" = "49"
+"Age (BOD-OD)" = "44"
+Race = "Other"
+"Stage OB" = "3"
+BMI = "24.2"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN01667"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "184"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "-"
+YOB = "1965"
+"Age (now)" = "49"
+"Age (BOD-OD)" = "44"
+Race = "White"
+"Stage OB" = "3"
+BMI = "31.1"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN02200"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "225"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "-"
+YOB = "1966"
+"Age (now)" = "48"
+"Age (BOD-OD)" = "44"
+Race = "White"
+"Stage OB" = "3"
+BMI = "37.9"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN02546"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "1"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "-"
+Clinical_Parameters = "9"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "-"
+YOB = "1964"
+"Age (now)" = "50"
+"Age (BOD-OD)" = "45"
+Race = "White"
+"Stage OB" = "1"
+BMI = "36.5"
+"Year of Sample Collection" = "2009"
+"Prog/Relapse by 9/7/11" = "N"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00023"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "3"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "-"
+YOB = "1961"
+"Age (now)" = "53"
+"Age (BOD-OD)" = "45"
+Race = "White"
+"Stage OB" = "2"
+BMI = "27.3"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN01001"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "152"
+ER = "-"
+PR = "-"
+"HER-2 neu" = "-"
+YOB = "1964"
+"Age (now)" = "50"
+"Age (BOD-OD)" = "45"
+Race = "White"
+"Stage OB" = "3c"
+BMI = "31.6"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00614-2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "113"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "1965"
+"Age (now)" = "49"
+"Age (BOD-OD)" = "45"
+Race = "White"
+"Stage OB" = "3"
+BMI = "41.5"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03929"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "4"
+Clinical_Parameters = "10"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "40"
+Race = "L"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03958"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "3"
+Clinical_Parameters = "90"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "40"
+Race = "C"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03979"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "4"
+Clinical_Parameters = "145"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "40"
+Race = "C"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03980"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "148"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "40"
+Race = "C"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN04004"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "3"
+Clinical_Parameters = "217"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "40"
+Race = "B"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN04005"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "4"
+Clinical_Parameters = "220"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "40"
+Race = "B"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03927"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "4"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "39"
+Race = "L"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03937"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "4"
+Clinical_Parameters = "33"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "39"
+Race = "L"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03939"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "39"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "39"
+Race = "L"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03953"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "3"
+Clinical_Parameters = "76"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "39"
+Race = "C"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03959"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "4"
+Clinical_Parameters = "92"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "39"
+Race = "C"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03961"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "96"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "39"
+Race = "C"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03967"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "4"
+Clinical_Parameters = "114"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "39"
+Race = "C"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03973"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "131"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "39"
+Race = "C"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03978"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "3"
+Clinical_Parameters = "142"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "39"
+Race = "C"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN04002"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "211"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "39"
+Race = "B"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03932"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "3"
+Clinical_Parameters = "19"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "38"
+Race = "L"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03942"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "47"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "38"
+Race = "L"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03944"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "3"
+Clinical_Parameters = "53"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "38"
+Race = "L"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03945"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "4"
+Clinical_Parameters = "56"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "38"
+Race = "L"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03969"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "119"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "38"
+Race = "C"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03974"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "3"
+Clinical_Parameters = "134"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "38"
+Race = "C"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN04003"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "214"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "38"
+Race = "B"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03931"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "16"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "37"
+Race = "L"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03960"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "94"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "37"
+Race = "C"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03962"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "3"
+Clinical_Parameters = "99"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "37"
+Race = "C"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN04000"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "3"
+Clinical_Parameters = "206"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "37"
+Race = "B"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN04001"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "4"
+Clinical_Parameters = "208"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "37"
+Race = "B"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN04006"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "223"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "37"
+Race = "B"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN04007"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "3"
+Clinical_Parameters = "226"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "37"
+Race = "B"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03957"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "88"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "36"
+Race = "C"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03963"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "4"
+Clinical_Parameters = "102"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "36"
+Race = "C"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03971"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "4"
+Clinical_Parameters = "125"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "36"
+Race = "C"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03977"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "140"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "36"
+Race = "C"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03930"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "13"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "35"
+Race = "L"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00465"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "71"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "1"
+YOB = "1962"
+"Age (now)" = "52"
+"Age (BOD-OD)" = "46"
+Race = "White"
+"Stage OB" = "2"
+BMI = "24.4"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00936"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "146"
+ER = "-"
+PR = "-"
+"HER-2 neu" = "-"
+YOB = "1963"
+"Age (now)" = "51"
+"Age (BOD-OD)" = "46"
+Race = "White"
+"Stage OB" = "2"
+BMI = "30.1"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN01512"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "181"
+ER = "1"
+PR = "-"
+"HER-2 neu" = "1"
+YOB = "1963"
+"Age (now)" = "51"
+"Age (BOD-OD)" = "46"
+Race = "White"
+"Stage OB" = "3c"
+BMI = "30.1"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN01939"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "196"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "-"
+YOB = "1964"
+"Age (now)" = "50"
+"Age (BOD-OD)" = "46"
+Race = "White"
+"Stage OB" = "3a"
+BMI = "27.5"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN02018"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "205"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "-"
+YOB = "1963"
+"Age (now)" = "51"
+"Age (BOD-OD)" = "47"
+Race = "White"
+"Stage OB" = "2a"
+BMI = "31.6"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00502"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "81"
+ER = "-"
+PR = "-"
+"HER-2 neu" = "-"
+YOB = "1961"
+"Age (now)" = "53"
+"Age (BOD-OD)" = "47"
+Race = "White"
+"Stage OB" = "3"
+BMI = "30"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00035"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "21"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "-"
+YOB = "1959"
+"Age (now)" = "55"
+"Age (BOD-OD)" = "47"
+Race = "White"
+"Stage OB" = "3"
+BMI = "45.3"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00037"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "25"
+ER = "1"
+PR = "-"
+"HER-2 neu" = "-"
+YOB = "1959"
+"Age (now)" = "55"
+"Age (BOD-OD)" = "47"
+Race = "White"
+"Stage OB" = "3"
+BMI = "NA"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00525"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "95"
+ER = "-"
+PR = "-"
+"HER-2 neu" = "1"
+YOB = "1960"
+"Age (now)" = "54"
+"Age (BOD-OD)" = "48"
+Race = "Asian"
+"Stage OB" = "2"
+BMI = "18.9"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN02008"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "204"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "-"
+YOB = "1962"
+"Age (now)" = "52"
+"Age (BOD-OD)" = "48"
+Race = "White"
+"Stage OB" = "2b"
+BMI = "23.6"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00416"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "49"
+ER = "-"
+PR = "-"
+"HER-2 neu" = "-"
+YOB = "1960"
+"Age (now)" = "54"
+"Age (BOD-OD)" = "48"
+Race = "White"
+"Stage OB" = "3"
+BMI = "35"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN01679"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "186"
+ER = "1"
+PR = "-"
+"HER-2 neu" = "-"
+YOB = "1961"
+"Age (now)" = "53"
+"Age (BOD-OD)" = "48"
+Race = "White"
+"Stage OB" = "3b"
+BMI = "29.2"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN01342"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "172"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "1"
+YOB = "1960"
+"Age (now)" = "54"
+"Age (BOD-OD)" = "49"
+Race = "Black"
+"Stage OB" = "2"
+BMI = "36"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00502"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "4"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "-"
+Clinical_Parameters = "213"
+ER = "-"
+PR = "-"
+"HER-2 neu" = "-"
+YOB = "1961"
+"Age (now)" = "53"
+"Age (BOD-OD)" = "49"
+Race = "White"
+"Stage OB" = "4"
+BMI = "23.5"
+"Year of Sample Collection" = "2010"
+"Prog/Relapse by 9/7/11" = "40550"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00358"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "43"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "-"
+YOB = "1958"
+"Age (now)" = "56"
+"Age (BOD-OD)" = "49"
+Race = "White"
+"Stage OB" = "2"
+BMI = "31.9"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00443"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "66"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "-"
+YOB = "1959"
+"Age (now)" = "55"
+"Age (BOD-OD)" = "49"
+Race = "White"
+"Stage OB" = "2"
+BMI = "16.1"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00468"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "72"
+ER = "1"
+PR = "-"
+"HER-2 neu" = "-"
+YOB = "1959"
+"Age (now)" = "55"
+"Age (BOD-OD)" = "49"
+Race = "White"
+"Stage OB" = "2"
+BMI = "30.2"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN02021"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "207"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "1"
+YOB = "1960"
+"Age (now)" = "54"
+"Age (BOD-OD)" = "50"
+Race = "Asian"
+"Stage OB" = "2b"
+BMI = "31.6"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00029"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "12"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "-"
+YOB = "1956"
+"Age (now)" = "58"
+"Age (BOD-OD)" = "50"
+Race = "White"
+"Stage OB" = "2"
+BMI = "43.4"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00693"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "117"
+ER = "1"
+PR = "-"
+"HER-2 neu" = "-"
+YOB = "1958"
+"Age (now)" = "56"
+"Age (BOD-OD)" = "50"
+Race = "Other"
+"Stage OB" = "2"
+BMI = "NA"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00895"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "141"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "1"
+YOB = "1959"
+"Age (now)" = "55"
+"Age (BOD-OD)" = "50"
+Race = "White"
+"Stage OB" = "2"
+BMI = "32"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00375"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "46"
+ER = "-"
+PR = "-"
+"HER-2 neu" = "1"
+YOB = "1958"
+"Age (now)" = "56"
+"Age (BOD-OD)" = "50"
+Race = "Asian"
+"Stage OB" = "3"
+BMI = "21.4"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN01932"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "195"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "-"
+YOB = "1959"
+"Age (now)" = "55"
+"Age (BOD-OD)" = "50"
+Race = "White"
+"Stage OB" = "3a"
+BMI = "38.9"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00033"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "20"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "-"
+YOB = "1955"
+"Age (now)" = "59"
+"Age (BOD-OD)" = "51"
+Race = "White"
+"Stage OB" = "2"
+BMI = "25.1"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00505"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "86"
+ER = "-"
+PR = "-"
+"HER-2 neu" = "-"
+YOB = "1957"
+"Age (now)" = "57"
+"Age (BOD-OD)" = "51"
+Race = "White"
+"Stage OB" = "2"
+BMI = "34.9"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN01196"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "161"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "-"
+YOB = "1958"
+"Age (now)" = "56"
+"Age (BOD-OD)" = "51"
+Race = "Asian"
+"Stage OB" = "2"
+BMI = "28.7"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN01410"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "173"
+ER = "-"
+PR = "-"
+"HER-2 neu" = "-"
+YOB = "1958"
+"Age (now)" = "56"
+"Age (BOD-OD)" = "51"
+Race = "White"
+"Stage OB" = "2"
+BMI = "29.4"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00469"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "74"
+ER = "-"
+PR = "-"
+"HER-2 neu" = "-"
+YOB = "1957"
+"Age (now)" = "57"
+"Age (BOD-OD)" = "51"
+Race = "White"
+"Stage OB" = "3"
+BMI = "28.3"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00030"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "14"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "-"
+YOB = "1954"
+"Age (now)" = "60"
+"Age (BOD-OD)" = "52"
+Race = "White"
+"Stage OB" = "3"
+BMI = "33.8"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00339"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "40"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "-"
+YOB = "1955"
+"Age (now)" = "59"
+"Age (BOD-OD)" = "52"
+Race = "Asian"
+"Stage OB" = "3"
+BMI = "20.8"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00358"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "4"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "-"
+Clinical_Parameters = "15"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "-"
+YOB = "1958"
+"Age (now)" = "56"
+"Age (BOD-OD)" = "52"
+Race = "White"
+"Stage OB" = "4"
+BMI = "30.5"
+"Year of Sample Collection" = "2010"
+"Prog/Relapse by 9/7/11" = "40490"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00861"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "132"
+ER = "-"
+PR = "1"
+"HER-2 neu" = "1"
+YOB = "1956"
+"Age (now)" = "58"
+"Age (BOD-OD)" = "53"
+Race = "Asian"
+"Stage OB" = "2"
+BMI = "27.5"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00462"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "69"
+ER = "1"
+PR = "-"
+"HER-2 neu" = "-"
+YOB = "1955"
+"Age (now)" = "59"
+"Age (BOD-OD)" = "53"
+Race = "White"
+"Stage OB" = "3"
+BMI = "24.5"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN02249"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "219"
+ER = "-"
+PR = "1"
+"HER-2 neu" = "1"
+YOB = "1957"
+"Age (now)" = "57"
+"Age (BOD-OD)" = "53"
+Race = "White"
+"Stage OB" = "3a"
+BMI = "31.8"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN02675"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "4"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "-"
+Clinical_Parameters = "52"
+ER = "-"
+PR = "-"
+"HER-2 neu" = "EQUIVOCAL FOR OVEREXPRESSION (SCORE 2)"
+YOB = "1957"
+"Age (now)" = "57"
+"Age (BOD-OD)" = "53"
+Race = "Oriental"
+"Stage OB" = "4"
+BMI = "39.8"
+"Year of Sample Collection" = "2010"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00482"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "80"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "1"
+YOB = "1954"
+"Age (now)" = "60"
+"Age (BOD-OD)" = "54"
+Race = "Asian"
+"Stage OB" = "2"
+BMI = "24.1"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00271"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "34"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "1"
+YOB = "1953"
+"Age (now)" = "61"
+"Age (BOD-OD)" = "54"
+Race = "Black"
+"Stage OB" = "3-Feb"
+BMI = "37.4"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00436"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "60"
+ER = "-"
+PR = "-"
+"HER-2 neu" = "1"
+YOB = "1954"
+"Age (now)" = "60"
+"Age (BOD-OD)" = "54"
+Race = "Asian"
+"Stage OB" = "3"
+BMI = "36"
+"Year of Sample Collection" = "NA"
+"Prog/Relapse by 9/7/11" = "NA"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03213"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "4"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "-"
+Clinical_Parameters = "29"
+ER = "-"
+PR = "-"
+"HER-2 neu" = "1"
+YOB = "1956"
+"Age (now)" = "58"
+"Age (BOD-OD)" = "54"
+Race = "White"
+"Stage OB" = "4"
+BMI = "50"
+"Year of Sample Collection" = "2010"
+"Prog/Relapse by 9/7/11" = "40581"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03702"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "4"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "-"
+Clinical_Parameters = "199"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "1"
+YOB = "1956"
+"Age (now)" = "58"
+"Age (BOD-OD)" = "54"
+Race = "Oriental"
+"Stage OB" = "4"
+BMI = "22.7"
+"Year of Sample Collection" = "2010"
+"Prog/Relapse by 9/7/11" = "40630"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00427"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "57"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "-"
+YOB = "1953"
+"Age (now)" = "61"
+"Age (BOD-OD)" = "55"
+Race = "White"
+"Stage OB" = "2"
+BMI = "NA"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN01976"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "198"
+ER = "-"
+PR = "-"
+"HER-2 neu" = "-"
+YOB = "1955"
+"Age (now)" = "59"
+"Age (BOD-OD)" = "55"
+Race = "White"
+"Stage OB" = "3c"
+BMI = "33.6"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00339"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "4"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "-"
+Clinical_Parameters = "107"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "-"
+YOB = "1955"
+"Age (now)" = "59"
+"Age (BOD-OD)" = "55"
+Race = "Oriental"
+"Stage OB" = "4"
+BMI = "20.8"
+"Year of Sample Collection" = "2010"
+"Prog/Relapse by 9/7/11" = "39771"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03568"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "4"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "-"
+Clinical_Parameters = "130"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "unknown"
+YOB = "1955"
+"Age (now)" = "59"
+"Age (BOD-OD)" = "55"
+Race = "White"
+"Stage OB" = "4"
+BMI = "21.4"
+"Year of Sample Collection" = "2010"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00737"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "120"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "-"
+YOB = "1955"
+"Age (now)" = "59"
+"Age (BOD-OD)" = "55"
+Race = "Black"
+"Stage OB" = "2b"
+BMI = "35.4"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN02528"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "1"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "-"
+Clinical_Parameters = "110"
+ER = "-"
+PR = "-"
+"HER-2 neu" = "1"
+YOB = "1953"
+"Age (now)" = "61"
+"Age (BOD-OD)" = "56"
+Race = "Other"
+"Stage OB" = "1"
+BMI = "24.4"
+"Year of Sample Collection" = "2009"
+"Prog/Relapse by 9/7/11" = "N"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN02261"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "1"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "-"
+Clinical_Parameters = "193"
+ER = "-"
+PR = "-"
+"HER-2 neu" = "equivocal (score 2+)"
+YOB = "1952"
+"Age (now)" = "62"
+"Age (BOD-OD)" = "57"
+Race = "White"
+"Stage OB" = "1"
+BMI = "27.5"
+"Year of Sample Collection" = "2009"
+"Prog/Relapse by 9/7/11" = "N"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN02773"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "1"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "-"
+Clinical_Parameters = "170"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "equivocal (score 2)"
+YOB = "1953"
+"Age (now)" = "61"
+"Age (BOD-OD)" = "57"
+Race = "White"
+"Stage OB" = "1"
+BMI = "35.9"
+"Year of Sample Collection" = "2010"
+"Prog/Relapse by 9/7/11" = "N"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00667"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "115"
+ER = "-"
+PR = "-"
+"HER-2 neu" = "-"
+YOB = "1951"
+"Age (now)" = "63"
+"Age (BOD-OD)" = "57"
+Race = "White"
+"Stage OB" = "3"
+BMI = "47.1"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN01262"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "163"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "-"
+YOB = "1952"
+"Age (now)" = "62"
+"Age (BOD-OD)" = "57"
+Race = "White"
+"Stage OB" = "3"
+BMI = "27.7"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03701"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "4"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "-"
+Clinical_Parameters = "167"
+ER = "-"
+PR = "-"
+"HER-2 neu" = "-"
+YOB = "1953"
+"Age (now)" = "61"
+"Age (BOD-OD)" = "57"
+Race = "White"
+"Stage OB" = "4"
+BMI = "38"
+"Year of Sample Collection" = "2010"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00002"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "2"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "-"
+YOB = "1948"
+"Age (now)" = "66"
+"Age (BOD-OD)" = "58"
+Race = "Native American"
+"Stage OB" = "3"
+BMI = "50.4"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00941"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "150"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "1"
+YOB = "1950"
+"Age (now)" = "64"
+"Age (BOD-OD)" = "59"
+Race = "White"
+"Stage OB" = "3"
+BMI = "55"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN02007"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "201"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "-"
+YOB = "1951"
+"Age (now)" = "63"
+"Age (BOD-OD)" = "59"
+Race = "White"
+"Stage OB" = "3b"
+BMI = "31.1"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03629"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "4"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "-"
+Clinical_Parameters = "222"
+ER = "1"
+PR = "-"
+"HER-2 neu" = "-"
+YOB = "1951"
+"Age (now)" = "63"
+"Age (BOD-OD)" = "59"
+Race = "White"
+"Stage OB" = "4"
+BMI = "26.8"
+"Year of Sample Collection" = "2010"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03756"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "4"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "-"
+Clinical_Parameters = "38"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "unknown"
+YOB = "1951"
+"Age (now)" = "63"
+"Age (BOD-OD)" = "59"
+Race = "White"
+"Stage OB" = "4"
+BMI = "23.4"
+"Year of Sample Collection" = "2010"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00025"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "5"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "-"
+YOB = "1947"
+"Age (now)" = "67"
+"Age (BOD-OD)" = "59"
+Race = "White"
+"Stage OB" = "2"
+BMI = "NA"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN02453"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "1"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "-"
+Clinical_Parameters = "156"
+ER = "-"
+PR = "-"
+"HER-2 neu" = "-"
+YOB = "1949"
+"Age (now)" = "65"
+"Age (BOD-OD)" = "60"
+Race = "White"
+"Stage OB" = "1"
+BMI = "31.6"
+"Year of Sample Collection" = "2009"
+"Prog/Relapse by 9/7/11" = "N"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN01055-0001"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "158"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "1949"
+"Age (now)" = "65"
+"Age (BOD-OD)" = "60"
+Race = "White"
+"Stage OB" = "3"
+BMI = "24.5"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03460"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "4"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "-"
+Clinical_Parameters = "176"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "-"
+YOB = "1950"
+"Age (now)" = "64"
+"Age (BOD-OD)" = "60"
+Race = "White"
+"Stage OB" = "4"
+BMI = "29.8"
+"Year of Sample Collection" = "2010"
+"Prog/Relapse by 9/7/11" = "40499"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03630"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "4"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "-"
+Clinical_Parameters = "144"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "-"
+YOB = "1950"
+"Age (now)" = "64"
+"Age (BOD-OD)" = "60"
+Race = "White"
+"Stage OB" = "4"
+BMI = "27.7"
+"Year of Sample Collection" = "2010"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN02619"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "1"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "-"
+Clinical_Parameters = "18"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "-"
+YOB = "1949"
+"Age (now)" = "65"
+"Age (BOD-OD)" = "61"
+Race = "White"
+"Stage OB" = "1"
+BMI = "NA"
+"Year of Sample Collection" = "2010"
+"Prog/Relapse by 9/7/11" = "No Follow Up"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00373"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "44"
+ER = "-"
+PR = "-"
+"HER-2 neu" = "1"
+YOB = "1947"
+"Age (now)" = "67"
+"Age (BOD-OD)" = "61"
+Race = "White"
+"Stage OB" = "2"
+BMI = "46.3"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00539"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "106"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "-"
+YOB = "1947"
+"Age (now)" = "67"
+"Age (BOD-OD)" = "61"
+Race = "White"
+"Stage OB" = "2b"
+BMI = "44.9"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00848"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "129"
+ER = "1"
+PR = "-"
+"HER-2 neu" = "1"
+YOB = "1948"
+"Age (now)" = "66"
+"Age (BOD-OD)" = "61"
+Race = "White"
+"Stage OB" = "2"
+BMI = "45.5"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00028"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "11"
+ER = "-"
+PR = "-"
+"HER-2 neu" = "1"
+YOB = "1945"
+"Age (now)" = "69"
+"Age (BOD-OD)" = "61"
+Race = "White"
+"Stage OB" = "3"
+BMI = "39.5"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00082"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "31"
+ER = "-"
+PR = "-"
+"HER-2 neu" = "1"
+YOB = "1946"
+"Age (now)" = "68"
+"Age (BOD-OD)" = "61"
+Race = "-"
+"Stage OB" = "3c"
+BMI = "NA"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN02118"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "210"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "1949"
+"Age (now)" = "65"
+"Age (BOD-OD)" = "61"
+Race = "Asian"
+"Stage OB" = "2a"
+BMI = "NA"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN01055-0002"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "155"
+ER = "-"
+PR = "-"
+"HER-2 neu" = "1"
+YOB = "1949"
+"Age (now)" = "65"
+"Age (BOD-OD)" = "61"
+Race = "White"
+"Stage OB" = "3"
+BMI = "24.5"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN02760"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "1"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "-"
+Clinical_Parameters = "147"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "equivocal (score 1)"
+YOB = "1948"
+"Age (now)" = "66"
+"Age (BOD-OD)" = "62"
+Race = "White"
+"Stage OB" = "1"
+BMI = "25.9"
+"Year of Sample Collection" = "2010"
+"Prog/Relapse by 9/7/11" = "N"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN02917"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "1"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "-"
+Clinical_Parameters = "202"
+ER = "1"
+PR = "-"
+"HER-2 neu" = "equivocal (score 2+)"
+YOB = "1948"
+"Age (now)" = "66"
+"Age (BOD-OD)" = "62"
+Race = "Oriental"
+"Stage OB" = "1"
+BMI = "15.9"
+"Year of Sample Collection" = "2010"
+"Prog/Relapse by 9/7/11" = "N"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN02304"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "224"
+ER = "-"
+PR = "-"
+"HER-2 neu" = "1"
+YOB = "1948"
+"Age (now)" = "66"
+"Age (BOD-OD)" = "62"
+Race = "White"
+"Stage OB" = "2b"
+BMI = "28.1"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00733"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "118"
+ER = "-"
+PR = "-"
+"HER-2 neu" = "1"
+YOB = "1947"
+"Age (now)" = "67"
+"Age (BOD-OD)" = "62"
+Race = "White"
+"Stage OB" = "3"
+BMI = "28"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03046"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "4"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "-"
+Clinical_Parameters = "98"
+ER = "-"
+PR = "-"
+"HER-2 neu" = "-"
+YOB = "1948"
+"Age (now)" = "66"
+"Age (BOD-OD)" = "62"
+Race = "Black"
+"Stage OB" = "4"
+BMI = "18.5"
+"Year of Sample Collection" = "2010"
+"Prog/Relapse by 9/7/11" = "40455"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN02020"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "1"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "-"
+Clinical_Parameters = "41"
+ER = "-"
+PR = "1"
+"HER-2 neu" = "-"
+YOB = "1946"
+"Age (now)" = "68"
+"Age (BOD-OD)" = "63"
+Race = "White"
+"Stage OB" = "1"
+BMI = "27.4"
+"Year of Sample Collection" = "2009"
+"Prog/Relapse by 9/7/11" = "N"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN02307"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "1"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "-"
+Clinical_Parameters = "124"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "-"
+YOB = "1946"
+"Age (now)" = "68"
+"Age (BOD-OD)" = "63"
+Race = "White"
+"Stage OB" = "1"
+BMI = "32.1"
+"Year of Sample Collection" = "2009"
+"Prog/Relapse by 9/7/11" = "N"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN02394"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "1"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "-"
+Clinical_Parameters = "133"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "equivocal"
+YOB = "1946"
+"Age (now)" = "68"
+"Age (BOD-OD)" = "63"
+Race = "White"
+"Stage OB" = "1"
+BMI = "40.5"
+"Year of Sample Collection" = "2009"
+"Prog/Relapse by 9/7/11" = "N"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00272"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "35"
+ER = "-"
+PR = "-"
+"HER-2 neu" = "-"
+YOB = "1944"
+"Age (now)" = "70"
+"Age (BOD-OD)" = "63"
+Race = "White"
+"Stage OB" = "2"
+BMI = "23.1"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00481"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "77"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "-"
+YOB = "1945"
+"Age (now)" = "69"
+"Age (BOD-OD)" = "63"
+Race = "White"
+"Stage OB" = "2"
+BMI = "26.3"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00333"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "37"
+ER = "1"
+PR = "-"
+"HER-2 neu" = "-"
+YOB = "1944"
+"Age (now)" = "70"
+"Age (BOD-OD)" = "63"
+Race = "White"
+"Stage OB" = "3"
+BMI = "24.1"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00437"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "63"
+ER = "-"
+PR = "-"
+"HER-2 neu" = "1"
+YOB = "1945"
+"Age (now)" = "69"
+"Age (BOD-OD)" = "63"
+Race = "White"
+"Stage OB" = "3"
+BMI = "32"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00547"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "109"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "1"
+YOB = "1944"
+"Age (now)" = "70"
+"Age (BOD-OD)" = "64"
+Race = "White"
+"Stage OB" = "2b"
+BMI = "41.4"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00919"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "143"
+ER = "-"
+PR = "-"
+"HER-2 neu" = "1"
+YOB = "1945"
+"Age (now)" = "69"
+"Age (BOD-OD)" = "64"
+Race = "Other"
+"Stage OB" = "2"
+BMI = "29.3"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03537"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "4"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "-"
+Clinical_Parameters = "153"
+ER = "1"
+PR = "-"
+"HER-2 neu" = "-"
+YOB = "1946"
+"Age (now)" = "68"
+"Age (BOD-OD)" = "64"
+Race = "White"
+"Stage OB" = "4"
+BMI = "33.3"
+"Year of Sample Collection" = "2010"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN02854"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "1"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "-"
+Clinical_Parameters = "78"
+ER = "-"
+PR = "-"
+"HER-2 neu" = "1"
+YOB = "1945"
+"Age (now)" = "69"
+"Age (BOD-OD)" = "65"
+Race = "White"
+"Stage OB" = "1"
+BMI = "24.3"
+"Year of Sample Collection" = "2010"
+"Prog/Relapse by 9/7/11" = "N"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN02110"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "221"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "-"
+YOB = "1945"
+"Age (now)" = "69"
+"Age (BOD-OD)" = "65"
+Race = "White"
+"Stage OB" = "2a"
+BMI = "35.4"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00377"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "212"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "-"
+YOB = "1943"
+"Age (now)" = "71"
+"Age (BOD-OD)" = "65"
+Race = "White"
+"Stage OB" = "3"
+BMI = "29.9"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN01935"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "1"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "-"
+Clinical_Parameters = "32"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "-"
+YOB = "1943"
+"Age (now)" = "71"
+"Age (BOD-OD)" = "66"
+Race = "White"
+"Stage OB" = "1"
+BMI = "23.3"
+"Year of Sample Collection" = "2009"
+"Prog/Relapse by 9/7/11" = "N"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN01321"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "169"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "-"
+YOB = "1943"
+"Age (now)" = "71"
+"Age (BOD-OD)" = "66"
+Race = "White"
+"Stage OB" = "2"
+BMI = "36.7"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN01766-0001.5"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "189"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "1942"
+"Age (now)" = "72"
+"Age (BOD-OD)" = "67"
+Race = "White"
+"Stage OB" = "3"
+BMI = "44.5"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03438"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "4"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "-"
+Clinical_Parameters = "121"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "-"
+YOB = "1943"
+"Age (now)" = "71"
+"Age (BOD-OD)" = "67"
+Race = "White"
+"Stage OB" = "4"
+BMI = "21.8"
+"Year of Sample Collection" = "2010"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN02791"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "1"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "-"
+Clinical_Parameters = "179"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "-"
+YOB = "1942"
+"Age (now)" = "72"
+"Age (BOD-OD)" = "68"
+Race = "Other"
+"Stage OB" = "1"
+BMI = "29.1"
+"Year of Sample Collection" = "2010"
+"Prog/Relapse by 9/7/11" = "N"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN01766-0002.6"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "187"
+ER = "-"
+PR = "-"
+"HER-2 neu" = "1"
+YOB = "1942"
+"Age (now)" = "72"
+"Age (BOD-OD)" = "68"
+Race = "White"
+"Stage OB" = "3"
+BMI = "44.5"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN02944"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "1"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "-"
+Clinical_Parameters = "87"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "-"
+YOB = "1941"
+"Age (now)" = "73"
+"Age (BOD-OD)" = "69"
+Race = "White"
+"Stage OB" = "1"
+BMI = "27.9"
+"Year of Sample Collection" = "2010"
+"Prog/Relapse by 9/7/11" = "yr95 stage I, yr10 recurrence"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03140"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "4"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "-"
+Clinical_Parameters = "6"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "1"
+YOB = "1941"
+"Age (now)" = "73"
+"Age (BOD-OD)" = "69"
+Race = "White"
+"Stage OB" = "4"
+BMI = "22.3"
+"Year of Sample Collection" = "2010"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03579"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "4"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "-"
+Clinical_Parameters = "84"
+ER = "1"
+PR = "-"
+"HER-2 neu" = "1"
+YOB = "1941"
+"Age (now)" = "73"
+"Age (BOD-OD)" = "69"
+Race = "Black"
+"Stage OB" = "4"
+BMI = "24"
+"Year of Sample Collection" = "2010"
+"Prog/Relapse by 9/7/11" = "40631"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN00537"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "215"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "1"
+YOB = "1939"
+"Age (now)" = "75"
+"Age (BOD-OD)" = "69"
+Race = "Asian"
+"Stage OB" = "2"
+BMI = "26.9"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN02637"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "1"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "-"
+Clinical_Parameters = "101"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "unknown"
+YOB = "1940"
+"Age (now)" = "74"
+"Age (BOD-OD)" = "70"
+Race = "White"
+"Stage OB" = "1"
+BMI = "23.4"
+"Year of Sample Collection" = "2010"
+"Prog/Relapse by 9/7/11" = "N"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN02523"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "1"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "-"
+Clinical_Parameters = "216"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "equivocal (score 1+)"
+YOB = "1938"
+"Age (now)" = "76"
+"Age (BOD-OD)" = "71"
+Race = "White"
+"Stage OB" = "1"
+BMI = "25.3"
+"Year of Sample Collection" = "2009"
+"Prog/Relapse by 9/7/11" = "N"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN02956"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "1"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "-"
+Clinical_Parameters = "55"
+ER = "-"
+PR = "-"
+"HER-2 neu" = "1"
+YOB = "1938"
+"Age (now)" = "76"
+"Age (BOD-OD)" = "72"
+Race = "White"
+"Stage OB" = "1"
+BMI = "24.3"
+"Year of Sample Collection" = "2010"
+"Prog/Relapse by 9/7/11" = "N"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN01449"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "175"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "1938"
+"Age (now)" = "76"
+"Age (BOD-OD)" = "72"
+Race = "white"
+"Stage OB" = "3"
+BMI = "NA"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN02212"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "1"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "-"
+Clinical_Parameters = "64"
+ER = "1"
+PR = "-"
+"HER-2 neu" = "-"
+YOB = "1936"
+"Age (now)" = "78"
+"Age (BOD-OD)" = "73"
+Race = "White"
+"Stage OB" = "1"
+BMI = "18.7"
+"Year of Sample Collection" = "2009"
+"Prog/Relapse by 9/7/11" = "N"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03212"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Breast cancer"
+Stage = "4"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "-"
+Clinical_Parameters = "61"
+ER = "1"
+PR = "1"
+"HER-2 neu" = "-"
+YOB = "1937"
+"Age (now)" = "77"
+"Age (BOD-OD)" = "73"
+Race = "Black"
+"Stage OB" = "4"
+BMI = "29.7"
+"Year of Sample Collection" = "2010"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03936"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "3"
+Clinical_Parameters = "30"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "35"
+Race = "L"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03938"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "36"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "34"
+Race = "L"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03946"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "59"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "34"
+Race = "L"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03956"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "85"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "34"
+Race = "C"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03968"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "116"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "34"
+Race = "C"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03976"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "138"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "34"
+Race = "C"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03933"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "4"
+Clinical_Parameters = "22"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "33"
+Race = "L"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03940"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "3"
+Clinical_Parameters = "42"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "33"
+Race = "L"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03941"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "4"
+Clinical_Parameters = "45"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "33"
+Race = "L"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03966"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "3"
+Clinical_Parameters = "111"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "33"
+Race = "C"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03975"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "4"
+Clinical_Parameters = "136"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "33"
+Race = "C"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03970"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "3"
+Clinical_Parameters = "122"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "32"
+Race = "C"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03972"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "128"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "32"
+Race = "C"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03926"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "1"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "31"
+Race = "L"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03928"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "3"
+Clinical_Parameters = "7"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "31"
+Race = "L"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03934"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "24"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "31"
+Race = "L"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03935"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "27"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "31"
+Race = "L"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03955"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "4"
+Clinical_Parameters = "82"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "31"
+Race = "C"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03964"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "105"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "31"
+Race = "C"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03965"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "108"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "31"
+Race = "C"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03943"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "50"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "30"
+Race = "L"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03988"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "4"
+Clinical_Parameters = "171"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "30"
+Race = "C"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03990"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "177"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "30"
+Race = "C"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03986"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "165"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "28"
+Race = "C"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03987"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "3"
+Clinical_Parameters = "168"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "28"
+Race = "C"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03998"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "200"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "27"
+Race = "B"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03999"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "203"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "27"
+Race = "B"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03984"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "160"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "26"
+Race = "C"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03950"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "4"
+Clinical_Parameters = "68"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "25"
+Race = "L"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03989"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "174"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "25"
+Race = "C"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03993"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "185"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "25"
+Race = "C"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03995"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "191"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "25"
+Race = "B"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03983"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "4"
+Clinical_Parameters = "157"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "24"
+Race = "C"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03949"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "3"
+Clinical_Parameters = "65"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "23"
+Race = "L"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03952"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "73"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "23"
+Race = "L"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03991"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "3"
+Clinical_Parameters = "180"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "23"
+Race = "C"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03992"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "4"
+Clinical_Parameters = "183"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "22"
+Race = "C"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03948"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "2"
+Clinical_Parameters = "62"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "21"
+Race = "L"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03951"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "1"
+Clinical_Parameters = "70"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "21"
+Race = "L"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03996"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "3"
+Clinical_Parameters = "194"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "21"
+Race = "B"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "PN03997"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "Control"
+Stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Sub-group = "4"
+Clinical_Parameters = "197"
+ER = "NA"
+PR = "NA"
+"HER-2 neu" = "NA"
+YOB = "-"
+"Age (now)" = "2014"
+"Age (BOD-OD)" = "21"
+Race = "B"
+"Stage OB" = "NA"
+BMI = "NA"
+"Year of Sample Collection" = "-"
+"Prog/Relapse by 9/7/11" = "-"

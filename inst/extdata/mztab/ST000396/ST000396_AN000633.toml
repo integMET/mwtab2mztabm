@@ -1,0 +1,4887 @@
+# mwTab metadata of study ST000396, analysis AN000633
+# Exported by mwtab2mztabm 0.1.0.
+# Sample metadata is listed in [[SUBJECT_SAMPLE_FACTORS]].
+
+[mwtab2mztabm]
+format_version = 1
+factor_order = ["Age Group", "Sex", "Smoking Status", "Diagnosis"]
+additional_data_order = ["TimeDraw (Hours)", "Fasting prior to blood draw (hours)", "Blood Draw Hour", "Lung Cancer Stage"]
+
+["METABOLOMICS WORKBENCH"]
+STUDY_ID = "ST000396"
+ANALYSIS_ID = "AN000633"
+VERSION = "1"
+CREATED_ON = "July 9, 2016, 1:34 pm"
+
+[PROJECT]
+PROJECT_TITLE = "Lung Cancer Plasma Discovery"
+PROJECT_SUMMARY = "Recently, major efforts have been directed toward early detection of lung cancer through low-dose computed tomography (LDCT) scanning. Data from the National Lung Screening Trial (NLST) suggest that yearly screening with thoracic LDCT scanning for high-risk current and former smokers reduces lung cancer mortality by 20% and total mortality by 7%. However, issues including indeterminate nodules detected by LDCT and radiation exposure impact the practicality of LDCT-based screening on a national and global basis. A blood-based biomarker or multiplexed marker panel that could complement LDCT would represent a major advance in implementing lung cancer screening. Efforts to develop blood-based biomarkers for lung cancer early detection using a variety of methodologies are currently ongoing. Proteomic studies have led to the identification of several candidate markers including pro-surfactantproteinB(pro-SFTPB), a target of a lineage-survival oncogene in lung cancer, NKX2-1.Validation studies using blood samples collected at the time of LDCT screening for lung cancer substantiated the performance of pro-SFTPB. Multivariable logistic regression models were used to evaluate the predictive ability of pro-SFTPB. The area under the curve (AUC) values of the full model with and without pro-SFTPB were 0.741 (95% CI, 0.696 to 0.783) and 0.669 (95%CI, 0.620 to 0.717), respectively (difference in AUC, P_.001). Single markers are unlikely to have sufficient performance for implementation in a screening setting, hence the need to explore several discovery platforms to identify markers that provide complementary performance. Metabolomics represents a global unbiased approach to the profiling of small molecules and has been established as a platform for biomarker discovery for a variety of human biofluids and tissues. Here we used an untargeted liquid chromatography/mass spectrometry (MS) metabolomics approach to identify metabolites that distinguish human sera collected before the diagnosis of lung cancer from matched control sera in a prospective cohort of highrisk patients from the Beta-Carotene and Retinol Efficacy Trial (CARET)."
+INSTITUTE = "University of California, Davis"
+DEPARTMENT = "Genome and Biomedical Sciences Facility"
+LABORATORY = "WCMC Metabolomics Core"
+LAST_NAME = "Fiehn"
+FIRST_NAME = "Oliver"
+ADDRESS = "1315 Genome and Biomedical Sciences Facility, 451 Health Sciences Drive, Davis, CA 95616"
+EMAIL = "ofiehn@ucdavis.edu"
+PHONE = "(530) 754-8258"
+FUNDING_SOURCE = "NIH U24DK097154"
+
+[STUDY]
+STUDY_TITLE = "Lung Cancer Plasma Discovery"
+STUDY_SUMMARY = "Recently, major efforts have been directed toward early detection of lung cancer through low-dose computed tomography (LDCT) scanning. Data from the National Lung Screening Trial (NLST) suggest that yearly screening with thoracic LDCT scanning for high-risk current and former smokers reduces lung cancer mortality by 20% and total mortality by 7%. However, issues including indeterminate nodules detected by LDCT and radiation exposure impact the practicality of LDCT-based screening on a national and global basis. A blood-based biomarker or multiplexed marker panel that could complement LDCT would represent a major advance in implementing lung cancer screening. Efforts to develop blood-based biomarkers for lung cancer early detection using a variety of methodologies are currently ongoing. Proteomic studies have led to the identification of several candidate markers including pro-surfactantproteinB(pro-SFTPB), a target of a lineage-survival oncogene in lung cancer, NKX2-1.Validation studies using blood samples collected at the time of LDCT screening for lung cancer substantiated the performance of pro-SFTPB. Multivariable logistic regression models were used to evaluate the predictive ability of pro-SFTPB. The area under the curve (AUC) values of the full model with and without pro-SFTPB were 0.741 (95% CI, 0.696 to 0.783) and 0.669 (95%CI, 0.620 to 0.717), respectively (difference in AUC, P_.001). Single markers are unlikely to have sufficient performance for implementation in a screening setting, hence the need to explore several discovery platforms to identify markers that provide complementary performance. Metabolomics represents a global unbiased approach to the profiling of small molecules and has been established as a platform for biomarker discovery for a variety of human biofluids and tissues. Here we used an untargeted liquid chromatography/mass spectrometry (MS) metabolomics approach to identify metabolites that distinguish human sera collected before the diagnosis of lung cancer from matched control sera in a prospective cohort of highrisk patients from the Beta-Carotene and Retinol Efficacy Trial (CARET)."
+INSTITUTE = "University of California, Davis"
+DEPARTMENT = "Genome and Biomedical Sciences Facility"
+LABORATORY = "WCMC Metabolomics Core"
+LAST_NAME = "Fiehn"
+FIRST_NAME = "Oliver"
+ADDRESS = "1315 Genome and Biomedical Sciences Facility, 451 Health Sciences Drive, Davis, CA 95616"
+EMAIL = "ofiehn@ucdavis.edu"
+PHONE = "(530) 754-8258"
+
+[SUBJECT]
+SUBJECT_TYPE = "Human"
+SUBJECT_SPECIES = "Homo sapiens"
+TAXONOMY_ID = "9606"
+AGE_OR_AGE_RANGE = "45-74"
+GENDER = "M/F"
+HUMAN_SMOKING_STATUS = "Current vs. former"
+
+[COLLECTION]
+COLLECTION_SUMMARY = "In total, 208 patients with lung cancer were selected from 222 patients with non–small-cell lung cancer (NSCLC) with serum available in the CARET repository from blood draws that occurred up to 12 months before diagnosis. Fourteen patients with insufficient sample available for the study were excluded.Two control individuals who were free of lung cancer were matched to each patient case on age at baseline (5-year groups), sex, baseline smoking status (current v former), and study enrollment phase (pilot [1985 to 1988] or full-scale trial [1989 to 1994], thus accounting for sample storage time). For one patient, only a single control could be matched, resulting in a total of 208 patients and 415 controls included in the study. The samples were divided into two sets; samples from 100 matched sets were used for biomarker discovery (the discovery set), and the remaining 108 matched sets were reserved for validation of markers identified by the discovery efforts (the validation set). All CARET participants provided informed consent at recruitment and throughout follow-up, and the institutional review boards at each of the six study centers approved all study procedures."
+COLLECTION_PROTOCOL_FILENAME = "JCO-2015-Wikoff-3880-6.pdf"
+SAMPLE_TYPE = "Blood"
+BLOOD_SERUM_OR_PLASMA = "Plasma"
+
+[TREATMENT]
+TREATMENT_SUMMARY = "Potential confounders and effect modifiers on the DAS and lung cancer association were examined by the Mann-Whitney U test or Kruskal-Wallis test, stratified by case-control status, to assess association between DAS and several potential confounders, including sex, age, fasting time (hours since last meal), body mass index, smoking status (current v former), pack-years, and CARET exposure population (asbestos-exposed v heavy smoker cohort), as well as histology, stage of disease, and time of blood draw with respect to diagnosis (0 to 6 months v 6 to 12 months prior) among patients with lung cancer only."
+TREATMENT_PROTOCOL_FILENAME = "JCO-2015-Wikoff-3880-6.pdf"
+HUMAN_FASTING = "0-30 Hours"
+
+[SAMPLEPREP]
+SAMPLEPREP_SUMMARY = "1. Switch on bath to pre-cool at –20°C (±2°C validity temperature range) 2. Gently rotate or aspirate the blood samples for about 10s to obtain a homogenised sample. 3. Aliquot 30µl of plasma sample to a 1.0 mL extraction solution. The extraction solution has to be prechilled using the ThermoElectron Neslab RTE 740 cooling bath set to -20°C. 4. Vortex the sample for about 10s and shake for 5 min at 4°C using the Orbital Mixing Chilling/Heating Plate. If you are using more than one sample, keep the rest of the sample on ice (chilled at <0°C with sodium chloride). 5. Centrifuge samples for 2min at 14000 rcf using the centrifuge Eppendorf 5415 D. 6. Aliquot two 450µL portions of the supernatant. One for analysis and one for a backup sample. Store the backup aliquot in -20°C freezer. 7. Evaporate one 450µL aliquots of the sample in the Labconco Centrivap cold trap concentrator to complete dryness. 8. The dried aliquot is then re-suspended with 450 µL 50% acetonitrile (degassed as given above). 9. Centrifuged for 2 min at 14000 rcf using the centrifuge Eppendorf 5415. 10. Remove supernatant to a new Eppendorf tube. 11. Evaporate the supernatant to dryness in the Labconco Centrivap cold trap concentrator. 12. Submit to derivatization."
+SAMPLEPREP_PROTOCOL_FILENAME = "SOP_blood-GCTOF-11082012.pdf"
+
+[CHROMATOGRAPHY]
+CHROMATOGRAPHY_TYPE = "GC"
+INSTRUMENT_NAME = "Agilent 6890N"
+COLUMN_NAME = "Restek Corporation Rtx-5Sil MS"
+FLOW_RATE = "1 ml/min"
+COLUMN_TEMPERATURE = "50-330C"
+METHODS_FILENAME = "Data_Dictionary_Fiehn_laboratory_GCTOF_MS_primary_metabolism_10-15-2013_general.pdf"
+COLUMN_PRESSURE = "7.7 PSI"
+INJECTION_TEMPERATURE = "50 C ramped to 250 C by 12 C/s"
+SAMPLE_INJECTION = "0.5 uL"
+OVEN_TEMPERATURE = "50°C for 1 min, then ramped at 20°C/min to 330°C, held constant for 5 min"
+TRANSFERLINE_TEMPERATURE = "230C"
+WASHING_BUFFER = "Ethyl Acetate"
+SAMPLE_LOOP_SIZE = "30 m length x 0.25 mm internal diameter"
+RANDOMIZATION_ORDER = "Excel generated"
+
+[ANALYSIS]
+ANALYSIS_TYPE = "MS"
+LABORATORY_NAME = "WCMC Metabolomics Core"
+DETECTOR_TYPE = "TOF"
+SOFTWARE_VERSION = "ChromaTOF"
+DATA_FORMAT = ".peg, .txt, .cdf"
+
+[MS]
+MS_COMMENTS = "-"
+INSTRUMENT_NAME = "Varian 210-MS GC Ion Trap"
+INSTRUMENT_TYPE = "GC Ion Trap"
+MS_TYPE = "EI"
+ION_MODE = "POSITIVE"
+ION_SOURCE_TEMPERATURE = "250 C"
+IONIZATION_ENERGY = "70 eV"
+MASS_ACCURACY = "Nominal"
+SOURCE_TEMPERATURE = "250 C"
+SCAN_RANGE_MOVERZ = "85-500 Da"
+SCANNING_CYCLE = "17 Hz"
+SCANNING_RANGE = "85-500 Da"
+SKIMMER_VOLTAGE = "1850 V"
+
+[MS_METABOLITE_DATA]
+Units = "counts"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69508"
+"Sample ID" = "110703bwasa15_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "Squamous cell"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "2"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "3"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69518"
+"Sample ID" = "110703bwasa39_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "Squamous cell"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "15"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "3"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69527"
+"Sample ID" = "110701bwasa34_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "50-54"
+Sex = "Female"
+"Smoking Status" = "Current"
+Diagnosis = "Squamous cell"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "2"
+"Blood Draw Hour" = "16"
+"Lung Cancer Stage" = "2"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69528"
+"Sample ID" = "110703bwasa11_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Female"
+"Smoking Status" = "Former"
+Diagnosis = "Squamous cell"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "14"
+"Lung Cancer Stage" = "2"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69603"
+"Sample ID" = "110702bwasa33_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "Squamous cell"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "1"
+"Blood Draw Hour" = "7"
+"Lung Cancer Stage" = "1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69585"
+"Sample ID" = "110704bwasa07_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "50-54"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "Squamous cell"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "-"
+"Blood Draw Hour" = "15"
+"Lung Cancer Stage" = "1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69566"
+"Sample ID" = "110701bwasa39_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Female"
+"Smoking Status" = "Current"
+Diagnosis = "Squamous cell"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "1"
+"Blood Draw Hour" = "10"
+"Lung Cancer Stage" = "1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69613"
+"Sample ID" = "110630bwasa24_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "70-74"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "Squamous cell"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "84"
+"Fasting prior to blood draw (hours)" = "12"
+"Blood Draw Hour" = "10"
+"Lung Cancer Stage" = "3"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69586"
+"Sample ID" = "110630bwasa27_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "50-54"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "Squamous cell"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "84"
+"Fasting prior to blood draw (hours)" = "2"
+"Blood Draw Hour" = "13"
+"Lung Cancer Stage" = "3"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69600"
+"Sample ID" = "110630bwasa20_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Female"
+"Smoking Status" = "Current"
+Diagnosis = "Squamous cell"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "4"
+"Blood Draw Hour" = "15"
+"Lung Cancer Stage" = "3"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69630"
+"Sample ID" = "110704bwasa02_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "Squamous cell"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "96"
+"Fasting prior to blood draw (hours)" = "4"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "2"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69634"
+"Sample ID" = "110703bwasa30_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "50-54"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "Squamous cell"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "5"
+"Blood Draw Hour" = "17"
+"Lung Cancer Stage" = "2"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69672"
+"Sample ID" = "110630bwasa38_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Female"
+"Smoking Status" = "Current"
+Diagnosis = "Squamous cell"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "72"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "15"
+"Lung Cancer Stage" = "2"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69790"
+"Sample ID" = "110630bwasa02_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "Squamous cell"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "1"
+"Blood Draw Hour" = "14"
+"Lung Cancer Stage" = "1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69691"
+"Sample ID" = "110629bwasa43_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "Squamous cell"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "60"
+"Fasting prior to blood draw (hours)" = "4"
+"Blood Draw Hour" = "15"
+"Lung Cancer Stage" = "1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69702"
+"Sample ID" = "110701bwasa18_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "Squamous cell"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "60"
+"Fasting prior to blood draw (hours)" = "4"
+"Blood Draw Hour" = "16"
+"Lung Cancer Stage" = "1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69681"
+"Sample ID" = "110702bwasa23_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "Squamous cell"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "2"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "2"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69737"
+"Sample ID" = "110704bwasa03_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "Squamous cell"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "60"
+"Fasting prior to blood draw (hours)" = "5"
+"Blood Draw Hour" = "10"
+"Lung Cancer Stage" = "2"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69739"
+"Sample ID" = "110703bwasa06_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "Squamous cell"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "60"
+"Fasting prior to blood draw (hours)" = "6"
+"Blood Draw Hour" = "13"
+"Lung Cancer Stage" = "2"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69740"
+"Sample ID" = "110703bwasa16_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "50-54"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "Squamous cell"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "108"
+"Fasting prior to blood draw (hours)" = "8"
+"Blood Draw Hour" = "13"
+"Lung Cancer Stage" = "1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69800"
+"Sample ID" = "110703bwasa47_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "Squamous cell"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "10"
+"Lung Cancer Stage" = "1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69654"
+"Sample ID" = "110630bwasa05_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "Squamous cell"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "16"
+"Lung Cancer Stage" = "1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69733"
+"Sample ID" = "110702bwasa47_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "Squamous cell"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "72"
+"Fasting prior to blood draw (hours)" = "2"
+"Blood Draw Hour" = "13"
+"Lung Cancer Stage" = "1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69728"
+"Sample ID" = "110701bwasa37_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "Squamous cell"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "72"
+"Fasting prior to blood draw (hours)" = "5"
+"Blood Draw Hour" = "13"
+"Lung Cancer Stage" = "1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69749"
+"Sample ID" = "110701bwasa08_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "Squamous cell"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "108"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "9"
+"Lung Cancer Stage" = "1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69798"
+"Sample ID" = "110704bwasa41_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "Squamous cell"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "60"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "9"
+"Lung Cancer Stage" = "2"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69641"
+"Sample ID" = "110630bwasa48_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "Squamous cell"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "-"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "3"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69769"
+"Sample ID" = "110703bwasa37_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Female"
+"Smoking Status" = "Current"
+Diagnosis = "Squamous cell"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "72"
+"Fasting prior to blood draw (hours)" = "14"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69772"
+"Sample ID" = "110704bwasa19_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "Squamous cell"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "72"
+"Fasting prior to blood draw (hours)" = "-"
+"Blood Draw Hour" = "14"
+"Lung Cancer Stage" = "1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69785"
+"Sample ID" = "110630bwasa10_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "Squamous cell"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "-"
+"Blood Draw Hour" = "15"
+"Lung Cancer Stage" = "2"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69503"
+"Sample ID" = "110705bwasa07_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "Other NSCLC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "12"
+"Fasting prior to blood draw (hours)" = "14"
+"Blood Draw Hour" = "9"
+"Lung Cancer Stage" = "3"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69506"
+"Sample ID" = "110703bwasa05_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "Other NSCLC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "1"
+"Blood Draw Hour" = "9"
+"Lung Cancer Stage" = "3"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69541"
+"Sample ID" = "110702bwasa08_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "70-74"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "Other NSCLC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "4"
+"Blood Draw Hour" = "10"
+"Lung Cancer Stage" = "3"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69530"
+"Sample ID" = "110704bwasa47_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "Other NSCLC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "4"
+"Fasting prior to blood draw (hours)" = "14"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "3"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69535"
+"Sample ID" = "110704bwasa13_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "Other NSCLC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "4"
+"Fasting prior to blood draw (hours)" = "4"
+"Blood Draw Hour" = "13"
+"Lung Cancer Stage" = "3"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69509"
+"Sample ID" = "110705bwasa05_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Female"
+"Smoking Status" = "Current"
+Diagnosis = "Other NSCLC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "36"
+"Fasting prior to blood draw (hours)" = "4"
+"Blood Draw Hour" = "12"
+"Lung Cancer Stage" = "3"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69512"
+"Sample ID" = "110703bwasa10_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "Other NSCLC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "4"
+"Blood Draw Hour" = "10"
+"Lung Cancer Stage" = "1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69576"
+"Sample ID" = "110630bwasa40_3"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "70-74"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "Other NSCLC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "72"
+"Fasting prior to blood draw (hours)" = "4"
+"Blood Draw Hour" = "9"
+"Lung Cancer Stage" = "3"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69575"
+"Sample ID" = "110702bwasa37_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "Other NSCLC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "72"
+"Fasting prior to blood draw (hours)" = "4"
+"Blood Draw Hour" = "14"
+"Lung Cancer Stage" = "3"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69573"
+"Sample ID" = "110629bwasa35_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "Other NSCLC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "4"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "3"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69599"
+"Sample ID" = "110701bwasa38_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "Other NSCLC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "72"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "12"
+"Lung Cancer Stage" = "3"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69605"
+"Sample ID" = "110630bwasa28_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "Other NSCLC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "4"
+"Blood Draw Hour" = "12"
+"Lung Cancer Stage" = "3"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69745"
+"Sample ID" = "110702bwasa24_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "50-54"
+Sex = "Female"
+"Smoking Status" = "Current"
+Diagnosis = "Other NSCLC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "1"
+"Blood Draw Hour" = "10"
+"Lung Cancer Stage" = "3"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69624"
+"Sample ID" = "110703bwasa04_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "Other NSCLC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "108"
+"Fasting prior to blood draw (hours)" = "12"
+"Blood Draw Hour" = "13"
+"Lung Cancer Stage" = "2"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69626"
+"Sample ID" = "110704bwasa06_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "Other NSCLC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "96"
+"Fasting prior to blood draw (hours)" = "-"
+"Blood Draw Hour" = "10"
+"Lung Cancer Stage" = "2"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69636"
+"Sample ID" = "110703bwasa03_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "50-54"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "Other NSCLC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "72"
+"Fasting prior to blood draw (hours)" = "15"
+"Blood Draw Hour" = "10"
+"Lung Cancer Stage" = "1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69678"
+"Sample ID" = "110702bwasa26_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "Other NSCLC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "15"
+"Blood Draw Hour" = "8"
+"Lung Cancer Stage" = "1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69693"
+"Sample ID" = "110630bwasa50_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "Other NSCLC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "72"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "10"
+"Lung Cancer Stage" = "1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69743"
+"Sample ID" = "110629bwasa41_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "Other NSCLC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "60"
+"Fasting prior to blood draw (hours)" = "5"
+"Blood Draw Hour" = "12"
+"Lung Cancer Stage" = "1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69590"
+"Sample ID" = "110702bwasa11_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "Other NSCLC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "6"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "2"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69623"
+"Sample ID" = "110702bwasa22_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "Other NSCLC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "2"
+"Blood Draw Hour" = "14"
+"Lung Cancer Stage" = "3"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69713"
+"Sample ID" = "110701bwasa14_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "Other NSCLC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "60"
+"Fasting prior to blood draw (hours)" = "5"
+"Blood Draw Hour" = "13"
+"Lung Cancer Stage" = "1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69662"
+"Sample ID" = "110704bwasa14_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "Other NSCLC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "9"
+"Lung Cancer Stage" = "3"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69729"
+"Sample ID" = "110705bwasa12_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "Other NSCLC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "60"
+"Fasting prior to blood draw (hours)" = "4"
+"Blood Draw Hour" = "9"
+"Lung Cancer Stage" = "2"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69635"
+"Sample ID" = "110703bwasa35_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "50-54"
+Sex = "Female"
+"Smoking Status" = "Current"
+Diagnosis = "Other NSCLC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "4"
+"Blood Draw Hour" = "10"
+"Lung Cancer Stage" = "2"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69720"
+"Sample ID" = "110705bwasa03_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "Other NSCLC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "108"
+"Fasting prior to blood draw (hours)" = "2"
+"Blood Draw Hour" = "14"
+"Lung Cancer Stage" = "2"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69787"
+"Sample ID" = "110703bwasa48_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Female"
+"Smoking Status" = "Current"
+Diagnosis = "Other NSCLC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "36"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "13"
+"Lung Cancer Stage" = "2"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69580"
+"Sample ID" = "110701bwasa31_3"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Female"
+"Smoking Status" = "Former"
+Diagnosis = "Other NSCLC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "16"
+"Lung Cancer Stage" = "3"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69617"
+"Sample ID" = "110705bwasa16_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "50-54"
+Sex = "Female"
+"Smoking Status" = "Former"
+Diagnosis = "Other NSCLC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "-"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "3"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69757"
+"Sample ID" = "110702bwasa39_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "Other NSCLC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "36"
+"Fasting prior to blood draw (hours)" = "2"
+"Blood Draw Hour" = "14"
+"Lung Cancer Stage" = "2"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69532"
+"Sample ID" = "110703bwasa44_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "Adenocarcinoma"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "12"
+"Fasting prior to blood draw (hours)" = "2"
+"Blood Draw Hour" = "7"
+"Lung Cancer Stage" = "3"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69534"
+"Sample ID" = "110630bwasa29_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "50-54"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "Adenocarcinoma"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "12"
+"Fasting prior to blood draw (hours)" = "16"
+"Blood Draw Hour" = "12"
+"Lung Cancer Stage" = "3"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69545"
+"Sample ID" = "110703bwasa20_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "Adenocarcinoma"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "14"
+"Blood Draw Hour" = "10"
+"Lung Cancer Stage" = "3"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69517"
+"Sample ID" = "110630bwasa47_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "Adenocarcinoma"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "60"
+"Fasting prior to blood draw (hours)" = "16"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "3"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69549"
+"Sample ID" = "110701bwasa19_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Female"
+"Smoking Status" = "Former"
+Diagnosis = "Adenocarcinoma"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "2"
+"Blood Draw Hour" = "10"
+"Lung Cancer Stage" = "3"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69557"
+"Sample ID" = "110701bwasa47_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "Adenocarcinoma"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "4"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "2"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69526"
+"Sample ID" = "110703bwasa24_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "50-54"
+Sex = "Female"
+"Smoking Status" = "Current"
+Diagnosis = "Adenocarcinoma"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "1"
+"Blood Draw Hour" = "8"
+"Lung Cancer Stage" = "3"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69574"
+"Sample ID" = "110701bwasa28_3"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "Adenocarcinoma"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "60"
+"Fasting prior to blood draw (hours)" = "12"
+"Blood Draw Hour" = "9"
+"Lung Cancer Stage" = "3"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69561"
+"Sample ID" = "110702bwasa25_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "50-54"
+Sex = "Female"
+"Smoking Status" = "Current"
+Diagnosis = "Adenocarcinoma"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "4"
+"Blood Draw Hour" = "16"
+"Lung Cancer Stage" = "3"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69639"
+"Sample ID" = "110701bwasa48_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "Adenocarcinoma"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "2"
+"Blood Draw Hour" = "9"
+"Lung Cancer Stage" = "1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69578"
+"Sample ID" = "110704bwasa18_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "Adenocarcinoma"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "84"
+"Fasting prior to blood draw (hours)" = "15"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "3"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69572"
+"Sample ID" = "110630bwasa08_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "Adenocarcinoma"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "1"
+"Blood Draw Hour" = "13"
+"Lung Cancer Stage" = "3"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69591"
+"Sample ID" = "110629bwasa47_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "50-54"
+Sex = "Female"
+"Smoking Status" = "Current"
+Diagnosis = "Adenocarcinoma"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "96"
+"Fasting prior to blood draw (hours)" = "16"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69596"
+"Sample ID" = "110629bwasa36_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "Adenocarcinoma"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69774"
+"Sample ID" = "110630bwasa01_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Female"
+"Smoking Status" = "Current"
+Diagnosis = "Adenocarcinoma"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "1"
+"Blood Draw Hour" = "13"
+"Lung Cancer Stage" = "1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69625"
+"Sample ID" = "110705bwasa11_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Female"
+"Smoking Status" = "Former"
+Diagnosis = "Adenocarcinoma"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "16"
+"Lung Cancer Stage" = "1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69767"
+"Sample ID" = "110705bwasa29_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "50-54"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "Adenocarcinoma"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "84"
+"Fasting prior to blood draw (hours)" = "6"
+"Blood Draw Hour" = "13"
+"Lung Cancer Stage" = "1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69742"
+"Sample ID" = "110703bwasa12_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "Adenocarcinoma"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "12"
+"Blood Draw Hour" = "10"
+"Lung Cancer Stage" = "1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69735"
+"Sample ID" = "110702bwasa30_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "50-54"
+Sex = "Female"
+"Smoking Status" = "Current"
+Diagnosis = "Adenocarcinoma"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "72"
+"Fasting prior to blood draw (hours)" = "14"
+"Blood Draw Hour" = "8"
+"Lung Cancer Stage" = "1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69694"
+"Sample ID" = "110630bwasa07_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Female"
+"Smoking Status" = "Former"
+Diagnosis = "Adenocarcinoma"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "72"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "15"
+"Lung Cancer Stage" = "1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69744"
+"Sample ID" = "110701bwasa15_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "50-54"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "Adenocarcinoma"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "84"
+"Fasting prior to blood draw (hours)" = "4"
+"Blood Draw Hour" = "14"
+"Lung Cancer Stage" = "1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69721"
+"Sample ID" = "110701bwasa30_3"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "Adenocarcinoma"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "12"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69593"
+"Sample ID" = "110702bwasa17_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "45-49"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "Adenocarcinoma"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "12"
+"Blood Draw Hour" = "14"
+"Lung Cancer Stage" = "3"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69645"
+"Sample ID" = "110705bwasa27_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "Adenocarcinoma"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "6"
+"Blood Draw Hour" = "12"
+"Lung Cancer Stage" = "1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69628"
+"Sample ID" = "110702bwasa46_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "Adenocarcinoma"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "60"
+"Fasting prior to blood draw (hours)" = "4"
+"Blood Draw Hour" = "13"
+"Lung Cancer Stage" = "3"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69627"
+"Sample ID" = "110702bwasa38_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "Adenocarcinoma"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "18"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69719"
+"Sample ID" = "110629bwasa33_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "Adenocarcinoma"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "36"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "15"
+"Lung Cancer Stage" = "1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69741"
+"Sample ID" = "110704bwasa04_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Female"
+"Smoking Status" = "Former"
+Diagnosis = "Adenocarcinoma"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "72"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "13"
+"Lung Cancer Stage" = "2"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69659"
+"Sample ID" = "110702bwasa12_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "Adenocarcinoma"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "21"
+"Blood Draw Hour" = "14"
+"Lung Cancer Stage" = "1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69758"
+"Sample ID" = "110630bwasa06_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "Adenocarcinoma"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "72"
+"Fasting prior to blood draw (hours)" = "4"
+"Blood Draw Hour" = "12"
+"Lung Cancer Stage" = "2"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69780"
+"Sample ID" = "110701bwasa23_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "50-54"
+Sex = "Female"
+"Smoking Status" = "Former"
+Diagnosis = "Adenocarcinoma"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "9"
+"Lung Cancer Stage" = "1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69794"
+"Sample ID" = "110705bwasa30_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Female"
+"Smoking Status" = "Former"
+Diagnosis = "Adenocarcinoma"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "84"
+"Fasting prior to blood draw (hours)" = "17"
+"Blood Draw Hour" = "10"
+"Lung Cancer Stage" = "1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69581"
+"Sample ID" = "110629bwasa49_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Female"
+"Smoking Status" = "Current"
+Diagnosis = "Adenocarcinoma"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "4"
+"Blood Draw Hour" = "13"
+"Lung Cancer Stage" = "3"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69582"
+"Sample ID" = "110630bwasa15_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "Adenocarcinoma"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "-"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "2"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69622"
+"Sample ID" = "110702bwasa50_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "Adenocarcinoma"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "14"
+"Blood Draw Hour" = "9"
+"Lung Cancer Stage" = "1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69773"
+"Sample ID" = "110703bwasa02_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "Adenocarcinoma"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "2"
+"Blood Draw Hour" = "8"
+"Lung Cancer Stage" = "1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69638"
+"Sample ID" = "110704bwasa35_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Female"
+"Smoking Status" = "Current"
+Diagnosis = "Adenocarcinoma"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "2"
+"Blood Draw Hour" = "12"
+"Lung Cancer Stage" = "1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69755"
+"Sample ID" = "110701bwasa32_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "Adenocarcinoma"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "36"
+"Fasting prior to blood draw (hours)" = "1"
+"Blood Draw Hour" = "15"
+"Lung Cancer Stage" = "2"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69777"
+"Sample ID" = "110629bwasa48_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "Adenocarcinoma"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "60"
+"Fasting prior to blood draw (hours)" = "4"
+"Blood Draw Hour" = "15"
+"Lung Cancer Stage" = "3"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69797"
+"Sample ID" = "110629bwasa42_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "50-54"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "Adenocarcinoma"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "84"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "16"
+"Lung Cancer Stage" = "1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69510"
+"Sample ID" = "110702bwasa03_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "6"
+"Blood Draw Hour" = "12"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69529"
+"Sample ID" = "110701bwasa50_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "4"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69531"
+"Sample ID" = "110704bwasa21_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "12"
+"Fasting prior to blood draw (hours)" = "15"
+"Blood Draw Hour" = "10"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69536"
+"Sample ID" = "110629bwasa32_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "14"
+"Blood Draw Hour" = "9"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69504"
+"Sample ID" = "110701bwasa25_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "50-54"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "12"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69533"
+"Sample ID" = "110630bwasa43_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "4"
+"Fasting prior to blood draw (hours)" = "6"
+"Blood Draw Hour" = "13"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69507"
+"Sample ID" = "110702bwasa18_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "50-54"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "12"
+"Fasting prior to blood draw (hours)" = "4"
+"Blood Draw Hour" = "16"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69537"
+"Sample ID" = "110701bwasa24_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "4"
+"Fasting prior to blood draw (hours)" = "2"
+"Blood Draw Hour" = "10"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69538"
+"Sample ID" = "110704bwasa34_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "12"
+"Fasting prior to blood draw (hours)" = "5"
+"Blood Draw Hour" = "16"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69542"
+"Sample ID" = "110704bwasa39_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "5"
+"Blood Draw Hour" = "17"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69540"
+"Sample ID" = "110704bwasa38_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "1"
+"Blood Draw Hour" = "16"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69502"
+"Sample ID" = "110703bwasa49_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "16"
+"Blood Draw Hour" = "10"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69544"
+"Sample ID" = "110629bwasa44_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "1"
+"Blood Draw Hour" = "13"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69511"
+"Sample ID" = "110702bwasa32_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Female"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "36"
+"Fasting prior to blood draw (hours)" = "4"
+"Blood Draw Hour" = "14"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69513"
+"Sample ID" = "110630bwasa46_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "1"
+"Blood Draw Hour" = "12"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69515"
+"Sample ID" = "110630bwasa09_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Female"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "36"
+"Fasting prior to blood draw (hours)" = "2"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69516"
+"Sample ID" = "110704bwasa44_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "10"
+"Blood Draw Hour" = "9"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69547"
+"Sample ID" = "110703bwasa50_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "60"
+"Fasting prior to blood draw (hours)" = "15"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69546"
+"Sample ID" = "110705bwasa28_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "1"
+"Blood Draw Hour" = "12"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69548"
+"Sample ID" = "110630bwasa04_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Female"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "2"
+"Blood Draw Hour" = "9"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69519"
+"Sample ID" = "110704bwasa29_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "17"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69520"
+"Sample ID" = "110702bwasa43_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "70-74"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "72"
+"Fasting prior to blood draw (hours)" = "1"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69521"
+"Sample ID" = "110704bwasa27_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Female"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "1"
+"Blood Draw Hour" = "10"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69524"
+"Sample ID" = "110629bwasa50_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "50-54"
+Sex = "Female"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "4"
+"Blood Draw Hour" = "10"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69550"
+"Sample ID" = "110704bwasa10_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "60"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "12"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69525"
+"Sample ID" = "110704bwasa08_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "50-54"
+Sex = "Female"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "2"
+"Blood Draw Hour" = "7"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69552"
+"Sample ID" = "110704bwasa24_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "50-54"
+Sex = "Female"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "9"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69608"
+"Sample ID" = "110704bwasa09_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "2"
+"Blood Draw Hour" = "10"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69563"
+"Sample ID" = "110705bwasa20_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "50-54"
+Sex = "Female"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "8"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69560"
+"Sample ID" = "110701bwasa42_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Female"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69553"
+"Sample ID" = "110704bwasa17_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "70-74"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "72"
+"Fasting prior to blood draw (hours)" = "2"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69565"
+"Sample ID" = "110701bwasa27_3"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Female"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69562"
+"Sample ID" = "110701bwasa21_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Female"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "2"
+"Blood Draw Hour" = "13"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69567"
+"Sample ID" = "110701bwasa33_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "50-54"
+Sex = "Female"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "15"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69568"
+"Sample ID" = "110630bwasa16_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Female"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "16"
+"Blood Draw Hour" = "15"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69602"
+"Sample ID" = "110704bwasa36_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "4"
+"Blood Draw Hour" = "10"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69606"
+"Sample ID" = "110701bwasa22_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "2"
+"Blood Draw Hour" = "10"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69609"
+"Sample ID" = "110630bwasa44_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "96"
+"Fasting prior to blood draw (hours)" = "16"
+"Blood Draw Hour" = "10"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69618"
+"Sample ID" = "110702bwasa05_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "5"
+"Blood Draw Hour" = "15"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69612"
+"Sample ID" = "110701bwasa11_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "50-54"
+Sex = "Female"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "-"
+"Blood Draw Hour" = "8"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69620"
+"Sample ID" = "110702bwasa09_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "50-54"
+Sex = "Female"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "2"
+"Blood Draw Hour" = "8"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69570"
+"Sample ID" = "110630bwasa18_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69592"
+"Sample ID" = "110703bwasa33_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "12"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69644"
+"Sample ID" = "110630bwasa49_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "50-54"
+Sex = "Female"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "-"
+"Blood Draw Hour" = "17"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69649"
+"Sample ID" = "110701bwasa09_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "50-54"
+Sex = "Female"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "96"
+"Fasting prior to blood draw (hours)" = "2"
+"Blood Draw Hour" = "10"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69667"
+"Sample ID" = "110703bwasa23_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "50-54"
+Sex = "Female"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "96"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "10"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69646"
+"Sample ID" = "110701bwasa17_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "50-54"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "108"
+"Fasting prior to blood draw (hours)" = "1"
+"Blood Draw Hour" = "9"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69601"
+"Sample ID" = "110630bwasa19_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "17"
+"Blood Draw Hour" = "10"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69632"
+"Sample ID" = "110702bwasa40_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Female"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "72"
+"Fasting prior to blood draw (hours)" = "2"
+"Blood Draw Hour" = "13"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69629"
+"Sample ID" = "110630bwasa22_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "108"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "10"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69661"
+"Sample ID" = "110702bwasa07_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "14"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69732"
+"Sample ID" = "110703bwasa41_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "96"
+"Fasting prior to blood draw (hours)" = "15"
+"Blood Draw Hour" = "9"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69734"
+"Sample ID" = "110705bwasa06_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "108"
+"Fasting prior to blood draw (hours)" = "5"
+"Blood Draw Hour" = "13"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69676"
+"Sample ID" = "110704bwasa11_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "6"
+"Blood Draw Hour" = "9"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69675"
+"Sample ID" = "110704bwasa42_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "4"
+"Blood Draw Hour" = "12"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69648"
+"Sample ID" = "110703bwasa09_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "8"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69631"
+"Sample ID" = "110703bwasa45_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "2"
+"Blood Draw Hour" = "12"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69665"
+"Sample ID" = "110703bwasa32_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "50-54"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "5"
+"Blood Draw Hour" = "17"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69664"
+"Sample ID" = "110703bwasa40_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Female"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "72"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "16"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69670"
+"Sample ID" = "110705bwasa08_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "6"
+"Blood Draw Hour" = "17"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69671"
+"Sample ID" = "110704bwasa15_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "14"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69679"
+"Sample ID" = "110701bwasa26_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "16"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69746"
+"Sample ID" = "110704bwasa48_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "15"
+"Blood Draw Hour" = "9"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69752"
+"Sample ID" = "110705bwasa26_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "36"
+"Fasting prior to blood draw (hours)" = "4"
+"Blood Draw Hour" = "12"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69764"
+"Sample ID" = "110701bwasa03_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "36"
+"Fasting prior to blood draw (hours)" = "4"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69766"
+"Sample ID" = "110630bwasa33_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "36"
+"Fasting prior to blood draw (hours)" = "15"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69786"
+"Sample ID" = "110629bwasa38_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "2"
+"Blood Draw Hour" = "9"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69789"
+"Sample ID" = "110630bwasa45_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Female"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "36"
+"Fasting prior to blood draw (hours)" = "1"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69791"
+"Sample ID" = "110705bwasa14_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "36"
+"Fasting prior to blood draw (hours)" = "5"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69683"
+"Sample ID" = "110701bwasa05_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "72"
+"Fasting prior to blood draw (hours)" = "6"
+"Blood Draw Hour" = "13"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69686"
+"Sample ID" = "110704bwasa28_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "50-54"
+Sex = "Female"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "72"
+"Fasting prior to blood draw (hours)" = "1"
+"Blood Draw Hour" = "16"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69692"
+"Sample ID" = "110701bwasa01_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "2"
+"Blood Draw Hour" = "14"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69738"
+"Sample ID" = "110630bwasa21_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "60"
+"Fasting prior to blood draw (hours)" = "5"
+"Blood Draw Hour" = "14"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69697"
+"Sample ID" = "110705bwasa17_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "2"
+"Blood Draw Hour" = "15"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69698"
+"Sample ID" = "110703bwasa38_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "60"
+"Fasting prior to blood draw (hours)" = "-"
+"Blood Draw Hour" = "13"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69705"
+"Sample ID" = "110703bwasa08_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Female"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "18"
+"Blood Draw Hour" = "10"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69707"
+"Sample ID" = "110630bwasa39_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "60"
+"Fasting prior to blood draw (hours)" = "-"
+"Blood Draw Hour" = "9"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69682"
+"Sample ID" = "110704bwasa30_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "50-54"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "1"
+"Blood Draw Hour" = "9"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69685"
+"Sample ID" = "110701bwasa35_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "50-54"
+Sex = "Female"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "72"
+"Fasting prior to blood draw (hours)" = "16"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69704"
+"Sample ID" = "110703bwasa29_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "4"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69703"
+"Sample ID" = "110629bwasa37_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "50-54"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "108"
+"Fasting prior to blood draw (hours)" = "15"
+"Blood Draw Hour" = "9"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69795"
+"Sample ID" = "110701bwasa43_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "50-54"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "84"
+"Fasting prior to blood draw (hours)" = "4"
+"Blood Draw Hour" = "10"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69730"
+"Sample ID" = "110702bwasa16_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "50-54"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "2"
+"Blood Draw Hour" = "13"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69776"
+"Sample ID" = "110703bwasa36_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "72"
+"Fasting prior to blood draw (hours)" = "9"
+"Blood Draw Hour" = "9"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69748"
+"Sample ID" = "110705bwasa23_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "2"
+"Blood Draw Hour" = "14"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69588"
+"Sample ID" = "110702bwasa02_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "5"
+"Blood Draw Hour" = "16"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69587"
+"Sample ID" = "110701bwasa06_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "14"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69651"
+"Sample ID" = "110703bwasa01_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "50-54"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "6"
+"Blood Draw Hour" = "15"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69647"
+"Sample ID" = "110704bwasa37_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "2"
+"Blood Draw Hour" = "12"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69652"
+"Sample ID" = "110701bwasa44_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "50-54"
+Sex = "Female"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "16"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69673"
+"Sample ID" = "110702bwasa44_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "45-49"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "2"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69699"
+"Sample ID" = "110701bwasa40_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "60"
+"Fasting prior to blood draw (hours)" = "16"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69688"
+"Sample ID" = "110702bwasa13_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "6"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69700"
+"Sample ID" = "110701bwasa49_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "60"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69690"
+"Sample ID" = "110705bwasa15_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "60"
+"Fasting prior to blood draw (hours)" = "16"
+"Blood Draw Hour" = "10"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69663"
+"Sample ID" = "110630bwasa26_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Female"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69716"
+"Sample ID" = "110630bwasa12_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "45-49"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "1"
+"Blood Draw Hour" = "14"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69724"
+"Sample ID" = "110629bwasa39_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "1"
+"Blood Draw Hour" = "15"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69731"
+"Sample ID" = "110630bwasa32_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Female"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "72"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "13"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69696"
+"Sample ID" = "110705bwasa10_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "60"
+"Fasting prior to blood draw (hours)" = "1"
+"Blood Draw Hour" = "12"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69655"
+"Sample ID" = "110703bwasa31_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "50-54"
+Sex = "Female"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "1"
+"Blood Draw Hour" = "12"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69727"
+"Sample ID" = "110630bwasa37_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Female"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "72"
+"Fasting prior to blood draw (hours)" = "4"
+"Blood Draw Hour" = "14"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69768"
+"Sample ID" = "110702bwasa42_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "50-54"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "84"
+"Fasting prior to blood draw (hours)" = "5"
+"Blood Draw Hour" = "15"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69775"
+"Sample ID" = "110705bwasa02_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "60"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "9"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69779"
+"Sample ID" = "110703bwasa18_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "60"
+"Fasting prior to blood draw (hours)" = "2"
+"Blood Draw Hour" = "13"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69778"
+"Sample ID" = "110702bwasa48_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "50-54"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "84"
+"Fasting prior to blood draw (hours)" = "4"
+"Blood Draw Hour" = "10"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69760"
+"Sample ID" = "110703bwasa42_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "50-54"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "84"
+"Fasting prior to blood draw (hours)" = "14"
+"Blood Draw Hour" = "9"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69784"
+"Sample ID" = "110701bwasa13_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "50-54"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "84"
+"Fasting prior to blood draw (hours)" = "9"
+"Blood Draw Hour" = "7"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69793"
+"Sample ID" = "110702bwasa20_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "60"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "10"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69783"
+"Sample ID" = "110705bwasa21_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "60"
+"Fasting prior to blood draw (hours)" = "4"
+"Blood Draw Hour" = "10"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69680"
+"Sample ID" = "110705bwasa25_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Female"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "1"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69604"
+"Sample ID" = "110701bwasa04_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "14"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69619"
+"Sample ID" = "110701bwasa36_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "2"
+"Blood Draw Hour" = "9"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69621"
+"Sample ID" = "110702bwasa06_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "5"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69583"
+"Sample ID" = "110704bwasa50_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Female"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "-"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69584"
+"Sample ID" = "110704bwasa12_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "15"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69711"
+"Sample ID" = "110705bwasa01_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "4"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69762"
+"Sample ID" = "110630bwasa14_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "1"
+"Blood Draw Hour" = "15"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69763"
+"Sample ID" = "110629bwasa34_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "50-54"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "84"
+"Fasting prior to blood draw (hours)" = "1"
+"Blood Draw Hour" = "13"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69796"
+"Sample ID" = "110704bwasa43_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Male"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "60"
+"Fasting prior to blood draw (hours)" = "1"
+"Blood Draw Hour" = "13"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69799"
+"Sample ID" = "110630bwasa31_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Female"
+"Smoking Status" = "Current"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "36"
+"Fasting prior to blood draw (hours)" = "14"
+"Blood Draw Hour" = "10"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69539"
+"Sample ID" = "110702bwasa45_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "70-74"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "2"
+"Blood Draw Hour" = "14"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69543"
+"Sample ID" = "110703bwasa27_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "12"
+"Fasting prior to blood draw (hours)" = "2"
+"Blood Draw Hour" = "14"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69505"
+"Sample ID" = "110705bwasa19_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "12"
+"Fasting prior to blood draw (hours)" = "2"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69514"
+"Sample ID" = "110701bwasa46_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "70-74"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "14"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69556"
+"Sample ID" = "110701bwasa20_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "72"
+"Fasting prior to blood draw (hours)" = "2"
+"Blood Draw Hour" = "9"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69522"
+"Sample ID" = "110703bwasa19_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "60"
+"Fasting prior to blood draw (hours)" = "12"
+"Blood Draw Hour" = "10"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69523"
+"Sample ID" = "110704bwasa05_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Female"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69555"
+"Sample ID" = "110705bwasa09_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "72"
+"Fasting prior to blood draw (hours)" = "2"
+"Blood Draw Hour" = "15"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69559"
+"Sample ID" = "110703bwasa17_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "70-74"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "84"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "15"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69558"
+"Sample ID" = "110703bwasa14_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Female"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "2"
+"Blood Draw Hour" = "9"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69551"
+"Sample ID" = "110702bwasa28_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Female"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69554"
+"Sample ID" = "110702bwasa41_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "60"
+"Fasting prior to blood draw (hours)" = "1"
+"Blood Draw Hour" = "16"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69564"
+"Sample ID" = "110630bwasa03_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "72"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "10"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69597"
+"Sample ID" = "110629bwasa46_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "72"
+"Fasting prior to blood draw (hours)" = "15"
+"Blood Draw Hour" = "10"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69598"
+"Sample ID" = "110701bwasa41_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "5"
+"Blood Draw Hour" = "13"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69577"
+"Sample ID" = "110630bwasa36_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "50-54"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "84"
+"Fasting prior to blood draw (hours)" = "14"
+"Blood Draw Hour" = "13"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69571"
+"Sample ID" = "110701bwasa07_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "84"
+"Fasting prior to blood draw (hours)" = "9"
+"Blood Draw Hour" = "14"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69569"
+"Sample ID" = "110702bwasa14_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "15"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69579"
+"Sample ID" = "110630bwasa35_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "70-74"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "84"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69607"
+"Sample ID" = "110704bwasa01_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "12"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69614"
+"Sample ID" = "110701bwasa29_3"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "50-54"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "84"
+"Fasting prior to blood draw (hours)" = "5"
+"Blood Draw Hour" = "15"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69616"
+"Sample ID" = "110630bwasa11_5"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "1"
+"Blood Draw Hour" = "8"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69589"
+"Sample ID" = "110704bwasa33_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "84"
+"Fasting prior to blood draw (hours)" = "15"
+"Blood Draw Hour" = "9"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69637"
+"Sample ID" = "110703bwasa43_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "50-54"
+Sex = "Female"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "2"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69643"
+"Sample ID" = "110630bwasa41_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "96"
+"Fasting prior to blood draw (hours)" = "30"
+"Blood Draw Hour" = "14"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69650"
+"Sample ID" = "110703bwasa13_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "108"
+"Fasting prior to blood draw (hours)" = "4"
+"Blood Draw Hour" = "9"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69611"
+"Sample ID" = "110630bwasa34_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "1"
+"Blood Draw Hour" = "14"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69657"
+"Sample ID" = "110704bwasa23_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "96"
+"Fasting prior to blood draw (hours)" = "19"
+"Blood Draw Hour" = "13"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69674"
+"Sample ID" = "110701bwasa02_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Female"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "4"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69653"
+"Sample ID" = "110705bwasa22_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "8"
+"Blood Draw Hour" = "15"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69668"
+"Sample ID" = "110630bwasa25_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "5"
+"Blood Draw Hour" = "10"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69669"
+"Sample ID" = "110702bwasa35_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "4"
+"Blood Draw Hour" = "10"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69759"
+"Sample ID" = "110704bwasa46_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "60"
+"Fasting prior to blood draw (hours)" = "2"
+"Blood Draw Hour" = "10"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69750"
+"Sample ID" = "110705bwasa04_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69751"
+"Sample ID" = "110705bwasa24_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Female"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "2"
+"Blood Draw Hour" = "14"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69792"
+"Sample ID" = "110704bwasa45_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "36"
+"Fasting prior to blood draw (hours)" = "2"
+"Blood Draw Hour" = "9"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69706"
+"Sample ID" = "110630bwasa42_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "72"
+"Fasting prior to blood draw (hours)" = "1"
+"Blood Draw Hour" = "12"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69710"
+"Sample ID" = "110702bwasa10_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Female"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "72"
+"Fasting prior to blood draw (hours)" = "4"
+"Blood Draw Hour" = "13"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69687"
+"Sample ID" = "110703bwasa07_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "108"
+"Fasting prior to blood draw (hours)" = "6"
+"Blood Draw Hour" = "14"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69684"
+"Sample ID" = "110630bwasa30_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "50-54"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "72"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "10"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69695"
+"Sample ID" = "110701bwasa10_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "36"
+"Fasting prior to blood draw (hours)" = "5"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69701"
+"Sample ID" = "110704bwasa25_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "50-54"
+Sex = "Female"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69709"
+"Sample ID" = "110705bwasa13_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "60"
+"Fasting prior to blood draw (hours)" = "2"
+"Blood Draw Hour" = "13"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69708"
+"Sample ID" = "110701bwasa16_3"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "108"
+"Fasting prior to blood draw (hours)" = "2"
+"Blood Draw Hour" = "14"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69761"
+"Sample ID" = "110704bwasa20_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Female"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "72"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69781"
+"Sample ID" = "110702bwasa29_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "72"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "12"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69782"
+"Sample ID" = "110702bwasa31_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "72"
+"Fasting prior to blood draw (hours)" = "17"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69712"
+"Sample ID" = "110703bwasa25_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "2"
+"Blood Draw Hour" = "14"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69715"
+"Sample ID" = "110704bwasa49_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "50-54"
+Sex = "Female"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "9"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69633"
+"Sample ID" = "110703bwasa34_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "15"
+"Blood Draw Hour" = "10"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69656"
+"Sample ID" = "110703bwasa46_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "12"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69666"
+"Sample ID" = "110705bwasa18_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "12"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69642"
+"Sample ID" = "110703bwasa26_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "18"
+"Blood Draw Hour" = "9"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69689"
+"Sample ID" = "110702bwasa15_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "50-54"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "72"
+"Fasting prior to blood draw (hours)" = "26"
+"Blood Draw Hour" = "9"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69736"
+"Sample ID" = "110704bwasa32_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "60"
+"Fasting prior to blood draw (hours)" = "5"
+"Blood Draw Hour" = "15"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69658"
+"Sample ID" = "110704bwasa31_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "50-54"
+Sex = "Female"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "-"
+"Blood Draw Hour" = "16"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69717"
+"Sample ID" = "110704bwasa16_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "72"
+"Fasting prior to blood draw (hours)" = "8"
+"Blood Draw Hour" = "15"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69723"
+"Sample ID" = "110702bwasa04_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Female"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "84"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69725"
+"Sample ID" = "110703bwasa28_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "72"
+"Fasting prior to blood draw (hours)" = "2"
+"Blood Draw Hour" = "12"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69726"
+"Sample ID" = "110630bwasa23_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Female"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "72"
+"Fasting prior to blood draw (hours)" = "2"
+"Blood Draw Hour" = "13"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69677"
+"Sample ID" = "110702bwasa27_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "72"
+"Fasting prior to blood draw (hours)" = "2"
+"Blood Draw Hour" = "14"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69660"
+"Sample ID" = "110703bwasa21_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Female"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "12"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69714"
+"Sample ID" = "110630bwasa17_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "108"
+"Fasting prior to blood draw (hours)" = "12"
+"Blood Draw Hour" = "7"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69718"
+"Sample ID" = "110704bwasa26_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "60"
+"Fasting prior to blood draw (hours)" = "2"
+"Blood Draw Hour" = "10"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69747"
+"Sample ID" = "110702bwasa49_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "60"
+"Fasting prior to blood draw (hours)" = "12"
+"Blood Draw Hour" = "11"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69756"
+"Sample ID" = "110630bwasa13_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "60"
+"Fasting prior to blood draw (hours)" = "12"
+"Blood Draw Hour" = "8"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69610"
+"Sample ID" = "110703bwasa22_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "2"
+"Blood Draw Hour" = "9"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69615"
+"Sample ID" = "110701bwasa12_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "4"
+"Blood Draw Hour" = "14"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69595"
+"Sample ID" = "110629bwasa40_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "-"
+"Blood Draw Hour" = "10"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69640"
+"Sample ID" = "110702bwasa34_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Female"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "1"
+"Blood Draw Hour" = "16"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69770"
+"Sample ID" = "110701bwasa45_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "60"
+"Fasting prior to blood draw (hours)" = "2"
+"Blood Draw Hour" = "12"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69594"
+"Sample ID" = "110704bwasa22_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Female"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "24"
+"Fasting prior to blood draw (hours)" = "13"
+"Blood Draw Hour" = "10"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69722"
+"Sample ID" = "110702bwasa21_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "55-59"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "60"
+"Fasting prior to blood draw (hours)" = "1"
+"Blood Draw Hour" = "10"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69753"
+"Sample ID" = "110704bwasa40_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "72"
+"Fasting prior to blood draw (hours)" = "5"
+"Blood Draw Hour" = "15"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69754"
+"Sample ID" = "110702bwasa01_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Female"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "72"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "16"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69765"
+"Sample ID" = "110629bwasa45_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "72"
+"Fasting prior to blood draw (hours)" = "2"
+"Blood Draw Hour" = "9"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69771"
+"Sample ID" = "110702bwasa36_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "65-69"
+Sex = "Male"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "48"
+"Fasting prior to blood draw (hours)" = "3"
+"Blood Draw Hour" = "10"
+"Lung Cancer Stage" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "69788"
+"Sample ID" = "110702bwasa19_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Age Group" = "60-64"
+Sex = "Female"
+"Smoking Status" = "Former"
+Diagnosis = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"TimeDraw (Hours)" = "84"
+"Fasting prior to blood draw (hours)" = "-"
+"Blood Draw Hour" = "10"
+"Lung Cancer Stage" = "-"

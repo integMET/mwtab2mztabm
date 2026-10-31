@@ -1,0 +1,309 @@
+# mwTab metadata of study ST000458, analysis AN000719
+# Exported by mwtab2mztabm 0.1.0.
+# Sample metadata is listed in [[SUBJECT_SAMPLE_FACTORS]].
+
+[mwtab2mztabm]
+format_version = 1
+factor_order = ["Time", "Treatment"]
+additional_data_order = []
+
+["METABOLOMICS WORKBENCH"]
+STUDY_ID = "ST000458"
+ANALYSIS_ID = "AN000719"
+VERSION = "1"
+CREATED_ON = "November 17, 2016, 3:27 pm"
+
+[PROJECT]
+PROJECT_TITLE = "The effect of BCAT1 knockdown on amino acid homeostasis"
+PROJECT_TYPE = "Amino acid steady-state level analysis"
+PROJECT_SUMMARY = "Raji cells, a Burkitt lymphoma, expressing a Dox-inducible short hairpin targeting BCAT1 were collected in triplicate at 0, 48, 96, and 144 hours."
+INSTITUTE = "H. Lee Moffitt Cancer Center"
+DEPARTMENT = "Tumor Biology"
+LABORATORY = "John Cleveland"
+LAST_NAME = "Fernandez"
+FIRST_NAME = "Mario"
+ADDRESS = "12902 Magnolia Drive, MRC 4-West"
+EMAIL = "mario.fernandez@moffitt.org"
+PHONE = "813-745-5140"
+FUNDING_SOURCE = "5R01CA154739"
+
+[STUDY]
+STUDY_TITLE = "Effect of BCAT1 knockdown on amino acid steady state levels of Raji cells"
+STUDY_TYPE = "Cells are treated with vehicle or Doxycycline - to induce expression of BCAT1 short hairpin RNA."
+STUDY_SUMMARY = "Cells were collected at 0, 48, 96 and 144 hours after Doxycycline addition"
+INSTITUTE = "University of Florida"
+DEPARTMENT = "SECIM"
+LABORATORY = "John Cleveland"
+LAST_NAME = "Fernandez"
+FIRST_NAME = "Mario"
+ADDRESS = "12902 Magnolia Drive, MRC 4-West"
+EMAIL = "mario.fernandez@moffitt.org"
+PHONE = "813-745-5140"
+NUM_GROUPS = "7"
+TOTAL_SUBJECTS = "21"
+STUDY_COMMENTS = "Groups collected in triplicate per time point, either treated or untreated with Doxycycline."
+
+[SUBJECT]
+SUBJECT_TYPE = "Cells"
+SUBJECT_SPECIES = "Homo sapiens"
+TAXONOMY_ID = "9606"
+CELL_STRAIN_DETAILS = "Raji"
+CELL_PRIMARY_IMMORTALIZED = "Immortalized"
+CELL_PASSAGE_NUMBER = "16"
+CELL_COUNTS = "2e6 to 5e6/sample"
+
+[COLLECTION]
+COLLECTION_SUMMARY = "Cells were counted, 2e6 cells were collected via centrifugation, washed twice with cold 1x PBS, PBS removed and flash frozen. Pellets were saved at -80 C."
+SAMPLE_TYPE = "Cell"
+COLLECTION_METHOD = "Pellet"
+COLLECTION_LOCATION = "Lab"
+COLLECTION_FREQUENCY = "Every 48 hours, up to 144 hours"
+VOLUMEORAMOUNT_COLLECTED = "2e6 cells for 0, 48 and 144 time point. 5e6 cells for 96 hour time point"
+STORAGE_CONDITIONS = "Pellet"
+STORAGE_VIALS = "1.5 mL microfuge tube"
+TISSUE_CELL_IDENTIFICATION = "Raji cells"
+
+[TREATMENT]
+TREATMENT_SUMMARY = "Cells were treated with vehicle (dH2O) or 1 ug/mL doxycycline."
+TREATMENT_COMPOUND = "Doxycycline"
+TREATMENT_DOSE = "1 ug/mL"
+TREATMENT_DOSEVOLUME = "10 mL"
+TREATMENT_DOSEDURATION = "0, 48, 96, and 144 hours"
+TREATMENT_VEHICLE = "dH2O"
+CELL_GROWTH_CONTAINER = "T25 Flask"
+CELL_MEDIA_LASTCHANGED = "Media changed every two days during time course"
+
+[SAMPLEPREP]
+SAMPLEPREP_SUMMARY = "Amino acid"
+SAMPLEPREP_PROTOCOL_FILENAME = "SB_AA_Assay.pdf"
+
+[CHROMATOGRAPHY]
+CHROMATOGRAPHY_SUMMARY = "Amino Acid"
+CHROMATOGRAPHY_TYPE = "Reversed phase"
+INSTRUMENT_NAME = "Agilent 1290 Infinity"
+COLUMN_NAME = "Waters AccQ Tag (100 x 2mm, 1.7um)"
+METHODS_FILENAME = "SB_AA_Assay.pdf"
+
+[ANALYSIS]
+ANALYSIS_TYPE = "MS"
+LABORATORY_NAME = "Sanford Burnham"
+
+[MS]
+MS_COMMENTS = "-"
+INSTRUMENT_NAME = "Agilent 6490 QQQ"
+INSTRUMENT_TYPE = "Triple quadrupole"
+MS_TYPE = "ESI"
+ION_MODE = "POSITIVE"
+
+[MS_METABOLITE_DATA]
+Units = "nmol/mg protein"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Raji_shBCAT1"
+"Sample ID" = "Raji_001"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Time = "-"
+Treatment = "Vehicle"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Raji_shBCAT1"
+"Sample ID" = "Raji_002"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Time = "-"
+Treatment = "Vehicle"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Raji_shBCAT1"
+"Sample ID" = "Raji_003"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Time = "-"
+Treatment = "Vehicle"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Raji_shBCAT1"
+"Sample ID" = "Raji_004"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Time = "48(hrs)"
+Treatment = "Vehicle"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Raji_shBCAT1"
+"Sample ID" = "Raji_005"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Time = "48(hrs)"
+Treatment = "Vehicle"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Raji_shBCAT1"
+"Sample ID" = "Raji_006"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Time = "48(hrs)"
+Treatment = "Vehicle"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Raji_shBCAT1"
+"Sample ID" = "Raji_007"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Time = "48(hrs)"
+Treatment = "Doxycycline"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Raji_shBCAT1"
+"Sample ID" = "Raji_008"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Time = "48(hrs)"
+Treatment = "Doxycycline"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Raji_shBCAT1"
+"Sample ID" = "Raji_009"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Time = "48(hrs)"
+Treatment = "Doxycycline"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Raji_shBCAT1"
+"Sample ID" = "Raji_010"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Time = "96(hrs)"
+Treatment = "Vehicle"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Raji_shBCAT1"
+"Sample ID" = "Raji_011"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Time = "96(hrs)"
+Treatment = "Vehicle"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Raji_shBCAT1"
+"Sample ID" = "Raji_012"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Time = "96(hrs)"
+Treatment = "Vehicle"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Raji_shBCAT1"
+"Sample ID" = "Raji_013"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Time = "96(hrs)"
+Treatment = "Doxycycline"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Raji_shBCAT1"
+"Sample ID" = "Raji_014"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Time = "96(hrs)"
+Treatment = "Doxycycline"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Raji_shBCAT1"
+"Sample ID" = "Raji_015"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Time = "96(hrs)"
+Treatment = "Doxycycline"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Raji_shBCAT1"
+"Sample ID" = "Raji_016"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Time = "144(hrs)"
+Treatment = "Vehicle"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Raji_shBCAT1"
+"Sample ID" = "Raji_017"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Time = "144(hrs)"
+Treatment = "Vehicle"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Raji_shBCAT1"
+"Sample ID" = "Raji_018"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Time = "144(hrs)"
+Treatment = "Vehicle"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Raji_shBCAT1"
+"Sample ID" = "Raji_019"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Time = "144(hrs)"
+Treatment = "Doxycycline"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Raji_shBCAT1"
+"Sample ID" = "Raji_020"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Time = "144(hrs)"
+Treatment = "Doxycycline"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Raji_shBCAT1"
+"Sample ID" = "Raji_021"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Time = "144(hrs)"
+Treatment = "Doxycycline"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]

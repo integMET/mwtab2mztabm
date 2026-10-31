@@ -1,0 +1,165 @@
+[
+{
+"METABOLOMICS WORKBENCH":{"STUDY_ID":"ST000276","ANALYSIS_ID":"AN000440","VERSION":"1","CREATED_ON":"01-15-2019"},
+
+"PROJECT":{"PROJECT_TITLE":"Isocitrate dehydrogenase-1 and Glioma Studies","PROJECT_SUMMARY":"Dr. Stegh will define the role of a novel glioma oncoprotein, termed isocitrate dehydrogenase-1 (IDH1), in driving progression and therapy resistance of glioblastoma (GBM).  Understanding the molecular basis of the therapy refractoriness of GBM is one of the most important areas of glioma research. IDH1 is a critical enzyme of the citric acid cycle (CAC) and is a master regulator of metabolism. Building on his preliminary studies, Dr. Stegh will molecularly characterize the precise mechanism, by which IDH1 protects glioma cells from therapy-induced cell death using glioma cell and mouse models. To target IDH1 signaling in GBM, he will leverage these model systems and mechanistical knowledge to develop and preclinically characterize RNA interference RNAi-based nanomaterials. He will generate RNAi-functionalized spherical nucleic acids (SNAs) that neutralize IDH1 expression in established gliomas. Due to the negative charge of the RNA backbone, however, siRNA oligonucleotides have many downsides, such as they trigger auto-immune responses, and cannot cross the blood-brain-barrier (BBB). In contrast, SNAs are able to transverse cellular membranes, do not require the use of toxic auxiliary reagents, and accumulate in cells and intracranial tumors very effectively. They also exhibit extraordinary stability in physiological environments, cross the BBB, are highly resistant to nuclease degradation, and thus, can move through biological fluids and avoid being destroyed as “foreign materials.” Dr. Stegh proposes to preclinically evaluate these IDH1-targeting nanoconjugates to provide a fundamentally novel treatment option of patients diagnosed with GBM, and will aid in successfully implementing RNAi-based therapies into neuro-oncological practice.","INSTITUTE":"Northwestern University","DEPARTMENT":"Neurology","LABORATORY":"Stegh Lab","LAST_NAME":"Stegh","FIRST_NAME":"Alexander","ADDRESS":"Evanston, IL","EMAIL":"a-stegh@northwestern.edu","PHONE":"312-503-2879","DOI":"http://dx.doi.org/10.21228/M8688J"},
+
+"STUDY":{"STUDY_TITLE":"IDH1 and Glioma knockdown idh1","STUDY_SUMMARY":"This study is a part of series performed for the same researcher through pilot/feasibility grant program, so the publication is relevant reference for other studies (ST000199)This specific experiment is a pilot study to compare the metabolism of cells transformed using empty vector against cells transformed with vector carrying short hairpin RNA (shRNA) targeted to silence isocitrate dehydrogenase-1 (IDH1) gene.","INSTITUTE":"University of Michigan","DEPARTMENT":"Neurology","LABORATORY":"Stegh Lab (Northwestern University)","LAST_NAME":"Calvert","FIRST_NAME":"Andrea","ADDRESS":"Evanston, IL","EMAIL":"a-calvert@u.northwestern.edu","PHONE":"312-503-3134"},
+
+"SUBJECT":{"SUBJECT_TYPE":"Human","SUBJECT_SPECIES":"Homo sapiens","TAXONOMY_ID":"9606","SPECIES_GROUP":"Human"},
+"SUBJECT_SAMPLE_FACTORS":[
+{
+"Subject ID":"-",
+"Sample ID":"S00014999",
+"Factors":{"IDH1 Knockdown":"No"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"S00015000",
+"Factors":{"IDH1 Knockdown":"No"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"S00015001",
+"Factors":{"IDH1 Knockdown":"No"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"S00015002",
+"Factors":{"IDH1 Knockdown":"No"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"S00015003",
+"Factors":{"IDH1 Knockdown":"No"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"S00015004",
+"Factors":{"IDH1 Knockdown":"yes"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"S00015005",
+"Factors":{"IDH1 Knockdown":"yes"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"S00015006",
+"Factors":{"IDH1 Knockdown":"yes"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"S00015007",
+"Factors":{"IDH1 Knockdown":"yes"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"S00015008",
+"Factors":{"IDH1 Knockdown":"yes"}
+}
+],
+"COLLECTION":{"SAMPLE_TYPE":"Cells, Cultured","COLLECTION_SUMMARY":"-"},
+
+"TREATMENT":{"TREATMENT_SUMMARY":"-"},
+
+"SAMPLEPREP":{"SAMPLEPREP_PROTOCOL_FILENAME":"Gly-TCA-nucleotides_analysis_protocol-2015-03-09.docx","SAMPLEPREP_SUMMARY":"-"},
+
+"CHROMATOGRAPHY":{"METHODS_ID":"AQM020","METHODS_FILENAME":"QTOF-002-HILIC-35min-1mm.m","INSTRUMENT_NAME":"Agilent 1260","COLUMN_NAME":"Phenomenex Luna NH2 (150 x 1mm, 3um)","CHROMATOGRAPHY_TYPE":"HILIC"},
+
+"ANALYSIS":{"LABORATORY_NAME":"MRC2 (University of Michigan)","ANALYSIS_TYPE":"MS","ACQUISITION_PARAMETERS_FILE":"Column1_solv1_jetstream+_grad9.m","PROCESSING_PARAMETERS_FILE":"EX00317-MassHunterQuant-GlyTCA-DataAnalysis-LCMS-Method.m"},
+
+"MS":{"MS_COMMENTS":"-","INSTRUMENT_NAME":"Agilent 6530 QTOF","INSTRUMENT_TYPE":"QTOF","MS_TYPE":"ESI","ION_MODE":"POSITIVE"},
+
+"MS_METABOLITE_DATA":{
+"Units":"pmol/µg protein",
+
+"Data":[{"Metabolite":"2 or 3-phosphoglycerate_2PG/3PG","S00014999":"15.2684","S00015000":"20.6190","S00015001":"23.4381","S00015002":"12.2102","S00015003":"15.2395","S00015004":"22.2005","S00015005":"15.0676","S00015006":"21.5047","S00015007":"15.1398","S00015008":"16.4459"},{"Metabolite":"6-Phosphogluconate","S00014999":"17.6862","S00015000":"23.7846","S00015001":"26.4129","S00015002":"13.7886","S00015003":"19.1897","S00015004":"27.0367","S00015005":"17.7068","S00015006":"27.2094","S00015007":"19.1007","S00015008":"21.8335"},{"Metabolite":"Acetyl-CoA","S00014999":"16.8594","S00015000":"22.4543","S00015001":"24.8554","S00015002":"13.1727","S00015003":"16.5836","S00015004":"22.1267","S00015005":"15.1568","S00015006":"22.5592","S00015007":"16.6330","S00015008":"17.4050"},{"Metabolite":"ADP","S00014999":"141.8273","S00015000":"180.8952","S00015001":"198.6299","S00015002":"129.0832","S00015003":"98.7574","S00015004":"205.7849","S00015005":"151.8220","S00015006":"236.9052","S00015007":"194.7472","S00015008":"181.0240"},{"Metabolite":"AMP","S00014999":"652.5372","S00015000":"829.6242","S00015001":"919.1071","S00015002":"448.6940","S00015003":"428.6916","S00015004":"749.0836","S00015005":"541.5650","S00015006":"735.6193","S00015007":"574.4925","S00015008":"463.0508"},{"Metabolite":"ATP","S00014999":"461.9507","S00015000":"470.3373","S00015001":"552.7637","S00015002":"479.1216","S00015003":"262.0738","S00015004":"694.2409","S00015005":"464.7696","S00015006":"870.7787","S00015007":"777.8531","S00015008":"794.8952"},{"Metabolite":"Citrate or Isocitrate","S00014999":"936.5463","S00015000":"949.5495","S00015001":"1230.5785","S00015002":"690.9270","S00015003":"821.0633","S00015004":"709.6282","S00015005":"465.9267","S00015006":"727.7756","S00015007":"626.5704","S00015008":"669.6705"},{"Metabolite":"erythrose","S00014999":"33.0442","S00015000":"28.7963","S00015001":"77.8063","S00015002":"24.1673","S00015003":"62.2370","S00015004":"","S00015005":"7.6639","S00015006":"5.0417","S00015007":"9.2515","S00015008":"26.6524"},{"Metabolite":"Erythrose 4-phosphate","S00014999":"35.6925","S00015000":"29.9809","S00015001":"61.1633","S00015002":"29.5472","S00015003":"37.2907","S00015004":"42.0780","S00015005":"29.6363","S00015006":"55.4645","S00015007":"47.4340","S00015008":"45.8037"},{"Metabolite":"flavin adenine dinucleotide","S00014999":"7.4979","S00015000":"10.3560","S00015001":"12.1225","S00015002":"6.2196","S00015003":"7.6605","S00015004":"10.3921","S00015005":"7.1655","S00015006":"11.8516","S00015007":"8.7628","S00015008":"9.0587"},{"Metabolite":"Fructose 1_6-bisphosphate","S00014999":"69.3080","S00015000":"82.8799","S00015001":"98.7222","S00015002":"57.2519","S00015003":"45.6666","S00015004":"71.5205","S00015005":"60.1630","S00015006":"78.8434","S00015007":"60.9669","S00015008":"61.6814"},{"Metabolite":"Glucose 6-phosphate or fructose-6-phosphate","S00014999":"85.1880","S00015000":"75.1851","S00015001":"99.5117","S00015002":"60.8493","S00015003":"57.9876","S00015004":"91.3182","S00015005":"56.2837","S00015006":"114.4483","S00015007":"86.0812","S00015008":"92.1941"},{"Metabolite":"guanosine 5^-diphosphate","S00014999":"23.2924","S00015000":"45.0739","S00015001":"47.6427","S00015002":"28.1244","S00015003":"20.4777","S00015004":"44.3769","S00015005":"38.4507","S00015006":"69.3249","S00015007":"48.6709","S00015008":"52.9583"},{"Metabolite":"guanosine 5^-monophosphate","S00014999":"3.4553","S00015000":"5.3458","S00015001":"5.6254","S00015002":"3.0489","S00015003":"3.1901","S00015004":"4.5709","S00015005":"3.5829","S00015006":"5.8280","S00015007":"3.8469","S00015008":"3.7847"},{"Metabolite":"guanosine 5^-triphosphate","S00014999":"16.5563","S00015000":"26.3197","S00015001":"29.0029","S00015002":"17.4227","S00015003":"18.3531","S00015004":"29.8463","S00015005":"21.6192","S00015006":"38.5941","S00015007":"30.0206","S00015008":"34.9164"},{"Metabolite":"Malate","S00014999":"991.9140","S00015000":"907.7035","S00015001":"1279.6747","S00015002":"866.3719","S00015003":"698.6432","S00015004":"1111.6626","S00015005":"699.9722","S00015006":"944.3375","S00015007":"940.4108","S00015008":"902.7140"},{"Metabolite":"Nicotinamide Adenine Dinucleotide oxidized","S00014999":"90.7688","S00015000":"93.6636","S00015001":"121.4057","S00015002":"73.7462","S00015003":"63.4411","S00015004":"139.0454","S00015005":"86.6988","S00015006":"145.4194","S00015007":"112.1841","S00015008":"113.1869"},{"Metabolite":"nicotinamide adenine dinucleotide phosphate oxidized","S00014999":"4.3046","S00015000":"1.0805","S00015001":"4.2444","S00015002":"2.2002","S00015003":"","S00015004":"3.7090","S00015005":"1.4878","S00015006":"5.8322","S00015007":"3.2584","S00015008":"3.2117"},{"Metabolite":"nicotinamide adenine dinucleotide phosphate reduced","S00014999":"26.7725","S00015000":"35.0579","S00015001":"36.4935","S00015002":"25.6258","S00015003":"24.2748","S00015004":"33.2817","S00015005":"27.0430","S00015006":"32.3769","S00015007":"31.7478","S00015008":"29.7391"},{"Metabolite":"Nicotinamide Adenine Dinucleotide reduced","S00014999":"13.8329","S00015000":"21.1491","S00015001":"23.3243","S00015002":"11.6355","S00015003":"15.8388","S00015004":"19.9616","S00015005":"13.2308","S00015006":"20.6977","S00015007":"13.9447","S00015008":"14.9794"},{"Metabolite":"Phosphoenolpyruvate","S00014999":"30.9780","S00015000":"45.3703","S00015001":"49.8261","S00015002":"24.6009","S00015003":"35.2011","S00015004":"46.0490","S00015005":"30.7370","S00015006":"","S00015007":"30.9441","S00015008":""},{"Metabolite":"Ribose-5-phosphate or xylulose 5-phosphate","S00014999":"23.7059","S00015000":"14.9983","S00015001":"28.0342","S00015002":"15.1046","S00015003":"11.5529","S00015004":"28.3019","S00015005":"14.9329","S00015006":"24.1783","S00015007":"19.8986","S00015008":"18.4868"},{"Metabolite":"sedoheptulose","S00014999":"10.4741","S00015000":"12.7426","S00015001":"15.8358","S00015002":"5.6668","S00015003":"8.5453","S00015004":"10.3963","S00015005":"6.9639","S00015006":"11.3288","S00015007":"8.3560","S00015008":"10.3075"},{"Metabolite":"Sedoheptulose 7-phosphate","S00014999":"15.0706","S00015000":"17.8956","S00015001":"23.3110","S00015002":"13.3722","S00015003":"16.0837","S00015004":"23.7804","S00015005":"12.5196","S00015006":"28.5041","S00015007":"19.0734","S00015008":"19.9277"},{"Metabolite":"Sucrose","S00014999":"62.3013","S00015000":"85.6996","S00015001":"102.1007","S00015002":"54.5533","S00015003":"62.3990","S00015004":"100.4478","S00015005":"66.7923","S00015006":"89.4629","S00015007":"73.0057","S00015008":"79.7717"}],
+
+"Metabolites":[{"Metabolite":"2 or 3-phosphoglycerate_2PG/3PG","pubchem_id":"724","inchi_key":"","kegg_id":"C00597","other_id":"2PG/3PG","other_id_type":"UM_Target_ID","ri":"","ri_type":"","moverz_quant":"","":""},{"Metabolite":"6-Phosphogluconate","pubchem_id":"91493","inchi_key":"","kegg_id":"C00345","other_id":"6PG","other_id_type":"UM_Target_ID","ri":"","ri_type":"","moverz_quant":"","":""},{"Metabolite":"Acetyl-CoA","pubchem_id":"444493","inchi_key":"","kegg_id":"C00024","other_id":"aCoA","other_id_type":"UM_Target_ID","ri":"","ri_type":"","moverz_quant":"","":""},{"Metabolite":"ADP","pubchem_id":"6022","inchi_key":"","kegg_id":"C00008","other_id":"ADP","other_id_type":"UM_Target_ID","ri":"","ri_type":"","moverz_quant":"","":""},{"Metabolite":"AMP","pubchem_id":"6083","inchi_key":"","kegg_id":"C00020","other_id":"AMP","other_id_type":"UM_Target_ID","ri":"","ri_type":"","moverz_quant":"","":""},{"Metabolite":"ATP","pubchem_id":"5957","inchi_key":"","kegg_id":"C00002","other_id":"ATP","other_id_type":"UM_Target_ID","ri":"","ri_type":"","moverz_quant":"","":""},{"Metabolite":"Citrate or Isocitrate","pubchem_id":"311","inchi_key":"","kegg_id":"C00158","other_id":"CIT/ICIT","other_id_type":"UM_Target_ID","ri":"","ri_type":"","moverz_quant":"","":""},{"Metabolite":"erythrose","pubchem_id":"94176","inchi_key":"","kegg_id":"C02143","other_id":"ERY","other_id_type":"UM_Target_ID","ri":"","ri_type":"","moverz_quant":"","":""},{"Metabolite":"Erythrose 4-phosphate","pubchem_id":"122357","inchi_key":"","kegg_id":"C00279","other_id":"E4P","other_id_type":"UM_Target_ID","ri":"","ri_type":"","moverz_quant":"","":""},{"Metabolite":"flavin adenine dinucleotide","pubchem_id":"643975","inchi_key":"","kegg_id":"C00016","other_id":"FAD","other_id_type":"UM_Target_ID","ri":"","ri_type":"","moverz_quant":"","":""},{"Metabolite":"Fructose 1,6-bisphosphate","pubchem_id":"172313","inchi_key":"","kegg_id":"C00354","other_id":"FBP","other_id_type":"UM_Target_ID","ri":"","ri_type":"","moverz_quant":"","":""},{"Metabolite":"Glucose 6-phosphate or fructose-6-phosphate","pubchem_id":"5958","inchi_key":"","kegg_id":"C00092","other_id":"G6P/F6P","other_id_type":"UM_Target_ID","ri":"","ri_type":"","moverz_quant":"","":""},{"Metabolite":"guanosine 5'-diphosphate","pubchem_id":"8977","inchi_key":"","kegg_id":"C00035","other_id":"GDP","other_id_type":"UM_Target_ID","ri":"","ri_type":"","moverz_quant":"","":""},{"Metabolite":"guanosine 5'-monophosphate","pubchem_id":"6804","inchi_key":"","kegg_id":"C00144","other_id":"GMP","other_id_type":"UM_Target_ID","ri":"","ri_type":"","moverz_quant":"","":""},{"Metabolite":"guanosine 5'-triphosphate","pubchem_id":"6830","inchi_key":"","kegg_id":"C00044","other_id":"GTP","other_id_type":"UM_Target_ID","ri":"","ri_type":"","moverz_quant":"","":""},{"Metabolite":"Malate","pubchem_id":"222656","inchi_key":"","kegg_id":"C00149","other_id":"MAL","other_id_type":"UM_Target_ID","ri":"","ri_type":"","moverz_quant":"","":""},{"Metabolite":"Nicotinamide Adenine Dinucleotide oxidized","pubchem_id":"10897651","inchi_key":"","kegg_id":"C00003","other_id":"NAD","other_id_type":"UM_Target_ID","ri":"","ri_type":"","moverz_quant":"","":""},{"Metabolite":"nicotinamide adenine dinucleotide phosphate oxidized","pubchem_id":"5886","inchi_key":"","kegg_id":"C00006","other_id":"NADP","other_id_type":"UM_Target_ID","ri":"","ri_type":"","moverz_quant":"","":""},{"Metabolite":"nicotinamide adenine dinucleotide phosphate reduced","pubchem_id":"5886","inchi_key":"","kegg_id":"C00006","other_id":"NADPH","other_id_type":"UM_Target_ID","ri":"","ri_type":"","moverz_quant":"","":""},{"Metabolite":"Nicotinamide Adenine Dinucleotide reduced","pubchem_id":"439153","inchi_key":"","kegg_id":"C00004","other_id":"NADH","other_id_type":"UM_Target_ID","ri":"","ri_type":"","moverz_quant":"","":""},{"Metabolite":"Phosphoenolpyruvate","pubchem_id":"1005","inchi_key":"","kegg_id":"C00074","other_id":"PEP","other_id_type":"UM_Target_ID","ri":"","ri_type":"","moverz_quant":"","":""},{"Metabolite":"Ribose-5-phosphate or xylulose 5-phosphate","pubchem_id":"77982","inchi_key":"","kegg_id":"C00117","other_id":"R5P/X5P","other_id_type":"UM_Target_ID","ri":"","ri_type":"","moverz_quant":"","":""},{"Metabolite":"sedoheptulose","pubchem_id":"102926","inchi_key":"","kegg_id":"","other_id":"SED","other_id_type":"UM_Target_ID","ri":"","ri_type":"","moverz_quant":"","":""},{"Metabolite":"Sedoheptulose 7-phosphate","pubchem_id":"165007","inchi_key":"","kegg_id":"C05382","other_id":"S7P","other_id_type":"UM_Target_ID","ri":"","ri_type":"","moverz_quant":"","":""},{"Metabolite":"Sucrose","pubchem_id":"5988","inchi_key":"","kegg_id":"C00089","other_id":"SUC","other_id_type":"UM_Target_ID","ri":"","ri_type":"","moverz_quant":"","":""}]
+}
+
+}
+,
+{
+"METABOLOMICS WORKBENCH":{"STUDY_ID":"ST000276","ANALYSIS_ID":"AN000441","VERSION":"1","CREATED_ON":"01-15-2019"},
+
+"PROJECT":{"PROJECT_TITLE":"Isocitrate dehydrogenase-1 and Glioma Studies","PROJECT_SUMMARY":"Dr. Stegh will define the role of a novel glioma oncoprotein, termed isocitrate dehydrogenase-1 (IDH1), in driving progression and therapy resistance of glioblastoma (GBM).  Understanding the molecular basis of the therapy refractoriness of GBM is one of the most important areas of glioma research. IDH1 is a critical enzyme of the citric acid cycle (CAC) and is a master regulator of metabolism. Building on his preliminary studies, Dr. Stegh will molecularly characterize the precise mechanism, by which IDH1 protects glioma cells from therapy-induced cell death using glioma cell and mouse models. To target IDH1 signaling in GBM, he will leverage these model systems and mechanistical knowledge to develop and preclinically characterize RNA interference RNAi-based nanomaterials. He will generate RNAi-functionalized spherical nucleic acids (SNAs) that neutralize IDH1 expression in established gliomas. Due to the negative charge of the RNA backbone, however, siRNA oligonucleotides have many downsides, such as they trigger auto-immune responses, and cannot cross the blood-brain-barrier (BBB). In contrast, SNAs are able to transverse cellular membranes, do not require the use of toxic auxiliary reagents, and accumulate in cells and intracranial tumors very effectively. They also exhibit extraordinary stability in physiological environments, cross the BBB, are highly resistant to nuclease degradation, and thus, can move through biological fluids and avoid being destroyed as “foreign materials.” Dr. Stegh proposes to preclinically evaluate these IDH1-targeting nanoconjugates to provide a fundamentally novel treatment option of patients diagnosed with GBM, and will aid in successfully implementing RNAi-based therapies into neuro-oncological practice.","INSTITUTE":"Northwestern University","DEPARTMENT":"Neurology","LABORATORY":"Stegh Lab","LAST_NAME":"Stegh","FIRST_NAME":"Alexander","ADDRESS":"Evanston, IL","EMAIL":"a-stegh@northwestern.edu","PHONE":"312-503-2879","DOI":"http://dx.doi.org/10.21228/M8688J"},
+
+"STUDY":{"STUDY_TITLE":"IDH1 and Glioma knockdown idh1","STUDY_SUMMARY":"This study is a part of series performed for the same researcher through pilot/feasibility grant program, so the publication is relevant reference for other studies (ST000199)This specific experiment is a pilot study to compare the metabolism of cells transformed using empty vector against cells transformed with vector carrying short hairpin RNA (shRNA) targeted to silence isocitrate dehydrogenase-1 (IDH1) gene.","INSTITUTE":"University of Michigan","DEPARTMENT":"Neurology","LABORATORY":"Stegh Lab (Northwestern University)","LAST_NAME":"Calvert","FIRST_NAME":"Andrea","ADDRESS":"Evanston, IL","EMAIL":"a-calvert@u.northwestern.edu","PHONE":"312-503-3134"},
+
+"SUBJECT":{"SUBJECT_TYPE":"Human","SUBJECT_SPECIES":"Homo sapiens","TAXONOMY_ID":"9606","SPECIES_GROUP":"Human"},
+"SUBJECT_SAMPLE_FACTORS":[
+{
+"Subject ID":"-",
+"Sample ID":"S00014999",
+"Factors":{"IDH1 Knockdown":"No"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"S00015000",
+"Factors":{"IDH1 Knockdown":"No"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"S00015001",
+"Factors":{"IDH1 Knockdown":"No"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"S00015002",
+"Factors":{"IDH1 Knockdown":"No"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"S00015003",
+"Factors":{"IDH1 Knockdown":"No"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"S00015004",
+"Factors":{"IDH1 Knockdown":"yes"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"S00015005",
+"Factors":{"IDH1 Knockdown":"yes"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"S00015006",
+"Factors":{"IDH1 Knockdown":"yes"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"S00015007",
+"Factors":{"IDH1 Knockdown":"yes"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"S00015008",
+"Factors":{"IDH1 Knockdown":"yes"}
+}
+],
+"COLLECTION":{"SAMPLE_TYPE":"Cells, Cultured","COLLECTION_SUMMARY":"-"},
+
+"TREATMENT":{"TREATMENT_SUMMARY":"-"},
+
+"SAMPLEPREP":{"SAMPLEPREP_PROTOCOL_FILENAME":"Gly-TCA-nucleotides_analysis_protocol-2015-03-09.docx","SAMPLEPREP_SUMMARY":"-"},
+
+"CHROMATOGRAPHY":{"METHODS_ID":"AQM011","METHODS_FILENAME":"ALPHA_KETO_ACIDS-FULL.M.zip","INSTRUMENT_NAME":"Agilent 7890A","COLUMN_NAME":"Agilent DB5-MS (30m Ã— 0.25mm, 0.25um)","CHROMATOGRAPHY_TYPE":"GC"},
+
+"ANALYSIS":{"LABORATORY_NAME":"MRC2 (University of Michigan)","ANALYSIS_TYPE":"MS","ACQUISITION_PARAMETERS_FILE":"ALPHA_KETO_ACIDS-FULL.M","PROCESSING_PARAMETERS_FILE":"EX00317-MassHunterQuant-GlyTCA-DataAnalysis-GCMS-Method.m"},
+
+"MS":{"MS_COMMENTS":"-","INSTRUMENT_NAME":"Agilent 5975C","INSTRUMENT_TYPE":"Single quadrupole","MS_TYPE":"EI","ION_MODE":"POSITIVE"},
+
+"MS_METABOLITE_DATA":{
+"Units":"pmol/µg protein",
+
+"Data":[{"Metabolite":"Alanine","S00014999":"996.2817","S00015000":"910.7413","S00015001":"1281.7169","S00015002":"698.7935","S00015003":"844.0850","S00015004":"1041.1305","S00015005":"647.4352","S00015006":"946.3281","S00015007":"1024.3858","S00015008":"867.1329"},{"Metabolite":"alpha-Ketoglutarate","S00014999":"16.4588","S00015000":"22.3602","S00015001":"23.5513","S00015002":"12.7843","S00015003":"16.7499","S00015004":"21.2418","S00015005":"14.1643","S00015006":"22.3870","S00015007":"15.7013","S00015008":"16.7397"},{"Metabolite":"Aspartate","S00014999":"356.2586","S00015000":"276.7119","S00015001":"578.6748","S00015002":"312.8998","S00015003":"191.0696","S00015004":"702.4607","S00015005":"502.8527","S00015006":"628.2349","S00015007":"574.3030","S00015008":"566.6498"},{"Metabolite":"fumarate","S00014999":"14.7099","S00015000":"11.9777","S00015001":"17.9796","S00015002":"11.6283","S00015003":"8.9059","S00015004":"13.2667","S00015005":"8.3125","S00015006":"11.3369","S00015007":"11.5190","S00015008":"11.8588"},{"Metabolite":"Glutamate","S00014999":"166.5818","S00015000":"120.7442","S00015001":"184.1360","S00015002":"121.4537","S00015003":"85.6198","S00015004":"227.2815","S00015005":"154.6118","S00015006":"246.7419","S00015007":"168.0500","S00015008":"157.7775"},{"Metabolite":"glutamine","S00014999":"2409.2674","S00015000":"2039.1899","S00015001":"2390.0722","S00015002":"1695.1824","S00015003":"1966.8836","S00015004":"1442.3682","S00015005":"1002.0822","S00015006":"1743.0489","S00015007":"1836.5683","S00015008":"1482.1244"},{"Metabolite":"Lactate","S00014999":"4859.4627","S00015000":"5828.3572","S00015001":"7505.5884","S00015002":"3540.7433","S00015003":"6401.0627","S00015004":"3732.3973","S00015005":"2521.0120","S00015006":"3340.4079","S00015007":"3761.1185","S00015008":"3620.8429"},{"Metabolite":"Oxaloacetate","S00014999":"","S00015000":"","S00015001":"","S00015002":"","S00015003":"","S00015004":"","S00015005":"","S00015006":"","S00015007":"","S00015008":""},{"Metabolite":"pyruvate","S00014999":"53.1017","S00015000":"59.6396","S00015001":"61.5282","S00015002":"24.5963","S00015003":"64.7677","S00015004":"33.9041","S00015005":"31.0891","S00015006":"34.9901","S00015007":"35.0506","S00015008":"41.2705"}],
+
+"Metabolites":[{"Metabolite":"Alanine","pubchem_id":"5950","inchi_key":"","kegg_id":"C00041","other_id":"ALA","other_id_type":"UM_Target_ID","ri":"","ri_type":"","moverz_quant":"","":""},{"Metabolite":"alpha-Ketoglutarate","pubchem_id":"51","inchi_key":"","kegg_id":"C00026","other_id":"AKG","other_id_type":"UM_Target_ID","ri":"","ri_type":"","moverz_quant":"","":""},{"Metabolite":"Aspartate","pubchem_id":"5960","inchi_key":"","kegg_id":"C00049","other_id":"ASP","other_id_type":"UM_Target_ID","ri":"","ri_type":"","moverz_quant":"","":""},{"Metabolite":"fumarate","pubchem_id":"444972","inchi_key":"","kegg_id":"C00122","other_id":"FUM","other_id_type":"UM_Target_ID","ri":"","ri_type":"","moverz_quant":"","":""},{"Metabolite":"Glutamate","pubchem_id":"611","inchi_key":"","kegg_id":"","other_id":"GLU","other_id_type":"UM_Target_ID","ri":"","ri_type":"","moverz_quant":"","":""},{"Metabolite":"glutamine","pubchem_id":"5961","inchi_key":"","kegg_id":"C00064","other_id":"GLN","other_id_type":"UM_Target_ID","ri":"","ri_type":"","moverz_quant":"","":""},{"Metabolite":"Lactate","pubchem_id":"107689","inchi_key":"","kegg_id":"C00186","other_id":"LAC","other_id_type":"UM_Target_ID","ri":"","ri_type":"","moverz_quant":"","":""},{"Metabolite":"Oxaloacetate","pubchem_id":"970","inchi_key":"","kegg_id":"C00036","other_id":"OAA","other_id_type":"UM_Target_ID","ri":"","ri_type":"","moverz_quant":"","":""},{"Metabolite":"pyruvate","pubchem_id":"1060","inchi_key":"","kegg_id":"C00022","other_id":"PYR","other_id_type":"UM_Target_ID","ri":"","ri_type":"","moverz_quant":"","":""}]
+}
+
+}
+]

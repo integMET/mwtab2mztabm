@@ -1,0 +1,213 @@
+[
+{
+"METABOLOMICS WORKBENCH":{"STUDY_ID":"ST001015","ANALYSIS_ID":"AN001657","VERSION":"1","CREATED_ON":"July 17, 2018, 1:06 pm"},
+
+"PROJECT":{"PROJECT_TITLE":"Mayo Pilot and Feasibility: Metabolomics of Muscle Wasting in Cancer Cachexia","PROJECT_SUMMARY":"Cachexia is a debilitating syndrome that results in severe, involuntary weight loss due to the depletion of skeletal muscle mass. This syndrome occurs in a majority of cancers and contributes to approximately one third of all cancer deaths. Currently, no effective therapy exists to combat this malignant disorder, and disappointing results from recent Phase III clinical trials indicate that a cachexia treatment is not likely to appear soon. Thus, it is clear that greater knowledge of the mechanisms driving muscle wasting in cachexia is needed in order to identify new therapeutic targets and stimulate new clinical trials. Our approach to gaining this knowledge has been to work with muscle biopsies from pancreatic cancer patients, since this population is highly prone to cachexia. We have also been expanding our studies beyond the classical mouse models of cancer cachexia in hopes of finding a new model that better recapitulates the human disease. We recently undertook RNA-Seq analysis comparing muscle biopsies from pancreatic cancer patients with and without cachexia, which has been exciting since this type of analysis has not yet been performed in patient samples. Preliminary results revealed that cachectic muscle was associated with alterations in metabolism. These data provide the rationale for performing metabolomics to ascertain whether specific metabolic pathways or metabolites can be identified as potential drivers of muscle wasting in cachexia or be used as biomarker of cachexia, which the field desperately needs. An additional need is a well-validated animal model of cancer cachexia that accurately reflects the human condition, which can be used to test mechanisms and pre-clinical compounds. We propose to perform these studies under the Mayo Clinic Metabolomics Resource Core Pilot and Feasibility Grant program to: 1) Identify metabolic alterations and biomarkers of pancreatic cancer-induced muscle wasting; and 2) Identify a suitable mouse model that recapitulates the metabolic imbalance of muscles from pancreatic cancer cachexia patients. By performing these studies, we will accelerate our understanding of the underlying causes of muscle wasting, which should translate to improving the current pipeline of anticachexia therapies.","INSTITUTE":"Mayo Clinic","LAST_NAME":"Guttridge","FIRST_NAME":"Denis","ADDRESS":"520 Biomedical Research Tower 460 W. 12th Avenue Columbus, OH 43210","EMAIL":"denis.guttridge@osumc.edu","PHONE":"614-688-3137"},
+
+"STUDY":{"STUDY_TITLE":"Acyl Carnitines Concentration in Serum for Muscle Wasting in Cancer Cachexia (part-X)","STUDY_SUMMARY":"Acyl Carnitines Concentrations of Muscle Wasting in Cancer Cachexia. Serum samples from 10 control patients, 10 weight stable pancreatic cancer patients, and 10 pancreatic cancer patients with significant weight loss. Samples are divided evenly between males and females.","INSTITUTE":"Mayo Clinic","LAST_NAME":"Guttridge","FIRST_NAME":"Denis","ADDRESS":"520 Biomedical Research Tower 460 W. 12th Avenue Columbus, OH 43210","EMAIL":"denis.guttridge@osumc.edu","PHONE":"614-688-3137"},
+
+"SUBJECT":{"SUBJECT_TYPE":"Human","SUBJECT_SPECIES":"Homo sapiens","TAXONOMY_ID":"9606"},
+"SUBJECT_SAMPLE_FACTORS":[
+{
+"Subject ID":"-",
+"Sample ID":"ms6653-1",
+"Factors":{"Grouping":"Weight Losing","Gender":"Female"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6653-2",
+"Factors":{"Grouping":"Control","Gender":"Male"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6653-3",
+"Factors":{"Grouping":"Control","Gender":"Female"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6653-4",
+"Factors":{"Grouping":"Control","Gender":"Female"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6653-5",
+"Factors":{"Grouping":"Weight Losing","Gender":"Male"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6653-6",
+"Factors":{"Grouping":"Weight Losing","Gender":"Male"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6653-7",
+"Factors":{"Grouping":"Control","Gender":"Female"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6653-8",
+"Factors":{"Grouping":"Weight Stable","Gender":"Male"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6653-9",
+"Factors":{"Grouping":"Control","Gender":"Female"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6653-10",
+"Factors":{"Grouping":"Control","Gender":"Male"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6653-11",
+"Factors":{"Grouping":"Weight Stable","Gender":"Male"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6653-12",
+"Factors":{"Grouping":"Weight Stable","Gender":"Male"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6653-13",
+"Factors":{"Grouping":"Weight Losing","Gender":"Male"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6653-14",
+"Factors":{"Grouping":"Weight Losing","Gender":"Male"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6653-15",
+"Factors":{"Grouping":"Control","Gender":"Male"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6653-16",
+"Factors":{"Grouping":"Weight Stable","Gender":"Female"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6653-17",
+"Factors":{"Grouping":"Weight Stable","Gender":"Female"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6653-18",
+"Factors":{"Grouping":"Control","Gender":"Female"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6653-19",
+"Factors":{"Grouping":"Weight Stable","Gender":"Female"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6653-20",
+"Factors":{"Grouping":"Control","Gender":"Male"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6653-21",
+"Factors":{"Grouping":"Weight Losing","Gender":"Female"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6653-22",
+"Factors":{"Grouping":"Weight Losing","Gender":"Female"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6653-23",
+"Factors":{"Grouping":"Weight Stable","Gender":"Male"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6653-24",
+"Factors":{"Grouping":"Weight Stable","Gender":"Female"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6653-25",
+"Factors":{"Grouping":"Weight Stable","Gender":"Female"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6653-26",
+"Factors":{"Grouping":"Weight Losing","Gender":"Female"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6653-27",
+"Factors":{"Grouping":"Control","Gender":"Male"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6653-28",
+"Factors":{"Grouping":"Weight Stable","Gender":"Male"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6653-29",
+"Factors":{"Grouping":"Weight Losing","Gender":"Female"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6653-30",
+"Factors":{"Grouping":"Weight Losing","Gender":"Male"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+}
+],
+"COLLECTION":{"COLLECTION_SUMMARY":"Tissue and blood donated from Cancer Cachexia Program at Ohio State University","SAMPLE_TYPE":"Blood (serum)"},
+
+"TREATMENT":{"TREATMENT_SUMMARY":"Cancer cachexia is a multi-factorial syndrome accompanying advanced cancer, with the most notable symptom being unintentional weight loss. Cachectic patients lose both adipose tissue and skeletal muscle, with skeletal muscle loss and its associated weakness contributing to the morbidity and mortality of these patients. Despite three decades of research into mechanisms driving muscle wasting due to cancer, to date, an approved pharmacological therapy to prevent or treat cancer cachexia is still lacking. Our laboratory focuses on cancer cachexia in patients with pancreatic cancer, as up to 85% of these patients experience weight loss. Cachexia often occurs early in the progression of pancreatic cancer, making clear that cachexia in these patients is not simply a result of end-stage disease. Further, with perhaps more than ¼ of all pancreatic cancer deaths resulting from muscle weakness as opposed to tumor burden, cachexia also significantly contributes to mortality due to pancreatic cancer. Because little progress has been made in improving treatment outcomes, addressing cancer-induced muscle wasting is perhaps the best strategy to prolong pancreatic cancer patient survival and increase patient quality of life. In an effort to better understand the mechanisms driving pancreatic cancer-induced muscle wasting, the Cancer Cachexia Program at Ohio State University has begun a Pancreatic Cancer Cachexia Tissue Bank. To date, over 130 patients undergoing attempted resection for pancreatic cancer or other abdominal surgeries have donated muscle and blood to our bank. A unique aspect of our tissue bank is our focus on patients eligible for resection. In contrast to other studies using patients with late-stage disease, our patients are not end-stage, as they are considered healthy enough to undergo a major operation."},
+
+"SAMPLEPREP":{"SAMPLEPREP_SUMMARY":"acyl carnitines concentrations using serum"},
+
+"CHROMATOGRAPHY":{"CHROMATOGRAPHY_TYPE":"Reversed phase","INSTRUMENT_NAME":"Waters Acquity","COLUMN_NAME":"Waters Acquity BEH C8 (150 x 2mm, 1.7um)"},
+
+"ANALYSIS":{"ANALYSIS_TYPE":"MS"},
+
+"MS":{"MS_COMMENTS":"-","INSTRUMENT_NAME":"Thermo Quantiva QQQ","INSTRUMENT_TYPE":"Triple quadrupole","MS_TYPE":"ESI","ION_MODE":"POSITIVE"},
+
+"MS_METABOLITE_DATA":{
+"Units":"uM",
+
+"Data":[{"Metabolite":"Carnitine (C0)","ms6653-1":"34.63","ms6653-2":"37.52","ms6653-3":"50.63","ms6653-4":"31.09","ms6653-5":"32.76","ms6653-6":"38.35","ms6653-7":"35.62","ms6653-8":"31.31","ms6653-9":"38.91","ms6653-10":"25.81","ms6653-11":"33.90","ms6653-12":"43.03","ms6653-13":"36.68","ms6653-14":"27.59","ms6653-15":"30.06","ms6653-16":"40.94","ms6653-17":"24.22","ms6653-18":"68.18","ms6653-19":"18.72","ms6653-20":"40.84","ms6653-21":"31.26","ms6653-22":"27.56","ms6653-23":"43.03","ms6653-24":"37.35","ms6653-25":"16.50","ms6653-26":"23.77","ms6653-27":"45.17","ms6653-28":"32.34","ms6653-29":"32.72","ms6653-30":"43.79"},{"Metabolite":"Acetylcarnitine (C2)","ms6653-1":"13.33","ms6653-2":"15.70","ms6653-3":"14.77","ms6653-4":"9.60","ms6653-5":"16.85","ms6653-6":"14.61","ms6653-7":"12.38","ms6653-8":"3.33","ms6653-9":"11.79","ms6653-10":"5.16","ms6653-11":"9.91","ms6653-12":"6.95","ms6653-13":"7.45","ms6653-14":"12.75","ms6653-15":"5.21","ms6653-16":"11.23","ms6653-17":"3.15","ms6653-18":"13.31","ms6653-19":"7.06","ms6653-20":"11.50","ms6653-21":"6.75","ms6653-22":"10.76","ms6653-23":"8.62","ms6653-24":"7.71","ms6653-25":"2.19","ms6653-26":"7.96","ms6653-27":"6.42","ms6653-28":"6.79","ms6653-29":"9.17","ms6653-30":"9.46"},{"Metabolite":"Propionylcarnitine (C3)","ms6653-1":"0.206","ms6653-2":"0.130","ms6653-3":"0.702","ms6653-4":"0.139","ms6653-5":"0.133","ms6653-6":"0.218","ms6653-7":"0.154","ms6653-8":"0.253","ms6653-9":"0.200","ms6653-10":"0.342","ms6653-11":"0.374","ms6653-12":"0.358","ms6653-13":"0.280","ms6653-14":"0.172","ms6653-15":"0.163","ms6653-16":"0.214","ms6653-17":"0.213","ms6653-18":"0.666","ms6653-19":"0.087","ms6653-20":"0.298","ms6653-21":"0.241","ms6653-22":"0.121","ms6653-23":"0.392","ms6653-24":"0.417","ms6653-25":"0.108","ms6653-26":"0.204","ms6653-27":"0.197","ms6653-28":"0.220","ms6653-29":"0.173","ms6653-30":"0.307"},{"Metabolite":"Butyrylcarnitine (C4)","ms6653-1":"0.117","ms6653-2":"0.109","ms6653-3":"0.092","ms6653-4":"0.171","ms6653-5":"0.043","ms6653-6":"0.072","ms6653-7":"0.037","ms6653-8":"0.062","ms6653-9":"0.086","ms6653-10":"0.047","ms6653-11":"0.094","ms6653-12":"0.108","ms6653-13":"0.049","ms6653-14":"0.056","ms6653-15":"0.047","ms6653-16":"0.079","ms6653-17":"0.047","ms6653-18":"0.123","ms6653-19":"0.165","ms6653-20":"0.123","ms6653-21":"0.069","ms6653-22":"0.038","ms6653-23":"0.272","ms6653-24":"0.069","ms6653-25":"0.038","ms6653-26":"0.035","ms6653-27":"0.149","ms6653-28":"0.053","ms6653-29":"0.047","ms6653-30":"0.149"},{"Metabolite":"Isovalerylcarnitine (C5)","ms6653-1":"0.019","ms6653-2":"0.120","ms6653-3":"0.113","ms6653-4":"0.063","ms6653-5":"0.019","ms6653-6":"0.037","ms6653-7":"0.031","ms6653-8":"0.035","ms6653-9":"0.027","ms6653-10":"0.048","ms6653-11":"0.045","ms6653-12":"0.048","ms6653-13":"0.054","ms6653-14":"0.016","ms6653-15":"0.042","ms6653-16":"0.019","ms6653-17":"0.059","ms6653-18":"0.092","ms6653-19":"0.006","ms6653-20":"0.100","ms6653-21":"0.069","ms6653-22":"0.024","ms6653-23":"0.038","ms6653-24":"0.035","ms6653-25":"0.022","ms6653-26":"0.063","ms6653-27":"0.045","ms6653-28":"0.020","ms6653-29":"0.022","ms6653-30":"0.052"},{"Metabolite":"Octanoylcarnitine (C8)","ms6653-1":"0.095","ms6653-2":"0.052","ms6653-3":"0.167","ms6653-4":"0.098","ms6653-5":"0.037","ms6653-6":"0.073","ms6653-7":"0.038","ms6653-8":"0.027","ms6653-9":"0.177","ms6653-10":"0.039","ms6653-11":"0.109","ms6653-12":"0.052","ms6653-13":"0.049","ms6653-14":"0.049","ms6653-15":"0.047","ms6653-16":"0.053","ms6653-17":"0.029","ms6653-18":"0.145","ms6653-19":"0.080","ms6653-20":"0.119","ms6653-21":"0.047","ms6653-22":"0.053","ms6653-23":"0.068","ms6653-24":"0.037","ms6653-25":"0.017","ms6653-26":"0.035","ms6653-27":"0.054","ms6653-28":"0.048","ms6653-29":"0.081","ms6653-30":"0.083"},{"Metabolite":"Lauroylcarnitine (C12)","ms6653-1":"0.033","ms6653-2":"0.027","ms6653-3":"0.034","ms6653-4":"0.028","ms6653-5":"0.024","ms6653-6":"0.028","ms6653-7":"0.021","ms6653-8":"0.009","ms6653-9":"0.067","ms6653-10":"0.014","ms6653-11":"0.017","ms6653-12":"0.015","ms6653-13":"0.035","ms6653-14":"0.024","ms6653-15":"0.023","ms6653-16":"0.015","ms6653-17":"0.016","ms6653-18":"0.045","ms6653-19":"0.029","ms6653-20":"0.026","ms6653-21":"0.012","ms6653-22":"0.020","ms6653-23":"0.026","ms6653-24":"0.015","ms6653-25":"0.008","ms6653-26":"0.012","ms6653-27":"0.022","ms6653-28":"0.019","ms6653-29":"0.011","ms6653-30":"0.044"},{"Metabolite":"Myristoylcarnitine (C14)","ms6653-1":"0.025","ms6653-2":"0.023","ms6653-3":"0.032","ms6653-4":"0.013","ms6653-5":"0.027","ms6653-6":"0.026","ms6653-7":"0.027","ms6653-8":"0.013","ms6653-9":"0.037","ms6653-10":"0.016","ms6653-11":"0.011","ms6653-12":"0.020","ms6653-13":"0.047","ms6653-14":"0.023","ms6653-15":"0.019","ms6653-16":"0.012","ms6653-17":"0.015","ms6653-18":"0.038","ms6653-19":"0.025","ms6653-20":"0.020","ms6653-21":"0.014","ms6653-22":"0.021","ms6653-23":"0.022","ms6653-24":"0.018","ms6653-25":"0.011","ms6653-26":"0.013","ms6653-27":"0.016","ms6653-28":"0.020","ms6653-29":"0.016","ms6653-30":"0.041"},{"Metabolite":"Palmitoylcarnitine (C16)","ms6653-1":"0.110","ms6653-2":"0.086","ms6653-3":"0.157","ms6653-4":"0.038","ms6653-5":"0.130","ms6653-6":"0.113","ms6653-7":"0.112","ms6653-8":"0.062","ms6653-9":"0.155","ms6653-10":"0.111","ms6653-11":"0.053","ms6653-12":"0.110","ms6653-13":"0.190","ms6653-14":"0.091","ms6653-15":"0.078","ms6653-16":"0.077","ms6653-17":"0.058","ms6653-18":"0.175","ms6653-19":"0.105","ms6653-20":"0.100","ms6653-21":"0.087","ms6653-22":"0.096","ms6653-23":"0.093","ms6653-24":"0.089","ms6653-25":"0.072","ms6653-26":"0.062","ms6653-27":"0.080","ms6653-28":"0.103","ms6653-29":"0.104","ms6653-30":"0.109"},{"Metabolite":"Oleoylcarnitine (C18:1)","ms6653-1":"0.114","ms6653-2":"0.183","ms6653-3":"0.279","ms6653-4":"0.043","ms6653-5":"0.193","ms6653-6":"0.154","ms6653-7":"0.178","ms6653-8":"0.083","ms6653-9":"0.229","ms6653-10":"0.146","ms6653-11":"0.083","ms6653-12":"0.107","ms6653-13":"0.294","ms6653-14":"0.152","ms6653-15":"0.092","ms6653-16":"0.093","ms6653-17":"0.053","ms6653-18":"0.313","ms6653-19":"0.160","ms6653-20":"0.147","ms6653-21":"0.104","ms6653-22":"0.112","ms6653-23":"0.134","ms6653-24":"0.110","ms6653-25":"0.093","ms6653-26":"0.095","ms6653-27":"0.124","ms6653-28":"0.202","ms6653-29":"0.164","ms6653-30":"0.104"},{"Metabolite":"Stearoylcarnitine (C18)","ms6653-1":"0.033","ms6653-2":"0.041","ms6653-3":"0.063","ms6653-4":"0.012","ms6653-5":"0.059","ms6653-6":"0.048","ms6653-7":"0.039","ms6653-8":"0.018","ms6653-9":"0.054","ms6653-10":"0.036","ms6653-11":"0.024","ms6653-12":"0.038","ms6653-13":"0.060","ms6653-14":"0.032","ms6653-15":"0.025","ms6653-16":"0.034","ms6653-17":"0.024","ms6653-18":"0.070","ms6653-19":"0.031","ms6653-20":"0.026","ms6653-21":"0.033","ms6653-22":"0.033","ms6653-23":"0.031","ms6653-24":"0.036","ms6653-25":"0.025","ms6653-26":"0.022","ms6653-27":"0.023","ms6653-28":"0.049","ms6653-29":"0.043","ms6653-30":"0.022"}],
+
+"Metabolites":[{"metabolite_name":"Carnitine (C0)"},{"metabolite_name":"Acetylcarnitine (C2)"},{"metabolite_name":"Propionylcarnitine (C3)"},{"metabolite_name":"Butyrylcarnitine (C4)"},{"metabolite_name":"Isovalerylcarnitine (C5)"},{"metabolite_name":"Octanoylcarnitine (C8)"},{"metabolite_name":"Lauroylcarnitine (C12)"},{"metabolite_name":"Myristoylcarnitine (C14)"},{"metabolite_name":"Palmitoylcarnitine (C16)"},{"metabolite_name":"Oleoylcarnitine (C18:1)"},{"metabolite_name":"Stearoylcarnitine (C18)"}]
+}
+
+}
+]

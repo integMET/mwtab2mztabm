@@ -1,0 +1,83 @@
+[
+{
+"METABOLOMICS WORKBENCH":{"STUDY_ID":"ST000474","ANALYSIS_ID":"AN000738","VERSION":"1","CREATED_ON":"September 13, 2016, 2:11 pm"},
+
+"PROJECT":{"PROJECT_TITLE":"Metabolomic testing of a putative MDH inhibitor","PROJECT_SUMMARY":"Testing for metabolomic changes after treatment of leukemia cells with a putative MDH inhibitor","INSTITUTE":"Case Western Reserve University","DEPARTMENT":"Pathology","LABORATORY":"Foundation and Institutional funds","LAST_NAME":"Wald","FIRST_NAME":"David","ADDRESS":"2103 Cornell Rd WRB3-530 Cleveland, OH 44106","EMAIL":"dnw@case.edu","PHONE":"NA"},
+
+"STUDY":{"STUDY_TITLE":"Metabolomic testing of a putative MDH inhibitor (targeted)","STUDY_TYPE":"drug treatment (single dose and timepoint)","STUDY_SUMMARY":"HL-60 cells will be treated for 15hr with a putative MDH inhibitor or vehicle (n=5 per group)","INSTITUTE":"University of Florida","DEPARTMENT":"SECIM","LABORATORY":"Case Western University","LAST_NAME":"Wald","FIRST_NAME":"David","ADDRESS":"2103 Cornell Rd WRB3-530 Cleveland, OH 44106","EMAIL":"dnw@case.edu","PHONE":"2163685668","NUM_GROUPS":"2","TOTAL_SUBJECTS":"20","STUDY_COMMENTS":"Total subjects: 10 for global testing and 10 for targeted testing"},
+
+"SUBJECT":{"SUBJECT_TYPE":"Human leukemia cells","SUBJECT_SPECIES":"Homo sapiens","TAXONOMY_ID":"9606","CELL_STRAIN_DETAILS":"HL-60","SUBJECT_COMMENTS":"immortalized","CELL_COUNTS":"10 million per sample"},
+"SUBJECT_SAMPLE_FACTORS":[
+{
+"Subject ID":"untreat",
+"Sample ID":"ut1",
+"Factors":{"Treatment":"-"}
+},
+{
+"Subject ID":"untreat",
+"Sample ID":"ut2",
+"Factors":{"Treatment":"-"}
+},
+{
+"Subject ID":"untreat",
+"Sample ID":"ut3",
+"Factors":{"Treatment":"-"}
+},
+{
+"Subject ID":"untreat",
+"Sample ID":"ut4",
+"Factors":{"Treatment":"-"}
+},
+{
+"Subject ID":"untreat",
+"Sample ID":"ut5",
+"Factors":{"Treatment":"-"}
+},
+{
+"Subject ID":"treat",
+"Sample ID":"tx1",
+"Factors":{"Treatment":"MDH inhib"}
+},
+{
+"Subject ID":"treat",
+"Sample ID":"tx2",
+"Factors":{"Treatment":"MDH inhib"}
+},
+{
+"Subject ID":"treat",
+"Sample ID":"tx3",
+"Factors":{"Treatment":"MDH inhib"}
+},
+{
+"Subject ID":"treat",
+"Sample ID":"tx4",
+"Factors":{"Treatment":"MDH inhib"}
+},
+{
+"Subject ID":"treat",
+"Sample ID":"tx5",
+"Factors":{"Treatment":"MDH inhib"}
+}
+],
+"COLLECTION":{"COLLECTION_SUMMARY":"Cells were centrifuged to remove growth media/drug and either flash frozen or washed 1x in PBS. The cells were washed for the targeted assay but not for the global assay.","SAMPLE_TYPE":"cell","STORAGE_CONDITIONS":"flash frozen","TISSUE_CELL_QUANTITY_TAKEN":"10 million per sample"},
+
+"TREATMENT":{"TREATMENT_SUMMARY":"Cells were treated for 15hr with 1 micromolar of drug or vehicle","CELL_GROWTH_CONTAINER":"flasks","CELL_GROWTH_RATE":"~24hr per division","CELL_MEDIA":"RPMI with 10% FBS","CELL_ENVIR_COND":"5% CO2 incubator","CELL_MEDIA_LASTCHANGED":"15 hr"},
+
+"SAMPLEPREP":{"SAMPLEPREP_SUMMARY":"Amino Acid|Global","SAMPLEPREP_PROTOCOL_FILENAME":"SB_OA_Assay.pdf;Appendix C_Protein_DNA_quant.pdf","SAMPLE_SPIKING":"Appendix A - Internal Standard Prep GLCMS.pdf"},
+
+"CHROMATOGRAPHY":{"CHROMATOGRAPHY_SUMMARY":"Amino acids","CHROMATOGRAPHY_TYPE":"Reversed phase","INSTRUMENT_NAME":"Thermo Quantiva QQQ","COLUMN_NAME":"Waters Acquity BEH C18 (100 x 2mm, 1.7um)","METHODS_FILENAME":"SB_OA_Assay.pdf"},
+
+"ANALYSIS":{"ANALYSIS_TYPE":"MS"},
+
+"MS":{"MS_COMMENTS":"-","INSTRUMENT_NAME":"Thermo Quantiva QQQ","INSTRUMENT_TYPE":"Triple quadrupole","MS_TYPE":"ESI","ION_MODE":"POSITIVE"},
+
+"MS_METABOLITE_DATA":{
+"Units":"Total nmoles (with relative protein adjustment)",
+
+"Data":[{"Metabolite":"Lactate","ut1":"41.94","ut2":"46.29","ut3":"36.76","ut4":"40.93","ut5":"39.02","tx1":"21.16","tx2":"16.53","tx3":"15.44","tx4":"18.54","tx5":"14.91"},{"Metabolite":"Pyruvate","ut1":"0.55","ut2":"0.75","ut3":"0.60","ut4":"0.43","ut5":"0.37","tx1":"0.12","tx2":"0.25","tx3":"0.16","tx4":"0.33","tx5":"0.19"},{"Metabolite":"_3_HBA","ut1":"","ut2":"","ut3":"","ut4":"","ut5":"","tx1":"","tx2":"","tx3":"","tx4":"","tx5":""},{"Metabolite":"Succinate","ut1":"1.18","ut2":"1.32","ut3":"0.79","ut4":"1.06","ut5":"1.10","tx1":"0.37","tx2":"0.21","tx3":"0.17","tx4":"0.21","tx5":"0.18"},{"Metabolite":"Fumarate","ut1":"0.33","ut2":"0.29","ut3":"0.36","ut4":"0.47","ut5":"0.49","tx1":"0.21","tx2":"0.22","tx3":"0.17","tx4":"0.20","tx5":"0.18"},{"Metabolite":"Malate","ut1":"4.91","ut2":"4.77","ut3":"3.88","ut4":"4.70","ut5":"4.71","tx1":"2.15","tx2":"2.02","tx3":"1.66","tx4":"1.97","tx5":"1.70"},{"Metabolite":"a-KG","ut1":"1.37","ut2":"1.53","ut3":"1.67","ut4":"1.80","ut5":"1.62","tx1":"0.60","tx2":"0.47","tx3":"0.34","tx4":"0.33","tx5":"0.46"},{"Metabolite":"Citrate","ut1":"3.41","ut2":"1.85","ut3":"3.41","ut4":"3.42","ut5":"3.42","tx1":"1.66","tx2":"","tx3":"","tx4":"1.75","tx5":"1.43"}],
+
+"Metabolites":[{"Metabolite":"Lactate","retention index":"3.98","quantified m/z":"196.1","PubChem ID":"107689","KEGG ID":""},{"Metabolite":"Pyruvate","retention index":"6.68","quantified m/z":"299.1","PubChem ID":"1060","KEGG ID":""},{"Metabolite":"_3_HBA","retention index":"4.21","quantified m/z":"210.1","PubChem ID":"441","KEGG ID":""},{"Metabolite":"Succinate","retention index":"5.44","quantified m/z":"329.1","PubChem ID":"1110","KEGG ID":""},{"Metabolite":"Fumarate","retention index":"5.59","quantified m/z":"327.1","PubChem ID":"444972","KEGG ID":""},{"Metabolite":"Malate","retention index":"5.28","quantified m/z":"345.1","PubChem ID":"525","KEGG ID":""},{"Metabolite":"a-KG","retention index":"6.59","quantified m/z":"462.2","PubChem ID":"164533","KEGG ID":""},{"Metabolite":"Citrate","retention index":"5.95","quantified m/z":"508.25","PubChem ID":"311","KEGG ID":""}]
+}
+
+}
+]

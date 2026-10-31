@@ -1,0 +1,249 @@
+[
+{
+"METABOLOMICS WORKBENCH":{"STUDY_ID":"ST001026","ANALYSIS_ID":"AN001683","VERSION":"1","CREATED_ON":"July 19, 2018, 1:36 pm"},
+
+"PROJECT":{"PROJECT_TITLE":"Mayo Pilot and Feasibility: H3K27M cells and glutamine metabolomics quatitation studies","PROJECT_SUMMARY":"In children, tumors affecting the brain and nervous system result in more cancer-related deaths than any other type of tumor. It is thus critical to identify new approaches for therapy. Among pediatric patients, one of the most devastating brain tumor types is Diffuse Intrinsic Pontine Gliomas (DIPG). Our understanding of this deadly disease has recently been advanced by important discoveries, including the discovery that the majority of DIPG tumors harbor the histone H3K27M mutation. This mutation results in global hypomethylation of H3K27 residues and is the pathological hallmark for this disease. Glutamine (Gln) addiction has been reported in many cancers including malignant adult gliomas. Glutamine likely promotes cancer cell proliferation and survival likely through generation of the TCA cycle intermediate alpha-ketoglutarate (α-KG). Importantly, α-KG is a critical co-factor for histone lysine demethylases including JMJD3, the enzyme responsible for removing the methyl groups from H3K27me3. Our preliminary data shows H3K27M tumor cells require Gln for survival, and if Gln is removed from the culture media, cells can be rescued by the addition of α-KG. Furthermore, Gln deprivation leads to an increase in H3K27 trimethylation similar to direct inhibition of JMJD3. It is for these reasons we hypothesize that H3K27M tumors are dependent on Gln derived α-KG both for feeding the TCA cycle and for further decreasing H3K27 trimethylation. Inhibition of Gln metabolism will likely uncover novel therapeutic targets for this deadly disease. In Aim 1 we will study Gln and glucose metabolism in H3K27M tumor cells and compare this to Wild Type (WT) tumors and Embryonic Stem Cells (ESCs). In Aim 2 we will validate the therapeutic validity of inhibiting Gln metabolism in H3K27M tumors.","INSTITUTE":"Mayo Clinic","LAST_NAME":"Daniels","FIRST_NAME":"David","ADDRESS":"200 First Street SW Rochester, MN 55905","EMAIL":"daniels.david@mayo.edu","PHONE":"507-284-2511"},
+
+"STUDY":{"STUDY_TITLE":"TCA cycle metabolomics of H3K27M Cell Nucleus Fraction and Cell Mitonchonrdial Fraction (Part-IV)","STUDY_SUMMARY":"Testing TCA concentrations of Diffuse Intrinsic Pontine Gliomas (DIPG) cellines with H3K27M mutations. Preliminary studies show H3K27M tumor cells are addicted to Gln for survival. Removal of Gln from media resulted in tumor cell death which was rescued by the addition of α-KG. These data show that Gln is taken up and metabolized by H3K27M tumor cells and that Gln derived α-KG is critical for the survival of these tumors. Interestingly, tumor cell death with Gln deprivation was similar to the effect of the JMJD3 inhibitor GSKJ4. Therefore, Gln derived α-KG may be required for both anaplerosis and to drive JMJD3 demethylation. We hypothesize that H3K27M tumors are reliant on α-KG that is derived from Gln to drive the TCA cycle and further decrease H3K27 methylation levels. Furthermore, inhibition of Gln metabolism may represent a novel therapeutic approach for tumors with this mutation. In this study, TCA cycle metabolomics are analyzed of H3K27M cells grown in regular glutamine media, glutamine free media, and glutamine free media with alpha-ketoglutarate. Additionally, cell nucleus and cell mitochrondial fractions are run separately.","INSTITUTE":"Mayo Clinic","LAST_NAME":"Daniels","FIRST_NAME":"David","ADDRESS":"200 First Street SW Rochester, MN 55905","EMAIL":"daniels.david@mayo.edu","PHONE":"507-284-2511"},
+
+"SUBJECT":{"SUBJECT_TYPE":"Human","SUBJECT_SPECIES":"Homo sapiens","TAXONOMY_ID":"9606"},
+"SUBJECT_SAMPLE_FACTORS":[
+{
+"Subject ID":"-",
+"Sample ID":"ms6808 - 1",
+"Factors":{"sample type":"Nucleus fraction","Grouping":"IV REG"},
+"Additional sample data":{"species":"Human cell line","protein ug/vial":"389"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6808 - 2",
+"Factors":{"sample type":"Nucleus fraction","Grouping":"IV REG"},
+"Additional sample data":{"species":"Human cell line","protein ug/vial":"382"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6808 - 3",
+"Factors":{"sample type":"Nucleus fraction","Grouping":"IV REG"},
+"Additional sample data":{"species":"Human cell line","protein ug/vial":"469"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6808 - 4",
+"Factors":{"sample type":"Mito Fraction","Grouping":"IV REG"},
+"Additional sample data":{"species":"Human cell line","protein ug/vial":"197"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6808 - 5",
+"Factors":{"sample type":"Mito Fraction","Grouping":"IV REG"},
+"Additional sample data":{"species":"Human cell line","protein ug/vial":"251"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6808 - 6",
+"Factors":{"sample type":"Mito Fraction","Grouping":"IV REG"},
+"Additional sample data":{"species":"Human cell line","protein ug/vial":"145"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6808 - 7",
+"Factors":{"sample type":"Nucleus fraction","Grouping":"IV GF"},
+"Additional sample data":{"species":"Human cell line","protein ug/vial":"249"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6808 - 8",
+"Factors":{"sample type":"Nucleus fraction","Grouping":"IV GF"},
+"Additional sample data":{"species":"Human cell line","protein ug/vial":"274"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6808 - 9",
+"Factors":{"sample type":"Nucleus fraction","Grouping":"IV GF"},
+"Additional sample data":{"species":"Human cell line","protein ug/vial":"285"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6808 - 10",
+"Factors":{"sample type":"Mito Fraction","Grouping":"IV GF"},
+"Additional sample data":{"species":"Human cell line","protein ug/vial":"107"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6808 - 11",
+"Factors":{"sample type":"Mito Fraction","Grouping":"IV GF"},
+"Additional sample data":{"species":"Human cell line","protein ug/vial":"59"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6808 - 12",
+"Factors":{"sample type":"Mito Fraction","Grouping":"IV GF"},
+"Additional sample data":{"species":"Human cell line","protein ug/vial":"97"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6808 - 13",
+"Factors":{"sample type":"Nucleus fraction","Grouping":"IV aKG"},
+"Additional sample data":{"species":"Human cell line","protein ug/vial":"307"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6808 - 14",
+"Factors":{"sample type":"Nucleus fraction","Grouping":"IV aKG"},
+"Additional sample data":{"species":"Human cell line","protein ug/vial":"235"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6808 - 15",
+"Factors":{"sample type":"Nucleus fraction","Grouping":"IV aKG"},
+"Additional sample data":{"species":"Human cell line","protein ug/vial":"344"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6808 - 16",
+"Factors":{"sample type":"Mito Fraction","Grouping":"IV aKG"},
+"Additional sample data":{"species":"Human cell line","protein ug/vial":"65"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6808 - 17",
+"Factors":{"sample type":"Mito Fraction","Grouping":"IV aKG"},
+"Additional sample data":{"species":"Human cell line","protein ug/vial":"61"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6808 - 18",
+"Factors":{"sample type":"Mito Fraction","Grouping":"IV aKG"},
+"Additional sample data":{"species":"Human cell line","protein ug/vial":"71"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6808 - 19",
+"Factors":{"sample type":"Nucleus fraction","Grouping":"XVII REG"},
+"Additional sample data":{"species":"Human cell line","protein ug/vial":"601"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6808 - 20",
+"Factors":{"sample type":"Nucleus fraction","Grouping":"XVII REG"},
+"Additional sample data":{"species":"Human cell line","protein ug/vial":"628"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6808 - 21",
+"Factors":{"sample type":"Nucleus fraction","Grouping":"XVII REG"},
+"Additional sample data":{"species":"Human cell line","protein ug/vial":"589"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6808 - 22",
+"Factors":{"sample type":"Mito Fraction","Grouping":"XVII REG"},
+"Additional sample data":{"species":"Human cell line","protein ug/vial":"254"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6808 - 23",
+"Factors":{"sample type":"Mito Fraction","Grouping":"XVII REG"},
+"Additional sample data":{"species":"Human cell line","protein ug/vial":"246"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6808 - 24",
+"Factors":{"sample type":"Mito Fraction","Grouping":"XVII REG"},
+"Additional sample data":{"species":"Human cell line","protein ug/vial":"263"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6808 - 25",
+"Factors":{"sample type":"Nucleus fraction","Grouping":"XVII GF"},
+"Additional sample data":{"species":"Human cell line","protein ug/vial":"333"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6808 - 26",
+"Factors":{"sample type":"Nucleus fraction","Grouping":"XVII GF"},
+"Additional sample data":{"species":"Human cell line","protein ug/vial":"484"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6808 - 27",
+"Factors":{"sample type":"Nucleus fraction","Grouping":"XVII GF"},
+"Additional sample data":{"species":"Human cell line","protein ug/vial":"398"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6808 - 28",
+"Factors":{"sample type":"Mito Fraction","Grouping":"XVII GF"},
+"Additional sample data":{"species":"Human cell line","protein ug/vial":"114"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6808 - 29",
+"Factors":{"sample type":"Mito Fraction","Grouping":"XVII GF"},
+"Additional sample data":{"species":"Human cell line","protein ug/vial":"250"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6808 - 30",
+"Factors":{"sample type":"Mito Fraction","Grouping":"XVII GF"},
+"Additional sample data":{"species":"Human cell line","protein ug/vial":"167"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6808 - 31",
+"Factors":{"sample type":"Nucleus fraction","Grouping":"XVII aKG"},
+"Additional sample data":{"species":"Human cell line","protein ug/vial":"176"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6808 - 32",
+"Factors":{"sample type":"Nucleus fraction","Grouping":"XVII aKG"},
+"Additional sample data":{"species":"Human cell line","protein ug/vial":"254"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6808 - 33",
+"Factors":{"sample type":"Nucleus fraction","Grouping":"XVII aKG"},
+"Additional sample data":{"species":"Human cell line","protein ug/vial":"206"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6808 - 34",
+"Factors":{"sample type":"Mito Fraction","Grouping":"XVII aKG"},
+"Additional sample data":{"species":"Human cell line","protein ug/vial":"64"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6808 - 35",
+"Factors":{"sample type":"Mito Fraction","Grouping":"XVII aKG"},
+"Additional sample data":{"species":"Human cell line","protein ug/vial":"42"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6808 - 36",
+"Factors":{"sample type":"Mito Fraction","Grouping":"XVII aKG"},
+"Additional sample data":{"species":"Human cell line","protein ug/vial":"138"}
+}
+],
+"COLLECTION":{"COLLECTION_SUMMARY":"DIPG IV and DIPG XVII cell lines are collected in this experiment. Susupension cells are harvested using centrifugation at 1200 rpm for 5 min. 1 mL of the supernatant media werr collected in an eppendorf tube and snapped frozen. The cell pellets were broken up into single cell suspension and counted. 1 million cells were taken from the stock and washed 1 x with PBS using table top centrifuge with 10 sec quick spin. The resulting cell pellet was snap frozen. Both the frozen media and cell pellet are stored in -80 C prior transfer.","SAMPLE_TYPE":"Glioma cells"},
+
+"TREATMENT":{"TREATMENT_SUMMARY":"Glutamine is required for survival in H3K27M cell lines. DIPG cell lines with the H3K27M mutation were grown in regular media (45mM glucose + 4.5 mM glutamine), glutamine (Gln) free media, and Gln free media with alpha-ketoglutarate (α-KG). Study Design Factors IV REG / GF / aKG = DIPG IV celline grown in regular media / glutamine free media / glutamine free meida with alpha-ketoglutarate XVII REG / GF / aKG = DIPG XVII celline grown in regular media / glutamine free media / glutamine free meida with alpha-ketoglutarate"},
+
+"SAMPLEPREP":{"SAMPLEPREP_SUMMARY":"TCA Concentrations in glioma cell lines separated into nucleus and mitochondrial fractions."},
+
+"CHROMATOGRAPHY":{"CHROMATOGRAPHY_TYPE":"GC","INSTRUMENT_NAME":"Agilent 7890B","COLUMN_NAME":"Agilent HP5-MS (30m Ã— 0.25mm, 0.25 um)"},
+
+"ANALYSIS":{"ANALYSIS_TYPE":"MS"},
+
+"MS":{"MS_COMMENTS":"-","INSTRUMENT_NAME":"Agilent 5977A","INSTRUMENT_TYPE":"Single quadrupole","MS_TYPE":"EI","ION_MODE":"POSITIVE"},
+
+"MS_METABOLITE_DATA":{
+"Units":"nmol/vial",
+
+"Data":[{"Metabolite":"Lactate","ms6808 - 1":"1.59","ms6808 - 2":"1.24","ms6808 - 3":"2.16","ms6808 - 4":"1.24","ms6808 - 5":"1.51","ms6808 - 6":"1.03","ms6808 - 7":"1.60","ms6808 - 8":"1.51","ms6808 - 9":"1.75","ms6808 - 10":"2.53","ms6808 - 11":"2.73","ms6808 - 12":"1.91","ms6808 - 13":"2.82","ms6808 - 14":"2.53","ms6808 - 15":"2.51","ms6808 - 16":"2.89","ms6808 - 17":"3.24","ms6808 - 18":"1.56","ms6808 - 19":"4.67","ms6808 - 20":"3.46","ms6808 - 21":"5.41","ms6808 - 22":"2.25","ms6808 - 23":"2.76","ms6808 - 24":"2.21","ms6808 - 25":"2.32","ms6808 - 26":"2.46","ms6808 - 27":"3.66","ms6808 - 28":"3.64","ms6808 - 29":"3.01","ms6808 - 30":"3.25","ms6808 - 31":"5.40","ms6808 - 32":"3.26","ms6808 - 33":"3.18","ms6808 - 34":"3.35","ms6808 - 35":"3.87","ms6808 - 36":"3.34"},{"Metabolite":"Succinate","ms6808 - 1":"0.26","ms6808 - 2":"0.22","ms6808 - 3":"0.39","ms6808 - 4":"0.08","ms6808 - 5":"0.20","ms6808 - 6":"0.09","ms6808 - 7":"0.08","ms6808 - 8":"0.08","ms6808 - 9":"0.09","ms6808 - 10":"0.05","ms6808 - 11":"0.03","ms6808 - 12":"0.04","ms6808 - 13":"0.14","ms6808 - 14":"0.09","ms6808 - 15":"0.21","ms6808 - 16":"0.05","ms6808 - 17":"0.05","ms6808 - 18":"0.10","ms6808 - 19":"0.40","ms6808 - 20":"0.33","ms6808 - 21":"0.42","ms6808 - 22":"0.23","ms6808 - 23":"0.17","ms6808 - 24":"0.16","ms6808 - 25":"0.07","ms6808 - 26":"0.07","ms6808 - 27":"0.12","ms6808 - 28":"0.04","ms6808 - 29":"0.10","ms6808 - 30":"0.07","ms6808 - 31":"0.06","ms6808 - 32":"0.08","ms6808 - 33":"0.06","ms6808 - 34":"0.04","ms6808 - 35":"0.05","ms6808 - 36":"0.06"},{"Metabolite":"Fumarate","ms6808 - 1":"0.070","ms6808 - 2":"0.047","ms6808 - 3":"0.000","ms6808 - 4":"0.053","ms6808 - 5":"0.000","ms6808 - 6":"0.034","ms6808 - 7":"0.000","ms6808 - 8":"0.034","ms6808 - 9":"0.000","ms6808 - 10":"0.000","ms6808 - 11":"0.115","ms6808 - 12":"0.027","ms6808 - 13":"0.000","ms6808 - 14":"0.021","ms6808 - 15":"0.023","ms6808 - 16":"0.031","ms6808 - 17":"0.021","ms6808 - 18":"0.000","ms6808 - 19":"0.000","ms6808 - 20":"0.000","ms6808 - 21":"0.000","ms6808 - 22":"0.000","ms6808 - 23":"0.040","ms6808 - 24":"0.000","ms6808 - 25":"0.000","ms6808 - 26":"0.000","ms6808 - 27":"0.000","ms6808 - 28":"0.041","ms6808 - 29":"0.000","ms6808 - 30":"0.305","ms6808 - 31":"0.143","ms6808 - 32":"0.000","ms6808 - 33":"0.000","ms6808 - 34":"0.000","ms6808 - 35":"0.000","ms6808 - 36":"0.000"},{"Metabolite":"Oxaloacetate","ms6808 - 1":"0.0","ms6808 - 2":"0.0","ms6808 - 3":"0.0","ms6808 - 4":"0.0","ms6808 - 5":"0.0","ms6808 - 6":"0.0","ms6808 - 7":"0.0","ms6808 - 8":"0.0","ms6808 - 9":"0.0","ms6808 - 10":"0.0","ms6808 - 11":"0.0","ms6808 - 12":"0.0","ms6808 - 13":"0.0","ms6808 - 14":"0.0","ms6808 - 15":"0.0","ms6808 - 16":"0.0","ms6808 - 17":"0.0","ms6808 - 18":"0.0","ms6808 - 19":"0.0","ms6808 - 20":"0.0","ms6808 - 21":"0.0","ms6808 - 22":"0.0","ms6808 - 23":"0.0","ms6808 - 24":"0.0","ms6808 - 25":"0.0","ms6808 - 26":"0.0","ms6808 - 27":"0.0","ms6808 - 28":"0.0","ms6808 - 29":"0.0","ms6808 - 30":"0.0","ms6808 - 31":"0.0","ms6808 - 32":"0.0","ms6808 - 33":"0.0","ms6808 - 34":"0.0","ms6808 - 35":"0.0","ms6808 - 36":"0.0"},{"Metabolite":"Ketoglutarate","ms6808 - 1":"0.012","ms6808 - 2":"0.011","ms6808 - 3":"0.011","ms6808 - 4":"0.008","ms6808 - 5":"0.009","ms6808 - 6":"0.007","ms6808 - 7":"0.015","ms6808 - 8":"0.011","ms6808 - 9":"0.009","ms6808 - 10":"0.008","ms6808 - 11":"0.005","ms6808 - 12":"0.005","ms6808 - 13":"0.040","ms6808 - 14":"0.023","ms6808 - 15":"0.049","ms6808 - 16":"0.014","ms6808 - 17":"0.012","ms6808 - 18":"0.000","ms6808 - 19":"0.016","ms6808 - 20":"0.014","ms6808 - 21":"0.016","ms6808 - 22":"0.014","ms6808 - 23":"0.009","ms6808 - 24":"0.008","ms6808 - 25":"0.008","ms6808 - 26":"0.009","ms6808 - 27":"0.011","ms6808 - 28":"0.005","ms6808 - 29":"0.010","ms6808 - 30":"0.008","ms6808 - 31":"0.023","ms6808 - 32":"0.035","ms6808 - 33":"0.024","ms6808 - 34":"0.017","ms6808 - 35":"0.018","ms6808 - 36":"0.034"},{"Metabolite":"Malate","ms6808 - 1":"0.030","ms6808 - 2":"0.027","ms6808 - 3":"0.036","ms6808 - 4":"0.024","ms6808 - 5":"0.051","ms6808 - 6":"0.022","ms6808 - 7":"0.016","ms6808 - 8":"0.015","ms6808 - 9":"0.012","ms6808 - 10":"0.024","ms6808 - 11":"0.015","ms6808 - 12":"0.018","ms6808 - 13":"0.025","ms6808 - 14":"0.019","ms6808 - 15":"0.025","ms6808 - 16":"0.029","ms6808 - 17":"0.017","ms6808 - 18":"0.042","ms6808 - 19":"0.060","ms6808 - 20":"0.042","ms6808 - 21":"0.040","ms6808 - 22":"0.048","ms6808 - 23":"0.215","ms6808 - 24":"0.039","ms6808 - 25":"0.014","ms6808 - 26":"0.015","ms6808 - 27":"0.024","ms6808 - 28":"0.009","ms6808 - 29":"0.015","ms6808 - 30":"0.017","ms6808 - 31":"0.029","ms6808 - 32":"0.017","ms6808 - 33":"0.027","ms6808 - 34":"0.009","ms6808 - 35":"0.011","ms6808 - 36":"0.011"},{"Metabolite":"Aspartate","ms6808 - 1":"0.171","ms6808 - 2":"0.091","ms6808 - 3":"0.205","ms6808 - 4":"0.105","ms6808 - 5":"0.206","ms6808 - 6":"0.095","ms6808 - 7":"0.043","ms6808 - 8":"0.033","ms6808 - 9":"0.040","ms6808 - 10":"0.050","ms6808 - 11":"0.024","ms6808 - 12":"0.033","ms6808 - 13":"0.061","ms6808 - 14":"0.037","ms6808 - 15":"0.065","ms6808 - 16":"0.044","ms6808 - 17":"0.032","ms6808 - 18":"0.000","ms6808 - 19":"0.280","ms6808 - 20":"0.245","ms6808 - 21":"0.274","ms6808 - 22":"0.304","ms6808 - 23":"0.238","ms6808 - 24":"0.335","ms6808 - 25":"0.066","ms6808 - 26":"0.066","ms6808 - 27":"0.090","ms6808 - 28":"0.055","ms6808 - 29":"0.100","ms6808 - 30":"0.073","ms6808 - 31":"0.068","ms6808 - 32":"0.027","ms6808 - 33":"0.018","ms6808 - 34":"0.020","ms6808 - 35":"0.026","ms6808 - 36":"0.037"},{"Metabolite":"2-Hydroxyglutarate","ms6808 - 1":"0.001","ms6808 - 2":"0.003","ms6808 - 3":"0.004","ms6808 - 4":"0.001","ms6808 - 5":"0.000","ms6808 - 6":"0.000","ms6808 - 7":"0.000","ms6808 - 8":"0.000","ms6808 - 9":"0.000","ms6808 - 10":"0.002","ms6808 - 11":"0.002","ms6808 - 12":"0.000","ms6808 - 13":"0.003","ms6808 - 14":"0.000","ms6808 - 15":"0.000","ms6808 - 16":"0.003","ms6808 - 17":"0.003","ms6808 - 18":"0.000","ms6808 - 19":"0.005","ms6808 - 20":"0.004","ms6808 - 21":"0.000","ms6808 - 22":"0.000","ms6808 - 23":"0.000","ms6808 - 24":"0.000","ms6808 - 25":"0.000","ms6808 - 26":"0.000","ms6808 - 27":"0.002","ms6808 - 28":"0.002","ms6808 - 29":"0.002","ms6808 - 30":"0.000","ms6808 - 31":"0.011","ms6808 - 32":"0.015","ms6808 - 33":"0.010","ms6808 - 34":"0.007","ms6808 - 35":"0.008","ms6808 - 36":"0.006"},{"Metabolite":"Glutamate","ms6808 - 1":"1.17","ms6808 - 2":"0.63","ms6808 - 3":"1.31","ms6808 - 4":"1.02","ms6808 - 5":"2.38","ms6808 - 6":"0.63","ms6808 - 7":"0.90","ms6808 - 8":"0.51","ms6808 - 9":"0.43","ms6808 - 10":"1.44","ms6808 - 11":"0.74","ms6808 - 12":"0.64","ms6808 - 13":"1.27","ms6808 - 14":"0.50","ms6808 - 15":"0.58","ms6808 - 16":"0.60","ms6808 - 17":"0.74","ms6808 - 18":"0.00","ms6808 - 19":"1.90","ms6808 - 20":"1.41","ms6808 - 21":"1.44","ms6808 - 22":"0.79","ms6808 - 23":"0.89","ms6808 - 24":"1.03","ms6808 - 25":"0.51","ms6808 - 26":"0.43","ms6808 - 27":"0.51","ms6808 - 28":"0.43","ms6808 - 29":"0.91","ms6808 - 30":"0.85","ms6808 - 31":"0.31","ms6808 - 32":"0.50","ms6808 - 33":"0.57","ms6808 - 34":"0.30","ms6808 - 35":"0.55","ms6808 - 36":"0.96"},{"Metabolite":"cis-Aconitic Acid","ms6808 - 1":"0.000","ms6808 - 2":"0.000","ms6808 - 3":"0.000","ms6808 - 4":"0.000","ms6808 - 5":"0.000","ms6808 - 6":"0.000","ms6808 - 7":"0.000","ms6808 - 8":"0.000","ms6808 - 9":"0.000","ms6808 - 10":"0.000","ms6808 - 11":"0.000","ms6808 - 12":"0.000","ms6808 - 13":"0.000","ms6808 - 14":"0.000","ms6808 - 15":"0.000","ms6808 - 16":"0.000","ms6808 - 17":"0.000","ms6808 - 18":"0.000","ms6808 - 19":"0.000","ms6808 - 20":"0.000","ms6808 - 21":"0.000","ms6808 - 22":"0.000","ms6808 - 23":"0.000","ms6808 - 24":"0.000","ms6808 - 25":"0.000","ms6808 - 26":"0.000","ms6808 - 27":"0.000","ms6808 - 28":"0.000","ms6808 - 29":"0.000","ms6808 - 30":"0.000","ms6808 - 31":"0.000","ms6808 - 32":"0.000","ms6808 - 33":"0.000","ms6808 - 34":"0.000","ms6808 - 35":"0.000","ms6808 - 36":"0.000"},{"Metabolite":"Citrate","ms6808 - 1":"0.513","ms6808 - 2":"0.389","ms6808 - 3":"0.479","ms6808 - 4":"0.197","ms6808 - 5":"0.388","ms6808 - 6":"0.196","ms6808 - 7":"0.322","ms6808 - 8":"0.186","ms6808 - 9":"0.235","ms6808 - 10":"0.217","ms6808 - 11":"0.054","ms6808 - 12":"0.109","ms6808 - 13":"0.342","ms6808 - 14":"0.195","ms6808 - 15":"0.631","ms6808 - 16":"0.087","ms6808 - 17":"0.101","ms6808 - 18":"0.000","ms6808 - 19":"0.527","ms6808 - 20":"0.411","ms6808 - 21":"0.469","ms6808 - 22":"0.583","ms6808 - 23":"0.701","ms6808 - 24":"0.413","ms6808 - 25":"0.146","ms6808 - 26":"0.162","ms6808 - 27":"0.250","ms6808 - 28":"0.091","ms6808 - 29":"0.205","ms6808 - 30":"0.179","ms6808 - 31":"0.108","ms6808 - 32":"0.118","ms6808 - 33":"0.088","ms6808 - 34":"0.060","ms6808 - 35":"0.049","ms6808 - 36":"0.090"},{"Metabolite":"Isocitrate","ms6808 - 1":"0.069","ms6808 - 2":"0.011","ms6808 - 3":"0.106","ms6808 - 4":"0.005","ms6808 - 5":"0.020","ms6808 - 6":"0.004","ms6808 - 7":"0.017","ms6808 - 8":"0.018","ms6808 - 9":"0.014","ms6808 - 10":"0.006","ms6808 - 11":"0.002","ms6808 - 12":"0.004","ms6808 - 13":"0.048","ms6808 - 14":"0.004","ms6808 - 15":"0.017","ms6808 - 16":"0.003","ms6808 - 17":"0.002","ms6808 - 18":"0.000","ms6808 - 19":"0.058","ms6808 - 20":"0.028","ms6808 - 21":"0.040","ms6808 - 22":"0.023","ms6808 - 23":"0.008","ms6808 - 24":"0.008","ms6808 - 25":"0.004","ms6808 - 26":"0.006","ms6808 - 27":"0.014","ms6808 - 28":"0.002","ms6808 - 29":"0.006","ms6808 - 30":"0.005","ms6808 - 31":"0.002","ms6808 - 32":"0.003","ms6808 - 33":"0.003","ms6808 - 34":"0.001","ms6808 - 35":"0.000","ms6808 - 36":"0.000"}],
+
+"Metabolites":[{"metabolite_name":"Lactate"},{"metabolite_name":"Succinate"},{"metabolite_name":"Fumarate"},{"metabolite_name":"Oxaloacetate"},{"metabolite_name":"Ketoglutarate"},{"metabolite_name":"Malate"},{"metabolite_name":"Aspartate"},{"metabolite_name":"2-Hydroxyglutarate"},{"metabolite_name":"Glutamate"},{"metabolite_name":"cis-Aconitic Acid"},{"metabolite_name":"Citrate"},{"metabolite_name":"Isocitrate"}]
+}
+
+}
+]

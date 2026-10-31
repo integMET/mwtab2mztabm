@@ -1,0 +1,525 @@
+MTD	mzTab-version	2.1.0-M
+MTD	mzTab-ID	ST001005_AN001647
+MTD	mzTab-profile	M+S
+MTD	title	Amino Acid Concentrations in Muscle Tissue of Muscle Wasting in Cancer Cachexia (part I)
+MTD	description	Amino Acid Concentrations of Muscle Wasting in Cancer Cachexia. Muscle samples from 10 control patients, 10 weight stable pancreatic cancer patients, and 10 pancreatic cancer patients with significant weight loss. Samples are divided evenly between males and females.
+MTD	instrument[1]-name	[MS, MS:1000031, instrument model, Thermo Quantum Ultra]
+MTD	instrument[1]-source	[MS, MS:1000073, electrospray ionization, ]
+MTD	instrument[1]-analyzer[1]	[MS, MS:1000081, quadrupole, ]
+MTD	software[1]	[MS, MS:1000799, custom unreleased software tool, mwtab2mztabm 0.1.0]
+MTD	contact[1]-name	Denis Guttridge
+MTD	contact[1]-affiliation	Mayo Clinic
+MTD	contact[1]-email	denis.guttridge@osumc.edu
+MTD	uri[1]	https://www.metabolomicsworkbench.org/data/DRCCMetadata.php?Mode=Study&StudyID=ST001005
+MTD	quantification_method	[MS, MS:1001834, LC-MS label-free quantitation analysis, ]
+MTD	sample[1]	ms6644-1
+MTD	sample[1]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[1]-tissue[1]	[,, Muscle, ]
+MTD	sample[1]-custom[1]	[,,Gender, Male]
+MTD	sample[1]-custom[2]	[,,Sample type, Muscle Tissue]
+MTD	sample[1]-custom[3]	[,,Species, Human]
+MTD	sample[1]-custom[4]	[,,tissue mg/vial, 5]
+MTD	sample[1]-custom[5]	[,,protein ug/vial, 128]
+MTD	sample[10]	ms6644-10
+MTD	sample[10]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[10]-tissue[1]	[,, Muscle, ]
+MTD	sample[10]-custom[1]	[,,Gender, Male]
+MTD	sample[10]-custom[2]	[,,Sample type, Muscle Tissue]
+MTD	sample[10]-custom[3]	[,,Species, Human]
+MTD	sample[10]-custom[4]	[,,tissue mg/vial, 5]
+MTD	sample[10]-custom[5]	[,,protein ug/vial, 164]
+MTD	sample[11]	ms6644-11
+MTD	sample[11]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[11]-tissue[1]	[,, Muscle, ]
+MTD	sample[11]-custom[1]	[,,Gender, Male]
+MTD	sample[11]-custom[2]	[,,Sample type, Muscle Tissue]
+MTD	sample[11]-custom[3]	[,,Species, Human]
+MTD	sample[11]-custom[4]	[,,tissue mg/vial, 5]
+MTD	sample[11]-custom[5]	[,,protein ug/vial, 264]
+MTD	sample[12]	ms6644-12
+MTD	sample[12]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[12]-tissue[1]	[,, Muscle, ]
+MTD	sample[12]-custom[1]	[,,Gender, Female]
+MTD	sample[12]-custom[2]	[,,Sample type, Muscle Tissue]
+MTD	sample[12]-custom[3]	[,,Species, Human]
+MTD	sample[12]-custom[4]	[,,tissue mg/vial, 5]
+MTD	sample[12]-custom[5]	[,,protein ug/vial, 111]
+MTD	sample[13]	ms6644-13
+MTD	sample[13]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[13]-tissue[1]	[,, Muscle, ]
+MTD	sample[13]-custom[1]	[,,Gender, Female]
+MTD	sample[13]-custom[2]	[,,Sample type, Muscle Tissue]
+MTD	sample[13]-custom[3]	[,,Species, Human]
+MTD	sample[13]-custom[4]	[,,tissue mg/vial, 5]
+MTD	sample[13]-custom[5]	[,,protein ug/vial, 136]
+MTD	sample[14]	ms6644-14
+MTD	sample[14]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[14]-tissue[1]	[,, Muscle, ]
+MTD	sample[14]-custom[1]	[,,Gender, Male]
+MTD	sample[14]-custom[2]	[,,Sample type, Muscle Tissue]
+MTD	sample[14]-custom[3]	[,,Species, Human]
+MTD	sample[14]-custom[4]	[,,tissue mg/vial, 5]
+MTD	sample[14]-custom[5]	[,,protein ug/vial, 126]
+MTD	sample[15]	ms6644-15
+MTD	sample[15]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[15]-tissue[1]	[,, Muscle, ]
+MTD	sample[15]-custom[1]	[,,Gender, Female]
+MTD	sample[15]-custom[2]	[,,Sample type, Muscle Tissue]
+MTD	sample[15]-custom[3]	[,,Species, Human]
+MTD	sample[15]-custom[4]	[,,tissue mg/vial, 5]
+MTD	sample[15]-custom[5]	[,,protein ug/vial, 112]
+MTD	sample[16]	ms6644-16
+MTD	sample[16]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[16]-tissue[1]	[,, Muscle, ]
+MTD	sample[16]-custom[1]	[,,Gender, Male]
+MTD	sample[16]-custom[2]	[,,Sample type, Muscle Tissue]
+MTD	sample[16]-custom[3]	[,,Species, Human]
+MTD	sample[16]-custom[4]	[,,tissue mg/vial, 5]
+MTD	sample[16]-custom[5]	[,,protein ug/vial, 203]
+MTD	sample[17]	ms6644-17
+MTD	sample[17]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[17]-tissue[1]	[,, Muscle, ]
+MTD	sample[17]-custom[1]	[,,Gender, Female]
+MTD	sample[17]-custom[2]	[,,Sample type, Muscle Tissue]
+MTD	sample[17]-custom[3]	[,,Species, Human]
+MTD	sample[17]-custom[4]	[,,tissue mg/vial, 5]
+MTD	sample[17]-custom[5]	[,,protein ug/vial, 163]
+MTD	sample[18]	ms6644-18
+MTD	sample[18]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[18]-tissue[1]	[,, Muscle, ]
+MTD	sample[18]-custom[1]	[,,Gender, Female]
+MTD	sample[18]-custom[2]	[,,Sample type, Muscle Tissue]
+MTD	sample[18]-custom[3]	[,,Species, Human]
+MTD	sample[18]-custom[4]	[,,tissue mg/vial, 5]
+MTD	sample[18]-custom[5]	[,,protein ug/vial, 111]
+MTD	sample[19]	ms6644-19
+MTD	sample[19]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[19]-tissue[1]	[,, Muscle, ]
+MTD	sample[19]-custom[1]	[,,Gender, Female]
+MTD	sample[19]-custom[2]	[,,Sample type, Muscle Tissue]
+MTD	sample[19]-custom[3]	[,,Species, Human]
+MTD	sample[19]-custom[4]	[,,tissue mg/vial, 5]
+MTD	sample[19]-custom[5]	[,,protein ug/vial, 139]
+MTD	sample[2]	ms6644-2
+MTD	sample[2]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[2]-tissue[1]	[,, Muscle, ]
+MTD	sample[2]-custom[1]	[,,Gender, Female]
+MTD	sample[2]-custom[2]	[,,Sample type, Muscle Tissue]
+MTD	sample[2]-custom[3]	[,,Species, Human]
+MTD	sample[2]-custom[4]	[,,tissue mg/vial, 5]
+MTD	sample[2]-custom[5]	[,,protein ug/vial, 81]
+MTD	sample[20]	ms6644-20
+MTD	sample[20]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[20]-tissue[1]	[,, Muscle, ]
+MTD	sample[20]-custom[1]	[,,Gender, Male]
+MTD	sample[20]-custom[2]	[,,Sample type, Muscle Tissue]
+MTD	sample[20]-custom[3]	[,,Species, Human]
+MTD	sample[20]-custom[4]	[,,tissue mg/vial, 5]
+MTD	sample[20]-custom[5]	[,,protein ug/vial, 283]
+MTD	sample[21]	ms6644-21
+MTD	sample[21]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[21]-tissue[1]	[,, Muscle, ]
+MTD	sample[21]-custom[1]	[,,Gender, Male]
+MTD	sample[21]-custom[2]	[,,Sample type, Muscle Tissue]
+MTD	sample[21]-custom[3]	[,,Species, Human]
+MTD	sample[21]-custom[4]	[,,tissue mg/vial, 5]
+MTD	sample[21]-custom[5]	[,,protein ug/vial, 93]
+MTD	sample[22]	ms6644-22
+MTD	sample[22]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[22]-tissue[1]	[,, Muscle, ]
+MTD	sample[22]-custom[1]	[,,Gender, Female]
+MTD	sample[22]-custom[2]	[,,Sample type, Muscle Tissue]
+MTD	sample[22]-custom[3]	[,,Species, Human]
+MTD	sample[22]-custom[4]	[,,tissue mg/vial, 5]
+MTD	sample[22]-custom[5]	[,,protein ug/vial, 209]
+MTD	sample[23]	ms6644-23
+MTD	sample[23]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[23]-tissue[1]	[,, Muscle, ]
+MTD	sample[23]-custom[1]	[,,Gender, Male]
+MTD	sample[23]-custom[2]	[,,Sample type, Muscle Tissue]
+MTD	sample[23]-custom[3]	[,,Species, Human]
+MTD	sample[23]-custom[4]	[,,tissue mg/vial, 5]
+MTD	sample[23]-custom[5]	[,,protein ug/vial, 206]
+MTD	sample[24]	ms6644-24
+MTD	sample[24]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[24]-tissue[1]	[,, Muscle, ]
+MTD	sample[24]-custom[1]	[,,Gender, Male]
+MTD	sample[24]-custom[2]	[,,Sample type, Muscle Tissue]
+MTD	sample[24]-custom[3]	[,,Species, Human]
+MTD	sample[24]-custom[4]	[,,tissue mg/vial, 5]
+MTD	sample[24]-custom[5]	[,,protein ug/vial, 72]
+MTD	sample[25]	ms6644-25
+MTD	sample[25]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[25]-tissue[1]	[,, Muscle, ]
+MTD	sample[25]-custom[1]	[,,Gender, Male]
+MTD	sample[25]-custom[2]	[,,Sample type, Muscle Tissue]
+MTD	sample[25]-custom[3]	[,,Species, Human]
+MTD	sample[25]-custom[4]	[,,tissue mg/vial, 5]
+MTD	sample[25]-custom[5]	[,,protein ug/vial, 315]
+MTD	sample[26]	ms6644-26
+MTD	sample[26]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[26]-tissue[1]	[,, Muscle, ]
+MTD	sample[26]-custom[1]	[,,Gender, Female]
+MTD	sample[26]-custom[2]	[,,Sample type, Muscle Tissue]
+MTD	sample[26]-custom[3]	[,,Species, Human]
+MTD	sample[26]-custom[4]	[,,tissue mg/vial, 5]
+MTD	sample[26]-custom[5]	[,,protein ug/vial, 113]
+MTD	sample[27]	ms6644-27
+MTD	sample[27]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[27]-tissue[1]	[,, Muscle, ]
+MTD	sample[27]-custom[1]	[,,Gender, Male]
+MTD	sample[27]-custom[2]	[,,Sample type, Muscle Tissue]
+MTD	sample[27]-custom[3]	[,,Species, Human]
+MTD	sample[27]-custom[4]	[,,tissue mg/vial, 5]
+MTD	sample[27]-custom[5]	[,,protein ug/vial, 215]
+MTD	sample[28]	ms6644-28
+MTD	sample[28]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[28]-tissue[1]	[,, Muscle, ]
+MTD	sample[28]-custom[1]	[,,Gender, Female]
+MTD	sample[28]-custom[2]	[,,Sample type, Muscle Tissue]
+MTD	sample[28]-custom[3]	[,,Species, Human]
+MTD	sample[28]-custom[4]	[,,tissue mg/vial, 5]
+MTD	sample[28]-custom[5]	[,,protein ug/vial, 116]
+MTD	sample[29]	ms6644-29
+MTD	sample[29]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[29]-tissue[1]	[,, Muscle, ]
+MTD	sample[29]-custom[1]	[,,Gender, Female]
+MTD	sample[29]-custom[2]	[,,Sample type, Muscle Tissue]
+MTD	sample[29]-custom[3]	[,,Species, Human]
+MTD	sample[29]-custom[4]	[,,tissue mg/vial, 5]
+MTD	sample[29]-custom[5]	[,,protein ug/vial, 135]
+MTD	sample[3]	ms6644-3
+MTD	sample[3]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[3]-tissue[1]	[,, Muscle, ]
+MTD	sample[3]-custom[1]	[,,Gender, Female]
+MTD	sample[3]-custom[2]	[,,Sample type, Muscle Tissue]
+MTD	sample[3]-custom[3]	[,,Species, Human]
+MTD	sample[3]-custom[4]	[,,tissue mg/vial, 5]
+MTD	sample[3]-custom[5]	[,,protein ug/vial, 91]
+MTD	sample[30]	ms6644-30
+MTD	sample[30]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[30]-tissue[1]	[,, Muscle, ]
+MTD	sample[30]-custom[1]	[,,Gender, Male]
+MTD	sample[30]-custom[2]	[,,Sample type, Muscle Tissue]
+MTD	sample[30]-custom[3]	[,,Species, Human]
+MTD	sample[30]-custom[4]	[,,tissue mg/vial, 5]
+MTD	sample[30]-custom[5]	[,,protein ug/vial, 248]
+MTD	sample[4]	ms6644-4
+MTD	sample[4]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[4]-tissue[1]	[,, Muscle, ]
+MTD	sample[4]-custom[1]	[,,Gender, Female]
+MTD	sample[4]-custom[2]	[,,Sample type, Muscle Tissue]
+MTD	sample[4]-custom[3]	[,,Species, Human]
+MTD	sample[4]-custom[4]	[,,tissue mg/vial, 5]
+MTD	sample[4]-custom[5]	[,,protein ug/vial, 185]
+MTD	sample[5]	ms6644-5
+MTD	sample[5]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[5]-tissue[1]	[,, Muscle, ]
+MTD	sample[5]-custom[1]	[,,Gender, Female]
+MTD	sample[5]-custom[2]	[,,Sample type, Muscle Tissue]
+MTD	sample[5]-custom[3]	[,,Species, Human]
+MTD	sample[5]-custom[4]	[,,tissue mg/vial, 5]
+MTD	sample[5]-custom[5]	[,,protein ug/vial, 265]
+MTD	sample[6]	ms6644-6
+MTD	sample[6]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[6]-tissue[1]	[,, Muscle, ]
+MTD	sample[6]-custom[1]	[,,Gender, Male]
+MTD	sample[6]-custom[2]	[,,Sample type, Muscle Tissue]
+MTD	sample[6]-custom[3]	[,,Species, Human]
+MTD	sample[6]-custom[4]	[,,tissue mg/vial, 5]
+MTD	sample[6]-custom[5]	[,,protein ug/vial, 308]
+MTD	sample[7]	ms6644-7
+MTD	sample[7]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[7]-tissue[1]	[,, Muscle, ]
+MTD	sample[7]-custom[1]	[,,Gender, Male]
+MTD	sample[7]-custom[2]	[,,Sample type, Muscle Tissue]
+MTD	sample[7]-custom[3]	[,,Species, Human]
+MTD	sample[7]-custom[4]	[,,tissue mg/vial, 5]
+MTD	sample[7]-custom[5]	[,,protein ug/vial, 105]
+MTD	sample[8]	ms6644-8
+MTD	sample[8]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[8]-tissue[1]	[,, Muscle, ]
+MTD	sample[8]-custom[1]	[,,Gender, Female]
+MTD	sample[8]-custom[2]	[,,Sample type, Muscle Tissue]
+MTD	sample[8]-custom[3]	[,,Species, Human]
+MTD	sample[8]-custom[4]	[,,tissue mg/vial, 5]
+MTD	sample[8]-custom[5]	[,,protein ug/vial, 67]
+MTD	sample[9]	ms6644-9
+MTD	sample[9]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[9]-tissue[1]	[,, Muscle, ]
+MTD	sample[9]-custom[1]	[,,Gender, Male]
+MTD	sample[9]-custom[2]	[,,Sample type, Muscle Tissue]
+MTD	sample[9]-custom[3]	[,,Species, Human]
+MTD	sample[9]-custom[4]	[,,tissue mg/vial, 5]
+MTD	sample[9]-custom[5]	[,,protein ug/vial, 196]
+MTD	ms_run[1]-location	ms6644-1
+MTD	ms_run[1]-instrument_ref	instrument[1]
+MTD	ms_run[1]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[2]-location	ms6644-2
+MTD	ms_run[2]-instrument_ref	instrument[1]
+MTD	ms_run[2]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[3]-location	ms6644-3
+MTD	ms_run[3]-instrument_ref	instrument[1]
+MTD	ms_run[3]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[4]-location	ms6644-4
+MTD	ms_run[4]-instrument_ref	instrument[1]
+MTD	ms_run[4]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[5]-location	ms6644-5
+MTD	ms_run[5]-instrument_ref	instrument[1]
+MTD	ms_run[5]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[6]-location	ms6644-6
+MTD	ms_run[6]-instrument_ref	instrument[1]
+MTD	ms_run[6]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[7]-location	ms6644-7
+MTD	ms_run[7]-instrument_ref	instrument[1]
+MTD	ms_run[7]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[8]-location	ms6644-8
+MTD	ms_run[8]-instrument_ref	instrument[1]
+MTD	ms_run[8]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[9]-location	ms6644-9
+MTD	ms_run[9]-instrument_ref	instrument[1]
+MTD	ms_run[9]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[10]-location	ms6644-10
+MTD	ms_run[10]-instrument_ref	instrument[1]
+MTD	ms_run[10]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[11]-location	ms6644-11
+MTD	ms_run[11]-instrument_ref	instrument[1]
+MTD	ms_run[11]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[12]-location	ms6644-12
+MTD	ms_run[12]-instrument_ref	instrument[1]
+MTD	ms_run[12]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[13]-location	ms6644-13
+MTD	ms_run[13]-instrument_ref	instrument[1]
+MTD	ms_run[13]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[14]-location	ms6644-14
+MTD	ms_run[14]-instrument_ref	instrument[1]
+MTD	ms_run[14]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[15]-location	ms6644-15
+MTD	ms_run[15]-instrument_ref	instrument[1]
+MTD	ms_run[15]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[16]-location	ms6644-16
+MTD	ms_run[16]-instrument_ref	instrument[1]
+MTD	ms_run[16]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[17]-location	ms6644-17
+MTD	ms_run[17]-instrument_ref	instrument[1]
+MTD	ms_run[17]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[18]-location	ms6644-18
+MTD	ms_run[18]-instrument_ref	instrument[1]
+MTD	ms_run[18]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[19]-location	ms6644-19
+MTD	ms_run[19]-instrument_ref	instrument[1]
+MTD	ms_run[19]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[20]-location	ms6644-20
+MTD	ms_run[20]-instrument_ref	instrument[1]
+MTD	ms_run[20]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[21]-location	ms6644-21
+MTD	ms_run[21]-instrument_ref	instrument[1]
+MTD	ms_run[21]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[22]-location	ms6644-22
+MTD	ms_run[22]-instrument_ref	instrument[1]
+MTD	ms_run[22]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[23]-location	ms6644-23
+MTD	ms_run[23]-instrument_ref	instrument[1]
+MTD	ms_run[23]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[24]-location	ms6644-24
+MTD	ms_run[24]-instrument_ref	instrument[1]
+MTD	ms_run[24]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[25]-location	ms6644-25
+MTD	ms_run[25]-instrument_ref	instrument[1]
+MTD	ms_run[25]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[26]-location	ms6644-26
+MTD	ms_run[26]-instrument_ref	instrument[1]
+MTD	ms_run[26]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[27]-location	ms6644-27
+MTD	ms_run[27]-instrument_ref	instrument[1]
+MTD	ms_run[27]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[28]-location	ms6644-28
+MTD	ms_run[28]-instrument_ref	instrument[1]
+MTD	ms_run[28]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[29]-location	ms6644-29
+MTD	ms_run[29]-instrument_ref	instrument[1]
+MTD	ms_run[29]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[30]-location	ms6644-30
+MTD	ms_run[30]-instrument_ref	instrument[1]
+MTD	ms_run[30]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	assay[1]	ms6644-1
+MTD	assay[1]-sample_ref	sample[1]
+MTD	assay[1]-ms_run_ref	ms_run[1]
+MTD	assay[10]	ms6644-10
+MTD	assay[10]-sample_ref	sample[10]
+MTD	assay[10]-ms_run_ref	ms_run[10]
+MTD	assay[11]	ms6644-11
+MTD	assay[11]-sample_ref	sample[11]
+MTD	assay[11]-ms_run_ref	ms_run[11]
+MTD	assay[12]	ms6644-12
+MTD	assay[12]-sample_ref	sample[12]
+MTD	assay[12]-ms_run_ref	ms_run[12]
+MTD	assay[13]	ms6644-13
+MTD	assay[13]-sample_ref	sample[13]
+MTD	assay[13]-ms_run_ref	ms_run[13]
+MTD	assay[14]	ms6644-14
+MTD	assay[14]-sample_ref	sample[14]
+MTD	assay[14]-ms_run_ref	ms_run[14]
+MTD	assay[15]	ms6644-15
+MTD	assay[15]-sample_ref	sample[15]
+MTD	assay[15]-ms_run_ref	ms_run[15]
+MTD	assay[16]	ms6644-16
+MTD	assay[16]-sample_ref	sample[16]
+MTD	assay[16]-ms_run_ref	ms_run[16]
+MTD	assay[17]	ms6644-17
+MTD	assay[17]-sample_ref	sample[17]
+MTD	assay[17]-ms_run_ref	ms_run[17]
+MTD	assay[18]	ms6644-18
+MTD	assay[18]-sample_ref	sample[18]
+MTD	assay[18]-ms_run_ref	ms_run[18]
+MTD	assay[19]	ms6644-19
+MTD	assay[19]-sample_ref	sample[19]
+MTD	assay[19]-ms_run_ref	ms_run[19]
+MTD	assay[2]	ms6644-2
+MTD	assay[2]-sample_ref	sample[2]
+MTD	assay[2]-ms_run_ref	ms_run[2]
+MTD	assay[20]	ms6644-20
+MTD	assay[20]-sample_ref	sample[20]
+MTD	assay[20]-ms_run_ref	ms_run[20]
+MTD	assay[21]	ms6644-21
+MTD	assay[21]-sample_ref	sample[21]
+MTD	assay[21]-ms_run_ref	ms_run[21]
+MTD	assay[22]	ms6644-22
+MTD	assay[22]-sample_ref	sample[22]
+MTD	assay[22]-ms_run_ref	ms_run[22]
+MTD	assay[23]	ms6644-23
+MTD	assay[23]-sample_ref	sample[23]
+MTD	assay[23]-ms_run_ref	ms_run[23]
+MTD	assay[24]	ms6644-24
+MTD	assay[24]-sample_ref	sample[24]
+MTD	assay[24]-ms_run_ref	ms_run[24]
+MTD	assay[25]	ms6644-25
+MTD	assay[25]-sample_ref	sample[25]
+MTD	assay[25]-ms_run_ref	ms_run[25]
+MTD	assay[26]	ms6644-26
+MTD	assay[26]-sample_ref	sample[26]
+MTD	assay[26]-ms_run_ref	ms_run[26]
+MTD	assay[27]	ms6644-27
+MTD	assay[27]-sample_ref	sample[27]
+MTD	assay[27]-ms_run_ref	ms_run[27]
+MTD	assay[28]	ms6644-28
+MTD	assay[28]-sample_ref	sample[28]
+MTD	assay[28]-ms_run_ref	ms_run[28]
+MTD	assay[29]	ms6644-29
+MTD	assay[29]-sample_ref	sample[29]
+MTD	assay[29]-ms_run_ref	ms_run[29]
+MTD	assay[3]	ms6644-3
+MTD	assay[3]-sample_ref	sample[3]
+MTD	assay[3]-ms_run_ref	ms_run[3]
+MTD	assay[30]	ms6644-30
+MTD	assay[30]-sample_ref	sample[30]
+MTD	assay[30]-ms_run_ref	ms_run[30]
+MTD	assay[4]	ms6644-4
+MTD	assay[4]-sample_ref	sample[4]
+MTD	assay[4]-ms_run_ref	ms_run[4]
+MTD	assay[5]	ms6644-5
+MTD	assay[5]-sample_ref	sample[5]
+MTD	assay[5]-ms_run_ref	ms_run[5]
+MTD	assay[6]	ms6644-6
+MTD	assay[6]-sample_ref	sample[6]
+MTD	assay[6]-ms_run_ref	ms_run[6]
+MTD	assay[7]	ms6644-7
+MTD	assay[7]-sample_ref	sample[7]
+MTD	assay[7]-ms_run_ref	ms_run[7]
+MTD	assay[8]	ms6644-8
+MTD	assay[8]-sample_ref	sample[8]
+MTD	assay[8]-ms_run_ref	ms_run[8]
+MTD	assay[9]	ms6644-9
+MTD	assay[9]-sample_ref	sample[9]
+MTD	assay[9]-ms_run_ref	ms_run[9]
+MTD	study_variable_group[1]	[,,Grouping,]
+MTD	study_variable_group[1]-description	mwTab sample factor Grouping
+MTD	study_variable_group[1]-type	[STATO, STATO:0000252, categorical variable, ]
+MTD	study_variable_group[1]-datatype	xsd:string
+MTD	study_variable_group[1]-study_variable_refs	study_variable[1]|study_variable[2]|study_variable[3]
+MTD	study_variable[1]	Weight Losing
+MTD	study_variable[1]-assay_refs	assay[1]|assay[2]|assay[14]|assay[15]|assay[18]|assay[19]|assay[21]|assay[24]|assay[27]|assay[28]
+MTD	study_variable[1]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[1]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[1]-description	Variable Grouping, value Weight Losing
+MTD	study_variable[2]	Weight Stable
+MTD	study_variable[2]-assay_refs	assay[3]|assay[7]|assay[8]|assay[11]|assay[13]|assay[16]|assay[23]|assay[26]|assay[29]|assay[30]
+MTD	study_variable[2]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[2]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[2]-description	Variable Grouping, value Weight Stable
+MTD	study_variable[3]	Control
+MTD	study_variable[3]-assay_refs	assay[4]|assay[5]|assay[6]|assay[9]|assay[10]|assay[12]|assay[17]|assay[20]|assay[22]|assay[25]
+MTD	study_variable[3]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[3]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[3]-description	Variable Grouping, value Control
+MTD	custom[1]	[,, Metabolomics Workbench analysis ID, AN001647]
+MTD	custom[2]	[,, chromatography type, Reversed phase]
+MTD	custom[3]	[,, chromatography instrument, Waters Acquity]
+MTD	custom[4]	[,, chromatography column, "Waters Acquity BEH C18 (150 x 2.1mm, 1.7um)"]
+MTD	cv[1]-label	MS
+MTD	cv[1]-full_name	PSI-MS controlled vocabulary
+MTD	cv[1]-version	4.1.138
+MTD	cv[1]-uri	https://www.ebi.ac.uk/ols4/ontologies/ms
+MTD	cv[2]-label	PRIDE
+MTD	cv[2]-full_name	PRIDE PRoteomics IDEntifications (PRIDE) database controlled vocabulary
+MTD	cv[2]-version	16:10:2023 11:38
+MTD	cv[2]-uri	https://www.ebi.ac.uk/ols/ontologies/pride
+MTD	cv[3]-label	STATO
+MTD	cv[3]-full_name	General purpose STATistics Ontology
+MTD	cv[3]-version	2026-04-20
+MTD	cv[3]-uri	https://www.ebi.ac.uk/ols4/ontologies/stato
+MTD	cv[4]-label	NCBITaxon
+MTD	cv[4]-full_name	NCBI organismal classification
+MTD	cv[4]-version	unknown
+MTD	cv[4]-uri	http://purl.obolibrary.org/obo/ncbitaxon.owl
+MTD	database[1]	[,, "no database", null ]
+MTD	database[1]-prefix	null
+MTD	database[1]-version	Unknown
+MTD	database[1]-uri	null
+MTD	small_molecule-quantification_unit	[,, nmoles/vial, ]
+MTD	small_molecule-identification_reliability	[MS, MS:1002896, compound identification confidence level, ]
+
+SMH	SML_ID	SMF_ID_REFS	database_identifier	chemical_formula	smiles	inchi	chemical_name	uri	theoretical_neutral_mass	adduct_ions	reliability	best_id_confidence_measure	best_id_confidence_value	abundance_assay[1]	abundance_assay[2]	abundance_assay[3]	abundance_assay[4]	abundance_assay[5]	abundance_assay[6]	abundance_assay[7]	abundance_assay[8]	abundance_assay[9]	abundance_assay[10]	abundance_assay[11]	abundance_assay[12]	abundance_assay[13]	abundance_assay[14]	abundance_assay[15]	abundance_assay[16]	abundance_assay[17]	abundance_assay[18]	abundance_assay[19]	abundance_assay[20]	abundance_assay[21]	abundance_assay[22]	abundance_assay[23]	abundance_assay[24]	abundance_assay[25]	abundance_assay[26]	abundance_assay[27]	abundance_assay[28]	abundance_assay[29]	abundance_assay[30]	abundance_study_variable[1]	abundance_study_variable[2]	abundance_study_variable[3]	abundance_variation_study_variable[1]	abundance_variation_study_variable[2]	abundance_variation_study_variable[3]	opt_global_metabolite_name
+SML	1	null	null	null	null	null	null	null	null	null	2	null	null	0.54	0.79	0.94	1.58	1.22	1.17	0.84	0.16	1.44	0.57	1.69	0.98	1.01	1.16	1.64	1.26	0.9	1.05	0.25	1.43	0.26	1.58	1.09	0.5	1.28	0.44	0.56	0.41	0.6	1.42	0.716	0.945	1.215	0.622625914146174	0.48703441052754	0.26599773845584	Histidine
+SML	2	null	null	null	null	null	null	null	null	null	2	null	null	0.06	0.09	0.09	0.14	0.11	0.11	0.07	0.01	0.27	0.13	0.19	0.1	0.13	0.04	0.08	0.08	0.1	0.12	0.07	0.15	0.03	0.17	0.15	0.1	0.08	0.13	0.06	0.08	0.03	0.14	0.073	0.102	0.136	0.371241582176764	0.55034076954303	0.398538757336821	Hydroxyproline
+SML	3	null	null	null	null	null	null	null	null	null	2	null	null	0	0.075	0	0.026	0	0	0	0	0.04	0.058	0	0	0	0.042	0.037	0	0	0	0	0	0.03	0	0.079	0.026	0	0.047	0	0.035	0	0.062	0.0245	0.0188	0.0124	1.01417597968289	1.65944565178672	1.72177366892457	1-Methylhistidine
+SML	4	null	null	null	null	null	null	null	null	null	2	null	null	0.013	0.035	0	0.044	0.029	0.031	0.019	0	0.079	0.024	0.014	0.029	0.016	0.022	0.016	0.013	0.043	0	0	0.033	0.011	0.037	0.02	0	0.041	0.033	0.008	0.035	0	0.019	0.014	0.0134	0.039	0.947607082958686	0.800825049175626	0.398514298354693	3-Methylhistidine
+SML	5	null	null	null	null	null	null	null	null	null	2	null	null	0.44	0.57	0.44	0.69	0.67	0.99	0.59	0.17	0.53	0.55	0.8	0.39	0.48	0.64	0.51	0.4	0.49	0.44	0.41	0.91	0.25	0.66	0.55	0.52	0.69	0.43	0.64	0.42	0.19	0.87	0.484	0.492	0.657	0.244698820839696	0.459886887884231	0.279741764820984	Asparagine
+SML	6	null	null	null	null	null	null	null	null	null	2	null	null	0.24	0.26	0.31	0.37	0.46	0.27	0.22	0.12	0.34	0.25	0.46	0.43	0.33	0.31	0.33	0.3	0.22	0.29	0.21	0.48	0.07	0.67	0.41	0.27	0.48	0.19	0.44	0.24	0.22	0.42	0.266	0.298	0.397	0.354084872430062	0.371593686954065	0.342513701227306	Phosphoethanolamine
+SML	7	null	null	null	null	null	null	null	null	null	2	null	null	0.98	1.75	2.62	1.77	2	1.7	1.94	0.37	2.46	2.08	1.69	1.12	2.19	1.82	1.63	1.05	1.45	0.84	0.99	2.77	1.08	1.27	1.28	1.2	1.49	1.12	1.42	1.19	0.56	1.25	1.29	1.407	1.811	0.268012348882465	0.502117092110271	0.289067971248637	Arginine
+SML	8	null	null	null	null	null	null	null	null	null	2	null	null	12.5	5.24	2.76	10.87	5.44	13.3	6.02	1.32	11.23	16.22	18.47	8.23	5.55	12.46	6.48	7.26	13.83	16.35	6.47	12.02	4.95	8.34	19.73	14.78	16.56	5.76	18.58	7.16	2.41	12.03	10.497	8.131	11.604	0.479171597319184	0.801351214685767	0.307492824319659	Carnosine
+SML	9	null	null	null	null	null	null	null	null	null	2	null	null	10.84	6.41	10.89	15.22	10.13	11.82	7.3	2.81	17.3	6.21	8.37	10.99	8.24	5.72	11.37	6.57	17.41	9.49	8.83	12.89	4.02	9.19	11.43	5.22	12.94	9.06	11.66	10.69	1.9	11.47	8.425	7.804	12.41	0.336771068034567	0.42664597396443	0.286397765346511	Taurine
+SML	10	null	null	null	null	null	null	null	null	null	2	null	null	0.31	0.1	0.04	0.15	0.11	0.23	0.08	0.03	0.23	0.29	0.21	0.15	0.07	0.29	0.19	0.1	0.15	0.37	0.11	0.15	0.09	0.12	0.21	0.19	0.23	0.11	0.16	0.08	0.04	0.13	0.189	0.102	0.181	0.541563964698011	0.641722233131167	0.327839508535456	Anserine
+SML	11	null	null	null	null	null	null	null	null	null	2	null	null	1.2	1.2	0.79	1.31	1.39	1.46	0.78	0.3	0.6	1.4	1.21	0.86	0.59	0.92	1.03	0.64	0.86	0.91	0.67	1.07	0.67	1.18	0.96	0.81	0.96	0.67	1.15	0.66	0.31	1.49	0.922	0.774	1.109	0.236122780180892	0.479612674648311	0.258401994962032	Serine
+SML	12	null	null	null	null	null	null	null	null	null	2	null	null	17.48	27.22	29.87	21.18	42.98	38.08	11.96	3.93	21.25	18.5	24.8	10.44	16.94	24.45	14.86	11.89	28.44	13.41	14.11	27.05	11.11	21.81	22.37	19.45	25.9	13.78	17.55	21.79	5.95	32.11	18.143	17.36	25.563	0.282769024968033	0.555557288382648	0.369075416624078	Glutamine
+SML	13	null	null	null	null	null	null	null	null	null	2	null	null	0.04	0.03	0.03	0.06	0.07	0.06	0.04	0.01	0.06	0.04	0.06	0.04	0.04	0.03	0.04	0.06	0.04	0.04	0.02	0.06	0.02	0.06	0.05	0.05	0.06	0.02	0.05	0.04	0.02	0.08	0.036	0.041	0.055	0.298602138825872	0.532504809554888	0.196386081769935	Ethanolamine
+SML	14	null	null	null	null	null	null	null	null	null	2	null	null	3.01	3.17	2.47	4.42	4.69	4.86	1.9	0.66	2.56	3.15	3.07	2.38	2.35	2.98	2.55	1.59	3.89	2.87	1.47	4.68	1.93	5.42	3.06	2.15	2.48	2.15	3	2.4	0.87	3.86	2.553	2.198	3.853	0.219218013877672	0.453758399537829	0.292072348528358	Glycine
+SML	15	null	null	null	null	null	null	null	null	null	2	null	null	0.54	0.96	0.91	0.37	0.65	0.76	0.32	0.15	0.05	0.33	1.07	0.37	0.59	0.78	0.23	0.17	0.31	0.24	0.11	0.64	0.14	0.26	0.64	0.42	0.63	0.41	0.56	0.17	0.07	0.28	0.415	0.461	0.437	0.700432002582758	0.726920311881336	0.50929828211407	Aspartic Acid
+SML	16	null	null	null	null	null	null	null	null	null	2	null	null	0.01	0	0.01	0.02	0.01	0.01	0.01	0	0.02	0.01	0.02	0.01	0.01	0	0.01	0.01	0.01	0.01	0	0	0	0.02	0.01	0.01	0.01	0	0.02	0	0	0.01	0.006	0.008	0.012	1.1653431646335	0.790569415042095	0.52704627669473	Sarcosine
+SML	17	null	null	null	null	null	null	null	null	null	2	null	null	0.21	0.18	0.23	0.09	0.24	0.48	0.12	0.03	0.37	0.52	0.25	0.09	0.13	0.42	0.06	0.17	0.13	0.09	0.02	0.28	0.12	0.1	0.23	0.21	0.37	0.06	0.18	0.08	0.07	0.28	0.157	0.157	0.267	0.722523743957026	0.560967772555775	0.612639144805185	Citrulline
+SML	18	null	null	null	null	null	null	null	null	null	2	null	null	2.37	2.23	4.65	3.38	2.76	4.02	1.83	0.6	3.47	1.76	3.48	1.91	3.43	1.48	2.16	1.83	2.54	0.77	2.53	1.83	0.68	5.07	1.94	1.28	3.29	1.99	2.03	2.13	0.55	1.8	1.766	2.21	3.003	0.378002686570165	0.583786401684888	0.353434010023192	Glutamic Acid
+SML	19	null	null	null	null	null	null	null	null	null	2	null	null	0.31	0.15	0.15	0.8	0.19	0.32	0.27	0.09	0.38	0.06	0.64	0.42	0.36	0.34	0.97	0.68	0.26	0.43	0.15	0.37	0.02	0.5	0.38	0.18	0.26	0.26	0.3	0.19	0.47	0.18	0.304	0.348	0.356	0.861454200459359	0.574201560745877	0.559953276757431	beta-Alanine
+SML	20	null	null	null	null	null	null	null	null	null	2	null	null	0.7	0.76	0.92	1.04	1.28	1.57	0.74	0.26	1.73	1.23	1.75	0.81	0.91	1.39	0.63	0.75	0.94	0.74	0.6	1.44	0.53	0.99	1	1.07	1.15	0.49	0.99	0.84	0.32	1.37	0.825	0.851	1.218	0.315423348189061	0.538790687079237	0.240358792770459	Threonine
+SML	21	null	null	null	null	null	null	null	null	null	2	null	null	3.72	5.95	3.26	6.68	3.78	6.63	4.94	1.46	6.32	6.67	9.76	4.2	6.64	4.91	6.29	5.02	5.52	4.78	3.53	9.33	3.16	7.89	8.46	5.69	8.2	3.14	7.34	4.76	2.14	8.29	5.013	5.311	6.522	0.264438091559968	0.541283706942791	0.263524414560863	Alanine
+SML	22	null	null	null	null	null	null	null	null	null	2	null	null	0.006	0.005	0.005	0.007	0.007	0.019	0.01	0.001	0.013	0.007	0.01	0.005	0.01	0.007	0.007	0.009	0.008	0.013	0.003	0.011	0.002	0.025	0.01	0.003	0.008	0.013	0.004	0.013	0.001	0.018	0.0063	0.0087	0.011	0.621777546896194	0.598609193330096	0.579731105142697	gamma-Amino-N-butyric-acid
+SML	23	null	null	null	null	null	null	null	null	null	2	null	null	0.076	0.028	0.223	0.092	0.201	0.081	0.132	0.003	0.118	0.05	0.14	0.046	0.135	0.126	0.094	0.046	0.093	0.021	0.09	0.091	0.074	0.079	0.049	0.073	0.12	0.061	0.081	0.074	0.013	0.123	0.0737	0.0925	0.0971	0.412995012635504	0.746915851146633	0.450910727816656	alpha-Aminoadipic-acid
+SML	24	null	null	null	null	null	null	null	null	null	2	null	null	0.007	0.015	0.001	0.006	0.017	0.031	0.013	0.002	0.011	0.009	0.004	0.002	0.004	0.004	0.01	0.02	0.008	0.002	0.001	0.017	0.006	0.009	0.009	0.002	0.01	0.017	0.007	0.003	0.001	0.005	0.0057	0.0076	0.012	0.758206924367857	0.903551353110042	0.672428802050567	beta-Aminoisobutyric-acid
+SML	25	null	null	null	null	null	null	null	null	null	2	null	null	0.72	1.49	2.57	1.26	2.17	1.82	1.04	0.34	2.28	2.41	2.36	1.4	1.57	1.21	1.23	1.34	1.02	1.49	0.9	1.9	0.7	2.51	1.83	1.42	1.65	0.69	1.18	0.88	0.51	1.53	1.122	1.378	1.842	0.270654012120598	0.54463568659046	0.275560535075295	Proline
+SML	26	null	null	null	null	null	null	null	null	null	2	null	null	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	null	null	null	Hydroxylysine 1
+SML	27	null	null	null	null	null	null	null	null	null	2	null	null	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	null	null	null	Hydroxylysine 2
+SML	28	null	null	null	null	null	null	null	null	null	2	null	null	0.14	0.11	0.03	0.18	0.33	0.2	0.09	0.01	0.21	0.15	0.24	0.11	0.06	0.23	0.24	0.19	0.1	0.18	0.11	0.23	0.16	0.14	0.1	0.11	0.2	0.08	0.29	0.15	0.04	0.19	0.172	0.103	0.185	0.363391472351449	0.754885152530337	0.361484732391691	alpha-Amino-N-butyric-acid
+SML	29	null	null	null	null	null	null	null	null	null	2	null	null	0.24	0.68	1.53	0.64	0.79	0.37	0.45	0.11	0.72	0.85	0.44	0.38	0.69	0.61	0.53	0.39	0.37	0.19	0.25	0.56	0.32	0.42	0.35	0.39	0.41	0.48	0.32	0.27	0.17	0.51	0.38	0.512	0.551	0.445040382244415	0.769706383412965	0.339474049407567	Ornithine
+SML	30	null	null	null	null	null	null	null	null	null	2	null	null	0	0.01	0	0	0	0	0	0	0.01	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.01	0	0	0	0	0	0	0.002	0	0.001	2.10818510677892	null	3.16227766016838	Cystathionine 1
+SML	31	null	null	null	null	null	null	null	null	null	2	null	null	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	null	null	null	Cystathionine 2
+SML	32	null	null	null	null	null	null	null	null	null	2	null	null	1.98	3.78	2.97	3.54	3.06	3.48	2.64	0.47	3.76	2.08	2.95	1.83	2.89	2.75	3.34	2	2.37	1.4	1.65	3.53	1.65	2.7	2.05	2.62	2.58	1.54	2.8	1.85	0.99	2.49	2.382	2.099	2.893	0.334671167118687	0.41296495907985	0.23467167797452	Lysine
+SML	33	null	null	null	null	null	null	null	null	null	2	null	null	0	0	0	0.01	0.01	0.01	0.01	0	0	0	0.01	0.01	0.02	0.02	0.01	0.01	0	0.01	0	0.01	0	0	0	0	0	0	0	0	0	0.01	0.004	0.006	0.005	1.74801474695025	1.1653431646335	1.05409255338946	Cystine
+SML	34	null	null	null	null	null	null	null	null	null	2	null	null	0.24	0.17	0.21	0.28	0.28	0.37	0.23	0.15	0.31	0.26	0.4	0.34	0.22	0.26	0.26	0.29	0.19	0.27	0.13	0.37	0.1	0.3	0.33	0.36	0.29	0.14	0.25	0.16	0.15	0.33	0.22	0.245	0.299	0.35598000377184	0.364183913314944	0.180071340051229	Tyrosine
+SML	35	null	null	null	null	null	null	null	null	null	2	null	null	0.11	0.08	0.1	0.15	0.17	0.18	0.12	0.07	0.16	0.17	0.2	0.18	0.1	0.14	0.13	0.16	0.12	0.13	0.07	0.23	0.05	0.18	0.2	0.18	0.16	0.06	0.15	0.09	0.08	0.17	0.113	0.126	0.17	0.356554079490072	0.418625194600053	0.164050985594917	Methionine
+SML	36	null	null	null	null	null	null	null	null	null	2	null	null	0.4	0.35	0.45	0.77	0.77	0.51	0.45	0.18	0.69	0.62	0.76	0.63	0.37	0.48	0.52	0.71	0.49	0.52	0.32	0.7	0.23	0.72	0.77	0.65	0.89	0.25	0.58	0.48	0.28	0.79	0.453	0.501	0.679	0.281364357841815	0.472290151211559	0.179363197525204	Valine
+SML	37	null	null	null	null	null	null	null	null	null	2	null	null	0.19	0.17	0.17	0.27	0.36	0.19	0.19	0.07	0.28	0.28	0.3	0.24	0.15	0.19	0.23	0.24	0.19	0.18	0.14	0.29	0.1	0.25	0.31	0.28	0.26	0.1	0.25	0.17	0.12	0.29	0.19	0.194	0.261	0.276280978035502	0.448845137244143	0.189817432985841	Isoleucine
+SML	38	null	null	null	null	null	null	null	null	null	2	null	null	0	0.01	0	0.01	0.01	0	0	0	0.01	0.01	0.01	0	0	0	0	0	0	0	0	0.01	0	0	0	0	0.01	0	0.01	0	0	0.01	0.002	0.002	0.006	2.10818510677892	2.10818510677892	0.86066296582387	allo-Isoleucine
+SML	39	null	null	null	null	null	null	null	null	null	2	null	null	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	null	null	null	Homocystine
+SML	40	null	null	null	null	null	null	null	null	null	2	null	null	0.37	0.27	0.33	0.56	0.69	0.44	0.36	0.17	0.51	0.42	0.56	0.55	0.31	0.37	0.44	0.51	0.39	0.41	0.26	0.7	0.18	0.58	0.59	0.55	0.62	0.2	0.47	0.37	0.23	0.62	0.369	0.388	0.546	0.295615252731829	0.435661044364687	0.196918389094734	Leucine
+SML	41	null	null	null	null	null	null	null	null	null	2	null	null	0.22	0.15	0.19	0.26	0.27	0.31	0.24	0.13	0.28	0.2	0.34	0.34	0.21	0.21	0.23	0.28	0.21	0.22	0.14	0.38	0.09	0.35	0.27	0.28	0.31	0.12	0.25	0.16	0.15	0.32	0.195	0.225	0.291	0.297308156084207	0.346330954890695	0.201323610543646	Phenylalanine
+SML	42	null	null	null	null	null	null	null	null	null	2	null	null	0.06	0.05	0.04	0.07	0.08	0.07	0.07	0.02	0.06	0.07	0.1	0.08	0.06	0.06	0.06	0.08	0.05	0.05	0.04	0.1	0.02	0.07	0.09	0.09	0.08	0.03	0.06	0.04	0.05	0.09	0.053	0.063	0.073	0.345053250926923	0.43662817006937	0.183218289020446	Tryptophan
+

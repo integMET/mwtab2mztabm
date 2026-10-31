@@ -1,0 +1,212 @@
+MTD	mzTab-version	2.1.0-M
+MTD	mzTab-ID	ST001732_AN002819
+MTD	mzTab-profile	M+S
+MTD	title	Mitochondrial ATP fuels ABC transporter-mediated drug efflux in cancer chemoresistance (part-III)
+MTD	description	Chemotherapy remains the standard of care for most cancers worldwide, however development of chemoresistance due to the presence of the drug-effluxing ABC transporters remains a significant problem. The development of safe and effective means to overcome chemoresistance is critical for achieving durable remissions in many cancer patients. We have investigated the energetic demands of ABC transporters in the context of the metabolic adaptations of chemoresistant cancer cells. Here we show that ABC transporters use mitochondrial-derived ATP as a source of energy to efflux drugs out of cancer cells. We further demonstrate that the loss of MCJ (DnaJC15), an endogenous negative regulator of mitochondrial respiration, in chemoresistant cancer cells boosts their ability to produce ATP from mitochondria and fuel ABC transporters. We have developed novel MCJ mimetics that can attenuate mitochondrial respiration and safely overcome chemoresistance in vitro and in vivo. Administration of MCJ mimetics in combination with standard chemotherapeutic drugs could therefore become an new strategy for treatment of multiple cancers.
+MTD	instrument[1]-name	[MS, MS:1000031, instrument model, Thermo Q Exactive Orbitrap]
+MTD	instrument[1]-source	[MS, MS:1000073, electrospray ionization, ]
+MTD	instrument[1]-analyzer[1]	[MS, MS:1000484, orbitrap, ]
+MTD	software[1]	[MS, MS:1000799, custom unreleased software tool, mwtab2mztabm 0.1.0]
+MTD	contact[1]-name	Rachel Culp-Hill
+MTD	contact[1]-affiliation	University of Colorado Anschutz Medical Campus
+MTD	contact[1]-email	rachel.hill@cuanschutz.edu
+MTD	uri[1]	https://www.metabolomicsworkbench.org/data/DRCCMetadata.php?Mode=Study&StudyID=ST001732
+MTD	quantification_method	[MS, MS:1001834, LC-MS label-free quantitation analysis, ]
+MTD	sample[1]	crtl1
+MTD	sample[1]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[1]-tissue[1]	[,, Cultured cells, ]
+MTD	sample[1]-custom[1]	[,,RAW_FILE_NAME, crtl1]
+MTD	sample[2]	crtl2
+MTD	sample[2]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[2]-tissue[1]	[,, Cultured cells, ]
+MTD	sample[2]-custom[1]	[,,RAW_FILE_NAME, crtl2]
+MTD	sample[3]	crtl3
+MTD	sample[3]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[3]-tissue[1]	[,, Cultured cells, ]
+MTD	sample[3]-custom[1]	[,,RAW_FILE_NAME, crtl3]
+MTD	sample[4]	crtl4
+MTD	sample[4]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[4]-tissue[1]	[,, Cultured cells, ]
+MTD	sample[4]-custom[1]	[,,RAW_FILE_NAME, crtl4]
+MTD	sample[5]	treat1
+MTD	sample[5]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[5]-tissue[1]	[,, Cultured cells, ]
+MTD	sample[5]-custom[1]	[,,RAW_FILE_NAME, treat1]
+MTD	sample[6]	treat2
+MTD	sample[6]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[6]-tissue[1]	[,, Cultured cells, ]
+MTD	sample[6]-custom[1]	[,,RAW_FILE_NAME, treat2]
+MTD	sample[7]	treat3
+MTD	sample[7]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[7]-tissue[1]	[,, Cultured cells, ]
+MTD	sample[7]-custom[1]	[,,RAW_FILE_NAME, treat3]
+MTD	sample[8]	treat4
+MTD	sample[8]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[8]-tissue[1]	[,, Cultured cells, ]
+MTD	sample[8]-custom[1]	[,,RAW_FILE_NAME, treat4]
+MTD	ms_run[1]-location	crtl1
+MTD	ms_run[1]-instrument_ref	instrument[1]
+MTD	ms_run[1]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[2]-location	crtl2
+MTD	ms_run[2]-instrument_ref	instrument[1]
+MTD	ms_run[2]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[3]-location	crtl3
+MTD	ms_run[3]-instrument_ref	instrument[1]
+MTD	ms_run[3]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[4]-location	crtl4
+MTD	ms_run[4]-instrument_ref	instrument[1]
+MTD	ms_run[4]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[5]-location	treat1
+MTD	ms_run[5]-instrument_ref	instrument[1]
+MTD	ms_run[5]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[6]-location	treat2
+MTD	ms_run[6]-instrument_ref	instrument[1]
+MTD	ms_run[6]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[7]-location	treat3
+MTD	ms_run[7]-instrument_ref	instrument[1]
+MTD	ms_run[7]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[8]-location	treat4
+MTD	ms_run[8]-instrument_ref	instrument[1]
+MTD	ms_run[8]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	assay[1]	crtl1
+MTD	assay[1]-sample_ref	sample[1]
+MTD	assay[1]-ms_run_ref	ms_run[1]
+MTD	assay[2]	crtl2
+MTD	assay[2]-sample_ref	sample[2]
+MTD	assay[2]-ms_run_ref	ms_run[2]
+MTD	assay[3]	crtl3
+MTD	assay[3]-sample_ref	sample[3]
+MTD	assay[3]-ms_run_ref	ms_run[3]
+MTD	assay[4]	crtl4
+MTD	assay[4]-sample_ref	sample[4]
+MTD	assay[4]-ms_run_ref	ms_run[4]
+MTD	assay[5]	treat1
+MTD	assay[5]-sample_ref	sample[5]
+MTD	assay[5]-ms_run_ref	ms_run[5]
+MTD	assay[6]	treat2
+MTD	assay[6]-sample_ref	sample[6]
+MTD	assay[6]-ms_run_ref	ms_run[6]
+MTD	assay[7]	treat3
+MTD	assay[7]-sample_ref	sample[7]
+MTD	assay[7]-ms_run_ref	ms_run[7]
+MTD	assay[8]	treat4
+MTD	assay[8]-sample_ref	sample[8]
+MTD	assay[8]-ms_run_ref	ms_run[8]
+MTD	study_variable_group[1]	[,,Factor,]
+MTD	study_variable_group[1]-description	mwTab sample factor Factor
+MTD	study_variable_group[1]-type	[STATO, STATO:0000252, categorical variable, ]
+MTD	study_variable_group[1]-datatype	xsd:string
+MTD	study_variable_group[1]-study_variable_refs	study_variable[1]|study_variable[2]
+MTD	study_variable[1]	Control
+MTD	study_variable[1]-assay_refs	assay[1]|assay[2]|assay[3]|assay[4]
+MTD	study_variable[1]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[1]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[1]-description	Variable Factor, value Control
+MTD	study_variable[2]	Treatment
+MTD	study_variable[2]-assay_refs	assay[5]|assay[6]|assay[7]|assay[8]
+MTD	study_variable[2]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[2]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[2]-description	Variable Factor, value Treatment
+MTD	custom[1]	[,, Metabolomics Workbench analysis ID, AN002819]
+MTD	custom[2]	[,, chromatography type, Reversed phase]
+MTD	custom[3]	[,, chromatography instrument, Thermo Vanquish]
+MTD	custom[4]	[,, chromatography column, "Phenomenex Kinetex C18 (150 x 2.1mm, 2.6 um)"]
+MTD	cv[1]-label	MS
+MTD	cv[1]-full_name	PSI-MS controlled vocabulary
+MTD	cv[1]-version	4.1.138
+MTD	cv[1]-uri	https://www.ebi.ac.uk/ols4/ontologies/ms
+MTD	cv[2]-label	PRIDE
+MTD	cv[2]-full_name	PRIDE PRoteomics IDEntifications (PRIDE) database controlled vocabulary
+MTD	cv[2]-version	16:10:2023 11:38
+MTD	cv[2]-uri	https://www.ebi.ac.uk/ols/ontologies/pride
+MTD	cv[3]-label	STATO
+MTD	cv[3]-full_name	General purpose STATistics Ontology
+MTD	cv[3]-version	2026-04-20
+MTD	cv[3]-uri	https://www.ebi.ac.uk/ols4/ontologies/stato
+MTD	cv[4]-label	NCBITaxon
+MTD	cv[4]-full_name	NCBI organismal classification
+MTD	cv[4]-version	unknown
+MTD	cv[4]-uri	http://purl.obolibrary.org/obo/ncbitaxon.owl
+MTD	database[1]	[,, "no database", null ]
+MTD	database[1]-prefix	null
+MTD	database[1]-version	Unknown
+MTD	database[1]-uri	null
+MTD	small_molecule-quantification_unit	[,, Relative Abundance, ]
+MTD	small_molecule-identification_reliability	[MS, MS:1002896, compound identification confidence level, ]
+
+SMH	SML_ID	SMF_ID_REFS	database_identifier	chemical_formula	smiles	inchi	chemical_name	uri	theoretical_neutral_mass	adduct_ions	reliability	best_id_confidence_measure	best_id_confidence_value	abundance_assay[1]	abundance_assay[2]	abundance_assay[3]	abundance_assay[4]	abundance_assay[5]	abundance_assay[6]	abundance_assay[7]	abundance_assay[8]	abundance_study_variable[1]	abundance_study_variable[2]	abundance_variation_study_variable[1]	abundance_variation_study_variable[2]	opt_global_metabolite_name	opt_global_cmpdid	opt_global_parent	opt_global_medrt
+SML	1	null	null	null	null	null	null	null	null	null	2	null	null	2383551	2537523	2554244	2885529	2896081	2909667	2898561	3024482	2590211.75	2932197.75	0.0815908533705409	0.0210783167030109	L-alanine	C00041	90.0557	1.17
+SML	2	null	null	null	null	null	null	null	null	null	2	null	null	1468725	1275449	1221978	1392397	1747953	1697368	1809966	1856333	1339637.25	1777905	0.0833589463341345	0.0391871935237572	L-arginine	C00062	175.1191	1.12
+SML	3	null	null	null	null	null	null	null	null	null	2	null	null	209155	247497	246260	289495	252155	286508	231209	277536	248101.75	261852	0.132336640837688	0.0957770681883252	L-asparagine	C00152	133.0610	1.17
+SML	4	null	null	null	null	null	null	null	null	null	2	null	null	6965506	9232811	9383328	10993120	7835236	9367476	8177130	9065245	9143691.25	8611271.75	0.181144112025771	0.0839720405304756	L-aspartate	C00049	134.0449	1.17
+SML	5	null	null	null	null	null	null	null	null	null	2	null	null	330528	360811	394219	459652	645621	691689	658243	741879	386302.5	684358	0.143379396181472	0.0628210413281663	L-cysteine	C00097	122.0273	1.19
+SML	6	null	null	null	null	null	null	null	null	null	2	null	null	38161030	46857410	49899760	58786100	48523810	55501110	55269070	54282090	48426075	53394020	0.175761464814878	0.0616088044705075	L-glutamate	C00025	148.0604	1.16
+SML	7	null	null	null	null	null	null	null	null	null	2	null	null	117165	162087	175352	173664	220321	281731	248505	244172	157067	248682.25	0.173472751743245	0.10164837668553	L-glutamine	C00064	147.0763	1.19
+SML	8	null	null	null	null	null	null	null	null	null	2	null	null	953591	1095557	1175349	1272263	1368542	1654741	1507054	1526638	1124190	1514243.75	0.119857518672874	0.0773666853073654	glycine	C00037	76.0402	1.15
+SML	9	null	null	null	null	null	null	null	null	null	2	null	null	387317	431680	463205	422331	417180	508083	447129	440668	426133.25	453265	0.0732907019122555	0.0854793237683987	L-histidine	C00135	156.0768	1.10
+SML	10	null	null	null	null	null	null	null	null	null	2	null	null	7162086	6769176	8023406	8809751	9402797	10529820	10640100	10749730	7691104.75	10330611.75	0.118492378854012	0.0605021858392193	L-leucine	C00123	132.1020	1.21
+SML	11	null	null	null	null	null	null	null	null	null	2	null	null	625806	643796	774067	932923	984835	919215	1018774	1185621	744148	1027111.25	0.191002765849255	0.110471183761745	L-lysine	C00047	147.1129	1.08
+SML	12	null	null	null	null	null	null	null	null	null	2	null	null	799387	1011965	1107585	1276611	1277670	1281224	1253040	1369610	1048887	1295386	0.189816050712736	0.0394053152987499	L-methionine	C00073	150.0583	1.21
+SML	13	null	null	null	null	null	null	null	null	null	2	null	null	1553348	1475581	1494889	1705198	1919981	1863619	1868085	1941728	1557254	1898353.25	0.066799201998812	0.0203376964127824	L-phenylalanine	C00079	166.0863	1.31
+SML	14	null	null	null	null	null	null	null	null	null	2	null	null	15783660	16346490	16687700	19751050	16835360	15601570	15854970	19041930	17142225	16833457.5	0.103762052291724	0.0929991132330952	L-proline	C00148	116.0710	1.20
+SML	15	null	null	null	null	null	null	null	null	null	2	null	null	269879	413491	420908	461715	436690	503788	432007	461704	391498.25	458547.25	0.214064364220533	0.0716553027955472	L-serine	C00065	106.0503	1.17
+SML	16	null	null	null	null	null	null	null	null	null	2	null	null	451693	384219	431770	542410	563624	677845	585713	546744	452523	593481.5	0.146453077624748	0.098506850124566	L-threonine	C00188	120.0658	1.18
+SML	17	null	null	null	null	null	null	null	null	null	2	null	null	319218	390203	399417	431229	413103	515881	423263	523283	385016.75	468882.5	0.122736814962844	0.125334679897305	L-tryptophan	C00078	205.0973	1.30
+SML	18	null	null	null	null	null	null	null	null	null	2	null	null	1473286	1783856	1975523	2116760	2066136	2342529	2113011	2379783	1837356.25	2225364.75	0.151537126567081	0.0713106348366029	L-tyrosine	C00082	182.0807	1.19
+SML	19	null	null	null	null	null	null	null	null	null	2	null	null	7088030	6576432	6902530	7474938	8298390	7069502	8067876	8698493	7010482.5	8033565.25	0.0534856893300476	0.0863261908330979	L-valine	C00183	118.0866	1.21
+SML	20	null	null	null	null	null	null	null	null	null	2	null	null	176512	148422	146930	163715	194842	204608	193723	157151	158894.75	187581	0.0879913846395868	0.111244945188925	L-cystine	C00491	241.0294	1.16
+SML	21	null	null	null	null	null	null	null	null	null	2	null	null	3505766	4975971	4201656	3641990	11085510	7423978	8765207	10743340	4081345.75	9504508.75	0.163700993206905	0.181315518827568	AMP	C00020	348.0702	1.29
+SML	22	null	null	null	null	null	null	null	null	null	2	null	null	403775	447102	507398	398040	452321	429352	472989	485008	439078.75	459917.5	0.115101267620625	0.0531460902767634	dAMP	C00360	332.0776	1.20
+SML	23	null	null	null	null	null	null	null	null	null	2	null	null	69055	55277	63587	47761	132196	154057	134121	127368	58920	136935.5	0.158697718571388	0.0858978849373957	Guanine	C00242	152.0567	1.49
+SML	24	null	null	null	null	null	null	null	null	null	2	null	null	81385	69398	91073	112872	87256	95877	93169	84282	88682	90146	0.207514765964285	0.0589507987855258	Cytosine	C00380	112.0510	1.20
+SML	25	null	null	null	null	null	null	null	null	null	2	null	null	580340	381653	488480	530526	450329	485775	424343	438177	495249.75	449656	0.170676993209983	0.0585241041375381	Uracil	C00106	113.0350	1.22
+SML	26	null	null	null	null	null	null	null	null	null	2	null	null	208851	184568	210640	179405	287937	303763	291219	298786	195866	295426.25	0.0826134619301704	0.0242977317166765	IMP	C00130	349.0540	1.48
+SML	27	null	null	null	null	null	null	null	null	null	2	null	null	270196	278136	316956	425336	323860	226363	312229	333614	322656	299016.5	0.22140312121357	0.16460021425011	Xanthine	C00385	153.0394	1.07
+SML	28	null	null	null	null	null	null	null	null	null	2	null	null	68798	63577	34954	74189	81879	73056	91846	92144	60379.5	84731.25	0.28975514346374	0.107740521251922	Allantoate	C00499	177.0610	1.10
+SML	29	null	null	null	null	null	null	null	null	null	2	null	null	1892138	1968967	2235196	2437387	1421284	1383298	1538757	1551436	2133422	1473693.75	0.117343788319524	0.0570363176479049	5-6-Dihydrothymine	C00906	129.0660	1.19
+SML	30	null	null	null	null	null	null	null	null	null	2	null	null	5257542	5741416	6045452	6296714	7729276	7441614	7211492	8044942	5835281	7606831	0.0766194945641524	0.0474306691459131	Nicotinamide	C00153	123.0555	1.21
+SML	31	null	null	null	null	null	null	null	null	null	2	null	null	2380196	2686330	3167592	3269284	2511281	2643190	2551854	2492171	2875850.5	2549624	0.144976597180012	0.026340365422408	NAD+	C00003	664.1160	1.19
+SML	32	null	null	null	null	null	null	null	null	null	2	null	null	1562450	1485664	1551390	1978047	2862806	2710518	3200722	3503811	1644387.75	3069464.25	0.13683314100674	0.115557544097181	Phosphate	C00009	98.9848	1.35
+SML	33	null	null	null	null	null	null	null	null	null	2	null	null	52950870	77143020	72497910	82713370	79803620	75436730	81993340	82065630	71326292.5	79824830	0.18145550738159	0.0389355893167294	Glutathione	C00051	308.0908	1.21
+SML	34	null	null	null	null	null	null	null	null	null	2	null	null	43156	52281	52531	50689	41325	34268	44211	41483	49664.25	40321.75	0.0888942002772759	0.105345422894299	Glutathione disulfide	C00127	613.1584	1.51
+SML	35	null	null	null	null	null	null	null	null	null	2	null	null	159686	194800	189574	196321	208184	198609	217791	223485	185095.25	212017.25	0.0928396960469907	0.0516189474407754	Cys-Gly	C01419	179.0486	1.51
+SML	36	null	null	null	null	null	null	null	null	null	2	null	null	262938	292939	274327	349841	309847	300458	280965	345005	295011.25	309068.75	0.130802172649338	0.0867375591152598	gamma-L-Glutamyl-D-alanine	C03738	219.0976	1.29
+SML	37	null	null	null	null	null	null	null	null	null	2	null	null	52448	48493	43414	65152	77170	37341	26948	35715	52376.75	44293.5	0.177270850923505	0.50544509515556	gamma-Glutamyl-gamma-aminobutyrate	C15767	233.1138	1.20
+SML	38	null	null	null	null	null	null	null	null	null	2	null	null	15042	17131	23180	19343	17928	15633	12354	18445	18674	16090	0.186336560386187	0.172426078069502	(5-L-Glutamyl)-L-glutamine	C05283	276.1187	1.51
+SML	39	null	null	null	null	null	null	null	null	null	2	null	null	927796	1033687	972910	1117580	747254	763185	580830	730350	1012993.25	705404.75	0.0810682324715487	0.119257784806058	Dimethylglycine	C01026	104.0711	1.18
+SML	40	null	null	null	null	null	null	null	null	null	2	null	null	324000	526424	407776	466360	315888	347801	400804	356343	431140	355209	0.200172710950239	0.0986167481711937	Phosphoserine	C02532	186.0166	1.19
+SML	41	null	null	null	null	null	null	null	null	null	2	null	null	402759	306499	403850	403689	326505	382882	375038	424630	379199.25	377263.75	0.127819922526293	0.106649145370223	S-Adenosyl-L-methionine	C00019	399.1443	1.14
+SML	42	null	null	null	null	null	null	null	null	null	2	null	null	572057	723371	833282	935221	941863	1120405	942830	1027849	765982.75	1008236.75	0.203081304916841	0.0842567180989299	L-Citrulline	C00327	176.1030	1.19
+SML	43	null	null	null	null	null	null	null	null	null	2	null	null	3391246	2271276	1998148	2472062	2809821	2312378	2680531	3073016	2533183	2718936.5	0.238480688266836	0.116382628605385	Putrescine	C00134	89.1080	1.08
+SML	44	null	null	null	null	null	null	null	null	null	2	null	null	3755185	2514234	1455976	2869817	1529952	727417	1944664	1818782	2648803	1505203.75	0.359074450088495	0.363283327779953	Spermidine	C00315	146.1651	1.09
+SML	45	null	null	null	null	null	null	null	null	null	2	null	null	2795492	2885859	1515638	2397127	1036035	152409	1691276	1097160	2398529	994220	0.260875682793175	0.637952812391966	Spermine	C00750	203.2231	1.09
+SML	46	null	null	null	null	null	null	null	null	null	2	null	null	44513	68904	52124	66721	65856	48221	43869	71822	58065.5	57442	0.201666388431975	0.235037502746268	alpha-D-Glucosamine 1-phosphate	C06156	260.0532	1.25
+SML	47	null	null	null	null	null	null	null	null	null	2	null	null	326881300	343072900	341989400	388269400	303123600	280706100	304081800	330623800	350053250	304633825	0.0757820379700231	0.0670224839681633	Creatine	C00300	132.0768	1.19
+SML	48	null	null	null	null	null	null	null	null	null	2	null	null	827207	876096	936784	1135963	967764	932235	906194	1010572	944012.5	954191.25	0.143630891891643	0.0474460304725936	Creatinine	C00791	114.0666	1.18
+SML	49	null	null	null	null	null	null	null	null	null	2	null	null	158360	132778	119822	127426	151479	150662	140332	148657	134596.5	147782.5	0.12415184566448	0.0345544474710715	Pantothenol	C00864	220.1179	1.31
+SML	50	null	null	null	null	null	null	null	null	null	2	null	null	1968923	1907741	2287479	2517612	968172	1154962	979858	962107	2170438.75	1016274.75	0.131356026992426	0.091265866148518	Taurine	C00245	126.0221	1.16
+SML	51	null	null	null	null	null	null	null	null	null	2	null	null	120286	201507	185085	195895	100283	129886	96721	98478	175693.25	106342	0.213790982409458	0.148231390554301	Hypotaurine	C00519	110.0275	1.16
+SML	52	null	null	null	null	null	null	null	null	null	2	null	null	335996	326675	332774	333533	398766	389559	356076	441314	332244.5	396428.75	0.0119175251037569	0.0885363838301773	L-Methionine S-oxide	C02989	166.0531	1.31
+SML	53	null	null	null	null	null	null	null	null	null	2	null	null	75561	72077	78424	71899	92924	81701	86179	89332	74490.25	87534	0.0418531443491675	0.0544476344439922	3-Methyleneoxindole	C02796	146.0601	1.32
+SML	54	null	null	null	null	null	null	null	null	null	2	null	null	7814022	6496004	7385372	8392155	8031650	7583850	7806650	7782324	7521888.25	7801118.5	0.106183900523697	0.0234893488513531	g-Oxalo-crotonate	C03453	159.0278	1.20
+SML	55	null	null	null	null	null	null	null	null	null	2	null	null	255019	146785	137800	67253	261808	156741	255756	125868	151714.25	200043.25	0.510895759877165	0.345080503575582	L-Adrenaline	C00788	184.0944	1.18
+SML	56	null	null	null	null	null	null	null	null	null	2	null	null	362834	223093	153354	132842	136483	128640	121718	87244	218030.75	118521.25	0.476892646844264	0.183143253127436	Inositol 1-2-3-5-6-pentakisphosphate	C04579	580.9039	1.12
+SML	57	null	null	null	null	null	null	null	null	null	2	null	null	418144	441574	529385	442690	357646	424238	383353	425205	457948.25	397610.5	0.106891370620597	0.0830455450821489	N-Methylethanolamine phosphate	C01210	156.0422	1.12
+SML	58	null	null	null	null	null	null	null	null	null	2	null	null	3594262	3112679	3216796	2994502	2429072	2311890	2375953	2593385	3229559.75	2427575	0.080364066840276	0.0496279259492237	Acetylcholine	C01996	146.1176	1.22
+SML	59	null	null	null	null	null	null	null	null	null	2	null	null	147287	150450	151810	112101	163689	198179	185288	129602	140412	169189.5	0.135094371835098	0.177216724546826	CDP-choline	C00307	489.1142	1.17
+SML	60	null	null	null	null	null	null	null	null	null	2	null	null	28999270	24126260	26488220	32875530	28633480	26937320	28718640	29237070	28122320	28381627.5	0.133050691847279	0.035203588943636	Choline	C00114	104.1075	1.16
+SML	61	null	null	null	null	null	null	null	null	null	2	null	null	9508419	8531369	7956552	9209931	8712171	8837314	8904646	7533728	8801567.75	8496964.75	0.0790825404052237	0.0761555500199927	L-Carnitine	C00318	162.1125	1.17
+SML	62	null	null	null	null	null	null	null	null	null	2	null	null	69383	84350	73608	32332	87801	61567	64443	60065	64918.25	68469	0.348427916010423	0.190091456532383	Pentobarbital	C07422	227.1389	1.23
+SML	63	null	null	null	null	null	null	null	null	null	2	null	null	2592983	2382512	2102974	2042786	1958517	1592258	1891274	1882150	2280313.75	1831049.75	0.112113078620687	0.0889085521946979	Triacanthine	C08435	204.1231	1.21
+SML	64	null	null	null	null	null	null	null	null	null	2	null	null	133181	106427	112501	140677	140132	140683	149340	158439	123196.5	147148.5	0.132623799449987	0.0586326587597586	4-Aminobenzoate	C00568	138.0549	1.25
+SML	65	null	null	null	null	null	null	null	null	null	2	null	null	42926	44516	50124	55683	40173	40306	60560	48538	48312.25	47394.25	0.120119914853177	0.20275937373034	Leucocyanidin	C05906	307.0830	1.51
+SML	66	null	null	null	null	null	null	null	null	null	2	null	null	3555614	3794054	3658066	4236542	2429324	3060469	3291498	3569611	3811069	3087725.5	0.0787157325659282	0.157329016189965	Methylenediurea	C06381	133.0738	1.20
+SML	67	null	null	null	null	null	null	null	null	null	2	null	null	1284929	1255401	997819	941966	1537445	1041622	1617685	1432241	1120028.75	1407248.25	0.156487551769992	0.181421475521851	beta-Butoxyethyl nicotinate	C13138	224.1281	1.21
+SML	68	null	null	null	null	null	null	null	null	null	2	null	null	245631	248685	216961	313710	291271	325217	299543	326683	256246.75	310678.5	0.159561511920999	0.0578232214357202	cis-p-Coumarate	C06738	165.0546	1.21
+SML	69	null	null	null	null	null	null	null	null	null	2	null	null	39030	65679	65496	54019	69402	81509	81975	95282	56056	82042	0.224650072703951	0.128871246844849	Shikimate 3-phosphate	C03175	255.0285	1.53
+SML	70	null	null	null	null	null	null	null	null	null	2	null	null	6710466	8103276	8772196	10205820	8599536	9796837	10160310	9773791	8447939.5	9582618.5	0.171984639490808	0.0708444497728304	Poly-gamma-D-glutamate	C05723	130.0500	1.18
+SML	71	null	null	null	null	null	null	null	null	null	2	null	null	15759	24372	23251	28763	19315	12881	19524	26692	23036.25	19603	0.234552959182142	0.287861153878463	D-Ribose 5-diphosphate	C01095	310.9944	1.30
+SML	72	null	null	null	null	null	null	null	null	null	2	null	null	96882	177652	144046	154665	65445	75239	43569	75359	143311.25	64903	0.237123022309859	0.230530320444788	Thioredoxin disulfide	C00343	317.0389	1.17
+SML	73	null	null	null	null	null	null	null	null	null	2	null	null	19287	18297	24608	29273	21955	14732	16215	22637	22866.25	18884.75	0.222663115883874	0.211543344134276	N-Acyl-D-glutamate	C06379	175.0452	1.07
+SML	74	null	null	null	null	null	null	null	null	null	2	null	null	65751	72483	75768	106684	74835	55183	86657	101821	80171.5	79624	0.226515614128629	0.247221182508888	N-Acyl-D-aspartate	C06380	161.0297	1.07
+

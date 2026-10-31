@@ -1,0 +1,2044 @@
+# mwTab metadata of study ST000054, analysis AN000092
+# Exported by mwtab2mztabm 0.1.0.
+# Sample metadata is listed in [[SUBJECT_SAMPLE_FACTORS]].
+
+[mwtab2mztabm]
+format_version = 1
+factor_order = ["treatment", "pool aliquot"]
+additional_data_order = []
+
+["METABOLOMICS WORKBENCH"]
+STUDY_ID = "ST000054"
+ANALYSIS_ID = "AN000092"
+VERSION = "1"
+CREATED_ON = "2016-09-17"
+
+[PROJECT]
+PROJECT_TITLE = "Metabolic Microenvironments in Normal Breast and Breast Cancer"
+PROJECT_TYPE = "Broad Spectrum"
+PROJECT_SUMMARY = "Breast cancers evolve and acquire adaptive changes while in active with the surrounding host normal tissue. It is important to understand the and metabolomic changes in breast microenvironment at various stages of cancer and progression (i.e., normal breast, DCIS, benign disease and invasive Since intrinsic breast cancer subtypes are very distinct from each other in of clinical features as well as the genomic profiling, these subtypes may also distinct metabolic microenvironment signatures."
+INSTITUTE = "University of North Carolina at Chapel Hill"
+DEPARTMENT = "Epidemiology"
+LABORATORY = "Troester Laboratory"
+LAST_NAME = "Troester"
+FIRST_NAME = "Melissa"
+ADDRESS = "University of North Carolina at Chapel Hill Chapel Hill, NC 27599"
+EMAIL = "troester@unc.edu"
+PHONE = "919-966-7408"
+
+[STUDY]
+STUDY_TITLE = "Metabolic Microenvironments in Normal Breast and Breast Cancer (MS analysis)"
+STUDY_TYPE = "Metabolomic analysis of normal breast tissue"
+STUDY_SUMMARY = "The purpose of this study was to understand the metabolomic changes in a breast microenvironment at various stages of cancer development and progression (i.e. breast, DCIS, and invasive cancer). The goal of this metabolomics pilot and study was to apply a broad spectrum GC-MS metabolomics method to determine changes in normal tissue of women with cancer correlate with progression and or subtype of the disease."
+INSTITUTE = "RTI International"
+DEPARTMENT = "Systems and Translational Sciences"
+LABORATORY = "NIH Eastern Regional Comprehensive Metabolomics Resource Core (RTI RCMRC)"
+LAST_NAME = "Sumner"
+FIRST_NAME = "Susan"
+ADDRESS = "3040 E. Cornwallis Road, Research Triangle Park, NC 27709, USA"
+EMAIL = "ssumner@rti.org"
+PHONE = "919-541-7479"
+NUM_GROUPS = "8"
+TOTAL_SUBJECTS = "192"
+STUDY_COMMENTS = "sample preparation and analysis randomized with data collection over multiple"
+
+[SUBJECT]
+SUBJECT_TYPE = "Human"
+SUBJECT_SPECIES = "Homo sapiens"
+TAXONOMY_ID = "9606"
+GENDER = "female"
+SPECIES_GROUP = "Human"
+
+[COLLECTION]
+COLLECTION_SUMMARY = "Cancer-adjacent, normal breast tissue was collected"
+COLLECTION_PROTOCOL_ID = "UNC-CH IRB #09-1436"
+COLLECTION_PROTOCOL_FILENAME = "Normal_Breast_Study"
+COLLECTION_PROTOCOL_COMMENTS = "Breast tissue samples were collected from patients in the UNC hospital system the Normal Breast Study (IRB #09-1436). Normal breast tissue from patients with mammoplasty, DCIS and invasive breast cancer were analyzed in this study. samples 2-4 cm away from the tumor were collected and stored at -80°C after Samples were cut on dry ice to yield a metabolomics sample comprising 50-120 mg The tissue was placed in a tissue homogenization tube with ceramic beads and at -80°C. The samples were delivered to the RTI RCMRC and stored at -80°C."
+SAMPLE_TYPE = "tissue"
+COLLECTION_METHOD = "tissue collected during surgery"
+COLLECTION_LOCATION = "breast microenvironment"
+COLLECTION_FREQUENCY = "one time collection"
+VOLUMEORAMOUNT_COLLECTED = "50 - 120mg"
+STORAGE_CONDITIONS = "-80 C"
+TISSUE_CELL_IDENTIFICATION = "breast"
+TISSUE_CELL_QUANTITY_TAKEN = "50mg"
+
+[TREATMENT]
+TREATMENT_SUMMARY = "Stages of breast cancer progression and different subtypes compared to a control"
+TREATMENT_PROTOCOL_COMMENTS = "DCIS, Luminal A, Luminal B, HER2, Basal, Reduction, Total Pool1 (equal mix of HER2, LumA, LumB, Reduction, and Basal pool samples),Total Pool2 (unequal mix DCIS, HER2, LumA, LumB, Reduction, and Basal pool samples)"
+
+[SAMPLEPREP]
+SAMPLEPREP_SUMMARY = "Breast tissue samples were homogenized in 3:3:2 at a concentration of 100 mg/mL. Samples dried and extracted into 50% Sample dried and aliquot taken for NMR. Sample returned and extract processed GC/MS analysis. Samples were derivatized using 2 step derivatization method with methoxy amine followed by TMS derivatization with MSTFA)."
+SAMPLEPREP_PROTOCOL_FILENAME = "RTI_MT_Breast_Tissue_Procedures_GC-TOF-MS.docx"
+PROCESSING_METHOD = "Homogenization and Solvent Removal with SpeedVac"
+PROCESSING_STORAGE_CONDITIONS = "4°C"
+EXTRACTION_METHOD = "3:3:2 (acetonitrile:isopropanol:water) and then 50% Acetonitrile"
+EXTRACT_STORAGE = "-80°C"
+SAMPLE_RESUSPENSION = "resuspended in D2O + Chenomix ISTD solution"
+SAMPLE_DERIVATIZATION = "Methoximation with methoxy amine at 40 mg/ml in pyridine followed by TMS with MSTFA"
+SAMPLE_SPIKING = "FAMES (C8-C30) added to MSTFA as retention time markers"
+
+[CHROMATOGRAPHY]
+CHROMATOGRAPHY_SUMMARY = "GC/MS analysis is based on Oliver Fiehn methods"
+CHROMATOGRAPHY_TYPE = "GC"
+INSTRUMENT_NAME = "Leco Pegasus 4D GC"
+COLUMN_NAME = "Restek Rtx-5Sil MS (30 x 0.25mm, 0.25um)"
+COLUMN_PRESSURE = "10.4 psi"
+COLUMN_TEMPERATURE = "50C(0.5 min)-330C(@20C/min)-330C(5 min)"
+FLOW_GRADIENT = "constant flow"
+FLOW_RATE = "1.0 mL/min"
+INJECTION_TEMPERATURE = "250C"
+RETENTION_INDEX = "FAMEs markers (C8-C30)"
+RETENTION_TIME = "FAMEs markers (C8-C30)"
+ANALYTICAL_TIME = "20 minutes"
+OVEN_TEMPERATURE = "50C(0.5 min)-330C(@20C/min)-330C(5 min)"
+TRANSFERLINE_TEMPERATURE = "280C"
+SAMPLE_SYRINGE_SIZE = "10 L"
+
+[ANALYSIS]
+ANALYSIS_TYPE = "MS"
+LABORATORY_NAME = "Eastern RCMRC (RTI)"
+ACQUISITION_DATE = "02/11/14-02/19/2014"
+SOFTWARE_VERSION = "Chromatof 4.50.8.0"
+OPERATOR_NAME = "James Carlson"
+DETECTOR_TYPE = "TOF (+ ion mode)"
+DATA_FORMAT = "netcdf"
+
+[MS]
+MS_COMMENTS = "-"
+INSTRUMENT_NAME = "Leco Pegasus 4D GCxGC TOF"
+INSTRUMENT_TYPE = "GC x GC-TOF"
+MS_TYPE = "EI"
+ION_MODE = "POSITIVE"
+CAPILLARY_TEMPERATURE = "280C (transfer line)"
+HELIUM_FLOW = "1.0 ml/min"
+ION_SOURCE_TEMPERATURE = "250C"
+IONIZATION_ENERGY = "70 eV"
+SOURCE_TEMPERATURE = "250C"
+DATAFORMAT = "netcdf"
+RESOLUTION_SETTING = "1200"
+SCAN_RANGE_MOVERZ = "50-800"
+SCANNING = "20 spectra/sec"
+
+[MS_METABOLITE_DATA]
+Units = "Peak height"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTBasal_102"
+"Sample ID" = "1402110jcsa12_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Basal"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTBasal_37"
+"Sample ID" = "1402110jcsa19_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Basal"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTBasal_21"
+"Sample ID" = "1402110jcsa35_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Basal"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTBasal_40"
+"Sample ID" = "1402110jcsa37_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Basal"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTBasal_23"
+"Sample ID" = "1402110jcsa42_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Basal"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTBasal_39"
+"Sample ID" = "140214ajcsa08_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Basal"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTBasal_68"
+"Sample ID" = "140214ajcsa10_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Basal"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTBasal_64"
+"Sample ID" = "140214ajcsa28_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Basal"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTBasal_28"
+"Sample ID" = "140214ajcsa40_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Basal"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTBasal_88"
+"Sample ID" = "140214ajcsa44_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Basal"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTBasal_100"
+"Sample ID" = "140217ajcsa09_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Basal"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTBasal_84"
+"Sample ID" = "140217ajcsa16_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Basal"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTBasal_96"
+"Sample ID" = "140217ajcsa17_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Basal"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTBasal_106"
+"Sample ID" = "140217ajcsa46_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Basal"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTBasal_109"
+"Sample ID" = "140219ajcsa08_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Basal"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTBasal_33"
+"Sample ID" = "140219ajcsa19_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Basal"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTBasal_6"
+"Sample ID" = "140219ajcsa22_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Basal"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTBasal_32"
+"Sample ID" = "140219ajcsa24_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Basal"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTBasal_53"
+"Sample ID" = "140219ajcsa28_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Basal"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTBasal_111"
+"Sample ID" = "140219ajcsa36_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Basal"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTBasal_92"
+"Sample ID" = "140219ajcsa38_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Basal"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPBasal_1"
+"Sample ID" = "1402110jcsa44_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Basal"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPBasal_2"
+"Sample ID" = "140214ajcsa35_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Basal"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPBasal_3"
+"Sample ID" = "140217ajcsa36_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Basal"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPBasal_4"
+"Sample ID" = "140219ajcsa26_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Basal"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_DCIS_119"
+"Sample ID" = "1402110jcsa07_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "DCIS"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_DCIS_54"
+"Sample ID" = "1402110jcsa17_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "DCIS"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_DCIS_36"
+"Sample ID" = "1402110jcsa32_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "DCIS"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_DCIS_46"
+"Sample ID" = "140214ajcsa16_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "DCIS"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_DCIS_35"
+"Sample ID" = "140214ajcsa17_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "DCIS"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_DCIS_115"
+"Sample ID" = "140214ajcsa22_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "DCIS"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_DCIS_22"
+"Sample ID" = "140214ajcsa31_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "DCIS"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_DCIS_104"
+"Sample ID" = "140214ajcsa33_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "DCIS"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_DCIS_14"
+"Sample ID" = "140214ajcsa39_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "DCIS"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_DCIS_5"
+"Sample ID" = "140214ajcsa43_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "DCIS"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_DCIS_29"
+"Sample ID" = "140214ajcsa45_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "DCIS"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_DCIS_19"
+"Sample ID" = "140217ajcsa10_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "DCIS"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_DCIS_112"
+"Sample ID" = "140217ajcsa11_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "DCIS"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_DCIS_3"
+"Sample ID" = "140217ajcsa12_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "DCIS"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_DCIS_99"
+"Sample ID" = "140217ajcsa26_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "DCIS"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_DCIS_16"
+"Sample ID" = "140217ajcsa45_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "DCIS"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_DCIS_45"
+"Sample ID" = "140219ajcsa14_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "DCIS"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_DCIS_116"
+"Sample ID" = "140219ajcsa17_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "DCIS"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_DCIS_81"
+"Sample ID" = "140219ajcsa29_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "DCIS"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_DCIS_43"
+"Sample ID" = "140219ajcsa32_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "DCIS"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_DCIS_8"
+"Sample ID" = "140219ajcsa40_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "DCIS"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_DCIS_13"
+"Sample ID" = "140219ajcsa45_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "DCIS"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_DCIS_35"
+"Sample ID" = "140219ajcsa50_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "DCIS"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_DCIS_115"
+"Sample ID" = "140219ajcsa51_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "DCIS"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_DCIS_29"
+"Sample ID" = "140219ajcsa54_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "DCIS"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPDCIS_1"
+"Sample ID" = "1402110jcsa23_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "DCIS"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPDCIS_2"
+"Sample ID" = "140214ajcsa36_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "DCIS"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPDCIS_3"
+"Sample ID" = "140217ajcsa19_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "DCIS"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPDCIS_4"
+"Sample ID" = "140219ajcsa10_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "DCIS"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_HER2_27"
+"Sample ID" = "1402110jcsa28_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "HER2"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_HER2_56"
+"Sample ID" = "1402110jcsa36_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "HER2"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_HER2_71"
+"Sample ID" = "1402110jcsa43_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "HER2"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_HER2_69"
+"Sample ID" = "1402110jcsa45_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "HER2"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_HER2_80"
+"Sample ID" = "1402110jcsa46_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "HER2"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_HER2_101"
+"Sample ID" = "140214ajcsa12_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "HER2"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_HER2_65"
+"Sample ID" = "140214ajcsa23_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "HER2"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_HER2_77"
+"Sample ID" = "140214ajcsa42_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "HER2"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_HER2_98"
+"Sample ID" = "140217ajcsa14_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "HER2"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_HER2_2"
+"Sample ID" = "140217ajcsa15_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "HER2"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_HER2_20"
+"Sample ID" = "140217ajcsa21_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "HER2"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_HER2_24"
+"Sample ID" = "140217ajcsa28_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "HER2"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_HER2_38"
+"Sample ID" = "140217ajcsa33_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "HER2"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_HER2_1"
+"Sample ID" = "140219ajcsa18_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "HER2"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_HER2_17"
+"Sample ID" = "140219ajcsa21_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "HER2"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_HER2_41"
+"Sample ID" = "140219ajcsa31_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "HER2"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPHER2_1"
+"Sample ID" = "1402110jcsa47_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "HER2"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPHER2_2"
+"Sample ID" = "140214ajcsa21_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "HER2"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPHER2_3"
+"Sample ID" = "140217ajcsa30_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "HER2"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPHER2_4"
+"Sample ID" = "140219ajcsa16_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "HER2"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_LumA_9"
+"Sample ID" = "1402110jcsa10_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "LumA"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_LumA_48"
+"Sample ID" = "1402110jcsa14_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "LumA"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_LumA_85"
+"Sample ID" = "1402110jcsa18_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "LumA"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_LumA_90"
+"Sample ID" = "1402110jcsa21_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "LumA"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_LumA_31"
+"Sample ID" = "1402110jcsa25_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "LumA"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPLumA_1"
+"Sample ID" = "1402110jcsa26_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "LumA"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_LumA_60"
+"Sample ID" = "1402110jcsa29_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "LumA"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_LumA_70"
+"Sample ID" = "1402110jcsa33_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "LumA"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_LumA_82"
+"Sample ID" = "1402110jcsa39_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "LumA"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_LumA_47"
+"Sample ID" = "140214ajcsa11_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "LumA"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_LumA_52"
+"Sample ID" = "140214ajcsa47_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "LumA"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_LumA_11"
+"Sample ID" = "140217ajcsa07_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "LumA"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_LumA_10"
+"Sample ID" = "140217ajcsa18_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "LumA"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_LumA_79"
+"Sample ID" = "140217ajcsa24_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "LumA"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_LumA_26"
+"Sample ID" = "140217ajcsa29_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "LumA"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_LumA_76"
+"Sample ID" = "140217ajcsa37_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "LumA"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_LumA_57"
+"Sample ID" = "140217ajcsa43_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "LumA"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_LumA_110"
+"Sample ID" = "140217ajcsa47_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "LumA"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_LumA_59"
+"Sample ID" = "140219ajcsa12_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "LumA"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_LumA_63"
+"Sample ID" = "140219ajcsa23_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "LumA"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_LumA_91"
+"Sample ID" = "140219ajcsa42_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "LumA"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_LumA_34"
+"Sample ID" = "140219ajcsa43_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "LumA"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_LumA_76"
+"Sample ID" = "140219ajcsa55_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "LumA"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPLumA_2"
+"Sample ID" = "140214ajcsa15_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "LumA"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPLumA_3"
+"Sample ID" = "140217ajcsa42_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "LumA"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPLumA_4"
+"Sample ID" = "140219ajcsa30_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "LumA"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_LumB_30"
+"Sample ID" = "1402110jcsa16_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "LumB"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_LumB_66"
+"Sample ID" = "1402110jcsa22_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "LumB"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_LumB_67"
+"Sample ID" = "1402110jcsa24_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "LumB"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_LumB_83"
+"Sample ID" = "1402110jcsa40_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "LumB"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_LumB_72"
+"Sample ID" = "140214ajcsa14_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "LumB"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_LumB_50"
+"Sample ID" = "140214ajcsa24_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "LumB"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_LumB_95"
+"Sample ID" = "140214ajcsa32_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "LumB"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_LumB_73"
+"Sample ID" = "140214ajcsa37_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "LumB"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_LumB_94"
+"Sample ID" = "140214ajcsa38_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "LumB"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_LumB_15"
+"Sample ID" = "140214ajcsa46_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "LumB"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_LumB_55"
+"Sample ID" = "140217ajcsa08_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "LumB"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_LumB_120"
+"Sample ID" = "140217ajcsa22_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "LumB"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_LumB_89"
+"Sample ID" = "140217ajcsa23_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "LumB"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_LumB_93"
+"Sample ID" = "140217ajcsa25_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "LumB"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_LumB_97"
+"Sample ID" = "140217ajcsa35_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "LumB"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_LumB_51"
+"Sample ID" = "140217ajcsa38_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "LumB"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_LumB_107"
+"Sample ID" = "140217ajcsa39_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "LumB"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_LumB_108"
+"Sample ID" = "140217ajcsa40_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "LumB"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_LumB_4"
+"Sample ID" = "140219ajcsa25_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "LumB"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BT_LumB_105"
+"Sample ID" = "140219ajcsa37_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "LumB"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPLumB_1"
+"Sample ID" = "1402110jcsa30_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "LumB"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPLumB_2"
+"Sample ID" = "140214ajcsa07_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "LumB"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPLumB_3"
+"Sample ID" = "140217ajcsa44_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "LumB"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPLumB_4"
+"Sample ID" = "140219ajcsa44_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "LumB"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTReduc_87"
+"Sample ID" = "1402110jcsa08_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Reduction"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTReduc_74"
+"Sample ID" = "1402110jcsa09_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Reduction"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTReduc_12"
+"Sample ID" = "1402110jcsa11_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Reduction"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTReduc_114"
+"Sample ID" = "1402110jcsa15_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Reduction"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTReduc_49"
+"Sample ID" = "1402110jcsa38_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Reduction"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTReduc_44"
+"Sample ID" = "140214ajcsa09_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Reduction"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTReduc_78"
+"Sample ID" = "140214ajcsa18_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Reduction"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTReduc_86"
+"Sample ID" = "140214ajcsa19_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Reduction"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTReduc_103"
+"Sample ID" = "140214ajcsa26_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Reduction"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTReduc_18"
+"Sample ID" = "140214ajcsa29_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Reduction"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTReduc_61"
+"Sample ID" = "140214ajcsa30_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Reduction"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTReduc_117"
+"Sample ID" = "140217ajcsa32_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Reduction"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTReduc_113"
+"Sample ID" = "140219ajcsa07_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Reduction"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTReduc_42"
+"Sample ID" = "140219ajcsa09_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Reduction"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTReduc_75"
+"Sample ID" = "140219ajcsa11_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Reduction"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTReduc_58"
+"Sample ID" = "140219ajcsa33_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Reduction"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTReduc_62"
+"Sample ID" = "140219ajcsa35_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Reduction"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTReduc_118"
+"Sample ID" = "140219ajcsa39_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Reduction"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTReduc_103"
+"Sample ID" = "140219ajcsa52_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Reduction"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTReduc_18"
+"Sample ID" = "140219ajcsa53_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Reduction"
+"pool aliquot" = "no"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPReduc_1"
+"Sample ID" = "1402110jcsa31_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Reduction"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPReduc_2"
+"Sample ID" = "140214ajcsa25_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Reduction"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPReduc_3"
+"Sample ID" = "140217ajcsa31_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Reduction"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPReduc_4"
+"Sample ID" = "140219ajcsa15_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Reduction"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPALL_1-4"
+"Sample ID" = "1402110jcsa06_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Total Pool1"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPALL_1-5"
+"Sample ID" = "1402110jcsa13_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Total Pool1"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPALL_1-6"
+"Sample ID" = "1402110jcsa20_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Total Pool1"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPALL_1-1"
+"Sample ID" = "1402110jcsa27_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Total Pool1"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPALL_1-7"
+"Sample ID" = "1402110jcsa34_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Total Pool1"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPALL_1-8"
+"Sample ID" = "1402110jcsa41_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Total Pool1"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPALL_1-9"
+"Sample ID" = "1402110jcsa48_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Total Pool1"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPALL_1-10"
+"Sample ID" = "140214ajcsa06_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Total Pool1"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPALL_1-11"
+"Sample ID" = "140214ajcsa13_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Total Pool1"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPALL_1-12"
+"Sample ID" = "140214ajcsa20_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Total Pool1"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPALL_1-2"
+"Sample ID" = "140214ajcsa27_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Total Pool1"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPALL_1-13"
+"Sample ID" = "140214ajcsa34_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Total Pool1"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPALL_1-14"
+"Sample ID" = "140214ajcsa41_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Total Pool1"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPALL_1-15"
+"Sample ID" = "140214ajcsa48_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Total Pool1"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPALL_1-16"
+"Sample ID" = "140217ajcsa06_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Total Pool1"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPALL_1-17"
+"Sample ID" = "140217ajcsa13_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Total Pool1"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPALL_1-18"
+"Sample ID" = "140217ajcsa20_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Total Pool1"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPALL_1-3"
+"Sample ID" = "140217ajcsa27_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Total Pool1"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPALL_1-19"
+"Sample ID" = "140217ajcsa34_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Total Pool1"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPALL_1-20"
+"Sample ID" = "140217ajcsa41_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Total Pool1"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPALL_1-21"
+"Sample ID" = "140217ajcsa48_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Total Pool1"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPALL_1-22"
+"Sample ID" = "140219ajcsa06_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Total Pool1"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPALL_1-23"
+"Sample ID" = "140219ajcsa13_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Total Pool1"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPALL_1-24"
+"Sample ID" = "140219ajcsa20_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Total Pool1"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPALL_1-25"
+"Sample ID" = "140219ajcsa27_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Total Pool1"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPALL_1-26"
+"Sample ID" = "140219ajcsa34_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Total Pool1"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPALL_1-27"
+"Sample ID" = "140219ajcsa41_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Total Pool1"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPALL_1-28"
+"Sample ID" = "140219ajcsa46_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Total Pool1"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPALL_2-1"
+"Sample ID" = "1402110jcsa02_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Total Pool2"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPALL_2-1"
+"Sample ID" = "1402110jcsa03_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Total Pool2"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPALL_2-1"
+"Sample ID" = "1402110jcsa04_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Total Pool2"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPALL_2-1"
+"Sample ID" = "1402110jcsa05_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Total Pool2"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPALL_2-2"
+"Sample ID" = "140214ajcsa02_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Total Pool2"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPALL_2-2"
+"Sample ID" = "140214ajcsa03_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Total Pool2"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPALL_2-2"
+"Sample ID" = "140214ajcsa04_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Total Pool2"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPALL_2-2"
+"Sample ID" = "140214ajcsa05_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Total Pool2"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPALL_2-3"
+"Sample ID" = "140217ajcsa02_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Total Pool2"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPALL_2-3"
+"Sample ID" = "140217ajcsa03_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Total Pool2"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPALL_2-3"
+"Sample ID" = "140217ajcsa04_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Total Pool2"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPALL_2-3"
+"Sample ID" = "140217ajcsa05_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Total Pool2"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPALL_2-4"
+"Sample ID" = "140219ajcsa02_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Total Pool2"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPALL_2-4"
+"Sample ID" = "140219ajcsa03_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Total Pool2"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPALL_2-4"
+"Sample ID" = "140219ajcsa04_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Total Pool2"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BTPALL_2-4"
+"Sample ID" = "140219ajcsa05_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+treatment = "Total Pool2"
+"pool aliquot" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]

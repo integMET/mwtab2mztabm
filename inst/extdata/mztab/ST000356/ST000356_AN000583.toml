@@ -1,0 +1,1677 @@
+# mwTab metadata of study ST000356, analysis AN000583
+# Exported by mwtab2mztabm 0.1.0.
+# Sample metadata is listed in [[SUBJECT_SAMPLE_FACTORS]].
+
+[mwtab2mztabm]
+format_version = 1
+factor_order = ["Diagnosis", "stage"]
+additional_data_order = ["YOB", "race"]
+
+["METABOLOMICS WORKBENCH"]
+STUDY_ID = "ST000356"
+ANALYSIS_ID = "AN000583"
+VERSION = "1"
+CREATED_ON = "March 10, 2016, 8:09 am"
+
+[PROJECT]
+PROJECT_TITLE = "Breast Cancer GC/MS and LC/MS plasma and serum data from City of Hope Hospital"
+PROJECT_TYPE = "GC/MS and LC/MS metabolomics profiling"
+PROJECT_SUMMARY = "Breast cancer diagnosis profiling"
+INSTITUTE = "UNIVERSITY OF HAWAII CANCER CENTER"
+DEPARTMENT = "Metabolomics Shared Resource, Cancer Center"
+LAST_NAME = "Xie"
+FIRST_NAME = "Guoxiang"
+ADDRESS = "701 ILALO STREET HONOLULU, HI 96813"
+EMAIL = "gxie@cc.hawaii.edu"
+PHONE = "(808) 564-5938"
+
+[STUDY]
+STUDY_TITLE = "GC/MS and LC/MS metabolomics profiling for breast cancer serum data and control serum data"
+STUDY_TYPE = "metabolomics profiling"
+STUDY_SUMMARY = "Use GC/MS and LC/MS technique to profile breast cancer samples and normal control samples"
+INSTITUTE = "UNIVERSITY OF HAWAII CANCER CENTER"
+LABORATORY = "Metabolomics Shared Resource"
+LAST_NAME = "Xie"
+FIRST_NAME = "Guoxiang"
+ADDRESS = "701 ILALO STREET HONOLULU, HI 96813"
+EMAIL = "gxie@cc.hawaii.edu"
+PHONE = "(808) 564-5938"
+
+[SUBJECT]
+SUBJECT_TYPE = "Human breast cancer and normal controls serum metabolomics profiling"
+SUBJECT_SPECIES = "Homo sapiens"
+
+[COLLECTION]
+COLLECTION_SUMMARY = "city of hope metabolomics serum profiling data"
+
+[TREATMENT]
+TREATMENT_SUMMARY = "No treatment done for these samples"
+
+[SAMPLEPREP]
+SAMPLEPREP_SUMMARY = "A 50 µL aliquot of plasma/serum sample was spiked with two internal standard solutions (10 µl p-chlorophenylalanine in water, 0.1 mg/mL; 10 µL heptadecanoic acid in methanol, 1 mg/mL). The mixed solution was extracted with 175 µL of methanol: chloroform (3:1) and vortexed for 30 seconds. After storing for 10 minutes at –20°C, the samples were centrifuged at 13,000 rpm for 10 minutes. An aliquot of 200 µL supernatant was transferred to a glass sampling vial to vacuum dry at room temperature. The residue was derivatized using a two-step procedure. First, 50 µL methoxyamine (15 mg/mL in pyridine) was added to the vial and kept at 30°C for 90 minutes. After adding 10 µL C10-C40 (all even alkanes, 12.5 µg/mL) as retention index, 50 µL N,O-bis-(trimetylsilyl) trifluoroacetamide (BSTFA) (1% trimethylchlorosilane, TMCS) was added to the samples, before being derivatized at 70°C for 60 minutes. Each 1 µL aliquot of the derivatized solution was injected in splitless mode into an Agilent 6890N gas chromatography coupled with a Pegasus HT time-of-flight mass spectrometry (Leco Co., St. Joseph, MI, USA). To minimize systematic analytical deviations, each control sample was separated by 1 or 2 breast cancer samples. Breast cancer samples from different stages were also run evenly in the whole experiment. Separation was achieved on an Rxi-5 ms capillary column (Crossbond ® 5% diphenyl/95% dimethyl polysiloxane, Restek, PA, USA), with helium as the carrier gas at a constant flow rate of 1.0 mL/min. The temperatures of injection, transfer interface, and ion source were set to 260, 260, and 210°C, respectively. The GC temperature programming was set to 2 min isothermal heating at 80°C, followed by 10°C/min oven temperature ramped to 220°C, 5°C/min to 240°C, and 25°C/min to 290°C, and a final eight minute maintenance at 290°C. Electron impact ionization (70 eV) at full scan mode (m/z 40–600) was used, with an acquisition rate of 20 spectra/second in the TOFMS setting. The data generated in the GC-TOFMS instrument were analyzed by the ChromaTOF software (v4.33, Leco Co, CA, USA). Using the statistic component, the aligned comma separated value (CSV) file can be obtained with sample information, peak information and peak intensity. Peak areas of unique mass were normalized to the internal standard. Compound identification was performed by comparing the mass fragments with NIST 05 Standard mass spectral databases in NIST MS search 2.0 (NIST,Gaithersburg, MD, USA) software with a similarity of more than 70% and reference standards (with retention time, or retention index if available in the library, as another parameter). Internal standards and any known artificial peaks, such as peaks caused by noise, column bleed and BSTFA derivatization procedure, were removed from the dataset before statistical analysis."
+
+[CHROMATOGRAPHY]
+CHROMATOGRAPHY_TYPE = "Reversed phase"
+INSTRUMENT_NAME = "Agilent 1200"
+COLUMN_NAME = "-"
+
+[ANALYSIS]
+ANALYSIS_TYPE = "MS"
+
+[MS]
+MS_COMMENTS = "-"
+INSTRUMENT_NAME = "Agilent 6220 TOF"
+INSTRUMENT_TYPE = "TOF"
+MS_TYPE = "ESI"
+ION_MODE = "UNSPECIFIED"
+
+[MS_METABOLITE_DATA]
+Units = "Peak Intensity"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "106_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "control"
+stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "-"
+race = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "109_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "control"
+stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "-"
+race = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "112_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "control"
+stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "-"
+race = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "115_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "control"
+stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "-"
+race = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "118_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "control"
+stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "-"
+race = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "12_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "control"
+stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "-"
+race = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "121_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "control"
+stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "-"
+race = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "124_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "control"
+stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "-"
+race = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "138_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "control"
+stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "-"
+race = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "16_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "control"
+stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "-"
+race = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "20_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "control"
+stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "-"
+race = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "24_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "control"
+stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "-"
+race = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "28_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "control"
+stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "-"
+race = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "32_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "control"
+stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "-"
+race = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "36_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "control"
+stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "-"
+race = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "4_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "control"
+stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "-"
+race = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "40_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "control"
+stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "-"
+race = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "44_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "control"
+stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "-"
+race = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "48_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "control"
+stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "-"
+race = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "52_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "control"
+stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "-"
+race = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "56_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "control"
+stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "-"
+race = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "60_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "control"
+stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "-"
+race = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "64_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "control"
+stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "-"
+race = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "67_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "control"
+stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "-"
+race = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "70_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "control"
+stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "-"
+race = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "73_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "control"
+stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "-"
+race = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "79_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "control"
+stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "-"
+race = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "8_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "control"
+stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "-"
+race = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "85_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "control"
+stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "-"
+race = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "91_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "control"
+stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "-"
+race = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "97_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "control"
+stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "-"
+race = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "125_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1954"
+race = "Asian"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "131_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1939"
+race = "Asian"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "14_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1956"
+race = "Asian"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "17_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1960"
+race = "Asian"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "45_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1958"
+race = "Asian"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "58_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1970"
+race = "Asian"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "63_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1960"
+race = "Asian"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "105_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1960"
+race = "Black"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "114_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1955"
+race = "Black"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "139_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1972"
+race = "Black"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "26_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1966"
+race = "Black"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "77_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1968"
+race = "Black"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "108_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1977"
+race = "Other"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "122_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1945"
+race = "Other"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "15_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1958"
+race = "Other"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "29_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1968"
+race = "Other"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "98_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1974"
+race = "Other"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "104_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1943"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "107_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1965"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "11_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1961"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "110_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1963"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "111_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1955"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "113_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1975"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "117_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1967"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "119_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1959"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "128_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1947"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "129_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1959"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "134_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1965"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "136_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1957"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "140_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1948"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "143_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1945"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "19_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1953"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "23_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1947"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "25_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1970"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "30_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1945"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "33_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1958"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "49_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1958"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "53_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1944"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "54_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1955"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "57_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1962"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "59_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1944"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "6_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1959"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "61_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1948"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "69_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1963"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "71_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1962"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "81_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1962"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "86_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1956"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "92_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1947"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "99_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1967"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "31_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "-"
+race = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "126_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1954"
+race = "Asian"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "135_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1958"
+race = "Asian"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "21_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1955"
+race = "Asian"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "34_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1962"
+race = "Asian"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "35_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1967"
+race = "Asian"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "10_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1948"
+race = "Native American"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "96_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1965"
+race = "Other"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "72_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1968"
+race = "unknown"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "1_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1964"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "101_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1952"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "102_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1961"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "116_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1960"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "120_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1943"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "13_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1949"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "132_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1945"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "137_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1967"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "141_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1966"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "142_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1957"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1957"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "2_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1973"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "22_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1959"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "27_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1951"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "3_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1965"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "38_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1963"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "39_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1977"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "41_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1965"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "42_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1942"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "46_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1969"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "47_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1947"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "5_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1975"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "51_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1961"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "55_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1970"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "62_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1964"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "65_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1959"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "66_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1955"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "68_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1951"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "74_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1954"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "75_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1950"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "78_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1944"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "87_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1945"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "89_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1959"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "9_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1944"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "90_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1954"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "95_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1975"
+race = "White"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "7_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "-"
+race = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "83_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "-"
+race = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "93_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "3"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1946"
+race = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "84_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "1953"
+race = "Black"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "123_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "-"
+race = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "37_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "-"
+race = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "43_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "-"
+race = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "50_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "-"
+race = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "80_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Diagnosis = "breast cancer"
+stage = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+YOB = "-"
+race = "-"

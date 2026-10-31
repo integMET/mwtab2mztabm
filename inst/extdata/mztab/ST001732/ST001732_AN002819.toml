@@ -1,0 +1,152 @@
+# mwTab metadata of study ST001732, analysis AN002819
+# Exported by mwtab2mztabm 0.1.0.
+# Sample metadata is listed in [[SUBJECT_SAMPLE_FACTORS]].
+
+[mwtab2mztabm]
+format_version = 1
+factor_order = "Factor"
+additional_data_order = "RAW_FILE_NAME"
+
+["METABOLOMICS WORKBENCH"]
+STUDY_ID = "ST001732"
+ANALYSIS_ID = "AN002819"
+VERSION = "1"
+CREATED_ON = "March 24, 2021, 3:04 pm"
+
+[PROJECT]
+PROJECT_TITLE = "Mitochondrial ATP fuels ABC transporter-mediated drug efflux in cancer chemoresistance"
+PROJECT_SUMMARY = "Chemotherapy remains the standard of care for most cancers worldwide, however development of chemoresistance due to the presence of the drug-effluxing ABC transporters remains a significant problem. The development of safe and effective means to overcome chemoresistance is critical for achieving durable remissions in many cancer patients. We have investigated the energetic demands of ABC transporters in the context of the metabolic adaptations of chemoresistant cancer cells. Here we show that ABC transporters use mitochondrial-derived ATP as a source of energy to efflux drugs out of cancer cells. We further demonstrate that the loss of MCJ (DnaJC15), an endogenous negative regulator of mitochondrial respiration, in chemoresistant cancer cells boosts their ability to produce ATP from mitochondria and fuel ABC transporters. We have developed novel MCJ mimetics that can attenuate mitochondrial respiration and safely overcome chemoresistance in vitro and in vivo. Administration of MCJ mimetics in combination with standard chemotherapeutic drugs could therefore become an new strategy for treatment of multiple cancers."
+INSTITUTE = "University of Colorado, Denver"
+DEPARTMENT = "Biochemistry and Molecular Genetics"
+LABORATORY = "Angelo D'Alessandro"
+LAST_NAME = "Culp-Hill"
+FIRST_NAME = "Rachel"
+ADDRESS = "12801 E 17th Ave L18-9403D"
+EMAIL = "rachel.hill@cuanschutz.edu"
+PHONE = "3037245798"
+
+[STUDY]
+STUDY_TITLE = "Mitochondrial ATP fuels ABC transporter-mediated drug efflux in cancer chemoresistance (part-III)"
+STUDY_SUMMARY = "Chemotherapy remains the standard of care for most cancers worldwide, however development of chemoresistance due to the presence of the drug-effluxing ABC transporters remains a significant problem. The development of safe and effective means to overcome chemoresistance is critical for achieving durable remissions in many cancer patients. We have investigated the energetic demands of ABC transporters in the context of the metabolic adaptations of chemoresistant cancer cells. Here we show that ABC transporters use mitochondrial-derived ATP as a source of energy to efflux drugs out of cancer cells. We further demonstrate that the loss of MCJ (DnaJC15), an endogenous negative regulator of mitochondrial respiration, in chemoresistant cancer cells boosts their ability to produce ATP from mitochondria and fuel ABC transporters. We have developed novel MCJ mimetics that can attenuate mitochondrial respiration and safely overcome chemoresistance in vitro and in vivo. Administration of MCJ mimetics in combination with standard chemotherapeutic drugs could therefore become an new strategy for treatment of multiple cancers."
+INSTITUTE = "University of Colorado Anschutz Medical Campus"
+DEPARTMENT = "Biochemistry and Molecular Genetics"
+LABORATORY = "Angelo D'Alessandro"
+LAST_NAME = "Culp-Hill"
+FIRST_NAME = "Rachel"
+ADDRESS = "12801 E 17th Ave L18-9403D"
+EMAIL = "rachel.hill@cuanschutz.edu"
+PHONE = "3037245798"
+
+[SUBJECT]
+SUBJECT_TYPE = "Cultured cells"
+SUBJECT_SPECIES = "Homo sapiens"
+TAXONOMY_ID = "9606"
+
+[COLLECTION]
+COLLECTION_SUMMARY = "NCI/ADR-RES cells were verified to be of ovarian origin by genotyping. All cancer cell lines were maintained in RPMI 1640 (Sigma R8758) containing glucose (2 mg/ml) and glutamine (0.6 mg/ml) but no pyruvate and was supplemented with 5% Fetal calf serum."
+SAMPLE_TYPE = "Cultured cells"
+
+[TREATMENT]
+TREATMENT_SUMMARY = "Cells were cultured under normal conditions, detached using trypsin-EDTA (0.05 %), counted, normalized to 0.5 x 106 in each sample, and then cell pellets were snap frozen in liquid nitrogen prior to analysis. To determine the effect of N-MCJ mimetic treatment, equal numbers of NCI/ADR-RES cells were plated and allowed grow for 2 d followed by the addition of vehicle or MITOx30 (25 μM) for 12 h. Cells were then collected and processed as above."
+
+[SAMPLEPREP]
+SAMPLEPREP_SUMMARY = "Metabolomics and flux analyses were performed as previously reported 31,61. Briefly, 2 x 106 cells and 20 μl of cell media were extracted in 1 mL and 980 μL of cold lysis and extraction buffer (methanol : acetonitrile : water, 5:3:2), respectively."
+
+[CHROMATOGRAPHY]
+CHROMATOGRAPHY_SUMMARY = "Positive Mode 10 μL of water and methanol soluble fractions were run through a Kinetex C18 1.7 μm, 100 x 2.1 mm (Phenomenex) reversed phase column (Positive ion mode - phase A: water, 0.1 % formic acid; B: acetonitrile, 0.1 % formic acid) via an ultra-high performance chromatographic system (UHPLC - Vanquish, Thermo Fisher). UHPLC was coupled in line with a high-resolution quadrupole Orbitrap instrument run in positive polarity mode (QExactive, Thermo Fisher) at 70,000 resolution (at 200 m/z). Gradients and other technical parameters and the variants employed herein have been extensively described."
+CHROMATOGRAPHY_TYPE = "Reversed phase"
+INSTRUMENT_NAME = "Thermo Vanquish"
+COLUMN_NAME = "Phenomenex Kinetex C18 (150 x 2.1mm, 2.6 um)"
+
+[ANALYSIS]
+ANALYSIS_TYPE = "MS"
+
+[MS]
+INSTRUMENT_NAME = "Thermo Q Exactive Orbitrap"
+INSTRUMENT_TYPE = "Orbitrap"
+MS_TYPE = "ESI"
+ION_MODE = "POSITIVE"
+MS_COMMENTS = "UHPLC was coupled in line with a high-resolution quadrupole Orbitrap instrument run in positive polarity mode (QExactive, Thermo Fisher) at 70,000 resolution (at 200 m/z). Gradients and other technical parameters and the variants employed herein have been extensively described."
+
+[MS_METABOLITE_DATA]
+Units = "Relative Abundance"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "crtl1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Factor = "Control"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "crtl1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "crtl2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Factor = "Control"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "crtl2"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "crtl3"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Factor = "Control"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "crtl3"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "crtl4"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Factor = "Control"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "crtl4"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "treat1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Factor = "Treatment"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "treat1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "treat2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Factor = "Treatment"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "treat2"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "treat3"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Factor = "Treatment"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "treat3"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "treat4"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Factor = "Treatment"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "treat4"

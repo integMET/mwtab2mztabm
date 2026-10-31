@@ -1,0 +1,716 @@
+MTD	mzTab-version	2.1.0-M
+MTD	mzTab-ID	ST000918_AN001503
+MTD	mzTab-profile	M+S
+MTD	title	Plasma metabolic fingerprint for breast cancer (MS) - part I
+MTD	description	Breast cancer is a highly heterogeneous disease associated with metabolic reprogramming. The shifts in the metabolome caused by breast cancer still lack data from Latin populations of Hispanic origin. In this pilot study, metabolomic and lipidomic approaches were performed to establish a plasma metabolic fingerprint of Colombian Hispanic women with breast cancer. NMR, GC-MS and LC-MS datasets were combined and compared. Statistics showed discrimination between breast cancer and healthy subjects on all analytical platforms.
+MTD	instrument[1]-name	[MS, MS:1000031, instrument model, Agilent 5973]
+MTD	instrument[1]-source	[MS, MS:1000389, electron ionization, ]
+MTD	instrument[1]-analyzer[1]	[MS, MS:1000081, quadrupole, ]
+MTD	software[1]	[MS, MS:1000799, custom unreleased software tool, mwtab2mztabm 0.1.0]
+MTD	publication[1]	doi:10.21228/M8QM3R
+MTD	contact[1]-name	Monica Cala
+MTD	contact[1]-affiliation	Universidad de los Andes, Colombia
+MTD	contact[1]-email	mp.cala10@uniandes.edu.co
+MTD	uri[1]	https://www.metabolomicsworkbench.org/data/DRCCMetadata.php?Mode=Study&StudyID=ST000918
+MTD	quantification_method	[MS, MS:1001833, quantitation analysis summary, ]
+MTD	sample[1]	BCP01
+MTD	sample[1]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[1]-tissue[1]	[,, Blood, ]
+MTD	sample[1]-custom[1]	[,,Subject ID, BCP01]
+MTD	sample[10]	BCP10
+MTD	sample[10]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[10]-tissue[1]	[,, Blood, ]
+MTD	sample[10]-custom[1]	[,,Subject ID, BCP10]
+MTD	sample[11]	BCP11
+MTD	sample[11]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[11]-tissue[1]	[,, Blood, ]
+MTD	sample[11]-custom[1]	[,,Subject ID, BCP11]
+MTD	sample[12]	BCP12
+MTD	sample[12]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[12]-tissue[1]	[,, Blood, ]
+MTD	sample[12]-custom[1]	[,,Subject ID, BCP12]
+MTD	sample[13]	BCP13
+MTD	sample[13]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[13]-tissue[1]	[,, Blood, ]
+MTD	sample[13]-custom[1]	[,,Subject ID, BCP13]
+MTD	sample[14]	BCP14
+MTD	sample[14]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[14]-tissue[1]	[,, Blood, ]
+MTD	sample[14]-custom[1]	[,,Subject ID, BCP14]
+MTD	sample[15]	BCP15
+MTD	sample[15]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[15]-tissue[1]	[,, Blood, ]
+MTD	sample[15]-custom[1]	[,,Subject ID, BCP15]
+MTD	sample[16]	BCP16
+MTD	sample[16]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[16]-tissue[1]	[,, Blood, ]
+MTD	sample[16]-custom[1]	[,,Subject ID, BCP16]
+MTD	sample[17]	BCP17
+MTD	sample[17]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[17]-tissue[1]	[,, Blood, ]
+MTD	sample[17]-custom[1]	[,,Subject ID, BCP17]
+MTD	sample[18]	BCP18
+MTD	sample[18]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[18]-tissue[1]	[,, Blood, ]
+MTD	sample[18]-custom[1]	[,,Subject ID, BCP18]
+MTD	sample[19]	BCP19
+MTD	sample[19]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[19]-tissue[1]	[,, Blood, ]
+MTD	sample[19]-custom[1]	[,,Subject ID, BCP19]
+MTD	sample[2]	BCP02
+MTD	sample[2]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[2]-tissue[1]	[,, Blood, ]
+MTD	sample[2]-custom[1]	[,,Subject ID, BCP02]
+MTD	sample[20]	BCP20
+MTD	sample[20]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[20]-tissue[1]	[,, Blood, ]
+MTD	sample[20]-custom[1]	[,,Subject ID, BCP20]
+MTD	sample[21]	BCP21
+MTD	sample[21]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[21]-tissue[1]	[,, Blood, ]
+MTD	sample[21]-custom[1]	[,,Subject ID, BCP21]
+MTD	sample[22]	BCP22
+MTD	sample[22]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[22]-tissue[1]	[,, Blood, ]
+MTD	sample[22]-custom[1]	[,,Subject ID, BCP22]
+MTD	sample[23]	BCP23
+MTD	sample[23]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[23]-tissue[1]	[,, Blood, ]
+MTD	sample[23]-custom[1]	[,,Subject ID, BCP23]
+MTD	sample[24]	BCP24
+MTD	sample[24]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[24]-tissue[1]	[,, Blood, ]
+MTD	sample[24]-custom[1]	[,,Subject ID, BCP24]
+MTD	sample[25]	BCP25
+MTD	sample[25]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[25]-tissue[1]	[,, Blood, ]
+MTD	sample[25]-custom[1]	[,,Subject ID, BCP25]
+MTD	sample[26]	BCP26
+MTD	sample[26]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[26]-tissue[1]	[,, Blood, ]
+MTD	sample[26]-custom[1]	[,,Subject ID, BCP26]
+MTD	sample[27]	BCP27
+MTD	sample[27]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[27]-tissue[1]	[,, Blood, ]
+MTD	sample[27]-custom[1]	[,,Subject ID, BCP27]
+MTD	sample[28]	BCP28
+MTD	sample[28]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[28]-tissue[1]	[,, Blood, ]
+MTD	sample[28]-custom[1]	[,,Subject ID, BCP28]
+MTD	sample[29]	BCP29
+MTD	sample[29]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[29]-tissue[1]	[,, Blood, ]
+MTD	sample[29]-custom[1]	[,,Subject ID, BCP29]
+MTD	sample[3]	BCP03
+MTD	sample[3]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[3]-tissue[1]	[,, Blood, ]
+MTD	sample[3]-custom[1]	[,,Subject ID, BCP03]
+MTD	sample[30]	CP01
+MTD	sample[30]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[30]-tissue[1]	[,, Blood, ]
+MTD	sample[30]-custom[1]	[,,Subject ID, CP01]
+MTD	sample[31]	CP02
+MTD	sample[31]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[31]-tissue[1]	[,, Blood, ]
+MTD	sample[31]-custom[1]	[,,Subject ID, CP02]
+MTD	sample[32]	CP03
+MTD	sample[32]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[32]-tissue[1]	[,, Blood, ]
+MTD	sample[32]-custom[1]	[,,Subject ID, CP03]
+MTD	sample[33]	CP04
+MTD	sample[33]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[33]-tissue[1]	[,, Blood, ]
+MTD	sample[33]-custom[1]	[,,Subject ID, CP04]
+MTD	sample[34]	CP05
+MTD	sample[34]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[34]-tissue[1]	[,, Blood, ]
+MTD	sample[34]-custom[1]	[,,Subject ID, CP05]
+MTD	sample[35]	CP06
+MTD	sample[35]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[35]-tissue[1]	[,, Blood, ]
+MTD	sample[35]-custom[1]	[,,Subject ID, CP06]
+MTD	sample[36]	CP07
+MTD	sample[36]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[36]-tissue[1]	[,, Blood, ]
+MTD	sample[36]-custom[1]	[,,Subject ID, CP07]
+MTD	sample[37]	CP08
+MTD	sample[37]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[37]-tissue[1]	[,, Blood, ]
+MTD	sample[37]-custom[1]	[,,Subject ID, CP08]
+MTD	sample[38]	CP09
+MTD	sample[38]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[38]-tissue[1]	[,, Blood, ]
+MTD	sample[38]-custom[1]	[,,Subject ID, CP09]
+MTD	sample[39]	CP10
+MTD	sample[39]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[39]-tissue[1]	[,, Blood, ]
+MTD	sample[39]-custom[1]	[,,Subject ID, CP10]
+MTD	sample[4]	BCP04
+MTD	sample[4]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[4]-tissue[1]	[,, Blood, ]
+MTD	sample[4]-custom[1]	[,,Subject ID, BCP04]
+MTD	sample[40]	CP11
+MTD	sample[40]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[40]-tissue[1]	[,, Blood, ]
+MTD	sample[40]-custom[1]	[,,Subject ID, CP11]
+MTD	sample[41]	CP12
+MTD	sample[41]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[41]-tissue[1]	[,, Blood, ]
+MTD	sample[41]-custom[1]	[,,Subject ID, CP12]
+MTD	sample[42]	CP13
+MTD	sample[42]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[42]-tissue[1]	[,, Blood, ]
+MTD	sample[42]-custom[1]	[,,Subject ID, CP13]
+MTD	sample[43]	CP14
+MTD	sample[43]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[43]-tissue[1]	[,, Blood, ]
+MTD	sample[43]-custom[1]	[,,Subject ID, CP14]
+MTD	sample[44]	CP15
+MTD	sample[44]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[44]-tissue[1]	[,, Blood, ]
+MTD	sample[44]-custom[1]	[,,Subject ID, CP15]
+MTD	sample[45]	CP16
+MTD	sample[45]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[45]-tissue[1]	[,, Blood, ]
+MTD	sample[45]-custom[1]	[,,Subject ID, CP16]
+MTD	sample[46]	CP17
+MTD	sample[46]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[46]-tissue[1]	[,, Blood, ]
+MTD	sample[46]-custom[1]	[,,Subject ID, CP17]
+MTD	sample[47]	CP18
+MTD	sample[47]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[47]-tissue[1]	[,, Blood, ]
+MTD	sample[47]-custom[1]	[,,Subject ID, CP18]
+MTD	sample[48]	CP19
+MTD	sample[48]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[48]-tissue[1]	[,, Blood, ]
+MTD	sample[48]-custom[1]	[,,Subject ID, CP19]
+MTD	sample[49]	CP20
+MTD	sample[49]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[49]-tissue[1]	[,, Blood, ]
+MTD	sample[49]-custom[1]	[,,Subject ID, CP20]
+MTD	sample[5]	BCP05
+MTD	sample[5]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[5]-tissue[1]	[,, Blood, ]
+MTD	sample[5]-custom[1]	[,,Subject ID, BCP05]
+MTD	sample[50]	CP21
+MTD	sample[50]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[50]-tissue[1]	[,, Blood, ]
+MTD	sample[50]-custom[1]	[,,Subject ID, CP21]
+MTD	sample[51]	CP22
+MTD	sample[51]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[51]-tissue[1]	[,, Blood, ]
+MTD	sample[51]-custom[1]	[,,Subject ID, CP22]
+MTD	sample[52]	CP23
+MTD	sample[52]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[52]-tissue[1]	[,, Blood, ]
+MTD	sample[52]-custom[1]	[,,Subject ID, CP23]
+MTD	sample[53]	CP24
+MTD	sample[53]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[53]-tissue[1]	[,, Blood, ]
+MTD	sample[53]-custom[1]	[,,Subject ID, CP24]
+MTD	sample[54]	CP25
+MTD	sample[54]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[54]-tissue[1]	[,, Blood, ]
+MTD	sample[54]-custom[1]	[,,Subject ID, CP25]
+MTD	sample[55]	CP26
+MTD	sample[55]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[55]-tissue[1]	[,, Blood, ]
+MTD	sample[55]-custom[1]	[,,Subject ID, CP26]
+MTD	sample[56]	CP27
+MTD	sample[56]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[56]-tissue[1]	[,, Blood, ]
+MTD	sample[56]-custom[1]	[,,Subject ID, CP27]
+MTD	sample[57]	CP28
+MTD	sample[57]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[57]-tissue[1]	[,, Blood, ]
+MTD	sample[57]-custom[1]	[,,Subject ID, CP28]
+MTD	sample[58]	CP29
+MTD	sample[58]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[58]-tissue[1]	[,, Blood, ]
+MTD	sample[58]-custom[1]	[,,Subject ID, CP29]
+MTD	sample[6]	BCP06
+MTD	sample[6]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[6]-tissue[1]	[,, Blood, ]
+MTD	sample[6]-custom[1]	[,,Subject ID, BCP06]
+MTD	sample[7]	BCP07
+MTD	sample[7]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[7]-tissue[1]	[,, Blood, ]
+MTD	sample[7]-custom[1]	[,,Subject ID, BCP07]
+MTD	sample[8]	BCP08
+MTD	sample[8]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[8]-tissue[1]	[,, Blood, ]
+MTD	sample[8]-custom[1]	[,,Subject ID, BCP08]
+MTD	sample[9]	BCP09
+MTD	sample[9]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[9]-tissue[1]	[,, Blood, ]
+MTD	sample[9]-custom[1]	[,,Subject ID, BCP09]
+MTD	ms_run[1]-location	BCP01
+MTD	ms_run[1]-instrument_ref	instrument[1]
+MTD	ms_run[1]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[2]-location	BCP02
+MTD	ms_run[2]-instrument_ref	instrument[1]
+MTD	ms_run[2]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[3]-location	BCP03
+MTD	ms_run[3]-instrument_ref	instrument[1]
+MTD	ms_run[3]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[4]-location	BCP04
+MTD	ms_run[4]-instrument_ref	instrument[1]
+MTD	ms_run[4]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[5]-location	BCP05
+MTD	ms_run[5]-instrument_ref	instrument[1]
+MTD	ms_run[5]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[6]-location	BCP06
+MTD	ms_run[6]-instrument_ref	instrument[1]
+MTD	ms_run[6]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[7]-location	BCP07
+MTD	ms_run[7]-instrument_ref	instrument[1]
+MTD	ms_run[7]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[8]-location	BCP08
+MTD	ms_run[8]-instrument_ref	instrument[1]
+MTD	ms_run[8]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[9]-location	BCP09
+MTD	ms_run[9]-instrument_ref	instrument[1]
+MTD	ms_run[9]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[10]-location	BCP10
+MTD	ms_run[10]-instrument_ref	instrument[1]
+MTD	ms_run[10]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[11]-location	BCP11
+MTD	ms_run[11]-instrument_ref	instrument[1]
+MTD	ms_run[11]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[12]-location	BCP12
+MTD	ms_run[12]-instrument_ref	instrument[1]
+MTD	ms_run[12]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[13]-location	BCP13
+MTD	ms_run[13]-instrument_ref	instrument[1]
+MTD	ms_run[13]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[14]-location	BCP14
+MTD	ms_run[14]-instrument_ref	instrument[1]
+MTD	ms_run[14]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[15]-location	BCP15
+MTD	ms_run[15]-instrument_ref	instrument[1]
+MTD	ms_run[15]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[16]-location	BCP16
+MTD	ms_run[16]-instrument_ref	instrument[1]
+MTD	ms_run[16]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[17]-location	BCP17
+MTD	ms_run[17]-instrument_ref	instrument[1]
+MTD	ms_run[17]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[18]-location	BCP18
+MTD	ms_run[18]-instrument_ref	instrument[1]
+MTD	ms_run[18]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[19]-location	BCP19
+MTD	ms_run[19]-instrument_ref	instrument[1]
+MTD	ms_run[19]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[20]-location	BCP20
+MTD	ms_run[20]-instrument_ref	instrument[1]
+MTD	ms_run[20]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[21]-location	BCP21
+MTD	ms_run[21]-instrument_ref	instrument[1]
+MTD	ms_run[21]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[22]-location	BCP22
+MTD	ms_run[22]-instrument_ref	instrument[1]
+MTD	ms_run[22]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[23]-location	BCP23
+MTD	ms_run[23]-instrument_ref	instrument[1]
+MTD	ms_run[23]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[24]-location	BCP24
+MTD	ms_run[24]-instrument_ref	instrument[1]
+MTD	ms_run[24]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[25]-location	BCP25
+MTD	ms_run[25]-instrument_ref	instrument[1]
+MTD	ms_run[25]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[26]-location	BCP26
+MTD	ms_run[26]-instrument_ref	instrument[1]
+MTD	ms_run[26]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[27]-location	BCP27
+MTD	ms_run[27]-instrument_ref	instrument[1]
+MTD	ms_run[27]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[28]-location	BCP28
+MTD	ms_run[28]-instrument_ref	instrument[1]
+MTD	ms_run[28]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[29]-location	BCP29
+MTD	ms_run[29]-instrument_ref	instrument[1]
+MTD	ms_run[29]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[30]-location	CP01
+MTD	ms_run[30]-instrument_ref	instrument[1]
+MTD	ms_run[30]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[31]-location	CP02
+MTD	ms_run[31]-instrument_ref	instrument[1]
+MTD	ms_run[31]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[32]-location	CP03
+MTD	ms_run[32]-instrument_ref	instrument[1]
+MTD	ms_run[32]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[33]-location	CP04
+MTD	ms_run[33]-instrument_ref	instrument[1]
+MTD	ms_run[33]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[34]-location	CP05
+MTD	ms_run[34]-instrument_ref	instrument[1]
+MTD	ms_run[34]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[35]-location	CP06
+MTD	ms_run[35]-instrument_ref	instrument[1]
+MTD	ms_run[35]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[36]-location	CP07
+MTD	ms_run[36]-instrument_ref	instrument[1]
+MTD	ms_run[36]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[37]-location	CP08
+MTD	ms_run[37]-instrument_ref	instrument[1]
+MTD	ms_run[37]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[38]-location	CP09
+MTD	ms_run[38]-instrument_ref	instrument[1]
+MTD	ms_run[38]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[39]-location	CP10
+MTD	ms_run[39]-instrument_ref	instrument[1]
+MTD	ms_run[39]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[40]-location	CP11
+MTD	ms_run[40]-instrument_ref	instrument[1]
+MTD	ms_run[40]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[41]-location	CP12
+MTD	ms_run[41]-instrument_ref	instrument[1]
+MTD	ms_run[41]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[42]-location	CP13
+MTD	ms_run[42]-instrument_ref	instrument[1]
+MTD	ms_run[42]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[43]-location	CP14
+MTD	ms_run[43]-instrument_ref	instrument[1]
+MTD	ms_run[43]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[44]-location	CP15
+MTD	ms_run[44]-instrument_ref	instrument[1]
+MTD	ms_run[44]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[45]-location	CP16
+MTD	ms_run[45]-instrument_ref	instrument[1]
+MTD	ms_run[45]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[46]-location	CP17
+MTD	ms_run[46]-instrument_ref	instrument[1]
+MTD	ms_run[46]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[47]-location	CP18
+MTD	ms_run[47]-instrument_ref	instrument[1]
+MTD	ms_run[47]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[48]-location	CP19
+MTD	ms_run[48]-instrument_ref	instrument[1]
+MTD	ms_run[48]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[49]-location	CP20
+MTD	ms_run[49]-instrument_ref	instrument[1]
+MTD	ms_run[49]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[50]-location	CP21
+MTD	ms_run[50]-instrument_ref	instrument[1]
+MTD	ms_run[50]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[51]-location	CP22
+MTD	ms_run[51]-instrument_ref	instrument[1]
+MTD	ms_run[51]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[52]-location	CP23
+MTD	ms_run[52]-instrument_ref	instrument[1]
+MTD	ms_run[52]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[53]-location	CP24
+MTD	ms_run[53]-instrument_ref	instrument[1]
+MTD	ms_run[53]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[54]-location	CP25
+MTD	ms_run[54]-instrument_ref	instrument[1]
+MTD	ms_run[54]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[55]-location	CP26
+MTD	ms_run[55]-instrument_ref	instrument[1]
+MTD	ms_run[55]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[56]-location	CP27
+MTD	ms_run[56]-instrument_ref	instrument[1]
+MTD	ms_run[56]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[57]-location	CP28
+MTD	ms_run[57]-instrument_ref	instrument[1]
+MTD	ms_run[57]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[58]-location	CP29
+MTD	ms_run[58]-instrument_ref	instrument[1]
+MTD	ms_run[58]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	assay[1]	BCP01
+MTD	assay[1]-sample_ref	sample[1]
+MTD	assay[1]-ms_run_ref	ms_run[1]
+MTD	assay[10]	BCP10
+MTD	assay[10]-sample_ref	sample[10]
+MTD	assay[10]-ms_run_ref	ms_run[10]
+MTD	assay[11]	BCP11
+MTD	assay[11]-sample_ref	sample[11]
+MTD	assay[11]-ms_run_ref	ms_run[11]
+MTD	assay[12]	BCP12
+MTD	assay[12]-sample_ref	sample[12]
+MTD	assay[12]-ms_run_ref	ms_run[12]
+MTD	assay[13]	BCP13
+MTD	assay[13]-sample_ref	sample[13]
+MTD	assay[13]-ms_run_ref	ms_run[13]
+MTD	assay[14]	BCP14
+MTD	assay[14]-sample_ref	sample[14]
+MTD	assay[14]-ms_run_ref	ms_run[14]
+MTD	assay[15]	BCP15
+MTD	assay[15]-sample_ref	sample[15]
+MTD	assay[15]-ms_run_ref	ms_run[15]
+MTD	assay[16]	BCP16
+MTD	assay[16]-sample_ref	sample[16]
+MTD	assay[16]-ms_run_ref	ms_run[16]
+MTD	assay[17]	BCP17
+MTD	assay[17]-sample_ref	sample[17]
+MTD	assay[17]-ms_run_ref	ms_run[17]
+MTD	assay[18]	BCP18
+MTD	assay[18]-sample_ref	sample[18]
+MTD	assay[18]-ms_run_ref	ms_run[18]
+MTD	assay[19]	BCP19
+MTD	assay[19]-sample_ref	sample[19]
+MTD	assay[19]-ms_run_ref	ms_run[19]
+MTD	assay[2]	BCP02
+MTD	assay[2]-sample_ref	sample[2]
+MTD	assay[2]-ms_run_ref	ms_run[2]
+MTD	assay[20]	BCP20
+MTD	assay[20]-sample_ref	sample[20]
+MTD	assay[20]-ms_run_ref	ms_run[20]
+MTD	assay[21]	BCP21
+MTD	assay[21]-sample_ref	sample[21]
+MTD	assay[21]-ms_run_ref	ms_run[21]
+MTD	assay[22]	BCP22
+MTD	assay[22]-sample_ref	sample[22]
+MTD	assay[22]-ms_run_ref	ms_run[22]
+MTD	assay[23]	BCP23
+MTD	assay[23]-sample_ref	sample[23]
+MTD	assay[23]-ms_run_ref	ms_run[23]
+MTD	assay[24]	BCP24
+MTD	assay[24]-sample_ref	sample[24]
+MTD	assay[24]-ms_run_ref	ms_run[24]
+MTD	assay[25]	BCP25
+MTD	assay[25]-sample_ref	sample[25]
+MTD	assay[25]-ms_run_ref	ms_run[25]
+MTD	assay[26]	BCP26
+MTD	assay[26]-sample_ref	sample[26]
+MTD	assay[26]-ms_run_ref	ms_run[26]
+MTD	assay[27]	BCP27
+MTD	assay[27]-sample_ref	sample[27]
+MTD	assay[27]-ms_run_ref	ms_run[27]
+MTD	assay[28]	BCP28
+MTD	assay[28]-sample_ref	sample[28]
+MTD	assay[28]-ms_run_ref	ms_run[28]
+MTD	assay[29]	BCP29
+MTD	assay[29]-sample_ref	sample[29]
+MTD	assay[29]-ms_run_ref	ms_run[29]
+MTD	assay[3]	BCP03
+MTD	assay[3]-sample_ref	sample[3]
+MTD	assay[3]-ms_run_ref	ms_run[3]
+MTD	assay[30]	CP01
+MTD	assay[30]-sample_ref	sample[30]
+MTD	assay[30]-ms_run_ref	ms_run[30]
+MTD	assay[31]	CP02
+MTD	assay[31]-sample_ref	sample[31]
+MTD	assay[31]-ms_run_ref	ms_run[31]
+MTD	assay[32]	CP03
+MTD	assay[32]-sample_ref	sample[32]
+MTD	assay[32]-ms_run_ref	ms_run[32]
+MTD	assay[33]	CP04
+MTD	assay[33]-sample_ref	sample[33]
+MTD	assay[33]-ms_run_ref	ms_run[33]
+MTD	assay[34]	CP05
+MTD	assay[34]-sample_ref	sample[34]
+MTD	assay[34]-ms_run_ref	ms_run[34]
+MTD	assay[35]	CP06
+MTD	assay[35]-sample_ref	sample[35]
+MTD	assay[35]-ms_run_ref	ms_run[35]
+MTD	assay[36]	CP07
+MTD	assay[36]-sample_ref	sample[36]
+MTD	assay[36]-ms_run_ref	ms_run[36]
+MTD	assay[37]	CP08
+MTD	assay[37]-sample_ref	sample[37]
+MTD	assay[37]-ms_run_ref	ms_run[37]
+MTD	assay[38]	CP09
+MTD	assay[38]-sample_ref	sample[38]
+MTD	assay[38]-ms_run_ref	ms_run[38]
+MTD	assay[39]	CP10
+MTD	assay[39]-sample_ref	sample[39]
+MTD	assay[39]-ms_run_ref	ms_run[39]
+MTD	assay[4]	BCP04
+MTD	assay[4]-sample_ref	sample[4]
+MTD	assay[4]-ms_run_ref	ms_run[4]
+MTD	assay[40]	CP11
+MTD	assay[40]-sample_ref	sample[40]
+MTD	assay[40]-ms_run_ref	ms_run[40]
+MTD	assay[41]	CP12
+MTD	assay[41]-sample_ref	sample[41]
+MTD	assay[41]-ms_run_ref	ms_run[41]
+MTD	assay[42]	CP13
+MTD	assay[42]-sample_ref	sample[42]
+MTD	assay[42]-ms_run_ref	ms_run[42]
+MTD	assay[43]	CP14
+MTD	assay[43]-sample_ref	sample[43]
+MTD	assay[43]-ms_run_ref	ms_run[43]
+MTD	assay[44]	CP15
+MTD	assay[44]-sample_ref	sample[44]
+MTD	assay[44]-ms_run_ref	ms_run[44]
+MTD	assay[45]	CP16
+MTD	assay[45]-sample_ref	sample[45]
+MTD	assay[45]-ms_run_ref	ms_run[45]
+MTD	assay[46]	CP17
+MTD	assay[46]-sample_ref	sample[46]
+MTD	assay[46]-ms_run_ref	ms_run[46]
+MTD	assay[47]	CP18
+MTD	assay[47]-sample_ref	sample[47]
+MTD	assay[47]-ms_run_ref	ms_run[47]
+MTD	assay[48]	CP19
+MTD	assay[48]-sample_ref	sample[48]
+MTD	assay[48]-ms_run_ref	ms_run[48]
+MTD	assay[49]	CP20
+MTD	assay[49]-sample_ref	sample[49]
+MTD	assay[49]-ms_run_ref	ms_run[49]
+MTD	assay[5]	BCP05
+MTD	assay[5]-sample_ref	sample[5]
+MTD	assay[5]-ms_run_ref	ms_run[5]
+MTD	assay[50]	CP21
+MTD	assay[50]-sample_ref	sample[50]
+MTD	assay[50]-ms_run_ref	ms_run[50]
+MTD	assay[51]	CP22
+MTD	assay[51]-sample_ref	sample[51]
+MTD	assay[51]-ms_run_ref	ms_run[51]
+MTD	assay[52]	CP23
+MTD	assay[52]-sample_ref	sample[52]
+MTD	assay[52]-ms_run_ref	ms_run[52]
+MTD	assay[53]	CP24
+MTD	assay[53]-sample_ref	sample[53]
+MTD	assay[53]-ms_run_ref	ms_run[53]
+MTD	assay[54]	CP25
+MTD	assay[54]-sample_ref	sample[54]
+MTD	assay[54]-ms_run_ref	ms_run[54]
+MTD	assay[55]	CP26
+MTD	assay[55]-sample_ref	sample[55]
+MTD	assay[55]-ms_run_ref	ms_run[55]
+MTD	assay[56]	CP27
+MTD	assay[56]-sample_ref	sample[56]
+MTD	assay[56]-ms_run_ref	ms_run[56]
+MTD	assay[57]	CP28
+MTD	assay[57]-sample_ref	sample[57]
+MTD	assay[57]-ms_run_ref	ms_run[57]
+MTD	assay[58]	CP29
+MTD	assay[58]-sample_ref	sample[58]
+MTD	assay[58]-ms_run_ref	ms_run[58]
+MTD	assay[6]	BCP06
+MTD	assay[6]-sample_ref	sample[6]
+MTD	assay[6]-ms_run_ref	ms_run[6]
+MTD	assay[7]	BCP07
+MTD	assay[7]-sample_ref	sample[7]
+MTD	assay[7]-ms_run_ref	ms_run[7]
+MTD	assay[8]	BCP08
+MTD	assay[8]-sample_ref	sample[8]
+MTD	assay[8]-ms_run_ref	ms_run[8]
+MTD	assay[9]	BCP09
+MTD	assay[9]-sample_ref	sample[9]
+MTD	assay[9]-ms_run_ref	ms_run[9]
+MTD	study_variable_group[1]	[,,Disease Status,]
+MTD	study_variable_group[1]-description	mwTab sample factor Disease Status
+MTD	study_variable_group[1]-type	[STATO, STATO:0000252, categorical variable, ]
+MTD	study_variable_group[1]-datatype	xsd:string
+MTD	study_variable_group[1]-study_variable_refs	study_variable[1]|study_variable[2]
+MTD	study_variable[1]	Breast cancer patient
+MTD	study_variable[1]-assay_refs	assay[1]|assay[2]|assay[3]|assay[4]|assay[5]|assay[6]|assay[7]|assay[8]|assay[9]|assay[10]|assay[11]|assay[12]|assay[13]|assay[14]|assay[15]|assay[16]|assay[17]|assay[18]|assay[19]|assay[20]|assay[21]|assay[22]|assay[23]|assay[24]|assay[25]|assay[26]|assay[27]|assay[28]|assay[29]
+MTD	study_variable[1]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[1]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[1]-description	Variable Disease Status, value Breast cancer patient
+MTD	study_variable[2]	Control patient
+MTD	study_variable[2]-assay_refs	assay[30]|assay[31]|assay[32]|assay[33]|assay[34]|assay[35]|assay[36]|assay[37]|assay[38]|assay[39]|assay[40]|assay[41]|assay[42]|assay[43]|assay[44]|assay[45]|assay[46]|assay[47]|assay[48]|assay[49]|assay[50]|assay[51]|assay[52]|assay[53]|assay[54]|assay[55]|assay[56]|assay[57]|assay[58]
+MTD	study_variable[2]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[2]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[2]-description	Variable Disease Status, value Control patient
+MTD	custom[1]	[,, Metabolomics Workbench analysis ID, AN001503]
+MTD	custom[2]	[,, chromatography type, GC]
+MTD	custom[3]	[,, chromatography instrument, Agilent]
+MTD	custom[4]	[,, chromatography column, Zebron ZB-5MSi capillary GC]
+MTD	cv[1]-label	MS
+MTD	cv[1]-full_name	PSI-MS controlled vocabulary
+MTD	cv[1]-version	4.1.138
+MTD	cv[1]-uri	https://www.ebi.ac.uk/ols4/ontologies/ms
+MTD	cv[2]-label	PRIDE
+MTD	cv[2]-full_name	PRIDE PRoteomics IDEntifications (PRIDE) database controlled vocabulary
+MTD	cv[2]-version	16:10:2023 11:38
+MTD	cv[2]-uri	https://www.ebi.ac.uk/ols/ontologies/pride
+MTD	cv[3]-label	STATO
+MTD	cv[3]-full_name	General purpose STATistics Ontology
+MTD	cv[3]-version	2026-04-20
+MTD	cv[3]-uri	https://www.ebi.ac.uk/ols4/ontologies/stato
+MTD	cv[4]-label	NCBITaxon
+MTD	cv[4]-full_name	NCBI organismal classification
+MTD	cv[4]-version	unknown
+MTD	cv[4]-uri	http://purl.obolibrary.org/obo/ncbitaxon.owl
+MTD	database[1]	[,, "no database", null ]
+MTD	database[1]-prefix	null
+MTD	database[1]-version	Unknown
+MTD	database[1]-uri	null
+MTD	small_molecule-quantification_unit	[,, Peak area, ]
+MTD	small_molecule-identification_reliability	[MS, MS:1002896, compound identification confidence level, ]
+
+SMH	SML_ID	SMF_ID_REFS	database_identifier	chemical_formula	smiles	inchi	chemical_name	uri	theoretical_neutral_mass	adduct_ions	reliability	best_id_confidence_measure	best_id_confidence_value	abundance_assay[1]	abundance_assay[2]	abundance_assay[3]	abundance_assay[4]	abundance_assay[5]	abundance_assay[6]	abundance_assay[7]	abundance_assay[8]	abundance_assay[9]	abundance_assay[10]	abundance_assay[11]	abundance_assay[12]	abundance_assay[13]	abundance_assay[14]	abundance_assay[15]	abundance_assay[16]	abundance_assay[17]	abundance_assay[18]	abundance_assay[19]	abundance_assay[20]	abundance_assay[21]	abundance_assay[22]	abundance_assay[23]	abundance_assay[24]	abundance_assay[25]	abundance_assay[26]	abundance_assay[27]	abundance_assay[28]	abundance_assay[29]	abundance_assay[30]	abundance_assay[31]	abundance_assay[32]	abundance_assay[33]	abundance_assay[34]	abundance_assay[35]	abundance_assay[36]	abundance_assay[37]	abundance_assay[38]	abundance_assay[39]	abundance_assay[40]	abundance_assay[41]	abundance_assay[42]	abundance_assay[43]	abundance_assay[44]	abundance_assay[45]	abundance_assay[46]	abundance_assay[47]	abundance_assay[48]	abundance_assay[49]	abundance_assay[50]	abundance_assay[51]	abundance_assay[52]	abundance_assay[53]	abundance_assay[54]	abundance_assay[55]	abundance_assay[56]	abundance_assay[57]	abundance_assay[58]	abundance_study_variable[1]	abundance_study_variable[2]	abundance_variation_study_variable[1]	abundance_variation_study_variable[2]	opt_global_metabolite_name	opt_global_pubchem_id	opt_global_inchi_key	opt_global_kegg_id	opt_global_other_id	opt_global_other_id_type	opt_global_ri	opt_global_ri_type	opt_global_moverz_quant	opt_global_c_na_character_na_character_na_character_na_character
+SML	1	null	null	null	null	null	null	null	null	null	2	null	null	0.0331	0.0246	0.0278	0.0282	0.0273	0.0256	0.0368	0.021	0.0271	0.0258	0.0336	0.0327	0.0336	0.0283	0.032	0.0262	0.0261	0.0254	0.0233	0.03	0.0322	0.0309	0.0309	0.0265	0.0303	0.0354	0.038	0.0412	0.0281	0.0415	0.0202	0.0259	0.0312	0.0367	0.0249	0.0275	0.0392	0.0448	0.033	0.0329	0.0412	0.0232	0.0331	0.0133	0.0361	0.0403	0.0255	0.0377	0.0252	0.0218	0.024	0.0241	0.0245	0.0244	0.0289	0.0312	0.0304	0.028	0.0297241379310345	0.0300241379310345	0.155916091058925	0.248390863883677	1-Monomyristin	null	null	null	null	null	21.932953	null	343.3000	null
+SML	2	null	null	null	null	null	null	null	null	null	2	null	null	0.9747	0.78	0.785	0.8203	0.7869	0.7837	1.2302	0.6845	0.7921	0.79	0.7904	0.9533	0.8658	0.9014	1.0965	0.8124	0.7886	0.9505	0.7505	0.8848	0.8205	0.8748	0.9711	0.7858	0.8071	1.1258	0.9722	0.9826	0.908	1.3048	0.7946	0.8199	1.0507	0.8936	0.9348	0.7413	0.9703	1.0078	0.8552	0.8455	1.0181	0.6785	0.8375	0.4723	0.8105	0.9877	0.782	0.8465	0.9179	0.7547	0.7722	0.7645	0.7731	0.781	0.8239	0.851	0.8427	0.8164	0.878258620689655	0.853413793103448	0.140773546332147	0.168110509955732	1-Monopalmitin trimethylsilyl ether	null	null	null	null	null	23.4613	null	371.3000	null
+SML	3	null	null	null	null	null	null	null	null	null	2	null	null	0.0088	0.0103	0.0158	0.0163	0.0128	0.0065	0.0158	0.0101	0.013	0.0122	0.0174	0.0199	0.0168	0.01	0.0104	0.0174	0.0168	0.0125	0.0132	0.0111	0.0115	0.0132	0.0126	0.0162	0.0092	0.0069	0.0067	0.0058	0.0149	0.0064	0.0112	0.0083	0.0145	0.0096	0.0134	0.0094	0.0118	0.0073	0.0069	0.0065	0.018	0.0116	0.012	0.0063	0.0123	0.0151	0.0106	0.0072	0.0136	0.0117	0.0113	0.0119	0.0116	0.0115	0.0118	0.0131	0.0125	0.0122	0.0125551724137931	0.0110206896551724	0.297808718927595	0.257474964237702	2-hydroxybutyric acid	null	null	null	null	null	7.7875824	null	131.1000	null
+SML	4	null	null	null	null	null	null	null	null	null	2	null	null	0.0021	0.0017	0.0034	0.0017	0.0028	9e-04	0.0019	0.0025	0.0014	0.0012	0.0025	0.0023	0.002	0.0026	0.0024	0.0023	0.0018	0.0024	0.0019	0.0019	0.0032	0.0027	0.0027	0.0026	0.0017	0.0016	0.002	0.001	0.0018	0.002	0.0015	0.0016	0.0015	0.0017	0.0021	0.0022	0.0022	0.0027	0.002	0.0019	0.0032	0.0017	0.0017	0.0016	0.0022	0.0017	0.0022	0.0021	0.0032	0.002	0.0021	0.0022	0.002	0.0021	0.0022	0.0022	0.0021	0.0021	0.00210344827586207	0.00206896551724138	0.286793227129355	0.199326743799348	2-Hydroxyvaleric acid	null	null	null	null	null	8.354334	null	145.1000	null
+SML	5	null	null	null	null	null	null	null	null	null	2	null	null	3e-04	2e-04	3e-04	4e-04	3e-04	3e-04	4e-04	4e-04	6e-04	6e-04	5e-04	5e-04	4e-04	4e-04	4e-04	6e-04	5e-04	5e-04	6e-04	4e-04	4e-04	4e-04	4e-04	5e-04	3e-04	3e-04	3e-04	4e-04	6e-04	5e-04	5e-04	5e-04	7e-04	5e-04	6e-04	3e-04	5e-04	4e-04	3e-04	3e-04	6e-04	5e-04	5e-04	3e-04	5e-04	4e-04	3e-04	3e-04	4e-04	4e-04	6e-04	5e-04	5e-04	5e-04	4e-04	5e-04	5e-04	5e-04	0.000420689655172414	0.000458620689655172	0.26484417084268	0.229556501322906	2-Ketobutyric acid	null	null	null	null	null	7.415	null	188.1000	null
+SML	6	null	null	null	null	null	null	null	null	null	2	null	null	0.0049	0.0047	0.005	0.0049	0.0046	0.0042	0.0046	0.0048	0.0045	0.0047	0.0054	0.0053	0.0046	0.0048	0.0047	0.0041	0.0047	0.0049	0.0047	0.0049	0.005	0.0051	0.0046	0.004	0.0049	0.0049	0.005	0.0052	0.005	0.0048	0.0046	0.0053	0.0048	0.0052	0.005	0.0051	0.0051	0.005	0.005	0.0049	0.0049	0.005	0.005	0.0049	0.0044	0.0048	0.0047	0.0052	0.0047	0.0046	0.0045	0.0047	0.0045	0.0048	0.005	0.0049	0.0051	0.0047	0.00478275862068965	0.00486896551724138	0.066839045216947	0.0466098065896066	2-ketoisocaproic acid _R1	null	null	null	null	null	8.444	null	188.1000	null
+SML	7	null	null	null	null	null	null	null	null	null	2	null	null	4e-04	2e-04	3e-04	3e-04	4e-04	2e-04	2e-04	5e-04	3e-04	2e-04	4e-04	6e-04	9e-04	3e-04	3e-04	5e-04	4e-04	2e-04	4e-04	5e-04	4e-04	3e-04	3e-04	3e-04	6e-04	4e-04	5e-04	1e-04	3e-04	1e-04	3e-04	3e-04	5e-04	4e-04	5e-04	7e-04	6e-04	7e-04	3e-04	4e-04	6e-04	3e-04	3e-04	3e-04	5e-04	4e-04	2e-04	2e-04	4e-04	4e-04	3e-04	4e-04	3e-04	3e-04	4e-04	4e-04	4e-04	4e-04	0.000368965517241379	0.000389655172413793	0.435235733388565	0.358668413097541	2-ketoisocaproic acid _R2	null	null	null	null	null	8.8668	null	200.1000	null
+SML	8	null	null	null	null	null	null	null	null	null	2	null	null	0.0082	0.0038	0.0074	0.0077	0.0069	0.0046	0.0067	0.0064	0.0067	0.0069	0.0078	0.0102	0.0067	0.0073	0.0049	0.0076	0.0072	0.0034	0.0069	0.0066	0.0077	0.0051	0.0088	0.006	0.007	0.0121	0.0087	0.0074	0.0083	0.0052	0.0055	0.0063	0.0069	0.0061	0.0042	0.0069	0.0068	0.0092	0.0074	0.0076	0.0078	0.0048	0.0078	0.004	0.0083	0.0055	0.0063	0.0073	0.0058	0.003	0.0034	0.0034	0.0035	0.0037	0.0049	0.0051	0.0051	0.0042	0.00706896551724138	0.00572413793103448	0.248787900415632	0.29242598283361	2-Monostearin trimethylsilyl ether	null	null	null	null	null	24.6293	null	218.1000	null
+SML	9	null	null	null	null	null	null	null	null	null	2	null	null	0.0166	0.0097	0.0162	0.0157	0.0141	0.0102	0.0135	0.0115	0.0127	0.0131	0.0132	0.0162	0.0125	0.014	0.01	0.0162	0.014	0.008	0.0135	0.0148	0.0145	0.0106	0.0166	0.0135	0.0146	0.0214	0.0175	0.0138	0.0142	0.0097	0.0121	0.0116	0.0138	0.013	0.0092	0.0144	0.0138	0.0188	0.0145	0.0146	0.0161	0.01	0.014	0.0074	0.0146	0.0126	0.0123	0.0149	0.0117	0.0073	0.0076	0.0077	0.0077	0.008	0.0092	0.0097	0.0093	0.0088	0.0138758620689655	0.0115310344827586	0.196287641817885	0.267388122414563	2-Palmitoylglycerol	null	null	null	null	null	23.195	null	218.1000	null
+SML	10	null	null	null	null	null	null	null	null	null	2	null	null	2e-04	3e-04	0.0011	2e-04	4e-04	9e-04	7e-04	1e-04	2e-04	2e-04	3e-04	3e-04	0.0045	0.0015	0.002	4e-04	3e-04	2e-04	0.0056	2e-04	3e-04	0.0011	0.0055	4e-04	6e-04	4e-04	5e-04	3e-04	8e-04	4e-04	6e-04	7e-04	4e-04	4e-04	3e-04	3e-04	5e-04	5e-04	8e-04	6e-04	4e-04	4e-04	4e-04	3e-04	2e-04	1e-04	3e-04	4e-04	5e-04	0.0054	0.0047	0.005	0.005	0.0051	0.0056	0.0056	0.0055	0.0053	0.00101724137931034	0.00192068965517241	1.49204343855072	1.18671628824362	3-indoleacetic acid	null	null	null	null	null	17.977	null	319.2000	null
+SML	11	null	null	null	null	null	null	null	null	null	2	null	null	0.0271	0.0271	0.0306	0.0252	0.0284	0.0248	0.0283	0.0283	0.0253	0.0268	0.0287	0.0295	0.0261	0.0271	0.0242	0.0224	0.026	0.0267	0.0268	0.0288	0.0287	0.0284	0.0277	0.0216	0.0299	0.0295	0.0282	0.0324	0.0275	0.0297	0.0279	0.0307	0.026	0.0295	0.0284	0.0308	0.0286	0.0293	0.0296	0.0271	0.0312	0.0255	0.0259	0.0296	0.0246	0.0267	0.0279	0.0299	0.0281	0.0266	0.0254	0.0249	0.026	0.0238	0.0277	0.0284	0.0262	0.0265	0.0273137931034483	0.0276724137931034	0.0846868284187201	0.0725311407610247	acetoacetate	null	null	null	null	null	7.518	null	89.1000	null
+SML	12	null	null	null	null	null	null	null	null	null	2	null	null	0.0085	0.0089	0.0052	0.0282	0.0118	0.0059	0.0104	0.0104	0.0206	0.0095	0.0118	0.0098	0.0173	0.009	0.023	0.0276	0.0097	0.0132	0.0195	0.013	0.02	0.0074	0.0172	0.0187	0.0251	0.013	0.0108	0.0106	0.0243	0.012	0.0089	0.0194	0.0289	0.0173	0.0098	0.0432	0.0175	0.0148	0.0096	0.0107	0.0084	0.0181	0.018	0.0134	0.0068	0.0183	0.0102	0.0097	0.0158	0.0095	0.0104	0.0107	0.0101	0.0104	0.0112	0.0111	0.0117	0.0103	0.0144965517241379	0.0140068965517241	0.456657803133446	0.519755074675715	Aldohexoses	null	null	null	null	null	12.5432	null	165.345	null
+SML	13	null	null	null	null	null	null	null	null	null	2	null	null	0.0045	0.0026	0.0019	0.003	0.0027	0.0014	0.0017	0.006	0.0037	0.0038	0.0067	0.0034	0.0037	0.0075	0.0026	0.0033	0.0026	0.0016	0.003	0.0023	0.0053	0.0036	0.0015	0.0016	0.0038	0.003	0.0035	0.0061	0.0055	0.0029	0.0019	0.0024	0.0028	0.0029	0.0022	0.0033	0.0033	0.0033	0.0039	0.004	0.004	0.0062	0.0074	0.0029	0.0033	0.0031	0.002	0.0049	0.0028	0.0012	0.0013	0.0015	0.0015	0.0014	0.0018	0.002	0.0021	0.0018	0.00351379310344828	0.0029	0.464201834832085	0.493287712307919	alpha tocophereol	null	null	null	null	null	27.428198	null	502.5000	null
+SML	14	null	null	null	null	null	null	null	null	null	2	null	null	0.0016	0.0011	3e-04	0.0034	0.0077	0.0011	0.0081	0.0017	0.0015	0.0011	0.0019	0.0027	0.0043	0.0063	0.0038	0.0034	0.0022	0.0019	0.0021	0.002	0.0019	0.0016	0.0039	0.0026	0.0095	0.0123	0.0021	0.0028	0.0064	0.0028	0.0085	0.0047	0.0026	0.0039	0.0013	0.01	0.0087	0.0068	0.0035	0.0036	0.0028	0.0019	0.0024	0.0032	0.001	0.0022	0.0062	0.0043	0.0019	0.001	0.001	0.0011	0.001	0.001	0.0013	0.0013	0.0014	0.0012	0.00349310344827586	0.00319310344827586	0.818451925843595	0.80089254250988	Aminomalonic acid	null	null	null	null	null	12.5986	null	218.1000	null
+SML	15	null	null	null	null	null	null	null	null	null	2	null	null	8e-04	4e-04	4e-04	8e-04	6e-04	6e-04	0.0013	7e-04	5e-04	6e-04	6e-04	7e-04	9e-04	7e-04	0.0015	7e-04	5e-04	6e-04	7e-04	5e-04	9e-04	8e-04	0.0017	0.0012	9e-04	7e-04	7e-04	7e-04	0.001	8e-04	6e-04	8e-04	7e-04	8e-04	5e-04	0.001	7e-04	8e-04	0.0011	0.0011	6e-04	6e-04	8e-04	6e-04	6e-04	3e-04	6e-04	7e-04	8e-04	6e-04	7e-04	7e-04	7e-04	7e-04	9e-04	8e-04	9e-04	8e-04	0.000782758620689655	0.00073448275862069	0.392381488998996	0.230928108888859	arabitol	null	null	null	null	null	15.698	null	217.1000	null
+SML	16	null	null	null	null	null	null	null	null	null	2	null	null	5e-04	6e-04	6e-04	5e-04	5e-04	7e-04	6e-04	7e-04	7e-04	6e-04	8e-04	7e-04	6e-04	8e-04	5e-04	8e-04	8e-04	4e-04	9e-04	5e-04	8e-04	4e-04	8e-04	6e-04	6e-04	4e-04	5e-04	6e-04	9e-04	4e-04	8e-04	3e-04	4e-04	7e-04	4e-04	8e-04	5e-04	5e-04	5e-04	2e-04	8e-04	2e-04	2e-04	6e-04	7e-04	4e-04	8e-04	4e-04	3e-04	3e-04	3e-04	5e-04	5e-04	5e-04	6e-04	6e-04	5e-04	7e-04	0.00063448275862069	0.000496551724137931	0.231773839941973	0.378615543709277	Arachidonic acid	null	null	null	null	null	21.684444	null	91.1000	null
+SML	17	null	null	null	null	null	null	null	null	null	2	null	null	6e-04	6e-04	4e-04	3e-04	4e-04	3e-04	1e-04	3e-04	4e-04	6e-04	5e-04	4e-04	8e-04	3e-04	9e-04	1e-04	1e-04	8e-04	3e-04	6e-04	3e-04	5e-04	4e-04	3e-04	1e-04	3e-04	3e-04	8e-04	3e-04	9e-04	3e-04	6e-04	3e-04	6e-04	5e-04	1e-04	7e-04	1e-04	4e-04	4e-04	5e-04	1e-04	2e-04	2e-04	2e-04	6e-04	4e-04	1e-04	8e-04	5e-04	4e-04	4e-04	5e-04	5e-04	5e-04	6e-04	6e-04	5e-04	0.000417241379310345	0.000431034482758621	0.52847346376027	0.488631909372631	aspartic acid	null	null	null	null	null	11.774	null	160.1000	null
+SML	18	null	null	null	null	null	null	null	null	null	2	null	null	0.0023	0.0017	0.0021	0.0024	0.0019	0.0017	0.0023	0.002	0.0023	0.0024	0.0029	0.002	0.0028	0.0026	0.0023	0.0019	0.0017	0.0022	0.002	0.0022	0.0024	0.0026	0.0026	0.0018	0.0023	0.0026	0.002	0.0023	0.0026	0.0023	0.0017	0.0023	0.0026	0.0026	0.0026	0.0019	0.0024	0.0022	0.0023	0.0024	0.0023	0.0026	0.0027	0.0024	0.0017	0.0018	0.0017	0.0019	0.0019	0.0017	0.0019	0.0018	0.0017	0.0018	0.0019	0.0018	0.0019	0.0019	0.00223793103448276	0.00209310344827586	0.147435280025452	0.162483899825158	benzoic acid	null	null	null	null	null	9.499	null	179.1000	null
+SML	19	null	null	null	null	null	null	null	null	null	2	null	null	0.6354	0.4655	0.5385	0.5638	0.5211	0.4956	0.8541	0.4934	0.5543	0.5779	0.576	0.7297	0.5847	0.5897	0.7567	0.5603	0.5436	0.614	0.5434	0.5888	0.5722	0.58	0.6744	0.5235	0.5507	0.8057	0.681	0.6543	0.6534	0.9172	0.508	0.5856	0.7044	0.607	0.6024	0.4943	0.6596	0.6433	0.5809	0.57	0.6587	0.4228	0.5643	0.3705	0.5602	0.6167	0.5298	0.5529	0.5945	0.4575	0.483	0.4752	0.4786	0.4872	0.5355	0.5635	0.5573	0.5194	0.60281724137931	0.562079310344828	0.153607002427353	0.179516991802632	Bis(trimethylsilyl)monostearin	null	null	null	null	null	24.889301	null	399.4000	null
+SML	20	null	null	null	null	null	null	null	null	null	2	null	null	3e-04	1e-04	3e-04	3e-04	3e-04	3e-04	3e-04	2e-04	3e-04	3e-04	5e-04	2e-04	4e-04	4e-04	3e-04	2e-04	2e-04	3e-04	3e-04	3e-04	4e-04	3e-04	1e-04	3e-04	3e-04	3e-04	1e-04	3e-04	5e-04	4e-04	1e-04	3e-04	3e-04	3e-04	3e-04	2e-04	3e-04	2e-04	3e-04	4e-04	4e-04	3e-04	3e-04	3e-04	2e-04	3e-04	1e-04	1e-04	2e-04	2e-04	2e-04	1e-04	1e-04	1e-04	2e-04	2e-04	2e-04	2e-04	0.000289655172413793	0.00023448275862069	0.337063074267985	0.399347589552342	caprylic acid	null	null	null	null	null	9.698	null	201.2000	null
+SML	21	null	null	null	null	null	null	null	null	null	2	null	null	1.2351	1.329	1.7672	0.9048	0.9546	0.9599	0.5834	1.0914	1.4666	1.2855	1.4562	1.011	1.5842	0.9988	1.9392	0.7161	1.4624	1.6994	1.0732	1.1762	1.3016	1.7434	1.4328	1.2722	0.9731	0.7126	0.5665	1.2443	0.9158	1.9843	1.1971	1.6262	1.6495	1.0854	1.2862	1.1588	1.294	0.8737	1.2028	1.209	1.7369	0.9392	0.9735	0.5943	0.7833	1.3238	0.9144	0.5802	1.8219	1.4838	1.4984	1.5169	1.4941	1.5142	1.5186	1.5402	1.539	1.4998	1.20194827586207	1.30481034482759	0.296573443171184	0.271390285968845	Cetohexoses	null	null	null	null	null	10.3423	null	134.545	null
+SML	22	null	null	null	null	null	null	null	null	null	2	null	null	0.0558	0.0445	0.0413	0.041	0.0406	0.0323	0.0345	0.0538	0.0539	0.0472	0.0547	0.0546	0.0414	0.063	0.0334	0.0502	0.0469	0.0278	0.0361	0.0334	0.059	0.0509	0.0301	0.033	0.0509	0.0345	0.0388	0.0715	0.0684	0.0354	0.042	0.0364	0.0427	0.0409	0.0399	0.0481	0.0484	0.0471	0.0449	0.0435	0.0517	0.0471	0.0515	0.0304	0.0401	0.043	0.0406	0.0498	0.0421	0.0327	0.0328	0.0324	0.031	0.0307	0.0351	0.0412	0.0346	0.0361	0.0456379310344828	0.0404206896551724	0.255776707256893	0.160989940111409	cholesterol	null	null	null	null	null	27.598877	null	329.4000	null
+SML	23	null	null	null	null	null	null	null	null	null	2	null	null	5e-04	0.0016	4e-04	0.0022	0.0028	7e-04	0.0026	0.0011	0.001	0.0012	0.0036	0.0011	0.0026	0.0025	0.0022	0.0014	0.0016	0.0013	0.0018	0.0014	0.0012	0.0032	0.0027	0.0016	9e-04	0.0045	0.0014	0.0022	0.006	0.0037	0.0014	0.0019	0.0015	0.0021	0.0015	0.0014	0.0023	0.0017	0.0025	0.001	0.0013	0.002	6e-04	0.0023	0.0014	5e-04	0.002	0.0014	0.0044	5e-04	5e-04	5e-04	5e-04	5e-04	8e-04	8e-04	0.001	6e-04	0.00197586206896552	0.00146896551724138	0.620982179684845	0.65272629398044	citric acid	null	null	null	null	null	16.707333	null	273.1000	null
+SML	24	null	null	null	null	null	null	null	null	null	2	null	null	0.001	6e-04	7e-04	9e-04	0.001	9e-04	8e-04	0.0011	0.0012	0.0011	0.001	0.0011	0.0011	8e-04	8e-04	9e-04	7e-04	9e-04	9e-04	0.001	0.001	9e-04	8e-04	8e-04	0.001	9e-04	9e-04	0.001	8e-04	8e-04	6e-04	0.0014	7e-04	8e-04	0.001	9e-04	8e-04	8e-04	0.001	9e-04	0.0011	0.001	8e-04	9e-04	8e-04	0.001	8e-04	7e-04	0.001	6e-04	6e-04	6e-04	7e-04	7e-04	0.001	9e-04	8e-04	8e-04	0.000917241379310345	0.000844827586206897	0.151596150328937	0.20885382512972	C Methyl Docosanoate	null	null	null	null	null	22.918428	null	74.1000	null
+SML	25	null	null	null	null	null	null	null	null	null	2	null	null	0.0108	0.008	0.01	0.0109	0.0103	0.0089	0.0098	0.011	0.0109	0.0109	0.0113	0.0119	0.011	0.0099	0.0091	0.01	0.0104	0.0087	0.01	0.0106	0.0111	0.0103	0.009	0.0107	0.0108	0.0109	0.0107	0.011	0.0102	0.01	0.0091	0.0109	0.0108	0.0111	0.0092	0.0103	0.0111	0.0107	0.0112	0.0113	0.0095	0.0109	0.0115	0.0112	0.0108	0.0099	0.0103	0.0102	0.01	0.0073	0.0077	0.008	0.0075	0.0076	0.0097	0.0102	0.0105	0.0094	0.0103137931034483	0.00992758620689655	0.0852661151797563	0.12589440658258	C Methyl Eicosanoate	null	null	null	null	null	21.280508	null	74.1000	null
+SML	26	null	null	null	null	null	null	null	null	null	2	null	null	0.0105	0.006	0.0057	0.0088	0.0107	0.007	0.0069	0.008	0.0067	0.0065	0.008	0.0054	0.0118	0.0053	0.0082	0.0065	0.0066	0.0087	0.007	0.007	0.0067	0.0108	0.0084	0.0121	0.0065	0.0074	0.0051	0.006	0.0062	0.0071	0.0105	0.009	0.0097	0.0069	0.0094	0.008	0.0112	0.0102	0.0098	0.009	0.0042	0.0047	0.0053	0.0026	0.005	0.0069	0.0074	0.0052	0.0076	0.0084	0.0086	0.0089	0.0087	0.009	0.0097	0.0103	0.0102	0.0088	0.00760344827586207	0.00801034482758621	0.254746193879888	0.269269277961827	Creatinine	null	null	null	null	null	13.691222	null	115.1000	null
+SML	27	null	null	null	null	null	null	null	null	null	2	null	null	0.0011	0.0016	0.0013	0.001	0.0016	0.0014	7e-04	0.0011	0.0013	0.0011	0.0011	0.0012	0.0024	8e-04	0.002	7e-04	0.0013	0.0017	6e-04	9e-04	0.0013	0.0016	0.0016	0.001	0.0012	8e-04	5e-04	9e-04	9e-04	0.0013	0.0013	0.0013	0.0014	8e-04	0.0014	0.0015	0.0015	5e-04	7e-04	2e-04	0.0012	4e-04	1e-04	3e-04	4e-04	0.0014	8e-04	6e-04	0.0021	0.0014	0.0014	0.0014	0.0012	0.0013	0.0017	0.0016	0.0015	0.0015	0.00119655172413793	0.00111034482758621	0.357014046673234	0.461333585645566	DL-glyceraldehyde	null	null	null	null	null	9.105	null	133.1000	null
+SML	28	null	null	null	null	null	null	null	null	null	2	null	null	0.0269	0.0262	0.022	0.017	0.0288	0.0274	0.0104	0.0217	0.0273	0.025	0.0285	0.0283	0.0495	0.0165	0.0323	0.0145	0.0273	0.0297	0.0142	0.0208	0.0266	0.0298	0.0299	0.0206	0.0208	0.0159	0.0105	0.0185	0.0249	0.0267	0.0172	0.0258	0.0302	0.0156	0.0278	0.0257	0.0299	0.0152	0.0208	0.0187	0.033	0.0117	0.0091	0.0157	0.0075	0.0272	0.0127	0.0151	0.04	0.0246	0.0252	0.0262	0.0249	0.0253	0.0283	0.0289	0.0283	0.0262	0.0238551724137931	0.0228793103448276	0.329728480236112	0.334585320305822	DL-isoleucine	null	null	null	null	null	8.48	null	86.1000	null
+SML	29	null	null	null	null	null	null	null	null	null	2	null	null	0.0052	0.0043	0.0022	0.0019	0.0022	0.0034	0.0013	0.0018	0.003	0.0034	0.0047	0.0016	0.0046	0.0014	0.0041	0.0017	0.004	0.0038	0.0022	0.0021	0.0026	0.0054	0.0037	0.0033	0.0024	0.0017	0.0032	0.0018	0.0019	0.0041	0.003	0.004	0.0031	0.0017	0.0028	0.0025	0.0029	0.0015	0.0035	0.0099	0.0089	4e-04	0.0067	0.0016	0.0015	0.0107	0.0021	0.004	0.0052	0.0023	0.0038	0.0041	0.0039	0.0031	0.0036	0.0038	0.0038	0.0028	0.00292758620689655	0.00383793103448276	0.411911714526174	0.6309883464758	DL-p-hydroxyphenyllactic acid	null	null	null	null	null	17.31	null	179.1000	null
+SML	30	null	null	null	null	null	null	null	null	null	2	null	null	0.0014	9e-04	0.0011	0.0012	0.0013	0.0012	0.0023	0.0012	0.0011	0.001	0.0012	0.0013	0.0016	0.0013	0.0019	0.0015	0.0013	0.0011	0.0018	0.001	0.0017	0.0015	0.0029	0.0015	0.0015	0.0013	0.0013	0.0011	0.0016	0.0012	0.0014	0.0016	0.0016	0.0015	9e-04	0.0013	0.0012	0.0016	0.0016	0.0016	0.0011	0.0014	0.0015	0.0013	0.0012	9e-04	0.0011	0.0012	0.0013	0.0014	0.0014	0.0014	0.0014	0.0014	0.0016	0.0016	0.0017	0.0014	0.00141724137931034	0.00137241379310345	0.292794429779038	0.153208949751629	D-threitol	null	null	null	null	null	13.1392	null	217.1000	null
+SML	31	null	null	null	null	null	null	null	null	null	2	null	null	0.0027	0.003	0.0016	0.0025	0.0022	0.0025	0.0022	0.003	0.0013	0.0021	0.0037	0.0028	0.0027	0.0016	0.0023	0.0016	0.0022	0.0028	0.0023	0.0029	0.0032	0.0029	0.0031	0.0023	0.0018	0.0018	0.0012	0.003	0.0016	0.0029	0.0019	0.0022	0.0025	0.0021	0.0021	0.0021	0.0032	0.0015	0.0028	0.0026	0.0019	0.0024	0.003	0.0011	5e-04	0.0023	0.0015	0.002	0.0034	0.0025	0.0024	0.0025	0.0024	0.0024	0.0028	0.0027	0.0026	0.0024	0.00237586206896552	0.0023	0.264688113690803	0.264723090945666	fumaric acid	null	null	null	null	null	10.871483	null	245.2000	null
+SML	32	null	null	null	null	null	null	null	null	null	2	null	null	0.0051	0.0046	0.0023	0.005	0.0048	0.0041	0.0075	0.0042	0.0039	0.0035	0.0037	0.0036	0.0052	0.0025	0.0072	0.0066	0.0052	0.006	0.0055	0.0033	0.0051	0.0052	0.0089	0.0043	0.0059	0.0045	0.0042	0.004	0.0053	0.004	0.0048	0.0057	0.0061	0.0051	0.0045	0.0059	0.0046	0.0046	0.006	0.0061	0.0054	0.0047	0.005	0.0049	0.0036	0.0031	0.004	0.0042	0.0048	0.0042	0.0043	0.0045	0.0042	0.0043	0.0047	0.0046	0.0044	0.0044	0.00486896551724138	0.00471379310344828	0.296161160165103	0.155037289070456	glucoheptonic acid	null	null	null	null	null	19.54	null	217.1000	null
+SML	33	null	null	null	null	null	null	null	null	null	2	null	null	0.0036	0.0017	0.0024	0.0158	1e-04	0.0025	0.002	0.003	0.0086	3e-04	0.0016	6e-04	0.0048	0.001	0.0097	0.0171	0.0032	0.0041	0.001	0.0078	0.0099	0.0018	0.0038	0.0069	0.012	0.0027	0.0015	0.0028	0.0128	0.0017	0.0031	0.0071	0.0167	0.004	0.0042	0.0267	0.0049	0.0029	0.0025	0.003	0.0029	0.0044	0.0049	5e-04	0.0015	0.0101	7e-04	0.001	0.0032	0.0022	0.002	0.0021	0.0019	0.0022	0.0022	0.0023	0.0021	0.0024	0.00500344827586207	0.00432413793103448	0.947600257514126	1.2390481409266	gluconic acid lactone	null	null	null	null	null	17.31	null	217.1000	null
+SML	34	null	null	null	null	null	null	null	null	null	2	null	null	0.001	0.001	4e-04	0.0015	0.0011	5e-04	0.0019	0.0011	8e-04	0.001	0.0011	0.0014	0.0012	8e-04	0.0018	0.0012	0.001	0.0011	0.0013	7e-04	9e-04	9e-04	0.0019	0.0011	0.0011	0.0018	0.0013	9e-04	0.0015	9e-04	6e-04	0.001	0.0013	0.0012	9e-04	9e-04	0.0013	0.0011	8e-04	8e-04	0.0011	0.0013	0.0015	0.001	0.0012	0.0012	0.0014	0.0013	0.0014	8e-04	8e-04	7e-04	8e-04	8e-04	9e-04	0.001	9e-04	9e-04	0.00114827586206897	0.00102758620689655	0.331307785153907	0.232477932112745	glyceric acid	null	null	null	null	null	10.7526	null	189.1000	null
+SML	35	null	null	null	null	null	null	null	null	null	2	null	null	0.0385	0.0229	0.0337	0.0253	0.037	0.0236	0.0502	0.0243	0.0277	0.023	0.0529	0.0365	0.0274	0.0299	0.0516	0.0406	0.0377	0.035	0.0432	0.0216	0.0339	0.0357	0.0444	0.0447	0.0328	0.0433	0.034	0.0278	0.0403	0.056	0.03	0.0288	0.0305	0.0377	0.0233	0.0177	0.0257	0.0256	0.0344	0.0339	0.0277	0.0254	0.026	0.0181	0.0209	0.0337	0.0231	0.0269	0.0244	0.0288	0.0281	0.03	0.029	0.0293	0.0305	0.0308	0.0316	0.0297	0.0351551724137931	0.0288827586206897	0.254239241463913	0.240283590742006	glycerol	null	null	null	null	null	9.9594	null	205.1000	null
+SML	36	null	null	null	null	null	null	null	null	null	2	null	null	0.0054	0.0046	0.0022	0.0048	0.012	0.0039	0.0044	0.003	0.0096	0.0045	0.0036	0.0027	0.0116	0.0062	0.0266	0.0058	0.0093	0.0073	0.005	0.003	0.0074	0.0111	0.0077	0.0058	0.0143	0.0054	0.0032	0.0132	0.0051	0.0127	0.0083	0.0157	0.0099	0.006	0.0049	0.0109	0.0243	0.0094	0.0056	0.0053	0.0132	0.0025	0.0028	0.0079	0.0051	0.0049	0.0109	0.0032	0.0081	0.0051	0.0052	0.0054	0.0052	0.0051	0.0058	0.0057	0.0057	0.0054	0.00719655172413793	0.00759310344827586	0.694543735162891	0.598498030468122	glycine	null	null	null	null	null	10.4096	null	174.1000	null
+SML	37	null	null	null	null	null	null	null	null	null	2	null	null	0.0087	0.0271	0.0133	0.0064	0.0458	0.0105	0.0084	0.0069	0.0125	0.0064	0.0061	0.0143	0.0205	0.0311	0.0401	0.0072	0.0083	0.0225	9e-04	0.012	0.0097	0.0467	0.0236	0.0051	0.0168	0.0208	0.0018	0.0114	0.006	0.0473	0.0277	0.0086	0.006	0.0053	0.0217	0.0169	0.018	0.0019	0.0068	0.0012	0.0117	5e-04	4e-04	0.0025	0.0023	0.0109	0.0202	0.0024	0.0415	0.0238	0.0253	0.0277	0.0246	0.0249	0.026	0.027	0.026	0.0227	0.015548275862069	0.0166137931034483	0.79623803904664	0.760416032635727	Glycine_ N-(trimethylsilyl)-_ trimethylsilyl ester	null	null	null	null	null	7.643	null	102.1000	null
+SML	38	null	null	null	null	null	null	null	null	null	2	null	null	0.0016	0.0032	0.0027	0.0021	0.0033	0.0014	0.0047	0.003	0.0027	0.0025	0.0042	0.0038	0.004	0.0036	0.0063	0.0048	0.0032	0.0046	0.0044	0.0035	0.0032	0.0034	0.0043	0.0022	0.0017	0.0027	0.0021	0.003	0.0039	0.0049	0.0033	0.0039	0.0038	0.0033	0.0043	0.002	0.0047	0.0034	0.0029	0.003	0.0033	0.0031	0.0031	0.0031	0.0043	0.0025	0.0016	0.0021	0.0028	0.0031	0.0037	0.0034	0.003	0.0033	0.0033	0.0034	0.0034	0.0037	0.00331379310344828	0.0033	0.333677927842968	0.221054916566005	glycolic acid	null	null	null	null	null	6.9870934	null	147.1000	null
+SML	39	null	null	null	null	null	null	null	null	null	2	null	null	0.0032	0.0038	0.0069	0.0036	0.0048	0.0029	0.0035	0.005	0.0066	0.0045	0.008	0.0043	0.007	0.0056	0.0092	0.0056	0.0076	0.0079	0.0047	0.0051	0.0058	0.0116	0.0035	0.004	7e-04	0.0034	0.0023	0.0066	0.0075	0.0124	0.0042	0.0117	0.0082	0.0052	0.0082	8e-04	0.0083	0.0042	0.0053	0.0035	0.0069	0.0023	0.0024	0.0071	0.0075	0.0027	0.0024	0.0024	0.0062	0.0057	0.0051	0.0053	0.0049	0.0049	0.0054	0.0056	0.0058	0.0054	0.00535172413793103	0.00551724137931034	0.429437745266945	0.478392811316854	iminodiacetic acid	null	null	null	null	null	12.4376	null	160.1000	null
+SML	40	null	null	null	null	null	null	null	null	null	2	null	null	0.0337	0.0853	0.062	0.0363	0.1027	0.0644	0.0344	0.0416	0.0443	0.0325	0.0447	0.0641	0.1324	0.066	0.1277	0.0568	0.0421	0.1006	0.0219	0.0643	0.0369	0.1161	0.1171	0.0334	0.0597	0.0574	0.0202	0.0244	0.0498	0.1322	0.0932	0.049	0.0349	0.0555	0.1005	0.0382	0.0333	0.0264	0.0269	0.0178	0.0702	0.0146	0.011	0.0355	0.0208	0.0897	0.042	0.0293	0.1624	0.0853	0.0941	0.0985	0.0931	0.093	0.1021	0.1045	0.1021	0.0939	0.0611310344827586	0.0672413793103448	0.534306055267897	0.588738158706598	L-alanine	null	null	null	null	null	7.4131	null	116.2000	null
+SML	41	null	null	null	null	null	null	null	null	null	2	null	null	0.0022	0.0012	0.0019	0.0019	0.0016	0.0015	0.0022	0.0014	0.0018	0.0017	0.0022	0.0023	0.0022	0.0022	0.0017	0.0014	0.0019	0.0016	0.0015	0.0019	0.002	0.0017	0.0016	0.002	0.0021	0.0021	0.0014	0.0017	0.0031	0.0026	0.0012	0.0017	0.0015	0.0021	0.0015	0.0016	0.002	0.0017	0.0019	0.0018	0.0017	0.0014	0.002	0.0016	0.0018	0.0018	0.0014	0.0016	0.0017	0.0011	0.0011	0.0014	0.0011	0.0012	0.0015	0.0015	0.0015	0.0014	0.00186206896551724	0.0016	0.20570981865836	0.207960976765216	lauric acid	null	null	null	null	null	14.652862	null	257.2000	null
+SML	42	null	null	null	null	null	null	null	null	null	2	null	null	0.0014	0.0013	0.0013	0.0011	0.0029	0.002	0.0014	0.002	0.001	0.001	0.0016	0.0026	0.0022	0.0011	0.0014	0.0012	0.001	0.0018	0.0014	0.0012	6e-04	0.007	0.0018	0.0031	0.0037	0.0023	6e-04	0.0021	0.0017	6e-04	0.0021	0.0033	0.004	0.0016	9e-04	9e-04	0.0014	5e-04	0.001	0.001	0.001	1e-04	9e-04	0.0012	5e-04	0.0011	4e-04	8e-04	0.0037	8e-04	0.001	0.001	9e-04	9e-04	0.0014	0.0014	0.0014	0.0011	0.0018551724137931	0.00127241379310345	0.663093505932014	0.72240542180549	L-glutamic acid	null	null	null	null	null	14.39	null	246.2000	null
+SML	43	null	null	null	null	null	null	null	null	null	2	null	null	0.0066	0.0082	0.0089	0.0068	0.0063	0.0068	0.014	0.0057	0.0087	0.0059	0.0094	0.0091	0.006	0.0091	0.0071	0.0092	0.0077	0.0067	0.0142	0.0076	0.0101	0.0057	0.0064	0.0079	0.011	0.0063	0.0042	0.0114	0.0058	0.0117	0.005	0.0043	0.0052	0.0098	0.0045	0.0054	0.0075	0.0051	0.0086	0.0076	0.0063	0.0018	0.0042	0.0037	0.0037	0.0054	0.0057	0.003	0.0068	0.004	0.0063	0.0067	0.0066	0.0072	0.0074	0.0072	0.0076	0.0104	0.00802758620689655	0.00616206896551724	0.298484793301554	0.361614634665114	linoleic acid	null	null	null	null	null	20.304	null	75.1000	null
+SML	44	null	null	null	null	null	null	null	null	null	2	null	null	0.6831	0.6917	0.7715	0.6914	1.06	0.6275	0.6302	0.3509	0.3846	0.2223	0.5781	0.4468	0.4668	0.4113	0.4419	0.509	0.4499	0.3566	0.6344	0.3113	0.2398	0.8066	1.0967	0.7802	0.9465	1.0691	0.7393	0.2667	0.3486	0.2676	0.5048	0.485	0.4352	0.4481	0.4321	0.428	0.5964	0.7476	0.4366	0.4306	0.6636	0.4949	0.5008	0.4107	0.5213	0.5599	0.5238	0.7855	0.936	0.5241	0.5214	0.5436	0.5175	0.5245	0.5373	0.5411	0.542	0.5454	0.586648275862069	0.531220689655172	0.429133092533933	0.237007181841342	L-(+) lactic acid	null	null	null	null	null	6.7719	null	147.1000	null
+SML	45	null	null	null	null	null	null	null	null	null	2	null	null	0.0667	0.0723	0.0596	0.0443	0.0701	0.0614	0.025	0.0558	0.059	0.0578	0.0585	0.0639	0.0991	0.0288	0.0744	0.0362	0.0612	0.076	0.0284	0.0495	0.067	0.0771	0.0682	0.0488	0.0564	0.0388	0.0232	0.048	0.0537	0.0657	0.0499	0.0727	0.0813	0.0382	0.067	0.0637	0.073	0.0352	0.0468	0.0403	0.0806	0.027	0.0194	0.0326	0.0169	0.0677	0.028	0.0353	0.1031	0.0591	0.0622	0.0637	0.061	0.0622	0.0678	0.0691	0.0694	0.0646	0.0561793103448276	0.0559827586206897	0.311341382905789	0.366156182767822	L-leucine	null	null	null	null	null	8.165	null	86.1000	null
+SML	46	null	null	null	null	null	null	null	null	null	2	null	null	0.0043	0.0027	0.0025	0.0038	0.0039	0.0024	0.0016	0.0037	0.0052	0.003	0.004	0.0031	0.007	0.0022	0.0075	0.0024	0.0044	0.0052	0.0016	0.0031	0.004	0.0046	0.0034	0.0039	0.0033	0.0032	0.0019	0.0036	0.0025	0.006	0.0024	0.0062	0.0051	0.0029	0.0038	0.0039	0.0053	0.0022	0.0027	0.003	0.0015	6e-04	9e-04	0.0031	0.002	0.0038	0.0024	0.0025	0.0052	0.0029	0.0034	0.0035	0.0033	0.0033	0.0042	0.0045	0.0044	0.0036	0.00358620689655172	0.0034	0.389652964298546	0.404574069798763	L-methionine	null	null	null	null	null	13.184386	null	176.1000	null
+SML	47	null	null	null	null	null	null	null	null	null	2	null	null	4e-04	4e-04	1e-04	7e-04	8e-04	4e-04	5e-04	2e-04	4e-04	2e-04	1e-04	4e-04	6e-04	2e-04	0.0011	3e-04	6e-04	6e-04	4e-04	2e-04	5e-04	6e-04	7e-04	5e-04	0.001	6e-04	5e-04	3e-04	3e-04	8e-04	4e-04	7e-04	9e-04	6e-04	1e-04	4e-04	8e-04	4e-04	3e-04	1e-04	2e-04	1e-04	1e-04	7e-04	3e-04	4e-04	4e-04	3e-04	8e-04	1e-04	2e-04	2e-04	2e-04	1e-04	2e-04	2e-04	2e-04	1e-04	0.000468965517241379	0.000355172413793103	0.519522778566381	0.720131472644893	L-ornithine	null	null	null	null	null	16.642	null	142.1000	null
+SML	48	null	null	null	null	null	null	null	null	null	2	null	null	0.0965	0.0578	0.0604	0.0358	0.0937	0.0509	0.0273	0.0413	0.066	0.0308	0.0345	0.0579	0.0825	0.0414	0.3067	0.0517	0.0568	0.0738	0.0423	0.0546	0.0581	0.0758	0.1114	0.0694	0.0453	0.0491	0.021	0.0429	0.0526	0.0789	0.0649	0.0716	0.0732	0.0455	0.0606	0.054	0.0835	0.0277	0.0354	0.0339	0.0695	0.016	0.0099	0.0187	0.0124	0.0906	0.0365	0.0374	0.1015	0.0763	0.0794	0.0827	0.0776	0.0786	0.0866	0.0879	0.0869	0.0817	0.0651137931034483	0.0606689655172414	0.783400408616144	0.446305438231137	L-proline	null	null	null	null	null	8.462	null	70.1000	null
+SML	49	null	null	null	null	null	null	null	null	null	2	null	null	0.013	0.0165	0.0064	0.0141	0.0228	0.0105	0.0064	0.0063	0.0115	0.011	0.0122	0.0118	0.0172	0.0105	0.0296	0.0086	0.0176	0.0155	0.0064	0.0083	0.0092	0.0158	0.0147	0.0104	0.0203	0.0155	0.0053	0.0124	0.0073	0.0258	0.012	0.0208	0.0135	0.0085	0.0174	0.0138	0.0282	0.009	0.0085	0.0074	0.0103	0.0053	0.0045	0.0085	0.0075	0.0142	0.0109	0.0067	0.0188	0.0112	0.0124	0.013	0.0123	0.0125	0.0143	0.0153	0.0152	0.0128	0.0126586206896552	0.0127793103448276	0.434791714988025	0.430669545385343	L-serine	null	null	null	null	null	9.682	null	132.1000	null
+SML	50	null	null	null	null	null	null	null	null	null	2	null	null	0.0098	0.0103	0.004	0.0115	0.01	0.0084	0.0041	0.0105	0.0117	0.0127	0.0184	0.0075	0.022	0.0066	0.0341	0.0081	0.0113	0.0149	0.0052	0.0062	0.0077	0.0114	0.0103	0.0107	0.0086	0.0086	0.0049	0.0077	0.0066	0.0138	0.0078	0.0148	0.0116	0.007	0.0132	0.0107	0.0161	0.0071	0.0098	0.0094	0.0124	0.0052	0.0055	0.0057	0.0059	0.0111	0.0083	0.0059	0.0162	0.0098	0.0101	0.0109	0.0101	0.0106	0.0117	0.0123	0.0124	0.0108	0.0104758620689655	0.0102137931034483	0.574501992428919	0.303361357913569	L-threonine	null	null	null	null	null	10.22	null	117.1000	null
+SML	51	null	null	null	null	null	null	null	null	null	2	null	null	0.0158	0.0087	0.0089	0.0054	0.005	0.0074	0.0051	0.0065	0.0063	0.0087	0.0085	0.0043	0.0096	0.0043	0.0101	0.0058	0.0119	0.0131	0.0063	0.0089	0.0078	0.0163	0.0053	0.0079	0.0091	0.0053	0.0062	0.0051	0.005	0.0091	0.0086	0.0113	0.0086	0.0052	0.0129	0.008	0.0101	0.0042	0.0061	0.0084	0.012	0.0084	0.0027	0.0055	0.005	0.0139	0.0061	0.0069	0.0106	0.0091	0.0098	0.0111	0.0111	0.0105	0.012	0.0117	0.0117	0.0097	0.00788275862068966	0.00897586206896552	0.402337939521984	0.313530407833953	L-tryptophan	null	null	null	null	null	20.435	null	202.1000	null
+SML	52	null	null	null	null	null	null	null	null	null	2	null	null	0.0692	0.0943	0.0702	0.0576	0.0985	0.0857	0.033	0.0682	0.0765	0.0704	0.0834	0.0804	0.1447	0.0427	0.1196	0.0449	0.0799	0.1088	0.0386	0.0541	0.0761	0.1078	0.0917	0.0635	0.0697	0.0448	0.0259	0.0567	0.0674	0.0835	0.0661	0.0781	0.0922	0.0483	0.0803	0.0906	0.0954	0.0344	0.052	0.0312	0.0875	0.0289	0.0223	0.0381	0.0337	0.0823	0.0438	0.0404	0.124	0.0797	0.0837	0.0865	0.0824	0.0828	0.089	0.0906	0.0893	0.0849	0.073251724137931	0.0697241379310345	0.366672471872301	0.373453597644286	L-valine	null	null	null	null	null	7.146	null	72.1000	null
+SML	53	null	null	null	null	null	null	null	null	null	2	null	null	1e-04	4e-04	0.0013	2e-04	0.004	2e-04	0.0026	0	1e-04	1e-04	1e-04	0.0032	0.007	0.0011	6e-04	2e-04	0	0.0029	1e-04	0.002	2e-04	0.001	0.0052	0.0014	3e-04	0.0039	1e-04	1e-04	1e-04	6e-04	0.0017	1e-04	1e-04	2e-04	9e-04	2e-04	0	0	1e-04	1e-04	1e-04	1e-04	0	0.0011	0	0.0029	0.0057	1e-04	6e-04	4e-04	4e-04	5e-04	5e-04	5e-04	7e-04	8e-04	5e-04	7e-04	0.00132758620689655	0.000675862068965517	1.36728833359202	1.68637086250465	malonic acid	null	null	null	null	null	8.91	null	147.1000	null
+SML	54	null	null	null	null	null	null	null	null	null	2	null	null	0.0065	0.0077	0.0083	0.0068	0.0069	0.0053	0.0073	0.0074	0.0052	0.0047	0.0052	0.0072	0.0064	0.0062	0.0072	0.0049	0.0057	0.0073	0.0058	0.0077	0.0071	0.008	0.0071	0.0047	0.005	0.0079	0.0056	0.0072	0.0054	0.0074	0.0072	0.0076	0.0075	0.0077	0.0076	0.0069	0.0075	0.007	0.0042	0.0037	0.0049	0.0039	0.0024	0.0041	0.004	0.0078	0.0061	0.0072	0.0079	0.0077	0.007	0.0082	0.007	0.0072	0.0076	0.0075	0.0079	0.0075	0.00647241379310345	0.00655862068965517	0.170747606942383	0.247082377130909	methylmalonic acid	null	null	null	null	null	9.04	null	147.1000	null
+SML	55	null	null	null	null	null	null	null	null	null	2	null	null	0.0044	0.0027	0.005	0.0039	0.0032	0.0032	0.0061	0.0043	0.0033	0.0036	0.0066	0.0048	0.004	0.0034	0.0092	0.0042	0.0034	0.0031	0.004	0.0033	0.0048	0.0042	0.008	0.0054	0.0052	0.0043	0.0034	0.004	0.0045	0.0048	0.0028	0.0039	0.0037	0.0043	0.0024	0.0033	0.0046	0.0031	0.0044	0.0041	0.0032	0.0024	0.0038	0.0031	0.0033	0.0039	0.0032	0.0042	0.0041	0.0025	0.0027	0.0027	0.0026	0.0028	0.0033	0.0033	0.0036	0.0033	0.00446551724137931	0.00342758620689655	0.32859103439354	0.199236903366351	myristic acid	null	null	null	null	null	16.79697	null	117.1000	null
+SML	56	null	null	null	null	null	null	null	null	null	2	null	null	6e-04	2e-04	6e-04	7e-04	3e-04	6e-04	4e-04	0.0022	2e-04	2e-04	2e-04	4e-04	4e-04	0.001	3e-04	0.0019	6e-04	1e-04	8e-04	4e-04	4e-04	3e-04	5e-04	5e-04	2e-04	7e-04	5e-04	4e-04	5e-04	5e-04	2e-04	5e-04	4e-04	3e-04	1e-04	2e-04	4e-04	3e-04	0.002	0.0019	1e-04	4e-04	6e-04	8e-04	2e-04	1e-04	4e-04	4e-04	3e-04	3e-04	3e-04	3e-04	3e-04	4e-04	5e-04	4e-04	5e-04	4e-04	0.000555172413793103	0.00046551724137931	0.83462738078042	0.94210416551004	N-acetyl-D-tryptophan	null	null	null	null	null	19.261	null	202.1000	null
+SML	57	null	null	null	null	null	null	null	null	null	2	null	null	0.0076	0.0118	0.0095	0.0072	0.012	0.008	0.008	0.0077	0.0087	0.0086	0.0083	0.0113	0.0133	0.008	0.0129	0.0086	0.0068	0.0145	0.0063	0.0089	0.0089	0.0112	0.0113	0.0056	0.0091	0.011	0.0066	0.0072	0.0082	0.0114	0.0114	0.007	0.0089	0.0073	0.0128	0.0084	0.0075	0.0064	0.0069	0.0065	0.0112	0.0065	0.0067	0.0067	0.0061	0.0113	0.0085	0.0066	0.0114	0.0112	0.0109	0.0118	0.0111	0.0113	0.0122	0.0126	0.0127	0.0118	0.00921034482758621	0.00948620689655172	0.24564557361521	0.255041326675492	N-methylalanine	null	null	null	null	null	8.4496	null	130.2000	null
+SML	58	null	null	null	null	null	null	null	null	null	2	null	null	0.0244	0.0247	0.0346	0.0193	0.016	0.029	0.0528	0.0165	0.0245	0.019	0.0316	0.024	0.0183	0.0235	0.0217	0.0347	0.026	0.0244	0.0345	0.0237	0.0366	0.028	0.0185	0.0359	0.0346	0.0231	0.0108	0.0314	0.0174	0.0318	0.0133	0.0172	0.0186	0.0295	0.0131	0.0139	0.0257	0.0172	0.0268	0.0271	0.0177	0.0083	0.0155	0.0096	0.0091	0.0251	0.0157	0.0097	0.0179	0.0191	0.0208	0.0213	0.0216	0.0219	0.0242	0.0247	0.0244	0.0288	0.0261896551724138	0.0196413793103448	0.3269633694366	0.332258757981032	oleic acid	null	null	null	null	null	20.345898	null	339.3000	null
+SML	59	null	null	null	null	null	null	null	null	null	2	null	null	0.4401	0.6905	0.2145	0.5538	0.4105	0.4468	0.2916	0.5009	0.3588	0.3212	0.4439	0.2941	0.5791	0.4483	0.4614	0.3504	0.5392	0.6038	0.3761	0.5465	0.4489	0.4764	0.4917	0.4667	0.5457	0.3988	0.4268	0.3535	0.3693	0.4706	0.4717	0.3972	0.4415	0.337	0.3937	0.7683	0.4506	0.3441	0.4622	0.4669	0.4055	0.512	0.5068	0.2667	0.275	0.554	0.5536	0.5089	0.6464	0.4464	0.4487	0.4648	0.4431	0.4505	0.4628	0.4635	0.4656	0.4631	0.443079310344828	0.460041379310345	0.235649156491838	0.212520934000556	oxalic acid	null	null	null	null	null	7.983	null	147.1000	null
+SML	60	null	null	null	null	null	null	null	null	null	2	null	null	0.0577	0.0509	0.0661	0.0527	0.0435	0.0588	0.0769	0.068	0.0661	0.0594	0.0875	0.0746	0.0577	0.0681	0.0601	0.0638	0.0498	0.049	0.0562	0.0531	0.0781	0.0588	0.0585	0.062	0.0694	0.051	0.0504	0.0713	0.0635	0.0582	0.0406	0.0437	0.0478	0.0717	0.0433	0.0464	0.0568	0.043	0.0705	0.0621	0.0678	0.0373	0.0527	0.0499	0.0344	0.0435	0.0402	0.0283	0.0464	0.0377	0.0425	0.0472	0.0477	0.0491	0.0478	0.047	0.0479	0.0856	0.0614827586206897	0.0495551724137931	0.164217363124002	0.248411190308741	palmitic acid	null	null	null	null	null	18.757418	null	313.3000	null
+SML	61	null	null	null	null	null	null	null	null	null	2	null	null	0.0024	0.0021	0.0036	0.0021	0.0018	0.0036	0.0063	0.0024	0.0026	0.0014	0.0043	0.0019	0.0026	0.002	0.0019	0.0035	0.0026	0.0014	0.003	0.002	0.0032	0.0021	0.0016	0.0046	0.0034	0.0025	0.0013	0.0025	0.0011	0.0037	0.0011	0.0014	0.0015	0.002	9e-04	9e-04	0.0025	0.0015	0.0027	0.0026	0.0016	5e-04	0.0016	8e-04	6e-04	0.0023	0.0014	9e-04	9e-04	0.0014	0.0015	0.0019	0.0016	0.0016	0.0021	0.0022	0.0022	0.0022	0.00261379310344828	0.00165862068965517	0.431118797350068	0.435516024212342	palmitoleic acid	null	null	null	null	null	18.576725	null	311.3000	null
+SML	62	null	null	null	null	null	null	null	null	null	2	null	null	0.0036	0.0035	4e-04	0.0034	0.0067	0.0234	0.002	0.0025	0.0102	0.0136	0.0138	0.0077	0.0229	0.0053	0.0088	0.0036	0.0063	0.0037	0.0032	0.0039	0.009	0.0143	0.0056	0.0079	0.0023	0.0123	0.0029	0.0077	0.0042	0.0042	0.0065	0.0084	0.0134	0.0056	0.0039	0.0037	0.0046	0.0168	0.0011	0.001	0.0067	0.0086	0.0094	0.0012	0.0098	0.0095	7e-04	0.0026	0.0082	0.0076	0.0079	0.008	0.0077	0.0078	0.0084	0.0083	0.0086	0.0085	0.00740344827586207	0.00685172413793103	0.779177778159837	0.53328527551366	p-cresol	null	null	null	null	null	8.1101	null	165.1000	null
+SML	63	null	null	null	null	null	null	null	null	null	2	null	null	0.02	0.0147	0.0186	0.0142	0.018	0.0157	0.0073	0.0154	0.0191	0.0132	0.015	0.0144	0.0188	0.0102	0.0212	0.0117	0.0175	0.0219	0.0092	0.0162	0.0204	0.0207	0.0141	0.0177	0.0151	0.0124	0.0086	0.0174	0.0155	0.0206	0.0134	0.0262	0.0238	0.0124	0.0173	0.017	0.0195	0.0113	0.0146	0.0135	0.0193	0.0055	0.0118	0.0151	0.0096	0.0175	0.0095	0.0104	0.0246	0.0134	0.0148	0.0161	0.0148	0.0155	0.0184	0.0193	0.0191	0.0162	0.0156620689655172	0.0158793103448276	0.245680046159642	0.295654072137649	Phenylalanine	null	null	null	null	null	13.5005	null	120.1000	null
+SML	64	null	null	null	null	null	null	null	null	null	2	null	null	0.0983	0.1205	0.1164	0.1346	0.1594	0.1007	0.1668	0.1128	0.1047	0.1378	0.1922	0.1033	0.1548	0.1625	0.1484	0.1332	0.1227	0.1537	0.1016	0.1506	0.1183	0.1864	0.13	0.1304	0.0478	0.2098	0.1153	0.1536	0.2861	0.2368	0.1305	0.1742	0.1541	0.1319	0.1664	0.048	0.1502	0.1147	0.1308	0.0892	0.1743	0.1317	0.109	0.1459	0.1359	0.1036	0.1065	0.1262	0.1742	0.0752	0.0757	0.0733	0.0706	0.0711	0.0859	0.0854	0.0836	0.0728	0.139748275862069	0.118196551724138	0.310294688946411	0.363528928127882	phosphoric acid	null	null	null	null	null	9.972053	null	299.1000	null
+SML	65	null	null	null	null	null	null	null	null	null	2	null	null	6e-04	7e-04	0.001	0.001	0.001	5e-04	5e-04	0.0015	0.003	5e-04	0.0012	7e-04	0.002	0.005	0.0023	0.0012	7e-04	0.0017	0.0047	0.0012	9e-04	0.001	9e-04	0.0018	6e-04	5e-04	0.001	5e-04	6e-04	0.0018	7e-04	8e-04	0.001	4e-04	0.0016	6e-04	7e-04	5e-04	3e-04	2e-04	1e-04	2e-04	1e-04	7e-04	3e-04	7e-04	9e-04	0.0014	0.0011	0.0015	0.0016	0.0016	0.0015	0.0016	0.0018	0.0017	0.0019	0.0016	0.00133793103448276	0.000996551724137931	0.854394077125108	0.602961122510642	pipecolic acid	null	null	null	null	null	11.1944	null	156.1000	null
+SML	66	null	null	null	null	null	null	null	null	null	2	null	null	2e-04	3e-04	2e-04	5e-04	4e-04	4e-04	2e-04	2e-04	1e-04	1e-04	2e-04	0.0012	8e-04	1e-04	2e-04	3e-04	3e-04	1e-04	4e-04	3e-04	2e-04	1e-04	2e-04	5e-04	9e-04	3e-04	5e-04	1e-04	3e-04	2e-04	2e-04	2e-04	3e-04	6e-04	2e-04	2e-04	2e-04	3e-04	4e-04	0	0	1e-04	0	4e-04	4e-04	1e-04	7e-04	1e-04	1e-04	2e-04	3e-04	1e-04	3e-04	2e-04	3e-04	3e-04	2e-04	2e-04	0.000331034482758621	0.00023448275862069	0.77901465922389	0.686489562143722	Purine riboside	null	null	null	null	null	21.578	null	217.1000	null
+SML	67	null	null	null	null	null	null	null	null	null	2	null	null	0.0654	0.0917	0.0317	0.0404	0.0698	0.058	0.0743	0.0472	0.0813	0.0732	0.0679	0.0426	0.0673	0.0491	0.1001	0.0479	0.0505	0.1007	0.0377	0.0369	0.0498	0.0646	0.0826	0.0487	0.087	0.0753	0.0653	0.0715	0.0767	0.1341	0.047	0.0656	0.0626	0.0478	0.0431	0.0823	0.0677	0.048	0.0634	0.0659	0.0762	0.0227	0.0385	0.0643	0.065	0.0666	0.062	0.0727	0.1108	0.0869	0.0871	0.0916	0.088	0.0881	0.1016	0.1037	0.105	0.0912	0.0639724137931034	0.0741206896551724	0.296783710252175	0.329633577654233	Pyroglutamic acid	null	null	null	null	null	13.227168	null	156.1000	null
+SML	68	null	null	null	null	null	null	null	null	null	2	null	null	0.0136	0.0044	0.0141	0.0107	0.0134	0.0109	0.0118	0.0106	0.0143	0.0077	0.0126	0.0095	0.0092	0.0062	0.0094	0.0158	0.0125	0.0093	0.0226	0.0093	0.0086	0.0185	0.0107	0.0252	0.0113	0.0232	0.0083	0.0103	0.0129	0.0114	0.0177	0.0224	0.0188	0.0197	0.0127	0.0097	0.0206	0.0242	0.0129	0.0135	0.0212	0.0146	0.0149	0.0147	0.0232	0.0126	0.0081	0.0096	0.0179	0.0121	0.0123	0.0126	0.0123	0.0126	0.0132	0.0142	0.0129	0.0132	0.0123068965517241	0.0150275862068966	0.395148203411718	0.284132061299603	pyruvic acid	null	null	null	null	null	6.587	null	174.1000	null
+SML	69	null	null	null	null	null	null	null	null	null	2	null	null	0.0012	0.001	0.0019	0.0011	0.0018	7e-04	0.0014	0.0014	9e-04	8e-04	0.0016	0.0013	0.0014	0.0019	0.0014	0.0014	0.0011	0.0014	0.0011	0.0012	0.0019	0.0017	0.0016	0.0017	0.001	9e-04	0.0012	6e-04	0.0011	0.0012	9e-04	9e-04	9e-04	0.0011	0.0014	0.0014	0.0014	0.0017	0.0011	0.0012	0.0019	0.001	0.001	0.001	0.0013	0.001	0.0014	0.0011	0.0019	0.0012	0.0014	0.0013	0.0012	0.0011	0.0013	0.0013	0.0014	0.0012	0.0013	0.00124827586206897	0.278869836053836	0.2093636809848	(R)-3-Hydroxybutyric acid	null	null	null	null	null	8.3501	null	147.1000	null
+SML	70	null	null	null	null	null	null	null	null	null	2	null	null	4e-04	1e-04	3e-04	4e-04	3e-04	2e-04	2e-04	2e-04	2e-04	3e-04	3e-04	4e-04	5e-04	3e-04	6e-04	4e-04	2e-04	2e-04	4e-04	3e-04	3e-04	4e-04	4e-04	5e-04	4e-04	4e-04	3e-04	3e-04	6e-04	4e-04	2e-04	4e-04	5e-04	4e-04	2e-04	6e-04	4e-04	3e-04	4e-04	4e-04	3e-04	3e-04	3e-04	3e-04	2e-04	5e-04	2e-04	2e-04	4e-04	3e-04	3e-04	3e-04	3e-04	3e-04	3e-04	3e-04	4e-04	3e-04	0.000337931034482759	0.00033448275862069	0.357330229898426	0.291134458689545	ribose	null	null	null	null	null	15.036	null	103.1000	null
+SML	71	null	null	null	null	null	null	null	null	null	2	null	null	0.0027	0.0032	0.0029	0.0026	0.0031	0.0045	0.0047	0.0028	0.0029	0.0024	0.0023	0.0044	0.0034	0.0037	0.003	0.0034	0.0022	0.0033	0.0023	0.0032	0.0029	0.0031	0.0033	0.0021	0.0062	0.0032	0.0028	0.0026	0.0038	0.0034	0.0032	0.0031	0.0026	0.003	0.0034	0.004	0.0026	0.0023	0.0026	0.0027	0.0027	0.0031	0.0028	0.0039	0.0026	0.0035	0.0033	0.0043	0.0031	0.0029	0.0029	0.0031	0.0029	0.0029	0.0031	0.0032	0.0032	0.0031	0.00320689655172414	0.00308620689655172	0.27119699296869	0.143796507631643	sarcosine	null	null	null	null	null	7.8234	null	218.2000	null
+SML	72	null	null	null	null	null	null	null	null	null	2	null	null	0.0237	0.0182	0.0211	0.0246	0.017	0.021	0.0263	0.0256	0.0274	0.026	0.0345	0.0309	0.0243	0.0265	0.0259	0.0211	0.018	0.0191	0.0212	0.0217	0.0321	0.0228	0.026	0.0207	0.0254	0.0191	0.0295	0.0293	0.0277	0.0221	0.0171	0.0195	0.0209	0.0271	0.0172	0.0211	0.0261	0.0177	0.0281	0.0259	0.0283	0.0182	0.0238	0.024	0.0177	0.0172	0.0189	0.0139	0.0186	0.0275	0.0178	0.0177	0.017	0.0169	0.0181	0.0173	0.0174	0.0286	0.0243689655172414	0.020748275862069	0.181749696850525	0.210225492879179	stearic acid	null	null	null	null	null	20.559748	null	341.0000	null
+SML	73	null	null	null	null	null	null	null	null	null	2	null	null	0.0023	0.0011	8e-04	0.0018	0.0011	9e-04	6e-04	0.0011	9e-04	0.0011	0.0011	0.0018	0.0027	8e-04	0.0017	0.0013	6e-04	0.0014	0.0014	0.0013	8e-04	9e-04	0.001	0.0016	0.0024	0.0017	0.001	0.0014	9e-04	0.0012	9e-04	0.0018	0.0011	0.0029	0.0011	0.0018	0.002	0.0013	0.0013	0.0013	0.0012	0.0012	0.0012	8e-04	0.0015	0.0019	0.001	4e-04	0.0013	0.0011	0.0012	0.0011	0.0012	0.0012	0.0014	0.0014	0.0014	0.0013	0.00129310344827586	0.00132758620689655	0.409695202229851	0.333778144933034	threose	null	null	null	null	null	12.4385	null	205.2000	null
+SML	74	null	null	null	null	null	null	null	null	null	2	null	null	0.0024	0.0061	0.0023	0.0026	0.0104	0.0041	0.0016	0.0033	0.0026	7e-04	0.0024	0.0021	0.007	0.0032	0.0066	0.0042	0.0036	0.004	0.0029	0.0019	0.0024	0.003	0.0063	0.0037	0.0014	0.0013	0.0021	0.002	0.0015	0.0051	0.0018	0.0037	0.0023	0.0011	0.0018	0.0018	0.0094	0.0015	0.001	0.0011	6e-04	4e-04	6e-04	0.0027	0.0055	0.0012	0.0013	0.0027	0.0062	0.0032	0.0035	0.0036	0.0034	0.0034	0.0042	0.0042	0.0041	0.0035	0.00336896551724138	0.00292758620689655	0.628620059501331	0.678191615992415	trans-4-hydroxy-L-proline	null	null	null	null	null	13.306333	null	230.2000	null
+SML	75	null	null	null	null	null	null	null	null	null	2	null	null	0.0165	0.0157	0.0144	0.0131	0.0167	0.0187	0.0078	0.017	0.0192	0.0131	0.0199	0.0198	0.0308	0.0132	0.0199	0.0132	0.0198	0.0291	0.0089	0.0156	0.0278	0.0241	0.0172	0.0202	0.0204	0.0154	0.0045	0.0199	0.0187	0.0196	0.0162	0.0277	0.027	0.0176	0.0155	0.0178	0.0255	0.0107	0.017	0.0014	0.0163	0.0062	6e-04	0.0177	0.0081	0.0075	0.0113	0.004	0.0228	0.0115	0.0132	0.0135	0.013	0.0131	0.0182	0.0196	0.0199	0.0174	0.0176068965517241	0.0148241379310345	0.3300764574378	0.46653005253313	tyrosine	null	null	null	null	null	17.887936	null	218.1000	null
+SML	76	null	null	null	null	null	null	null	null	null	2	null	null	1.7411	1.4496	1.3891	2.0523	1.5663	1.5139	2.5217	1.5005	1.7386	2.1456	1.4314	1.2751	2.3686	0.9304	2.5974	1.5489	1.2546	3.3629	2.1268	1.3944	1.8697	1.9845	2.9602	2.2212	1.3023	1.2108	1.5426	1.4867	2.0307	0.8768	1.8708	2.0309	2.1983	2.0416	1.403	1.7878	1.9848	1.3172	1.2122	1.143	1.6446	1.8315	1.963	1.3227	2.7948	1.9388	1.0919	1.4831	1.3667	1.7237	1.7539	1.8036	1.7485	1.7661	1.8541	1.886	1.8828	1.8071	1.81096206896552	1.70790689655172	0.309593532348972	0.226520334039852	urea	null	null	null	null	null	9.412848	null	147.1000	null
+SML	77	null	null	null	null	null	null	null	null	null	2	null	null	8e-04	4e-04	4e-04	8e-04	6e-04	6e-04	0.0013	7e-04	5e-04	6e-04	6e-04	7e-04	9e-04	7e-04	0.0015	7e-04	5e-04	6e-04	7e-04	5e-04	9e-04	8e-04	0.0017	0.0012	9e-04	7e-04	7e-04	7e-04	0.001	8e-04	6e-04	8e-04	7e-04	8e-04	5e-04	0.001	7e-04	8e-04	0.0011	0.0011	6e-04	6e-04	8e-04	6e-04	6e-04	3e-04	6e-04	7e-04	8e-04	6e-04	7e-04	7e-04	7e-04	7e-04	9e-04	8e-04	9e-04	8e-04	0.000782758620689655	0.00073448275862069	0.392381488998996	0.230928108888859	xylitol	null	null	null	null	null	15.706668	null	217.1000	null
+

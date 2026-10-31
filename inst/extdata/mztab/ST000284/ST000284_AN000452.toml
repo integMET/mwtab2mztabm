@@ -1,0 +1,4128 @@
+# mwTab metadata of study ST000284, analysis AN000452
+# Exported by mwtab2mztabm 0.1.0.
+# Sample metadata is listed in [[SUBJECT_SAMPLE_FACTORS]].
+
+[mwtab2mztabm]
+format_version = 1
+factor_order = "Patient group"
+additional_data_order = ["Age at  Consent", "Gender", "Smoking condition", "Alcohol consumption", "CRC Diagnosis", "Stage", "Height [cm]", "Weight [kg]", "BMI [kg/m²]"]
+
+["METABOLOMICS WORKBENCH"]
+STUDY_ID = "ST000284"
+ANALYSIS_ID = "AN000452"
+VERSION = "1"
+CREATED_ON = "2016-09-17"
+
+[PROJECT]
+PROJECT_TITLE = "Colorectal Cancer Detection Using Targeted Serum Metabolic Profiling"
+PROJECT_SUMMARY = "Colorectal cancer (CRC) is one of the most prevalent and deadly cancers in the Despite an expanding knowledge of its molecular pathogenesis during the past decades, robust biomarkers to enable screening, surveillance, and therapy of CRC are still lacking. In this study, we present a targeted liquid mass spectrometry-based metabolic profiling approach for identifying biomarker that could enable highly sensitive and specific CRC detection using human serum In this targeted approach, 158 metabolites from 25 metabolic pathways of significance were monitored in 234 serum samples from three groups of patients CRC patients, 76 polyp patients, and 92 healthy controls). Partial least analysis (PLS-DA) models were established, which proved to be powerful for CRC patients from both healthy controls and polyp patients. Receiver operating curves generated based on these PLS-DA models showed high sensitivities (0.96 0.89, respectively, for differentiating CRC patients from healthy controls or patients); good specificities (0.80 and 0.88), and excellent areas under the (0.93 and 0.95) were also obtained. Monte Carlo cross validation (MCCV) was applied, demonstrating the robust diagnostic power of this metabolic profiling"
+INSTITUTE = "University of Washington"
+DEPARTMENT = "Anesthesiology and Pain Medicine"
+LABORATORY = "Northwest Metabolomics Research Center"
+LAST_NAME = "Gu"
+FIRST_NAME = "Haiwei"
+ADDRESS = "850 Republican St."
+EMAIL = "haiwei@uw.edu"
+PHONE = "7654919481"
+FUNDING_SOURCE = "AMRMC grant W81XWH-10-1- 0540, The China Scholarship Council is also gratefully (Grant to L.D.)."
+PUBLICATIONS = "Colorectal Cancer Detection Using Targeted Serum Metabolic Profiling, J. Res., 2014, 13, 4120-4130"
+
+[STUDY]
+STUDY_TITLE = "Colorectal Cancer Detection Using Targeted Serum Metabolic Profiling"
+STUDY_SUMMARY = "Colorectal cancer (CRC) is one of the most prevalent and deadly cancers in the Despite an expanding knowledge of its molecular pathogenesis during the past decades, robust biomarkers to enable screening, surveillance, and therapy of CRC are still lacking. In this study, we present a targeted liquid mass spectrometry-based metabolic profiling approach for identifying biomarker that could enable highly sensitive and specific CRC detection using human serum In this targeted approach, 158 metabolites from 25 metabolic pathways of significance were monitored in 234 serum samples from three groups of patients CRC patients, 76 polyp patients, and 92 healthy controls). Partial least analysis (PLS-DA) models were established, which proved to be powerful for CRC patients from both healthy controls and polyp patients. Receiver operating curves generated based on these PLS-DA models showed high sensitivities (0.96 0.89, respectively, for differentiating CRC patients from healthy controls or patients); good specificities (0.80 and 0.88), and excellent areas under the (0.93 and 0.95) were also obtained. Monte Carlo cross validation (MCCV) was applied, demonstrating the robust diagnostic power of this metabolic profiling"
+INSTITUTE = "University of Washington"
+DEPARTMENT = "Anesthesiology and Pain Medicine"
+LABORATORY = "Northwest Metabolomics Research Center"
+LAST_NAME = "Gu"
+FIRST_NAME = "Haiwei"
+ADDRESS = "850 Republican St."
+EMAIL = "haiwei@uw.edu"
+PHONE = "7654919481"
+NUM_GROUPS = "3"
+TOTAL_SUBJECTS = "234"
+NUM_MALES = "118"
+NUM_FEMALES = "116"
+
+[SUBJECT]
+SUBJECT_TYPE = "Human"
+SUBJECT_SPECIES = "Homo sapiens"
+AGE_OR_AGE_RANGE = "18-88"
+GENDER = "Femal(116), Male(118)"
+HUMAN_SMOKING_STATUS = "67 nonsmokers and 167 smokers"
+HUMAN_ALCOHOL_DRUG_USE = "14 no alcohol and 220 alcohol"
+
+[COLLECTION]
+COLLECTION_SUMMARY = "Patient recruitment and sample collection protocols were University and Indiana Boards. Informed according (both were evaluated, and blood samples from the fasting and bowel polyp status were polyp patients (n = 76), and healthy (n = 92) biopsied tissue. Patients were age- and the gender/age group sample was allowed to clot for 45 min and then All samples were stored at -80C"
+SAMPLE_TYPE = "Blood serum"
+BLOOD_SERUM_OR_PLASMA = "Serum"
+
+[TREATMENT]
+TREATMENT_SUMMARY = "Patient recruitment and sample collection protocols were University and Indiana Boards. Informed according (both were evaluated, and blood samples from the fasting and bowel polyp status were polyp patients (n = 76), and healthy (n = 92) biopsied tissue. Patients were age- and the gender/age group sample was allowed to clot for 45 min and then All samples were stored at -80C"
+
+[SAMPLEPREP]
+SAMPLEPREP_SUMMARY = "Frozen samples were first thawed at room temperature (25 °C) and 50 uL of each sample was placed in a 2 Scientific). The initial step for extraction was vortexed centrifuged at 20 800g for 10 min, and the supernatant was Eppendorf To the first vial containing methanol was added, and the metabolite the was collected in the same vial that supernatant. The resulting supernatants using a Vacufuge dried mM ammonium acetate in 40% water/60% acetonitrile 5.13 L-tyrosine-13C2 and 22.5 Laboratory). each through 0.45 ?m PVDF filters Torrance, analysis. A pooled sample, which was a polyp patients, and as sample was analyzed once every 10 patient"
+
+[CHROMATOGRAPHY]
+CHROMATOGRAPHY_SUMMARY = "The LC system was composed of two Agilent 1260 binary autosampler, and Agilent column valve (Agilent 10 ?L for analysis using negative ionization mode and 2 ionization mode. Both chromatographic hydrophilic interaction ZIC-cHILIC KGaA, perform the separation, while the other column for the next injection. The flow was kept the phase was composed of Solvents A (5 mM acetonitrile +0.2% acetic confirmed by spiking the with metabolites). However, some metabolites that had similar m/z values (<1 Da) were acid and 3- samples not undergo any shift (each peak was of analysis), which proved the"
+CHROMATOGRAPHY_TYPE = "HILIC"
+INSTRUMENT_NAME = "Agilent 1260"
+COLUMN_NAME = "SeQuant ZIC-cHILIC"
+COLUMN_TEMPERATURE = "40oC"
+FLOW_GRADIENT = "0-2 min: 90%B; 2-5 min: to 50%B; 5-9 min: 50%B"
+FLOW_RATE = "0.3 mL/min"
+INJECTION_TEMPERATURE = "4oC"
+SAMPLE_INJECTION = "2 uL for positive and 10 uL for negative"
+SOLVENT_A = "(5 mM ammonium acetate in 90% H2O/10% acetonitrile +0.2% acetic acid"
+SOLVENT_B = "5 mM ammonium acetate in 90% acetonitrile/ 10% H2O + 0.2% acetic acid"
+ANALYTICAL_TIME = "18 min"
+CAPILLARY_VOLTAGE = "3.8kV"
+
+[ANALYSIS]
+ANALYSIS_TYPE = "MS"
+LABORATORY_NAME = "Northwest Metabolomics Research Center"
+SOFTWARE_VERSION = "1.5"
+
+[MS]
+MS_COMMENTS = "-"
+INSTRUMENT_NAME = "ABI Sciex 5500 QTrap"
+INSTRUMENT_TYPE = "Triple quadrupole"
+MS_TYPE = "ESI"
+ION_MODE = "UNSPECIFIED"
+CAPILLARY_VOLTAGE = "3.8kV"
+ION_SOURCE_TEMPERATURE = "500oC"
+REAGENT_GAS = "N2"
+
+[MS_METABOLITE_DATA]
+Units = "cps"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "109"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "45"
+Gender = "M"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "Rectal cancer"
+Stage = "Stage I/II"
+"Height [cm]" = "187.96"
+"Weight [kg]" = "95.25"
+"BMI [kg/m²]" = "26.96"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "11"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "56"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "Colon cancer"
+Stage = "Stage IV"
+"Height [cm]" = "185.42"
+"Weight [kg]" = "61.23"
+"BMI [kg/m²]" = "17.81"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "115"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "53"
+Gender = "F"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "Colon cancer"
+Stage = "Stage IV"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "12"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "55"
+Gender = "M"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "Colon cancer"
+Stage = "Stage IV"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "122"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "55"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "Colon cancer"
+Stage = "Stage IV"
+"Height [cm]" = "157.48"
+"Weight [kg]" = "63.5"
+"BMI [kg/m²]" = "25.61"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "13"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "29"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "Colon cancer"
+Stage = "Stage IV"
+"Height [cm]" = "180.34"
+"Weight [kg]" = "98.88"
+"BMI [kg/m²]" = "30.4"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "132"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "51"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "No alcohol"
+"CRC Diagnosis" = "Rectal cancer"
+Stage = "Stage I/II"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "133"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "76"
+Gender = "M"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "Rectal cancer"
+Stage = "Stage III"
+"Height [cm]" = "177.8"
+"Weight [kg]" = "102.06"
+"BMI [kg/m²]" = "32.28"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "139"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "66"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "Colon cancer"
+Stage = "Stage I/II"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "14"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "46"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "Rectal cancer"
+Stage = "Stage IV"
+"Height [cm]" = "152.4"
+"Weight [kg]" = "63.96"
+"BMI [kg/m²]" = "27.54"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "152"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "52"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "Colon cancer"
+Stage = "Stage IV"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "154"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "86"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "Colon cancer"
+Stage = "Stage IV"
+"Height [cm]" = "157.48"
+"Weight [kg]" = "63.05"
+"BMI [kg/m²]" = "25.42"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "156"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "65"
+Gender = "M"
+"Smoking condition" = "Everyday"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "Rectal cancer"
+Stage = "Stage III"
+"Height [cm]" = "180.34"
+"Weight [kg]" = "79.38"
+"BMI [kg/m²]" = "24.41"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "157"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "67"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "Rectal cancer"
+Stage = "Stage IV"
+"Height [cm]" = "185.42"
+"Weight [kg]" = "83.01"
+"BMI [kg/m²]" = "24.14"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "162"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "66"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "Colon cancer"
+Stage = "Stage IV"
+"Height [cm]" = "170.18"
+"Weight [kg]" = "69.4"
+"BMI [kg/m²]" = "23.96"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "168"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "53"
+Gender = "M"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "Colon cancer"
+Stage = "Stage IV"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "173"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "71"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "Rectal cancer"
+Stage = "Stage IV"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "177"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "63"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "Rectal cancer"
+Stage = "Stage III"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "187"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "37"
+Gender = "M"
+"Smoking condition" = "Everyday"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "Colon cancer"
+Stage = "Stage IV"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "193"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "73"
+Gender = "M"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "Colon cancer"
+Stage = "Stage IV"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "20"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "68"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "Rectal cancer"
+Stage = "Stage IV"
+"Height [cm]" = "157.48"
+"Weight [kg]" = "55.34"
+"BMI [kg/m²]" = "22.31"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "200"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "27"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "Rectal cancer"
+Stage = "Stage III"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "202"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "47"
+Gender = "F"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "Colon cancer"
+Stage = "Stage III"
+"Height [cm]" = "167.64"
+"Weight [kg]" = "81.65"
+"BMI [kg/m²]" = "29.05"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "214"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "68"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "Colon cancer"
+Stage = "Stage IV"
+"Height [cm]" = "175.26"
+"Weight [kg]" = "84.82"
+"BMI [kg/m²]" = "27.61"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "24"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "74"
+Gender = "F"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "Colon cancer"
+Stage = "Stage III"
+"Height [cm]" = "157.48"
+"Weight [kg]" = "51.71"
+"BMI [kg/m²]" = "20.85"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "250"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "40"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "Rectal cancer"
+Stage = "Stage III"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "253"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "48"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "Colon cancer"
+Stage = "Stage IV"
+"Height [cm]" = "165.1"
+"Weight [kg]" = "52.16"
+"BMI [kg/m²]" = "19.14"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "257"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "50"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "Rectal cancer"
+Stage = "Stage III"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "263"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "66"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "Colon cancer"
+Stage = "Stage IV"
+"Height [cm]" = "167.64"
+"Weight [kg]" = "72.57"
+"BMI [kg/m²]" = "25.82"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "276"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "51"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "Colon cancer"
+Stage = "Stage III"
+"Height [cm]" = "167.64"
+"Weight [kg]" = "81.65"
+"BMI [kg/m²]" = "29.05"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "277"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "42"
+Gender = "F"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "Colon cancer"
+Stage = "Stage IV"
+"Height [cm]" = "170.18"
+"Weight [kg]" = "90.26"
+"BMI [kg/m²]" = "31.17"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "278"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "45"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "Colon cancer"
+Stage = "Stage IV"
+"Height [cm]" = "160.02"
+"Weight [kg]" = "52.16"
+"BMI [kg/m²]" = "20.37"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "279"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "50"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "Rectal cancer"
+Stage = "Stage III"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "28"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "45"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "Colon cancer"
+Stage = "Stage IV"
+"Height [cm]" = "175.26"
+"Weight [kg]" = "86.18"
+"BMI [kg/m²]" = "28.06"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "281"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "60"
+Gender = "M"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "Rectal cancer"
+Stage = "Stage III"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "282"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "59"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "Rectal cancer"
+Stage = "Stage IV"
+"Height [cm]" = "154.94"
+"Weight [kg]" = "52.16"
+"BMI [kg/m²]" = "21.73"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "283"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "58"
+Gender = "M"
+"Smoking condition" = "Everyday"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "Rectal cancer"
+Stage = "Stage I/II"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "284"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "62"
+Gender = "M"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "Rectal cancer"
+Stage = "Stage I/II"
+"Height [cm]" = "177.8"
+"Weight [kg]" = "70.31"
+"BMI [kg/m²]" = "22.24"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "285"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "86"
+Gender = "F"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "Rectal cancer"
+Stage = "Stage I/II"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "289"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "75"
+Gender = "M"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "Colon cancer"
+Stage = "Stage IV"
+"Height [cm]" = "185.42"
+"Weight [kg]" = "93.89"
+"BMI [kg/m²]" = "27.31"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "291"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "30"
+Gender = "F"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "Rectal cancer"
+Stage = "Stage I/II"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "292"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "50"
+Gender = "M"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "Rectal cancer"
+Stage = "Stage III"
+"Height [cm]" = "175.26"
+"Weight [kg]" = "79.83"
+"BMI [kg/m²]" = "25.99"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "295"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "60"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "No alcohol"
+"CRC Diagnosis" = "Rectal cancer"
+Stage = "Stage I/II"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "300"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "67"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "Rectal cancer"
+Stage = "Stage I/II"
+"Height [cm]" = "160.02"
+"Weight [kg]" = "66.68"
+"BMI [kg/m²]" = "26.04"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "304"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "88"
+Gender = "F"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "Colon cancer"
+Stage = "Stage III"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "310"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "45"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "Colon cancer"
+Stage = "Stage IV"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "312"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "70"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "Colon cancer"
+Stage = "Stage IV"
+"Height [cm]" = "175.26"
+"Weight [kg]" = "88.45"
+"BMI [kg/m²]" = "28.8"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "34"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "62"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "No alcohol"
+"CRC Diagnosis" = "Colon cancer"
+Stage = "Stage III"
+"Height [cm]" = "180.34"
+"Weight [kg]" = "88.45"
+"BMI [kg/m²]" = "27.2"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "427"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "68"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "Rectal cancer"
+Stage = "Stage I/II"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "447"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "51"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "Rectal cancer"
+Stage = "Stage I/II"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "448"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "63"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "Rectal cancer"
+Stage = "Stage III"
+"Height [cm]" = "177.8"
+"Weight [kg]" = "89.36"
+"BMI [kg/m²]" = "28.27"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "452"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "61"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "Colon cancer"
+Stage = "Stage I/II"
+"Height [cm]" = "165.1"
+"Weight [kg]" = "81.19"
+"BMI [kg/m²]" = "29.79"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "454"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "42"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "Colon cancer"
+Stage = "Stage I/II"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "455"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "49"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "Colon cancer"
+Stage = "Stage I/II"
+"Height [cm]" = "187.96"
+"Weight [kg]" = "99.79"
+"BMI [kg/m²]" = "28.25"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "457"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "62"
+Gender = "M"
+"Smoking condition" = "Everyday"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "Colon cancer"
+Stage = "Stage IV"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "469"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "78"
+Gender = "F"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "Colon cancer"
+Stage = "Stage I/II"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "49"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "50"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "Colon cancer"
+Stage = "Stage IV"
+"Height [cm]" = "160.02"
+"Weight [kg]" = "58.06"
+"BMI [kg/m²]" = "22.67"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "491"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "77"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "Colon cancer"
+Stage = "Stage III"
+"Height [cm]" = "172.72"
+"Weight [kg]" = "96.16"
+"BMI [kg/m²]" = "32.23"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "5"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "56"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "Colon cancer"
+Stage = "Stage IV"
+"Height [cm]" = "162.56"
+"Weight [kg]" = "72.57"
+"BMI [kg/m²]" = "27.46"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "53"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "32"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "Colon cancer"
+Stage = "Stage III"
+"Height [cm]" = "175.26"
+"Weight [kg]" = "86.18"
+"BMI [kg/m²]" = "28.06"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "561"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "70"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "Colon cancer"
+Stage = "Stage I/II"
+"Height [cm]" = "165.1"
+"Weight [kg]" = "70.31"
+"BMI [kg/m²]" = "25.79"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "562"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "46"
+Gender = "M"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "Rectal cancer"
+Stage = "Stage I/II"
+"Height [cm]" = "170.18"
+"Weight [kg]" = "74.84"
+"BMI [kg/m²]" = "25.84"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "575"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "67"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "Colon cancer"
+Stage = "Stage I/II"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "77"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "CRC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "56"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "Rectal cancer"
+Stage = "Stage I/II"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "59"
+Gender = "F"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "165.1"
+"Weight [kg]" = "74.84"
+"BMI [kg/m²]" = "27.46"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "100"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "31"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "No alcohol"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "167.64"
+"Weight [kg]" = "115.67"
+"BMI [kg/m²]" = "41.16"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "107"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "44"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "154.94"
+"Weight [kg]" = "102.06"
+"BMI [kg/m²]" = "42.51"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "108"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "51"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "172.72"
+"Weight [kg]" = "70.31"
+"BMI [kg/m²]" = "23.57"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "113"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "58"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "167.64"
+"Weight [kg]" = "77.11"
+"BMI [kg/m²]" = "27.44"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "118"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "60"
+Gender = "M"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "No alcohol"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "177.8"
+"Weight [kg]" = "70.31"
+"BMI [kg/m²]" = "22.24"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "119"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "60"
+Gender = "M"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "180.34"
+"Weight [kg]" = "81.65"
+"BMI [kg/m²]" = "25.1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "120"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "62"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "177.8"
+"Weight [kg]" = "90.72"
+"BMI [kg/m²]" = "28.7"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "131"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "48"
+Gender = "F"
+"Smoking condition" = "Everyday"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "165.1"
+"Weight [kg]" = "64.41"
+"BMI [kg/m²]" = "23.63"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "140"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "57"
+Gender = "F"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "172.72"
+"Weight [kg]" = "74.84"
+"BMI [kg/m²]" = "25.09"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "141"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "50"
+Gender = "M"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "185.42"
+"Weight [kg]" = "72.57"
+"BMI [kg/m²]" = "21.11"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "159"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "57"
+Gender = "F"
+"Smoking condition" = "Everyday"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "154.94"
+"Weight [kg]" = "60.78"
+"BMI [kg/m²]" = "25.32"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "163"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "63"
+Gender = "M"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "170.18"
+"Weight [kg]" = "68.04"
+"BMI [kg/m²]" = "23.49"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "170"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "52"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "172.72"
+"Weight [kg]" = "108.86"
+"BMI [kg/m²]" = "36.49"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "179"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "44"
+Gender = "M"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "182.88"
+"Weight [kg]" = "102.06"
+"BMI [kg/m²]" = "30.52"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "52"
+Gender = "M"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "172.72"
+"Weight [kg]" = "99.79"
+"BMI [kg/m²]" = "33.45"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "186"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "56"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "165.1"
+"Weight [kg]" = "130.63"
+"BMI [kg/m²]" = "47.93"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "192"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "64"
+Gender = "F"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "175.26"
+"Weight [kg]" = "72.57"
+"BMI [kg/m²]" = "23.63"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "196"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "63"
+Gender = "F"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "172.72"
+"Weight [kg]" = "95.25"
+"BMI [kg/m²]" = "31.93"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "199"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "54"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "165.1"
+"Weight [kg]" = "70.31"
+"BMI [kg/m²]" = "25.79"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "57"
+Gender = "M"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "190.5"
+"Weight [kg]" = "87.09"
+"BMI [kg/m²]" = "24"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "205"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "65"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "185.42"
+"Weight [kg]" = "95.25"
+"BMI [kg/m²]" = "27.71"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "208"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "49"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "21"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "61"
+Gender = "M"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "180.34"
+"Weight [kg]" = "81.65"
+"BMI [kg/m²]" = "25.1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "210"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "64"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "165.1"
+"Weight [kg]" = "71.21"
+"BMI [kg/m²]" = "26.13"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "213"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "45"
+Gender = "M"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "180.34"
+"Weight [kg]" = "108.86"
+"BMI [kg/m²]" = "33.47"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "216"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "44"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "160.02"
+"Weight [kg]" = "65.77"
+"BMI [kg/m²]" = "25.69"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "237"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "52"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "No alcohol"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "175.26"
+"Weight [kg]" = "81.65"
+"BMI [kg/m²]" = "26.58"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "244"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "49"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "182.88"
+"Weight [kg]" = "102.06"
+"BMI [kg/m²]" = "30.52"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "251"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "52"
+Gender = "F"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "167.64"
+"Weight [kg]" = "65.77"
+"BMI [kg/m²]" = "23.4"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "252"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "70"
+Gender = "F"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "160.02"
+"Weight [kg]" = "90.72"
+"BMI [kg/m²]" = "35.43"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "258"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "63"
+Gender = "F"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "160.02"
+"Weight [kg]" = "68.04"
+"BMI [kg/m²]" = "26.57"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "264"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "38"
+Gender = "M"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "177.8"
+"Weight [kg]" = "133.81"
+"BMI [kg/m²]" = "42.33"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "265"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "59"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "No alcohol"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "170.18"
+"Weight [kg]" = "125.19"
+"BMI [kg/m²]" = "43.23"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "271"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "62"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "154.94"
+"Weight [kg]" = "63.5"
+"BMI [kg/m²]" = "26.45"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "272"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "63"
+Gender = "F"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "157.48"
+"Weight [kg]" = "78.47"
+"BMI [kg/m²]" = "31.64"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "288"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "41"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "160.02"
+"Weight [kg]" = "54.43"
+"BMI [kg/m²]" = "21.26"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "294"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "56"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "No alcohol"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "167.64"
+"Weight [kg]" = "77.11"
+"BMI [kg/m²]" = "27.44"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "3"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "57"
+Gender = "M"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "177.8"
+"Weight [kg]" = "103.87"
+"BMI [kg/m²]" = "32.86"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "30"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "71"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "160.02"
+"Weight [kg]" = "53.07"
+"BMI [kg/m²]" = "20.73"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "37"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "68"
+Gender = "M"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "175.26"
+"Weight [kg]" = "113.4"
+"BMI [kg/m²]" = "36.92"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "39"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "36"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "180.34"
+"Weight [kg]" = "72.57"
+"BMI [kg/m²]" = "22.32"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "40"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "43"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "200.66"
+"Weight [kg]" = "108.86"
+"BMI [kg/m²]" = "27.04"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "406"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "54"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "182.88"
+"Weight [kg]" = "108.86"
+"BMI [kg/m²]" = "32.55"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "409"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "18"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "170.18"
+"Weight [kg]" = "61.23"
+"BMI [kg/m²]" = "21.14"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "423"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "36"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "177.8"
+"Weight [kg]" = "77.11"
+"BMI [kg/m²]" = "24.39"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "43"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "25"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "172.72"
+"Weight [kg]" = "81.65"
+"BMI [kg/m²]" = "27.37"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "433"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "48"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "185.42"
+"Weight [kg]" = "106.59"
+"BMI [kg/m²]" = "31"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "437"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "75"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "172.72"
+"Weight [kg]" = "76.2"
+"BMI [kg/m²]" = "25.54"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "442"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "69"
+Gender = "F"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "160.02"
+"Weight [kg]" = "93.89"
+"BMI [kg/m²]" = "36.67"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "45"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "54"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "175.26"
+"Weight [kg]" = "74.84"
+"BMI [kg/m²]" = "24.37"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "46"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "57"
+Gender = "F"
+"Smoking condition" = "Everyday"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "170.18"
+"Weight [kg]" = "61.23"
+"BMI [kg/m²]" = "21.14"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "466"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "64"
+Gender = "M"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "170.18"
+"Weight [kg]" = "113.4"
+"BMI [kg/m²]" = "39.16"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "475"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "70"
+Gender = "M"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "182.88"
+"Weight [kg]" = "90.72"
+"BMI [kg/m²]" = "27.12"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "482"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "54"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "No alcohol"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "172.72"
+"Weight [kg]" = "89.81"
+"BMI [kg/m²]" = "30.11"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "483"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "73"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "No alcohol"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "177.8"
+"Weight [kg]" = "94.35"
+"BMI [kg/m²]" = "29.84"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "485"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "80"
+Gender = "M"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "172.72"
+"Weight [kg]" = "77.11"
+"BMI [kg/m²]" = "25.85"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "488"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "66"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "172.72"
+"Weight [kg]" = "81.19"
+"BMI [kg/m²]" = "27.22"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "489"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "50"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "182.88"
+"Weight [kg]" = "97.52"
+"BMI [kg/m²]" = "29.16"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "490"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "60"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "187.96"
+"Weight [kg]" = "85.28"
+"BMI [kg/m²]" = "24.14"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "492"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "60"
+Gender = "M"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "177.8"
+"Weight [kg]" = "100.7"
+"BMI [kg/m²]" = "31.85"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "498"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "78"
+Gender = "M"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "172.72"
+"Weight [kg]" = "119.29"
+"BMI [kg/m²]" = "39.99"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "56"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "74"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "No alcohol"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "152.4"
+"Weight [kg]" = "64.86"
+"BMI [kg/m²]" = "27.93"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "566"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "76"
+Gender = "F"
+"Smoking condition" = "Everyday"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "157.48"
+"Weight [kg]" = "49.9"
+"BMI [kg/m²]" = "20.12"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "57"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "71"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "180.34"
+"Weight [kg]" = "73.94"
+"BMI [kg/m²]" = "22.73"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "577"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "66"
+Gender = "F"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "157.48"
+"Weight [kg]" = "72.57"
+"BMI [kg/m²]" = "29.26"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "581"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "44"
+Gender = "F"
+"Smoking condition" = "Everyday"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "137.16"
+"Weight [kg]" = "72.57"
+"BMI [kg/m²]" = "38.58"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "586"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "59"
+Gender = "M"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "180.34"
+"Weight [kg]" = "77.11"
+"BMI [kg/m²]" = "23.71"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "588"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "56"
+Gender = "F"
+"Smoking condition" = "Everyday"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "165.1"
+"Weight [kg]" = "90.72"
+"BMI [kg/m²]" = "33.28"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "59"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "60"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "157.48"
+"Weight [kg]" = "58.97"
+"BMI [kg/m²]" = "23.78"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "6"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "21"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "160.02"
+"Weight [kg]" = "59.42"
+"BMI [kg/m²]" = "23.21"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "61"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "21"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "175.26"
+"Weight [kg]" = "108.86"
+"BMI [kg/m²]" = "35.44"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "63"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "24"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "No alcohol"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "180.34"
+"Weight [kg]" = "73.94"
+"BMI [kg/m²]" = "22.73"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "64"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "57"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "175.26"
+"Weight [kg]" = "101.6"
+"BMI [kg/m²]" = "33.08"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "65"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "47"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "154.94"
+"Weight [kg]" = "73.48"
+"BMI [kg/m²]" = "30.61"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "7"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "60"
+Gender = "F"
+"Smoking condition" = "Everyday"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "165.1"
+"Weight [kg]" = "58.97"
+"BMI [kg/m²]" = "21.63"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "75"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "64"
+Gender = "F"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "152.4"
+"Weight [kg]" = "60.78"
+"BMI [kg/m²]" = "26.17"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "76"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "52"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "177.8"
+"Weight [kg]" = "85.28"
+"BMI [kg/m²]" = "26.97"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "78"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "53"
+Gender = "F"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "165.1"
+"Weight [kg]" = "68.04"
+"BMI [kg/m²]" = "24.96"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "79"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "61"
+Gender = "M"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "180.34"
+"Weight [kg]" = "83.91"
+"BMI [kg/m²]" = "25.8"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "87"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "49"
+Gender = "M"
+"Smoking condition" = "Everyday"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "185.42"
+"Weight [kg]" = "147.42"
+"BMI [kg/m²]" = "42.88"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "88"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "46"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "165.1"
+"Weight [kg]" = "57.15"
+"BMI [kg/m²]" = "20.97"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "93"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "53"
+Gender = "M"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "187.96"
+"Weight [kg]" = "145.15"
+"BMI [kg/m²]" = "41.09"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "98"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Healthy"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "51"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "185.42"
+"Weight [kg]" = "70.31"
+"BMI [kg/m²]" = "20.45"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "10"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "56"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "162.56"
+"Weight [kg]" = "106.14"
+"BMI [kg/m²]" = "40.17"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "102"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "63"
+Gender = "F"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "167.64"
+"Weight [kg]" = "113.4"
+"BMI [kg/m²]" = "40.35"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "106"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "58"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "116"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "56"
+Gender = "M"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "No alcohol"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "167.64"
+"Weight [kg]" = "68.04"
+"BMI [kg/m²]" = "24.21"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "123"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "51"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "162.56"
+"Weight [kg]" = "67.13"
+"BMI [kg/m²]" = "25.4"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "136"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "51"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "137"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "53"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "149.86"
+"Weight [kg]" = "76.2"
+"BMI [kg/m²]" = "33.93"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "142"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "56"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "149"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "63"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "151"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "44"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "155"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "46"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "160"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "61"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "170.18"
+"Weight [kg]" = "81.65"
+"BMI [kg/m²]" = "28.19"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "17"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "61"
+Gender = "M"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "175.26"
+"Weight [kg]" = "79.38"
+"BMI [kg/m²]" = "25.84"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "171"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "54"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "172"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "59"
+Gender = "M"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "167.64"
+"Weight [kg]" = "70.31"
+"BMI [kg/m²]" = "25.02"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "174"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "56"
+Gender = "F"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "170.18"
+"Weight [kg]" = "81.65"
+"BMI [kg/m²]" = "28.19"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "175"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "57"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "178"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "55"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "175.26"
+"Weight [kg]" = "99.79"
+"BMI [kg/m²]" = "32.49"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "181"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "54"
+Gender = "M"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "177.8"
+"Weight [kg]" = "88.45"
+"BMI [kg/m²]" = "27.98"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "182"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "46"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "182.88"
+"Weight [kg]" = "90.72"
+"BMI [kg/m²]" = "27.12"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "183"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "63"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "190"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "57"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "195"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "64"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "182.88"
+"Weight [kg]" = "88.45"
+"BMI [kg/m²]" = "26.45"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "220"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "42"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "221"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "86"
+Gender = "F"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "167.64"
+"Weight [kg]" = "60.33"
+"BMI [kg/m²]" = "21.47"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "223"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "50"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "227"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "63"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "228"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "52"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "172.72"
+"Weight [kg]" = "95.25"
+"BMI [kg/m²]" = "31.93"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "229"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "62"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "167.64"
+"Weight [kg]" = "108.86"
+"BMI [kg/m²]" = "38.74"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "232"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "51"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "238"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "55"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "239"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "59"
+Gender = "M"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "187.96"
+"Weight [kg]" = "87.09"
+"BMI [kg/m²]" = "24.65"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "241"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "52"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "248"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "54"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "255"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "52"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "190.5"
+"Weight [kg]" = "79.38"
+"BMI [kg/m²]" = "21.87"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "266"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "53"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "267"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "60"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "269"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "53"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "160.02"
+"Weight [kg]" = "99.79"
+"BMI [kg/m²]" = "38.97"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "29"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "48"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "162.56"
+"Weight [kg]" = "61.69"
+"BMI [kg/m²]" = "23.34"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "290"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "58"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "303"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "50"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "308"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "55"
+Gender = "M"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "182.88"
+"Weight [kg]" = "136.08"
+"BMI [kg/m²]" = "40.69"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "311"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "50"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "35"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "52"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "180.34"
+"Weight [kg]" = "86.18"
+"BMI [kg/m²]" = "26.5"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "4"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "57"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "185.42"
+"Weight [kg]" = "127.01"
+"BMI [kg/m²]" = "36.94"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "402"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "52"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "413"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "54"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "167.64"
+"Weight [kg]" = "90.72"
+"BMI [kg/m²]" = "32.28"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "415"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "58"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "172.72"
+"Weight [kg]" = "86.18"
+"BMI [kg/m²]" = "28.89"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "446"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "58"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "450"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "64"
+Gender = "M"
+"Smoking condition" = "Everyday"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "185.42"
+"Weight [kg]" = "90.72"
+"BMI [kg/m²]" = "26.39"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "47"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "62"
+Gender = "F"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "162.56"
+"Weight [kg]" = "76.2"
+"BMI [kg/m²]" = "28.84"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "470"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "52"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "474"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "55"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "479"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "56"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "48"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "58"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "167.64"
+"Weight [kg]" = "172.37"
+"BMI [kg/m²]" = "61.33"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "493"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "37"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "506"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "46"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "507"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "62"
+Gender = "M"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "187.96"
+"Weight [kg]" = "108.86"
+"BMI [kg/m²]" = "30.81"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "52"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "61"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "177.8"
+"Weight [kg]" = "122.47"
+"BMI [kg/m²]" = "38.74"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "552"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "57"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "157.48"
+"Weight [kg]" = "88.45"
+"BMI [kg/m²]" = "35.67"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "556"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "49"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "170.18"
+"Weight [kg]" = "63.5"
+"BMI [kg/m²]" = "21.93"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "560"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "53"
+Gender = "F"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "167.64"
+"Weight [kg]" = "45.81"
+"BMI [kg/m²]" = "16.3"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "563"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "63"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "569"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "59"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "571"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "51"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "165.1"
+"Weight [kg]" = "62.14"
+"BMI [kg/m²]" = "22.8"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "580"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "57"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "165.1"
+"Weight [kg]" = "79.38"
+"BMI [kg/m²]" = "29.12"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "582"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "41"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "591"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "50"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "596"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "61"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "598"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "54"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "70"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "62"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "180.34"
+"Weight [kg]" = "90.72"
+"BMI [kg/m²]" = "27.89"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "72"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "39"
+Gender = "M"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "172.72"
+"Weight [kg]" = "72.57"
+"BMI [kg/m²]" = "24.33"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "74"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "64"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "No alcohol"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "175.26"
+"Weight [kg]" = "95.25"
+"BMI [kg/m²]" = "31.01"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "86"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "52"
+Gender = "M"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "91"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "63"
+Gender = "M"
+"Smoking condition" = "Non-smoker"
+"Alcohol consumption" = "At least 1 drink/day"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "172.72"
+"Weight [kg]" = "86.18"
+"BMI [kg/m²]" = "28.89"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "99"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Patient group" = "Polyp"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Age at  Consent" = "58"
+Gender = "F"
+"Smoking condition" = "Some days"
+"Alcohol consumption" = "Sometimes"
+"CRC Diagnosis" = "-"
+Stage = "-"
+"Height [cm]" = "-"
+"Weight [kg]" = "-"
+"BMI [kg/m²]" = "-"

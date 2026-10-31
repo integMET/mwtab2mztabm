@@ -1,0 +1,273 @@
+[
+{
+"METABOLOMICS WORKBENCH":{"STUDY_ID":"ST001339","ANALYSIS_ID":"AN002233","VERSION":"1","CREATED_ON":"April 3, 2020, 11:25 am"},
+
+"PROJECT":{"PROJECT_TITLE":"Disruption of Redox Balance Enhances the Effects of BRAF-inhibitors in Melanoma","PROJECT_TYPE":"Untargeted-Targeted Metabolomics analysis","PROJECT_SUMMARY":"Melanomas harboring BRAF mutations can be treated with BRAF inhibitors, but tumor recurrence is inevitable. In spite of large-scale attempts, there remains an unmet need to uncover molecular determinants of BRAFi insensitivity and devise actionable combination targets to overcome resistance. Here, using an integrative approach of experimentation, and mathematical flux balance analyses in a panel of BRAF-mutated melanoma cells, we show that elevated antioxidant capacity of melanoma cells is linked to their drug sensitivity. Specifically, we report that drug-insensitive melanoma cells can maintain higher levels of antioxidant metabolites to withstand the lethal effects of drugs. By extending our analysis to other melanoma subtypes in the TCGA, we show that elevated redox capacity could indeed be a general feature of melanoma. Our results suggest that redox vulnerabilities could be exploited for therapeutic benefits and identify unsuspected combination targets to enhance the effects of BRAFi in pan-melanoma.","INSTITUTE":"Vanderbilt University","LAST_NAME":"Codreanu","FIRST_NAME":"Simona","ADDRESS":"1234 Stevenson Center Lane","EMAIL":"simona.codreanu@vanderbilt.edu","PHONE":"6158758422"},
+
+"STUDY":{"STUDY_TITLE":"Disruption of Redox Balance Enhances the Effects of BRAF-inhibitors in Melanoma","STUDY_SUMMARY":"Specifically, we report that drug-insensitive melanoma cells can maintain higher levels of antioxidant metabolites to withstand the lethal effects of drugs. By extending our analysis to other melanoma subtypes in the TCGA, we show that elevated redox capacity could indeed be a general feature of melanoma. Our results suggest that redox vulnerabilities could be exploited for therapeutic benefits and identify unsuspected combination targets to enhance the effects of BRAFi in pan-melanoma.","INSTITUTE":"Vanderbilt University","LAST_NAME":"Codreanu","FIRST_NAME":"Simona","ADDRESS":"1234 Stevenson Center Lane","EMAIL":"simona.codreanu@vanderbilt.edu","PHONE":"6158758422"},
+
+"SUBJECT":{"SUBJECT_TYPE":"Cultured cells","SUBJECT_SPECIES":"Homo sapiens","TAXONOMY_ID":"9606"},
+"SUBJECT_SAMPLE_FACTORS":[
+{
+"Subject ID":"SKMEL5_SC10",
+"Sample ID":"SD1a",
+"Factors":{"genotype":"resistant","treatment":"DMSO"},
+"Additional sample data":{"RAW_FILE_NAME":"SC_20190501_HILICn_PRM_Redox_Qua_SD1_T1"}
+},
+{
+"Subject ID":"SKMEL5_SC10",
+"Sample ID":"SD1b",
+"Factors":{"genotype":"resistant","treatment":"DMSO"},
+"Additional sample data":{"RAW_FILE_NAME":"SC_20190501_HILICn_PRM_Redox_Qua_SD1_T2"}
+},
+{
+"Subject ID":"SKMEL5_SC10",
+"Sample ID":"SD2a",
+"Factors":{"genotype":"resistant","treatment":"DMSO"},
+"Additional sample data":{"RAW_FILE_NAME":"SC_20190501_HILICn_PRM_Redox_Qua_SD2_T1"}
+},
+{
+"Subject ID":"SKMEL5_SC10",
+"Sample ID":"SD2b",
+"Factors":{"genotype":"resistant","treatment":"DMSO"},
+"Additional sample data":{"RAW_FILE_NAME":"SC_20190501_HILICn_PRM_Redox_Qua_SD2_T2"}
+},
+{
+"Subject ID":"SKMEL5_SC10",
+"Sample ID":"SD3a",
+"Factors":{"genotype":"resistant","treatment":"DMSO"},
+"Additional sample data":{"RAW_FILE_NAME":"SC_20190501_HILICn_PRM_Redox_Qua_SD3_T1"}
+},
+{
+"Subject ID":"SKMEL5_SC10",
+"Sample ID":"SD3b",
+"Factors":{"genotype":"resistant","treatment":"DMSO"},
+"Additional sample data":{"RAW_FILE_NAME":"SC_20190501_HILICn_PRM_Redox_Qua_SD3_T2"}
+},
+{
+"Subject ID":"SKMEL5_SC10",
+"Sample ID":"SD4a",
+"Factors":{"genotype":"resistant","treatment":"DMSO"},
+"Additional sample data":{"RAW_FILE_NAME":"SC_20190501_HILICn_PRM_Redox_Qua_SD4_T1"}
+},
+{
+"Subject ID":"SKMEL5_SC10",
+"Sample ID":"SD4b",
+"Factors":{"genotype":"resistant","treatment":"DMSO"},
+"Additional sample data":{"RAW_FILE_NAME":"SC_20190501_HILICn_PRM_Redox_Qua_SD4_T2"}
+},
+{
+"Subject ID":"SKMEL5_SC10",
+"Sample ID":"SD5a",
+"Factors":{"genotype":"resistant","treatment":"DMSO"},
+"Additional sample data":{"RAW_FILE_NAME":"SC_20190501_HILICn_PRM_Redox_Qua_SD5_T1"}
+},
+{
+"Subject ID":"SKMEL5_SC10",
+"Sample ID":"SD5b",
+"Factors":{"genotype":"resistant","treatment":"DMSO"},
+"Additional sample data":{"RAW_FILE_NAME":"SC_20190501_HILICn_PRM_Redox_Qua_SD5_T2"}
+},
+{
+"Subject ID":"SKMEL5_SC10",
+"Sample ID":"SP1a",
+"Factors":{"genotype":"resistant","treatment":"PLX4720"},
+"Additional sample data":{"RAW_FILE_NAME":"SC_20190501_HILICn_PRM_Redox_Qua_SP1_T1"}
+},
+{
+"Subject ID":"SKMEL5_SC10",
+"Sample ID":"SP1b",
+"Factors":{"genotype":"resistant","treatment":"PLX4720"},
+"Additional sample data":{"RAW_FILE_NAME":"SC_20190501_HILICn_PRM_Redox_Qua_SP1_T2"}
+},
+{
+"Subject ID":"SKMEL5_SC10",
+"Sample ID":"SP2a",
+"Factors":{"genotype":"resistant","treatment":"PLX4720"},
+"Additional sample data":{"RAW_FILE_NAME":"SC_20190501_HILICn_PRM_Redox_Qua_SP2_T1"}
+},
+{
+"Subject ID":"SKMEL5_SC10",
+"Sample ID":"SP2b",
+"Factors":{"genotype":"resistant","treatment":"PLX4720"},
+"Additional sample data":{"RAW_FILE_NAME":"SC_20190501_HILICn_PRM_Redox_Qua_SP2_T2"}
+},
+{
+"Subject ID":"SKMEL5_SC10",
+"Sample ID":"SP3a",
+"Factors":{"genotype":"resistant","treatment":"PLX4720"},
+"Additional sample data":{"RAW_FILE_NAME":"SC_20190501_HILICn_PRM_Redox_Qua_SP3_T1"}
+},
+{
+"Subject ID":"SKMEL5_SC10",
+"Sample ID":"SP3b",
+"Factors":{"genotype":"resistant","treatment":"PLX4720"},
+"Additional sample data":{"RAW_FILE_NAME":"SC_20190501_HILICn_PRM_Redox_Qua_SP3_T2"}
+},
+{
+"Subject ID":"SKMEL5_SC10",
+"Sample ID":"SP4a",
+"Factors":{"genotype":"resistant","treatment":"PLX4720"},
+"Additional sample data":{"RAW_FILE_NAME":"SC_20190501_HILICn_PRM_Redox_Qua_SP4_T1"}
+},
+{
+"Subject ID":"SKMEL5_SC10",
+"Sample ID":"SP4b",
+"Factors":{"genotype":"resistant","treatment":"PLX4720"},
+"Additional sample data":{"RAW_FILE_NAME":"SC_20190501_HILICn_PRM_Redox_Qua_SP4_T2"}
+},
+{
+"Subject ID":"SKMEL5_SC10",
+"Sample ID":"SP5a",
+"Factors":{"genotype":"resistant","treatment":"PLX4720"},
+"Additional sample data":{"RAW_FILE_NAME":"SC_20190501_HILICn_PRM_Redox_Qua_SP5_T1"}
+},
+{
+"Subject ID":"SKMEL5_SC10",
+"Sample ID":"SP5b",
+"Factors":{"genotype":"resistant","treatment":"PLX4720"},
+"Additional sample data":{"RAW_FILE_NAME":"SC_20190501_HILICn_PRM_Redox_Qua_SP5_T2"}
+},
+{
+"Subject ID":"WM88",
+"Sample ID":"WD1a",
+"Factors":{"genotype":"sensitive","treatment":"DMSO"},
+"Additional sample data":{"RAW_FILE_NAME":"SC_20190501_HILICn_PRM_Redox_Qua_WD1_T1"}
+},
+{
+"Subject ID":"WM88",
+"Sample ID":"WD1b",
+"Factors":{"genotype":"sensitive","treatment":"DMSO"},
+"Additional sample data":{"RAW_FILE_NAME":"SC_20190501_HILICn_PRM_Redox_Qua_WD1_T2"}
+},
+{
+"Subject ID":"WM88",
+"Sample ID":"WD2a",
+"Factors":{"genotype":"sensitive","treatment":"DMSO"},
+"Additional sample data":{"RAW_FILE_NAME":"SC_20190501_HILICn_PRM_Redox_Qua_WD2_T1"}
+},
+{
+"Subject ID":"WM88",
+"Sample ID":"WD2b",
+"Factors":{"genotype":"sensitive","treatment":"DMSO"},
+"Additional sample data":{"RAW_FILE_NAME":"SC_20190501_HILICn_PRM_Redox_Qua_WD2_T2"}
+},
+{
+"Subject ID":"WM88",
+"Sample ID":"WD3a",
+"Factors":{"genotype":"sensitive","treatment":"DMSO"},
+"Additional sample data":{"RAW_FILE_NAME":"SC_20190501_HILICn_PRM_Redox_Qua_WD3_T1"}
+},
+{
+"Subject ID":"WM88",
+"Sample ID":"WD3b",
+"Factors":{"genotype":"sensitive","treatment":"DMSO"},
+"Additional sample data":{"RAW_FILE_NAME":"SC_20190501_HILICn_PRM_Redox_Qua_WD3_T2"}
+},
+{
+"Subject ID":"WM88",
+"Sample ID":"WD4a",
+"Factors":{"genotype":"sensitive","treatment":"DMSO"},
+"Additional sample data":{"RAW_FILE_NAME":"SC_20190501_HILICn_PRM_Redox_Qua_WD4_T1"}
+},
+{
+"Subject ID":"WM88",
+"Sample ID":"WD4b",
+"Factors":{"genotype":"sensitive","treatment":"DMSO"},
+"Additional sample data":{"RAW_FILE_NAME":"SC_20190501_HILICn_PRM_Redox_Qua_WD4_T2"}
+},
+{
+"Subject ID":"WM88",
+"Sample ID":"WD5a",
+"Factors":{"genotype":"sensitive","treatment":"DMSO"},
+"Additional sample data":{"RAW_FILE_NAME":"SC_20190501_HILICn_PRM_Redox_Qua_WD5_T1"}
+},
+{
+"Subject ID":"WM88",
+"Sample ID":"WD5b",
+"Factors":{"genotype":"sensitive","treatment":"DMSO"},
+"Additional sample data":{"RAW_FILE_NAME":"SC_20190501_HILICn_PRM_Redox_Qua_WD5_T2"}
+},
+{
+"Subject ID":"WM88",
+"Sample ID":"WP1a",
+"Factors":{"genotype":"sensitive","treatment":"PLX4720"},
+"Additional sample data":{"RAW_FILE_NAME":"SC_20190501_HILICn_PRM_Redox_Qua_WP1_T1"}
+},
+{
+"Subject ID":"WM88",
+"Sample ID":"WP1b",
+"Factors":{"genotype":"sensitive","treatment":"PLX4720"},
+"Additional sample data":{"RAW_FILE_NAME":"SC_20190501_HILICn_PRM_Redox_Qua_WP1_T2"}
+},
+{
+"Subject ID":"WM88",
+"Sample ID":"WP2a",
+"Factors":{"genotype":"sensitive","treatment":"PLX4720"},
+"Additional sample data":{"RAW_FILE_NAME":"SC_20190501_HILICn_PRM_Redox_Qua_WP2_T1"}
+},
+{
+"Subject ID":"WM88",
+"Sample ID":"WP2b",
+"Factors":{"genotype":"sensitive","treatment":"PLX4720"},
+"Additional sample data":{"RAW_FILE_NAME":"SC_20190501_HILICn_PRM_Redox_Qua_WP2_T2"}
+},
+{
+"Subject ID":"WM88",
+"Sample ID":"WP3a",
+"Factors":{"genotype":"sensitive","treatment":"PLX4720"},
+"Additional sample data":{"RAW_FILE_NAME":"SC_20190501_HILICn_PRM_Redox_Qua_WP3_T1"}
+},
+{
+"Subject ID":"WM88",
+"Sample ID":"WP3b",
+"Factors":{"genotype":"sensitive","treatment":"PLX4720"},
+"Additional sample data":{"RAW_FILE_NAME":"SC_20190501_HILICn_PRM_Redox_Qua_WP3_T2"}
+},
+{
+"Subject ID":"WM88",
+"Sample ID":"WP4a",
+"Factors":{"genotype":"sensitive","treatment":"PLX4720"},
+"Additional sample data":{"RAW_FILE_NAME":"SC_20190501_HILICn_PRM_Redox_Qua_WP4_T1"}
+},
+{
+"Subject ID":"WM88",
+"Sample ID":"WP4b",
+"Factors":{"genotype":"sensitive","treatment":"PLX4720"},
+"Additional sample data":{"RAW_FILE_NAME":"SC_20190501_HILICn_PRM_Redox_Qua_WP4_T2"}
+},
+{
+"Subject ID":"WM88",
+"Sample ID":"WP5a",
+"Factors":{"genotype":"sensitive","treatment":"PLX4720"},
+"Additional sample data":{"RAW_FILE_NAME":"SC_20190501_HILICn_PRM_Redox_Qua_WP5_T1"}
+},
+{
+"Subject ID":"WM88",
+"Sample ID":"WP5b",
+"Factors":{"genotype":"sensitive","treatment":"PLX4720"},
+"Additional sample data":{"RAW_FILE_NAME":"SC_20190501_HILICn_PRM_Redox_Qua_WP5_T2"}
+}
+],
+"COLLECTION":{"COLLECTION_SUMMARY":"Single-cell derived BRAF-mutated SKMEL5 subclones were derived as previously described (Paudel et al., 2018). BRAF-mutated melanoma cells (SKMEL5, WM88), including the SKMEL5 subclones, NRAS-mutated melanoma cells (SKMEL2), and NF1-mutated melanoma cells (MeWO) were grown and cultured in Dulbecco’s modified Eagle’s medium and Ham’s F-12 media (DMEM:F12, 1:1, Cat. No. 11330-032). Media were obtained from Gibco (Grand Island, NY), and supplemented with 10% fetal bovine serum. All cells were cultured in humidified incubators that were CO2 and temperature (37oC) controlled. Cells were passaged 1–2 times per week and were maintained as exponentially growing cultures for a maximum of less than 20 passages. All cells were tested for mycoplasma, and tested negative.","SAMPLE_TYPE":"Tumor cells"},
+
+"TREATMENT":{"TREATMENT_SUMMARY":"PLX4720 (Cat. No. S1152) and vemurafenib (Cat. No. S1267) were obtained from Selleckchem (Houston, TX). Dabrafenib (Cat No. HY-14660), (1S,3R)-RSL3 (Cat No. HY-100218A), Ferrostatin-1 (FER1, Cat No. HY-100579), Erastin (Cat No. HY-15763), (E)-Daporinad (FK866) (Cat No. HY-50876) were obtained from MedChem Express (Monmouth Junction, NJ) and solubilized in dimethyl sulfoxide (DMSO) at a stock concentration of 10 mM. Powdered L-Buthionine-sulfoximine (BSO) (Product No. B2515), powdered Diphenyleneiodonium chloride (DPI) (Product No. D2926), and powdered L-Glutathione reduced (GSH) were obtained from Sigma-Aldrich. BSO, and GSH was freshly made at a stock concentration of 100 mM in H2O, while DPI was solubilized in DMSO at a stock concentration of 10mM. CellRoxTM DeepRed Reagent (Cat No. C10422) for oxidative stress detection was obtained from ThermoFisher Scientific. Acetonitrile (AcCN) (Cat No. A955-1), Methanol (MeOH) (Cat No. A456-1) and water (Cat No. W6-1), Optima LC-MS grade, for the mass spectrometry analysis were obtained from ThermoFisher Scientific."},
+
+"SAMPLEPREP":{"SAMPLEPREP_SUMMARY":"The combined global untargeted-targeted metabolomic analysis used BRAF-mutated melanoma cells (WM88, SKMEL5-SC10) treated with either DMSO or 8μM PLX4720 for 24 hrs. Cell pellet samples were lysed using 400µL ice cold lysis buffer (1:1:2, ACN:MeOH:Ammonium Bicarbonate 0.1M, pH 8.0, LC-MS grade) and vortexed well until the cells mixed well with the solvent. Each sample was sonicated using a probe tip sonicator, 10 pulses at 30% power, cooling down in ice between samples. A BCA protein assay was used to determine the protein concentration for each individual sample, and adjusted to a total amount of protein of 200µg total protein in 200 µL of lysis buffer. Heavy labeled standard molecules, Phenylalanine-D8 (CDN Isotopes, Quebec, CA), and Biotin-D2(Cambridge Isotope Laboratories, Inc., MA, USA), were added to each sample to assess sample handling steps. Samples were subjected to protein precipitation by addition of 800µL of ice cold methanol (4x by volume), then incubated at -80°C overnight. Samples were centrifuged at 10,000 rpm for 10 min to eliminate precipitated proteins and the metabolite containing supernatant was dried in vacuo and stored at -80°C until LC-MS analysis."},
+
+"CHROMATOGRAPHY":{"CHROMATOGRAPHY_SUMMARY":"Vanquish UHPLC binary system and autosampler","CHROMATOGRAPHY_TYPE":"HILIC","INSTRUMENT_NAME":"Thermo Vanquish UHPLC","COLUMN_NAME":"SeQuant ZIC-HILIC (100 x 2.1mm, 3.5um)"},
+
+"ANALYSIS":{"ANALYSIS_TYPE":"MS"},
+
+"MS":{"INSTRUMENT_NAME":"Thermo Q Exactive HF hybrid Orbitrap","INSTRUMENT_TYPE":"Orbitrap","MS_TYPE":"ESI","ION_MODE":"NEGATIVE","MS_COMMENTS":"LC-MS/MS raw data were imported, processed, normalized and reviewed using Progenesis QI v.2.1 (Non-linear Dynamics, Newcastle, UK). All FMS, DDA and PRM sample runs were chromatographically aligned against a QC reference run. Following peak picking, unique spectral features (retention time and m/z pairs) were grouped based on adducts and isotopes, and individual features or metabolites were normalized to all features. Further filtering was carried out by removing features or metabolites that had &gt;30% coefficient of variance.","MS_RESULTS_FILE":"ST001339_AN002233_results.txt UNITS:peak area Has m/z:Yes Has RT:Yes RT units:Minutes"},
+
+"MS_METABOLITE_DATA":{
+"Units":"peak area",
+
+"Data":[{"Metabolite":"GSH","SD1a":"5851411.918","SD1b":"5530802.412","SD2a":"5503016.457","SD2b":"5885044.666","SD3a":"4827263.066","SD3b":"5258332.548","SD4a":"5215932.411","SD4b":"5322711.546","SD5a":"5799483.103","SD5b":"5893662.328","SP1a":"4381907.873","SP1b":"4922286.555","SP2a":"5226156.631","SP2b":"5229962.816","SP3a":"4530852.577","SP3b":"5187180.156","SP4a":"5831851.647","SP4b":"5822110.152","SP5a":"4113911.041","SP5b":"4615907.52","WD1a":"4649509.14","WD1b":"4348759.696","WD2a":"4824040.457","WD2b":"5332327.83","WD3a":"4701846.348","WD3b":"4648159.873","WD4a":"4639145.07","WD4b":"4684360.9","WD5a":"4659124.706","WD5b":"5101321.287","WP1a":"578753.6588","WP1b":"373335.7617","WP2a":"756195.7937","WP2b":"602384.5801","WP3a":"424778.4879","WP3b":"360789.17","WP4a":"339548.5087","WP4b":"244959.7904","WP5a":"705444.9894","WP5b":"628214.6078"},{"Metabolite":"ATP","SD1a":"7091241.937","SD1b":"6963474.72","SD2a":"7384765.507","SD2b":"8280854.888","SD3a":"7972004.316","SD3b":"9113610.529","SD4a":"6490275.4","SD4b":"6864215.84","SD5a":"6334510.258","SD5b":"6944787.805","SP1a":"3297198.332","SP1b":"3664790.694","SP2a":"4238579.837","SP2b":"4702671.504","SP3a":"3596080.005","SP3b":"4132483.964","SP4a":"3669377.274","SP4b":"3943104.227","SP5a":"2521155.788","SP5b":"2848727.769","WD1a":"7101410.15","WD1b":"7650010.797","WD2a":"7815124.955","WD2b":"9126410.693","WD3a":"6122096.546","WD3b":"6845711.348","WD4a":"6118779.166","WD4b":"6903347.274","WD5a":"7013560.834","WD5b":"7541942.03","WP1a":"4428851.111","WP1b":"4666936.502","WP2a":"5039847.604","WP2b":"5621866.669","WP3a":"3055277.556","WP3b":"3470939.845","WP4a":"2827064.481","WP4b":"3286921.47","WP5a":"3917578.014","WP5b":"4077137.515"},{"Metabolite":"GSSG","SD1a":"4481284.702","SD1b":"4629450.388","SD2a":"4134250.87","SD2b":"4779594.886","SD3a":"5820268.655","SD3b":"6788864.026","SD4a":"4123614.67","SD4b":"4240758.173","SD5a":"3951085.719","SD5b":"4272389.254","SP1a":"6815505.055","SP1b":"7874337.676","SP2a":"6786867.517","SP2b":"7048063.941","SP3a":"6349353.99","SP3b":"7216860.081","SP4a":"5918973.148","SP4b":"6331029.353","SP5a":"6999961.002","SP5b":"7553541.953","WD1a":"7051437.701","WD1b":"8198985.974","WD2a":"7114443.073","WD2b":"8317235.631","WD3a":"6458206.015","WD3b":"7144099.197","WD4a":"6371435.638","WD4b":"6980594.376","WD5a":"6741669.592","WD5b":"7255997.467","WP1a":"7858641.992","WP1b":"8528744.106","WP2a":"7416748.365","WP2b":"8305151.192","WP3a":"6361490.925","WP3b":"7010043.113","WP4a":"6681225.723","WP4b":"7664320.303","WP5a":"7356207.832","WP5b":"7379082.015"},{"Metabolite":"NADH","SD1a":"0","SD1b":"0","SD2a":"0","SD2b":"0","SD3a":"0","SD3b":"0","SD4a":"0","SD4b":"0","SD5a":"0","SD5b":"0","SP1a":"0","SP1b":"0","SP2a":"0","SP2b":"0","SP3a":"0","SP3b":"0","SP4a":"0","SP4b":"0","SP5a":"0","SP5b":"0","WD1a":"998037.4803","WD1b":"779690.0361","WD2a":"1076642.836","WD2b":"938527.3041","WD3a":"1062941.906","WD3b":"916356.4618","WD4a":"1030795.318","WD4b":"909520.8679","WD5a":"1138439.999","WD5b":"921061.7858","WP1a":"293621.9534","WP1b":"199836.5874","WP2a":"221501.5861","WP2b":"184273.2468","WP3a":"164200.6873","WP3b":"135530.9648","WP4a":"205745.119","WP4b":"184262.2366","WP5a":"237492.6306","WP5b":"202417.3922"},{"Metabolite":"UTP","SD1a":"1205127.198","SD1b":"1233727.461","SD2a":"1366949.334","SD2b":"1592093.135","SD3a":"1631310.043","SD3b":"1959804.55","SD4a":"1069170.467","SD4b":"1143578.098","SD5a":"1160517.666","SD5b":"1323546.508","SP1a":"347575.2481","SP1b":"405133.6981","SP2a":"450577.4276","SP2b":"512014.3198","SP3a":"394994.37","SP3b":"461689.4978","SP4a":"409120.4254","SP4b":"465652.2171","SP5a":"218813.278","SP5b":"257181.7461","WD1a":"1520427.655","WD1b":"1749919.38","WD2a":"1494251.405","WD2b":"1933591.451","WD3a":"1199874.135","WD3b":"1429534.196","WD4a":"1138411.813","WD4b":"1336291.34","WD5a":"1158141.49","WD5b":"1338778.835","WP1a":"486095.6979","WP1b":"500277.1938","WP2a":"496170.1404","WP2b":"577567.6662","WP3a":"301252.3182","WP3b":"346132.8625","WP4a":"286973.5044","WP4b":"348030.5856","WP5a":"393466.641","WP5b":"415369.1827"},{"Metabolite":"Adenosine","SD1a":"174572.4859","SD1b":"191625.0877","SD2a":"154104.06","SD2b":"177834.1251","SD3a":"148877.7809","SD3b":"173450.4476","SD4a":"176673.6392","SD4b":"192970.4187","SD5a":"184315.4693","SD5b":"206673.2799","SP1a":"222532.8397","SP1b":"243274.0669","SP2a":"195995.257","SP2b":"212629.2681","SP3a":"225405.5742","SP3b":"254385.0183","SP4a":"238691.5201","SP4b":"260870.1586","SP5a":"221580.8481","SP5b":"239894.935","WD1a":"87955.3875","WD1b":"98017.43322","WD2a":"97239.03411","WD2b":"106852.0978","WD3a":"109404.3732","WD3b":"114291.8892","WD4a":"106718.8948","WD4b":"115501.0154","WD5a":"103110.3701","WD5b":"112986.6884","WP1a":"81349.43603","WP1b":"86720.80437","WP2a":"60011.17566","WP2b":"68894.79226","WP3a":"90846.62211","WP3b":"97733.03774","WP4a":"89417.783","WP4b":"99080.36527","WP5a":"76780.52064","WP5b":"91485.37942"},{"Metabolite":"GDP","SD1a":"29422.08107","SD1b":"34325.11529","SD2a":"36349.04515","SD2b":"46215.96975","SD3a":"49782.91017","SD3b":"61424.08789","SD4a":"28229.67892","SD4b":"31145.48705","SD5a":"36026.60986","SD5b":"44547.41905","SP1a":"13156.51895","SP1b":"17153.82289","SP2a":"15420.66019","SP2b":"21221.78852","SP3a":"16767.34179","SP3b":"19866.57538","SP4a":"20520.73847","SP4b":"23516.7702","SP5a":"9376.057747","SP5b":"10761.55036","WD1a":"37193.78157","WD1b":"50860.39978","WD2a":"32099.90941","WD2b":"45378.87365","WD3a":"37795.73632","WD3b":"45912.89441","WD4a":"33224.07542","WD4b":"46827.33263","WD5a":"37429.23912","WD5b":"47419.51663","WP1a":"19130.36645","WP1b":"21848.52737","WP2a":"14901.52096","WP2b":"21085.55252","WP3a":"13565.85401","WP3b":"17278.9629","WP4a":"15873.1219","WP4b":"20389.14029","WP5a":"17975.46495","WP5b":"20504.03592"},{"Metabolite":"NADP","SD1a":"157218.6948","SD1b":"167335.4095","SD2a":"170997.3818","SD2b":"208351.234","SD3a":"195831.7024","SD3b":"228027.6512","SD4a":"133592.4548","SD4b":"144486.1585","SD5a":"162782.6978","SD5b":"184670.0039","SP1a":"111045.5719","SP1b":"136621.0643","SP2a":"134209.3889","SP2b":"142093.3267","SP3a":"108508.1683","SP3b":"123599.2013","SP4a":"135502.0646","SP4b":"164315.9167","SP5a":"94930.42331","SP5b":"118509.8416","WD1a":"147878.4362","WD1b":"173038.3582","WD2a":"151860.5659","WD2b":"192745.547","WD3a":"148474.4006","WD3b":"158202.5145","WD4a":"137252.3711","WD4b":"151541.2243","WD5a":"128657.6395","WD5b":"142580.6493","WP1a":"100651.0061","WP1b":"102970.8149","WP2a":"102521.2438","WP2b":"118678.0409","WP3a":"86141.90407","WP3b":"101662.4416","WP4a":"82442.99358","WP4b":"98804.83233","WP5a":"87335.33243","WP5b":"101288.9105"},{"Metabolite":"UDP","SD1a":"167166.2476","SD1b":"164559.3023","SD2a":"182309.1168","SD2b":"205786.669","SD3a":"218968.2224","SD3b":"251722.0878","SD4a":"140363.3985","SD4b":"155890.6662","SD5a":"157623.826","SD5b":"177935.0489","SP1a":"55590.89501","SP1b":"61360.2577","SP2a":"68452.04783","SP2b":"74715.50474","SP3a":"59394.98436","SP3b":"67455.03424","SP4a":"66755.23276","SP4b":"65300.24601","SP5a":"36462.14763","SP5b":"37897.49772","WD1a":"240583.8692","WD1b":"264465.0133","WD2a":"228599.1188","WD2b":"265525.4355","WD3a":"198573.7398","WD3b":"227212.8568","WD4a":"182292.6004","WD4b":"203983.7753","WD5a":"177706.5222","WD5b":"199748.9582","WP1a":"69572.16964","WP1b":"68821.03286","WP2a":"64532.60112","WP2b":"72846.31982","WP3a":"49177.24524","WP3b":"51171.01807","WP4a":"46396.32083","WP4b":"53405.36548","WP5a":"62416.59564","WP5b":"60299.7951"},{"Metabolite":"ADP","SD1a":"613726.3111","SD1b":"568724.0784","SD2a":"549924.0959","SD2b":"522890.9452","SD3a":"556947.7358","SD3b":"550889.7691","SD4a":"554950.3168","SD4b":"535891.3188","SD5a":"535718.0864","SD5b":"505357.5197","SP1a":"377789.1598","SP1b":"370482.8211","SP2a":"461531.385","SP2b":"465020.2223","SP3a":"394966.4548","SP3b":"399483.2599","SP4a":"439407.3463","SP4b":"442338.8069","SP5a":"292316.553","SP5b":"297198.1013","WD1a":"687056.9418","WD1b":"659267.8826","WD2a":"688932.6369","WD2b":"662869.4098","WD3a":"678479.5576","WD3b":"659470.6253","WD4a":"653254.4132","WD4b":"617705.0086","WD5a":"695701.3583","WD5b":"657158.0666","WP1a":"423966.3142","WP1b":"433819.0607","WP2a":"400440.9484","WP2b":"402733.3078","WP3a":"355326.4248","WP3b":"351382.7718","WP4a":"342295.6052","WP4b":"339602.0878","WP5a":"426158.1589","WP5b":"413929.5494"},{"Metabolite":"GMP","SD1a":"24594.55541","SD1b":"17466.59857","SD2a":"21573.09222","SD2b":"15599.74551","SD3a":"27481.06374","SD3b":"23006.47965","SD4a":"22187.90041","SD4b":"15245.82073","SD5a":"27721.23006","SD5b":"21240.17465","SP1a":"31572.28081","SP1b":"30930.43735","SP2a":"47979.3784","SP2b":"40057.30637","SP3a":"37195.06418","SP3b":"36649.58724","SP4a":"52259.89857","SP4b":"43190.55401","SP5a":"29226.0105","SP5b":"25255.14158","WD1a":"67352.07856","WD1b":"55032.94063","WD2a":"46283.59668","WD2b":"41364.62702","WD3a":"64542.87125","WD3b":"59908.62204","WD4a":"71425.31167","WD4b":"59728.77092","WD5a":"71776.03166","WD5b":"68704.33473","WP1a":"87901.44589","WP1b":"75593.94482","WP2a":"71972.08041","WP2b":"54115.32057","WP3a":"115125.1546","WP3b":"102817.1303","WP4a":"115879.8759","WP4b":"91430.10974","WP5a":"109816.9987","WP5b":"92581.16594"},{"Metabolite":"UMP","SD1a":"30813.72085","SD1b":"27400.35075","SD2a":"30174.95955","SD2b":"32332.88571","SD3a":"27737.94759","SD3b":"32358.13665","SD4a":"37362.25472","SD4b":"36058.92324","SD5a":"46411.15094","SD5b":"47698.14387","SP1a":"83511.71322","SP1b":"92870.90768","SP2a":"129068.7416","SP2b":"125300.0134","SP3a":"104628.7192","SP3b":"121631.2948","SP4a":"137867.9567","SP4b":"135700.4084","SP5a":"95718.8772","SP5b":"112847.1055","WD1a":"104637.9477","WD1b":"109369.9601","WD2a":"105429.5611","WD2b":"121151.3529","WD3a":"130612.0042","WD3b":"132546.9637","WD4a":"170083.5748","WD4b":"169872.5626","WD5a":"167944.9025","WD5b":"189117.8922","WP1a":"94956.89856","WP1b":"96812.63115","WP2a":"94585.73958","WP2b":"101297.963","WP3a":"116806.8398","WP3b":"122658.8071","WP4a":"96995.86471","WP4b":"102090.9709","WP5a":"104039.1463","WP5b":"113070.3235"},{"Metabolite":"NAD","SD1a":"1473718.313","SD1b":"1397493.586","SD2a":"1384752.962","SD2b":"1438380.059","SD3a":"1363905.795","SD3b":"1468705.676","SD4a":"1382664.38","SD4b":"1321357.107","SD5a":"1537863.114","SD5b":"1392630.406","SP1a":"1072067.053","SP1b":"1124399.955","SP2a":"1219575.101","SP2b":"1145961.717","SP3a":"1035097.751","SP3b":"1138744.468","SP4a":"1305893.263","SP4b":"1224321.489","SP5a":"1025809.676","SP5b":"1167645.928","WD1a":"343138.3191","WD1b":"439463.0259","WD2a":"426353.8904","WD2b":"567093.734","WD3a":"338874.3553","WD3b":"352078.7936","WD4a":"358643.1098","WD4b":"403649.4325","WD5a":"323506.5313","WD5b":"365683.4406","WP1a":"290888.6523","WP1b":"344930.2247","WP2a":"357778.8172","WP2b":"376667.331","WP3a":"266198.6882","WP3b":"309283.8098","WP4a":"208248.583","WP4b":"236686.8176","WP5a":"271434.5199","WP5b":"301687.6775"},{"Metabolite":"AMP","SD1a":"16754.49139","SD1b":"9960.580322","SD2a":"18902.16516","SD2b":"19379.66701","SD3a":"23092.76876","SD3b":"26575.19873","SD4a":"23288.22033","SD4b":"15604.28246","SD5a":"25250.33665","SD5b":"24487.28311","SP1a":"29440.16893","SP1b":"36504.87499","SP2a":"44422.24044","SP2b":"44006.44261","SP3a":"38914.16379","SP3b":"46951.58579","SP4a":"64809.64658","SP4b":"58630.94347","SP5a":"28822.45323","SP5b":"34667.64762","WD1a":"27936.92469","WD1b":"31427.61791","WD2a":"28077.9921","WD2b":"29481.2539","WD3a":"40722.0073","WD3b":"42722.19355","WD4a":"42743.18781","WD4b":"42415.67578","WD5a":"38324.1945","WD5b":"42641.81898","WP1a":"25434.06717","WP1b":"25345.71684","WP2a":"6703.142468","WP2b":"6012.447627","WP3a":"33476.96254","WP3b":"40397.18498","WP4a":"36346.23631","WP4b":"42438.41697","WP5a":"27100.91585","WP5b":"27022.52915"},{"Metabolite":"L-Serine","SD1a":"139416.9189","SD1b":"143354.4053","SD2a":"146235.34","SD2b":"161166.9504","SD3a":"124811.0062","SD3b":"133995.1731","SD4a":"136106.1076","SD4b":"146438.7926","SD5a":"146724.8589","SD5b":"156471.5974","SP1a":"187562.704","SP1b":"168878.7256","SP2a":"176292.0949","SP2b":"169347.4057","SP3a":"183620.5224","SP3b":"169047.3548","SP4a":"233987.1201","SP4b":"241352.589","SP5a":"181483.8399","SP5b":"162538.7865","WD1a":"81222.36158","WD1b":"77154.32114","WD2a":"106956.4787","WD2b":"102723.1692","WD3a":"74603.64064","WD3b":"67252.95796","WD4a":"83566.8152","WD4b":"81568.46833","WD5a":"101865.7988","WD5b":"94849.20482","WP1a":"45385.30278","WP1b":"42321.15975","WP2a":"62782.21662","WP2b":"50462.84298","WP3a":"36074.85799","WP3b":"39542.81765","WP4a":"35732.29068","WP4b":"38418.26809","WP5a":"38986.25239","WP5b":"39072.7125"},{"Metabolite":"L-Cysteine","SD1a":"1962.631998","SD1b":"837.5877951","SD2a":"1184.510275","SD2b":"818.7292589","SD3a":"1066.309486","SD3b":"323.4146188","SD4a":"1849.855804","SD4b":"1039.511776","SD5a":"1216.212892","SD5b":"833.4726721","SP1a":"2738.193386","SP1b":"1680.135337","SP2a":"4578.831083","SP2b":"2463.699105","SP3a":"3469.805242","SP3b":"2503.348922","SP4a":"4345.439278","SP4b":"2256.583951","SP5a":"3493.636306","SP5b":"2694.235791","WD1a":"4989.895057","WD1b":"2474.022836","WD2a":"4822.336717","WD2b":"3094.882943","WD3a":"2019.08485","WD3b":"3041.306097","WD4a":"4898.667317","WD4b":"3484.039901","WD5a":"3929.308028","WD5b":"2667.472445","WP1a":"9835.924537","WP1b":"3117.796542","WP2a":"10511.45905","WP2b":"5032.954323","WP3a":"13485.99595","WP3b":"10965.12641","WP4a":"9926.358895","WP4b":"6323.289283","WP5a":"16786.74821","WP5b":"11876.12045"},{"Metabolite":"GTP","SD1a":"201958.2353","SD1b":"178839.3101","SD2a":"235715.0107","SD2b":"273864.3143","SD3a":"368554.5429","SD3b":"412758.4081","SD4a":"178781.2463","SD4b":"177747.9644","SD5a":"199640.1961","SD5b":"207817.061","SP1a":"46638.22322","SP1b":"58411.56004","SP2a":"73186.93111","SP2b":"77927.4414","SP3a":"57839.66091","SP3b":"74485.16204","SP4a":"71478.74236","SP4b":"76480.69165","SP5a":"29420.3587","SP5b":"37413.14952","WD1a":"196148.7869","WD1b":"214287.3274","WD2a":"183214.9683","WD2b":"226864.1969","WD3a":"118018.4511","WD3b":"149921.4378","WD4a":"119369.42","WD4b":"153178.4331","WD5a":"148759.802","WD5b":"179833.3902","WP1a":"91878.36913","WP1b":"92498.96058","WP2a":"105116.2039","WP2b":"125260.4983","WP3a":"47457.68718","WP3b":"58808.0411","WP4a":"54215.16134","WP4b":"62120.3407","WP5a":"72883.00956","WP5b":"73074.26297"},{"Metabolite":"L-Cystine","SD1a":"0","SD1b":"0","SD2a":"0","SD2b":"0","SD3a":"0","SD3b":"0","SD4a":"0","SD4b":"0","SD5a":"0","SD5b":"0","SP1a":"8687.889671","SP1b":"14863.86218","SP2a":"689.5394151","SP2b":"4236.689674","SP3a":"2615.467159","SP3b":"6536.920807","SP4a":"211.3428949","SP4b":"221.6411259","SP5a":"2206.710399","SP5b":"5830.595943","WD1a":"0","WD1b":"0","WD2a":"0","WD2b":"0","WD3a":"0","WD3b":"0","WD4a":"0","WD4b":"0","WD5a":"0","WD5b":"0","WP1a":"74139.53671","WP1b":"148703.8633","WP2a":"14111.15127","WP2b":"31217.90099","WP3a":"262165.033","WP3b":"468273.2856","WP4a":"111827.9887","WP4b":"217449.2432","WP5a":"79678.92466","WP5b":"128273.5412"}],
+
+"Metabolites":[{"Metabolite":"GSH","retention time (min)":"10.41903333","quantified m/z":"306.0767669","PubChem ID":"3353","KEGG ID":"C00051   "},{"Metabolite":"ATP","retention time (min)":"12.4101","quantified m/z":"505.9888804","PubChem ID":"3304","KEGG ID":"C00002"},{"Metabolite":"GSSG","retention time (min)":"13.18013333","quantified m/z":"611.1458157","PubChem ID":"3427","KEGG ID":"C00127"},{"Metabolite":"NADH","retention time (min)":"9.781733333","quantified m/z":"664.1189874","PubChem ID":"3306","KEGG ID":"C00004"},{"Metabolite":"UTP","retention time (min)":"12.81185","quantified m/z":"482.9617626","PubChem ID":"3375","KEGG ID":"C00075"},{"Metabolite":"Adenosine","retention time (min)":"2.4519","quantified m/z":"266.0896405","PubChem ID":"3512","KEGG ID":"C00212"},{"Metabolite":"GDP","retention time (min)":"12.91676667","quantified m/z":"442.0173781","PubChem ID":"3337","KEGG ID":"C00035"},{"Metabolite":"NADP","retention time (min)":"12.83273333","quantified m/z":"742.0702315","PubChem ID":"3308","KEGG ID":"C00006 "},{"Metabolite":"UDP","retention time (min)":"12.81185","quantified m/z":"402.9952922","PubChem ID":"3317","KEGG ID":"C00015"},{"Metabolite":"ADP","retention time (min)":"12.4101","quantified m/z":"426.0228144","PubChem ID":"3310","KEGG ID":"C00008  "},{"Metabolite":"GMP","retention time (min)":"11.9641","quantified m/z":"362.0511244","PubChem ID":"3444","KEGG ID":"C00144"},{"Metabolite":"UMP","retention time (min)":"10.75643333","quantified m/z":"323.0287826","PubChem ID":"3405","KEGG ID":"C00105"},{"Metabolite":"NAD","retention time (min)":"10.65028333","quantified m/z":"662.1033859","PubChem ID":"3305","KEGG ID":"C00003"},{"Metabolite":"AMP","retention time (min)":"10.2163","quantified m/z":"346.0559802","PubChem ID":"3322","KEGG ID":"C00020  "},{"Metabolite":"L-Serine","retention time (min)":"10.00316667","quantified m/z":"104.0352712","PubChem ID":"3365","KEGG ID":"C00065  "},{"Metabolite":"L-Cysteine","retention time (min)":"8.141583333","quantified m/z":"120.0123963","PubChem ID":"3397","KEGG ID":"C00097"},{"Metabolite":"GTP","retention time (min)":"13.71546667","quantified m/z":"521.9839017","PubChem ID":"3346","KEGG ID":"C00044  "},{"Metabolite":"L-Cystine","retention time (min)":"13.72615","quantified m/z":"239.0167574","PubChem ID":"3774","KEGG ID":"C00491"}]
+}
+
+}
+]

@@ -1,0 +1,162 @@
+MTD	mzTab-version	2.1.0-M
+MTD	mzTab-ID	ST000276_AN000441
+MTD	mzTab-profile	M+S
+MTD	title	IDH1 and Glioma knockdown idh1
+MTD	description	This study is a part of series performed for the same researcher through pilot/feasibility grant program, so the publication is relevant reference for other studies (ST000199)This specific experiment is a pilot study to compare the metabolism of cells transformed using empty vector against cells transformed with vector carrying short hairpin RNA (shRNA) targeted to silence isocitrate dehydrogenase-1 (IDH1) gene.
+MTD	instrument[1]-name	[MS, MS:1000031, instrument model, Agilent 5975C]
+MTD	instrument[1]-source	[MS, MS:1000389, electron ionization, ]
+MTD	instrument[1]-analyzer[1]	[MS, MS:1000081, quadrupole, ]
+MTD	software[1]	[MS, MS:1000799, custom unreleased software tool, mwtab2mztabm 0.1.0]
+MTD	publication[1]	doi:10.21228/M8688J
+MTD	contact[1]-name	Andrea Calvert
+MTD	contact[1]-affiliation	University of Michigan
+MTD	contact[1]-email	a-calvert@u.northwestern.edu
+MTD	uri[1]	https://www.metabolomicsworkbench.org/data/DRCCMetadata.php?Mode=Study&StudyID=ST000276
+MTD	quantification_method	[MS, MS:1001833, quantitation analysis summary, ]
+MTD	sample[1]	S00014999
+MTD	sample[1]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[1]-tissue[1]	[,, "Cells, Cultured", ]
+MTD	sample[10]	S00015008
+MTD	sample[10]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[10]-tissue[1]	[,, "Cells, Cultured", ]
+MTD	sample[2]	S00015000
+MTD	sample[2]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[2]-tissue[1]	[,, "Cells, Cultured", ]
+MTD	sample[3]	S00015001
+MTD	sample[3]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[3]-tissue[1]	[,, "Cells, Cultured", ]
+MTD	sample[4]	S00015002
+MTD	sample[4]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[4]-tissue[1]	[,, "Cells, Cultured", ]
+MTD	sample[5]	S00015003
+MTD	sample[5]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[5]-tissue[1]	[,, "Cells, Cultured", ]
+MTD	sample[6]	S00015004
+MTD	sample[6]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[6]-tissue[1]	[,, "Cells, Cultured", ]
+MTD	sample[7]	S00015005
+MTD	sample[7]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[7]-tissue[1]	[,, "Cells, Cultured", ]
+MTD	sample[8]	S00015006
+MTD	sample[8]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[8]-tissue[1]	[,, "Cells, Cultured", ]
+MTD	sample[9]	S00015007
+MTD	sample[9]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[9]-tissue[1]	[,, "Cells, Cultured", ]
+MTD	ms_run[1]-location	S00014999
+MTD	ms_run[1]-instrument_ref	instrument[1]
+MTD	ms_run[1]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[2]-location	S00015000
+MTD	ms_run[2]-instrument_ref	instrument[1]
+MTD	ms_run[2]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[3]-location	S00015001
+MTD	ms_run[3]-instrument_ref	instrument[1]
+MTD	ms_run[3]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[4]-location	S00015002
+MTD	ms_run[4]-instrument_ref	instrument[1]
+MTD	ms_run[4]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[5]-location	S00015003
+MTD	ms_run[5]-instrument_ref	instrument[1]
+MTD	ms_run[5]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[6]-location	S00015004
+MTD	ms_run[6]-instrument_ref	instrument[1]
+MTD	ms_run[6]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[7]-location	S00015005
+MTD	ms_run[7]-instrument_ref	instrument[1]
+MTD	ms_run[7]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[8]-location	S00015006
+MTD	ms_run[8]-instrument_ref	instrument[1]
+MTD	ms_run[8]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[9]-location	S00015007
+MTD	ms_run[9]-instrument_ref	instrument[1]
+MTD	ms_run[9]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[10]-location	S00015008
+MTD	ms_run[10]-instrument_ref	instrument[1]
+MTD	ms_run[10]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	assay[1]	S00014999
+MTD	assay[1]-sample_ref	sample[1]
+MTD	assay[1]-ms_run_ref	ms_run[1]
+MTD	assay[10]	S00015008
+MTD	assay[10]-sample_ref	sample[10]
+MTD	assay[10]-ms_run_ref	ms_run[10]
+MTD	assay[2]	S00015000
+MTD	assay[2]-sample_ref	sample[2]
+MTD	assay[2]-ms_run_ref	ms_run[2]
+MTD	assay[3]	S00015001
+MTD	assay[3]-sample_ref	sample[3]
+MTD	assay[3]-ms_run_ref	ms_run[3]
+MTD	assay[4]	S00015002
+MTD	assay[4]-sample_ref	sample[4]
+MTD	assay[4]-ms_run_ref	ms_run[4]
+MTD	assay[5]	S00015003
+MTD	assay[5]-sample_ref	sample[5]
+MTD	assay[5]-ms_run_ref	ms_run[5]
+MTD	assay[6]	S00015004
+MTD	assay[6]-sample_ref	sample[6]
+MTD	assay[6]-ms_run_ref	ms_run[6]
+MTD	assay[7]	S00015005
+MTD	assay[7]-sample_ref	sample[7]
+MTD	assay[7]-ms_run_ref	ms_run[7]
+MTD	assay[8]	S00015006
+MTD	assay[8]-sample_ref	sample[8]
+MTD	assay[8]-ms_run_ref	ms_run[8]
+MTD	assay[9]	S00015007
+MTD	assay[9]-sample_ref	sample[9]
+MTD	assay[9]-ms_run_ref	ms_run[9]
+MTD	study_variable_group[1]	[,,IDH1 Knockdown,]
+MTD	study_variable_group[1]-description	mwTab sample factor IDH1 Knockdown
+MTD	study_variable_group[1]-type	[STATO, STATO:0000252, categorical variable, ]
+MTD	study_variable_group[1]-datatype	xsd:string
+MTD	study_variable_group[1]-study_variable_refs	study_variable[1]|study_variable[2]
+MTD	study_variable[1]	No
+MTD	study_variable[1]-assay_refs	assay[1]|assay[2]|assay[3]|assay[4]|assay[5]
+MTD	study_variable[1]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[1]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[1]-description	Variable IDH1 Knockdown, value No
+MTD	study_variable[2]	yes
+MTD	study_variable[2]-assay_refs	assay[6]|assay[7]|assay[8]|assay[9]|assay[10]
+MTD	study_variable[2]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[2]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[2]-description	Variable IDH1 Knockdown, value yes
+MTD	custom[1]	[,, Metabolomics Workbench analysis ID, AN000441]
+MTD	custom[2]	[,, chromatography type, GC]
+MTD	custom[3]	[,, chromatography instrument, Agilent 7890A]
+MTD	custom[4]	[,, chromatography column, "Agilent DB5-MS (30m Ã— 0.25mm, 0.25um)"]
+MTD	cv[1]-label	MS
+MTD	cv[1]-full_name	PSI-MS controlled vocabulary
+MTD	cv[1]-version	4.1.138
+MTD	cv[1]-uri	https://www.ebi.ac.uk/ols4/ontologies/ms
+MTD	cv[2]-label	PRIDE
+MTD	cv[2]-full_name	PRIDE PRoteomics IDEntifications (PRIDE) database controlled vocabulary
+MTD	cv[2]-version	16:10:2023 11:38
+MTD	cv[2]-uri	https://www.ebi.ac.uk/ols/ontologies/pride
+MTD	cv[3]-label	STATO
+MTD	cv[3]-full_name	General purpose STATistics Ontology
+MTD	cv[3]-version	2026-04-20
+MTD	cv[3]-uri	https://www.ebi.ac.uk/ols4/ontologies/stato
+MTD	cv[4]-label	NCBITaxon
+MTD	cv[4]-full_name	NCBI organismal classification
+MTD	cv[4]-version	unknown
+MTD	cv[4]-uri	http://purl.obolibrary.org/obo/ncbitaxon.owl
+MTD	database[1]	[,, KEGG, ]
+MTD	database[1]-prefix	KEGG
+MTD	database[1]-version	Unknown
+MTD	database[1]-uri	https://www.kegg.jp
+MTD	database[2]	[,, PubChem, ]
+MTD	database[2]-prefix	PubChem
+MTD	database[2]-version	Unknown
+MTD	database[2]-uri	https://pubchem.ncbi.nlm.nih.gov
+MTD	small_molecule-quantification_unit	[,, pmol/µg protein, ]
+MTD	small_molecule-identification_reliability	[MS, MS:1002896, compound identification confidence level, ]
+
+SMH	SML_ID	SMF_ID_REFS	database_identifier	chemical_formula	smiles	inchi	chemical_name	uri	theoretical_neutral_mass	adduct_ions	reliability	best_id_confidence_measure	best_id_confidence_value	abundance_assay[1]	abundance_assay[2]	abundance_assay[3]	abundance_assay[4]	abundance_assay[5]	abundance_assay[6]	abundance_assay[7]	abundance_assay[8]	abundance_assay[9]	abundance_assay[10]	abundance_study_variable[1]	abundance_study_variable[2]	abundance_variation_study_variable[1]	abundance_variation_study_variable[2]	opt_global_metabolite_name	opt_global_pubchem_id	opt_global_inchi_key	opt_global_kegg_id	opt_global_other_id	opt_global_other_id_type	opt_global_ri	opt_global_ri_type	opt_global_moverz_quant	opt_global_c_na_character_na_character_na_character_na_character
+SML	1	null	KEGG:C00041	null	null	null	Alanine	https://www.kegg.jp/entry/C00041	null	null	2	null	null	996.2817	910.7413	1281.7169	698.7935	844.085	1041.1305	647.4352	946.3281	1024.3858	867.1329	946.32368	905.2825	0.229076067344728	0.176624419076414	Alanine	5950	null	C00041	ALA	UM_Target_ID	null	null	null	null
+SML	2	null	KEGG:C00026	null	null	null	alpha-Ketoglutarate	https://www.kegg.jp/entry/C00026	null	null	2	null	null	16.4588	22.3602	23.5513	12.7843	16.7499	21.2418	14.1643	22.387	15.7013	16.7397	18.3809	18.04682	0.243674828126746	0.198495617304665	alpha-Ketoglutarate	51	null	C00026	AKG	UM_Target_ID	null	null	null	null
+SML	3	null	KEGG:C00049	null	null	null	Aspartate	https://www.kegg.jp/entry/C00049	null	null	2	null	null	356.2586	276.7119	578.6748	312.8998	191.0696	702.4607	502.8527	628.2349	574.303	566.6498	343.12294	594.90022	0.422592341599583	0.125722379639136	Aspartate	5960	null	C00049	ASP	UM_Target_ID	null	null	null	null
+SML	4	null	KEGG:C00122	null	null	null	fumarate	https://www.kegg.jp/entry/C00122	null	null	2	null	null	14.7099	11.9777	17.9796	11.6283	8.9059	13.2667	8.3125	11.3369	11.519	11.8588	13.04028	11.25878	0.263981793656375	0.161019309113763	fumarate	444972	null	C00122	FUM	UM_Target_ID	null	null	null	null
+SML	5	null	PubChem:611	null	null	null	Glutamate	https://pubchem.ncbi.nlm.nih.gov/compound/611	null	null	2	null	null	166.5818	120.7442	184.136	121.4537	85.6198	227.2815	154.6118	246.7419	168.05	157.7775	135.7071	190.89254	0.290913883461692	0.224983149049359	Glutamate	611	null	null	GLU	UM_Target_ID	null	null	null	null
+SML	6	null	KEGG:C00064	null	null	null	glutamine	https://www.kegg.jp/entry/C00064	null	null	2	null	null	2409.2674	2039.1899	2390.0722	1695.1824	1966.8836	1442.3682	1002.0822	1743.0489	1836.5683	1482.1244	2100.1191	1501.2384	0.143854033856417	0.216847957175539	glutamine	5961	null	C00064	GLN	UM_Target_ID	null	null	null	null
+SML	7	null	KEGG:C00186	null	null	null	Lactate	https://www.kegg.jp/entry/C00186	null	null	2	null	null	4859.4627	5828.3572	7505.5884	3540.7433	6401.0627	3732.3973	2521.012	3340.4079	3761.1185	3620.8429	5627.04286	3395.15572	0.268199725769651	0.152030892793113	Lactate	107689	null	C00186	LAC	UM_Target_ID	null	null	null	null
+SML	8	null	KEGG:C00036	null	null	null	Oxaloacetate	https://www.kegg.jp/entry/C00036	null	null	2	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	Oxaloacetate	970	null	C00036	OAA	UM_Target_ID	null	null	null	null
+SML	9	null	KEGG:C00022	null	null	null	pyruvate	https://www.kegg.jp/entry/C00022	null	null	2	null	null	53.1017	59.6396	61.5282	24.5963	64.7677	33.9041	31.0891	34.9901	35.0506	41.2705	52.7267	35.26088	0.308987124747229	0.10561752187678	pyruvate	1060	null	C00022	PYR	UM_Target_ID	null	null	null	null
+

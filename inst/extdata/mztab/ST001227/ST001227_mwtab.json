@@ -1,0 +1,249 @@
+[
+{
+"METABOLOMICS WORKBENCH":{"STUDY_ID":"ST001227","ANALYSIS_ID":"AN002040","VERSION":"1","CREATED_ON":"July 31, 2019, 9:48 am"},
+
+"PROJECT":{"PROJECT_TITLE":"Aquamin and Prevention of Colon Cancer","PROJECT_TYPE":"MS analysis","PROJECT_SUMMARY":"Effects of calcium and multi-mineral supplementation on gut microbes and microbially-derived metabolites in patients at risk for colon cancer","INSTITUTE":"University of Michigan","DEPARTMENT":"Pathology","LABORATORY":"Aslam Lab","LAST_NAME":"Aslam","FIRST_NAME":"Muhammad Nadeem","ADDRESS":"Ann Arbor, MI","EMAIL":"mnaslam@umich.edu","PHONE":"734-936-1897"},
+
+"STUDY":{"STUDY_TITLE":"Aquamin and Prevention of Colon Cancer (part-III)","STUDY_TYPE":"MS analysis","STUDY_SUMMARY":"We propose to evaluate microbial and metabolic profiles in baseline and endpoint colonic mucosal, fecal, and serum samples from human patients at risk for CRC and enrolled in a 90-day phase I clinical trial. Patients will receive daily supplementation with calcium alone, a calcium-rich multimineral (Aquamin?), or placebo (maltodextrin) (n=10 per group). We hypothesize that dietary supplementation will correlate with CRC-protective metabolic profiles and that multimineral supplementation will generate more favorable profiles than calcium supplementation alone.","INSTITUTE":"University of Michigan","DEPARTMENT":"Biomedical Research Core Facilities","LABORATORY":"Metabolomics core","LAST_NAME":"Kachman","FIRST_NAME":"Maureen","ADDRESS":"Ann Arbor, MI","EMAIL":"mkachman@med.umich.edu","PHONE":"734-232-0842","NUM_GROUPS":"24","TOTAL_SUBJECTS":"18","STUDY_COMMENTS":"Colorectal cancer (CRC) is the third most common cancer and the second leading cause of cancer related death when both genders are combined. Epidemiologically, calcium intake has been protective against colonic adenomas and even colon cancer. Calcium supplementation has reduced the risk of colon adenoma formation in subjects with a history of previous colon polyps. The utility of calcium supplementation for colon cancer prevention is somewhat modulated by the modest or inconsistent level of protection afforded. Our preliminary data in mice and human enterocyte models shows that dietary supplementation with a multimineral supplement (Aquamin?) containing calcium in combination with 72 measureable trace minerals is more protective against tumors and epithelial growth dysregulation than calcium alone. One potential mechanism, supported by our rodent data, is that multimineral supplementation alters gut microbial populations to generate bile acid and short chain fatty acid (SCFA) profiles that are CRC-protective."},
+
+"SUBJECT":{"SUBJECT_TYPE":"Human","SUBJECT_SPECIES":"Homo sapiens","TAXONOMY_ID":"9606"},
+"SUBJECT_SAMPLE_FACTORS":[
+{
+"Subject ID":"SU0021803",
+"Sample ID":"S00031727",
+"Factors":{"Time Point":"Baseline"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10001 Visit 2 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021804",
+"Sample ID":"S00031728",
+"Factors":{"Time Point":"Baseline"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10002 Visit 2 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021805",
+"Sample ID":"S00031729",
+"Factors":{"Time Point":"Baseline"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10003 Visit 2 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021806",
+"Sample ID":"S00031730",
+"Factors":{"Time Point":"Baseline"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10004 Visit 2 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021807",
+"Sample ID":"S00031731",
+"Factors":{"Time Point":"Baseline"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10005 Visit 2 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021808",
+"Sample ID":"S00031732",
+"Factors":{"Time Point":"Baseline"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10006 Visit 2 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021809",
+"Sample ID":"S00031733",
+"Factors":{"Time Point":"Baseline"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10007 Visit 2 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021810",
+"Sample ID":"S00031734",
+"Factors":{"Time Point":"Baseline"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10008 Visit 2 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021811",
+"Sample ID":"S00031735",
+"Factors":{"Time Point":"Baseline"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10009 Visit 2 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021812",
+"Sample ID":"S00031736",
+"Factors":{"Time Point":"Baseline"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10010 Visit 2 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021813",
+"Sample ID":"S00031737",
+"Factors":{"Time Point":"Baseline"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10011 Visit 2 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021814",
+"Sample ID":"S00031738",
+"Factors":{"Time Point":"Baseline"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10012 Visit 2 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021815",
+"Sample ID":"S00031739",
+"Factors":{"Time Point":"Baseline"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10013 Visit 2 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021816",
+"Sample ID":"S00031740",
+"Factors":{"Time Point":"Baseline"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10014 Visit 2 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021817",
+"Sample ID":"S00031741",
+"Factors":{"Time Point":"Baseline"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10015 Visit 2 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021818",
+"Sample ID":"S00031742",
+"Factors":{"Time Point":"Baseline"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10016 Visit 2 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021819",
+"Sample ID":"S00031743",
+"Factors":{"Time Point":"Baseline"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10017 Visit 2 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021820",
+"Sample ID":"S00031744",
+"Factors":{"Time Point":"Baseline"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10018 Visit 2 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021803",
+"Sample ID":"S00031745",
+"Factors":{"Time Point":"Day 90"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10001 Visit 3 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021804",
+"Sample ID":"S00031746",
+"Factors":{"Time Point":"Day 90"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10002 Visit 3 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021805",
+"Sample ID":"S00031747",
+"Factors":{"Time Point":"Day 90"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10003 Visit 3 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021806",
+"Sample ID":"S00031748",
+"Factors":{"Time Point":"Day 90"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10004 Visit 3 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021807",
+"Sample ID":"S00031749",
+"Factors":{"Time Point":"Day 90"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10005 Visit 3 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021808",
+"Sample ID":"S00031750",
+"Factors":{"Time Point":"Day 90"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10006 Visit 3 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021809",
+"Sample ID":"S00031751",
+"Factors":{"Time Point":"Day 90"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10007 Visit 3 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021810",
+"Sample ID":"S00031752",
+"Factors":{"Time Point":"Day 90"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10008 Visit 3 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021811",
+"Sample ID":"S00031753",
+"Factors":{"Time Point":"Day 90"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10009 Visit 3 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021812",
+"Sample ID":"S00031754",
+"Factors":{"Time Point":"Day 90"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10010 Visit 3 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021813",
+"Sample ID":"S00031755",
+"Factors":{"Time Point":"Day 90"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10011 Visit 3 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021814",
+"Sample ID":"S00031756",
+"Factors":{"Time Point":"Day 90"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10012 Visit 3 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021815",
+"Sample ID":"S00031757",
+"Factors":{"Time Point":"Day 90"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10013 Visit 3 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021816",
+"Sample ID":"S00031758",
+"Factors":{"Time Point":"Day 90"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10014 Visit 3 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021817",
+"Sample ID":"S00031759",
+"Factors":{"Time Point":"Day 90"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10015 Visit 3 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021818",
+"Sample ID":"S00031760",
+"Factors":{"Time Point":"Day 90"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10016 Visit 3 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021819",
+"Sample ID":"S00031761",
+"Factors":{"Time Point":"Day 90"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10017 Visit 3 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021820",
+"Sample ID":"S00031762",
+"Factors":{"Time Point":"Day 90"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10018 Visit 3 Colon NA#2"}
+}
+],
+"COLLECTION":{"COLLECTION_SUMMARY":"Not available","SAMPLE_TYPE":"Colon"},
+
+"TREATMENT":{"TREATMENT_SUMMARY":"Not available."},
+
+"SAMPLEPREP":{"SAMPLEPREP_SUMMARY":"Cold extraction of short chain fatty acids, measured by EI- GCMS without derivatization. SCFA species are reported as uM, with CV's generally ~10%.","SAMPLEPREP_PROTOCOL_FILENAME":"Short_chain_fatty_acids_analysis.doc"},
+
+"CHROMATOGRAPHY":{"CHROMATOGRAPHY_TYPE":"GC","INSTRUMENT_NAME":"Agilent 7890N","COLUMN_NAME":"Agilent HP5-MS (15m ? 0.25mm, 0.25 um)"},
+
+"ANALYSIS":{"ANALYSIS_TYPE":"MS","ANALYSIS_PROTOCOL_FILE":"Short_chain_fatty_acids_analysis.doc","ACQUISITION_PARAMETERS_FILE":"WAXPLUS_100-250C_3_SPLITLESS_SIM.M.zip"},
+
+"MS":{"INSTRUMENT_NAME":"Agilent 5975","INSTRUMENT_TYPE":"Single quadrupole","MS_TYPE":"EI","ION_MODE":"POSITIVE","MS_COMMENTS":"NA"},
+
+"MS_METABOLITE_DATA":{
+"Units":"nmol/mg (wet weight)",
+
+"Data":[{"Metabolite":"Acetate","S00031727":"3.6755","S00031728":"7.9369","S00031729":"8.8608","S00031730":"11.3465","S00031731":"9.4553","S00031732":"4.0828","S00031733":"4.8496","S00031734":"3.5015","S00031735":"4.0795","S00031736":"3.5908","S00031737":"5.5384","S00031738":"7.0338","S00031739":"1.6242","S00031740":"5.5459","S00031741":"5.4278","S00031742":"1.8769","S00031743":"4.1716","S00031744":"7.1746","S00031745":"5.5851","S00031746":"3.8787","S00031747":"13.6060","S00031748":"6.2643","S00031749":"4.1944","S00031750":"5.1344","S00031751":"4.0642","S00031752":"5.4253","S00031753":"7.5384","S00031754":"6.3228","S00031755":"5.7407","S00031756":"5.0823","S00031757":"2.0215","S00031758":"4.9227","S00031759":"4.9960","S00031760":"2.8510","S00031761":"3.5456","S00031762":"4.6715"},{"Metabolite":"Propionate","S00031727":"0.0882","S00031728":"1.1139","S00031729":"0.2671","S00031730":"1.0976","S00031731":"0.1918","S00031732":"0.1802","S00031733":"0.3423","S00031734":"0.0938","S00031735":"0.1390","S00031736":"0.3949","S00031737":"0.0692","S00031738":"0.1001","S00031739":"0.2271","S00031740":"0.2454","S00031741":"0.1928","S00031742":"0.1997","S00031743":"0.0743","S00031744":"0.3105","S00031745":"0.1648","S00031746":"0.2022","S00031747":"1.7902","S00031748":"0.3886","S00031749":"0.2231","S00031750":"0.3091","S00031751":"0.1392","S00031752":"0.3146","S00031753":"0.2317","S00031754":"0.4101","S00031755":"0.1821","S00031756":"0.3784","S00031757":"0.3259","S00031758":"0.3066","S00031759":"0.3283","S00031760":"0.1827","S00031761":"0.1864","S00031762":"0.1566"},{"Metabolite":"Butyrate","S00031727":"0.0533","S00031728":"0.3863","S00031729":"0.1203","S00031730":"0.5606","S00031731":"0.0474","S00031732":"0.0427","S00031733":"0.1558","S00031734":"0.0411","S00031735":"0.0323","S00031736":"0.1060","S00031737":"0.0032","S00031738":"0.0751","S00031739":"0.0499","S00031740":"0.1132","S00031741":"0.2534","S00031742":"0.0458","S00031743":"0.0438","S00031744":"0.1036","S00031745":"0.0677","S00031746":"0.1039","S00031747":"0.5644","S00031748":"0.1265","S00031749":"0.0855","S00031750":"0.1213","S00031751":"0.0634","S00031752":"0.1904","S00031753":"0.0550","S00031754":"0.1899","S00031755":"0.0450","S00031756":"0.1220","S00031757":"0.0592","S00031758":"0.0753","S00031759":"0.1352","S00031760":"0.0643","S00031761":"0.0575","S00031762":"0.0683"},{"Metabolite":"Isovalerate","S00031727":"0.0000","S00031728":"0.0381","S00031729":"0.0059","S00031730":"0.0275","S00031731":"0.0098","S00031732":"0.0073","S00031733":"0.0310","S00031734":"0.0050","S00031735":"0.0051","S00031736":"0.0482","S00031737":"0.0014","S00031738":"0.0077","S00031739":"0.0065","S00031740":"0.0328","S00031741":"0.0466","S00031742":"0.0086","S00031743":"0.0010","S00031744":"0.0123","S00031745":"0.0254","S00031746":"0.0128","S00031747":"0.1011","S00031748":"0.0062","S00031749":"0.0244","S00031750":"0.0307","S00031751":"0.0101","S00031752":"0.0278","S00031753":"0.0057","S00031754":"0.0095","S00031755":"0.0053","S00031756":"0.0236","S00031757":"0.0267","S00031758":"0.0098","S00031759":"0.0191","S00031760":"0.0061","S00031761":"0.0102","S00031762":"0.0132"},{"Metabolite":"Valerate","S00031727":"0.0538","S00031728":"0.0979","S00031729":"0.0813","S00031730":"0.0968","S00031731":"0.0340","S00031732":"0.0326","S00031733":"0.0717","S00031734":"0.0274","S00031735":"0.0503","S00031736":"0.1114","S00031737":"0.0191","S00031738":"0.1436","S00031739":"0.0411","S00031740":"0.0904","S00031741":"0.0918","S00031742":"0.0344","S00031743":"0.0373","S00031744":"0.0648","S00031745":"0.0779","S00031746":"0.0614","S00031747":"0.2267","S00031748":"0.0477","S00031749":"0.1156","S00031750":"0.1570","S00031751":"0.0388","S00031752":"0.1030","S00031753":"0.0385","S00031754":"0.0625","S00031755":"0.0335","S00031756":"0.1033","S00031757":"0.0435","S00031758":"0.0474","S00031759":"0.0985","S00031760":"0.0561","S00031761":"0.0500","S00031762":"0.0554"},{"Metabolite":"Hexanoate","S00031727":"0.1221","S00031728":"0.0962","S00031729":"0.1603","S00031730":"0.1280","S00031731":"0.1087","S00031732":"0.0612","S00031733":"0.1646","S00031734":"0.0364","S00031735":"0.1465","S00031736":"0.1147","S00031737":"0.0665","S00031738":"0.4309","S00031739":"0.0727","S00031740":"0.1187","S00031741":"0.3884","S00031742":"0.0704","S00031743":"0.1284","S00031744":"0.1833","S00031745":"0.1968","S00031746":"0.1067","S00031747":"0.0943","S00031748":"0.1071","S00031749":"0.2583","S00031750":"0.1872","S00031751":"0.0827","S00031752":"0.1623","S00031753":"0.0919","S00031754":"0.1329","S00031755":"0.1041","S00031756":"0.1905","S00031757":"0.1011","S00031758":"0.1382","S00031759":"0.2228","S00031760":"0.1466","S00031761":"0.1375","S00031762":"0.1265"},{"Metabolite":"Heptanoate","S00031727":"0.0000","S00031728":"0.0012","S00031729":"0.0047","S00031730":"0.0015","S00031731":"0.0017","S00031732":"0.0005","S00031733":"0.0045","S00031734":"0.0012","S00031735":"0.0025","S00031736":"0.0114","S00031737":"0.0012","S00031738":"0.0004","S00031739":"0.0008","S00031740":"0.0124","S00031741":"0.0179","S00031742":"0.0019","S00031743":"0.0015","S00031744":"0.0046","S00031745":"0.0070","S00031746":"0.0002","S00031747":"0.0065","S00031748":"0.0036","S00031749":"0.0126","S00031750":"0.0108","S00031751":"0.0034","S00031752":"0.0076","S00031753":"0.0044","S00031754":"0.0038","S00031755":"0.0022","S00031756":"0.0084","S00031757":"0.0024","S00031758":"0.0030","S00031759":"0.0094","S00031760":"0.0037","S00031761":"0.0049","S00031762":"0.0059"},{"Metabolite":"Octanoate","S00031727":"0.0000","S00031728":"0.0025","S00031729":"0.0017","S00031730":"0.0016","S00031731":"0.0005","S00031732":"0.0003","S00031733":"0.0023","S00031734":"0.0005","S00031735":"0.0004","S00031736":"0.0003","S00031737":"0.0007","S00031738":"0.0023","S00031739":"0.0004","S00031740":"0.0012","S00031741":"0.0343","S00031742":"0.0010","S00031743":"0.0019","S00031744":"0.0063","S00031745":"0.0014","S00031746":"0.0021","S00031747":"0.0102","S00031748":"0.0042","S00031749":"0.0019","S00031750":"0.0000","S00031751":"0.0030","S00031752":"0.0074","S00031753":"0.0035","S00031754":"0.0049","S00031755":"0.0030","S00031756":"0.0013","S00031757":"0.0021","S00031758":"0.0027","S00031759":"0.0064","S00031760":"0.0034","S00031761":"0.0011","S00031762":"0.0024"}],
+
+"Metabolites":[{"Metabolite":"Acetate","PubChem ID":"176"},{"Metabolite":"Propionate","PubChem ID":"1032"},{"Metabolite":"Butyrate","PubChem ID":"264"},{"Metabolite":"Isovalerate","PubChem ID":"10430"},{"Metabolite":"Valerate","PubChem ID":"7991"},{"Metabolite":"Hexanoate","PubChem ID":"8892"},{"Metabolite":"Heptanoate","PubChem ID":"8094"},{"Metabolite":"Octanoate","PubChem ID":"379"}]
+}
+
+}
+]

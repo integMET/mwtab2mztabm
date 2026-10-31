@@ -1,0 +1,310 @@
+MTD	mzTab-version	2.1.0-M
+MTD	mzTab-ID	ST001610_AN002644
+MTD	mzTab-profile	M+S
+MTD	title	Control (DMSO 0.1%; v/v) and 10 µM DRB18 treated A549 lung cancer cells in vitro for 48 hours
+MTD	description	Control (DMSO 0.1%; v/v) and 10 µM DRB18 were used to treated 5 million A549 lung cancer cells in vitro for 48 hours. The untargeted metabolomics analysis was performed on the cell lysates. The main objective of the study was to determine changes in metabolite abundances in lung cancer after treatment with DRB18, an inhibitor of glucose transporter proteins.
+MTD	instrument[1]-name	[MS, MS:1000031, instrument model, Agilent 6545 QTOF]
+MTD	instrument[1]-source	[MS, MS:1000073, electrospray ionization, ]
+MTD	instrument[1]-analyzer[1]	[MS, MS:1000081, quadrupole, ]
+MTD	instrument[1]-analyzer[2]	[MS, MS:1000084, time-of-flight, ]
+MTD	software[1]	[MS, MS:1000799, custom unreleased software tool, mwtab2mztabm 0.1.0]
+MTD	contact[1]-name	Pratik Shriwas
+MTD	contact[1]-affiliation	Ohio University
+MTD	contact[1]-email	ps774614@ohio.edu
+MTD	uri[1]	https://www.metabolomicsworkbench.org/data/DRCCMetadata.php?Mode=Study&StudyID=ST001610
+MTD	quantification_method	[MS, MS:1001834, LC-MS label-free quantitation analysis, ]
+MTD	sample[1]	Controlinvitro_1
+MTD	sample[1]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[1]-tissue[1]	[,, Lung, ]
+MTD	sample[1]-custom[1]	[,,RAW_FILE_NAME, DMSOvsDRB18invitrorep1.raw]
+MTD	sample[10]	DRB18invitro_1
+MTD	sample[10]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[10]-tissue[1]	[,, Lung, ]
+MTD	sample[10]-custom[1]	[,,RAW_FILE_NAME, DMSOvsDRB18invitrorep1.raw]
+MTD	sample[11]	DRB18invitro_2
+MTD	sample[11]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[11]-tissue[1]	[,, Lung, ]
+MTD	sample[11]-custom[1]	[,,RAW_FILE_NAME, DMSOvsDRB18invitrorep1.raw]
+MTD	sample[12]	DRB18invitro_3
+MTD	sample[12]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[12]-tissue[1]	[,, Lung, ]
+MTD	sample[12]-custom[1]	[,,RAW_FILE_NAME, DMSOvsDRB18invitrorep1.raw]
+MTD	sample[13]	DRB18invitro_4
+MTD	sample[13]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[13]-tissue[1]	[,, Lung, ]
+MTD	sample[13]-custom[1]	[,,RAW_FILE_NAME, DMSOvsDRB18invitrorep23.raw]
+MTD	sample[14]	DRB18invitro_5
+MTD	sample[14]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[14]-tissue[1]	[,, Lung, ]
+MTD	sample[14]-custom[1]	[,,RAW_FILE_NAME, DMSOvsDRB18invitrorep23.raw]
+MTD	sample[15]	DRB18invitro_6
+MTD	sample[15]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[15]-tissue[1]	[,, Lung, ]
+MTD	sample[15]-custom[1]	[,,RAW_FILE_NAME, DMSOvsDRB18invitrorep23.raw]
+MTD	sample[16]	DRB18invitro_7
+MTD	sample[16]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[16]-tissue[1]	[,, Lung, ]
+MTD	sample[16]-custom[1]	[,,RAW_FILE_NAME, DMSOvsDRB18invitrorep23.raw]
+MTD	sample[17]	DRB18invitro_8
+MTD	sample[17]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[17]-tissue[1]	[,, Lung, ]
+MTD	sample[17]-custom[1]	[,,RAW_FILE_NAME, DMSOvsDRB18invitrorep23.raw]
+MTD	sample[18]	DRB18invitro_9
+MTD	sample[18]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[18]-tissue[1]	[,, Lung, ]
+MTD	sample[18]-custom[1]	[,,RAW_FILE_NAME, DMSOvsDRB18invitrorep23.raw]
+MTD	sample[2]	Controlinvitro_2
+MTD	sample[2]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[2]-tissue[1]	[,, Lung, ]
+MTD	sample[2]-custom[1]	[,,RAW_FILE_NAME, DMSOvsDRB18invitrorep1.raw]
+MTD	sample[3]	Controlinvitro_3
+MTD	sample[3]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[3]-tissue[1]	[,, Lung, ]
+MTD	sample[3]-custom[1]	[,,RAW_FILE_NAME, DMSOvsDRB18invitrorep1.raw]
+MTD	sample[4]	Controlinvitro_4
+MTD	sample[4]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[4]-tissue[1]	[,, Lung, ]
+MTD	sample[4]-custom[1]	[,,RAW_FILE_NAME, DMSOvsDRB18invitrorep23.raw]
+MTD	sample[5]	Controlinvitro_5
+MTD	sample[5]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[5]-tissue[1]	[,, Lung, ]
+MTD	sample[5]-custom[1]	[,,RAW_FILE_NAME, DMSOvsDRB18invitrorep23.raw]
+MTD	sample[6]	Controlinvitro_6
+MTD	sample[6]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[6]-tissue[1]	[,, Lung, ]
+MTD	sample[6]-custom[1]	[,,RAW_FILE_NAME, DMSOvsDRB18invitrorep23.raw]
+MTD	sample[7]	Controlinvitro_7
+MTD	sample[7]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[7]-tissue[1]	[,, Lung, ]
+MTD	sample[7]-custom[1]	[,,RAW_FILE_NAME, DMSOvsDRB18invitrorep23.raw]
+MTD	sample[8]	Controlinvitro_8
+MTD	sample[8]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[8]-tissue[1]	[,, Lung, ]
+MTD	sample[8]-custom[1]	[,,RAW_FILE_NAME, DMSOvsDRB18invitrorep23.raw]
+MTD	sample[9]	Controlinvitro_9
+MTD	sample[9]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[9]-tissue[1]	[,, Lung, ]
+MTD	sample[9]-custom[1]	[,,RAW_FILE_NAME, DMSOvsDRB18invitrorep23.raw]
+MTD	ms_run[1]-location	DMSOvsDRB18invitrorep1.raw
+MTD	ms_run[1]-instrument_ref	instrument[1]
+MTD	ms_run[1]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[2]-location	DMSOvsDRB18invitrorep1.raw
+MTD	ms_run[2]-instrument_ref	instrument[1]
+MTD	ms_run[2]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[3]-location	DMSOvsDRB18invitrorep1.raw
+MTD	ms_run[3]-instrument_ref	instrument[1]
+MTD	ms_run[3]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[4]-location	DMSOvsDRB18invitrorep23.raw
+MTD	ms_run[4]-instrument_ref	instrument[1]
+MTD	ms_run[4]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[5]-location	DMSOvsDRB18invitrorep23.raw
+MTD	ms_run[5]-instrument_ref	instrument[1]
+MTD	ms_run[5]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[6]-location	DMSOvsDRB18invitrorep23.raw
+MTD	ms_run[6]-instrument_ref	instrument[1]
+MTD	ms_run[6]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[7]-location	DMSOvsDRB18invitrorep23.raw
+MTD	ms_run[7]-instrument_ref	instrument[1]
+MTD	ms_run[7]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[8]-location	DMSOvsDRB18invitrorep23.raw
+MTD	ms_run[8]-instrument_ref	instrument[1]
+MTD	ms_run[8]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[9]-location	DMSOvsDRB18invitrorep23.raw
+MTD	ms_run[9]-instrument_ref	instrument[1]
+MTD	ms_run[9]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[10]-location	DMSOvsDRB18invitrorep1.raw
+MTD	ms_run[10]-instrument_ref	instrument[1]
+MTD	ms_run[10]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[11]-location	DMSOvsDRB18invitrorep1.raw
+MTD	ms_run[11]-instrument_ref	instrument[1]
+MTD	ms_run[11]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[12]-location	DMSOvsDRB18invitrorep1.raw
+MTD	ms_run[12]-instrument_ref	instrument[1]
+MTD	ms_run[12]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[13]-location	DMSOvsDRB18invitrorep23.raw
+MTD	ms_run[13]-instrument_ref	instrument[1]
+MTD	ms_run[13]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[14]-location	DMSOvsDRB18invitrorep23.raw
+MTD	ms_run[14]-instrument_ref	instrument[1]
+MTD	ms_run[14]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[15]-location	DMSOvsDRB18invitrorep23.raw
+MTD	ms_run[15]-instrument_ref	instrument[1]
+MTD	ms_run[15]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[16]-location	DMSOvsDRB18invitrorep23.raw
+MTD	ms_run[16]-instrument_ref	instrument[1]
+MTD	ms_run[16]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[17]-location	DMSOvsDRB18invitrorep23.raw
+MTD	ms_run[17]-instrument_ref	instrument[1]
+MTD	ms_run[17]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[18]-location	DMSOvsDRB18invitrorep23.raw
+MTD	ms_run[18]-instrument_ref	instrument[1]
+MTD	ms_run[18]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	assay[1]	Controlinvitro_1
+MTD	assay[1]-sample_ref	sample[1]
+MTD	assay[1]-ms_run_ref	ms_run[1]
+MTD	assay[10]	DRB18invitro_1
+MTD	assay[10]-sample_ref	sample[10]
+MTD	assay[10]-ms_run_ref	ms_run[10]
+MTD	assay[11]	DRB18invitro_2
+MTD	assay[11]-sample_ref	sample[11]
+MTD	assay[11]-ms_run_ref	ms_run[11]
+MTD	assay[12]	DRB18invitro_3
+MTD	assay[12]-sample_ref	sample[12]
+MTD	assay[12]-ms_run_ref	ms_run[12]
+MTD	assay[13]	DRB18invitro_4
+MTD	assay[13]-sample_ref	sample[13]
+MTD	assay[13]-ms_run_ref	ms_run[13]
+MTD	assay[14]	DRB18invitro_5
+MTD	assay[14]-sample_ref	sample[14]
+MTD	assay[14]-ms_run_ref	ms_run[14]
+MTD	assay[15]	DRB18invitro_6
+MTD	assay[15]-sample_ref	sample[15]
+MTD	assay[15]-ms_run_ref	ms_run[15]
+MTD	assay[16]	DRB18invitro_7
+MTD	assay[16]-sample_ref	sample[16]
+MTD	assay[16]-ms_run_ref	ms_run[16]
+MTD	assay[17]	DRB18invitro_8
+MTD	assay[17]-sample_ref	sample[17]
+MTD	assay[17]-ms_run_ref	ms_run[17]
+MTD	assay[18]	DRB18invitro_9
+MTD	assay[18]-sample_ref	sample[18]
+MTD	assay[18]-ms_run_ref	ms_run[18]
+MTD	assay[2]	Controlinvitro_2
+MTD	assay[2]-sample_ref	sample[2]
+MTD	assay[2]-ms_run_ref	ms_run[2]
+MTD	assay[3]	Controlinvitro_3
+MTD	assay[3]-sample_ref	sample[3]
+MTD	assay[3]-ms_run_ref	ms_run[3]
+MTD	assay[4]	Controlinvitro_4
+MTD	assay[4]-sample_ref	sample[4]
+MTD	assay[4]-ms_run_ref	ms_run[4]
+MTD	assay[5]	Controlinvitro_5
+MTD	assay[5]-sample_ref	sample[5]
+MTD	assay[5]-ms_run_ref	ms_run[5]
+MTD	assay[6]	Controlinvitro_6
+MTD	assay[6]-sample_ref	sample[6]
+MTD	assay[6]-ms_run_ref	ms_run[6]
+MTD	assay[7]	Controlinvitro_7
+MTD	assay[7]-sample_ref	sample[7]
+MTD	assay[7]-ms_run_ref	ms_run[7]
+MTD	assay[8]	Controlinvitro_8
+MTD	assay[8]-sample_ref	sample[8]
+MTD	assay[8]-ms_run_ref	ms_run[8]
+MTD	assay[9]	Controlinvitro_9
+MTD	assay[9]-sample_ref	sample[9]
+MTD	assay[9]-ms_run_ref	ms_run[9]
+MTD	study_variable_group[1]	[,,Treatment,]
+MTD	study_variable_group[1]-description	mwTab sample factor Treatment
+MTD	study_variable_group[1]-type	[STATO, STATO:0000252, categorical variable, ]
+MTD	study_variable_group[1]-datatype	xsd:string
+MTD	study_variable_group[1]-study_variable_refs	study_variable[1]|study_variable[2]
+MTD	study_variable[1]	Control
+MTD	study_variable[1]-assay_refs	assay[1]|assay[2]|assay[3]|assay[4]|assay[5]|assay[6]|assay[7]|assay[8]|assay[9]
+MTD	study_variable[1]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[1]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[1]-description	Variable Treatment, value Control
+MTD	study_variable[2]	DRB18
+MTD	study_variable[2]-assay_refs	assay[10]|assay[11]|assay[12]|assay[13]|assay[14]|assay[15]|assay[16]|assay[17]|assay[18]
+MTD	study_variable[2]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[2]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[2]-description	Variable Treatment, value DRB18
+MTD	custom[1]	[,, Metabolomics Workbench analysis ID, AN002644]
+MTD	custom[2]	[,, chromatography type, Reversed phase]
+MTD	custom[3]	[,, chromatography instrument, Agilent 1290]
+MTD	custom[4]	[,, chromatography column, Poroshell 120 SB-C18 (2.1 x 100 mm x 2.7 Âµm)]
+MTD	cv[1]-label	MS
+MTD	cv[1]-full_name	PSI-MS controlled vocabulary
+MTD	cv[1]-version	4.1.138
+MTD	cv[1]-uri	https://www.ebi.ac.uk/ols4/ontologies/ms
+MTD	cv[2]-label	PRIDE
+MTD	cv[2]-full_name	PRIDE PRoteomics IDEntifications (PRIDE) database controlled vocabulary
+MTD	cv[2]-version	16:10:2023 11:38
+MTD	cv[2]-uri	https://www.ebi.ac.uk/ols/ontologies/pride
+MTD	cv[3]-label	STATO
+MTD	cv[3]-full_name	General purpose STATistics Ontology
+MTD	cv[3]-version	2026-04-20
+MTD	cv[3]-uri	https://www.ebi.ac.uk/ols4/ontologies/stato
+MTD	cv[4]-label	NCBITaxon
+MTD	cv[4]-full_name	NCBI organismal classification
+MTD	cv[4]-version	unknown
+MTD	cv[4]-uri	http://purl.obolibrary.org/obo/ncbitaxon.owl
+MTD	database[1]	[,, KEGG, ]
+MTD	database[1]-prefix	KEGG
+MTD	database[1]-version	Unknown
+MTD	database[1]-uri	https://www.kegg.jp
+MTD	database[2]	[,, PubChem, ]
+MTD	database[2]-prefix	PubChem
+MTD	database[2]-version	Unknown
+MTD	database[2]-uri	https://pubchem.ncbi.nlm.nih.gov
+MTD	small_molecule-quantification_unit	[,, Normalized abundances, ]
+MTD	small_molecule-identification_reliability	[MS, MS:1002896, compound identification confidence level, ]
+
+SMH	SML_ID	SMF_ID_REFS	database_identifier	chemical_formula	smiles	inchi	chemical_name	uri	theoretical_neutral_mass	adduct_ions	reliability	best_id_confidence_measure	best_id_confidence_value	abundance_assay[1]	abundance_assay[2]	abundance_assay[3]	abundance_assay[4]	abundance_assay[5]	abundance_assay[6]	abundance_assay[7]	abundance_assay[8]	abundance_assay[9]	abundance_assay[10]	abundance_assay[11]	abundance_assay[12]	abundance_assay[13]	abundance_assay[14]	abundance_assay[15]	abundance_assay[16]	abundance_assay[17]	abundance_assay[18]	abundance_study_variable[1]	abundance_study_variable[2]	abundance_variation_study_variable[1]	abundance_variation_study_variable[2]	opt_global_metabolite_name	opt_global_kegg_id	opt_global_pubchem_id	opt_global_quantitated_m_z	opt_global_retention_index_minutes
+SML	1	null	KEGG:C00031	null	null	null	D-glucose	https://www.kegg.jp/entry/C00031	null	null	2	null	null	12417.73304	14138.11211	11228.2942	null	null	null	null	null	null	10280.37443	10426.86199	9252.155564	null	null	null	null	null	null	12594.7131166667	9986.46399466667	0.116156663375569	0.0641001477842716	D-glucose	C00031	5793	203.0535068	11.97116667
+SML	2	null	KEGG:C00668	null	null	null	Glucose-6-Phosphate	https://www.kegg.jp/entry/C00668	null	null	2	null	null	null	null	null	8657.625437	10388.4822	8463.503328	6597.913228	7736.565172	7909.671149	null	null	null	7418.685785	6297.351619	7874.360042	5265.013343	4389.518473	4196.690784	8292.293419	5906.93667433333	0.15142047446364	0.261699338435926	Glucose-6-Phosphate	C00668	5958	243.0272177	1.3748
+SML	3	null	KEGG:C00111	null	null	null	Dihydroxyacetone phosphate	https://www.kegg.jp/entry/C00111	null	null	2	null	null	null	null	null	10625.65035	7970.18891	9136.651377	9433.433971	8132.788333	8667.445616	null	null	null	7227.821624	5954.832933	6571.964593	6613.509549	8308.711205	7700.44973	8994.3597595	7062.88160566667	0.108619090530261	0.121078112664449	Dihydroxyacetone phosphate	C00111	668	87.0447276	1.271183333
+SML	4	null	KEGG:C00022	null	null	null	Pyruvic acid	https://www.kegg.jp/entry/C00022	null	null	2	null	null	null	null	null	94904.07496	70142.2816	82976.77652	62171.34223	54761.86489	44555.11516	null	null	null	43104.73124	32958.41787	35072.00752	54505.79081	52911.54108	41713.56294	68251.9092266667	43377.6752433333	0.271052772219259	0.204933204715009	Pyruvic acid	C00022	1060	130.0493613	2.5066
+SML	5	null	KEGG:C00256	null	null	null	L-Lactic acid	https://www.kegg.jp/entry/C00256	null	null	2	null	null	null	null	null	101.4473562	91.88907079	106.326413	92.08309817	101.1397679	98.46271387	null	null	null	81.22252435	75.41624387	72.40304078	71.86540815	79.17257997	50.71649898	98.5580699883333	71.7993826833333	0.0577127889943413	0.152709816113855	L-Lactic acid	C00256	107689	73.02817559	3.366883333
+SML	6	null	KEGG:C00024	null	null	null	Acetyl CoA	https://www.kegg.jp/entry/C00024	null	null	2	null	null	null	null	null	211.2388273	175.8677658	339.7637695	307.5907149	300.3797439	365.3186855	null	null	null	113.2250605	239.3230628	null	101.4656964	102.598039	53.84159575	283.359917816667	122.09069089	0.261873262130083	0.568723131122395	Acetyl CoA	C00024	444493	832.1230385	11.71331667
+SML	7	null	KEGG:C03668	null	null	null	Malic acid	https://www.kegg.jp/entry/C03668	null	null	2	null	null	349008.0251	387086.0308	400899.3729	null	null	null	null	null	null	263050.7233	240012.8767	226806.1335	null	null	null	null	null	null	378997.8096	243289.911166667	0.0709095641672226	0.0753963338103909	Malic acid	C03668	525	152.0559692	4.445383333
+SML	8	null	KEGG:C00042	null	null	null	Succinic acid	https://www.kegg.jp/entry/C00042	null	null	2	null	null	506175.232	510528.542	546304.6315	null	null	null	null	null	null	335031.5426	358512.0899	388564.0972	null	null	null	null	null	null	521002.801833333	360702.576566667	0.0422644023760027	0.0743920860676947	Succinic acid	C00042	1110	136.0601296	6.530083333
+SML	9	null	KEGG:C00005	null	null	null	NADPH	https://www.kegg.jp/entry/C00005	null	null	2	null	null	null	null	null	2127.62373	1959.738036	2535.192933	1682.49218	1862.275755	1580.675049	null	null	null	710.1503142	744.6447668	660.9100741	1655.319506	1535.788401	2190.791848	1957.99961383333	1249.60081835	0.175346030067123	0.509266414498609	NADPH	C00005	5884	787.1240031	8.580266667
+SML	10	null	KEGG:C02471	null	null	null	GSH	https://www.kegg.jp/entry/C02471	null	null	2	null	null	null	null	null	290916.2315	41287.44116	22800.16283	244609.8057	248516.1016	33218.82073	null	null	null	212222.8467	193922.3752	103271.8262	12900.19011	9312.532701	10085.84318	146891.427253333	90285.9356818333	0.861614224406016	1.04789060198622	GSH	C02471	124886	308.0903988	2.099616667
+SML	11	null	KEGG:C00127	null	null	null	GSSG	https://www.kegg.jp/entry/C00127	null	null	2	null	null	null	null	null	9650.689796	1083.861435	844.7292022	7667.860805	7857.025453	738.3212083	null	null	null	9848.431316	12438.94238	13288.13214	1021.339902	865.0412515	943.6213628	4640.41464991667	6400.91805871667	0.898383693662008	0.950666856331643	GSSG	C00127	975	307.0819607	2.865133333
+SML	12	null	KEGG:C00064	null	null	null	L-glutamine	https://www.kegg.jp/entry/C00064	null	null	2	null	null	null	null	null	24588.99251	17211.54541	23978.01148	null	null	null	null	null	null	14074.70793	11401.2489	15601.95934	null	null	null	21926.1831333333	13692.6387233333	0.186736035715019	0.155284779323546	L-glutamine	C00064	5961	185.0325284	1.271183333
+SML	13	null	KEGG:C00329	null	null	null	Glucosamine	https://www.kegg.jp/entry/C00329	null	null	2	null	null	null	null	null	330673.7136	306766.2295	286985.8251	null	null	null	null	null	null	172252.4716	113992.6061	127721.3844	296023.3202	208496.6374	217311.9263	308141.922733333	189299.724333333	0.0709945906056642	0.352765596463017	Glucosamine	C00329	439213	162.0758648	1.620333333
+SML	14	null	KEGG:C00043	null	null	null	Uridine diphosphate-N-acetylglucosamine	https://www.kegg.jp/entry/C00043	null	null	2	null	null	null	null	null	698432.2806	557448.1378	654605.9585	null	null	null	null	null	null	497235.2255	387654.1157	428432.1014	null	null	null	636828.7923	437773.8142	0.113301528086113	0.126514225928875	Uridine diphosphate-N-acetylglucosamine	C00043	445675	608.0877909	5.465783333
+SML	15	null	KEGG:C00140	null	null	null	N-Acetyl-D-glucosamine	https://www.kegg.jp/entry/C00140	null	null	2	null	null	null	null	null	2792.171007	1210.270888	1273.569159	1401.681485	997.7743562	952.6244722	null	null	null	354.7245935	337.9814545	562.5047046	1164.707036	778.281719	1113.929351	1438.0152279	718.6881431	0.476072683990772	0.505720997793109	N-Acetyl-D-glucosamine	C00140	439174	290.0863504	2.94045
+SML	16	null	KEGG:C00357	null	null	null	N-Acetyl-D-Glucosamine 6-Phosphate	https://www.kegg.jp/entry/C00357	null	null	2	null	null	null	null	null	9785.770078	7939.650524	9179.031217	10574.70685	8736.775556	8200.469142	null	null	null	8582.548188	7126.990544	7681.171695	null	7809.487111	7933.672681	9069.40056116667	7826.7740438	0.109521490855764	0.0668128015230724	N-Acetyl-D-Glucosamine 6-Phosphate	C00357	440996	340.020457	1.3748
+SML	17	null	KEGG:C04677	null	null	null	AICAR	https://www.kegg.jp/entry/C04677	null	null	2	null	null	null	null	null	535.3775389	487.2138082	338.9680067	null	null	null	null	null	null	265.3917335	257.5342732	198.7241895	null	null	null	453.853117933333	240.5500654	0.225549602006564	0.151464130735732	AICAR	C04677	65110	361.0506057	8.31735
+SML	18	null	KEGG:C00212	null	null	null	Adenosine	https://www.kegg.jp/entry/C00212	null	null	2	null	null	null	null	null	1057.549757	1094.797553	852.4556436	1406.962473	1303.461326	1361.776936	null	null	null	780.7769738	503.628727	621.5687312	1068.448674	865.4739176	660.662404	1179.50061476667	750.093237933333	0.181573242846086	0.267209861298994	Adenosine	C00212	60961	290.0877384	4.615583333
+SML	19	null	KEGG:C00262	null	null	null	Hypoxanthine	https://www.kegg.jp/entry/C00262	null	null	2	null	null	null	null	null	299264.1631	203812.9637	238847.1003	355269.7348	317169.5432	242260.9268	null	null	null	251758.0125	192841.7415	215269.7237	295278.117	294694.2018	230220.4218	276104.071983333	246677.036383333	0.206471912292858	0.170542870509932	Hypoxanthine	C00262	135398638	137.0454655	2.5066
+SML	20	null	KEGG:C00361	null	null	null	dGDP	https://www.kegg.jp/entry/C00361	null	null	2	null	null	null	null	null	2179.725998	1335.434552	1594.442127	3108.652098	2850.048222	2660.226786	null	null	null	616.7701189	995.6562865	1191.645637	960.7862397	2074.182851	2054.327872	2288.08829716667	1315.56150085	0.310766956445787	0.462763718107198	dGDP	C00361	135398595	887.056433	11.74543333
+SML	21	null	KEGG:C00008	null	null	null	ADP	https://www.kegg.jp/entry/C00008	null	null	2	null	null	null	null	null	320.0673286	372.1529081	248.2556147	245.1455552	200.2325547	172.018032	null	null	null	74.44552543	39.56663009	70.07638633	259.7314358	190.1361306	230.9016288	259.645332216667	144.142956175	0.287476880673472	0.652889614210251	ADP	C00008	6022	855.0648272	2.865133333
+SML	22	null	KEGG:C00286	null	null	null	dGTP	https://www.kegg.jp/entry/C00286	null	null	2	null	null	null	null	null	4297.022619	3659.788853	3138.36264	2947.800893	2511.173108	2506.997163	null	null	null	2965.581077	null	1931.401636	2113.860486	2541.38987	1984.984976	3176.857546	2307.443609	0.21961338376569	0.190235738305438	dGTP	C00286	135398599	508.0024938	1.2409
+SML	23	null	KEGG:C00360	null	null	null	Deoxyguanosine	https://www.kegg.jp/entry/C00360	null	null	2	null	null	177696.5433	181414.6053	168131.5586	null	null	null	null	null	null	87683.58667	97960.28786	91649.12314	null	null	null	null	null	null	175747.569066667	92430.9992233333	0.0389913922226895	0.0560718142827957	Deoxyguanosine	C00360	135398592	250.0946275	5.185816667
+SML	24	null	KEGG:C00438	null	null	null	Ureidosuccinic acid	https://www.kegg.jp/entry/C00438	null	null	2	null	null	null	null	null	18981.49429	18578.175	19111.45188	null	null	null	null	null	null	17725.94327	18052.7238	18011.98024	null	null	null	18890.3737233333	17930.21577	0.014720229217062	0.00993151922171532	Ureidosuccinic acid	C00438	93072	111.0101682	1.092416667
+SML	25	null	KEGG:C01103	null	null	null	Orotidine 5'-phosphate	https://www.kegg.jp/entry/C01103	null	null	2	null	null	null	null	null	516.3351465	520.4739697	532.5649881	466.7854192	509.7512622	395.1012031	null	null	null	1008.352751	1293.926393	1169.090345	529.2010021	737.3659867	516.0337881	490.1686648	875.661710983333	0.105490356514386	0.377772282542431	Orotidine 5'-phosphate	C01103	160617	412.9953574	8.31735
+SML	26	null	KEGG:C00214	null	null	null	Thymidine	https://www.kegg.jp/entry/C00214	null	null	2	null	null	null	null	null	3797.513778	3761.423353	2805.931105	2693.788163	null	null	null	null	null	2314.855823	1100.076069	2439.75654	2310.099919	null	null	3264.66409975	2041.19708775	0.182679562883091	0.308779280413549	Thymidine	C00214	5789	281.0519751	14.72423333
+SML	27	null	KEGG:C00460	null	null	null	dUTP	https://www.kegg.jp/entry/C00460	null	null	2	null	null	null	null	null	2158.610116	1979.481205	1867.888809	null	null	null	null	null	null	1734.330575	1326.311884	1201.62129	null	null	null	2001.99337666667	1420.754583	0.073258113610716	0.196113699205785	dUTP	C00460	65070	512.9491717	1.171483333
+SML	28	null	KEGG:C00075	null	null	null	UTP	https://www.kegg.jp/entry/C00075	null	null	2	null	null	null	null	null	512.0563672	642.5223046	421.7158404	496.1782324	null	null	null	null	null	461.6947023	314.0561856	296.4637489	376.4109123	null	null	518.11818615	362.156387275	0.177201320832727	0.206264173642735	UTP	C00075	6133	968.943115	10.06956667
+SML	29	null	KEGG:C00458	null	null	null	dCTP	https://www.kegg.jp/entry/C00458	null	null	2	null	null	null	null	null	489.1793962	253.6155589	273.791982	200.9783525	193.0022709	153.2117725	null	null	null	228.8649408	380.1766177	280.8407605	181.8928827	115.0013679	93.31299681	260.629888833333	213.348261068333	0.460831369786479	0.503506666382261	dCTP	C00458	65091	467.9932024	4.615583333
+SML	30	null	KEGG:C01771	null	null	null	But-2-enoic acid	https://www.kegg.jp/entry/C01771	null	null	2	null	null	null	null	null	4325.187883	4156.192399	3907.708254	3467.985358	4480.052234	3661.863829	null	null	null	11135.4321	12923.40841	14280.09494	13123.08546	10878.26582	8623.018377	3999.8316595	11827.2175178333	0.0978871248783827	0.171383681095181	But-2-enoic acid	C01771	637090	173.0812738	8.127366667
+SML	31	null	KEGG:C05951	null	null	null	Leukotriene D4	https://www.kegg.jp/entry/C05951	null	null	2	null	null	null	null	null	22445.53007	18920.15066	16597.88754	26563.88208	22502.77748	23738.15047	null	null	null	46677.9135	49483.72129	48814.82165	47595.72534	44949.28617	38547.61245	21794.7297166667	46011.5134	0.162500969543239	0.086775267940108	Leukotriene D4	C05951	6435286	271.1189354	8.907783333
+SML	32	null	KEGG:C05584	null	null	null	Vanillylmandelic acid	https://www.kegg.jp/entry/C05584	null	null	2	null	null	null	null	null	5988.740245	4261.950765	4559.976821	7633.272712	5804.302416	4872.929239	null	null	null	13959.30642	11172.44873	13057.50419	13335.3722	10960.73386	10374.97186	5520.19536633333	12143.3895433333	0.224651637121354	0.122269672546396	Vanillylmandelic acid	C05584	736172	237.0170753	1.3748
+SML	33	null	KEGG:C04181	null	null	null	Pyrroline hydroxycarboxylic acid	https://www.kegg.jp/entry/C04181	null	null	2	null	null	null	null	null	9125.834387	5843.641987	6578.89542	6264.233461	5678.839677	4475.114429	null	null	null	9869.400868	6630.147745	9019.380408	6530.107756	6563.905183	4820.772876	6327.7598935	7238.95247266667	0.244662555283597	0.256702267868605	Pyrroline hydroxycarboxylic acid	C04181	11966268	259.0938917	2.5066
+SML	34	null	KEGG:C00319	null	null	null	Sphingosine	https://www.kegg.jp/entry/C00319	null	null	2	null	null	null	null	null	9604.50414	7760.422052	7302.757513	16951.70463	15444.49713	12830.28554	null	null	null	28280.1228	29796.45898	30166.65321	28426.34534	29107.96219	28093.2271	11649.0285008333	28978.4616033333	0.347876636401036	0.0295801063287085	Sphingosine	C00319	5280335	300.2916369	15.06281667
+SML	35	null	PubChem:10197713	null	null	null	(R)-3-Hydroxyhexanoic acid	https://pubchem.ncbi.nlm.nih.gov/compound/10197713	null	null	2	null	null	null	null	null	26795.82728	23994.07043	23742.12176	23079.15444	22201.509	22372.02259	null	null	null	51654.14923	46001.83201	43338.83162	36205.32975	27924.22352	33483.80464	23697.4509166667	39768.0284616667	0.0707800949348616	0.220754252339368	(R)-3-Hydroxyhexanoic acid	-	10197713	177.0549342	12.4397
+SML	36	null	KEGG:C00153	null	null	null	Niacinamide	https://www.kegg.jp/entry/C00153	null	null	2	null	null	null	null	null	257789.3665	157972.5242	147391.3356	158299.767	138911.2944	106715.4058	null	null	null	228210.8975	178069.5848	184422.0378	198068.9569	183216.2101	144545.4132	161179.948916667	186088.85005	0.316408839108429	0.146557116963999	Niacinamide	C00153	936	123.0547069	2.4617
+SML	37	null	KEGG:C02373	null	null	null	4-Methylpentanal	https://www.kegg.jp/entry/C02373	null	null	2	null	null	null	null	null	131.8877218	17.35161379	41.02990054	185.2738557	123.4677666	66.8102989	null	null	null	388.1326257	217.9225187	258.2098502	153.9407658	142.007339	112.0209444	94.3035262216667	212.0390073	0.671568926040798	0.47844163951787	4-Methylpentanal	C02373	129	83.0848968	1.620333333
+SML	38	null	KEGG:C05468	null	null	null	5b-Cyprinol sulfate	https://www.kegg.jp/entry/C05468	null	null	2	null	null	null	null	null	152224.1663	144389.9572	133774.1687	154121.4489	116623.1307	112697.884	null	null	null	218346.4326	188703.0444	218500.8458	235590.056	187397.0789	186056.1982	135638.4593	205765.609316667	0.131248759894465	0.102564724011537	5b-Cyprinol sulfate	C05468	53477904	533.3117412	14.67288333
+SML	39	null	KEGG:C00037	null	null	null	Glycine	https://www.kegg.jp/entry/C00037	null	null	2	null	null	null	null	null	null	null	null	179.9045622	219.9041333	179.7640985	null	null	null	84.55891587	154.8682643	59.09252012	null	null	null	193.190931333333	99.5065667633333	0.11974898596764	0.498526675457066	Glycine	C00037	750	98.02162538	2.865133333
+SML	40	null	KEGG:C00584	null	null	null	Prostaglandin E2	https://www.kegg.jp/entry/C00584	null	null	2	null	null	null	null	null	366343.9	362942.4788	327548.8557	481975.2387	438153.2411	422940.4559	null	null	null	534849.0869	511933.7929	519309.8224	1115594.196	1015490.857	1064320.889	399984.028366667	793583.107366667	0.143432685060984	0.377076964653918	Prostaglandin E2	C00584	5280360	375.2163589	13.26108333
+SML	41	null	KEGG:C02990	null	null	null	L-Palmitoylcarnitine	https://www.kegg.jp/entry/C02990	null	null	2	null	null	null	null	null	17754.60748	32737.0208	32121.77361	25058.01327	35916.8013	42074.50192	null	null	null	33886.26666	58048.52374	69466.14483	56119.69984	52461.96307	65909.05107	30943.7863966667	55981.941535	0.274909733804018	0.223860034423654	L-Palmitoylcarnitine	C02990	11953816	400.3413177	15.62601667
+SML	42	null	KEGG:C04734	null	null	null	Phosphoribosyl formamidocarboxamide	https://www.kegg.jp/entry/C04734	null	null	2	null	null	null	null	null	22049.21069	19321.43571	22930.8101	38297.95997	36779.95701	36143.92162	null	null	null	7570.778175	6529.241828	8882.20027	19285.33258	17952.1554	17938.90063	29253.8825166667	13026.4348138333	0.296610268329722	0.4563875527971	Phosphoribosyl formamidocarboxamide	C04734	166760	408.0897251	1.339
+SML	43	null	KEGG:C00015	null	null	null	Uridine 5'-diphosphate	https://www.kegg.jp/entry/C00015	null	null	2	null	null	null	null	null	1068.717153	1659.892533	1042.273268	null	1076.763732	1304.598016	null	null	null	1042.249705	916.7808709	1162.081143	341.1286723	777.2587968	null	1230.4489404	847.8998376	0.213135926901142	0.3743656921194	Uridine 5'-diphosphate	C00015	6031	809.0138311	12.9665
+SML	44	null	KEGG:C00356	null	null	null	3-Hydroxy-3-methylglutaryl-CoA	https://www.kegg.jp/entry/C00356	null	null	2	null	null	null	null	null	122.0451521	240.1170503	310.9986203	190.0529225	212.8799167	163.2853275	null	null	null	41.27993584	84.02457032	28.04643317	131.6518168	104.2589933	102.2043706	206.5631649	81.911020005	0.316429379294113	0.48656577840993	3-Hydroxy-3-methylglutaryl-CoA	C00356	91506	478.5707474	3.779316667
+SML	45	null	KEGG:C00047	null	null	null	L-Lysine	https://www.kegg.jp/entry/C00047	null	null	2	null	null	null	null	null	26299.0305	28640.42768	19047.87075	38335.1933	39059.37377	24618.75886	null	null	null	19608.62309	21497.85882	17827.53847	23194.84875	25538.42527	15477.98533	29333.4424766667	20524.2132883333	0.269870870729987	0.178085347167158	L-Lysine	C00047	5962	147.112577	1.135783333
+SML	46	null	KEGG:C00315	null	null	null	Spermidine	https://www.kegg.jp/entry/C00315	null	null	2	null	null	null	null	null	37.15872344	32.92079128	23.39846939	50.54523255	17.33136858	null	null	null	null	105.8677996	61.30604061	96.06394871	61.18523164	null	null	32.270917048	81.10575514	0.398096093230844	0.287022690893271	Spermidine	C00315	1102	168.1480508	1.4458
+SML	47	null	KEGG:C06126	null	null	null	Galabiosylceramide (d18:1/22:0)	https://www.kegg.jp/entry/C06126	null	null	2	null	null	null	null	null	233.7466261	242.4215295	114.8117088	173.1986849	170.0704142	39.80224714	null	null	null	503.2134013	558.1437127	340.031968	185.9031799	241.1463001	188.4118302	162.34186844	336.141732033333	0.468828745112809	0.480860096873489	Galabiosylceramide (d18:1/22:0)	C06126	20057277	495.8444294	2.3587
+SML	48	null	KEGG:C00089	null	null	null	Sucrose	https://www.kegg.jp/entry/C00089	null	null	2	null	null	null	null	null	146.114827	129.3770894	178.8224653	120.1793909	79.42380513	94.50570762	null	null	null	35.71684616	84.93148415	19.48198882	40.67114547	21.74569175	113.8876358	124.737214225	52.739132025	0.286635156618648	0.723391663052273	Sucrose	C00089	5988	387.0848975	4.10195
+SML	49	null	KEGG:C22001	null	null	null	(R)-3-Hydroxydodecanoic acid	https://www.kegg.jp/entry/C22001	null	null	2	null	null	null	null	null	49151.72567	33535.00314	42247.58506	78073.63908	57582.97412	58651.75962	null	null	null	19249.78023	17803.06884	16773.21848	77346.15308	59232.93506	60577.58092	53207.1144483333	41830.4561016667	0.290030636036067	0.644198279997241	(R)-3-Hydroxydodecanoic acid	C22001	5312804	261.1422074	6.115133333
+SML	50	null	KEGG:C03221	null	null	null	trans-Dodec-2-enoic acid	https://www.kegg.jp/entry/C03221	null	null	2	null	null	null	null	null	7764.740407	9484.381327	8849.355242	7138.491854	6763.432215	6477.15043	null	null	null	12411.4115	11172.84862	11960.84695	7341.743426	8286.584293	7151.100775	7746.25857916667	9720.75592733333	0.154743407563952	0.246404754567161	trans-Dodec-2-enoic acid	C03221	5282729	199.1676221	12.69
+SML	51	null	KEGG:C00424	null	null	null	Lactaldehyde	https://www.kegg.jp/entry/C00424	null	null	2	null	null	null	null	null	151501.4152	107246.1122	109827.0794	41025.72814	29855.74257	29614.50244	null	null	null	137851.2761	102127.9514	106123.6291	167470.5537	144583.1671	125167.3365	78178.4299916667	130553.98565	0.659629072431432	0.189080513482255	Lactaldehyde	C00424	439231	112.9994079	1.4843
+SML	52	null	KEGG:C00116	null	null	null	Glycerol	https://www.kegg.jp/entry/C00116	null	null	2	null	null	null	null	null	35.91451476	15.57841765	23.5782894	15.873453	24.72416098	22.64470627	null	null	null	13.14632605	25.12190796	26.07809564	15.78602441	30.01273373	20.45148179	23.05225701	21.76609493	0.322337297260783	0.297497776518246	Glycerol	C00116	753	57.03286797	3.75675
+SML	53	null	KEGG:C05290	null	null	null	19-Hydroxyandrost-4-ene-3,17-dione	https://www.kegg.jp/entry/C05290	null	null	2	null	null	null	null	null	52135.34496	32432.47041	38685.99197	179671.0411	142814.4582	140545.8945	null	null	null	238189.3129	217252.3826	285552.2389	197442.0441	144135.7617	133412.9579	97714.20019	202664.11635	0.653834648845543	0.284257439253879	19-Hydroxyandrost-4-ene-3,17-dione	C05290	252379	344.2247754	6.368833333
+SML	54	null	KEGG:C00166	null	null	null	Phenylpyruvic acid	https://www.kegg.jp/entry/C00166	null	null	2	null	null	null	null	null	31158.4703	26521.44714	27483.63185	38166.97983	30155.59887	24675.63011	null	null	null	33327.09519	22664.4621	23790.99466	29415.49874	20558.26911	21926.00714	29693.62635	25280.3878233333	0.161006886913481	0.197354323764817	Phenylpyruvic acid	C00166	997	165.054527	1.620333333
+SML	55	null	KEGG:C00085	null	null	null	Fructose 6-phosphate	https://www.kegg.jp/entry/C00085	null	null	2	null	null	null	null	null	18074.40424	14612.20883	16689.34493	30418.1359	26289.45737	25308.29631	null	null	null	16761.19386	14881.20634	18023.46841	15930.42483	12626.46211	12115.36505	21898.6412633333	15056.3534333333	0.287609669909011	0.154507218082354	Fructose 6-phosphate	C00085	69507	283.0177767	1.339
+SML	56	null	PubChem:19166	null	null	null	2-Ethylacrylic acid	https://pubchem.ncbi.nlm.nih.gov/compound/19166	null	null	2	null	null	null	null	null	null	null	203.6859487	157.7859106	136.7230386	172.3917915	null	null	null	161.851133	161.5712312	94.48441538	131.5561348	104.4832108	135.8285892	167.64667235	131.629119063333	0.167827316298126	0.213373685880414	2-Ethylacrylic acid	-	19166	142.0864813	1.620333333
+SML	57	null	KEGG:C01089	null	null	null	(R)-3-Hydroxybutyric acid	https://www.kegg.jp/entry/C01089	null	null	2	null	null	null	null	null	10625.65035	7970.18891	9136.651377	9433.433971	8132.788333	8667.445616	null	null	null	7227.821624	5954.832933	6571.964593	6613.509549	8308.711205	7700.44973	8994.3597595	7062.88160566667	0.108619090530261	0.121078112664449	(R)-3-Hydroxybutyric acid	C01089	92135	87.0447276	1.271183333
+SML	58	null	KEGG:C01005	null	null	null	Phosphoserine	https://www.kegg.jp/entry/C01005	null	null	2	null	null	null	null	null	99887.19806	79610.35364	84942.18864	61800.9165	49458.95503	46136.13469	null	null	null	75868.94357	59968.84237	65584.05062	82247.80688	69414.80912	64616.87066	70305.95776	69616.8872033333	0.302861634762255	0.117228760790823	Phosphoserine	C01005	68841	102.0545876	1.305366667
+SML	59	null	KEGG:C00130	null	null	null	Inosinic acid	https://www.kegg.jp/entry/C00130	null	null	2	null	null	null	null	null	253.7604694	336.0037673	355.6893461	349.7325264	251.1511058	304.2540477	null	null	null	333.9264531	406.7719186	582.412571	140.803117	290.9099848	258.8002249	308.431877116667	335.6040449	0.151981199377339	0.445614223114341	Inosinic acid	C00130	8582	313.0348973	9.392733333
+SML	60	null	KEGG:C03838	null	null	null	Glycineamideribotide	https://www.kegg.jp/entry/C03838	null	null	2	null	null	null	null	null	206.3139462	513.2952356	245.8944509	154.1055876	175.8053798	47.24585173	null	null	null	176.2162951	161.7509861	302.2776865	3.321564826	31.99875476	11.37267306	223.776741971667	114.489660057667	0.700705151690869	1.04159011906367	Glycineamideribotide	C03838	160913	309.0482346	13.46323333
+SML	61	null	KEGG:C00881	null	null	null	Deoxycytidine	https://www.kegg.jp/entry/C00881	null	null	2	null	null	null	null	null	9020.287979	6888.356222	7135.282922	7180.643543	6211.66218	null	null	null	null	5639.507325	4926.374022	6390.114394	5096.004039	5778.401007	null	7287.2465692	5566.0801574	0.143167689211472	0.104747106453228	Deoxycytidine	C00881	13711	77.03810693	4.10195
+SML	62	null	KEGG:C00062	null	null	null	L-Arginine	https://www.kegg.jp/entry/C00062	null	null	2	null	null	null	null	null	484.2625367	391.8409164	391.4125175	239.6608152	176.6739927	161.5575832	null	null	null	576.3188777	603.6984539	647.1006342	225.5677896	190.5830626	158.4291565	307.568060283333	400.28299575	0.432354829567861	0.576521674895584	L-Arginine	C00062	6322	139.0969309	1.092416667
+SML	63	null	KEGG:C00049	null	null	null	L-Aspartic acid	https://www.kegg.jp/entry/C00049	null	null	2	null	null	null	null	null	1303.685529	1673.129826	947.1350986	266.9315306	1845.190525	1998.544455	null	null	null	335.7399929	1047.717428	528.5768088	249.1097536	1420.152443	1572.102342	1339.10282736667	858.899794716667	0.484768063925351	0.661484906734805	L-Aspartic acid	C00049	5960	98.02475782	1.339
+SML	64	null	KEGG:C00135	null	null	null	L-Histidine	https://www.kegg.jp/entry/C00135	null	null	2	null	null	null	null	null	2410.899493	1992.48607	2417.100996	3413.291566	2876.788804	2534.709837	null	null	null	3338.335725	2807.091558	2957.628698	2626.791944	2379.66007	2265.248039	2607.54612766667	2729.12600566667	0.186325351209159	0.14446432616015	L-Histidine	C00135	6274	178.0589796	1.2409
+SML	65	null	KEGG:C00407	null	null	null	L-Isoleucine	https://www.kegg.jp/entry/C00407	null	null	2	null	null	null	null	null	924107.9323	850143.8399	917897.962	812355.4693	658631.8594	634549.1217	null	null	null	467042.0783	349069.0718	384433.7857	711465.412	596092.4205	609468.3483	799614.3641	519595.1861	0.157524161933915	0.273334106507868	L-Isoleucine	C00407	6306	132.1012723	2.94045
+SML	66	null	KEGG:C00123	null	null	null	L-Leucine	https://www.kegg.jp/entry/C00123	null	null	2	null	null	null	null	null	240288.8498	220812.1034	232438.1692	254683.3982	206248.6218	196947.6858	null	null	null	370648.5229	320218.5498	351955.2181	262884.122	207182.1924	208918.736	225236.471366667	286967.8902	0.0957578751011973	0.248217386070426	L-Leucine	C00123	6106	114.0905569	6.012716667
+SML	67	null	KEGG:C00148	null	null	null	L-Proline	https://www.kegg.jp/entry/C00148	null	null	2	null	null	null	null	null	663839.0363	548084.1198	616877.9893	673162.4627	560486.3713	529121.8368	null	null	null	581052.6137	460981.9967	518715.4228	750602.4895	623632.9582	625578.0643	598595.3027	593427.257533333	0.102931169231066	0.168389337371315	L-Proline	C00148	145742	116.0703743	1.407383333
+

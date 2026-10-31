@@ -1,0 +1,542 @@
+MTD	mzTab-version	2.1.0-M
+MTD	mzTab-ID	ST001226_AN002039
+MTD	mzTab-profile	M+S
+MTD	title	Aquamin and Prevention of Colon Cancer (part-II)
+MTD	description	We propose to evaluate microbial and metabolic profiles in baseline and endpoint colonic mucosal, fecal, and serum samples from human patients at risk for CRC and enrolled in a 90-day phase I clinical trial. Patients will receive daily supplementation with calcium alone, a calcium-rich multimineral (Aquamin?), or placebo (maltodextrin) (n=10 per group). We hypothesize that dietary supplementation will correlate with CRC-protective metabolic profiles and that multimineral supplementation will generate more favorable profiles than calcium supplementation alone.
+MTD	instrument[1]-name	[MS, MS:1000031, instrument model, Agilent 6490 QQQ]
+MTD	instrument[1]-source	[MS, MS:1000073, electrospray ionization, ]
+MTD	instrument[1]-analyzer[1]	[MS, MS:1000081, quadrupole, ]
+MTD	software[1]	[MS, MS:1000799, custom unreleased software tool, mwtab2mztabm 0.1.0]
+MTD	contact[1]-name	Maureen Kachman
+MTD	contact[1]-affiliation	University of Michigan
+MTD	contact[1]-email	mkachman@med.umich.edu
+MTD	uri[1]	https://www.metabolomicsworkbench.org/data/DRCCMetadata.php?Mode=Study&StudyID=ST001226
+MTD	quantification_method	[MS, MS:1001834, LC-MS label-free quantitation analysis, ]
+MTD	sample[1]	S00031799
+MTD	sample[1]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[1]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[1]-custom[1]	[,,Subject ID, SU0021803]
+MTD	sample[1]-custom[2]	[,,Sample type, Sample]
+MTD	sample[1]-custom[3]	[,,Biological material, Serum]
+MTD	sample[1]-custom[4]	[,,10001 Visit 2 Serum, 10001 Visit 2 Serum]
+MTD	sample[10]	S00031808
+MTD	sample[10]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[10]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[10]-custom[1]	[,,Subject ID, SU0021812]
+MTD	sample[10]-custom[2]	[,,Sample type, Sample]
+MTD	sample[10]-custom[3]	[,,Biological material, Serum]
+MTD	sample[10]-custom[4]	[,,10001 Visit 2 Serum, 10010 Visit 2 Serum]
+MTD	sample[11]	S00031809
+MTD	sample[11]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[11]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[11]-custom[1]	[,,Subject ID, SU0021813]
+MTD	sample[11]-custom[2]	[,,Sample type, Sample]
+MTD	sample[11]-custom[3]	[,,Biological material, Serum]
+MTD	sample[11]-custom[4]	[,,10001 Visit 2 Serum, 10011 Visit 2 Serum]
+MTD	sample[12]	S00031810
+MTD	sample[12]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[12]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[12]-custom[1]	[,,Subject ID, SU0021814]
+MTD	sample[12]-custom[2]	[,,Sample type, Sample]
+MTD	sample[12]-custom[3]	[,,Biological material, Serum]
+MTD	sample[12]-custom[4]	[,,10001 Visit 2 Serum, 10012 Visit 2 Serum]
+MTD	sample[13]	S00031811
+MTD	sample[13]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[13]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[13]-custom[1]	[,,Subject ID, SU0021815]
+MTD	sample[13]-custom[2]	[,,Sample type, Sample]
+MTD	sample[13]-custom[3]	[,,Biological material, Serum]
+MTD	sample[13]-custom[4]	[,,10001 Visit 2 Serum, 10013 Visit 2 Serum]
+MTD	sample[14]	S00031812
+MTD	sample[14]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[14]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[14]-custom[1]	[,,Subject ID, SU0021816]
+MTD	sample[14]-custom[2]	[,,Sample type, Sample]
+MTD	sample[14]-custom[3]	[,,Biological material, Serum]
+MTD	sample[14]-custom[4]	[,,10001 Visit 2 Serum, 10014 Visit 2 Serum]
+MTD	sample[15]	S00031813
+MTD	sample[15]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[15]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[15]-custom[1]	[,,Subject ID, SU0021817]
+MTD	sample[15]-custom[2]	[,,Sample type, Sample]
+MTD	sample[15]-custom[3]	[,,Biological material, Serum]
+MTD	sample[15]-custom[4]	[,,10001 Visit 2 Serum, 10015 Visit 2 Serum]
+MTD	sample[16]	S00031814
+MTD	sample[16]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[16]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[16]-custom[1]	[,,Subject ID, SU0021818]
+MTD	sample[16]-custom[2]	[,,Sample type, Sample]
+MTD	sample[16]-custom[3]	[,,Biological material, Serum]
+MTD	sample[16]-custom[4]	[,,10001 Visit 2 Serum, 10016 Visit 2 Serum]
+MTD	sample[17]	S00031815
+MTD	sample[17]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[17]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[17]-custom[1]	[,,Subject ID, SU0021819]
+MTD	sample[17]-custom[2]	[,,Sample type, Sample]
+MTD	sample[17]-custom[3]	[,,Biological material, Serum]
+MTD	sample[17]-custom[4]	[,,10001 Visit 2 Serum, 10017 Visit 2 Serum]
+MTD	sample[18]	S00031816
+MTD	sample[18]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[18]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[18]-custom[1]	[,,Subject ID, SU0021820]
+MTD	sample[18]-custom[2]	[,,Sample type, Sample]
+MTD	sample[18]-custom[3]	[,,Biological material, Serum]
+MTD	sample[18]-custom[4]	[,,10001 Visit 2 Serum, 10018 Visit 2 Serum]
+MTD	sample[19]	S00031817
+MTD	sample[19]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[19]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[19]-custom[1]	[,,Subject ID, SU0021803]
+MTD	sample[19]-custom[2]	[,,Sample type, Sample]
+MTD	sample[19]-custom[3]	[,,Biological material, Serum]
+MTD	sample[19]-custom[4]	[,,10001 Visit 2 Serum, 10001 Visit 3 Serum]
+MTD	sample[2]	S00031800
+MTD	sample[2]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[2]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[2]-custom[1]	[,,Subject ID, SU0021804]
+MTD	sample[2]-custom[2]	[,,Sample type, Sample]
+MTD	sample[2]-custom[3]	[,,Biological material, Serum]
+MTD	sample[2]-custom[4]	[,,10001 Visit 2 Serum, 10002 Visit 2 Serum]
+MTD	sample[20]	S00031818
+MTD	sample[20]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[20]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[20]-custom[1]	[,,Subject ID, SU0021804]
+MTD	sample[20]-custom[2]	[,,Sample type, Sample]
+MTD	sample[20]-custom[3]	[,,Biological material, Serum]
+MTD	sample[20]-custom[4]	[,,10001 Visit 2 Serum, 10002 Visit 3 Serum]
+MTD	sample[21]	S00031819
+MTD	sample[21]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[21]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[21]-custom[1]	[,,Subject ID, SU0021805]
+MTD	sample[21]-custom[2]	[,,Sample type, Sample]
+MTD	sample[21]-custom[3]	[,,Biological material, Serum]
+MTD	sample[21]-custom[4]	[,,10001 Visit 2 Serum, 10003 Visit 3 Serum]
+MTD	sample[22]	S00031820
+MTD	sample[22]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[22]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[22]-custom[1]	[,,Subject ID, SU0021806]
+MTD	sample[22]-custom[2]	[,,Sample type, Sample]
+MTD	sample[22]-custom[3]	[,,Biological material, Serum]
+MTD	sample[22]-custom[4]	[,,10001 Visit 2 Serum, 10004 Visit 3 Serum]
+MTD	sample[23]	S00031821
+MTD	sample[23]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[23]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[23]-custom[1]	[,,Subject ID, SU0021807]
+MTD	sample[23]-custom[2]	[,,Sample type, Sample]
+MTD	sample[23]-custom[3]	[,,Biological material, Serum]
+MTD	sample[23]-custom[4]	[,,10001 Visit 2 Serum, 10005 Visit 3 Serum]
+MTD	sample[24]	S00031822
+MTD	sample[24]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[24]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[24]-custom[1]	[,,Subject ID, SU0021808]
+MTD	sample[24]-custom[2]	[,,Sample type, Sample]
+MTD	sample[24]-custom[3]	[,,Biological material, Serum]
+MTD	sample[24]-custom[4]	[,,10001 Visit 2 Serum, 10006 Visit 3 Serum]
+MTD	sample[25]	S00031823
+MTD	sample[25]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[25]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[25]-custom[1]	[,,Subject ID, SU0021809]
+MTD	sample[25]-custom[2]	[,,Sample type, Sample]
+MTD	sample[25]-custom[3]	[,,Biological material, Serum]
+MTD	sample[25]-custom[4]	[,,10001 Visit 2 Serum, 10007 Visit 3 Serum]
+MTD	sample[26]	S00031824
+MTD	sample[26]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[26]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[26]-custom[1]	[,,Subject ID, SU0021810]
+MTD	sample[26]-custom[2]	[,,Sample type, Sample]
+MTD	sample[26]-custom[3]	[,,Biological material, Serum]
+MTD	sample[26]-custom[4]	[,,10001 Visit 2 Serum, 10008 Visit 3 Serum]
+MTD	sample[27]	S00031825
+MTD	sample[27]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[27]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[27]-custom[1]	[,,Subject ID, SU0021811]
+MTD	sample[27]-custom[2]	[,,Sample type, Sample]
+MTD	sample[27]-custom[3]	[,,Biological material, Serum]
+MTD	sample[27]-custom[4]	[,,10001 Visit 2 Serum, 10009 Visit 3 Serum]
+MTD	sample[28]	S00031826
+MTD	sample[28]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[28]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[28]-custom[1]	[,,Subject ID, SU0021812]
+MTD	sample[28]-custom[2]	[,,Sample type, Sample]
+MTD	sample[28]-custom[3]	[,,Biological material, Serum]
+MTD	sample[28]-custom[4]	[,,10001 Visit 2 Serum, 10010 Visit 3 Serum]
+MTD	sample[29]	S00031827
+MTD	sample[29]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[29]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[29]-custom[1]	[,,Subject ID, SU0021813]
+MTD	sample[29]-custom[2]	[,,Sample type, Sample]
+MTD	sample[29]-custom[3]	[,,Biological material, Serum]
+MTD	sample[29]-custom[4]	[,,10001 Visit 2 Serum, 10011 Visit 3 Serum]
+MTD	sample[3]	S00031801
+MTD	sample[3]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[3]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[3]-custom[1]	[,,Subject ID, SU0021805]
+MTD	sample[3]-custom[2]	[,,Sample type, Sample]
+MTD	sample[3]-custom[3]	[,,Biological material, Serum]
+MTD	sample[3]-custom[4]	[,,10001 Visit 2 Serum, 10003 Visit 2 Serum]
+MTD	sample[30]	S00031828
+MTD	sample[30]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[30]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[30]-custom[1]	[,,Subject ID, SU0021814]
+MTD	sample[30]-custom[2]	[,,Sample type, Sample]
+MTD	sample[30]-custom[3]	[,,Biological material, Serum]
+MTD	sample[30]-custom[4]	[,,10001 Visit 2 Serum, 10012 Visit 3 Serum]
+MTD	sample[31]	S00031829
+MTD	sample[31]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[31]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[31]-custom[1]	[,,Subject ID, SU0021815]
+MTD	sample[31]-custom[2]	[,,Sample type, Sample]
+MTD	sample[31]-custom[3]	[,,Biological material, Serum]
+MTD	sample[31]-custom[4]	[,,10001 Visit 2 Serum, 10013 Visit 3 Serum]
+MTD	sample[32]	S00031830
+MTD	sample[32]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[32]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[32]-custom[1]	[,,Subject ID, SU0021816]
+MTD	sample[32]-custom[2]	[,,Sample type, Sample]
+MTD	sample[32]-custom[3]	[,,Biological material, Serum]
+MTD	sample[32]-custom[4]	[,,10001 Visit 2 Serum, 10014 Visit 3 Serum]
+MTD	sample[33]	S00031831
+MTD	sample[33]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[33]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[33]-custom[1]	[,,Subject ID, SU0021817]
+MTD	sample[33]-custom[2]	[,,Sample type, Sample]
+MTD	sample[33]-custom[3]	[,,Biological material, Serum]
+MTD	sample[33]-custom[4]	[,,10001 Visit 2 Serum, 10015 Visit 3 Serum]
+MTD	sample[34]	S00031832
+MTD	sample[34]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[34]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[34]-custom[1]	[,,Subject ID, SU0021818]
+MTD	sample[34]-custom[2]	[,,Sample type, Sample]
+MTD	sample[34]-custom[3]	[,,Biological material, Serum]
+MTD	sample[34]-custom[4]	[,,10001 Visit 2 Serum, 10016 Visit 3 Serum]
+MTD	sample[35]	S00031833
+MTD	sample[35]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[35]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[35]-custom[1]	[,,Subject ID, SU0021819]
+MTD	sample[35]-custom[2]	[,,Sample type, Sample]
+MTD	sample[35]-custom[3]	[,,Biological material, Serum]
+MTD	sample[35]-custom[4]	[,,10001 Visit 2 Serum, 10017 Visit 3 Serum]
+MTD	sample[36]	S00031834
+MTD	sample[36]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[36]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[36]-custom[1]	[,,Subject ID, SU0021820]
+MTD	sample[36]-custom[2]	[,,Sample type, Sample]
+MTD	sample[36]-custom[3]	[,,Biological material, Serum]
+MTD	sample[36]-custom[4]	[,,10001 Visit 2 Serum, 10018 Visit 3 Serum]
+MTD	sample[4]	S00031802
+MTD	sample[4]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[4]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[4]-custom[1]	[,,Subject ID, SU0021806]
+MTD	sample[4]-custom[2]	[,,Sample type, Sample]
+MTD	sample[4]-custom[3]	[,,Biological material, Serum]
+MTD	sample[4]-custom[4]	[,,10001 Visit 2 Serum, 10004 Visit 2 Serum]
+MTD	sample[5]	S00031803
+MTD	sample[5]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[5]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[5]-custom[1]	[,,Subject ID, SU0021807]
+MTD	sample[5]-custom[2]	[,,Sample type, Sample]
+MTD	sample[5]-custom[3]	[,,Biological material, Serum]
+MTD	sample[5]-custom[4]	[,,10001 Visit 2 Serum, 10005 Visit 2 Serum]
+MTD	sample[6]	S00031804
+MTD	sample[6]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[6]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[6]-custom[1]	[,,Subject ID, SU0021808]
+MTD	sample[6]-custom[2]	[,,Sample type, Sample]
+MTD	sample[6]-custom[3]	[,,Biological material, Serum]
+MTD	sample[6]-custom[4]	[,,10001 Visit 2 Serum, 10006 Visit 2 Serum]
+MTD	sample[7]	S00031805
+MTD	sample[7]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[7]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[7]-custom[1]	[,,Subject ID, SU0021809]
+MTD	sample[7]-custom[2]	[,,Sample type, Sample]
+MTD	sample[7]-custom[3]	[,,Biological material, Serum]
+MTD	sample[7]-custom[4]	[,,10001 Visit 2 Serum, 10007 Visit 2 Serum]
+MTD	sample[8]	S00031806
+MTD	sample[8]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[8]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[8]-custom[1]	[,,Subject ID, SU0021810]
+MTD	sample[8]-custom[2]	[,,Sample type, Sample]
+MTD	sample[8]-custom[3]	[,,Biological material, Serum]
+MTD	sample[8]-custom[4]	[,,10001 Visit 2 Serum, 10008 Visit 2 Serum]
+MTD	sample[9]	S00031807
+MTD	sample[9]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[9]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[9]-custom[1]	[,,Subject ID, SU0021811]
+MTD	sample[9]-custom[2]	[,,Sample type, Sample]
+MTD	sample[9]-custom[3]	[,,Biological material, Serum]
+MTD	sample[9]-custom[4]	[,,10001 Visit 2 Serum, 10009 Visit 2 Serum]
+MTD	ms_run[1]-location	S00031799
+MTD	ms_run[1]-instrument_ref	instrument[1]
+MTD	ms_run[1]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[2]-location	S00031800
+MTD	ms_run[2]-instrument_ref	instrument[1]
+MTD	ms_run[2]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[3]-location	S00031801
+MTD	ms_run[3]-instrument_ref	instrument[1]
+MTD	ms_run[3]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[4]-location	S00031802
+MTD	ms_run[4]-instrument_ref	instrument[1]
+MTD	ms_run[4]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[5]-location	S00031803
+MTD	ms_run[5]-instrument_ref	instrument[1]
+MTD	ms_run[5]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[6]-location	S00031804
+MTD	ms_run[6]-instrument_ref	instrument[1]
+MTD	ms_run[6]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[7]-location	S00031805
+MTD	ms_run[7]-instrument_ref	instrument[1]
+MTD	ms_run[7]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[8]-location	S00031806
+MTD	ms_run[8]-instrument_ref	instrument[1]
+MTD	ms_run[8]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[9]-location	S00031807
+MTD	ms_run[9]-instrument_ref	instrument[1]
+MTD	ms_run[9]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[10]-location	S00031808
+MTD	ms_run[10]-instrument_ref	instrument[1]
+MTD	ms_run[10]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[11]-location	S00031809
+MTD	ms_run[11]-instrument_ref	instrument[1]
+MTD	ms_run[11]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[12]-location	S00031810
+MTD	ms_run[12]-instrument_ref	instrument[1]
+MTD	ms_run[12]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[13]-location	S00031811
+MTD	ms_run[13]-instrument_ref	instrument[1]
+MTD	ms_run[13]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[14]-location	S00031812
+MTD	ms_run[14]-instrument_ref	instrument[1]
+MTD	ms_run[14]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[15]-location	S00031813
+MTD	ms_run[15]-instrument_ref	instrument[1]
+MTD	ms_run[15]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[16]-location	S00031814
+MTD	ms_run[16]-instrument_ref	instrument[1]
+MTD	ms_run[16]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[17]-location	S00031815
+MTD	ms_run[17]-instrument_ref	instrument[1]
+MTD	ms_run[17]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[18]-location	S00031816
+MTD	ms_run[18]-instrument_ref	instrument[1]
+MTD	ms_run[18]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[19]-location	S00031817
+MTD	ms_run[19]-instrument_ref	instrument[1]
+MTD	ms_run[19]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[20]-location	S00031818
+MTD	ms_run[20]-instrument_ref	instrument[1]
+MTD	ms_run[20]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[21]-location	S00031819
+MTD	ms_run[21]-instrument_ref	instrument[1]
+MTD	ms_run[21]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[22]-location	S00031820
+MTD	ms_run[22]-instrument_ref	instrument[1]
+MTD	ms_run[22]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[23]-location	S00031821
+MTD	ms_run[23]-instrument_ref	instrument[1]
+MTD	ms_run[23]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[24]-location	S00031822
+MTD	ms_run[24]-instrument_ref	instrument[1]
+MTD	ms_run[24]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[25]-location	S00031823
+MTD	ms_run[25]-instrument_ref	instrument[1]
+MTD	ms_run[25]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[26]-location	S00031824
+MTD	ms_run[26]-instrument_ref	instrument[1]
+MTD	ms_run[26]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[27]-location	S00031825
+MTD	ms_run[27]-instrument_ref	instrument[1]
+MTD	ms_run[27]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[28]-location	S00031826
+MTD	ms_run[28]-instrument_ref	instrument[1]
+MTD	ms_run[28]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[29]-location	S00031827
+MTD	ms_run[29]-instrument_ref	instrument[1]
+MTD	ms_run[29]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[30]-location	S00031828
+MTD	ms_run[30]-instrument_ref	instrument[1]
+MTD	ms_run[30]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[31]-location	S00031829
+MTD	ms_run[31]-instrument_ref	instrument[1]
+MTD	ms_run[31]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[32]-location	S00031830
+MTD	ms_run[32]-instrument_ref	instrument[1]
+MTD	ms_run[32]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[33]-location	S00031831
+MTD	ms_run[33]-instrument_ref	instrument[1]
+MTD	ms_run[33]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[34]-location	S00031832
+MTD	ms_run[34]-instrument_ref	instrument[1]
+MTD	ms_run[34]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[35]-location	S00031833
+MTD	ms_run[35]-instrument_ref	instrument[1]
+MTD	ms_run[35]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[36]-location	S00031834
+MTD	ms_run[36]-instrument_ref	instrument[1]
+MTD	ms_run[36]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	assay[1]	S00031799
+MTD	assay[1]-sample_ref	sample[1]
+MTD	assay[1]-ms_run_ref	ms_run[1]
+MTD	assay[10]	S00031808
+MTD	assay[10]-sample_ref	sample[10]
+MTD	assay[10]-ms_run_ref	ms_run[10]
+MTD	assay[11]	S00031809
+MTD	assay[11]-sample_ref	sample[11]
+MTD	assay[11]-ms_run_ref	ms_run[11]
+MTD	assay[12]	S00031810
+MTD	assay[12]-sample_ref	sample[12]
+MTD	assay[12]-ms_run_ref	ms_run[12]
+MTD	assay[13]	S00031811
+MTD	assay[13]-sample_ref	sample[13]
+MTD	assay[13]-ms_run_ref	ms_run[13]
+MTD	assay[14]	S00031812
+MTD	assay[14]-sample_ref	sample[14]
+MTD	assay[14]-ms_run_ref	ms_run[14]
+MTD	assay[15]	S00031813
+MTD	assay[15]-sample_ref	sample[15]
+MTD	assay[15]-ms_run_ref	ms_run[15]
+MTD	assay[16]	S00031814
+MTD	assay[16]-sample_ref	sample[16]
+MTD	assay[16]-ms_run_ref	ms_run[16]
+MTD	assay[17]	S00031815
+MTD	assay[17]-sample_ref	sample[17]
+MTD	assay[17]-ms_run_ref	ms_run[17]
+MTD	assay[18]	S00031816
+MTD	assay[18]-sample_ref	sample[18]
+MTD	assay[18]-ms_run_ref	ms_run[18]
+MTD	assay[19]	S00031817
+MTD	assay[19]-sample_ref	sample[19]
+MTD	assay[19]-ms_run_ref	ms_run[19]
+MTD	assay[2]	S00031800
+MTD	assay[2]-sample_ref	sample[2]
+MTD	assay[2]-ms_run_ref	ms_run[2]
+MTD	assay[20]	S00031818
+MTD	assay[20]-sample_ref	sample[20]
+MTD	assay[20]-ms_run_ref	ms_run[20]
+MTD	assay[21]	S00031819
+MTD	assay[21]-sample_ref	sample[21]
+MTD	assay[21]-ms_run_ref	ms_run[21]
+MTD	assay[22]	S00031820
+MTD	assay[22]-sample_ref	sample[22]
+MTD	assay[22]-ms_run_ref	ms_run[22]
+MTD	assay[23]	S00031821
+MTD	assay[23]-sample_ref	sample[23]
+MTD	assay[23]-ms_run_ref	ms_run[23]
+MTD	assay[24]	S00031822
+MTD	assay[24]-sample_ref	sample[24]
+MTD	assay[24]-ms_run_ref	ms_run[24]
+MTD	assay[25]	S00031823
+MTD	assay[25]-sample_ref	sample[25]
+MTD	assay[25]-ms_run_ref	ms_run[25]
+MTD	assay[26]	S00031824
+MTD	assay[26]-sample_ref	sample[26]
+MTD	assay[26]-ms_run_ref	ms_run[26]
+MTD	assay[27]	S00031825
+MTD	assay[27]-sample_ref	sample[27]
+MTD	assay[27]-ms_run_ref	ms_run[27]
+MTD	assay[28]	S00031826
+MTD	assay[28]-sample_ref	sample[28]
+MTD	assay[28]-ms_run_ref	ms_run[28]
+MTD	assay[29]	S00031827
+MTD	assay[29]-sample_ref	sample[29]
+MTD	assay[29]-ms_run_ref	ms_run[29]
+MTD	assay[3]	S00031801
+MTD	assay[3]-sample_ref	sample[3]
+MTD	assay[3]-ms_run_ref	ms_run[3]
+MTD	assay[30]	S00031828
+MTD	assay[30]-sample_ref	sample[30]
+MTD	assay[30]-ms_run_ref	ms_run[30]
+MTD	assay[31]	S00031829
+MTD	assay[31]-sample_ref	sample[31]
+MTD	assay[31]-ms_run_ref	ms_run[31]
+MTD	assay[32]	S00031830
+MTD	assay[32]-sample_ref	sample[32]
+MTD	assay[32]-ms_run_ref	ms_run[32]
+MTD	assay[33]	S00031831
+MTD	assay[33]-sample_ref	sample[33]
+MTD	assay[33]-ms_run_ref	ms_run[33]
+MTD	assay[34]	S00031832
+MTD	assay[34]-sample_ref	sample[34]
+MTD	assay[34]-ms_run_ref	ms_run[34]
+MTD	assay[35]	S00031833
+MTD	assay[35]-sample_ref	sample[35]
+MTD	assay[35]-ms_run_ref	ms_run[35]
+MTD	assay[36]	S00031834
+MTD	assay[36]-sample_ref	sample[36]
+MTD	assay[36]-ms_run_ref	ms_run[36]
+MTD	assay[4]	S00031802
+MTD	assay[4]-sample_ref	sample[4]
+MTD	assay[4]-ms_run_ref	ms_run[4]
+MTD	assay[5]	S00031803
+MTD	assay[5]-sample_ref	sample[5]
+MTD	assay[5]-ms_run_ref	ms_run[5]
+MTD	assay[6]	S00031804
+MTD	assay[6]-sample_ref	sample[6]
+MTD	assay[6]-ms_run_ref	ms_run[6]
+MTD	assay[7]	S00031805
+MTD	assay[7]-sample_ref	sample[7]
+MTD	assay[7]-ms_run_ref	ms_run[7]
+MTD	assay[8]	S00031806
+MTD	assay[8]-sample_ref	sample[8]
+MTD	assay[8]-ms_run_ref	ms_run[8]
+MTD	assay[9]	S00031807
+MTD	assay[9]-sample_ref	sample[9]
+MTD	assay[9]-ms_run_ref	ms_run[9]
+MTD	study_variable_group[1]	[,,Time Point,]
+MTD	study_variable_group[1]-description	mwTab sample factor Time Point
+MTD	study_variable_group[1]-type	[STATO, STATO:0000252, categorical variable, ]
+MTD	study_variable_group[1]-datatype	xsd:string
+MTD	study_variable_group[1]-study_variable_refs	study_variable[1]|study_variable[2]
+MTD	study_variable[1]	Baseline
+MTD	study_variable[1]-assay_refs	assay[1]|assay[2]|assay[3]|assay[4]|assay[5]|assay[6]|assay[7]|assay[8]|assay[9]|assay[10]|assay[11]|assay[12]|assay[13]|assay[14]|assay[15]|assay[16]|assay[17]|assay[18]
+MTD	study_variable[1]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[1]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[1]-description	Variable Time Point, value Baseline
+MTD	study_variable[2]	Day 90
+MTD	study_variable[2]-assay_refs	assay[19]|assay[20]|assay[21]|assay[22]|assay[23]|assay[24]|assay[25]|assay[26]|assay[27]|assay[28]|assay[29]|assay[30]|assay[31]|assay[32]|assay[33]|assay[34]|assay[35]|assay[36]
+MTD	study_variable[2]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[2]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[2]-description	Variable Time Point, value Day 90
+MTD	custom[1]	[,, Metabolomics Workbench analysis ID, AN002039]
+MTD	custom[2]	[,, chromatography type, Reversed phase]
+MTD	custom[3]	[,, chromatography instrument, Agilent 1260]
+MTD	custom[4]	[,, chromatography column, "Waters Acquity BEH C18 (50 x 2mm, 1.7um)"]
+MTD	cv[1]-label	MS
+MTD	cv[1]-full_name	PSI-MS controlled vocabulary
+MTD	cv[1]-version	4.1.138
+MTD	cv[1]-uri	https://www.ebi.ac.uk/ols4/ontologies/ms
+MTD	cv[2]-label	PRIDE
+MTD	cv[2]-full_name	PRIDE PRoteomics IDEntifications (PRIDE) database controlled vocabulary
+MTD	cv[2]-version	16:10:2023 11:38
+MTD	cv[2]-uri	https://www.ebi.ac.uk/ols/ontologies/pride
+MTD	cv[3]-label	STATO
+MTD	cv[3]-full_name	General purpose STATistics Ontology
+MTD	cv[3]-version	2026-04-20
+MTD	cv[3]-uri	https://www.ebi.ac.uk/ols4/ontologies/stato
+MTD	cv[4]-label	NCBITaxon
+MTD	cv[4]-full_name	NCBI organismal classification
+MTD	cv[4]-version	unknown
+MTD	cv[4]-uri	http://purl.obolibrary.org/obo/ncbitaxon.owl
+MTD	database[1]	[,, PubChem, ]
+MTD	database[1]-prefix	PubChem
+MTD	database[1]-version	Unknown
+MTD	database[1]-uri	https://pubchem.ncbi.nlm.nih.gov
+MTD	small_molecule-quantification_unit	[,, uM, ]
+MTD	small_molecule-identification_reliability	[MS, MS:1002896, compound identification confidence level, ]
+
+SMH	SML_ID	SMF_ID_REFS	database_identifier	chemical_formula	smiles	inchi	chemical_name	uri	theoretical_neutral_mass	adduct_ions	reliability	best_id_confidence_measure	best_id_confidence_value	abundance_assay[1]	abundance_assay[2]	abundance_assay[3]	abundance_assay[4]	abundance_assay[5]	abundance_assay[6]	abundance_assay[7]	abundance_assay[8]	abundance_assay[9]	abundance_assay[10]	abundance_assay[11]	abundance_assay[12]	abundance_assay[13]	abundance_assay[14]	abundance_assay[15]	abundance_assay[16]	abundance_assay[17]	abundance_assay[18]	abundance_assay[19]	abundance_assay[20]	abundance_assay[21]	abundance_assay[22]	abundance_assay[23]	abundance_assay[24]	abundance_assay[25]	abundance_assay[26]	abundance_assay[27]	abundance_assay[28]	abundance_assay[29]	abundance_assay[30]	abundance_assay[31]	abundance_assay[32]	abundance_assay[33]	abundance_assay[34]	abundance_assay[35]	abundance_assay[36]	abundance_study_variable[1]	abundance_study_variable[2]	abundance_variation_study_variable[1]	abundance_variation_study_variable[2]	opt_global_metabolite_name	opt_global_pubchem_id	opt_global_other_id	opt_global_other_id_type
+SML	1	null	PubChem:6742	null	null	null	Deoxycholic acid	https://pubchem.ncbi.nlm.nih.gov/compound/6742	null	null	2	null	null	12.705	161.704	95.581	68.824	118.139	7.835	134.651	254.679	178.766	442.837	139.513	397.229	505.035	110.143	258.185	30.135	52.372	40.849	137.926	278.345	216.741	199.116	88.616	80.481	108.468	115.291	341.005	249.2	108.294	155.575	374.801	83.774	349.912	251.324	0	178.789	167.176777777778	184.314333333333	0.892685267812116	0.574177171243388	Deoxycholic acid	6742	DCACDCA	UM_Target_ID
+SML	2	null	PubChem:221493	null	null	null	Cholic acid	https://pubchem.ncbi.nlm.nih.gov/compound/221493	null	null	2	null	null	26.102	16.855	69.113	16.488	4.752	24.693	36.725	2.664	5.817	50.025	0.053	124.221	71.08	5.786	4.473	2.724	3.798	1.87	10.595	2.708	13.069	27.755	4.369	3.912	32.791	2.392	4.979	11.511	22.812	12.892	96.256	2.375	1.989	6.497	13.534	2.041	25.9577222222222	15.1376111111111	1.28695955517969	1.46841782488197	Cholic acid	221493	CA	UM_Target_ID
+SML	3	null	PubChem:9548796	null	null	null	Glycochenodeoxycholic acid	https://pubchem.ncbi.nlm.nih.gov/compound/9548796	null	null	2	null	null	62.306	409.758	754.036	314.296	28.646	48.268	21.062	21.181	35.186	23.007	13.677	34.664	36.201	92.264	58.096	101.711	30.208	332.449	80.993	503.813	389.712	69.278	22.77	23.853	34.612	22.523	70.264	41.401	17.046	30.689	110.245	80.905	253.719	447.152	12.929	38.345	134.278666666667	125.013833333333	1.4637658111973	1.27378805295704	Glycochenodeoxycholic acid	9548796	GCDCA	UM_Target_ID
+SML	4	null	PubChem:18602029	null	null	null	Glycodeoxycholic acid	https://pubchem.ncbi.nlm.nih.gov/compound/18602029	null	null	2	null	null	42.009	58.295	0	29.743	25.551	22.001	16.939	44.146	15.581	39.707	11.026	20.744	54.747	24.97	36.234	53.377	12.156	117.047	71.849	216.522	42.538	18.538	16.561	13.035	19.336	26.937	39.904	58.368	28.602	20.58	182.875	20.343	142.59	164.824	6.467	40.9	34.6818333333333	62.8205	0.758726764406712	1.0503622961841	Glycodeoxycholic acid	18602029	GDCA	UM_Target_ID
+SML	5	null	PubChem:114611	null	null	null	Glycohyodeoxycholic acid	https://pubchem.ncbi.nlm.nih.gov/compound/114611	null	null	2	null	null	0	0	0	0	5.577	3.624	3.776	5.442	0	3.314	0	0	3.25	0	3.317	0	0	0	3.593	0	3.799	3.586	5.483	3.235	3.813	0	0	3.134	5.673	0	0	0	0	0	0	3.254	1.57222222222222	1.97611111111111	1.34627931393325	1.08097795034507	Glycohyodeoxycholic acid	114611	GHDCA	UM_Target_ID
+SML	6	null	PubChem:12310288	null	null	null	Glycoursodeoxycholic acid	https://pubchem.ncbi.nlm.nih.gov/compound/12310288	null	null	2	null	null	9.275	11.582	24.437	12.046	7.246	6.227	7.215	5.084	6.543	5.551	42.001	6.689	6.38	7.742	7.048	22.116	5.4	18.824	10.596	15.031	14.663	8.181	4.579	4.39	11.201	4.956	11.399	4.675	3.829	6.761	12.682	6.61	18.401	94.008	3.95	3.96	11.7447777777778	13.3262222222222	0.814085118952818	1.54836903324214	Glycoursodeoxycholic acid	12310288	GUDCA	UM_Target_ID
+SML	7	null	PubChem:10140	null	null	null	Glychocholic acid	https://pubchem.ncbi.nlm.nih.gov/compound/10140	null	null	2	null	null	27.075	54.276	179.788	32.622	7.113	10.129	6.96	9.825	7.273	10.5	8.571	8.352	10.633	11.922	9.501	14.667	11.007	30.462	21.804	85.452	71.274	22.285	7.062	10.52	10.604	7.716	12.757	14.259	10.633	8.739	33.515	12.432	27.187	76.175	6.888	15.516	25.0375555555556	25.2676666666667	1.62084386252509	1.0001804590517	Glychocholic acid	10140	GCA	UM_Target_ID
+SML	8	null	PubChem:13955647	null	null	null	Glycohyocholic acid	https://pubchem.ncbi.nlm.nih.gov/compound/13955647	null	null	2	null	null	15.274	71.248	89.486	27.453	20.947	12.595	0	21.608	0	6.642	7.509	8.333	5.847	30.181	13.243	7.53	18.734	23.147	9.54	84.423	37.2	15.628	12.48	0	12.6	9.76	11.38	15.448	0	13.302	8.547	30.752	37.487	13.821	0	7.264	21.0987222222222	17.7573333333333	1.11191677442479	1.12572953757933	Glycohyocholic acid	13955647	GHCA	UM_Target_ID
+SML	9	null	PubChem:10595	null	null	null	Taurolithocolic acid	https://pubchem.ncbi.nlm.nih.gov/compound/10595	null	null	2	null	null	3.974	4.251	3.941	4.242	5.004	7.724	4.039	3.973	4.079	4.567	4.096	3.95	3.929	4.065	3.982	4.471	4.082	4.658	4.446	4.932	4.217	3.954	4.325	4.654	4.53	4.088	3.971	4.028	3.847	4.075	4.158	4.199	6.171	4.659	4.328	4.205	4.39038888888889	4.37705555555556	0.201248199079624	0.121044233572969	Taurolithocolic acid	10595	TLCA	UM_Target_ID
+SML	10	null	PubChem:9848818	null	null	null	Tauroursodeoxycholic acid	https://pubchem.ncbi.nlm.nih.gov/compound/9848818	null	null	2	null	null	11.228	10.963	11.118	11.056	11.14	11.469	11.032	11.005	10.984	11.08	10.937	10.922	10.994	10.925	11.47	10.911	11.188	10.958	11.25	11.021	11.077	11.014	11.099	11.009	11.322	10.992	11.044	11.056	10.998	10.94	11.014	10.926	11.654	0	11.226	10.988	11.0766666666667	10.4794444444444	0.0153822445424668	0.250124180597708	Tauroursodeoxycholic acid	9848818	TUDCA	UM_Target_ID
+SML	11	null	PubChem:54608447	null	null	null	Taurochenodeoxycholic acid	https://pubchem.ncbi.nlm.nih.gov/compound/54608447	null	null	2	null	null	20.84	86.517	55.156	26.251	7.98	11.247	10.442	8.051	8.518	7.651	6.807	7.404	8.224	12.737	7.452	13.189	13.643	44.277	22.72	95.593	16.555	10.442	8.768	9.8	9.277	7.784	10.079	7.552	6.83	8.38	14.25	8.913	19.527	45.042	9.826	9.787	19.7992222222222	17.8402777777778	1.08164992325108	1.19976651816664	Taurochenodeoxycholic acid	54608447	TCDCA	UM_Target_ID
+SML	12	null	PubChem:10594	null	null	null	Taurodeoxycholic acid	https://pubchem.ncbi.nlm.nih.gov/compound/10594	null	null	2	null	null	16.414	17.657	54.188	8.663	7.751	9.292	8.458	9.748	6.945	8.209	6.496	6.888	10.025	8.273	7.477	9.738	8.503	20.797	22.952	49.283	7.315	7.151	7.471	7.71	7.998	9.128	8.168	7.983	6.369	7.637	21.241	6.9	16.19	22.462	6.526	10.659	12.529	12.9523888888889	0.889148783996755	0.827734278496758	Taurodeoxycholic acid	10594	TDCA	UM_Target_ID
+SML	13	null	PubChem:9848818	null	null	null	Tauro-hyodeoxycholic acid	https://pubchem.ncbi.nlm.nih.gov/compound/9848818	null	null	2	null	null	6.062	6.132	6.056	5.882	6.178	5.903	6.026	5.981	5.795	5.826	5.812	5.819	5.802	5.86	0	5.954	5.881	6.116	6.035	6.282	5.843	5.821	6.228	5.804	5.993	5.826	5.875	5.805	5.901	5.805	5.937	5.817	5.934	7.513	5.821	5.795	5.61583333333333	6.00194444444444	0.250537363163927	0.0671894931676077	Tauro-hyodeoxycholic acid	9848818	THDCA	UM_Target_ID
+SML	14	null	PubChem:6675	null	null	null	Taurocholic acid	https://pubchem.ncbi.nlm.nih.gov/compound/6675	null	null	2	null	null	16.142	21.825	30.47	10.685	6.953	7.904	7.123	7.308	6.826	7.127	6.934	6.921	7.65	7.438	7.171	8.098	8.301	13.673	16.284	24.361	12.922	8.895	6.693	7.754	7.394	7.263	7.059	7.357	6.931	7.141	10.99	7.003	8.804	17.959	7.509	9.21	10.4749444444444	10.0849444444444	0.612366444665024	0.481234592003932	Taurocholic acid	6675	TCA	UM_Target_ID
+SML	15	null	PubChem:168408	null	null	null	Tauro-alpha-muricholic acidTauro-beta-muricholic acid	https://pubchem.ncbi.nlm.nih.gov/compound/168408	null	null	2	null	null	11.751	14.283	9.596	10.494	17.233	9.974	10.012	39.157	8.972	10.344	9.112	10.768	10.929	10.931	10.695	10.486	16.474	11.78	14.266	24.551	9.42	9.329	12.408	11.464	15.91	29.546	9.135	13.667	9.755	10.842	12.204	10.025	11.329	11.224	9.577	10.135	12.9439444444444	13.0437222222222	0.536015581831516	0.42080125802941	Tauro-alpha-muricholic acidTauro-beta-muricholic acid	168408	TaMCATbMCA	UM_Target_ID
+SML	16	null	PubChem:122312	null	null	null	3a,7a,12a-trihydroxycholestanoic acid	https://pubchem.ncbi.nlm.nih.gov/compound/122312	null	null	2	null	null	7.76	23.955	9.688	7.878	8.048	6.955	7.02	7.478	6.318	6.561	6.44	6.501	6.654	8.404	0	6.4	14.176	9.308	8.149	27.13	7.029	6.97	7.21	8.158	8.316	6.836	6.305	6.747	0	7.078	7.151	7.639	8.844	7.161	11.12	6.873	8.308	8.262	0.56612844176211	0.623704484960028	3a,7a,12a-trihydroxycholestanoic acid	122312	THCA	UM_Target_ID
+
