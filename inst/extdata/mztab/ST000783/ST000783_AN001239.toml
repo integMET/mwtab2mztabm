@@ -1,0 +1,1007 @@
+# mwTab metadata of study ST000783, analysis AN001239
+# Exported by mwtab2mztabm 0.1.0.
+# Sample metadata is listed in [[SUBJECT_SAMPLE_FACTORS]].
+
+[mwtab2mztabm]
+format_version = 1
+factor_order = ["Status", "RACE"]
+additional_data_order = []
+
+["METABOLOMICS WORKBENCH"]
+STUDY_ID = "ST000783"
+ANALYSIS_ID = "AN001239"
+VERSION = "1"
+CREATED_ON = "July 6, 2017, 1:44 pm"
+
+[PROJECT]
+PROJECT_TITLE = "Serum metabolomics study of prostate cancer for african american"
+PROJECT_SUMMARY = "We studied the metabolome in a group of AA and EA of prostate cancer and case control plasma."
+INSTITUTE = "Baylor College of Medicine"
+LAST_NAME = "Sreekumar"
+FIRST_NAME = "Arun"
+ADDRESS = "One Baylor Plaza, Houston, TX, 77030, USA"
+EMAIL = "Arun.Sreekumar@bcm.edu"
+PHONE = "713-798-3305"
+
+[STUDY]
+STUDY_TITLE = "Absolute Quantification of 180 metabolites in serum from african american and european american in prostate cancer and case control samples"
+STUDY_SUMMARY = "Metabolite concentrations were obtained in prostate cancer and case control plasma samples from AA and EA individuals using the AbsoluteIDQ kit p180 (Biocrates Life Science AG, Austria) according to the manufacturer’s instructions. The analysis was performed using a QTRAP 6500 LC/MS/MS System (AB SCIEX, USA) equipped with an electrospray ionization source, Agilent G1367B autosampler and the Analyst 1.51 software (AB SCIEX, USA)."
+INSTITUTE = "Baylor College of Medicine"
+LAST_NAME = "Sreekumar"
+FIRST_NAME = "Arun"
+ADDRESS = "One Baylor Plaza, Houston, TX, 77030, USA"
+EMAIL = "Arun.Sreekumar@bcm.edu"
+PHONE = "713-798-3305"
+
+[SUBJECT]
+SUBJECT_TYPE = "human"
+SUBJECT_SPECIES = "Homo sapiens"
+TAXONOMY_ID = "9606"
+
+[COLLECTION]
+COLLECTION_SUMMARY = "Clinically annotated ancestry verified serum samples from the National Cancer Institute."
+
+[TREATMENT]
+TREATMENT_SUMMARY = "NA"
+
+[SAMPLEPREP]
+SAMPLEPREP_SUMMARY = "Briefly, 10 μl of undiluted plasma sample from each patient or control individual was placed in individual wells of a 96 well plate provided by the manufacturer. Samples were dried at room temperature using a nitrogen evaporator drying unit for 30 mins. Following this, 20 μl of 5% phenylisothiocyanate (PITC) reagent was added to the dried plasma spots and incubated for 20 min at RT. The plate was again dried under the nitrogen evaporator for 60 mins. Next, 300 μl of 5 mM ammonium acetate in methanol was added to each well and the mixture was incubated on a shaker (450 rpm) for 30 mins. The plate was then centrifuged at 100 g for 2 min resulting in a volume of ~ 250 μl sample in the plate (labeled as Flow injection or FIA plate). 150 μl of the sample was subsequently transferred from the FIA plate into a second plate (termed LC-MS plate). In total, all the samples were analyzed in three batches, each containing one FIA and LC-MS plate, respectively. 150 μl HPLC grade water was added to the LC-MS plate to make up the volume to 300 ul. In parallel, 500 μl of mass spectrometry injection solvent (stock solution provided by Biocrates was diluted in methanol) was added to the FIA plate. The LC-MS plate was analyzed using Multiple Reaction Monitoring post LC-MS fractionation. The FIA plate was stored at 4°C until the LC-MS plate was completed assayed."
+
+[CHROMATOGRAPHY]
+CHROMATOGRAPHY_SUMMARY = "Flow injection coupled to MRM was used to measure mono-unsaturated glycerophosphophocholines in samples in the FIA plate. For flow injection analysis, 20 μl of sample was injected directly into the MS at a flow rate of 30 μl/min in mobile phase."
+CHROMATOGRAPHY_TYPE = "None (Direct infusion)"
+INSTRUMENT_NAME = "None"
+COLUMN_NAME = "none"
+
+[ANALYSIS]
+ANALYSIS_TYPE = "MS"
+
+[MS]
+MS_COMMENTS = "-"
+INSTRUMENT_NAME = "AB Sciex 6500 QTRAP LC-MS/MS"
+INSTRUMENT_TYPE = "Triple quadrupole"
+MS_TYPE = "ESI"
+ION_MODE = "POSITIVE"
+
+[MS_METABOLITE_DATA]
+Units = "uM"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "15298"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Prostate cancer"
+RACE = "AA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "17585"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Prostate cancer"
+RACE = "EA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "17848"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Case control"
+RACE = "EA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "17893"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Case control"
+RACE = "EA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "17962"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Case control"
+RACE = "EA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "17985"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Prostate cancer"
+RACE = "AA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18004"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Case control"
+RACE = "AA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18013"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Case control"
+RACE = "AA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18014"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Case control"
+RACE = "AA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18035"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Case control"
+RACE = "EA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18062"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Case control"
+RACE = "EA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18072"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Case control"
+RACE = "EA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18077"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Case control"
+RACE = "EA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18109"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Prostate cancer"
+RACE = "EA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18130"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Prostate cancer"
+RACE = "EA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18137"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Case control"
+RACE = "AA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18140"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Case control"
+RACE = "AA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18154"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Case control"
+RACE = "EA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18177"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Prostate cancer"
+RACE = "AA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18183"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Prostate cancer"
+RACE = "AA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18225"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Case control"
+RACE = "EA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18228"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Prostate cancer"
+RACE = "EA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18250"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Case control"
+RACE = "EA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18262"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Prostate cancer"
+RACE = "EA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18265"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Case control"
+RACE = "EA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18277"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Case control"
+RACE = "EA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18285"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Case control"
+RACE = "EA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18302"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Prostate cancer"
+RACE = "AA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18323"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Case control"
+RACE = "EA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18331"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Prostate cancer"
+RACE = "AA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18402"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Case control"
+RACE = "EA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18404"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Case control"
+RACE = "EA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18414"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Prostate cancer"
+RACE = "AA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18415"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Case control"
+RACE = "AA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18463"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Case control"
+RACE = "EA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18489"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Case control"
+RACE = "AA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18515"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Prostate cancer"
+RACE = "AA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18517"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Prostate cancer"
+RACE = "AA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18538"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Prostate cancer"
+RACE = "AA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18542"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Prostate cancer"
+RACE = "EA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18557"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Prostate cancer"
+RACE = "EA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18559"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Case control"
+RACE = "EA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18567"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Prostate cancer"
+RACE = "AA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18580"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Case control"
+RACE = "EA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18596"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Prostate cancer"
+RACE = "EA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18638"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Case control"
+RACE = "EA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18664"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Case control"
+RACE = "AA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18665"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Case control"
+RACE = "AA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18669"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Prostate cancer"
+RACE = "EA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18702"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Case control"
+RACE = "EA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18717"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Case control"
+RACE = "AA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18783"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Case control"
+RACE = "AA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18796"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Case control"
+RACE = "EA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18865"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Prostate cancer"
+RACE = "EA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18893"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Prostate cancer"
+RACE = "AA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18939"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Prostate cancer"
+RACE = "AA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "18970"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Prostate cancer"
+RACE = "AA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "19001"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Prostate cancer"
+RACE = "EA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "19023"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Prostate cancer"
+RACE = "EA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "19084"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Prostate cancer"
+RACE = "EA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "19093"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Prostate cancer"
+RACE = "EA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "19113"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Prostate cancer"
+RACE = "EA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "19144"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Prostate cancer"
+RACE = "AA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "19157"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Prostate cancer"
+RACE = "EA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "19168"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Prostate cancer"
+RACE = "EA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "19189"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Prostate cancer"
+RACE = "EA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "19224"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Case control"
+RACE = "AA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "19237"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Case control"
+RACE = "EA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "19243"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Prostate cancer"
+RACE = "EA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "19255"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Case control"
+RACE = "EA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "19464"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Case control"
+RACE = "EA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "19502"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Prostate cancer"
+RACE = "AA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "19515"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Prostate cancer"
+RACE = "AA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "19575"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Prostate cancer"
+RACE = "EA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "19622"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Case control"
+RACE = "AA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "19648"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Prostate cancer"
+RACE = "EA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "19655"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Prostate cancer"
+RACE = "EA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "19678"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Prostate cancer"
+RACE = "AA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "19766"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Prostate cancer"
+RACE = "AA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "19838"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Prostate cancer"
+RACE = "AA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "19843"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Case control"
+RACE = "AA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "19869"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Case control"
+RACE = "AA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "19901"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Prostate cancer"
+RACE = "AA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "19924"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Prostate cancer"
+RACE = "AA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "20049"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Case control"
+RACE = "AA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "20051"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Case control"
+RACE = "AA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "20070"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Case control"
+RACE = "AA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "20078"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Case control"
+RACE = "AA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "20099"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Case control"
+RACE = "AA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "20103"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Case control"
+RACE = "AA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "20319"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Case control"
+RACE = "AA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "20323"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Case control"
+RACE = "AA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "20361"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Case control"
+RACE = "AA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "20752"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Status = "Case control"
+RACE = "AA"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]

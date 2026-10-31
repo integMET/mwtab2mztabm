@@ -1,0 +1,259 @@
+# mwTab metadata of study ST000465, analysis AN000727
+# Exported by mwtab2mztabm 0.1.0.
+# Sample metadata is listed in [[SUBJECT_SAMPLE_FACTORS]].
+
+[mwtab2mztabm]
+format_version = 1
+factor_order = ["Time", "Treatment"]
+additional_data_order = []
+
+["METABOLOMICS WORKBENCH"]
+STUDY_ID = "ST000465"
+ANALYSIS_ID = "AN000727"
+VERSION = "1"
+CREATED_ON = "November 16, 2016, 8:56 am"
+
+[PROJECT]
+PROJECT_TITLE = "Uniquely Tumor-Selective Englerin A Profoundly Alters Lipid Metabolism in Renal Cell Carcinoma inducing ER-Stress and an Acute Inflammatory Response"
+PROJECT_TYPE = "Cancer cell"
+PROJECT_SUMMARY = "Renal cell carcinoma (RCC) is among the top ten most common forms of cancer and is the most common malignancy of the kidney. Screening of plant extracts in search of new anti-cancer agents resulted in the discovery of englerin A, a guaiane sesquiterpene with potent cytotoxicity against renal cancer cells and a small subset of other cancer cells. the current study used a systems biology approach to explore the mechanism(s) of action of engerin A at a more global level.Our metabolomics analyses indicated that englerin A profoundly altered lipid metabolism in cc-RCC cell lines and generated significant levels of ceramides that were highly toxic to these cells. Microarray analyses determined that englerin A induced ER stress signaling and an acute inflammatory response, which was confirmed by quantitative PCR and Western Blot analyses.Our findings suggest that cc-RCC is highly sensitive to disruptions in lipid metabolism and ER stress and that these vulnerabilities can be targeted for the treatment of cc-RCC and possibly other lipid storing cancers."
+INSTITUTE = "University of California, San Diego"
+DEPARTMENT = "Department of Pediatrics"
+LAST_NAME = "Batova"
+FIRST_NAME = "Ayse"
+ADDRESS = "La Jolla, CA 92093"
+EMAIL = "abatova@ucsd.edu"
+PHONE = "619-543-1962"
+
+[STUDY]
+STUDY_TITLE = "Uniquely Tumor-Selective Englerin A Profoundly Alters Lipid Metabolism in Renal Cell Carcinoma inducing ER-Stress and an Acute Inflammatory Response"
+STUDY_TYPE = "Metabolomic effect of Englerin A on renal cell carcinoma"
+STUDY_SUMMARY = "This targeted metabolomic analysis was performed on renal cell carcinoma A498 cells with or without anti-cancer drug Englerin treatment for 24 and 48 h."
+INSTITUTE = "University of California, San Diego"
+DEPARTMENT = "Department of Pediatrics"
+LAST_NAME = "Batova"
+FIRST_NAME = "Ayse"
+ADDRESS = "La Jolla, CA 92093"
+EMAIL = "abatova@ucsd.edu"
+PHONE = "619-543-1962"
+NUM_GROUPS = "Two groups for 24 h treatment (control and Eglerin treatment) and two groups for 48 h treatment. Each has 4 replicates"
+TOTAL_SUBJECTS = "16"
+
+[SUBJECT]
+SUBJECT_TYPE = "Human renal cancer cells"
+SUBJECT_SPECIES = "Homo sapiens"
+TAXONOMY_ID = "9606"
+
+[COLLECTION]
+COLLECTION_SUMMARY = "Cell extracts were obtained by the addition of 1 ml of ice-cold methanol:water (80:20) to each dish followed by scraping cells into 1.7ml Eppendorf tubes and vortexing vigorously for 30 sec. A 50 ul aliquot of sample was removed for the picogreen DNA assay for purposes of biomass normalization, and the remaining sample was kept at -80˚C until ready for metabolomic analysis."
+
+[TREATMENT]
+TREATMENT_SUMMARY = "A498 cells were plated in 100mm dishes at 0.5 x 106 and 1 x 106 cells/dish in complete RPMI for control and treated cells, respectively. The following day, cells were refed with complete RPMI containing 0.1% DMSO or 100 nM englerin A in DMSO with each condition being conducted in quadruplicate. Cells were incubated with vehicle or englerin A for 24 or 48 h and then they were snap frozen with liquid nitrogen."
+TREATMENT = "Anticaner drug"
+TREATMENT_COMPOUND = "Englerin A"
+TREATMENT_ROUTE = "Direct incubation"
+TREATMENT_DOSE = "100 nM"
+TREATMENT_DOSEDURATION = "24hr and 48hr"
+
+[SAMPLEPREP]
+SAMPLEPREP_SUMMARY = "Typically, 300 µl of cells in methanol:water (80:20) was thawed on ice and transferred to a 1.7 ml Eppendorf tube. Five µl of a cocktail containing 25-35 commercial stable isotope internal standards, and 5.0 µl of 57 stable isotope internal standards that were custom-synthesized in E. coli and S. cerevisiae by metabolic labeling with 13C-glucose, and 13C-bicarbonate, were added, and vortexed vigorously for 30 sec. Macromolecules (protein, DNA, RNA, glycans, etc.) then were removed by centrifugation at 16,000g x 10 min at 4˚C. The supernatants containing the extracted metabolites and internal standards were transferred to labeled cryotubes and stored at -80˚C for LC-MS/MS analysis."
+EXTRACT_STORAGE = "-80C"
+SAMPLE_DERIVATIZATION = "No"
+SAMPLE_SPIKING = "Five µl of a cocktail containing 25-35 commercial stable isotope internal standards, and 5.0 µl of 57 stable isotope internal standards that were custom-synthesized in E. coli and S. cerevisiae by metabolic labeling with 13C-glucose, and 13C-bicarbonate, were added"
+CELL_TYPE = "Renal cancer cell"
+
+[CHROMATOGRAPHY]
+CHROMATOGRAPHY_SUMMARY = "HILIC"
+CHROMATOGRAPHY_TYPE = "HILIC"
+INSTRUMENT_NAME = "Shimadzu 20AD"
+COLUMN_NAME = "Luna NH2 aminopropyl HPLC column"
+FLOW_GRADIENT = "0 min—95% B, 4 min—B, 19 min—2% B, 22 min—2% B, 23 min—95% B, 28 min—end."
+FLOW_RATE = "0.3 ml/min"
+COLUMN_TEMPERATURE = "25C"
+SOLVENT_A = "95% water with 23.18mM NH4OH+20 mM formic acid (Ph 9.4)"
+SOLVENT_B = "100% acetonitirle"
+ANALYTICAL_TIME = "28 min"
+OVEN_TEMPERATURE = "25C"
+TARGET_SAMPLE_TEMPERATURE = "4C"
+SAMPLE_LOOP_SIZE = "10 ul"
+SAMPLE_SYRINGE_SIZE = "100 ul"
+
+[ANALYSIS]
+ANALYSIS_TYPE = "MS"
+DETECTOR_TYPE = "MRM"
+
+[MS]
+MS_COMMENTS = "-"
+INSTRUMENT_NAME = "ABI Sciex 5500 QTrap"
+INSTRUMENT_TYPE = "Triple quadrupole"
+MS_TYPE = "ESI"
+ION_MODE = "POSITIVE"
+COLLISION_ENERGY = "Compound-specific"
+COLLISION_GAS = "High"
+FRAGMENTATION_METHOD = "MRM"
+ION_SOURCE_TEMPERATURE = "500C"
+IONIZATION = "ESI"
+MASS_ACCURACY = "0.1Da"
+
+[MS_METABOLITE_DATA]
+Units = "AUC"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Time = "24hr"
+Treatment = "Englerin (100 nM)"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Time = "24hr"
+Treatment = "Englerin (100 nM)"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "3"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Time = "24hr"
+Treatment = "Englerin (100 nM)"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "4"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Time = "24hr"
+Treatment = "Englerin (100 nM)"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "5"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Time = "24hr"
+Treatment = "Control"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "6"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Time = "24hr"
+Treatment = "Control"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "7"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Time = "24hr"
+Treatment = "Control"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "8"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Time = "24hr"
+Treatment = "Control"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "9"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Time = "48hr"
+Treatment = "Englerin (100 nM)"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "10"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Time = "48hr"
+Treatment = "Englerin (100 nM)"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "11"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Time = "48hr"
+Treatment = "Englerin (100 nM)"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "12"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Time = "48hr"
+Treatment = "Englerin (100 nM)"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "13"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Time = "48hr"
+Treatment = "Control"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "14"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Time = "48hr"
+Treatment = "Control"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "15"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Time = "48hr"
+Treatment = "Control"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "16"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Time = "48hr"
+Treatment = "Control"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]

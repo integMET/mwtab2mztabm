@@ -1,0 +1,510 @@
+# mwTab metadata of study ST001339, analysis AN002233
+# Exported by mwtab2mztabm 0.1.0.
+# Sample metadata is listed in [[SUBJECT_SAMPLE_FACTORS]].
+
+[mwtab2mztabm]
+format_version = 1
+factor_order = ["genotype", "treatment"]
+additional_data_order = "RAW_FILE_NAME"
+
+["METABOLOMICS WORKBENCH"]
+STUDY_ID = "ST001339"
+ANALYSIS_ID = "AN002233"
+VERSION = "1"
+CREATED_ON = "April 3, 2020, 11:25 am"
+
+[PROJECT]
+PROJECT_TITLE = "Disruption of Redox Balance Enhances the Effects of BRAF-inhibitors in Melanoma"
+PROJECT_TYPE = "Untargeted-Targeted Metabolomics analysis"
+PROJECT_SUMMARY = "Melanomas harboring BRAF mutations can be treated with BRAF inhibitors, but tumor recurrence is inevitable. In spite of large-scale attempts, there remains an unmet need to uncover molecular determinants of BRAFi insensitivity and devise actionable combination targets to overcome resistance. Here, using an integrative approach of experimentation, and mathematical flux balance analyses in a panel of BRAF-mutated melanoma cells, we show that elevated antioxidant capacity of melanoma cells is linked to their drug sensitivity. Specifically, we report that drug-insensitive melanoma cells can maintain higher levels of antioxidant metabolites to withstand the lethal effects of drugs. By extending our analysis to other melanoma subtypes in the TCGA, we show that elevated redox capacity could indeed be a general feature of melanoma. Our results suggest that redox vulnerabilities could be exploited for therapeutic benefits and identify unsuspected combination targets to enhance the effects of BRAFi in pan-melanoma."
+INSTITUTE = "Vanderbilt University"
+LAST_NAME = "Codreanu"
+FIRST_NAME = "Simona"
+ADDRESS = "1234 Stevenson Center Lane"
+EMAIL = "simona.codreanu@vanderbilt.edu"
+PHONE = "6158758422"
+
+[STUDY]
+STUDY_TITLE = "Disruption of Redox Balance Enhances the Effects of BRAF-inhibitors in Melanoma"
+STUDY_SUMMARY = "Specifically, we report that drug-insensitive melanoma cells can maintain higher levels of antioxidant metabolites to withstand the lethal effects of drugs. By extending our analysis to other melanoma subtypes in the TCGA, we show that elevated redox capacity could indeed be a general feature of melanoma. Our results suggest that redox vulnerabilities could be exploited for therapeutic benefits and identify unsuspected combination targets to enhance the effects of BRAFi in pan-melanoma."
+INSTITUTE = "Vanderbilt University"
+LAST_NAME = "Codreanu"
+FIRST_NAME = "Simona"
+ADDRESS = "1234 Stevenson Center Lane"
+EMAIL = "simona.codreanu@vanderbilt.edu"
+PHONE = "6158758422"
+
+[SUBJECT]
+SUBJECT_TYPE = "Cultured cells"
+SUBJECT_SPECIES = "Homo sapiens"
+TAXONOMY_ID = "9606"
+
+[COLLECTION]
+COLLECTION_SUMMARY = "Single-cell derived BRAF-mutated SKMEL5 subclones were derived as previously described (Paudel et al., 2018). BRAF-mutated melanoma cells (SKMEL5, WM88), including the SKMEL5 subclones, NRAS-mutated melanoma cells (SKMEL2), and NF1-mutated melanoma cells (MeWO) were grown and cultured in Dulbecco’s modified Eagle’s medium and Ham’s F-12 media (DMEM:F12, 1:1, Cat. No. 11330-032). Media were obtained from Gibco (Grand Island, NY), and supplemented with 10% fetal bovine serum. All cells were cultured in humidified incubators that were CO2 and temperature (37oC) controlled. Cells were passaged 1–2 times per week and were maintained as exponentially growing cultures for a maximum of less than 20 passages. All cells were tested for mycoplasma, and tested negative."
+SAMPLE_TYPE = "Tumor cells"
+
+[TREATMENT]
+TREATMENT_SUMMARY = "PLX4720 (Cat. No. S1152) and vemurafenib (Cat. No. S1267) were obtained from Selleckchem (Houston, TX). Dabrafenib (Cat No. HY-14660), (1S,3R)-RSL3 (Cat No. HY-100218A), Ferrostatin-1 (FER1, Cat No. HY-100579), Erastin (Cat No. HY-15763), (E)-Daporinad (FK866) (Cat No. HY-50876) were obtained from MedChem Express (Monmouth Junction, NJ) and solubilized in dimethyl sulfoxide (DMSO) at a stock concentration of 10 mM. Powdered L-Buthionine-sulfoximine (BSO) (Product No. B2515), powdered Diphenyleneiodonium chloride (DPI) (Product No. D2926), and powdered L-Glutathione reduced (GSH) were obtained from Sigma-Aldrich. BSO, and GSH was freshly made at a stock concentration of 100 mM in H2O, while DPI was solubilized in DMSO at a stock concentration of 10mM. CellRoxTM DeepRed Reagent (Cat No. C10422) for oxidative stress detection was obtained from ThermoFisher Scientific. Acetonitrile (AcCN) (Cat No. A955-1), Methanol (MeOH) (Cat No. A456-1) and water (Cat No. W6-1), Optima LC-MS grade, for the mass spectrometry analysis were obtained from ThermoFisher Scientific."
+
+[SAMPLEPREP]
+SAMPLEPREP_SUMMARY = "The combined global untargeted-targeted metabolomic analysis used BRAF-mutated melanoma cells (WM88, SKMEL5-SC10) treated with either DMSO or 8μM PLX4720 for 24 hrs. Cell pellet samples were lysed using 400µL ice cold lysis buffer (1:1:2, ACN:MeOH:Ammonium Bicarbonate 0.1M, pH 8.0, LC-MS grade) and vortexed well until the cells mixed well with the solvent. Each sample was sonicated using a probe tip sonicator, 10 pulses at 30% power, cooling down in ice between samples. A BCA protein assay was used to determine the protein concentration for each individual sample, and adjusted to a total amount of protein of 200µg total protein in 200 µL of lysis buffer. Heavy labeled standard molecules, Phenylalanine-D8 (CDN Isotopes, Quebec, CA), and Biotin-D2(Cambridge Isotope Laboratories, Inc., MA, USA), were added to each sample to assess sample handling steps. Samples were subjected to protein precipitation by addition of 800µL of ice cold methanol (4x by volume), then incubated at -80°C overnight. Samples were centrifuged at 10,000 rpm for 10 min to eliminate precipitated proteins and the metabolite containing supernatant was dried in vacuo and stored at -80°C until LC-MS analysis."
+
+[CHROMATOGRAPHY]
+CHROMATOGRAPHY_SUMMARY = "Vanquish UHPLC binary system and autosampler"
+CHROMATOGRAPHY_TYPE = "HILIC"
+INSTRUMENT_NAME = "Thermo Vanquish UHPLC"
+COLUMN_NAME = "SeQuant ZIC-HILIC (100 x 2.1mm, 3.5um)"
+
+[ANALYSIS]
+ANALYSIS_TYPE = "MS"
+
+[MS]
+INSTRUMENT_NAME = "Thermo Q Exactive HF hybrid Orbitrap"
+INSTRUMENT_TYPE = "Orbitrap"
+MS_TYPE = "ESI"
+ION_MODE = "NEGATIVE"
+MS_COMMENTS = "LC-MS/MS raw data were imported, processed, normalized and reviewed using Progenesis QI v.2.1 (Non-linear Dynamics, Newcastle, UK). All FMS, DDA and PRM sample runs were chromatographically aligned against a QC reference run. Following peak picking, unique spectral features (retention time and m/z pairs) were grouped based on adducts and isotopes, and individual features or metabolites were normalized to all features. Further filtering was carried out by removing features or metabolites that had &gt;30% coefficient of variance."
+MS_RESULTS_FILE = "ST001339_AN002233_results.txt UNITS:peak area Has m/z:Yes Has RT:Yes RT units:Minutes"
+
+[MS_METABOLITE_DATA]
+Units = "peak area"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SKMEL5_SC10"
+"Sample ID" = "SD1a"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+genotype = "resistant"
+treatment = "DMSO"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "SC_20190501_HILICn_PRM_Redox_Qua_SD1_T1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SKMEL5_SC10"
+"Sample ID" = "SD1b"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+genotype = "resistant"
+treatment = "DMSO"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "SC_20190501_HILICn_PRM_Redox_Qua_SD1_T2"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SKMEL5_SC10"
+"Sample ID" = "SD2a"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+genotype = "resistant"
+treatment = "DMSO"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "SC_20190501_HILICn_PRM_Redox_Qua_SD2_T1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SKMEL5_SC10"
+"Sample ID" = "SD2b"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+genotype = "resistant"
+treatment = "DMSO"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "SC_20190501_HILICn_PRM_Redox_Qua_SD2_T2"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SKMEL5_SC10"
+"Sample ID" = "SD3a"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+genotype = "resistant"
+treatment = "DMSO"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "SC_20190501_HILICn_PRM_Redox_Qua_SD3_T1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SKMEL5_SC10"
+"Sample ID" = "SD3b"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+genotype = "resistant"
+treatment = "DMSO"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "SC_20190501_HILICn_PRM_Redox_Qua_SD3_T2"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SKMEL5_SC10"
+"Sample ID" = "SD4a"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+genotype = "resistant"
+treatment = "DMSO"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "SC_20190501_HILICn_PRM_Redox_Qua_SD4_T1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SKMEL5_SC10"
+"Sample ID" = "SD4b"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+genotype = "resistant"
+treatment = "DMSO"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "SC_20190501_HILICn_PRM_Redox_Qua_SD4_T2"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SKMEL5_SC10"
+"Sample ID" = "SD5a"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+genotype = "resistant"
+treatment = "DMSO"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "SC_20190501_HILICn_PRM_Redox_Qua_SD5_T1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SKMEL5_SC10"
+"Sample ID" = "SD5b"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+genotype = "resistant"
+treatment = "DMSO"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "SC_20190501_HILICn_PRM_Redox_Qua_SD5_T2"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SKMEL5_SC10"
+"Sample ID" = "SP1a"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+genotype = "resistant"
+treatment = "PLX4720"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "SC_20190501_HILICn_PRM_Redox_Qua_SP1_T1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SKMEL5_SC10"
+"Sample ID" = "SP1b"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+genotype = "resistant"
+treatment = "PLX4720"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "SC_20190501_HILICn_PRM_Redox_Qua_SP1_T2"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SKMEL5_SC10"
+"Sample ID" = "SP2a"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+genotype = "resistant"
+treatment = "PLX4720"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "SC_20190501_HILICn_PRM_Redox_Qua_SP2_T1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SKMEL5_SC10"
+"Sample ID" = "SP2b"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+genotype = "resistant"
+treatment = "PLX4720"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "SC_20190501_HILICn_PRM_Redox_Qua_SP2_T2"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SKMEL5_SC10"
+"Sample ID" = "SP3a"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+genotype = "resistant"
+treatment = "PLX4720"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "SC_20190501_HILICn_PRM_Redox_Qua_SP3_T1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SKMEL5_SC10"
+"Sample ID" = "SP3b"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+genotype = "resistant"
+treatment = "PLX4720"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "SC_20190501_HILICn_PRM_Redox_Qua_SP3_T2"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SKMEL5_SC10"
+"Sample ID" = "SP4a"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+genotype = "resistant"
+treatment = "PLX4720"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "SC_20190501_HILICn_PRM_Redox_Qua_SP4_T1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SKMEL5_SC10"
+"Sample ID" = "SP4b"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+genotype = "resistant"
+treatment = "PLX4720"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "SC_20190501_HILICn_PRM_Redox_Qua_SP4_T2"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SKMEL5_SC10"
+"Sample ID" = "SP5a"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+genotype = "resistant"
+treatment = "PLX4720"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "SC_20190501_HILICn_PRM_Redox_Qua_SP5_T1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "SKMEL5_SC10"
+"Sample ID" = "SP5b"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+genotype = "resistant"
+treatment = "PLX4720"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "SC_20190501_HILICn_PRM_Redox_Qua_SP5_T2"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "WM88"
+"Sample ID" = "WD1a"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+genotype = "sensitive"
+treatment = "DMSO"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "SC_20190501_HILICn_PRM_Redox_Qua_WD1_T1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "WM88"
+"Sample ID" = "WD1b"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+genotype = "sensitive"
+treatment = "DMSO"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "SC_20190501_HILICn_PRM_Redox_Qua_WD1_T2"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "WM88"
+"Sample ID" = "WD2a"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+genotype = "sensitive"
+treatment = "DMSO"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "SC_20190501_HILICn_PRM_Redox_Qua_WD2_T1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "WM88"
+"Sample ID" = "WD2b"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+genotype = "sensitive"
+treatment = "DMSO"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "SC_20190501_HILICn_PRM_Redox_Qua_WD2_T2"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "WM88"
+"Sample ID" = "WD3a"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+genotype = "sensitive"
+treatment = "DMSO"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "SC_20190501_HILICn_PRM_Redox_Qua_WD3_T1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "WM88"
+"Sample ID" = "WD3b"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+genotype = "sensitive"
+treatment = "DMSO"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "SC_20190501_HILICn_PRM_Redox_Qua_WD3_T2"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "WM88"
+"Sample ID" = "WD4a"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+genotype = "sensitive"
+treatment = "DMSO"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "SC_20190501_HILICn_PRM_Redox_Qua_WD4_T1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "WM88"
+"Sample ID" = "WD4b"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+genotype = "sensitive"
+treatment = "DMSO"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "SC_20190501_HILICn_PRM_Redox_Qua_WD4_T2"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "WM88"
+"Sample ID" = "WD5a"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+genotype = "sensitive"
+treatment = "DMSO"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "SC_20190501_HILICn_PRM_Redox_Qua_WD5_T1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "WM88"
+"Sample ID" = "WD5b"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+genotype = "sensitive"
+treatment = "DMSO"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "SC_20190501_HILICn_PRM_Redox_Qua_WD5_T2"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "WM88"
+"Sample ID" = "WP1a"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+genotype = "sensitive"
+treatment = "PLX4720"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "SC_20190501_HILICn_PRM_Redox_Qua_WP1_T1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "WM88"
+"Sample ID" = "WP1b"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+genotype = "sensitive"
+treatment = "PLX4720"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "SC_20190501_HILICn_PRM_Redox_Qua_WP1_T2"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "WM88"
+"Sample ID" = "WP2a"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+genotype = "sensitive"
+treatment = "PLX4720"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "SC_20190501_HILICn_PRM_Redox_Qua_WP2_T1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "WM88"
+"Sample ID" = "WP2b"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+genotype = "sensitive"
+treatment = "PLX4720"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "SC_20190501_HILICn_PRM_Redox_Qua_WP2_T2"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "WM88"
+"Sample ID" = "WP3a"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+genotype = "sensitive"
+treatment = "PLX4720"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "SC_20190501_HILICn_PRM_Redox_Qua_WP3_T1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "WM88"
+"Sample ID" = "WP3b"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+genotype = "sensitive"
+treatment = "PLX4720"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "SC_20190501_HILICn_PRM_Redox_Qua_WP3_T2"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "WM88"
+"Sample ID" = "WP4a"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+genotype = "sensitive"
+treatment = "PLX4720"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "SC_20190501_HILICn_PRM_Redox_Qua_WP4_T1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "WM88"
+"Sample ID" = "WP4b"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+genotype = "sensitive"
+treatment = "PLX4720"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "SC_20190501_HILICn_PRM_Redox_Qua_WP4_T2"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "WM88"
+"Sample ID" = "WP5a"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+genotype = "sensitive"
+treatment = "PLX4720"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "SC_20190501_HILICn_PRM_Redox_Qua_WP5_T1"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "WM88"
+"Sample ID" = "WP5b"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+genotype = "sensitive"
+treatment = "PLX4720"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "SC_20190501_HILICn_PRM_Redox_Qua_WP5_T2"

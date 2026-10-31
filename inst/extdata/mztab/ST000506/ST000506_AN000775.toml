@@ -1,0 +1,220 @@
+# mwTab metadata of study ST000506, analysis AN000775
+# Exported by mwtab2mztabm 0.1.0.
+# Sample metadata is listed in [[SUBJECT_SAMPLE_FACTORS]].
+
+[mwtab2mztabm]
+format_version = 1
+factor_order = "Treatment"
+additional_data_order = ["13C media incubation time", "assay"]
+
+["METABOLOMICS WORKBENCH"]
+STUDY_ID = "ST000506"
+ANALYSIS_ID = "AN000775"
+VERSION = "1"
+CREATED_ON = "November 29, 2016, 3:15 pm"
+
+[PROJECT]
+PROJECT_TITLE = "Mayo Metabolomics Pilot and Feasibility Award: Metabolic Dissection of Aberrant Glutamine Metabolism in Prostate Cancer"
+PROJECT_SUMMARY = "In this project, we propose to define the specific role(s) of three crucial oncogenic signaling cascades (androgen receptor, Myc and AMPK) in regulating glutamine metabolism in prostate cancer using 13C-labeled glutamine with mass spectrometry-based metabolic flux analyses."
+INSTITUTE = "Mayo Clinic"
+LAST_NAME = "Frigo"
+FIRST_NAME = "Daniel"
+ADDRESS = "Department of Biology and Biochemistry, University of Houston, Houston, Texas 77204-5001"
+EMAIL = "frigo@uh.edu"
+PHONE = "832-842-8824"
+
+[STUDY]
+STUDY_TITLE = "Timecourse of TCA panel in LNCaP Cells"
+STUDY_SUMMARY = "Timecourse of TCA panel in LNCaP Cells"
+INSTITUTE = "Mayo Clinic"
+LAST_NAME = "Frigo"
+FIRST_NAME = "Daniel"
+ADDRESS = "Department of Biology and Biochemistry, University of Houston, Houston, Texas 77204-5001"
+EMAIL = "frigo@uh.edu"
+PHONE = "832-842-8824"
+
+[SUBJECT]
+SUBJECT_TYPE = "Human"
+SUBJECT_SPECIES = "Homo sapiens"
+TAXONOMY_ID = "9606"
+
+[COLLECTION]
+COLLECTION_SUMMARY = "LNCaP media"
+
+[TREATMENT]
+TREATMENT_SUMMARY = "LNCaP cells that were serum starved and incubated with 2mM [U-13C]glutamine and treated with dose response of a synthetic androgen (R1881) for 24 or 72 hours."
+
+[SAMPLEPREP]
+SAMPLEPREP_SUMMARY = "TCA media concentrations"
+
+[CHROMATOGRAPHY]
+CHROMATOGRAPHY_TYPE = "GC"
+INSTRUMENT_NAME = "Agilent 7890B"
+COLUMN_NAME = "Agilent HP5-MS (30m Ã— 0.25mm, 0.25 um)"
+
+[ANALYSIS]
+ANALYSIS_TYPE = "MS"
+
+[MS]
+MS_COMMENTS = "-"
+INSTRUMENT_NAME = "Agilent 5975"
+INSTRUMENT_TYPE = "Single quadrupole"
+MS_TYPE = "EI"
+ION_MODE = "POSITIVE"
+
+[MS_METABOLITE_DATA]
+Units = "nmol/ml"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "sample # 1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Treatment = "vehicle (ethanol)"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"13C media incubation time" = "24 hours"
+assay = "TCA media concentrations"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "sample # 2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Treatment = "100 pM R1881"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"13C media incubation time" = "24 hours"
+assay = "TCA media concentrations"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "sample # 3"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Treatment = "1 nM R1881"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"13C media incubation time" = "24 hours"
+assay = "TCA media concentrations"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "sample # 4"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Treatment = "10 nM R1881"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"13C media incubation time" = "24 hours"
+assay = "TCA media concentrations"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "sample # 5"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Treatment = "vehicle (ethanol)"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"13C media incubation time" = "24 hours"
+assay = "TCA media concentrations"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "sample # 6"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Treatment = "100 pM R1881"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"13C media incubation time" = "24 hours"
+assay = "TCA media concentrations"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "sample # 7"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Treatment = "10 nM R1881"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"13C media incubation time" = "24 hours"
+assay = "TCA media concentrations"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "sample # 8"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Treatment = "vehicle (ethanol)"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"13C media incubation time" = "72 hours"
+assay = "TCA media concentrations"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "sample # 9"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Treatment = "100 pM R1881"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"13C media incubation time" = "72 hours"
+assay = "TCA media concentrations"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "sample # 10"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Treatment = "1 nM R1881"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"13C media incubation time" = "72 hours"
+assay = "TCA media concentrations"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "sample # 11"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Treatment = "10 nM R1881"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"13C media incubation time" = "72 hours"
+assay = "TCA media concentrations"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "sample # 12"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Treatment = "vehicle (ethanol)"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"13C media incubation time" = "72 hours"
+assay = "TCA media concentrations"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "sample # 13"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Treatment = "100 pM R1881"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"13C media incubation time" = "72 hours"
+assay = "TCA media concentrations"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "sample # 14"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Treatment = "10 nM R1881"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"13C media incubation time" = "72 hours"
+assay = "TCA media concentrations"

@@ -1,0 +1,249 @@
+[
+{
+"METABOLOMICS WORKBENCH":{"STUDY_ID":"ST001225","ANALYSIS_ID":"AN002038","VERSION":"1","CREATED_ON":"July 30, 2019, 5:54 pm"},
+
+"PROJECT":{"PROJECT_TITLE":"Aquamin and Prevention of Colon Cancer","PROJECT_TYPE":"MS analysis","PROJECT_SUMMARY":"Effects of calcium and multi-mineral supplementation on gut microbes and microbially-derived metabolites in patients at risk for colon cancer","INSTITUTE":"University of Michigan","DEPARTMENT":"Pathology","LABORATORY":"Aslam Lab","LAST_NAME":"Aslam","FIRST_NAME":"Muhammad Nadeem","ADDRESS":"Ann Arbor, MI","EMAIL":"mnaslam@umich.edu","PHONE":"734-936-1897"},
+
+"STUDY":{"STUDY_TITLE":"Targeted metabolomics","STUDY_TYPE":"MS analysis","STUDY_SUMMARY":"We propose to evaluate microbial and metabolic profiles in baseline and endpoint colonic mucosal, fecal, and serum samples from human patients at risk for CRC and enrolled in a 90-day phase I clinical trial. Patients will receive daily supplementation with calcium alone, a calcium-rich multimineral (Aquamin?), or placebo (maltodextrin) (n=10 per group). We hypothesize that dietary supplementation will correlate with CRC-protective metabolic profiles and that multimineral supplementation will generate more favorable profiles than calcium supplementation alone.","INSTITUTE":"University of Michigan","DEPARTMENT":"Biomedical Research Core Facilities","LABORATORY":"Metabolomics core","LAST_NAME":"Kachman","FIRST_NAME":"Maureen","ADDRESS":"Ann Arbor, MI","EMAIL":"mkachman@med.umich.edu","PHONE":"734-232-0842","NUM_GROUPS":"24","TOTAL_SUBJECTS":"18","STUDY_COMMENTS":"Colorectal cancer (CRC) is the third most common cancer and the second leading cause of cancer related death when both genders are combined. Epidemiologically, calcium intake has been protective against colonic adenomas and even colon cancer. Calcium supplementation has reduced the risk of colon adenoma formation in subjects with a history of previous colon polyps. The utility of calcium supplementation for colon cancer prevention is somewhat modulated by the modest or inconsistent level of protection afforded. Our preliminary data in mice and human enterocyte models shows that dietary supplementation with a multimineral supplement (Aquamin?) containing calcium in combination with 72 measureable trace minerals is more protective against tumors and epithelial growth dysregulation than calcium alone. One potential mechanism, supported by our rodent data, is that multimineral supplementation alters gut microbial populations to generate bile acid and short chain fatty acid (SCFA) profiles that are CRC-protective."},
+
+"SUBJECT":{"SUBJECT_TYPE":"Human","SUBJECT_SPECIES":"Homo sapiens","TAXONOMY_ID":"9606"},
+"SUBJECT_SAMPLE_FACTORS":[
+{
+"Subject ID":"SU0021803",
+"Sample ID":"S00031727",
+"Factors":{"Time Point":"Baseline"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10001 Visit 2 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021804",
+"Sample ID":"S00031728",
+"Factors":{"Time Point":"Baseline"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10002 Visit 2 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021805",
+"Sample ID":"S00031729",
+"Factors":{"Time Point":"Baseline"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10003 Visit 2 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021806",
+"Sample ID":"S00031730",
+"Factors":{"Time Point":"Baseline"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10004 Visit 2 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021807",
+"Sample ID":"S00031731",
+"Factors":{"Time Point":"Baseline"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10005 Visit 2 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021808",
+"Sample ID":"S00031732",
+"Factors":{"Time Point":"Baseline"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10006 Visit 2 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021809",
+"Sample ID":"S00031733",
+"Factors":{"Time Point":"Baseline"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10007 Visit 2 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021810",
+"Sample ID":"S00031734",
+"Factors":{"Time Point":"Baseline"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10008 Visit 2 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021811",
+"Sample ID":"S00031735",
+"Factors":{"Time Point":"Baseline"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10009 Visit 2 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021812",
+"Sample ID":"S00031736",
+"Factors":{"Time Point":"Baseline"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10010 Visit 2 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021813",
+"Sample ID":"S00031737",
+"Factors":{"Time Point":"Baseline"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10011 Visit 2 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021814",
+"Sample ID":"S00031738",
+"Factors":{"Time Point":"Baseline"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10012 Visit 2 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021815",
+"Sample ID":"S00031739",
+"Factors":{"Time Point":"Baseline"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10013 Visit 2 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021816",
+"Sample ID":"S00031740",
+"Factors":{"Time Point":"Baseline"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10014 Visit 2 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021817",
+"Sample ID":"S00031741",
+"Factors":{"Time Point":"Baseline"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10015 Visit 2 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021818",
+"Sample ID":"S00031742",
+"Factors":{"Time Point":"Baseline"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10016 Visit 2 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021819",
+"Sample ID":"S00031743",
+"Factors":{"Time Point":"Baseline"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10017 Visit 2 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021820",
+"Sample ID":"S00031744",
+"Factors":{"Time Point":"Baseline"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10018 Visit 2 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021803",
+"Sample ID":"S00031745",
+"Factors":{"Time Point":"Day 90"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10001 Visit 3 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021804",
+"Sample ID":"S00031746",
+"Factors":{"Time Point":"Day 90"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10002 Visit 3 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021805",
+"Sample ID":"S00031747",
+"Factors":{"Time Point":"Day 90"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10003 Visit 3 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021806",
+"Sample ID":"S00031748",
+"Factors":{"Time Point":"Day 90"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10004 Visit 3 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021807",
+"Sample ID":"S00031749",
+"Factors":{"Time Point":"Day 90"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10005 Visit 3 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021808",
+"Sample ID":"S00031750",
+"Factors":{"Time Point":"Day 90"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10006 Visit 3 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021809",
+"Sample ID":"S00031751",
+"Factors":{"Time Point":"Day 90"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10007 Visit 3 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021810",
+"Sample ID":"S00031752",
+"Factors":{"Time Point":"Day 90"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10008 Visit 3 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021811",
+"Sample ID":"S00031753",
+"Factors":{"Time Point":"Day 90"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10009 Visit 3 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021812",
+"Sample ID":"S00031754",
+"Factors":{"Time Point":"Day 90"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10010 Visit 3 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021813",
+"Sample ID":"S00031755",
+"Factors":{"Time Point":"Day 90"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10011 Visit 3 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021814",
+"Sample ID":"S00031756",
+"Factors":{"Time Point":"Day 90"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10012 Visit 3 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021815",
+"Sample ID":"S00031757",
+"Factors":{"Time Point":"Day 90"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10013 Visit 3 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021816",
+"Sample ID":"S00031758",
+"Factors":{"Time Point":"Day 90"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10014 Visit 3 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021817",
+"Sample ID":"S00031759",
+"Factors":{"Time Point":"Day 90"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10015 Visit 3 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021818",
+"Sample ID":"S00031760",
+"Factors":{"Time Point":"Day 90"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10016 Visit 3 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021819",
+"Sample ID":"S00031761",
+"Factors":{"Time Point":"Day 90"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10017 Visit 3 Colon NA#2"}
+},
+{
+"Subject ID":"SU0021820",
+"Sample ID":"S00031762",
+"Factors":{"Time Point":"Day 90"},
+"Additional sample data":{"Sample type":"Sample","Biological material":"Tissues","10001 Visit 2 Colon NA#2":"10018 Visit 3 Colon NA#2"}
+}
+],
+"COLLECTION":{"COLLECTION_SUMMARY":"Colonic mucosal tissue","SAMPLE_TYPE":"Colon"},
+
+"TREATMENT":{"TREATMENT_SUMMARY":"NA"},
+
+"SAMPLEPREP":{"SAMPLEPREP_SUMMARY":"Two-step solvent extraction. Supernatants are combined, dried, and re-suspended for LCMS separation by RPLC and measurements by ESI- QQQ MRM methods. Analytes are reported as uM, and CV's are generally <15%.","SAMPLEPREP_PROTOCOL_FILENAME":"Bile_acids_analysis.doc"},
+
+"CHROMATOGRAPHY":{"CHROMATOGRAPHY_TYPE":"Reversed phase","INSTRUMENT_NAME":"Agilent 1260","COLUMN_NAME":"Waters Acquity BEH C18 (50 x 2mm, 1.7um)","METHODS_FILENAME":"2014-07-30-Bile_acid-full-BEH-C18-I.m"},
+
+"ANALYSIS":{"ANALYSIS_TYPE":"MS","ACQUISITION_PARAMETERS_FILE":"2014-07-30-Bile_acid-full-BEH-C18-I.m.zip"},
+
+"MS":{"INSTRUMENT_NAME":"Agilent 6490 QQQ","INSTRUMENT_TYPE":"Triple quadrupole","MS_TYPE":"ESI","ION_MODE":"POSITIVE","MS_COMMENTS":"NA"},
+
+"MS_METABOLITE_DATA":{
+"Units":"pmol/mg",
+
+"Data":[{"Metabolite":"Cholic acid","S00031727":"0.167","S00031728":"0.348","S00031729":"11.591","S00031730":"19.376","S00031731":"0.176","S00031732":"0.151","S00031733":"0.347","S00031734":"0.283","S00031735":"0.335","S00031736":"0.223","S00031737":"0.095","S00031738":"0.930","S00031739":"0.204","S00031740":"0.251","S00031741":"0.183","S00031742":"0.088","S00031743":"0.306","S00031744":"0.347","S00031745":"0.198","S00031746":"0.227","S00031747":"1.413","S00031748":"12.052","S00031749":"0.385","S00031750":"0.475","S00031751":"0.327","S00031752":"0.214","S00031753":"0.199","S00031754":"0.140","S00031755":"0.118","S00031756":"0.251","S00031757":"0.198","S00031758":"0.276","S00031759":"0.344","S00031760":"0.178","S00031761":"0.184","S00031762":"0.135"},{"Metabolite":"g-Muricholic acid (hyocholic acid)","S00031727":"0.101","S00031728":"0.195","S00031729":"","S00031730":"0.210","S00031731":"","S00031732":"0.106","S00031733":"0.151","S00031734":"","S00031735":"0.159","S00031736":"0.152","S00031737":"0.061","S00031738":"0.353","S00031739":"0.107","S00031740":"0.091","S00031741":"0.134","S00031742":"0.158","S00031743":"0.099","S00031744":"0.158","S00031745":"0.111","S00031746":"0.137","S00031747":"0.226","S00031748":"0.123","S00031749":"","S00031750":"","S00031751":"0.147","S00031752":"0.166","S00031753":"0.147","S00031754":"0.104","S00031755":"0.099","S00031756":"0.308","S00031757":"0.273","S00031758":"0.188","S00031759":"0.125","S00031760":"0.145","S00031761":"0.133","S00031762":"0.134"},{"Metabolite":"w-Muricholic acid","S00031727":"0.123","S00031728":"0.199","S00031729":"0.211","S00031730":"0.135","S00031731":"0.119","S00031732":"0.123","S00031733":"0.162","S00031734":"0.124","S00031735":"0.178","S00031736":"0.141","S00031737":"0.068","S00031738":"0.476","S00031739":"0.111","S00031740":"0.125","S00031741":"0.149","S00031742":"0.078","S00031743":"0.121","S00031744":"0.131","S00031745":"0.144","S00031746":"0.163","S00031747":"0.223","S00031748":"0.146","S00031749":"0.208","S00031750":"0.304","S00031751":"0.155","S00031752":"0.160","S00031753":"0.112","S00031754":"0.128","S00031755":"0.124","S00031756":"0.240","S00031757":"0.133","S00031758":"0.121","S00031759":"0.163","S00031760":"0.135","S00031761":"0.130","S00031762":"0.104"},{"Metabolite":"Deoxycholic acid","S00031727":"3.851","S00031728":"99.200","S00031729":"53.408","S00031730":"58.099","S00031731":"35.201","S00031732":"11.200","S00031733":"41.547","S00031734":"80.055","S00031735":"25.736","S00031736":"44.581","S00031737":"13.094","S00031738":"150.542","S00031739":"8.533","S00031740":"15.603","S00031741":"39.864","S00031742":"18.073","S00031743":"3.714","S00031744":"31.639","S00031745":"19.092","S00031746":"18.524","S00031747":"131.321","S00031748":"36.420","S00031749":"18.859","S00031750":"61.143","S00031751":"13.454","S00031752":"29.145","S00031753":"34.742","S00031754":"10.301","S00031755":"17.831","S00031756":"182.237","S00031757":"24.204","S00031758":"29.563","S00031759":"34.135","S00031760":"12.553","S00031761":"7.627","S00031762":"10.357"},{"Metabolite":"Hyodeoxycholic acid","S00031727":"1.142","S00031728":"8.771","S00031729":"2.767","S00031730":"6.363","S00031731":"10.868","S00031732":"10.228","S00031733":"11.473","S00031734":"8.092","S00031735":"7.890","S00031736":"10.878","S00031737":"3.775","S00031738":"31.521","S00031739":"1.725","S00031740":"5.048","S00031741":"10.102","S00031742":"3.560","S00031743":"2.437","S00031744":"7.530","S00031745":"3.899","S00031746":"6.529","S00031747":"12.143","S00031748":"6.668","S00031749":"4.280","S00031750":"6.361","S00031751":"3.761","S00031752":"5.944","S00031753":"2.730","S00031754":"5.576","S00031755":"10.029","S00031756":"24.226","S00031757":"3.645","S00031758":"1.396","S00031759":"3.271","S00031760":"2.764","S00031761":"1.426","S00031762":"3.254"},{"Metabolite":"Glycochenodeoxycholic acid","S00031727":"0.219","S00031728":"0.202","S00031729":"0.690","S00031730":"0.314","S00031731":"0.128","S00031732":"0.169","S00031733":"0.161","S00031734":"0.129","S00031735":"0.289","S00031736":"0.163","S00031737":"0.065","S00031738":"0.468","S00031739":"0.108","S00031740":"0.174","S00031741":"0.147","S00031742":"0.085","S00031743":"0.130","S00031744":"0.239","S00031745":"0.140","S00031746":"0.191","S00031747":"0.564","S00031748":"0.249","S00031749":"0.209","S00031750":"0.283","S00031751":"0.166","S00031752":"0.141","S00031753":"0.157","S00031754":"0.129","S00031755":"0.109","S00031756":"0.231","S00031757":"0.141","S00031758":"0.146","S00031759":"0.199","S00031760":"0.217","S00031761":"0.119","S00031762":"0.142"},{"Metabolite":"Glycodeoxycholic acid","S00031727":"0.195","S00031728":"0.279","S00031729":"0.249","S00031730":"0.322","S00031731":"0.134","S00031732":"0.166","S00031733":"0.212","S00031734":"0.148","S00031735":"0.270","S00031736":"0.691","S00031737":"0.084","S00031738":"0.490","S00031739":"0.156","S00031740":"0.129","S00031741":"0.180","S00031742":"0.157","S00031743":"0.130","S00031744":"0.232","S00031745":"0.181","S00031746":"0.212","S00031747":"0.554","S00031748":"0.289","S00031749":"0.226","S00031750":"0.306","S00031751":"0.202","S00031752":"0.202","S00031753":"0.150","S00031754":"0.180","S00031755":"0.137","S00031756":"0.270","S00031757":"0.278","S00031758":"0.218","S00031759":"0.257","S00031760":"0.202","S00031761":"0.119","S00031762":"0.156"},{"Metabolite":"Glycohyodeoxycholic acid","S00031727":"0.120","S00031728":"0.162","S00031729":"0.220","S00031730":"0.108","S00031731":"0.118","S00031732":"0.116","S00031733":"0.144","S00031734":"0.125","S00031735":"0.176","S00031736":"0.133","S00031737":"0.064","S00031738":"0.440","S00031739":"0.093","S00031740":"0.111","S00031741":"0.144","S00031742":"0.063","S00031743":"0.111","S00031744":"0.123","S00031745":"0.133","S00031746":"0.144","S00031747":"0.210","S00031748":"0.107","S00031749":"0.000","S00031750":"0.288","S00031751":"0.152","S00031752":"0.138","S00031753":"0.000","S00031754":"0.120","S00031755":"0.108","S00031756":"0.248","S00031757":"0.106","S00031758":"0.104","S00031759":"0.145","S00031760":"0.123","S00031761":"0.109","S00031762":"0.095"},{"Metabolite":"Glycoursodeoxycholic acid","S00031727":"0.129","S00031728":"0.162","S00031729":"0.232","S00031730":"0.119","S00031731":"0.117","S00031732":"0.120","S00031733":"0.148","S00031734":"0.125","S00031735":"0.181","S00031736":"0.131","S00031737":"0.078","S00031738":"0.446","S00031739":"0.096","S00031740":"0.115","S00031741":"0.144","S00031742":"0.069","S00031743":"0.113","S00031744":"0.130","S00031745":"0.135","S00031746":"0.144","S00031747":"0.218","S00031748":"0.114","S00031749":"0.209","S00031750":"0.291","S00031751":"0.154","S00031752":"0.139","S00031753":"0.115","S00031754":"0.119","S00031755":"0.108","S00031756":"0.246","S00031757":"0.112","S00031758":"0.107","S00031759":"0.153","S00031760":"0.148","S00031761":"0.111","S00031762":"0.097"},{"Metabolite":"Glychocholic acid","S00031727":"0.094","S00031728":"0.131","S00031729":"0.288","S00031730":"0.332","S00031731":"0.088","S00031732":"0.112","S00031733":"0.114","S00031734":"","S00031735":"0.155","S00031736":"0.113","S00031737":"0.050","S00031738":"0.335","S00031739":"0.104","S00031740":"0.096","S00031741":"0.107","S00031742":"0.067","S00031743":"0.085","S00031744":"0.151","S00031745":"0.125","S00031746":"0.120","S00031747":"0.346","S00031748":"0.151","S00031749":"0.159","S00031750":"","S00031751":"0.122","S00031752":"0.110","S00031753":"0.107","S00031754":"0.096","S00031755":"0.093","S00031756":"0.284","S00031757":"0.107","S00031758":"0.084","S00031759":"0.137","S00031760":"0.120","S00031761":"0.094","S00031762":"0.126"},{"Metabolite":"Taurocholic acid","S00031727":"0.145","S00031728":"0.169","S00031729":"0.555","S00031730":"0.173","S00031731":"0.142","S00031732":"0.119","S00031733":"0.155","S00031734":"0.136","S00031735":"0.184","S00031736":"0.134","S00031737":"0.066","S00031738":"0.462","S00031739":"0.097","S00031740":"0.117","S00031741":"0.148","S00031742":"0.068","S00031743":"0.118","S00031744":"0.141","S00031745":"0.141","S00031746":"0.148","S00031747":"0.304","S00031748":"0.132","S00031749":"0.216","S00031750":"0.298","S00031751":"0.158","S00031752":"0.142","S00031753":"0.114","S00031754":"0.121","S00031755":"0.112","S00031756":"0.229","S00031757":"0.110","S00031758":"0.110","S00031759":"0.150","S00031760":"0.129","S00031761":"0.115","S00031762":"0.100"},{"Metabolite":"Tauro-alpha-muricholic acidTauro-beta-muricholic acid","S00031727":"0.133","S00031728":"0.159","S00031729":"1.017","S00031730":"0.152","S00031731":"0.113","S00031732":"0.113","S00031733":"0.146","S00031734":"0.120","S00031735":"0.177","S00031736":"0.128","S00031737":"0.063","S00031738":"0.469","S00031739":"0.093","S00031740":"0.114","S00031741":"0.145","S00031742":"0.078","S00031743":"0.114","S00031744":"0.125","S00031745":"0.133","S00031746":"0.142","S00031747":"0.497","S00031748":"0.127","S00031749":"0.200","S00031750":"0.286","S00031751":"0.149","S00031752":"0.136","S00031753":"0.119","S00031754":"0.116","S00031755":"0.105","S00031756":"0.223","S00031757":"0.106","S00031758":"0.113","S00031759":"0.144","S00031760":"0.120","S00031761":"0.107","S00031762":"0.094"},{"Metabolite":"3a,7a,12a-trihydroxycholestanoic acid","S00031727":"0.132","S00031728":"0.167","S00031729":"0.240","S00031730":"0.113","S00031731":"0.122","S00031732":"0.120","S00031733":"0.149","S00031734":"0.131","S00031735":"0.182","S00031736":"0.137","S00031737":"0.068","S00031738":"0.464","S00031739":"0.099","S00031740":"0.119","S00031741":"0.147","S00031742":"0.067","S00031743":"0.119","S00031744":"0.131","S00031745":"0.141","S00031746":"0.149","S00031747":"0.221","S00031748":"0.111","S00031749":"0.223","S00031750":"0.306","S00031751":"0.159","S00031752":"0.146","S00031753":"0.114","S00031754":"0.124","S00031755":"0.115","S00031756":"0.240","S00031757":"0.112","S00031758":"0.110","S00031759":"0.151","S00031760":"0.128","S00031761":"0.114","S00031762":"0.100"},{"Metabolite":"Taurochenodeoxycholic acid","S00031727":"1.878","S00031728":"1.116","S00031729":"1.014","S00031730":"0.267","S00031731":"0.239","S00031732":"0.165","S00031733":"0.218","S00031734":"0.187","S00031735":"0.233","S00031736":"0.169","S00031737":"0.084","S00031738":"0.577","S00031739":"0.121","S00031740":"0.148","S00031741":"0.187","S00031742":"0.083","S00031743":"0.148","S00031744":"0.176","S00031745":"0.179","S00031746":"0.188","S00031747":"0.296","S00031748":"0.158","S00031749":"0.288","S00031750":"0.396","S00031751":"0.199","S00031752":"0.181","S00031753":"0.144","S00031754":"0.151","S00031755":"0.136","S00031756":"0.292","S00031757":"0.135","S00031758":"0.136","S00031759":"0.190","S00031760":"0.163","S00031761":"0.150","S00031762":"0.125"},{"Metabolite":"Taurodeoxycholic acid","S00031727":"1.647","S00031728":"0.987","S00031729":"0.842","S00031730":"0.266","S00031731":"0.217","S00031732":"0.160","S00031733":"0.212","S00031734":"0.184","S00031735":"0.235","S00031736":"0.223","S00031737":"0.100","S00031738":"0.623","S00031739":"0.126","S00031740":"0.146","S00031741":"0.190","S00031742":"0.099","S00031743":"0.155","S00031744":"0.176","S00031745":"0.177","S00031746":"0.188","S00031747":"0.476","S00031748":"0.204","S00031749":"0.340","S00031750":"0.431","S00031751":"0.206","S00031752":"0.189","S00031753":"0.191","S00031754":"0.162","S00031755":"0.147","S00031756":"0.337","S00031757":"0.151","S00031758":"0.209","S00031759":"0.231","S00031760":"0.170","S00031761":"0.148","S00031762":"0.124"},{"Metabolite":"Tauro-hyodeoxycholic acidTauroursodeoxycholic acid","S00031727":"0.383","S00031728":"0.263","S00031729":"0.301","S00031730":"0.126","S00031731":"0.137","S00031732":"0.132","S00031733":"0.167","S00031734":"0.142","S00031735":"0.201","S00031736":"0.148","S00031737":"0.073","S00031738":"0.506","S00031739":"0.106","S00031740":"0.128","S00031741":"0.162","S00031742":"0.073","S00031743":"0.126","S00031744":"0.141","S00031745":"0.151","S00031746":"0.163","S00031747":"0.241","S00031748":"0.120","S00031749":"0.234","S00031750":"0.329","S00031751":"0.172","S00031752":"0.157","S00031753":"0.126","S00031754":"0.134","S00031755":"0.123","S00031756":"0.248","S00031757":"0.121","S00031758":"0.118","S00031759":"0.166","S00031760":"0.139","S00031761":"0.124","S00031762":"0.108"},{"Metabolite":"Taurolithocolic acid","S00031727":"12.181","S00031728":"15.473","S00031729":"22.135","S00031730":"6.896","S00031731":"7.225","S00031732":"3.359","S00031733":"8.106","S00031734":"12.348","S00031735":"4.329","S00031736":"3.781","S00031737":"3.166","S00031738":"17.090","S00031739":"2.376","S00031740":"2.264","S00031741":"2.903","S00031742":"1.069","S00031743":"1.952","S00031744":"2.030","S00031745":"2.019","S00031746":"1.723","S00031747":"3.273","S00031748":"0.852","S00031749":"1.943","S00031750":"2.978","S00031751":"1.232","S00031752":"1.244","S00031753":"1.002","S00031754":"0.440","S00031755":"0.652","S00031756":"5.846","S00031757":"0.429","S00031758":"0.517","S00031759":"0.700","S00031760":"0.390","S00031761":"0.567","S00031762":"0.299"}],
+
+"Metabolites":[{"Metabolite":"Cholic acid","pubchem_id":"221493","other_id":"CA","other_id_type":"UM_Target_ID"},{"Metabolite":"g-Muricholic acid (hyocholic acid)","pubchem_id":"92805","other_id":"HCA","other_id_type":"UM_Target_ID"},{"Metabolite":"w-Muricholic acid","pubchem_id":"5283851","other_id":"wMCA","other_id_type":"UM_Target_ID"},{"Metabolite":"Deoxycholic acid","pubchem_id":"6742","other_id":"DCA/CDCA","other_id_type":"UM_Target_ID"},{"Metabolite":"Hyodeoxycholic acid","pubchem_id":"16219478","other_id":"HDCA","other_id_type":"UM_Target_ID"},{"Metabolite":"Glycochenodeoxycholic acid","pubchem_id":"9548796","other_id":"GCDCA","other_id_type":"UM_Target_ID"},{"Metabolite":"Glycodeoxycholic acid","pubchem_id":"18602029","other_id":"GDCA","other_id_type":"UM_Target_ID"},{"Metabolite":"Glycohyodeoxycholic acid","pubchem_id":"114611","other_id":"GHDCA","other_id_type":"UM_Target_ID"},{"Metabolite":"Glycoursodeoxycholic acid","pubchem_id":"12310288","other_id":"GUDCA","other_id_type":"UM_Target_ID"},{"Metabolite":"Glychocholic acid","pubchem_id":"10140","other_id":"GCA","other_id_type":"UM_Target_ID"},{"Metabolite":"Taurocholic acid","pubchem_id":"6675","other_id":"TCA","other_id_type":"UM_Target_ID"},{"Metabolite":"Tauro-alpha-muricholic acidTauro-beta-muricholic acid","pubchem_id":"168408","other_id":"TaMCATbMCA","other_id_type":"UM_Target_ID"},{"Metabolite":"3a,7a,12a-trihydroxycholestanoic acid","pubchem_id":"122312","other_id":"THCA","other_id_type":"UM_Target_ID"},{"Metabolite":"Taurochenodeoxycholic acid","pubchem_id":"54608447","other_id":"TCDCA","other_id_type":"UM_Target_ID"},{"Metabolite":"Taurodeoxycholic acid","pubchem_id":"10594","other_id":"TDCA","other_id_type":"UM_Target_ID"},{"Metabolite":"Tauro-hyodeoxycholic acidTauroursodeoxycholic acid","pubchem_id":"9848818","other_id":"THDCATUDCa","other_id_type":"UM_Target_ID"},{"Metabolite":"Taurolithocolic acid","pubchem_id":"10595","other_id":"TLCA","other_id_type":"UM_Target_ID"}]
+}
+
+}
+]

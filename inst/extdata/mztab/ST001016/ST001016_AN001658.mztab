@@ -1,0 +1,479 @@
+MTD	mzTab-version	2.1.0-M
+MTD	mzTab-ID	ST001016_AN001658
+MTD	mzTab-profile	M+S
+MTD	title	Sphingolipid Concentrations in Muscle Tissue of Muscle Wasting in Cancer Cachexia (part-III)
+MTD	description	Sphingolipid Concentrations of Muscle Wasting in Cancer Cachexia. Muscle samples from 10 control patients, 10 weight stable pancreatic cancer patients, and 10 pancreatic cancer patients with significant weight loss. Samples are divided evenly between males and females.
+MTD	instrument[1]-name	[MS, MS:1000031, instrument model, Thermo Quantum Ultra]
+MTD	instrument[1]-source	[MS, MS:1000073, electrospray ionization, ]
+MTD	instrument[1]-analyzer[1]	[MS, MS:1000081, quadrupole, ]
+MTD	software[1]	[MS, MS:1000799, custom unreleased software tool, mwtab2mztabm 0.1.0]
+MTD	contact[1]-name	Denis Guttridge
+MTD	contact[1]-affiliation	Mayo Clinic
+MTD	contact[1]-email	denis.guttridge@osumc.edu
+MTD	uri[1]	https://www.metabolomicsworkbench.org/data/DRCCMetadata.php?Mode=Study&StudyID=ST001016
+MTD	quantification_method	[MS, MS:1001834, LC-MS label-free quantitation analysis, ]
+MTD	sample[1]	ms6646-1
+MTD	sample[1]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[1]-tissue[1]	[,, Muscle, ]
+MTD	sample[1]-custom[1]	[,,Sample type, Muscle Tissue]
+MTD	sample[1]-custom[2]	[,,Species, Human]
+MTD	sample[1]-custom[3]	[,,tissue mg/vial, 5]
+MTD	sample[1]-custom[4]	[,,protein ug/vial, 190]
+MTD	sample[10]	ms6646-10
+MTD	sample[10]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[10]-tissue[1]	[,, Muscle, ]
+MTD	sample[10]-custom[1]	[,,Sample type, Muscle Tissue]
+MTD	sample[10]-custom[2]	[,,Species, Human]
+MTD	sample[10]-custom[3]	[,,tissue mg/vial, 5]
+MTD	sample[10]-custom[4]	[,,protein ug/vial, 200]
+MTD	sample[11]	ms6646-11
+MTD	sample[11]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[11]-tissue[1]	[,, Muscle, ]
+MTD	sample[11]-custom[1]	[,,Sample type, Muscle Tissue]
+MTD	sample[11]-custom[2]	[,,Species, Human]
+MTD	sample[11]-custom[3]	[,,tissue mg/vial, 5]
+MTD	sample[11]-custom[4]	[,,protein ug/vial, 334]
+MTD	sample[12]	ms6646-12
+MTD	sample[12]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[12]-tissue[1]	[,, Muscle, ]
+MTD	sample[12]-custom[1]	[,,Sample type, Muscle Tissue]
+MTD	sample[12]-custom[2]	[,,Species, Human]
+MTD	sample[12]-custom[3]	[,,tissue mg/vial, 5]
+MTD	sample[12]-custom[4]	[,,protein ug/vial, 166]
+MTD	sample[13]	ms6646-13
+MTD	sample[13]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[13]-tissue[1]	[,, Muscle, ]
+MTD	sample[13]-custom[1]	[,,Sample type, Muscle Tissue]
+MTD	sample[13]-custom[2]	[,,Species, Human]
+MTD	sample[13]-custom[3]	[,,tissue mg/vial, 5]
+MTD	sample[13]-custom[4]	[,,protein ug/vial, 217]
+MTD	sample[14]	ms6646-14
+MTD	sample[14]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[14]-tissue[1]	[,, Muscle, ]
+MTD	sample[14]-custom[1]	[,,Sample type, Muscle Tissue]
+MTD	sample[14]-custom[2]	[,,Species, Human]
+MTD	sample[14]-custom[3]	[,,tissue mg/vial, 5]
+MTD	sample[14]-custom[4]	[,,protein ug/vial, 186]
+MTD	sample[15]	ms6646-15
+MTD	sample[15]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[15]-tissue[1]	[,, Muscle, ]
+MTD	sample[15]-custom[1]	[,,Sample type, Muscle Tissue]
+MTD	sample[15]-custom[2]	[,,Species, Human]
+MTD	sample[15]-custom[3]	[,,tissue mg/vial, 5]
+MTD	sample[15]-custom[4]	[,,protein ug/vial, 238]
+MTD	sample[16]	ms6646-16
+MTD	sample[16]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[16]-tissue[1]	[,, Muscle, ]
+MTD	sample[16]-custom[1]	[,,Sample type, Muscle Tissue]
+MTD	sample[16]-custom[2]	[,,Species, Human]
+MTD	sample[16]-custom[3]	[,,tissue mg/vial, 5]
+MTD	sample[16]-custom[4]	[,,protein ug/vial, 219]
+MTD	sample[17]	ms6646-17
+MTD	sample[17]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[17]-tissue[1]	[,, Muscle, ]
+MTD	sample[17]-custom[1]	[,,Sample type, Muscle Tissue]
+MTD	sample[17]-custom[2]	[,,Species, Human]
+MTD	sample[17]-custom[3]	[,,tissue mg/vial, 5]
+MTD	sample[17]-custom[4]	[,,protein ug/vial, 230]
+MTD	sample[18]	ms6646-18
+MTD	sample[18]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[18]-tissue[1]	[,, Muscle, ]
+MTD	sample[18]-custom[1]	[,,Sample type, Muscle Tissue]
+MTD	sample[18]-custom[2]	[,,Species, Human]
+MTD	sample[18]-custom[3]	[,,tissue mg/vial, 5]
+MTD	sample[18]-custom[4]	[,,protein ug/vial, 174]
+MTD	sample[19]	ms6646-19
+MTD	sample[19]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[19]-tissue[1]	[,, Muscle, ]
+MTD	sample[19]-custom[1]	[,,Sample type, Muscle Tissue]
+MTD	sample[19]-custom[2]	[,,Species, Human]
+MTD	sample[19]-custom[3]	[,,tissue mg/vial, 5]
+MTD	sample[19]-custom[4]	[,,protein ug/vial, 169]
+MTD	sample[2]	ms6646-2
+MTD	sample[2]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[2]-tissue[1]	[,, Muscle, ]
+MTD	sample[2]-custom[1]	[,,Sample type, Muscle Tissue]
+MTD	sample[2]-custom[2]	[,,Species, Human]
+MTD	sample[2]-custom[3]	[,,tissue mg/vial, 5]
+MTD	sample[2]-custom[4]	[,,protein ug/vial, 150]
+MTD	sample[20]	ms6646-20
+MTD	sample[20]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[20]-tissue[1]	[,, Muscle, ]
+MTD	sample[20]-custom[1]	[,,Sample type, Muscle Tissue]
+MTD	sample[20]-custom[2]	[,,Species, Human]
+MTD	sample[20]-custom[3]	[,,tissue mg/vial, 5]
+MTD	sample[20]-custom[4]	[,,protein ug/vial, 224]
+MTD	sample[21]	ms6646-21
+MTD	sample[21]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[21]-tissue[1]	[,, Muscle, ]
+MTD	sample[21]-custom[1]	[,,Sample type, Muscle Tissue]
+MTD	sample[21]-custom[2]	[,,Species, Human]
+MTD	sample[21]-custom[3]	[,,tissue mg/vial, 5]
+MTD	sample[21]-custom[4]	[,,protein ug/vial, 137]
+MTD	sample[22]	ms6646-22
+MTD	sample[22]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[22]-tissue[1]	[,, Muscle, ]
+MTD	sample[22]-custom[1]	[,,Sample type, Muscle Tissue]
+MTD	sample[22]-custom[2]	[,,Species, Human]
+MTD	sample[22]-custom[3]	[,,tissue mg/vial, 5]
+MTD	sample[22]-custom[4]	[,,protein ug/vial, 195]
+MTD	sample[23]	ms6646-23
+MTD	sample[23]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[23]-tissue[1]	[,, Muscle, ]
+MTD	sample[23]-custom[1]	[,,Sample type, Muscle Tissue]
+MTD	sample[23]-custom[2]	[,,Species, Human]
+MTD	sample[23]-custom[3]	[,,tissue mg/vial, 5]
+MTD	sample[23]-custom[4]	[,,protein ug/vial, 185]
+MTD	sample[24]	ms6646-24
+MTD	sample[24]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[24]-tissue[1]	[,, Muscle, ]
+MTD	sample[24]-custom[1]	[,,Sample type, Muscle Tissue]
+MTD	sample[24]-custom[2]	[,,Species, Human]
+MTD	sample[24]-custom[3]	[,,tissue mg/vial, 5]
+MTD	sample[24]-custom[4]	[,,protein ug/vial, 203]
+MTD	sample[25]	ms6646-25
+MTD	sample[25]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[25]-tissue[1]	[,, Muscle, ]
+MTD	sample[25]-custom[1]	[,,Sample type, Muscle Tissue]
+MTD	sample[25]-custom[2]	[,,Species, Human]
+MTD	sample[25]-custom[3]	[,,tissue mg/vial, 5]
+MTD	sample[25]-custom[4]	[,,protein ug/vial, 318]
+MTD	sample[26]	ms6646-26
+MTD	sample[26]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[26]-tissue[1]	[,, Muscle, ]
+MTD	sample[26]-custom[1]	[,,Sample type, Muscle Tissue]
+MTD	sample[26]-custom[2]	[,,Species, Human]
+MTD	sample[26]-custom[3]	[,,tissue mg/vial, 5]
+MTD	sample[26]-custom[4]	[,,protein ug/vial, 167]
+MTD	sample[27]	ms6646-27
+MTD	sample[27]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[27]-tissue[1]	[,, Muscle, ]
+MTD	sample[27]-custom[1]	[,,Sample type, Muscle Tissue]
+MTD	sample[27]-custom[2]	[,,Species, Human]
+MTD	sample[27]-custom[3]	[,,tissue mg/vial, 5]
+MTD	sample[27]-custom[4]	[,,protein ug/vial, 200]
+MTD	sample[28]	ms6646-28
+MTD	sample[28]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[28]-tissue[1]	[,, Muscle, ]
+MTD	sample[28]-custom[1]	[,,Sample type, Muscle Tissue]
+MTD	sample[28]-custom[2]	[,,Species, Human]
+MTD	sample[28]-custom[3]	[,,tissue mg/vial, 5]
+MTD	sample[28]-custom[4]	[,,protein ug/vial, 195]
+MTD	sample[29]	ms6646-29
+MTD	sample[29]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[29]-tissue[1]	[,, Muscle, ]
+MTD	sample[29]-custom[1]	[,,Sample type, Muscle Tissue]
+MTD	sample[29]-custom[2]	[,,Species, Human]
+MTD	sample[29]-custom[3]	[,,tissue mg/vial, 5]
+MTD	sample[29]-custom[4]	[,,protein ug/vial, 155]
+MTD	sample[3]	ms6646-3
+MTD	sample[3]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[3]-tissue[1]	[,, Muscle, ]
+MTD	sample[3]-custom[1]	[,,Sample type, Muscle Tissue]
+MTD	sample[3]-custom[2]	[,,Species, Human]
+MTD	sample[3]-custom[3]	[,,tissue mg/vial, 5]
+MTD	sample[3]-custom[4]	[,,protein ug/vial, 192]
+MTD	sample[30]	ms6646-30
+MTD	sample[30]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[30]-tissue[1]	[,, Muscle, ]
+MTD	sample[30]-custom[1]	[,,Sample type, Muscle Tissue]
+MTD	sample[30]-custom[2]	[,,Species, Human]
+MTD	sample[30]-custom[3]	[,,tissue mg/vial, 5]
+MTD	sample[30]-custom[4]	[,,protein ug/vial, 240]
+MTD	sample[4]	ms6646-4
+MTD	sample[4]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[4]-tissue[1]	[,, Muscle, ]
+MTD	sample[4]-custom[1]	[,,Sample type, Muscle Tissue]
+MTD	sample[4]-custom[2]	[,,Species, Human]
+MTD	sample[4]-custom[3]	[,,tissue mg/vial, 5]
+MTD	sample[4]-custom[4]	[,,protein ug/vial, 247]
+MTD	sample[5]	ms6646-5
+MTD	sample[5]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[5]-tissue[1]	[,, Muscle, ]
+MTD	sample[5]-custom[1]	[,,Sample type, Muscle Tissue]
+MTD	sample[5]-custom[2]	[,,Species, Human]
+MTD	sample[5]-custom[3]	[,,tissue mg/vial, 5]
+MTD	sample[5]-custom[4]	[,,protein ug/vial, 222]
+MTD	sample[6]	ms6646-6
+MTD	sample[6]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[6]-tissue[1]	[,, Muscle, ]
+MTD	sample[6]-custom[1]	[,,Sample type, Muscle Tissue]
+MTD	sample[6]-custom[2]	[,,Species, Human]
+MTD	sample[6]-custom[3]	[,,tissue mg/vial, 5]
+MTD	sample[6]-custom[4]	[,,protein ug/vial, 229]
+MTD	sample[7]	ms6646-7
+MTD	sample[7]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[7]-tissue[1]	[,, Muscle, ]
+MTD	sample[7]-custom[1]	[,,Sample type, Muscle Tissue]
+MTD	sample[7]-custom[2]	[,,Species, Human]
+MTD	sample[7]-custom[3]	[,,tissue mg/vial, 5]
+MTD	sample[7]-custom[4]	[,,protein ug/vial, 173]
+MTD	sample[8]	ms6646-8
+MTD	sample[8]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[8]-tissue[1]	[,, Muscle, ]
+MTD	sample[8]-custom[1]	[,,Sample type, Muscle Tissue]
+MTD	sample[8]-custom[2]	[,,Species, Human]
+MTD	sample[8]-custom[3]	[,,tissue mg/vial, 5]
+MTD	sample[8]-custom[4]	[,,protein ug/vial, 139]
+MTD	sample[9]	ms6646-9
+MTD	sample[9]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[9]-tissue[1]	[,, Muscle, ]
+MTD	sample[9]-custom[1]	[,,Sample type, Muscle Tissue]
+MTD	sample[9]-custom[2]	[,,Species, Human]
+MTD	sample[9]-custom[3]	[,,tissue mg/vial, 5]
+MTD	sample[9]-custom[4]	[,,protein ug/vial, 241]
+MTD	ms_run[1]-location	ms6646-1
+MTD	ms_run[1]-instrument_ref	instrument[1]
+MTD	ms_run[1]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[2]-location	ms6646-2
+MTD	ms_run[2]-instrument_ref	instrument[1]
+MTD	ms_run[2]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[3]-location	ms6646-3
+MTD	ms_run[3]-instrument_ref	instrument[1]
+MTD	ms_run[3]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[4]-location	ms6646-4
+MTD	ms_run[4]-instrument_ref	instrument[1]
+MTD	ms_run[4]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[5]-location	ms6646-5
+MTD	ms_run[5]-instrument_ref	instrument[1]
+MTD	ms_run[5]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[6]-location	ms6646-6
+MTD	ms_run[6]-instrument_ref	instrument[1]
+MTD	ms_run[6]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[7]-location	ms6646-7
+MTD	ms_run[7]-instrument_ref	instrument[1]
+MTD	ms_run[7]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[8]-location	ms6646-8
+MTD	ms_run[8]-instrument_ref	instrument[1]
+MTD	ms_run[8]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[9]-location	ms6646-9
+MTD	ms_run[9]-instrument_ref	instrument[1]
+MTD	ms_run[9]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[10]-location	ms6646-10
+MTD	ms_run[10]-instrument_ref	instrument[1]
+MTD	ms_run[10]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[11]-location	ms6646-11
+MTD	ms_run[11]-instrument_ref	instrument[1]
+MTD	ms_run[11]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[12]-location	ms6646-12
+MTD	ms_run[12]-instrument_ref	instrument[1]
+MTD	ms_run[12]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[13]-location	ms6646-13
+MTD	ms_run[13]-instrument_ref	instrument[1]
+MTD	ms_run[13]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[14]-location	ms6646-14
+MTD	ms_run[14]-instrument_ref	instrument[1]
+MTD	ms_run[14]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[15]-location	ms6646-15
+MTD	ms_run[15]-instrument_ref	instrument[1]
+MTD	ms_run[15]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[16]-location	ms6646-16
+MTD	ms_run[16]-instrument_ref	instrument[1]
+MTD	ms_run[16]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[17]-location	ms6646-17
+MTD	ms_run[17]-instrument_ref	instrument[1]
+MTD	ms_run[17]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[18]-location	ms6646-18
+MTD	ms_run[18]-instrument_ref	instrument[1]
+MTD	ms_run[18]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[19]-location	ms6646-19
+MTD	ms_run[19]-instrument_ref	instrument[1]
+MTD	ms_run[19]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[20]-location	ms6646-20
+MTD	ms_run[20]-instrument_ref	instrument[1]
+MTD	ms_run[20]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[21]-location	ms6646-21
+MTD	ms_run[21]-instrument_ref	instrument[1]
+MTD	ms_run[21]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[22]-location	ms6646-22
+MTD	ms_run[22]-instrument_ref	instrument[1]
+MTD	ms_run[22]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[23]-location	ms6646-23
+MTD	ms_run[23]-instrument_ref	instrument[1]
+MTD	ms_run[23]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[24]-location	ms6646-24
+MTD	ms_run[24]-instrument_ref	instrument[1]
+MTD	ms_run[24]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[25]-location	ms6646-25
+MTD	ms_run[25]-instrument_ref	instrument[1]
+MTD	ms_run[25]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[26]-location	ms6646-26
+MTD	ms_run[26]-instrument_ref	instrument[1]
+MTD	ms_run[26]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[27]-location	ms6646-27
+MTD	ms_run[27]-instrument_ref	instrument[1]
+MTD	ms_run[27]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[28]-location	ms6646-28
+MTD	ms_run[28]-instrument_ref	instrument[1]
+MTD	ms_run[28]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[29]-location	ms6646-29
+MTD	ms_run[29]-instrument_ref	instrument[1]
+MTD	ms_run[29]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[30]-location	ms6646-30
+MTD	ms_run[30]-instrument_ref	instrument[1]
+MTD	ms_run[30]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	assay[1]	ms6646-1
+MTD	assay[1]-sample_ref	sample[1]
+MTD	assay[1]-ms_run_ref	ms_run[1]
+MTD	assay[10]	ms6646-10
+MTD	assay[10]-sample_ref	sample[10]
+MTD	assay[10]-ms_run_ref	ms_run[10]
+MTD	assay[11]	ms6646-11
+MTD	assay[11]-sample_ref	sample[11]
+MTD	assay[11]-ms_run_ref	ms_run[11]
+MTD	assay[12]	ms6646-12
+MTD	assay[12]-sample_ref	sample[12]
+MTD	assay[12]-ms_run_ref	ms_run[12]
+MTD	assay[13]	ms6646-13
+MTD	assay[13]-sample_ref	sample[13]
+MTD	assay[13]-ms_run_ref	ms_run[13]
+MTD	assay[14]	ms6646-14
+MTD	assay[14]-sample_ref	sample[14]
+MTD	assay[14]-ms_run_ref	ms_run[14]
+MTD	assay[15]	ms6646-15
+MTD	assay[15]-sample_ref	sample[15]
+MTD	assay[15]-ms_run_ref	ms_run[15]
+MTD	assay[16]	ms6646-16
+MTD	assay[16]-sample_ref	sample[16]
+MTD	assay[16]-ms_run_ref	ms_run[16]
+MTD	assay[17]	ms6646-17
+MTD	assay[17]-sample_ref	sample[17]
+MTD	assay[17]-ms_run_ref	ms_run[17]
+MTD	assay[18]	ms6646-18
+MTD	assay[18]-sample_ref	sample[18]
+MTD	assay[18]-ms_run_ref	ms_run[18]
+MTD	assay[19]	ms6646-19
+MTD	assay[19]-sample_ref	sample[19]
+MTD	assay[19]-ms_run_ref	ms_run[19]
+MTD	assay[2]	ms6646-2
+MTD	assay[2]-sample_ref	sample[2]
+MTD	assay[2]-ms_run_ref	ms_run[2]
+MTD	assay[20]	ms6646-20
+MTD	assay[20]-sample_ref	sample[20]
+MTD	assay[20]-ms_run_ref	ms_run[20]
+MTD	assay[21]	ms6646-21
+MTD	assay[21]-sample_ref	sample[21]
+MTD	assay[21]-ms_run_ref	ms_run[21]
+MTD	assay[22]	ms6646-22
+MTD	assay[22]-sample_ref	sample[22]
+MTD	assay[22]-ms_run_ref	ms_run[22]
+MTD	assay[23]	ms6646-23
+MTD	assay[23]-sample_ref	sample[23]
+MTD	assay[23]-ms_run_ref	ms_run[23]
+MTD	assay[24]	ms6646-24
+MTD	assay[24]-sample_ref	sample[24]
+MTD	assay[24]-ms_run_ref	ms_run[24]
+MTD	assay[25]	ms6646-25
+MTD	assay[25]-sample_ref	sample[25]
+MTD	assay[25]-ms_run_ref	ms_run[25]
+MTD	assay[26]	ms6646-26
+MTD	assay[26]-sample_ref	sample[26]
+MTD	assay[26]-ms_run_ref	ms_run[26]
+MTD	assay[27]	ms6646-27
+MTD	assay[27]-sample_ref	sample[27]
+MTD	assay[27]-ms_run_ref	ms_run[27]
+MTD	assay[28]	ms6646-28
+MTD	assay[28]-sample_ref	sample[28]
+MTD	assay[28]-ms_run_ref	ms_run[28]
+MTD	assay[29]	ms6646-29
+MTD	assay[29]-sample_ref	sample[29]
+MTD	assay[29]-ms_run_ref	ms_run[29]
+MTD	assay[3]	ms6646-3
+MTD	assay[3]-sample_ref	sample[3]
+MTD	assay[3]-ms_run_ref	ms_run[3]
+MTD	assay[30]	ms6646-30
+MTD	assay[30]-sample_ref	sample[30]
+MTD	assay[30]-ms_run_ref	ms_run[30]
+MTD	assay[4]	ms6646-4
+MTD	assay[4]-sample_ref	sample[4]
+MTD	assay[4]-ms_run_ref	ms_run[4]
+MTD	assay[5]	ms6646-5
+MTD	assay[5]-sample_ref	sample[5]
+MTD	assay[5]-ms_run_ref	ms_run[5]
+MTD	assay[6]	ms6646-6
+MTD	assay[6]-sample_ref	sample[6]
+MTD	assay[6]-ms_run_ref	ms_run[6]
+MTD	assay[7]	ms6646-7
+MTD	assay[7]-sample_ref	sample[7]
+MTD	assay[7]-ms_run_ref	ms_run[7]
+MTD	assay[8]	ms6646-8
+MTD	assay[8]-sample_ref	sample[8]
+MTD	assay[8]-ms_run_ref	ms_run[8]
+MTD	assay[9]	ms6646-9
+MTD	assay[9]-sample_ref	sample[9]
+MTD	assay[9]-ms_run_ref	ms_run[9]
+MTD	study_variable_group[1]	[,,Grouping,]
+MTD	study_variable_group[1]-description	mwTab sample factor Grouping
+MTD	study_variable_group[1]-type	[STATO, STATO:0000252, categorical variable, ]
+MTD	study_variable_group[1]-datatype	xsd:string
+MTD	study_variable_group[1]-study_variable_refs	study_variable[1]|study_variable[2]|study_variable[3]
+MTD	study_variable_group[2]	[,,Gender,]
+MTD	study_variable_group[2]-description	mwTab sample factor Gender
+MTD	study_variable_group[2]-type	[STATO, STATO:0000252, categorical variable, ]
+MTD	study_variable_group[2]-datatype	xsd:string
+MTD	study_variable_group[2]-study_variable_refs	study_variable[4]|study_variable[5]
+MTD	study_variable[1]	Weight Losing
+MTD	study_variable[1]-assay_refs	assay[1]|assay[2]|assay[14]|assay[15]|assay[18]|assay[19]|assay[21]|assay[24]|assay[27]|assay[28]
+MTD	study_variable[1]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[1]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[1]-description	Variable Grouping, value Weight Losing
+MTD	study_variable[2]	Weight Stable
+MTD	study_variable[2]-assay_refs	assay[3]|assay[7]|assay[8]|assay[11]|assay[13]|assay[16]|assay[23]|assay[26]|assay[29]|assay[30]
+MTD	study_variable[2]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[2]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[2]-description	Variable Grouping, value Weight Stable
+MTD	study_variable[3]	Control
+MTD	study_variable[3]-assay_refs	assay[4]|assay[5]|assay[6]|assay[9]|assay[10]|assay[12]|assay[17]|assay[20]|assay[22]|assay[25]
+MTD	study_variable[3]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[3]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[3]-description	Variable Grouping, value Control
+MTD	study_variable[4]	Male
+MTD	study_variable[4]-assay_refs	assay[1]|assay[6]|assay[7]|assay[9]|assay[10]|assay[11]|assay[14]|assay[16]|assay[20]|assay[21]|assay[23]|assay[24]|assay[25]|assay[27]|assay[30]
+MTD	study_variable[4]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[4]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[4]-description	Variable Gender, value Male
+MTD	study_variable[5]	Female
+MTD	study_variable[5]-assay_refs	assay[2]|assay[3]|assay[4]|assay[5]|assay[8]|assay[12]|assay[13]|assay[15]|assay[17]|assay[18]|assay[19]|assay[22]|assay[26]|assay[28]|assay[29]
+MTD	study_variable[5]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[5]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[5]-description	Variable Gender, value Female
+MTD	custom[1]	[,, Metabolomics Workbench analysis ID, AN001658]
+MTD	custom[2]	[,, chromatography type, Reversed phase]
+MTD	custom[3]	[,, chromatography instrument, Waters Acquity]
+MTD	custom[4]	[,, chromatography column, "Waters Acquity BEH C8 (150 x 2mm, 1.7um)"]
+MTD	cv[1]-label	MS
+MTD	cv[1]-full_name	PSI-MS controlled vocabulary
+MTD	cv[1]-version	4.1.138
+MTD	cv[1]-uri	https://www.ebi.ac.uk/ols4/ontologies/ms
+MTD	cv[2]-label	PRIDE
+MTD	cv[2]-full_name	PRIDE PRoteomics IDEntifications (PRIDE) database controlled vocabulary
+MTD	cv[2]-version	16:10:2023 11:38
+MTD	cv[2]-uri	https://www.ebi.ac.uk/ols/ontologies/pride
+MTD	cv[3]-label	STATO
+MTD	cv[3]-full_name	General purpose STATistics Ontology
+MTD	cv[3]-version	2026-04-20
+MTD	cv[3]-uri	https://www.ebi.ac.uk/ols4/ontologies/stato
+MTD	cv[4]-label	NCBITaxon
+MTD	cv[4]-full_name	NCBI organismal classification
+MTD	cv[4]-version	unknown
+MTD	cv[4]-uri	http://purl.obolibrary.org/obo/ncbitaxon.owl
+MTD	database[1]	[,, "no database", null ]
+MTD	database[1]-prefix	null
+MTD	database[1]-version	Unknown
+MTD	database[1]-uri	null
+MTD	small_molecule-quantification_unit	[,, ug/vial, ]
+MTD	small_molecule-identification_reliability	[MS, MS:1002896, compound identification confidence level, ]
+
+SMH	SML_ID	SMF_ID_REFS	database_identifier	chemical_formula	smiles	inchi	chemical_name	uri	theoretical_neutral_mass	adduct_ions	reliability	best_id_confidence_measure	best_id_confidence_value	abundance_assay[1]	abundance_assay[2]	abundance_assay[3]	abundance_assay[4]	abundance_assay[5]	abundance_assay[6]	abundance_assay[7]	abundance_assay[8]	abundance_assay[9]	abundance_assay[10]	abundance_assay[11]	abundance_assay[12]	abundance_assay[13]	abundance_assay[14]	abundance_assay[15]	abundance_assay[16]	abundance_assay[17]	abundance_assay[18]	abundance_assay[19]	abundance_assay[20]	abundance_assay[21]	abundance_assay[22]	abundance_assay[23]	abundance_assay[24]	abundance_assay[25]	abundance_assay[26]	abundance_assay[27]	abundance_assay[28]	abundance_assay[29]	abundance_assay[30]	abundance_study_variable[1]	abundance_study_variable[2]	abundance_study_variable[3]	abundance_study_variable[4]	abundance_study_variable[5]	abundance_variation_study_variable[1]	abundance_variation_study_variable[2]	abundance_variation_study_variable[3]	abundance_variation_study_variable[4]	abundance_variation_study_variable[5]	opt_global_metabolite_name
+SML	1	null	null	null	null	null	null	null	null	null	2	null	null	0	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0.001	0	0.001	0.001	0.001	0.001	0.001	0.001	0	0	0.001	0.001	0	0.001	0	0	0.001	0.001	0	0	0.001	0	4e-04	8e-04	8e-04	0.000533333333333333	8e-04	1.29099444873581	0.52704627669473	0.52704627669473	0.968245836551854	0.517549169506766	Sph
+SML	2	null	null	null	null	null	null	null	null	null	2	null	null	0	0	0	0.001	0	0.001	0	0	0.001	0	0.001	0.001	0.001	0	0.001	0.001	0	0	0	0.001	0	0.001	0	0	0	0	0	0	0.001	0	1e-04	4e-04	6e-04	0.000333333333333333	4e-04	3.16227766016838	1.29099444873581	0.86066296582387	1.4638501094228	1.26773138209277	SPA
+SML	3	null	null	null	null	null	null	null	null	null	2	null	null	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	null	null	null	null	null	S1P
+SML	4	null	null	null	null	null	null	null	null	null	2	null	null	0	0	0	0	0	0	0	0	0	0	0	0.001	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1e-04	0	6.66666666666667e-05	null	null	3.16227766016838	null	3.87298334620742	C14-cer
+SML	5	null	null	null	null	null	null	null	null	null	2	null	null	0.003	0.003	0.003	0.006	0.007	0.005	0.009	0.005	0.004	0.003	0.005	0.011	0.005	0.003	0.006	0.011	0.003	0.004	0.003	0.01	0.002	0.007	0.003	0.005	0.004	0.004	0.003	0.005	0.007	0.007	0.0037	0.0059	0.006	0.00513333333333333	0.00526666666666667	0.338287988387722	0.440895209381394	0.464811125852264	0.550335962909838	0.4151656147811	C16-cer
+SML	6	null	null	null	null	null	null	null	null	null	2	null	null	0	0	0.001	0	0.001	0	0	0	0	0	0.001	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2e-04	1e-04	6.66666666666667e-05	0.000133333333333333	null	2.10818510677892	3.16227766016838	3.87298334620742	2.63899331455874	C18:1-cer
+SML	7	null	null	null	null	null	null	null	null	null	2	null	null	0.014	0.012	0.016	0.022	0.045	0.018	0.017	0.009	0.016	0.013	0.029	0.02	0.011	0.01	0.013	0.018	0.013	0.018	0.01	0.022	0.009	0.021	0.01	0.022	0.025	0.01	0.013	0.022	0.015	0.021	0.0143	0.0156	0.0215	0.0171333333333333	0.0171333333333333	0.334642968223927	0.396538827680754	0.425862998289004	0.341659944257046	0.52197706531144	C18-cer
+SML	8	null	null	null	null	null	null	null	null	null	2	null	null	0	0	0.001	0.001	0.001	0.001	0.001	0	0.001	0	0.001	0.001	0.001	0	0.001	0.001	0.001	0.001	0	0.001	0	0.001	0	0	0.001	0	0	0.001	0.001	0.001	3e-04	7e-04	9e-04	0.000533333333333333	0.000733333333333333	1.61015297179883	0.690065559342354	0.351364184463153	0.968245836551854	0.624187783932359	C20-cer
+SML	9	null	null	null	null	null	null	null	null	null	2	null	null	0.004	0.005	0.007	0.009	0.015	0.007	0.01	0.004	0.006	0.004	0.007	0.01	0.006	0.003	0.007	0.008	0.008	0.007	0.004	0.015	0.002	0.008	0.003	0.005	0.007	0.005	0.004	0.005	0.006	0.007	0.0046	0.0063	0.0089	0.00613333333333333	0.00706666666666667	0.342961146846355	0.317900928799996	0.404944956427731	0.536759714479679	0.3983386135183	C22-cer
+SML	10	null	null	null	null	null	null	null	null	null	2	null	null	0.014	0.012	0.01	0.013	0.034	0.016	0.014	0.015	0.014	0.016	0.02	0.018	0.012	0.011	0.014	0.014	0.006	0.011	0.01	0.013	0.005	0.017	0.007	0.012	0.014	0.014	0.012	0.012	0.013	0.012	0.0113	0.0131	0.0161	0.0129333333333333	0.0140666666666667	0.224847657818991	0.258116125250194	0.441581466723385	0.276421066024684	0.443523333841567	C24:1-cer
+SML	11	null	null	null	null	null	null	null	null	null	2	null	null	0.009	0.01	0.014	0.019	0.025	0.019	0.018	0.008	0.017	0.01	0.017	0.023	0.016	0.008	0.017	0.016	0.016	0.016	0.01	0.028	0.005	0.017	0.008	0.014	0.019	0.015	0.01	0.012	0.015	0.019	0.0111	0.0146	0.0193	0.0144666666666667	0.0155333333333333	0.332913730976951	0.258707131949138	0.261987002283057	0.419546505765374	0.295883985138507	C24-cer
+

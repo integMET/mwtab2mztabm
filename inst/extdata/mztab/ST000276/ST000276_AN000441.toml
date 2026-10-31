@@ -1,0 +1,169 @@
+# mwTab metadata of study ST000276, analysis AN000441
+# Exported by mwtab2mztabm 0.1.0.
+# Sample metadata is listed in [[SUBJECT_SAMPLE_FACTORS]].
+
+[mwtab2mztabm]
+format_version = 1
+factor_order = "IDH1 Knockdown"
+additional_data_order = []
+
+["METABOLOMICS WORKBENCH"]
+STUDY_ID = "ST000276"
+ANALYSIS_ID = "AN000441"
+VERSION = "1"
+CREATED_ON = "01-15-2019"
+
+[PROJECT]
+PROJECT_TITLE = "Isocitrate dehydrogenase-1 and Glioma Studies"
+PROJECT_SUMMARY = "Dr. Stegh will define the role of a novel glioma oncoprotein, termed isocitrate dehydrogenase-1 (IDH1), in driving progression and therapy resistance of glioblastoma (GBM).  Understanding the molecular basis of the therapy refractoriness of GBM is one of the most important areas of glioma research. IDH1 is a critical enzyme of the citric acid cycle (CAC) and is a master regulator of metabolism. Building on his preliminary studies, Dr. Stegh will molecularly characterize the precise mechanism, by which IDH1 protects glioma cells from therapy-induced cell death using glioma cell and mouse models. To target IDH1 signaling in GBM, he will leverage these model systems and mechanistical knowledge to develop and preclinically characterize RNA interference RNAi-based nanomaterials. He will generate RNAi-functionalized spherical nucleic acids (SNAs) that neutralize IDH1 expression in established gliomas. Due to the negative charge of the RNA backbone, however, siRNA oligonucleotides have many downsides, such as they trigger auto-immune responses, and cannot cross the blood-brain-barrier (BBB). In contrast, SNAs are able to transverse cellular membranes, do not require the use of toxic auxiliary reagents, and accumulate in cells and intracranial tumors very effectively. They also exhibit extraordinary stability in physiological environments, cross the BBB, are highly resistant to nuclease degradation, and thus, can move through biological fluids and avoid being destroyed as “foreign materials.” Dr. Stegh proposes to preclinically evaluate these IDH1-targeting nanoconjugates to provide a fundamentally novel treatment option of patients diagnosed with GBM, and will aid in successfully implementing RNAi-based therapies into neuro-oncological practice."
+INSTITUTE = "Northwestern University"
+DEPARTMENT = "Neurology"
+LABORATORY = "Stegh Lab"
+LAST_NAME = "Stegh"
+FIRST_NAME = "Alexander"
+ADDRESS = "Evanston, IL"
+EMAIL = "a-stegh@northwestern.edu"
+PHONE = "312-503-2879"
+DOI = "http://dx.doi.org/10.21228/M8688J"
+
+[STUDY]
+STUDY_TITLE = "IDH1 and Glioma knockdown idh1"
+STUDY_SUMMARY = "This study is a part of series performed for the same researcher through pilot/feasibility grant program, so the publication is relevant reference for other studies (ST000199)This specific experiment is a pilot study to compare the metabolism of cells transformed using empty vector against cells transformed with vector carrying short hairpin RNA (shRNA) targeted to silence isocitrate dehydrogenase-1 (IDH1) gene."
+INSTITUTE = "University of Michigan"
+DEPARTMENT = "Neurology"
+LABORATORY = "Stegh Lab (Northwestern University)"
+LAST_NAME = "Calvert"
+FIRST_NAME = "Andrea"
+ADDRESS = "Evanston, IL"
+EMAIL = "a-calvert@u.northwestern.edu"
+PHONE = "312-503-3134"
+
+[SUBJECT]
+SUBJECT_TYPE = "Human"
+SUBJECT_SPECIES = "Homo sapiens"
+TAXONOMY_ID = "9606"
+SPECIES_GROUP = "Human"
+
+[COLLECTION]
+SAMPLE_TYPE = "Cells, Cultured"
+COLLECTION_SUMMARY = "-"
+
+[TREATMENT]
+TREATMENT_SUMMARY = "-"
+
+[SAMPLEPREP]
+SAMPLEPREP_PROTOCOL_FILENAME = "Gly-TCA-nucleotides_analysis_protocol-2015-03-09.docx"
+SAMPLEPREP_SUMMARY = "-"
+
+[CHROMATOGRAPHY]
+METHODS_ID = "AQM011"
+METHODS_FILENAME = "ALPHA_KETO_ACIDS-FULL.M.zip"
+INSTRUMENT_NAME = "Agilent 7890A"
+COLUMN_NAME = "Agilent DB5-MS (30m Ã— 0.25mm, 0.25um)"
+CHROMATOGRAPHY_TYPE = "GC"
+
+[ANALYSIS]
+LABORATORY_NAME = "MRC2 (University of Michigan)"
+ANALYSIS_TYPE = "MS"
+ACQUISITION_PARAMETERS_FILE = "ALPHA_KETO_ACIDS-FULL.M"
+PROCESSING_PARAMETERS_FILE = "EX00317-MassHunterQuant-GlyTCA-DataAnalysis-GCMS-Method.m"
+
+[MS]
+MS_COMMENTS = "-"
+INSTRUMENT_NAME = "Agilent 5975C"
+INSTRUMENT_TYPE = "Single quadrupole"
+MS_TYPE = "EI"
+ION_MODE = "POSITIVE"
+
+[MS_METABOLITE_DATA]
+Units = "pmol/µg protein"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00014999"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"IDH1 Knockdown" = "No"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00015000"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"IDH1 Knockdown" = "No"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00015001"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"IDH1 Knockdown" = "No"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00015002"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"IDH1 Knockdown" = "No"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00015003"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"IDH1 Knockdown" = "No"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00015004"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"IDH1 Knockdown" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00015005"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"IDH1 Knockdown" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00015006"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"IDH1 Knockdown" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00015007"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"IDH1 Knockdown" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00015008"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"IDH1 Knockdown" = "yes"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]

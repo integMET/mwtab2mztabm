@@ -1,0 +1,138 @@
+[
+{
+"METABOLOMICS WORKBENCH":{"VERSION":"1","CREATED_ON":"November 17, 2016, 3:27 pm"},
+
+"PROJECT":{"PROJECT_TITLE":"The effect of BCAT1 knockdown on amino acid homeostasis","PROJECT_TYPE":"Amino acid steady-state level analysis","PROJECT_SUMMARY":"Raji cells, a Burkitt lymphoma, expressing a Dox-inducible short hairpin targeting BCAT1 were collected in triplicate at 0, 48, 96, and 144 hours.","INSTITUTE":"H. Lee Moffitt Cancer Center","DEPARTMENT":"Tumor Biology","LABORATORY":"John Cleveland","LAST_NAME":"Fernandez","FIRST_NAME":"Mario","ADDRESS":"12902 Magnolia Drive, MRC 4-West","EMAIL":"mario.fernandez@moffitt.org","PHONE":"813-745-5140","FUNDING_SOURCE":"5R01CA154739"},
+
+"STUDY":{"STUDY_TITLE":"Effect of BCAT1 knockdown on amino acid steady state levels of Raji cells","STUDY_TYPE":"Cells are treated with vehicle or Doxycycline - to induce expression of BCAT1 short hairpin RNA.","STUDY_SUMMARY":"Cells were collected at 0, 48, 96 and 144 hours after Doxycycline addition","INSTITUTE":"University of Florida","DEPARTMENT":"SECIM","LABORATORY":"John Cleveland","LAST_NAME":"Fernandez","FIRST_NAME":"Mario","ADDRESS":"12902 Magnolia Drive, MRC 4-West","EMAIL":"mario.fernandez@moffitt.org","PHONE":"813-745-5140","NUM_GROUPS":"7","TOTAL_SUBJECTS":"21","STUDY_COMMENTS":"Groups collected in triplicate per time point, either treated or untreated with Doxycycline."},
+
+"SUBJECT":{"SUBJECT_TYPE":"Cells","SUBJECT_SPECIES":"Homo sapiens","TAXONOMY_ID":"9606","CELL_STRAIN_DETAILS":"Raji","CELL_PRIMARY_IMMORTALIZED":"Immortalized","CELL_PASSAGE_NUMBER":"16","CELL_COUNTS":"2e6 to 5e6/sample"},
+"SUBJECT_SAMPLE_FACTORS":[
+{
+"Subject ID":"Raji_shBCAT1",
+"Sample ID":"Raji_001",
+"Factors":{"Time":"-","Treatment":"Vehicle"}
+},
+{
+"Subject ID":"Raji_shBCAT1",
+"Sample ID":"Raji_002",
+"Factors":{"Time":"-","Treatment":"Vehicle"}
+},
+{
+"Subject ID":"Raji_shBCAT1",
+"Sample ID":"Raji_003",
+"Factors":{"Time":"-","Treatment":"Vehicle"}
+},
+{
+"Subject ID":"Raji_shBCAT1",
+"Sample ID":"Raji_004",
+"Factors":{"Time":"48(hrs)","Treatment":"Vehicle"}
+},
+{
+"Subject ID":"Raji_shBCAT1",
+"Sample ID":"Raji_005",
+"Factors":{"Time":"48(hrs)","Treatment":"Vehicle"}
+},
+{
+"Subject ID":"Raji_shBCAT1",
+"Sample ID":"Raji_006",
+"Factors":{"Time":"48(hrs)","Treatment":"Vehicle"}
+},
+{
+"Subject ID":"Raji_shBCAT1",
+"Sample ID":"Raji_007",
+"Factors":{"Time":"48(hrs)","Treatment":"Doxycycline"}
+},
+{
+"Subject ID":"Raji_shBCAT1",
+"Sample ID":"Raji_008",
+"Factors":{"Time":"48(hrs)","Treatment":"Doxycycline"}
+},
+{
+"Subject ID":"Raji_shBCAT1",
+"Sample ID":"Raji_009",
+"Factors":{"Time":"48(hrs)","Treatment":"Doxycycline"}
+},
+{
+"Subject ID":"Raji_shBCAT1",
+"Sample ID":"Raji_010",
+"Factors":{"Time":"96(hrs)","Treatment":"Vehicle"}
+},
+{
+"Subject ID":"Raji_shBCAT1",
+"Sample ID":"Raji_011",
+"Factors":{"Time":"96(hrs)","Treatment":"Vehicle"}
+},
+{
+"Subject ID":"Raji_shBCAT1",
+"Sample ID":"Raji_012",
+"Factors":{"Time":"96(hrs)","Treatment":"Vehicle"}
+},
+{
+"Subject ID":"Raji_shBCAT1",
+"Sample ID":"Raji_013",
+"Factors":{"Time":"96(hrs)","Treatment":"Doxycycline"}
+},
+{
+"Subject ID":"Raji_shBCAT1",
+"Sample ID":"Raji_014",
+"Factors":{"Time":"96(hrs)","Treatment":"Doxycycline"}
+},
+{
+"Subject ID":"Raji_shBCAT1",
+"Sample ID":"Raji_015",
+"Factors":{"Time":"96(hrs)","Treatment":"Doxycycline"}
+},
+{
+"Subject ID":"Raji_shBCAT1",
+"Sample ID":"Raji_016",
+"Factors":{"Time":"144(hrs)","Treatment":"Vehicle"}
+},
+{
+"Subject ID":"Raji_shBCAT1",
+"Sample ID":"Raji_017",
+"Factors":{"Time":"144(hrs)","Treatment":"Vehicle"}
+},
+{
+"Subject ID":"Raji_shBCAT1",
+"Sample ID":"Raji_018",
+"Factors":{"Time":"144(hrs)","Treatment":"Vehicle"}
+},
+{
+"Subject ID":"Raji_shBCAT1",
+"Sample ID":"Raji_019",
+"Factors":{"Time":"144(hrs)","Treatment":"Doxycycline"}
+},
+{
+"Subject ID":"Raji_shBCAT1",
+"Sample ID":"Raji_020",
+"Factors":{"Time":"144(hrs)","Treatment":"Doxycycline"}
+},
+{
+"Subject ID":"Raji_shBCAT1",
+"Sample ID":"Raji_021",
+"Factors":{"Time":"144(hrs)","Treatment":"Doxycycline"}
+}
+],
+"COLLECTION":{"COLLECTION_SUMMARY":"Cells were counted, 2e6 cells were collected via centrifugation, washed twice with cold 1x PBS, PBS removed and flash frozen. Pellets were saved at -80 C.","SAMPLE_TYPE":"Cell","COLLECTION_METHOD":"Pellet","COLLECTION_LOCATION":"Lab","COLLECTION_FREQUENCY":"Every 48 hours, up to 144 hours","VOLUMEORAMOUNT_COLLECTED":"2e6 cells for 0, 48 and 144 time point. 5e6 cells for 96 hour time point","STORAGE_CONDITIONS":"Pellet","STORAGE_VIALS":"1.5 mL microfuge tube","TISSUE_CELL_IDENTIFICATION":"Raji cells"},
+
+"TREATMENT":{"TREATMENT_SUMMARY":"Cells were treated with vehicle (dH2O) or 1 ug/mL doxycycline.","TREATMENT_COMPOUND":"Doxycycline","TREATMENT_DOSE":"1 ug/mL","TREATMENT_DOSEVOLUME":"10 mL","TREATMENT_DOSEDURATION":"0, 48, 96, and 144 hours","TREATMENT_VEHICLE":"dH2O","CELL_GROWTH_CONTAINER":"T25 Flask","CELL_MEDIA_LASTCHANGED":"Media changed every two days during time course"},
+
+"SAMPLEPREP":{"SAMPLEPREP_SUMMARY":"Amino acid","SAMPLEPREP_PROTOCOL_FILENAME":"SB_AA_Assay.pdf"},
+
+"CHROMATOGRAPHY":{"CHROMATOGRAPHY_SUMMARY":"Amino Acid","CHROMATOGRAPHY_TYPE":"Reversed phase","INSTRUMENT_NAME":"Agilent 1290 Infinity","COLUMN_NAME":"Waters AccQ Tag (100 x 2mm, 1.7um)","METHODS_FILENAME":"SB_AA_Assay.pdf"},
+
+"ANALYSIS":{"ANALYSIS_TYPE":"MS","LABORATORY_NAME":"Sanford Burnham"},
+
+"MS":{"MS_COMMENTS":"-","INSTRUMENT_NAME":"Agilent 6490 QQQ","INSTRUMENT_TYPE":"Triple quadrupole","MS_TYPE":"ESI","ION_MODE":"POSITIVE"},
+
+"MS_METABOLITE_DATA":{
+"Units":"nmol/mg protein",
+
+"Data":[{"Metabolite":"Alanine","Raji_001":"8.61","Raji_002":"9.38","Raji_003":"10.48","Raji_004":"11.99","Raji_005":"16.05","Raji_006":"30.50","Raji_007":"20.10","Raji_008":"20.93","Raji_009":"N","Raji_010":"40.58","Raji_011":"21.65","Raji_012":"33.49","Raji_013":"28.70","Raji_014":"41.31","Raji_015":"38.33","Raji_016":"21.57","Raji_017":"13.50","Raji_018":"19.53","Raji_019":"14.94","Raji_020":"21.99","Raji_021":"19.71"},{"Metabolite":"Arginine","Raji_001":"2.84","Raji_002":"3.06","Raji_003":"3.24","Raji_004":"5.56","Raji_005":"6.37","Raji_006":"17.80","Raji_007":"10.56","Raji_008":"14.12","Raji_009":"N","Raji_010":"4.47","Raji_011":"4.23","Raji_012":"5.79","Raji_013":"14.58","Raji_014":"25.38","Raji_015":"24.73","Raji_016":"3.87","Raji_017":"4.44","Raji_018":"5.30","Raji_019":"7.75","Raji_020":"8.40","Raji_021":"6.74"},{"Metabolite":"Asparagine","Raji_001":"5.27","Raji_002":"5.82","Raji_003":"6.22","Raji_004":"7.65","Raji_005":"8.25","Raji_006":"22.21","Raji_007":"10.36","Raji_008":"14.29","Raji_009":"N","Raji_010":"16.55","Raji_011":"11.74","Raji_012":"14.61","Raji_013":"14.60","Raji_014":"23.72","Raji_015":"20.60","Raji_016":"14.11","Raji_017":"7.58","Raji_018":"13.34","Raji_019":"13.24","Raji_020":"16.64","Raji_021":"14.67"},{"Metabolite":"Aspartate","Raji_001":"N","Raji_002":"N","Raji_003":"N","Raji_004":"N","Raji_005":"N","Raji_006":"N","Raji_007":"N","Raji_008":"N","Raji_009":"N","Raji_010":"1.68","Raji_011":"1.47","Raji_012":"1.64","Raji_013":"1.41","Raji_014":"2.16","Raji_015":"N","Raji_016":"2.06","Raji_017":"N","Raji_018":"2.18","Raji_019":"2.46","Raji_020":"3.34","Raji_021":"2.48"},{"Metabolite":"Citrulline","Raji_001":"N","Raji_002":"N","Raji_003":"2.68","Raji_004":"2.54","Raji_005":"2.26","Raji_006":"N","Raji_007":"N","Raji_008":"3.33","Raji_009":"N","Raji_010":"20.13","Raji_011":"11.26","Raji_012":"14.37","Raji_013":"N","Raji_014":"N","Raji_015":"N","Raji_016":"5.53","Raji_017":"4.52","Raji_018":"5.79","Raji_019":"N","Raji_020":"N","Raji_021":"N"},{"Metabolite":"Glutamate","Raji_001":"64.58","Raji_002":"68.59","Raji_003":"87.80","Raji_004":"87.61","Raji_005":"83.22","Raji_006":"243.36","Raji_007":"95.63","Raji_008":"163.08","Raji_009":"N","Raji_010":"94.78","Raji_011":"100.75","Raji_012":"87.35","Raji_013":"133.78","Raji_014":"165.10","Raji_015":"147.41","Raji_016":"102.30","Raji_017":"29.68","Raji_018":"147.29","Raji_019":"129.14","Raji_020":"161.97","Raji_021":"151.39"},{"Metabolite":"Glutamine","Raji_001":"N","Raji_002":"N","Raji_003":"N","Raji_004":"N","Raji_005":"N","Raji_006":"N","Raji_007":"N","Raji_008":"N","Raji_009":"N","Raji_010":"N","Raji_011":"N","Raji_012":"N","Raji_013":"N","Raji_014":"N","Raji_015":"N","Raji_016":"39.36","Raji_017":"N","Raji_018":"50.85","Raji_019":"30.62","Raji_020":"41.25","Raji_021":"28.92"},{"Metabolite":"Glycine","Raji_001":"9.85","Raji_002":"13.34","Raji_003":"14.00","Raji_004":"18.42","Raji_005":"18.42","Raji_006":"48.88","Raji_007":"22.98","Raji_008":"33.27","Raji_009":"N","Raji_010":"64.83","Raji_011":"40.12","Raji_012":"46.89","Raji_013":"58.87","Raji_014":"74.77","Raji_015":"67.83","Raji_016":"23.51","Raji_017":"18.23","Raji_018":"18.28","Raji_019":"21.51","Raji_020":"28.23","Raji_021":"27.52"},{"Metabolite":"Histidine","Raji_001":"0.81","Raji_002":"0.95","Raji_003":"1.09","Raji_004":"1.44","Raji_005":"1.71","Raji_006":"3.61","Raji_007":"1.92","Raji_008":"2.28","Raji_009":"N","Raji_010":"3.53","Raji_011":"2.39","Raji_012":"3.37","Raji_013":"2.93","Raji_014":"4.14","Raji_015":"4.27","Raji_016":"2.00","Raji_017":"1.25","Raji_018":"1.92","Raji_019":"2.38","Raji_020":"2.45","Raji_021":"2.81"},{"Metabolite":"Isoleucine","Raji_001":"1.94","Raji_002":"2.16","Raji_003":"2.78","Raji_004":"2.97","Raji_005":"4.46","Raji_006":"9.92","Raji_007":"5.05","Raji_008":"8.62","Raji_009":"N","Raji_010":"12.85","Raji_011":"5.84","Raji_012":"8.92","Raji_013":"8.21","Raji_014":"13.29","Raji_015":"13.58","Raji_016":"5.07","Raji_017":"4.35","Raji_018":"4.13","Raji_019":"5.25","Raji_020":"7.75","Raji_021":"7.39"},{"Metabolite":"Leucine","Raji_001":"2.01","Raji_002":"2.43","Raji_003":"2.51","Raji_004":"3.79","Raji_005":"4.11","Raji_006":"10.21","Raji_007":"5.39","Raji_008":"6.88","Raji_009":"N","Raji_010":"10.28","Raji_011":"5.95","Raji_012":"9.47","Raji_013":"9.67","Raji_014":"11.16","Raji_015":"11.97","Raji_016":"4.70","Raji_017":"4.60","Raji_018":"4.08","Raji_019":"5.30","Raji_020":"8.05","Raji_021":"6.57"},{"Metabolite":"Lysine","Raji_001":"N","Raji_002":"N","Raji_003":"N","Raji_004":"N","Raji_005":"N","Raji_006":"N","Raji_007":"N","Raji_008":"N","Raji_009":"N","Raji_010":"3.00","Raji_011":"2.47","Raji_012":"3.23","Raji_013":"2.37","Raji_014":"4.22","Raji_015":"3.93","Raji_016":"N","Raji_017":"N","Raji_018":"N","Raji_019":"N","Raji_020":"N","Raji_021":"N"},{"Metabolite":"Ornithine","Raji_001":"N","Raji_002":"N","Raji_003":"N","Raji_004":"N","Raji_005":"N","Raji_006":"N","Raji_007":"N","Raji_008":"N","Raji_009":"N","Raji_010":"3.88","Raji_011":"2.07","Raji_012":"2.43","Raji_013":"N","Raji_014":"N","Raji_015":"N","Raji_016":"N","Raji_017":"1.91","Raji_018":"N","Raji_019":"N","Raji_020":"N","Raji_021":"N"},{"Metabolite":"Phenylalanine","Raji_001":"0.79","Raji_002":"0.60","Raji_003":"0.93","Raji_004":"1.21","Raji_005":"1.28","Raji_006":"2.69","Raji_007":"1.34","Raji_008":"2.01","Raji_009":"N","Raji_010":"3.24","Raji_011":"2.34","Raji_012":"2.75","Raji_013":"2.59","Raji_014":"3.54","Raji_015":"3.68","Raji_016":"1.30","Raji_017":"1.49","Raji_018":"1.32","Raji_019":"1.78","Raji_020":"2.38","Raji_021":"1.99"},{"Metabolite":"Proline","Raji_001":"16.13","Raji_002":"18.89","Raji_003":"21.35","Raji_004":"22.58","Raji_005":"28.71","Raji_006":"49.00","Raji_007":"29.29","Raji_008":"45.93","Raji_009":"N","Raji_010":"96.14","Raji_011":"64.74","Raji_012":"92.85","Raji_013":"62.81","Raji_014":"91.97","Raji_015":"79.31","Raji_016":"27.09","Raji_017":"34.44","Raji_018":"29.56","Raji_019":"22.77","Raji_020":"26.83","Raji_021":"29.85"},{"Metabolite":"Serine","Raji_001":"N","Raji_002":"N","Raji_003":"N","Raji_004":"N","Raji_005":"N","Raji_006":"3.58","Raji_007":"2.46","Raji_008":"3.98","Raji_009":"N","Raji_010":"2.15","Raji_011":"1.70","Raji_012":"1.80","Raji_013":"3.64","Raji_014":"5.03","Raji_015":"4.09","Raji_016":"8.47","Raji_017":"N","Raji_018":"7.19","Raji_019":"5.99","Raji_020":"9.61","Raji_021":"7.59"},{"Metabolite":"Threonine","Raji_001":"N","Raji_002":"N","Raji_003":"N","Raji_004":"N","Raji_005":"3.64","Raji_006":"7.96","Raji_007":"4.27","Raji_008":"7.45","Raji_009":"N","Raji_010":"6.21","Raji_011":"4.16","Raji_012":"6.09","Raji_013":"5.13","Raji_014":"8.30","Raji_015":"7.29","Raji_016":"6.68","Raji_017":"N","Raji_018":"5.32","Raji_019":"6.30","Raji_020":"6.94","Raji_021":"7.41"},{"Metabolite":"Tryptophan","Raji_001":"N","Raji_002":"N","Raji_003":"N","Raji_004":"N","Raji_005":"N","Raji_006":"1.36","Raji_007":"N","Raji_008":"N","Raji_009":"N","Raji_010":"0.93","Raji_011":"0.78","Raji_012":"0.94","Raji_013":"0.91","Raji_014":"1.49","Raji_015":"1.24","Raji_016":"N","Raji_017":"N","Raji_018":"N","Raji_019":"N","Raji_020":"N","Raji_021":"0.97"},{"Metabolite":"Tyrosine","Raji_001":"N","Raji_002":"N","Raji_003":"N","Raji_004":"N","Raji_005":"1.91","Raji_006":"4.60","Raji_007":"1.95","Raji_008":"3.06","Raji_009":"N","Raji_010":"4.16","Raji_011":"3.06","Raji_012":"3.98","Raji_013":"3.21","Raji_014":"6.35","Raji_015":"6.22","Raji_016":"2.22","Raji_017":"N","Raji_018":"1.83","Raji_019":"2.86","Raji_020":"2.94","Raji_021":"3.56"},{"Metabolite":"Valine","Raji_001":"N","Raji_002":"N","Raji_003":"N","Raji_004":"N","Raji_005":"N","Raji_006":"N","Raji_007":"N","Raji_008":"N","Raji_009":"N","Raji_010":"4.12","Raji_011":"2.94","Raji_012":"3.94","Raji_013":"4.03","Raji_014":"6.99","Raji_015":"5.25","Raji_016":"N","Raji_017":"N","Raji_018":"N","Raji_019":"N","Raji_020":"N","Raji_021":"N"}],
+
+"Metabolites":[{"Metabolite":"Alanine","retention index":"4.16","quantified m/z":"260.17","PubChem ID":"5950","KEGG ID":""},{"Metabolite":"Arginine","retention index":"2.68","quantified m/z":"345.21","PubChem ID":"6322","KEGG ID":""},{"Metabolite":"Asparagine","retention index":"2.25","quantified m/z":"303.13","PubChem ID":"6267","KEGG ID":""},{"Metabolite":"Aspartate","retention index":"2.99","quantified m/z":"304.11","PubChem ID":"5960","KEGG ID":""},{"Metabolite":"Citrulline","retention index":"3.33","quantified m/z":"346.21","PubChem ID":"9750","KEGG ID":""},{"Metabolite":"Glutamate","retention index":"3.35","quantified m/z":"318.11","PubChem ID":"33032","KEGG ID":""},{"Metabolite":"Glutamine","retention index":"2.65","quantified m/z":"317.21","PubChem ID":"5961","KEGG ID":""},{"Metabolite":"Glycine","retention index":"2.81","quantified m/z":"246.08","PubChem ID":"750","KEGG ID":""},{"Metabolite":"Histidine","retention index":"2.07","quantified m/z":"326.21","PubChem ID":"6274","KEGG ID":""},{"Metabolite":"Isoleucine","retention index":"8.15","quantified m/z":"302.21","PubChem ID":"6306","KEGG ID":""},{"Metabolite":"Leucine","retention index":"8.26","quantified m/z":"302.21","PubChem ID":"6106","KEGG ID":""},{"Metabolite":"Lysine","retention index":"6.66","quantified m/z":"487.21","PubChem ID":"5962","KEGG ID":""},{"Metabolite":"Ornithine","retention index":"5.93","quantified m/z":"473.22","PubChem ID":"6262","KEGG ID":""},{"Metabolite":"Phenylalanine","retention index":"8.40","quantified m/z":"336.21","PubChem ID":"6140","KEGG ID":""},{"Metabolite":"Proline","retention index":"4.84","quantified m/z":"286.16","PubChem ID":"145742","KEGG ID":""},{"Metabolite":"Serine","retention index":"2.60","quantified m/z":"276.11","PubChem ID":"5951","KEGG ID":""},{"Metabolite":"Threonine","retention index":"3.74","quantified m/z":"290.11","PubChem ID":"6288","KEGG ID":""},{"Metabolite":"Tryptophan","retention index":"8.54","quantified m/z":"375.21","PubChem ID":"6305","KEGG ID":""},{"Metabolite":"Tyrosine","retention index":"6.66","quantified m/z":"352.21","PubChem ID":"6057","KEGG ID":""},{"Metabolite":"Valine","retention index":"7.09","quantified m/z":"288.21","PubChem ID":"6287","KEGG ID":""}]
+}
+
+}
+]

@@ -1,0 +1,348 @@
+# mwTab metadata of study ST000043, analysis AN000071
+# Exported by mwtab2mztabm 0.1.0.
+# Sample metadata is listed in [[SUBJECT_SAMPLE_FACTORS]].
+
+[mwtab2mztabm]
+format_version = 1
+factor_order = "Cell line"
+additional_data_order = []
+
+["METABOLOMICS WORKBENCH"]
+STUDY_ID = "ST000043"
+ANALYSIS_ID = "AN000071"
+VERSION = "1"
+CREATED_ON = "2016-09-17"
+
+[PROJECT]
+PROJECT_TITLE = "Breast Cancer Research 1"
+PROJECT_TYPE = "MS study"
+PROJECT_SUMMARY = "MDA-MB-231 cells and p38 gamma knockdown"
+INSTITUTE = "University of Michigan"
+DEPARTMENT = "Internal Medicine"
+LABORATORY = "Merajver Lab"
+LAST_NAME = "Merajver"
+FIRST_NAME = "Sophia"
+ADDRESS = "University Michigan, 2900 Huron Parkway, Ann Arbor, MI 48105"
+EMAIL = "smerajve@med.umich.edu"
+PHONE = "(734)936-6884"
+
+[STUDY]
+STUDY_TITLE = "MDA-MB-231 cells and p38 gamma knockdown"
+STUDY_TYPE = "Compare highly motile MDA-MB-231 breast cancer cells with less motile, yet proliferative gamma p38 knockdowns"
+STUDY_SUMMARY = "Compare highly motile MDA-MB-231 breast cancer cells with less motile, yet proliferative gamma p38 knockdowns"
+INSTITUTE = "University of Michigan"
+DEPARTMENT = "Biomedical Research Core Facilities"
+LABORATORY = "Metabolomics core"
+LAST_NAME = "Kachman"
+FIRST_NAME = "Maureen"
+ADDRESS = "6300 Brehm Tower, 1000 Wall Street, Ann Arbor, MI 48105-5714"
+EMAIL = "mkachman@umich.edu"
+PHONE = "-"
+NUM_GROUPS = "4"
+TOTAL_SUBJECTS = "75"
+
+[SUBJECT]
+SUBJECT_TYPE = "HUMAN"
+SUBJECT_SPECIES = "Homo sapiens"
+TAXONOMY_ID = "9606"
+SPECIES_GROUP = "Human"
+
+[COLLECTION]
+COLLECTION_SUMMARY = "-"
+SAMPLE_TYPE = "Cells"
+
+[TREATMENT]
+TREATMENT_SUMMARY = "-"
+
+[SAMPLEPREP]
+SAMPLEPREP_SUMMARY = "-"
+SAMPLEPREP_PROTOCOL_FILENAME = "EX00107-Sample_preparation_protocol.pdf"
+
+[CHROMATOGRAPHY]
+CHROMATOGRAPHY_TYPE = "Reversed phase"
+INSTRUMENT_NAME = "Agilent 1200"
+COLUMN_NAME = "Waters Acquity HSS T3"
+METHODS_ID = "AQM003:AQM004"
+METHODS_FILENAME = "Column1_solv1_jetstream_pos_grad9.m.zip"
+
+[ANALYSIS]
+ANALYSIS_TYPE = "MS"
+LABORATORY_NAME = "MRC2 (University of Michigan)"
+ANALYSIS_PROTOCOL_FILE = "EX00107-Data_analysis_protocol.pdf"
+
+[MS]
+MS_COMMENTS = "-"
+INSTRUMENT_NAME = "Agilent 6530 QTOF"
+INSTRUMENT_TYPE = "QTOF"
+MS_TYPE = "ESI"
+ION_MODE = "NEGATIVE"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00008979"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Cell line" = "MDA-MB-231"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00008980"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Cell line" = "MDA-MB-231"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00008981"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Cell line" = "MDA-MB-231"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00008982"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Cell line" = "MDA-MB-231"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00008983"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Cell line" = "MDA-MB-231"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00008984"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Cell line" = "MDA-MB-231"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00008985"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Cell line" = "MDA-MB-231"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00008986"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Cell line" = "MDA-MB-231"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00008987"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Cell line" = "MDA-MB-231"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00008988"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Cell line" = "MDA-MB-231"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00008999"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Cell line" = "MDA-MB-231 p38 gamma knockdown"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00009000"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Cell line" = "MDA-MB-231 p38 gamma knockdown"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00009001"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Cell line" = "MDA-MB-231 p38 gamma knockdown"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00009002"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Cell line" = "MDA-MB-231 p38 gamma knockdown"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00009003"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Cell line" = "MDA-MB-231 p38 gamma knockdown"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00009004"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Cell line" = "MDA-MB-231 p38 gamma knockdown"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00009005"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Cell line" = "MDA-MB-231 p38 gamma knockdown"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00009006"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Cell line" = "MDA-MB-231 p38 gamma knockdown"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00009007"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Cell line" = "MDA-MB-231 p38 gamma knockdown"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00009008"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Cell line" = "MDA-MB-231 p38 gamma knockdown"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00008989"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Cell line" = "MDA-MB-231 scrambled control"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00008990"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Cell line" = "MDA-MB-231 scrambled control"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00008991"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Cell line" = "MDA-MB-231 scrambled control"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00008992"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Cell line" = "MDA-MB-231 scrambled control"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00008993"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Cell line" = "MDA-MB-231 scrambled control"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00008994"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Cell line" = "MDA-MB-231 scrambled control"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00008995"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Cell line" = "MDA-MB-231 scrambled control"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00008996"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Cell line" = "MDA-MB-231 scrambled control"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00008997"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Cell line" = "MDA-MB-231 scrambled control"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "S00008998"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Cell line" = "MDA-MB-231 scrambled control"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]

@@ -1,0 +1,291 @@
+# mwTab metadata of study ST001610, analysis AN002644
+# Exported by mwtab2mztabm 0.1.0.
+# Sample metadata is listed in [[SUBJECT_SAMPLE_FACTORS]].
+
+[mwtab2mztabm]
+format_version = 1
+factor_order = "Treatment"
+additional_data_order = "RAW_FILE_NAME"
+
+["METABOLOMICS WORKBENCH"]
+STUDY_ID = "ST001610"
+ANALYSIS_ID = "AN002644"
+VERSION = "1"
+CREATED_ON = "November 30, 2020, 1:16 pm"
+
+[PROJECT]
+PROJECT_TITLE = "Untargeted metabolomics analysis of A549 cancer cells treated in vitro and in vivo by control (DMSO) or DRB18"
+PROJECT_TYPE = "Untargeted quantitative metabolomics analysis"
+PROJECT_SUMMARY = "DR18, a novel anticancer compound was used to A549 lung cancer cells in vitro and A549 cell line derived xenograft tumors in vivo in nude mice. The untargeted metabolomics data was generated from these studies."
+INSTITUTE = "Ohio University"
+DEPARTMENT = "Biological Sciences"
+LABORATORY = "Dr. Xiaozhuo Chen, Edison biotechnology Institute"
+LAST_NAME = "Shriwas"
+FIRST_NAME = "Pratik"
+ADDRESS = "172 Water Tower, Building 25, The Ridges, Konnekar Research Centerm Athens Ohio - 45701, USA"
+EMAIL = "ps774614@ohio.edu"
+PHONE = "740-603-3801"
+CONTRIBUTORS = "Campus Chemical Instrument Center, Ohio State University"
+
+[STUDY]
+STUDY_TITLE = "Control (DMSO 0.1%; v/v) and 10 µM DRB18 treated A549 lung cancer cells in vitro for 48 hours"
+STUDY_TYPE = "Anticancer compound treatment experiment"
+STUDY_SUMMARY = "Control (DMSO 0.1%; v/v) and 10 µM DRB18 were used to treated 5 million A549 lung cancer cells in vitro for 48 hours. The untargeted metabolomics analysis was performed on the cell lysates. The main objective of the study was to determine changes in metabolite abundances in lung cancer after treatment with DRB18, an inhibitor of glucose transporter proteins."
+INSTITUTE = "Ohio University"
+DEPARTMENT = "Biological Sciences"
+LABORATORY = "Dr. Xiaozhuo Chen, Edison biotechnology Institute"
+LAST_NAME = "Shriwas"
+FIRST_NAME = "Pratik"
+ADDRESS = "172 Water Tower, Building 25, The Ridges, Konnekar Research Centerm Athens Ohio - 45701, USA"
+EMAIL = "ps774614@ohio.edu"
+PHONE = "740-603-3801"
+NUM_GROUPS = "2"
+
+[SUBJECT]
+SUBJECT_TYPE = "Cultured cells"
+SUBJECT_SPECIES = "Homo sapiens"
+TAXONOMY_ID = "9606"
+CELL_STRAIN_DETAILS = "Human Lung epithelial A549 cancer cells"
+
+[COLLECTION]
+COLLECTION_SUMMARY = "A549 lung cancer cells were treated with control or DRB18 and then collected according to sample preparation protocol."
+SAMPLE_TYPE = "Lung"
+COLLECTION_METHOD = "Ice cold methanol (80%) using cell scrappers"
+COLLECTION_LOCATION = "150mm dish"
+COLLECTION_FREQUENCY = "Once"
+COLLECTION_DURATION = "1-2 sec"
+VOLUMEORAMOUNT_COLLECTED = "1 ml"
+STORAGE_CONDITIONS = "-80℃"
+COLLECTION_VIALS = "Polypropylene 1.5 ml tubes"
+STORAGE_VIALS = "Polypropylene 1.5 ml"
+TISSUE_CELL_QUANTITY_TAKEN = "5 million"
+
+[TREATMENT]
+TREATMENT_SUMMARY = "5 million A549 cells were treated with or without DRB18 (n=3) for 48 hours."
+TREATMENT = "Anticancer compound in vitro"
+TREATMENT_DOSEVOLUME = "10 ml DMEM media containing appropriate compounds"
+TREATMENT_VEHICLE = "DMSO"
+CELL_STORAGE = "37C; 5% CO2 incubator"
+CELL_GROWTH_CONTAINER = "150 mm Dish tissue culture treated"
+CELL_MEDIA = "DMEM (10% FBS; 1% Pen/Strep)"
+CELL_HARVESTING = "after 48 hours"
+CELL_PCT_CONFLUENCE = "80%"
+CELL_MEDIA_LASTCHANGED = "NA"
+TREATMENT_COMPOUND = "Control (DMSO; 0.1% v/v) and DRB18"
+
+[SAMPLEPREP]
+SAMPLEPREP_SUMMARY = "5 × 106 A549 cells were treated with or without DRB18 for 48 hours. After treatment, cells were washed twice with deionized water and polar metabolites were then extracted with cryogenically cold 80% methanol/water mixture. LC-MS grade water, methanol, and acetonitrile (Fischer Scientific, PA, USA) were used. Methanol-extracted samples were then sonicated in cycles of sonication phase and rest phase for 10 minutes (5 second sonication phase and 10 seconds halt). The samples were then centrifuged at 13,000 rpm for 10 minutes and supernatant was then collected. Supernatants collected from in vitro and in vivo extraction were then lyophilized. Briefly, the supernatant was then lyophilized by using a speed vaccum evaporator. The samples were then dissolved into a mixture of acetonitrile/water (1:1; v/v)."
+PROCESSING_METHOD = "Quenching"
+PROCESSING_STORAGE_CONDITIONS = "-80℃"
+EXTRACTION_METHOD = "Quenching with Ice cold methanol"
+EXTRACT_ENRICHMENT = "Speed vaccum evaporator"
+EXTRACT_STORAGE = "-80℃"
+SAMPLE_RESUSPENSION = "Acetonitrile/waster (1:1)"
+
+[CHROMATOGRAPHY]
+CHROMATOGRAPHY_SUMMARY = "The entire LC/MS-MS experiment was performed in the Campus Chemical Instrumentation Center’s Mass Spectrometry and Proteomics facility at The Ohio State University. Lyophilized samples were dissolved in equal amounts of LC-MS grade water and acetonitrile and run with LC/MS-MS analysis, using an untargeted metabolomics approach by utilizing Agilent Q-TOF 6545 mass spectrometer connected to an Agilent 1290 UHPLC system with a Poroshell 120 SB-C18 (2 x 100 mm, 2.7 µm particle size) column. The LC gradient consisted of solvent A, H2O with 0.1 % Formic acid, and solvent B, 100 % acetonitrile at a 200 µL/min flow rate with an initial 2 % solvent B with a linear ramp to 95 % B at 15 min, holding at 95% B for 1 minutes, and back to 2 % B from 16 min and equilibration of 2 % B until min 32. A 5 µL volume sample was injected for each run and the top 5 ions were selected for data-dependent analysis with a 15 second exclusion window."
+CHROMATOGRAPHY_TYPE = "Reversed phase"
+INSTRUMENT_NAME = "Agilent 1290"
+COLUMN_NAME = "Poroshell 120 SB-C18 (2.1 x 100 mm x 2.7 Âµm)"
+FLOW_GRADIENT = "an initial 2 % solvent B with a linear ramp to 95 % B at 15 min, holding at 95% B for 1 minutes, and back to 2 % B from 16 min and equilibration of 2 % B until min 32."
+FLOW_RATE = "200 µL/min"
+COLUMN_TEMPERATURE = "40"
+SOLVENT_A = "H2O with 0.1 % Formic acid"
+SOLVENT_B = "100 % acetonitrile"
+COLUMN_PRESSURE = "800 bar"
+SAMPLE_INJECTION = "5 µL"
+CAPILLARY_VOLTAGE = "500 V"
+
+[ANALYSIS]
+ANALYSIS_TYPE = "MS"
+LABORATORY_NAME = "Campus Chemical Instrumentation Center (CCIC) Ohio State University"
+
+[MS]
+INSTRUMENT_NAME = "Agilent 6545 QTOF"
+INSTRUMENT_TYPE = "QTOF"
+MS_TYPE = "ESI"
+ION_MODE = "POSITIVE"
+MS_COMMENTS = "Masshunter software was used to collect the raw data"
+
+[MS_METABOLITE_DATA]
+Units = "Normalized abundances"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "Controlinvitro_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Treatment = "Control"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "DMSOvsDRB18invitrorep1.raw"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "Controlinvitro_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Treatment = "Control"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "DMSOvsDRB18invitrorep1.raw"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "Controlinvitro_3"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Treatment = "Control"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "DMSOvsDRB18invitrorep1.raw"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "Controlinvitro_4"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Treatment = "Control"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "DMSOvsDRB18invitrorep23.raw"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "Controlinvitro_5"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Treatment = "Control"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "DMSOvsDRB18invitrorep23.raw"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "Controlinvitro_6"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Treatment = "Control"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "DMSOvsDRB18invitrorep23.raw"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "Controlinvitro_7"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Treatment = "Control"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "DMSOvsDRB18invitrorep23.raw"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "Controlinvitro_8"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Treatment = "Control"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "DMSOvsDRB18invitrorep23.raw"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "Controlinvitro_9"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Treatment = "Control"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "DMSOvsDRB18invitrorep23.raw"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "DRB18invitro_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Treatment = "DRB18"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "DMSOvsDRB18invitrorep1.raw"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "DRB18invitro_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Treatment = "DRB18"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "DMSOvsDRB18invitrorep1.raw"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "DRB18invitro_3"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Treatment = "DRB18"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "DMSOvsDRB18invitrorep1.raw"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "DRB18invitro_4"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Treatment = "DRB18"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "DMSOvsDRB18invitrorep23.raw"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "DRB18invitro_5"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Treatment = "DRB18"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "DMSOvsDRB18invitrorep23.raw"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "DRB18invitro_6"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Treatment = "DRB18"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "DMSOvsDRB18invitrorep23.raw"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "DRB18invitro_7"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Treatment = "DRB18"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "DMSOvsDRB18invitrorep23.raw"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "DRB18invitro_8"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Treatment = "DRB18"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "DMSOvsDRB18invitrorep23.raw"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "DRB18invitro_9"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Treatment = "DRB18"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "DMSOvsDRB18invitrorep23.raw"

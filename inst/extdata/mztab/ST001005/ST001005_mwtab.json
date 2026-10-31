@@ -1,0 +1,213 @@
+[
+{
+"METABOLOMICS WORKBENCH":{"STUDY_ID":"ST001005","ANALYSIS_ID":"AN001647","VERSION":"1","CREATED_ON":"July 12, 2018, 5:24 pm"},
+
+"PROJECT":{"PROJECT_TITLE":"Mayo Pilot and Feasibility: Metabolomics of Muscle Wasting in Cancer Cachexia","PROJECT_SUMMARY":"Cachexia is a debilitating syndrome that results in severe, involuntary weight loss due to the depletion of skeletal muscle mass. This syndrome occurs in a majority of cancers and contributes to approximately one third of all cancer deaths. Currently, no effective therapy exists to combat this malignant disorder, and disappointing results from recent Phase III clinical trials indicate that a cachexia treatment is not likely to appear soon. Thus, it is clear that greater knowledge of the mechanisms driving muscle wasting in cachexia is needed in order to identify new therapeutic targets and stimulate new clinical trials. Our approach to gaining this knowledge has been to work with muscle biopsies from pancreatic cancer patients, since this population is highly prone to cachexia. We have also been expanding our studies beyond the classical mouse models of cancer cachexia in hopes of finding a new model that better recapitulates the human disease. We recently undertook RNA-Seq analysis comparing muscle biopsies from pancreatic cancer patients with and without cachexia, which has been exciting since this type of analysis has not yet been performed in patient samples. Preliminary results revealed that cachectic muscle was associated with alterations in metabolism. These data provide the rationale for performing metabolomics to ascertain whether specific metabolic pathways or metabolites can be identified as potential drivers of muscle wasting in cachexia or be used as biomarker of cachexia, which the field desperately needs. An additional need is a well-validated animal model of cancer cachexia that accurately reflects the human condition, which can be used to test mechanisms and pre-clinical compounds. We propose to perform these studies under the Mayo Clinic Metabolomics Resource Core Pilot and Feasibility Grant program to: 1) Identify metabolic alterations and biomarkers of pancreatic cancer-induced muscle wasting; and 2) Identify a suitable mouse model that recapitulates the metabolic imbalance of muscles from pancreatic cancer cachexia patients. By performing these studies, we will accelerate our understanding of the underlying causes of muscle wasting, which should translate to improving the current pipeline of anticachexia therapies.","INSTITUTE":"Mayo Clinic","LAST_NAME":"Guttridge","FIRST_NAME":"Denis","ADDRESS":"520 Biomedical Research Tower 460 W. 12th Avenue Columbus, OH 43210","EMAIL":"denis.guttridge@osumc.edu","PHONE":"614-688-3137"},
+
+"STUDY":{"STUDY_TITLE":"Amino Acid Concentrations in Muscle Tissue of Muscle Wasting in Cancer Cachexia (part I)","STUDY_SUMMARY":"Amino Acid Concentrations of Muscle Wasting in Cancer Cachexia. Muscle samples from 10 control patients, 10 weight stable pancreatic cancer patients, and 10 pancreatic cancer patients with significant weight loss. Samples are divided evenly between males and females.","INSTITUTE":"Mayo Clinic","LAST_NAME":"Guttridge","FIRST_NAME":"Denis","ADDRESS":"520 Biomedical Research Tower 460 W. 12th Avenue Columbus, OH 43210","EMAIL":"denis.guttridge@osumc.edu","PHONE":"614-688-3137"},
+
+"SUBJECT":{"SUBJECT_TYPE":"Human","SUBJECT_SPECIES":"Homo sapiens","TAXONOMY_ID":"9606"},
+"SUBJECT_SAMPLE_FACTORS":[
+{
+"Subject ID":"-",
+"Sample ID":"ms6644-1",
+"Factors":{"Grouping":"Weight Losing"},
+"Additional sample data":{"Gender":"Male","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"5","protein ug/vial":"128"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6644-2",
+"Factors":{"Grouping":"Weight Losing"},
+"Additional sample data":{"Gender":"Female","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"5","protein ug/vial":"81"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6644-3",
+"Factors":{"Grouping":"Weight Stable"},
+"Additional sample data":{"Gender":"Female","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"5","protein ug/vial":"91"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6644-4",
+"Factors":{"Grouping":"Control"},
+"Additional sample data":{"Gender":"Female","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"5","protein ug/vial":"185"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6644-5",
+"Factors":{"Grouping":"Control"},
+"Additional sample data":{"Gender":"Female","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"5","protein ug/vial":"265"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6644-6",
+"Factors":{"Grouping":"Control"},
+"Additional sample data":{"Gender":"Male","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"5","protein ug/vial":"308"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6644-7",
+"Factors":{"Grouping":"Weight Stable"},
+"Additional sample data":{"Gender":"Male","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"5","protein ug/vial":"105"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6644-8",
+"Factors":{"Grouping":"Weight Stable"},
+"Additional sample data":{"Gender":"Female","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"5","protein ug/vial":"67"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6644-9",
+"Factors":{"Grouping":"Control"},
+"Additional sample data":{"Gender":"Male","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"5","protein ug/vial":"196"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6644-10",
+"Factors":{"Grouping":"Control"},
+"Additional sample data":{"Gender":"Male","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"5","protein ug/vial":"164"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6644-11",
+"Factors":{"Grouping":"Weight Stable"},
+"Additional sample data":{"Gender":"Male","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"5","protein ug/vial":"264"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6644-12",
+"Factors":{"Grouping":"Control"},
+"Additional sample data":{"Gender":"Female","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"5","protein ug/vial":"111"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6644-13",
+"Factors":{"Grouping":"Weight Stable"},
+"Additional sample data":{"Gender":"Female","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"5","protein ug/vial":"136"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6644-14",
+"Factors":{"Grouping":"Weight Losing"},
+"Additional sample data":{"Gender":"Male","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"5","protein ug/vial":"126"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6644-15",
+"Factors":{"Grouping":"Weight Losing"},
+"Additional sample data":{"Gender":"Female","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"5","protein ug/vial":"112"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6644-16",
+"Factors":{"Grouping":"Weight Stable"},
+"Additional sample data":{"Gender":"Male","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"5","protein ug/vial":"203"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6644-17",
+"Factors":{"Grouping":"Control"},
+"Additional sample data":{"Gender":"Female","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"5","protein ug/vial":"163"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6644-18",
+"Factors":{"Grouping":"Weight Losing"},
+"Additional sample data":{"Gender":"Female","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"5","protein ug/vial":"111"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6644-19",
+"Factors":{"Grouping":"Weight Losing"},
+"Additional sample data":{"Gender":"Female","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"5","protein ug/vial":"139"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6644-20",
+"Factors":{"Grouping":"Control"},
+"Additional sample data":{"Gender":"Male","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"5","protein ug/vial":"283"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6644-21",
+"Factors":{"Grouping":"Weight Losing"},
+"Additional sample data":{"Gender":"Male","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"5","protein ug/vial":"93"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6644-22",
+"Factors":{"Grouping":"Control"},
+"Additional sample data":{"Gender":"Female","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"5","protein ug/vial":"209"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6644-23",
+"Factors":{"Grouping":"Weight Stable"},
+"Additional sample data":{"Gender":"Male","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"5","protein ug/vial":"206"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6644-24",
+"Factors":{"Grouping":"Weight Losing"},
+"Additional sample data":{"Gender":"Male","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"5","protein ug/vial":"72"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6644-25",
+"Factors":{"Grouping":"Control"},
+"Additional sample data":{"Gender":"Male","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"5","protein ug/vial":"315"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6644-26",
+"Factors":{"Grouping":"Weight Stable"},
+"Additional sample data":{"Gender":"Female","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"5","protein ug/vial":"113"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6644-27",
+"Factors":{"Grouping":"Weight Losing"},
+"Additional sample data":{"Gender":"Male","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"5","protein ug/vial":"215"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6644-28",
+"Factors":{"Grouping":"Weight Losing"},
+"Additional sample data":{"Gender":"Female","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"5","protein ug/vial":"116"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6644-29",
+"Factors":{"Grouping":"Weight Stable"},
+"Additional sample data":{"Gender":"Female","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"5","protein ug/vial":"135"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6644-30",
+"Factors":{"Grouping":"Weight Stable"},
+"Additional sample data":{"Gender":"Male","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"5","protein ug/vial":"248"}
+}
+],
+"COLLECTION":{"COLLECTION_SUMMARY":"Tissue and blood donated from Cancer Cachexia Program at Ohio State University","SAMPLE_TYPE":"Muscle"},
+
+"TREATMENT":{"TREATMENT_SUMMARY":"Cancer cachexia is a multi-factorial syndrome accompanying advanced cancer, with the most notable symptom being unintentional weight loss. Cachectic patients lose both adipose tissue and skeletal muscle, with skeletal muscle loss and its associated weakness contributing to the morbidity and mortality of these patients. Despite three decades of research into mechanisms driving muscle wasting due to cancer, to date, an approved pharmacological therapy to prevent or treat cancer cachexia is still lacking. Our laboratory focuses on cancer cachexia in patients with pancreatic cancer, as up to 85% of these patients experience weight loss. Cachexia often occurs early in the progression of pancreatic cancer, making clear that cachexia in these patients is not simply a result of end-stage disease. Further, with perhaps more than ¼ of all pancreatic cancer deaths resulting from muscle weakness as opposed to tumor burden, cachexia also significantly contributes to mortality due to pancreatic cancer. Because little progress has been made in improving treatment outcomes, addressing cancer-induced muscle wasting is perhaps the best strategy to prolong pancreatic cancer patient survival and increase patient quality of life. In an effort to better understand the mechanisms driving pancreatic cancer-induced muscle wasting, the Cancer Cachexia Program at Ohio State University has begun a Pancreatic Cancer Cachexia Tissue Bank. To date, over 130 patients undergoing attempted resection for pancreatic cancer or other abdominal surgeries have donated muscle and blood to our bank. A unique aspect of our tissue bank is our focus on patients eligible for resection. In contrast to other studies using patients with late-stage disease, our patients are not end-stage, as they are considered healthy enough to undergo a major operation."},
+
+"SAMPLEPREP":{"SAMPLEPREP_SUMMARY":"amino acids concentrations using muscle tissue"},
+
+"CHROMATOGRAPHY":{"CHROMATOGRAPHY_TYPE":"Reversed phase","INSTRUMENT_NAME":"Waters Acquity","COLUMN_NAME":"Waters Acquity BEH C18 (150 x 2.1mm, 1.7um)"},
+
+"ANALYSIS":{"ANALYSIS_TYPE":"MS"},
+
+"MS":{"MS_COMMENTS":"-","INSTRUMENT_NAME":"Thermo Quantum Ultra","INSTRUMENT_TYPE":"Triple quadrupole","MS_TYPE":"ESI","ION_MODE":"POSITIVE"},
+
+"MS_METABOLITE_DATA":{
+"Units":"nmoles/vial",
+
+"Data":[{"Metabolite":"Histidine","ms6644-1":"0.54","ms6644-2":"0.79","ms6644-3":"0.94","ms6644-4":"1.58","ms6644-5":"1.22","ms6644-6":"1.17","ms6644-7":"0.84","ms6644-8":"0.16","ms6644-9":"1.44","ms6644-10":"0.57","ms6644-11":"1.69","ms6644-12":"0.98","ms6644-13":"1.01","ms6644-14":"1.16","ms6644-15":"1.64","ms6644-16":"1.26","ms6644-17":"0.90","ms6644-18":"1.05","ms6644-19":"0.25","ms6644-20":"1.43","ms6644-21":"0.26","ms6644-22":"1.58","ms6644-23":"1.09","ms6644-24":"0.50","ms6644-25":"1.28","ms6644-26":"0.44","ms6644-27":"0.56","ms6644-28":"0.41","ms6644-29":"0.60","ms6644-30":"1.42"},{"Metabolite":"Hydroxyproline","ms6644-1":"0.06","ms6644-2":"0.09","ms6644-3":"0.09","ms6644-4":"0.14","ms6644-5":"0.11","ms6644-6":"0.11","ms6644-7":"0.07","ms6644-8":"0.01","ms6644-9":"0.27","ms6644-10":"0.13","ms6644-11":"0.19","ms6644-12":"0.10","ms6644-13":"0.13","ms6644-14":"0.04","ms6644-15":"0.08","ms6644-16":"0.08","ms6644-17":"0.10","ms6644-18":"0.12","ms6644-19":"0.07","ms6644-20":"0.15","ms6644-21":"0.03","ms6644-22":"0.17","ms6644-23":"0.15","ms6644-24":"0.10","ms6644-25":"0.08","ms6644-26":"0.13","ms6644-27":"0.06","ms6644-28":"0.08","ms6644-29":"0.03","ms6644-30":"0.14"},{"Metabolite":"1-Methylhistidine","ms6644-1":"0.000","ms6644-2":"0.075","ms6644-3":"0.000","ms6644-4":"0.026","ms6644-5":"0.000","ms6644-6":"0.000","ms6644-7":"0.000","ms6644-8":"0.000","ms6644-9":"0.040","ms6644-10":"0.058","ms6644-11":"0.000","ms6644-12":"0.000","ms6644-13":"0.000","ms6644-14":"0.042","ms6644-15":"0.037","ms6644-16":"0.000","ms6644-17":"0.000","ms6644-18":"0.000","ms6644-19":"0.000","ms6644-20":"0.000","ms6644-21":"0.030","ms6644-22":"0.000","ms6644-23":"0.079","ms6644-24":"0.026","ms6644-25":"0.000","ms6644-26":"0.047","ms6644-27":"0.000","ms6644-28":"0.035","ms6644-29":"0.000","ms6644-30":"0.062"},{"Metabolite":"3-Methylhistidine","ms6644-1":"0.013","ms6644-2":"0.035","ms6644-3":"0.000","ms6644-4":"0.044","ms6644-5":"0.029","ms6644-6":"0.031","ms6644-7":"0.019","ms6644-8":"0.000","ms6644-9":"0.079","ms6644-10":"0.024","ms6644-11":"0.014","ms6644-12":"0.029","ms6644-13":"0.016","ms6644-14":"0.022","ms6644-15":"0.016","ms6644-16":"0.013","ms6644-17":"0.043","ms6644-18":"0.000","ms6644-19":"0.000","ms6644-20":"0.033","ms6644-21":"0.011","ms6644-22":"0.037","ms6644-23":"0.020","ms6644-24":"0.000","ms6644-25":"0.041","ms6644-26":"0.033","ms6644-27":"0.008","ms6644-28":"0.035","ms6644-29":"0.000","ms6644-30":"0.019"},{"Metabolite":"Asparagine","ms6644-1":"0.44","ms6644-2":"0.57","ms6644-3":"0.44","ms6644-4":"0.69","ms6644-5":"0.67","ms6644-6":"0.99","ms6644-7":"0.59","ms6644-8":"0.17","ms6644-9":"0.53","ms6644-10":"0.55","ms6644-11":"0.80","ms6644-12":"0.39","ms6644-13":"0.48","ms6644-14":"0.64","ms6644-15":"0.51","ms6644-16":"0.40","ms6644-17":"0.49","ms6644-18":"0.44","ms6644-19":"0.41","ms6644-20":"0.91","ms6644-21":"0.25","ms6644-22":"0.66","ms6644-23":"0.55","ms6644-24":"0.52","ms6644-25":"0.69","ms6644-26":"0.43","ms6644-27":"0.64","ms6644-28":"0.42","ms6644-29":"0.19","ms6644-30":"0.87"},{"Metabolite":"Phosphoethanolamine","ms6644-1":"0.24","ms6644-2":"0.26","ms6644-3":"0.31","ms6644-4":"0.37","ms6644-5":"0.46","ms6644-6":"0.27","ms6644-7":"0.22","ms6644-8":"0.12","ms6644-9":"0.34","ms6644-10":"0.25","ms6644-11":"0.46","ms6644-12":"0.43","ms6644-13":"0.33","ms6644-14":"0.31","ms6644-15":"0.33","ms6644-16":"0.30","ms6644-17":"0.22","ms6644-18":"0.29","ms6644-19":"0.21","ms6644-20":"0.48","ms6644-21":"0.07","ms6644-22":"0.67","ms6644-23":"0.41","ms6644-24":"0.27","ms6644-25":"0.48","ms6644-26":"0.19","ms6644-27":"0.44","ms6644-28":"0.24","ms6644-29":"0.22","ms6644-30":"0.42"},{"Metabolite":"Arginine","ms6644-1":"0.98","ms6644-2":"1.75","ms6644-3":"2.62","ms6644-4":"1.77","ms6644-5":"2.00","ms6644-6":"1.70","ms6644-7":"1.94","ms6644-8":"0.37","ms6644-9":"2.46","ms6644-10":"2.08","ms6644-11":"1.69","ms6644-12":"1.12","ms6644-13":"2.19","ms6644-14":"1.82","ms6644-15":"1.63","ms6644-16":"1.05","ms6644-17":"1.45","ms6644-18":"0.84","ms6644-19":"0.99","ms6644-20":"2.77","ms6644-21":"1.08","ms6644-22":"1.27","ms6644-23":"1.28","ms6644-24":"1.20","ms6644-25":"1.49","ms6644-26":"1.12","ms6644-27":"1.42","ms6644-28":"1.19","ms6644-29":"0.56","ms6644-30":"1.25"},{"Metabolite":"Carnosine","ms6644-1":"12.50","ms6644-2":"5.24","ms6644-3":"2.76","ms6644-4":"10.87","ms6644-5":"5.44","ms6644-6":"13.30","ms6644-7":"6.02","ms6644-8":"1.32","ms6644-9":"11.23","ms6644-10":"16.22","ms6644-11":"18.47","ms6644-12":"8.23","ms6644-13":"5.55","ms6644-14":"12.46","ms6644-15":"6.48","ms6644-16":"7.26","ms6644-17":"13.83","ms6644-18":"16.35","ms6644-19":"6.47","ms6644-20":"12.02","ms6644-21":"4.95","ms6644-22":"8.34","ms6644-23":"19.73","ms6644-24":"14.78","ms6644-25":"16.56","ms6644-26":"5.76","ms6644-27":"18.58","ms6644-28":"7.16","ms6644-29":"2.41","ms6644-30":"12.03"},{"Metabolite":"Taurine","ms6644-1":"10.84","ms6644-2":"6.41","ms6644-3":"10.89","ms6644-4":"15.22","ms6644-5":"10.13","ms6644-6":"11.82","ms6644-7":"7.30","ms6644-8":"2.81","ms6644-9":"17.30","ms6644-10":"6.21","ms6644-11":"8.37","ms6644-12":"10.99","ms6644-13":"8.24","ms6644-14":"5.72","ms6644-15":"11.37","ms6644-16":"6.57","ms6644-17":"17.41","ms6644-18":"9.49","ms6644-19":"8.83","ms6644-20":"12.89","ms6644-21":"4.02","ms6644-22":"9.19","ms6644-23":"11.43","ms6644-24":"5.22","ms6644-25":"12.94","ms6644-26":"9.06","ms6644-27":"11.66","ms6644-28":"10.69","ms6644-29":"1.90","ms6644-30":"11.47"},{"Metabolite":"Anserine","ms6644-1":"0.31","ms6644-2":"0.10","ms6644-3":"0.04","ms6644-4":"0.15","ms6644-5":"0.11","ms6644-6":"0.23","ms6644-7":"0.08","ms6644-8":"0.03","ms6644-9":"0.23","ms6644-10":"0.29","ms6644-11":"0.21","ms6644-12":"0.15","ms6644-13":"0.07","ms6644-14":"0.29","ms6644-15":"0.19","ms6644-16":"0.10","ms6644-17":"0.15","ms6644-18":"0.37","ms6644-19":"0.11","ms6644-20":"0.15","ms6644-21":"0.09","ms6644-22":"0.12","ms6644-23":"0.21","ms6644-24":"0.19","ms6644-25":"0.23","ms6644-26":"0.11","ms6644-27":"0.16","ms6644-28":"0.08","ms6644-29":"0.04","ms6644-30":"0.13"},{"Metabolite":"Serine","ms6644-1":"1.20","ms6644-2":"1.20","ms6644-3":"0.79","ms6644-4":"1.31","ms6644-5":"1.39","ms6644-6":"1.46","ms6644-7":"0.78","ms6644-8":"0.30","ms6644-9":"0.60","ms6644-10":"1.40","ms6644-11":"1.21","ms6644-12":"0.86","ms6644-13":"0.59","ms6644-14":"0.92","ms6644-15":"1.03","ms6644-16":"0.64","ms6644-17":"0.86","ms6644-18":"0.91","ms6644-19":"0.67","ms6644-20":"1.07","ms6644-21":"0.67","ms6644-22":"1.18","ms6644-23":"0.96","ms6644-24":"0.81","ms6644-25":"0.96","ms6644-26":"0.67","ms6644-27":"1.15","ms6644-28":"0.66","ms6644-29":"0.31","ms6644-30":"1.49"},{"Metabolite":"Glutamine","ms6644-1":"17.48","ms6644-2":"27.22","ms6644-3":"29.87","ms6644-4":"21.18","ms6644-5":"42.98","ms6644-6":"38.08","ms6644-7":"11.96","ms6644-8":"3.93","ms6644-9":"21.25","ms6644-10":"18.50","ms6644-11":"24.80","ms6644-12":"10.44","ms6644-13":"16.94","ms6644-14":"24.45","ms6644-15":"14.86","ms6644-16":"11.89","ms6644-17":"28.44","ms6644-18":"13.41","ms6644-19":"14.11","ms6644-20":"27.05","ms6644-21":"11.11","ms6644-22":"21.81","ms6644-23":"22.37","ms6644-24":"19.45","ms6644-25":"25.90","ms6644-26":"13.78","ms6644-27":"17.55","ms6644-28":"21.79","ms6644-29":"5.95","ms6644-30":"32.11"},{"Metabolite":"Ethanolamine","ms6644-1":"0.04","ms6644-2":"0.03","ms6644-3":"0.03","ms6644-4":"0.06","ms6644-5":"0.07","ms6644-6":"0.06","ms6644-7":"0.04","ms6644-8":"0.01","ms6644-9":"0.06","ms6644-10":"0.04","ms6644-11":"0.06","ms6644-12":"0.04","ms6644-13":"0.04","ms6644-14":"0.03","ms6644-15":"0.04","ms6644-16":"0.06","ms6644-17":"0.04","ms6644-18":"0.04","ms6644-19":"0.02","ms6644-20":"0.06","ms6644-21":"0.02","ms6644-22":"0.06","ms6644-23":"0.05","ms6644-24":"0.05","ms6644-25":"0.06","ms6644-26":"0.02","ms6644-27":"0.05","ms6644-28":"0.04","ms6644-29":"0.02","ms6644-30":"0.08"},{"Metabolite":"Glycine","ms6644-1":"3.01","ms6644-2":"3.17","ms6644-3":"2.47","ms6644-4":"4.42","ms6644-5":"4.69","ms6644-6":"4.86","ms6644-7":"1.90","ms6644-8":"0.66","ms6644-9":"2.56","ms6644-10":"3.15","ms6644-11":"3.07","ms6644-12":"2.38","ms6644-13":"2.35","ms6644-14":"2.98","ms6644-15":"2.55","ms6644-16":"1.59","ms6644-17":"3.89","ms6644-18":"2.87","ms6644-19":"1.47","ms6644-20":"4.68","ms6644-21":"1.93","ms6644-22":"5.42","ms6644-23":"3.06","ms6644-24":"2.15","ms6644-25":"2.48","ms6644-26":"2.15","ms6644-27":"3.00","ms6644-28":"2.40","ms6644-29":"0.87","ms6644-30":"3.86"},{"Metabolite":"Aspartic Acid","ms6644-1":"0.54","ms6644-2":"0.96","ms6644-3":"0.91","ms6644-4":"0.37","ms6644-5":"0.65","ms6644-6":"0.76","ms6644-7":"0.32","ms6644-8":"0.15","ms6644-9":"0.05","ms6644-10":"0.33","ms6644-11":"1.07","ms6644-12":"0.37","ms6644-13":"0.59","ms6644-14":"0.78","ms6644-15":"0.23","ms6644-16":"0.17","ms6644-17":"0.31","ms6644-18":"0.24","ms6644-19":"0.11","ms6644-20":"0.64","ms6644-21":"0.14","ms6644-22":"0.26","ms6644-23":"0.64","ms6644-24":"0.42","ms6644-25":"0.63","ms6644-26":"0.41","ms6644-27":"0.56","ms6644-28":"0.17","ms6644-29":"0.07","ms6644-30":"0.28"},{"Metabolite":"Sarcosine","ms6644-1":"0.01","ms6644-2":"0.00","ms6644-3":"0.01","ms6644-4":"0.02","ms6644-5":"0.01","ms6644-6":"0.01","ms6644-7":"0.01","ms6644-8":"0.00","ms6644-9":"0.02","ms6644-10":"0.01","ms6644-11":"0.02","ms6644-12":"0.01","ms6644-13":"0.01","ms6644-14":"0.00","ms6644-15":"0.01","ms6644-16":"0.01","ms6644-17":"0.01","ms6644-18":"0.01","ms6644-19":"0.00","ms6644-20":"0.00","ms6644-21":"0.00","ms6644-22":"0.02","ms6644-23":"0.01","ms6644-24":"0.01","ms6644-25":"0.01","ms6644-26":"0.00","ms6644-27":"0.02","ms6644-28":"0.00","ms6644-29":"0.00","ms6644-30":"0.01"},{"Metabolite":"Citrulline","ms6644-1":"0.21","ms6644-2":"0.18","ms6644-3":"0.23","ms6644-4":"0.09","ms6644-5":"0.24","ms6644-6":"0.48","ms6644-7":"0.12","ms6644-8":"0.03","ms6644-9":"0.37","ms6644-10":"0.52","ms6644-11":"0.25","ms6644-12":"0.09","ms6644-13":"0.13","ms6644-14":"0.42","ms6644-15":"0.06","ms6644-16":"0.17","ms6644-17":"0.13","ms6644-18":"0.09","ms6644-19":"0.02","ms6644-20":"0.28","ms6644-21":"0.12","ms6644-22":"0.10","ms6644-23":"0.23","ms6644-24":"0.21","ms6644-25":"0.37","ms6644-26":"0.06","ms6644-27":"0.18","ms6644-28":"0.08","ms6644-29":"0.07","ms6644-30":"0.28"},{"Metabolite":"Glutamic Acid","ms6644-1":"2.37","ms6644-2":"2.23","ms6644-3":"4.65","ms6644-4":"3.38","ms6644-5":"2.76","ms6644-6":"4.02","ms6644-7":"1.83","ms6644-8":"0.60","ms6644-9":"3.47","ms6644-10":"1.76","ms6644-11":"3.48","ms6644-12":"1.91","ms6644-13":"3.43","ms6644-14":"1.48","ms6644-15":"2.16","ms6644-16":"1.83","ms6644-17":"2.54","ms6644-18":"0.77","ms6644-19":"2.53","ms6644-20":"1.83","ms6644-21":"0.68","ms6644-22":"5.07","ms6644-23":"1.94","ms6644-24":"1.28","ms6644-25":"3.29","ms6644-26":"1.99","ms6644-27":"2.03","ms6644-28":"2.13","ms6644-29":"0.55","ms6644-30":"1.80"},{"Metabolite":"beta-Alanine","ms6644-1":"0.31","ms6644-2":"0.15","ms6644-3":"0.15","ms6644-4":"0.80","ms6644-5":"0.19","ms6644-6":"0.32","ms6644-7":"0.27","ms6644-8":"0.09","ms6644-9":"0.38","ms6644-10":"0.06","ms6644-11":"0.64","ms6644-12":"0.42","ms6644-13":"0.36","ms6644-14":"0.34","ms6644-15":"0.97","ms6644-16":"0.68","ms6644-17":"0.26","ms6644-18":"0.43","ms6644-19":"0.15","ms6644-20":"0.37","ms6644-21":"0.02","ms6644-22":"0.50","ms6644-23":"0.38","ms6644-24":"0.18","ms6644-25":"0.26","ms6644-26":"0.26","ms6644-27":"0.30","ms6644-28":"0.19","ms6644-29":"0.47","ms6644-30":"0.18"},{"Metabolite":"Threonine","ms6644-1":"0.70","ms6644-2":"0.76","ms6644-3":"0.92","ms6644-4":"1.04","ms6644-5":"1.28","ms6644-6":"1.57","ms6644-7":"0.74","ms6644-8":"0.26","ms6644-9":"1.73","ms6644-10":"1.23","ms6644-11":"1.75","ms6644-12":"0.81","ms6644-13":"0.91","ms6644-14":"1.39","ms6644-15":"0.63","ms6644-16":"0.75","ms6644-17":"0.94","ms6644-18":"0.74","ms6644-19":"0.60","ms6644-20":"1.44","ms6644-21":"0.53","ms6644-22":"0.99","ms6644-23":"1.00","ms6644-24":"1.07","ms6644-25":"1.15","ms6644-26":"0.49","ms6644-27":"0.99","ms6644-28":"0.84","ms6644-29":"0.32","ms6644-30":"1.37"},{"Metabolite":"Alanine","ms6644-1":"3.72","ms6644-2":"5.95","ms6644-3":"3.26","ms6644-4":"6.68","ms6644-5":"3.78","ms6644-6":"6.63","ms6644-7":"4.94","ms6644-8":"1.46","ms6644-9":"6.32","ms6644-10":"6.67","ms6644-11":"9.76","ms6644-12":"4.20","ms6644-13":"6.64","ms6644-14":"4.91","ms6644-15":"6.29","ms6644-16":"5.02","ms6644-17":"5.52","ms6644-18":"4.78","ms6644-19":"3.53","ms6644-20":"9.33","ms6644-21":"3.16","ms6644-22":"7.89","ms6644-23":"8.46","ms6644-24":"5.69","ms6644-25":"8.20","ms6644-26":"3.14","ms6644-27":"7.34","ms6644-28":"4.76","ms6644-29":"2.14","ms6644-30":"8.29"},{"Metabolite":"gamma-Amino-N-butyric-acid","ms6644-1":"0.006","ms6644-2":"0.005","ms6644-3":"0.005","ms6644-4":"0.007","ms6644-5":"0.007","ms6644-6":"0.019","ms6644-7":"0.010","ms6644-8":"0.001","ms6644-9":"0.013","ms6644-10":"0.007","ms6644-11":"0.010","ms6644-12":"0.005","ms6644-13":"0.010","ms6644-14":"0.007","ms6644-15":"0.007","ms6644-16":"0.009","ms6644-17":"0.008","ms6644-18":"0.013","ms6644-19":"0.003","ms6644-20":"0.011","ms6644-21":"0.002","ms6644-22":"0.025","ms6644-23":"0.010","ms6644-24":"0.003","ms6644-25":"0.008","ms6644-26":"0.013","ms6644-27":"0.004","ms6644-28":"0.013","ms6644-29":"0.001","ms6644-30":"0.018"},{"Metabolite":"alpha-Aminoadipic-acid","ms6644-1":"0.076","ms6644-2":"0.028","ms6644-3":"0.223","ms6644-4":"0.092","ms6644-5":"0.201","ms6644-6":"0.081","ms6644-7":"0.132","ms6644-8":"0.003","ms6644-9":"0.118","ms6644-10":"0.050","ms6644-11":"0.140","ms6644-12":"0.046","ms6644-13":"0.135","ms6644-14":"0.126","ms6644-15":"0.094","ms6644-16":"0.046","ms6644-17":"0.093","ms6644-18":"0.021","ms6644-19":"0.090","ms6644-20":"0.091","ms6644-21":"0.074","ms6644-22":"0.079","ms6644-23":"0.049","ms6644-24":"0.073","ms6644-25":"0.120","ms6644-26":"0.061","ms6644-27":"0.081","ms6644-28":"0.074","ms6644-29":"0.013","ms6644-30":"0.123"},{"Metabolite":"beta-Aminoisobutyric-acid","ms6644-1":"0.007","ms6644-2":"0.015","ms6644-3":"0.001","ms6644-4":"0.006","ms6644-5":"0.017","ms6644-6":"0.031","ms6644-7":"0.013","ms6644-8":"0.002","ms6644-9":"0.011","ms6644-10":"0.009","ms6644-11":"0.004","ms6644-12":"0.002","ms6644-13":"0.004","ms6644-14":"0.004","ms6644-15":"0.010","ms6644-16":"0.020","ms6644-17":"0.008","ms6644-18":"0.002","ms6644-19":"0.001","ms6644-20":"0.017","ms6644-21":"0.006","ms6644-22":"0.009","ms6644-23":"0.009","ms6644-24":"0.002","ms6644-25":"0.010","ms6644-26":"0.017","ms6644-27":"0.007","ms6644-28":"0.003","ms6644-29":"0.001","ms6644-30":"0.005"},{"Metabolite":"Proline","ms6644-1":"0.72","ms6644-2":"1.49","ms6644-3":"2.57","ms6644-4":"1.26","ms6644-5":"2.17","ms6644-6":"1.82","ms6644-7":"1.04","ms6644-8":"0.34","ms6644-9":"2.28","ms6644-10":"2.41","ms6644-11":"2.36","ms6644-12":"1.40","ms6644-13":"1.57","ms6644-14":"1.21","ms6644-15":"1.23","ms6644-16":"1.34","ms6644-17":"1.02","ms6644-18":"1.49","ms6644-19":"0.90","ms6644-20":"1.90","ms6644-21":"0.70","ms6644-22":"2.51","ms6644-23":"1.83","ms6644-24":"1.42","ms6644-25":"1.65","ms6644-26":"0.69","ms6644-27":"1.18","ms6644-28":"0.88","ms6644-29":"0.51","ms6644-30":"1.53"},{"Metabolite":"Hydroxylysine 1","ms6644-1":"0.00","ms6644-2":"0.00","ms6644-3":"0.00","ms6644-4":"0.00","ms6644-5":"0.00","ms6644-6":"0.00","ms6644-7":"0.00","ms6644-8":"0.00","ms6644-9":"0.00","ms6644-10":"0.00","ms6644-11":"0.00","ms6644-12":"0.00","ms6644-13":"0.00","ms6644-14":"0.00","ms6644-15":"0.00","ms6644-16":"0.00","ms6644-17":"0.00","ms6644-18":"0.00","ms6644-19":"0.00","ms6644-20":"0.00","ms6644-21":"0.00","ms6644-22":"0.00","ms6644-23":"0.00","ms6644-24":"0.00","ms6644-25":"0.00","ms6644-26":"0.00","ms6644-27":"0.00","ms6644-28":"0.00","ms6644-29":"0.00","ms6644-30":"0.00"},{"Metabolite":"Hydroxylysine 2","ms6644-1":"0.00","ms6644-2":"0.00","ms6644-3":"0.00","ms6644-4":"0.00","ms6644-5":"0.00","ms6644-6":"0.00","ms6644-7":"0.00","ms6644-8":"0.00","ms6644-9":"0.00","ms6644-10":"0.00","ms6644-11":"0.00","ms6644-12":"0.00","ms6644-13":"0.00","ms6644-14":"0.00","ms6644-15":"0.00","ms6644-16":"0.00","ms6644-17":"0.00","ms6644-18":"0.00","ms6644-19":"0.00","ms6644-20":"0.00","ms6644-21":"0.00","ms6644-22":"0.00","ms6644-23":"0.00","ms6644-24":"0.00","ms6644-25":"0.00","ms6644-26":"0.00","ms6644-27":"0.00","ms6644-28":"0.00","ms6644-29":"0.00","ms6644-30":"0.00"},{"Metabolite":"alpha-Amino-N-butyric-acid","ms6644-1":"0.14","ms6644-2":"0.11","ms6644-3":"0.03","ms6644-4":"0.18","ms6644-5":"0.33","ms6644-6":"0.20","ms6644-7":"0.09","ms6644-8":"0.01","ms6644-9":"0.21","ms6644-10":"0.15","ms6644-11":"0.24","ms6644-12":"0.11","ms6644-13":"0.06","ms6644-14":"0.23","ms6644-15":"0.24","ms6644-16":"0.19","ms6644-17":"0.10","ms6644-18":"0.18","ms6644-19":"0.11","ms6644-20":"0.23","ms6644-21":"0.16","ms6644-22":"0.14","ms6644-23":"0.10","ms6644-24":"0.11","ms6644-25":"0.20","ms6644-26":"0.08","ms6644-27":"0.29","ms6644-28":"0.15","ms6644-29":"0.04","ms6644-30":"0.19"},{"Metabolite":"Ornithine","ms6644-1":"0.24","ms6644-2":"0.68","ms6644-3":"1.53","ms6644-4":"0.64","ms6644-5":"0.79","ms6644-6":"0.37","ms6644-7":"0.45","ms6644-8":"0.11","ms6644-9":"0.72","ms6644-10":"0.85","ms6644-11":"0.44","ms6644-12":"0.38","ms6644-13":"0.69","ms6644-14":"0.61","ms6644-15":"0.53","ms6644-16":"0.39","ms6644-17":"0.37","ms6644-18":"0.19","ms6644-19":"0.25","ms6644-20":"0.56","ms6644-21":"0.32","ms6644-22":"0.42","ms6644-23":"0.35","ms6644-24":"0.39","ms6644-25":"0.41","ms6644-26":"0.48","ms6644-27":"0.32","ms6644-28":"0.27","ms6644-29":"0.17","ms6644-30":"0.51"},{"Metabolite":"Cystathionine 1","ms6644-1":"0.00","ms6644-2":"0.01","ms6644-3":"0.00","ms6644-4":"0.00","ms6644-5":"0.00","ms6644-6":"0.00","ms6644-7":"0.00","ms6644-8":"0.00","ms6644-9":"0.01","ms6644-10":"0.00","ms6644-11":"0.00","ms6644-12":"0.00","ms6644-13":"0.00","ms6644-14":"0.00","ms6644-15":"0.00","ms6644-16":"0.00","ms6644-17":"0.00","ms6644-18":"0.00","ms6644-19":"0.00","ms6644-20":"0.00","ms6644-21":"0.00","ms6644-22":"0.00","ms6644-23":"0.00","ms6644-24":"0.01","ms6644-25":"0.00","ms6644-26":"0.00","ms6644-27":"0.00","ms6644-28":"0.00","ms6644-29":"0.00","ms6644-30":"0.00"},{"Metabolite":"Cystathionine 2","ms6644-1":"0.00","ms6644-2":"0.00","ms6644-3":"0.00","ms6644-4":"0.00","ms6644-5":"0.00","ms6644-6":"0.00","ms6644-7":"0.00","ms6644-8":"0.00","ms6644-9":"0.00","ms6644-10":"0.00","ms6644-11":"0.00","ms6644-12":"0.00","ms6644-13":"0.00","ms6644-14":"0.00","ms6644-15":"0.00","ms6644-16":"0.00","ms6644-17":"0.00","ms6644-18":"0.00","ms6644-19":"0.00","ms6644-20":"0.00","ms6644-21":"0.00","ms6644-22":"0.00","ms6644-23":"0.00","ms6644-24":"0.00","ms6644-25":"0.00","ms6644-26":"0.00","ms6644-27":"0.00","ms6644-28":"0.00","ms6644-29":"0.00","ms6644-30":"0.00"},{"Metabolite":"Lysine","ms6644-1":"1.98","ms6644-2":"3.78","ms6644-3":"2.97","ms6644-4":"3.54","ms6644-5":"3.06","ms6644-6":"3.48","ms6644-7":"2.64","ms6644-8":"0.47","ms6644-9":"3.76","ms6644-10":"2.08","ms6644-11":"2.95","ms6644-12":"1.83","ms6644-13":"2.89","ms6644-14":"2.75","ms6644-15":"3.34","ms6644-16":"2.00","ms6644-17":"2.37","ms6644-18":"1.40","ms6644-19":"1.65","ms6644-20":"3.53","ms6644-21":"1.65","ms6644-22":"2.70","ms6644-23":"2.05","ms6644-24":"2.62","ms6644-25":"2.58","ms6644-26":"1.54","ms6644-27":"2.80","ms6644-28":"1.85","ms6644-29":"0.99","ms6644-30":"2.49"},{"Metabolite":"Cystine","ms6644-1":"0.00","ms6644-2":"0.00","ms6644-3":"0.00","ms6644-4":"0.01","ms6644-5":"0.01","ms6644-6":"0.01","ms6644-7":"0.01","ms6644-8":"0.00","ms6644-9":"0.00","ms6644-10":"0.00","ms6644-11":"0.01","ms6644-12":"0.01","ms6644-13":"0.02","ms6644-14":"0.02","ms6644-15":"0.01","ms6644-16":"0.01","ms6644-17":"0.00","ms6644-18":"0.01","ms6644-19":"0.00","ms6644-20":"0.01","ms6644-21":"0.00","ms6644-22":"0.00","ms6644-23":"0.00","ms6644-24":"0.00","ms6644-25":"0.00","ms6644-26":"0.00","ms6644-27":"0.00","ms6644-28":"0.00","ms6644-29":"0.00","ms6644-30":"0.01"},{"Metabolite":"Tyrosine","ms6644-1":"0.24","ms6644-2":"0.17","ms6644-3":"0.21","ms6644-4":"0.28","ms6644-5":"0.28","ms6644-6":"0.37","ms6644-7":"0.23","ms6644-8":"0.15","ms6644-9":"0.31","ms6644-10":"0.26","ms6644-11":"0.40","ms6644-12":"0.34","ms6644-13":"0.22","ms6644-14":"0.26","ms6644-15":"0.26","ms6644-16":"0.29","ms6644-17":"0.19","ms6644-18":"0.27","ms6644-19":"0.13","ms6644-20":"0.37","ms6644-21":"0.10","ms6644-22":"0.30","ms6644-23":"0.33","ms6644-24":"0.36","ms6644-25":"0.29","ms6644-26":"0.14","ms6644-27":"0.25","ms6644-28":"0.16","ms6644-29":"0.15","ms6644-30":"0.33"},{"Metabolite":"Methionine","ms6644-1":"0.11","ms6644-2":"0.08","ms6644-3":"0.10","ms6644-4":"0.15","ms6644-5":"0.17","ms6644-6":"0.18","ms6644-7":"0.12","ms6644-8":"0.07","ms6644-9":"0.16","ms6644-10":"0.17","ms6644-11":"0.20","ms6644-12":"0.18","ms6644-13":"0.10","ms6644-14":"0.14","ms6644-15":"0.13","ms6644-16":"0.16","ms6644-17":"0.12","ms6644-18":"0.13","ms6644-19":"0.07","ms6644-20":"0.23","ms6644-21":"0.05","ms6644-22":"0.18","ms6644-23":"0.20","ms6644-24":"0.18","ms6644-25":"0.16","ms6644-26":"0.06","ms6644-27":"0.15","ms6644-28":"0.09","ms6644-29":"0.08","ms6644-30":"0.17"},{"Metabolite":"Valine","ms6644-1":"0.40","ms6644-2":"0.35","ms6644-3":"0.45","ms6644-4":"0.77","ms6644-5":"0.77","ms6644-6":"0.51","ms6644-7":"0.45","ms6644-8":"0.18","ms6644-9":"0.69","ms6644-10":"0.62","ms6644-11":"0.76","ms6644-12":"0.63","ms6644-13":"0.37","ms6644-14":"0.48","ms6644-15":"0.52","ms6644-16":"0.71","ms6644-17":"0.49","ms6644-18":"0.52","ms6644-19":"0.32","ms6644-20":"0.70","ms6644-21":"0.23","ms6644-22":"0.72","ms6644-23":"0.77","ms6644-24":"0.65","ms6644-25":"0.89","ms6644-26":"0.25","ms6644-27":"0.58","ms6644-28":"0.48","ms6644-29":"0.28","ms6644-30":"0.79"},{"Metabolite":"Isoleucine","ms6644-1":"0.19","ms6644-2":"0.17","ms6644-3":"0.17","ms6644-4":"0.27","ms6644-5":"0.36","ms6644-6":"0.19","ms6644-7":"0.19","ms6644-8":"0.07","ms6644-9":"0.28","ms6644-10":"0.28","ms6644-11":"0.30","ms6644-12":"0.24","ms6644-13":"0.15","ms6644-14":"0.19","ms6644-15":"0.23","ms6644-16":"0.24","ms6644-17":"0.19","ms6644-18":"0.18","ms6644-19":"0.14","ms6644-20":"0.29","ms6644-21":"0.10","ms6644-22":"0.25","ms6644-23":"0.31","ms6644-24":"0.28","ms6644-25":"0.26","ms6644-26":"0.10","ms6644-27":"0.25","ms6644-28":"0.17","ms6644-29":"0.12","ms6644-30":"0.29"},{"Metabolite":"allo-Isoleucine","ms6644-1":"0.00","ms6644-2":"0.01","ms6644-3":"0.00","ms6644-4":"0.01","ms6644-5":"0.01","ms6644-6":"0.00","ms6644-7":"0.00","ms6644-8":"0.00","ms6644-9":"0.01","ms6644-10":"0.01","ms6644-11":"0.01","ms6644-12":"0.00","ms6644-13":"0.00","ms6644-14":"0.00","ms6644-15":"0.00","ms6644-16":"0.00","ms6644-17":"0.00","ms6644-18":"0.00","ms6644-19":"0.00","ms6644-20":"0.01","ms6644-21":"0.00","ms6644-22":"0.00","ms6644-23":"0.00","ms6644-24":"0.00","ms6644-25":"0.01","ms6644-26":"0.00","ms6644-27":"0.01","ms6644-28":"0.00","ms6644-29":"0.00","ms6644-30":"0.01"},{"Metabolite":"Homocystine","ms6644-1":"0.00","ms6644-2":"0.00","ms6644-3":"0.00","ms6644-4":"0.00","ms6644-5":"0.00","ms6644-6":"0.00","ms6644-7":"0.00","ms6644-8":"0.00","ms6644-9":"0.00","ms6644-10":"0.00","ms6644-11":"0.00","ms6644-12":"0.00","ms6644-13":"0.00","ms6644-14":"0.00","ms6644-15":"0.00","ms6644-16":"0.00","ms6644-17":"0.00","ms6644-18":"0.00","ms6644-19":"0.00","ms6644-20":"0.00","ms6644-21":"0.00","ms6644-22":"0.00","ms6644-23":"0.00","ms6644-24":"0.00","ms6644-25":"0.00","ms6644-26":"0.00","ms6644-27":"0.00","ms6644-28":"0.00","ms6644-29":"0.00","ms6644-30":"0.00"},{"Metabolite":"Leucine","ms6644-1":"0.37","ms6644-2":"0.27","ms6644-3":"0.33","ms6644-4":"0.56","ms6644-5":"0.69","ms6644-6":"0.44","ms6644-7":"0.36","ms6644-8":"0.17","ms6644-9":"0.51","ms6644-10":"0.42","ms6644-11":"0.56","ms6644-12":"0.55","ms6644-13":"0.31","ms6644-14":"0.37","ms6644-15":"0.44","ms6644-16":"0.51","ms6644-17":"0.39","ms6644-18":"0.41","ms6644-19":"0.26","ms6644-20":"0.70","ms6644-21":"0.18","ms6644-22":"0.58","ms6644-23":"0.59","ms6644-24":"0.55","ms6644-25":"0.62","ms6644-26":"0.20","ms6644-27":"0.47","ms6644-28":"0.37","ms6644-29":"0.23","ms6644-30":"0.62"},{"Metabolite":"Phenylalanine","ms6644-1":"0.22","ms6644-2":"0.15","ms6644-3":"0.19","ms6644-4":"0.26","ms6644-5":"0.27","ms6644-6":"0.31","ms6644-7":"0.24","ms6644-8":"0.13","ms6644-9":"0.28","ms6644-10":"0.20","ms6644-11":"0.34","ms6644-12":"0.34","ms6644-13":"0.21","ms6644-14":"0.21","ms6644-15":"0.23","ms6644-16":"0.28","ms6644-17":"0.21","ms6644-18":"0.22","ms6644-19":"0.14","ms6644-20":"0.38","ms6644-21":"0.09","ms6644-22":"0.35","ms6644-23":"0.27","ms6644-24":"0.28","ms6644-25":"0.31","ms6644-26":"0.12","ms6644-27":"0.25","ms6644-28":"0.16","ms6644-29":"0.15","ms6644-30":"0.32"},{"Metabolite":"Tryptophan","ms6644-1":"0.06","ms6644-2":"0.05","ms6644-3":"0.04","ms6644-4":"0.07","ms6644-5":"0.08","ms6644-6":"0.07","ms6644-7":"0.07","ms6644-8":"0.02","ms6644-9":"0.06","ms6644-10":"0.07","ms6644-11":"0.10","ms6644-12":"0.08","ms6644-13":"0.06","ms6644-14":"0.06","ms6644-15":"0.06","ms6644-16":"0.08","ms6644-17":"0.05","ms6644-18":"0.05","ms6644-19":"0.04","ms6644-20":"0.10","ms6644-21":"0.02","ms6644-22":"0.07","ms6644-23":"0.09","ms6644-24":"0.09","ms6644-25":"0.08","ms6644-26":"0.03","ms6644-27":"0.06","ms6644-28":"0.04","ms6644-29":"0.05","ms6644-30":"0.09"}],
+
+"Metabolites":[{"metabolite_name":"Histidine"},{"metabolite_name":"Hydroxyproline"},{"metabolite_name":"1-Methylhistidine"},{"metabolite_name":"3-Methylhistidine"},{"metabolite_name":"Asparagine"},{"metabolite_name":"Phosphoethanolamine"},{"metabolite_name":"Arginine"},{"metabolite_name":"Carnosine"},{"metabolite_name":"Taurine"},{"metabolite_name":"Anserine"},{"metabolite_name":"Serine"},{"metabolite_name":"Glutamine"},{"metabolite_name":"Ethanolamine"},{"metabolite_name":"Glycine"},{"metabolite_name":"Aspartic Acid"},{"metabolite_name":"Sarcosine"},{"metabolite_name":"Citrulline"},{"metabolite_name":"Glutamic Acid"},{"metabolite_name":"beta-Alanine"},{"metabolite_name":"Threonine"},{"metabolite_name":"Alanine"},{"metabolite_name":"gamma-Amino-N-butyric-acid"},{"metabolite_name":"alpha-Aminoadipic-acid"},{"metabolite_name":"beta-Aminoisobutyric-acid"},{"metabolite_name":"Proline"},{"metabolite_name":"Hydroxylysine 1"},{"metabolite_name":"Hydroxylysine 2"},{"metabolite_name":"alpha-Amino-N-butyric-acid"},{"metabolite_name":"Ornithine"},{"metabolite_name":"Cystathionine 1"},{"metabolite_name":"Cystathionine 2"},{"metabolite_name":"Lysine"},{"metabolite_name":"Cystine"},{"metabolite_name":"Tyrosine"},{"metabolite_name":"Methionine"},{"metabolite_name":"Valine"},{"metabolite_name":"Isoleucine"},{"metabolite_name":"allo-Isoleucine"},{"metabolite_name":"Homocystine"},{"metabolite_name":"Leucine"},{"metabolite_name":"Phenylalanine"},{"metabolite_name":"Tryptophan"}]
+}
+
+}
+]

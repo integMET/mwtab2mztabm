@@ -1,0 +1,179 @@
+MTD	mzTab-version	2.1.0-M
+MTD	mzTab-ID	ST000276_AN000440
+MTD	mzTab-profile	M+S
+MTD	title	IDH1 and Glioma knockdown idh1
+MTD	description	This study is a part of series performed for the same researcher through pilot/feasibility grant program, so the publication is relevant reference for other studies (ST000199)This specific experiment is a pilot study to compare the metabolism of cells transformed using empty vector against cells transformed with vector carrying short hairpin RNA (shRNA) targeted to silence isocitrate dehydrogenase-1 (IDH1) gene.
+MTD	instrument[1]-name	[MS, MS:1000031, instrument model, Agilent 6530 QTOF]
+MTD	instrument[1]-source	[MS, MS:1000073, electrospray ionization, ]
+MTD	instrument[1]-analyzer[1]	[MS, MS:1000081, quadrupole, ]
+MTD	instrument[1]-analyzer[2]	[MS, MS:1000084, time-of-flight, ]
+MTD	software[1]	[MS, MS:1000799, custom unreleased software tool, mwtab2mztabm 0.1.0]
+MTD	publication[1]	doi:10.21228/M8688J
+MTD	contact[1]-name	Andrea Calvert
+MTD	contact[1]-affiliation	University of Michigan
+MTD	contact[1]-email	a-calvert@u.northwestern.edu
+MTD	uri[1]	https://www.metabolomicsworkbench.org/data/DRCCMetadata.php?Mode=Study&StudyID=ST000276
+MTD	quantification_method	[MS, MS:1001834, LC-MS label-free quantitation analysis, ]
+MTD	sample[1]	S00014999
+MTD	sample[1]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[1]-tissue[1]	[,, "Cells, Cultured", ]
+MTD	sample[10]	S00015008
+MTD	sample[10]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[10]-tissue[1]	[,, "Cells, Cultured", ]
+MTD	sample[2]	S00015000
+MTD	sample[2]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[2]-tissue[1]	[,, "Cells, Cultured", ]
+MTD	sample[3]	S00015001
+MTD	sample[3]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[3]-tissue[1]	[,, "Cells, Cultured", ]
+MTD	sample[4]	S00015002
+MTD	sample[4]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[4]-tissue[1]	[,, "Cells, Cultured", ]
+MTD	sample[5]	S00015003
+MTD	sample[5]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[5]-tissue[1]	[,, "Cells, Cultured", ]
+MTD	sample[6]	S00015004
+MTD	sample[6]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[6]-tissue[1]	[,, "Cells, Cultured", ]
+MTD	sample[7]	S00015005
+MTD	sample[7]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[7]-tissue[1]	[,, "Cells, Cultured", ]
+MTD	sample[8]	S00015006
+MTD	sample[8]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[8]-tissue[1]	[,, "Cells, Cultured", ]
+MTD	sample[9]	S00015007
+MTD	sample[9]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[9]-tissue[1]	[,, "Cells, Cultured", ]
+MTD	ms_run[1]-location	S00014999
+MTD	ms_run[1]-instrument_ref	instrument[1]
+MTD	ms_run[1]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[2]-location	S00015000
+MTD	ms_run[2]-instrument_ref	instrument[1]
+MTD	ms_run[2]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[3]-location	S00015001
+MTD	ms_run[3]-instrument_ref	instrument[1]
+MTD	ms_run[3]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[4]-location	S00015002
+MTD	ms_run[4]-instrument_ref	instrument[1]
+MTD	ms_run[4]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[5]-location	S00015003
+MTD	ms_run[5]-instrument_ref	instrument[1]
+MTD	ms_run[5]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[6]-location	S00015004
+MTD	ms_run[6]-instrument_ref	instrument[1]
+MTD	ms_run[6]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[7]-location	S00015005
+MTD	ms_run[7]-instrument_ref	instrument[1]
+MTD	ms_run[7]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[8]-location	S00015006
+MTD	ms_run[8]-instrument_ref	instrument[1]
+MTD	ms_run[8]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[9]-location	S00015007
+MTD	ms_run[9]-instrument_ref	instrument[1]
+MTD	ms_run[9]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[10]-location	S00015008
+MTD	ms_run[10]-instrument_ref	instrument[1]
+MTD	ms_run[10]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	assay[1]	S00014999
+MTD	assay[1]-sample_ref	sample[1]
+MTD	assay[1]-ms_run_ref	ms_run[1]
+MTD	assay[10]	S00015008
+MTD	assay[10]-sample_ref	sample[10]
+MTD	assay[10]-ms_run_ref	ms_run[10]
+MTD	assay[2]	S00015000
+MTD	assay[2]-sample_ref	sample[2]
+MTD	assay[2]-ms_run_ref	ms_run[2]
+MTD	assay[3]	S00015001
+MTD	assay[3]-sample_ref	sample[3]
+MTD	assay[3]-ms_run_ref	ms_run[3]
+MTD	assay[4]	S00015002
+MTD	assay[4]-sample_ref	sample[4]
+MTD	assay[4]-ms_run_ref	ms_run[4]
+MTD	assay[5]	S00015003
+MTD	assay[5]-sample_ref	sample[5]
+MTD	assay[5]-ms_run_ref	ms_run[5]
+MTD	assay[6]	S00015004
+MTD	assay[6]-sample_ref	sample[6]
+MTD	assay[6]-ms_run_ref	ms_run[6]
+MTD	assay[7]	S00015005
+MTD	assay[7]-sample_ref	sample[7]
+MTD	assay[7]-ms_run_ref	ms_run[7]
+MTD	assay[8]	S00015006
+MTD	assay[8]-sample_ref	sample[8]
+MTD	assay[8]-ms_run_ref	ms_run[8]
+MTD	assay[9]	S00015007
+MTD	assay[9]-sample_ref	sample[9]
+MTD	assay[9]-ms_run_ref	ms_run[9]
+MTD	study_variable_group[1]	[,,IDH1 Knockdown,]
+MTD	study_variable_group[1]-description	mwTab sample factor IDH1 Knockdown
+MTD	study_variable_group[1]-type	[STATO, STATO:0000252, categorical variable, ]
+MTD	study_variable_group[1]-datatype	xsd:string
+MTD	study_variable_group[1]-study_variable_refs	study_variable[1]|study_variable[2]
+MTD	study_variable[1]	No
+MTD	study_variable[1]-assay_refs	assay[1]|assay[2]|assay[3]|assay[4]|assay[5]
+MTD	study_variable[1]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[1]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[1]-description	Variable IDH1 Knockdown, value No
+MTD	study_variable[2]	yes
+MTD	study_variable[2]-assay_refs	assay[6]|assay[7]|assay[8]|assay[9]|assay[10]
+MTD	study_variable[2]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[2]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[2]-description	Variable IDH1 Knockdown, value yes
+MTD	custom[1]	[,, Metabolomics Workbench analysis ID, AN000440]
+MTD	custom[2]	[,, chromatography type, HILIC]
+MTD	custom[3]	[,, chromatography instrument, Agilent 1260]
+MTD	custom[4]	[,, chromatography column, "Phenomenex Luna NH2 (150 x 1mm, 3um)"]
+MTD	cv[1]-label	MS
+MTD	cv[1]-full_name	PSI-MS controlled vocabulary
+MTD	cv[1]-version	4.1.138
+MTD	cv[1]-uri	https://www.ebi.ac.uk/ols4/ontologies/ms
+MTD	cv[2]-label	PRIDE
+MTD	cv[2]-full_name	PRIDE PRoteomics IDEntifications (PRIDE) database controlled vocabulary
+MTD	cv[2]-version	16:10:2023 11:38
+MTD	cv[2]-uri	https://www.ebi.ac.uk/ols/ontologies/pride
+MTD	cv[3]-label	STATO
+MTD	cv[3]-full_name	General purpose STATistics Ontology
+MTD	cv[3]-version	2026-04-20
+MTD	cv[3]-uri	https://www.ebi.ac.uk/ols4/ontologies/stato
+MTD	cv[4]-label	NCBITaxon
+MTD	cv[4]-full_name	NCBI organismal classification
+MTD	cv[4]-version	unknown
+MTD	cv[4]-uri	http://purl.obolibrary.org/obo/ncbitaxon.owl
+MTD	database[1]	[,, KEGG, ]
+MTD	database[1]-prefix	KEGG
+MTD	database[1]-version	Unknown
+MTD	database[1]-uri	https://www.kegg.jp
+MTD	database[2]	[,, PubChem, ]
+MTD	database[2]-prefix	PubChem
+MTD	database[2]-version	Unknown
+MTD	database[2]-uri	https://pubchem.ncbi.nlm.nih.gov
+MTD	small_molecule-quantification_unit	[,, pmol/µg protein, ]
+MTD	small_molecule-identification_reliability	[MS, MS:1002896, compound identification confidence level, ]
+
+SMH	SML_ID	SMF_ID_REFS	database_identifier	chemical_formula	smiles	inchi	chemical_name	uri	theoretical_neutral_mass	adduct_ions	reliability	best_id_confidence_measure	best_id_confidence_value	abundance_assay[1]	abundance_assay[2]	abundance_assay[3]	abundance_assay[4]	abundance_assay[5]	abundance_assay[6]	abundance_assay[7]	abundance_assay[8]	abundance_assay[9]	abundance_assay[10]	abundance_study_variable[1]	abundance_study_variable[2]	abundance_variation_study_variable[1]	abundance_variation_study_variable[2]	opt_global_metabolite_name	opt_global_pubchem_id	opt_global_inchi_key	opt_global_kegg_id	opt_global_other_id	opt_global_other_id_type	opt_global_ri	opt_global_ri_type	opt_global_moverz_quant	opt_global_c_na_character_na_character_na_character_na_character
+SML	1	null	KEGG:C00597	null	null	null	2 or 3-phosphoglycerate_2PG/3PG	https://www.kegg.jp/entry/C00597	null	null	2	null	null	15.2684	20.619	23.4381	12.2102	15.2395	22.2005	15.0676	21.5047	15.1398	16.4459	17.35504	18.0717	0.262402705764172	0.193863315836114	2 or 3-phosphoglycerate_2PG/3PG	724	null	C00597	2PG/3PG	UM_Target_ID	null	null	null	null
+SML	2	null	KEGG:C00345	null	null	null	6-Phosphogluconate	https://www.kegg.jp/entry/C00345	null	null	2	null	null	17.6862	23.7846	26.4129	13.7886	19.1897	27.0367	17.7068	27.2094	19.1007	21.8335	20.1724	22.57742	0.24772906530606	0.19521733153837	6-Phosphogluconate	91493	null	C00345	6PG	UM_Target_ID	null	null	null	null
+SML	3	null	KEGG:C00024	null	null	null	Acetyl-CoA	https://www.kegg.jp/entry/C00024	null	null	2	null	null	16.8594	22.4543	24.8554	13.1727	16.5836	22.1267	15.1568	22.5592	16.633	17.405	18.78508	18.77614	0.253022037591056	0.178855569264066	Acetyl-CoA	444493	null	C00024	aCoA	UM_Target_ID	null	null	null	null
+SML	4	null	KEGG:C00008	null	null	null	ADP	https://www.kegg.jp/entry/C00008	null	null	2	null	null	141.8273	180.8952	198.6299	129.0832	98.7574	205.7849	151.822	236.9052	194.7472	181.024	149.8386	194.05666	0.267981370931898	0.16147579499606	ADP	6022	null	C00008	ADP	UM_Target_ID	null	null	null	null
+SML	5	null	KEGG:C00020	null	null	null	AMP	https://www.kegg.jp/entry/C00020	null	null	2	null	null	652.5372	829.6242	919.1071	448.694	428.6916	749.0836	541.565	735.6193	574.4925	463.0508	655.73082	612.76224	0.335873502338494	0.204197379540431	AMP	6083	null	C00020	AMP	UM_Target_ID	null	null	null	null
+SML	6	null	KEGG:C00002	null	null	null	ATP	https://www.kegg.jp/entry/C00002	null	null	2	null	null	461.9507	470.3373	552.7637	479.1216	262.0738	694.2409	464.7696	870.7787	777.8531	794.8952	445.24942	720.5075	0.2438887091774	0.216682238773961	ATP	5957	null	C00002	ATP	UM_Target_ID	null	null	null	null
+SML	7	null	KEGG:C00158	null	null	null	Citrate or Isocitrate	https://www.kegg.jp/entry/C00158	null	null	2	null	null	936.5463	949.5495	1230.5785	690.927	821.0633	709.6282	465.9267	727.7756	626.5704	669.6705	925.73292	639.91428	0.215845461671103	0.16373959665929	Citrate or Isocitrate	311	null	C00158	CIT/ICIT	UM_Target_ID	null	null	null	null
+SML	8	null	KEGG:C02143	null	null	null	erythrose	https://www.kegg.jp/entry/C02143	null	null	2	null	null	33.0442	28.7963	77.8063	24.1673	62.237	null	7.6639	5.0417	9.2515	26.6524	45.21022	12.152375	0.520223112588953	0.808179619779212	erythrose	94176	null	C02143	ERY	UM_Target_ID	null	null	null	null
+SML	9	null	KEGG:C00279	null	null	null	Erythrose 4-phosphate	https://www.kegg.jp/entry/C00279	null	null	2	null	null	35.6925	29.9809	61.1633	29.5472	37.2907	42.078	29.6363	55.4645	47.434	45.8037	38.73492	44.0833	0.335470815625264	0.214140444146794	Erythrose 4-phosphate	122357	null	C00279	E4P	UM_Target_ID	null	null	null	null
+SML	10	null	KEGG:C00016	null	null	null	flavin adenine dinucleotide	https://www.kegg.jp/entry/C00016	null	null	2	null	null	7.4979	10.356	12.1225	6.2196	7.6605	10.3921	7.1655	11.8516	8.7628	9.0587	8.7713	9.44614	0.27402557388216	0.18713768656904	flavin adenine dinucleotide	643975	null	C00016	FAD	UM_Target_ID	null	null	null	null
+SML	11	null	KEGG:C00354	null	null	null	Fructose 1_6-bisphosphate	https://www.kegg.jp/entry/C00354	null	null	2	null	null	69.308	82.8799	98.7222	57.2519	45.6666	71.5205	60.163	78.8434	60.9669	61.6814	70.76572	66.63504	0.294984899019514	0.123630211381463	Fructose 1_6-bisphosphate	172313	null	C00354	FBP	UM_Target_ID	null	null	null	null
+SML	12	null	KEGG:C00092	null	null	null	Glucose 6-phosphate or fructose-6-phosphate	https://www.kegg.jp/entry/C00092	null	null	2	null	null	85.188	75.1851	99.5117	60.8493	57.9876	91.3182	56.2837	114.4483	86.0812	92.1941	75.74434	88.0651	0.227863827786679	0.236675495975391	Glucose 6-phosphate or fructose-6-phosphate	5958	null	C00092	G6P/F6P	UM_Target_ID	null	null	null	null
+SML	13	null	KEGG:C00035	null	null	null	guanosine 5^-diphosphate	https://www.kegg.jp/entry/C00035	null	null	2	null	null	23.2924	45.0739	47.6427	28.1244	20.4777	44.3769	38.4507	69.3249	48.6709	52.9583	32.92222	50.75634	0.382700487651596	0.23020874342777	guanosine 5^-diphosphate	8977	null	C00035	GDP	UM_Target_ID	null	null	null	null
+SML	14	null	KEGG:C00144	null	null	null	guanosine 5^-monophosphate	https://www.kegg.jp/entry/C00144	null	null	2	null	null	3.4553	5.3458	5.6254	3.0489	3.1901	4.5709	3.5829	5.828	3.8469	3.7847	4.1331	4.32268	0.301752197377803	0.212990071724025	guanosine 5^-monophosphate	6804	null	C00144	GMP	UM_Target_ID	null	null	null	null
+SML	15	null	KEGG:C00044	null	null	null	guanosine 5^-triphosphate	https://www.kegg.jp/entry/C00044	null	null	2	null	null	16.5563	26.3197	29.0029	17.4227	18.3531	29.8463	21.6192	38.5941	30.0206	34.9164	21.53094	30.99932	0.265270260859755	0.206114494435161	guanosine 5^-triphosphate	6830	null	C00044	GTP	UM_Target_ID	null	null	null	null
+SML	16	null	KEGG:C00149	null	null	null	Malate	https://www.kegg.jp/entry/C00149	null	null	2	null	null	991.914	907.7035	1279.6747	866.3719	698.6432	1111.6626	699.9722	944.3375	940.4108	902.714	948.86146	919.81942	0.225049447932806	0.15983093341585	Malate	222656	null	C00149	MAL	UM_Target_ID	null	null	null	null
+SML	17	null	KEGG:C00003	null	null	null	Nicotinamide Adenine Dinucleotide oxidized	https://www.kegg.jp/entry/C00003	null	null	2	null	null	90.7688	93.6636	121.4057	73.7462	63.4411	139.0454	86.6988	145.4194	112.1841	113.1869	88.60508	119.30692	0.24983742577993	0.19759184323871	Nicotinamide Adenine Dinucleotide oxidized	10897651	null	C00003	NAD	UM_Target_ID	null	null	null	null
+SML	18	null	KEGG:C00006	null	null	null	nicotinamide adenine dinucleotide phosphate oxidized	https://www.kegg.jp/entry/C00006	null	null	2	null	null	4.3046	1.0805	4.2444	2.2002	null	3.709	1.4878	5.8322	3.2584	3.2117	2.957425	3.49982	0.537031323669907	0.444335527985607	nicotinamide adenine dinucleotide phosphate oxidized	5886	null	C00006	NADP	UM_Target_ID	null	null	null	null
+SML	19	null	KEGG:C00006	null	null	null	nicotinamide adenine dinucleotide phosphate reduced	https://www.kegg.jp/entry/C00006	null	null	2	null	null	26.7725	35.0579	36.4935	25.6258	24.2748	33.2817	27.043	32.3769	31.7478	29.7391	29.6449	30.8377	0.191895083618249	0.0807075855009436	nicotinamide adenine dinucleotide phosphate reduced	5886	null	C00006	NADPH	UM_Target_ID	null	null	null	null
+SML	20	null	KEGG:C00004	null	null	null	Nicotinamide Adenine Dinucleotide reduced	https://www.kegg.jp/entry/C00004	null	null	2	null	null	13.8329	21.1491	23.3243	11.6355	15.8388	19.9616	13.2308	20.6977	13.9447	14.9794	17.15612	16.56284	0.287401063046089	0.211560080669297	Nicotinamide Adenine Dinucleotide reduced	439153	null	C00004	NADH	UM_Target_ID	null	null	null	null
+SML	21	null	KEGG:C00074	null	null	null	Phosphoenolpyruvate	https://www.kegg.jp/entry/C00074	null	null	2	null	null	30.978	45.3703	49.8261	24.6009	35.2011	46.049	30.737	null	30.9441	null	37.19528	35.9100333333333	0.277977927237402	0.244533698517359	Phosphoenolpyruvate	1005	null	C00074	PEP	UM_Target_ID	null	null	null	null
+SML	22	null	KEGG:C00117	null	null	null	Ribose-5-phosphate or xylulose 5-phosphate	https://www.kegg.jp/entry/C00117	null	null	2	null	null	23.7059	14.9983	28.0342	15.1046	11.5529	28.3019	14.9329	24.1783	19.8986	18.4868	18.67918	21.1597	0.368865973993207	0.245148210455923	Ribose-5-phosphate or xylulose 5-phosphate	77982	null	C00117	R5P/X5P	UM_Target_ID	null	null	null	null
+SML	23	null	PubChem:102926	null	null	null	sedoheptulose	https://pubchem.ncbi.nlm.nih.gov/compound/102926	null	null	2	null	null	10.4741	12.7426	15.8358	5.6668	8.5453	10.3963	6.9639	11.3288	8.356	10.3075	10.65292	9.4705	0.365266789788026	0.186929759395405	sedoheptulose	102926	null	null	SED	UM_Target_ID	null	null	null	null
+SML	24	null	KEGG:C05382	null	null	null	Sedoheptulose 7-phosphate	https://www.kegg.jp/entry/C05382	null	null	2	null	null	15.0706	17.8956	23.311	13.3722	16.0837	23.7804	12.5196	28.5041	19.0734	19.9277	17.14662	20.76104	0.222549300997268	0.285505062496759	Sedoheptulose 7-phosphate	165007	null	C05382	S7P	UM_Target_ID	null	null	null	null
+SML	25	null	KEGG:C00089	null	null	null	Sucrose	https://www.kegg.jp/entry/C00089	null	null	2	null	null	62.3013	85.6996	102.1007	54.5533	62.399	100.4478	66.7923	89.4629	73.0057	79.7717	73.41078	81.89608	0.270252191229599	0.163035369878031	Sucrose	5988	null	C00089	SUC	UM_Target_ID	null	null	null	null
+

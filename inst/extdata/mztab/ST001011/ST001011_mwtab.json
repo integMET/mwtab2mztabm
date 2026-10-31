@@ -1,0 +1,213 @@
+[
+{
+"METABOLOMICS WORKBENCH":{"STUDY_ID":"ST001011","ANALYSIS_ID":"AN001653","VERSION":"1","CREATED_ON":"July 17, 2018, 12:41 pm"},
+
+"PROJECT":{"PROJECT_TITLE":"Mayo Pilot and Feasibility: Metabolomics of Muscle Wasting in Cancer Cachexia","PROJECT_SUMMARY":"Cachexia is a debilitating syndrome that results in severe, involuntary weight loss due to the depletion of skeletal muscle mass. This syndrome occurs in a majority of cancers and contributes to approximately one third of all cancer deaths. Currently, no effective therapy exists to combat this malignant disorder, and disappointing results from recent Phase III clinical trials indicate that a cachexia treatment is not likely to appear soon. Thus, it is clear that greater knowledge of the mechanisms driving muscle wasting in cachexia is needed in order to identify new therapeutic targets and stimulate new clinical trials. Our approach to gaining this knowledge has been to work with muscle biopsies from pancreatic cancer patients, since this population is highly prone to cachexia. We have also been expanding our studies beyond the classical mouse models of cancer cachexia in hopes of finding a new model that better recapitulates the human disease. We recently undertook RNA-Seq analysis comparing muscle biopsies from pancreatic cancer patients with and without cachexia, which has been exciting since this type of analysis has not yet been performed in patient samples. Preliminary results revealed that cachectic muscle was associated with alterations in metabolism. These data provide the rationale for performing metabolomics to ascertain whether specific metabolic pathways or metabolites can be identified as potential drivers of muscle wasting in cachexia or be used as biomarker of cachexia, which the field desperately needs. An additional need is a well-validated animal model of cancer cachexia that accurately reflects the human condition, which can be used to test mechanisms and pre-clinical compounds. We propose to perform these studies under the Mayo Clinic Metabolomics Resource Core Pilot and Feasibility Grant program to: 1) Identify metabolic alterations and biomarkers of pancreatic cancer-induced muscle wasting; and 2) Identify a suitable mouse model that recapitulates the metabolic imbalance of muscles from pancreatic cancer cachexia patients. By performing these studies, we will accelerate our understanding of the underlying causes of muscle wasting, which should translate to improving the current pipeline of anticachexia therapies.","INSTITUTE":"Mayo Clinic","LAST_NAME":"Guttridge","FIRST_NAME":"Denis","ADDRESS":"520 Biomedical Research Tower 460 W. 12th Avenue Columbus, OH 43210","EMAIL":"denis.guttridge@osumc.edu","PHONE":"614-688-3137"},
+
+"STUDY":{"STUDY_TITLE":"NEFA Panel in Serum for Muscle Wasting in Cancer Cachexia (part-VI)","STUDY_SUMMARY":"NEFA Panel of Muscle Wasting in Cancer Cachexia. Serum samples from 10 control patients, 10 weight stable pancreatic cancer patients, and 10 pancreatic cancer patients with significant weight loss. Samples are divided evenly between males and females.","INSTITUTE":"Mayo Clinic","LAST_NAME":"Guttridge","FIRST_NAME":"Denis","ADDRESS":"520 Biomedical Research Tower 460 W. 12th Avenue Columbus, OH 43210","EMAIL":"denis.guttridge@osumc.edu","PHONE":"614-688-3137"},
+
+"SUBJECT":{"SUBJECT_TYPE":"Human","SUBJECT_SPECIES":"Homo sapiens","TAXONOMY_ID":"9606"},
+"SUBJECT_SAMPLE_FACTORS":[
+{
+"Subject ID":"-",
+"Sample ID":"ms6654-1",
+"Factors":{"Grouping":"Weight Losing","Gender":"Female"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6654-2",
+"Factors":{"Grouping":"Control","Gender":"Male"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6654-3",
+"Factors":{"Grouping":"Control","Gender":"Female"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6654-4",
+"Factors":{"Grouping":"Control","Gender":"Female"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6654-5",
+"Factors":{"Grouping":"Weight Losing","Gender":"Male"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6654-6",
+"Factors":{"Grouping":"Weight Losing","Gender":"Male"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6654-7",
+"Factors":{"Grouping":"Control","Gender":"Female"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6654-8",
+"Factors":{"Grouping":"Weight Stable","Gender":"Male"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6654-9",
+"Factors":{"Grouping":"Control","Gender":"Female"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6654-10",
+"Factors":{"Grouping":"Control","Gender":"Male"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6654-11",
+"Factors":{"Grouping":"Weight Stable","Gender":"Male"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6654-12",
+"Factors":{"Grouping":"Weight Stable","Gender":"Male"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6654-13",
+"Factors":{"Grouping":"Weight Losing","Gender":"Male"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6654-14",
+"Factors":{"Grouping":"Weight Losing","Gender":"Male"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6654-15",
+"Factors":{"Grouping":"Control","Gender":"Male"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6654-16",
+"Factors":{"Grouping":"Weight Stable","Gender":"Female"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6654-17",
+"Factors":{"Grouping":"Weight Stable","Gender":"Female"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6654-18",
+"Factors":{"Grouping":"Control","Gender":"Female"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6654-19",
+"Factors":{"Grouping":"Weight Stable","Gender":"Female"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6654-20",
+"Factors":{"Grouping":"Control","Gender":"Male"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6654-21",
+"Factors":{"Grouping":"Weight Losing","Gender":"Female"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6654-22",
+"Factors":{"Grouping":"Weight Losing","Gender":"Female"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6654-23",
+"Factors":{"Grouping":"Weight Stable","Gender":"Male"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6654-24",
+"Factors":{"Grouping":"Weight Stable","Gender":"Female"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6654-25",
+"Factors":{"Grouping":"Weight Stable","Gender":"Female"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6654-26",
+"Factors":{"Grouping":"Weight Losing","Gender":"Female"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6654-27",
+"Factors":{"Grouping":"Control","Gender":"Male"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6654-28",
+"Factors":{"Grouping":"Weight Stable","Gender":"Male"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6654-29",
+"Factors":{"Grouping":"Weight Losing","Gender":"Female"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6654-30",
+"Factors":{"Grouping":"Weight Losing","Gender":"Male"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+}
+],
+"COLLECTION":{"COLLECTION_SUMMARY":"Tissue and blood donated from Cancer Cachexia Program at Ohio State University","SAMPLE_TYPE":"Blood (serum)"},
+
+"TREATMENT":{"TREATMENT_SUMMARY":"Cancer cachexia is a multi-factorial syndrome accompanying advanced cancer, with the most notable symptom being unintentional weight loss. Cachectic patients lose both adipose tissue and skeletal muscle, with skeletal muscle loss and its associated weakness contributing to the morbidity and mortality of these patients. Despite three decades of research into mechanisms driving muscle wasting due to cancer, to date, an approved pharmacological therapy to prevent or treat cancer cachexia is still lacking. Our laboratory focuses on cancer cachexia in patients with pancreatic cancer, as up to 85% of these patients experience weight loss. Cachexia often occurs early in the progression of pancreatic cancer, making clear that cachexia in these patients is not simply a result of end-stage disease. Further, with perhaps more than ¼ of all pancreatic cancer deaths resulting from muscle weakness as opposed to tumor burden, cachexia also significantly contributes to mortality due to pancreatic cancer. Because little progress has been made in improving treatment outcomes, addressing cancer-induced muscle wasting is perhaps the best strategy to prolong pancreatic cancer patient survival and increase patient quality of life. In an effort to better understand the mechanisms driving pancreatic cancer-induced muscle wasting, the Cancer Cachexia Program at Ohio State University has begun a Pancreatic Cancer Cachexia Tissue Bank. To date, over 130 patients undergoing attempted resection for pancreatic cancer or other abdominal surgeries have donated muscle and blood to our bank. A unique aspect of our tissue bank is our focus on patients eligible for resection. In contrast to other studies using patients with late-stage disease, our patients are not end-stage, as they are considered healthy enough to undergo a major operation."},
+
+"SAMPLEPREP":{"SAMPLEPREP_SUMMARY":"NEFA panel using serum"},
+
+"CHROMATOGRAPHY":{"CHROMATOGRAPHY_TYPE":"Reversed phase","INSTRUMENT_NAME":"Agilent 1290 Infinity","COLUMN_NAME":"Waters Acquity BEH C18 (150 x 2.1mm, 1.7um)"},
+
+"ANALYSIS":{"ANALYSIS_TYPE":"MS"},
+
+"MS":{"MS_COMMENTS":"-","INSTRUMENT_NAME":"Agilent 6460 QQQ","INSTRUMENT_TYPE":"Triple quadrupole","MS_TYPE":"ESI","ION_MODE":"NEGATIVE"},
+
+"MS_METABOLITE_DATA":{
+"Units":"uM",
+
+"Data":[{"Metabolite":"EPA","ms6654-1":"0.4","ms6654-2":"0.5","ms6654-3":"0.7","ms6654-4":"0.5","ms6654-5":"0.4","ms6654-6":"0.5","ms6654-7":"0.8","ms6654-8":"0.6","ms6654-9":"0.6","ms6654-10":"0.4","ms6654-11":"0.5","ms6654-12":"1.3","ms6654-13":"1.4","ms6654-14":"0.6","ms6654-15":"1.0","ms6654-16":"0.6","ms6654-17":"0.5","ms6654-18":"0.5","ms6654-19":"0.9","ms6654-20":"0.6","ms6654-21":"0.9","ms6654-22":"0.4","ms6654-23":"0.5","ms6654-24":"0.6","ms6654-25":"0.6","ms6654-26":"0.6","ms6654-27":"0.4","ms6654-28":"0.6","ms6654-29":"0.5","ms6654-30":"0.6"},{"Metabolite":"linolenic","ms6654-1":"8.3","ms6654-2":"26.4","ms6654-3":"20.8","ms6654-4":"11.6","ms6654-5":"16.6","ms6654-6":"25.5","ms6654-7":"22.7","ms6654-8":"15.7","ms6654-9":"15.1","ms6654-10":"14.1","ms6654-11":"9.8","ms6654-12":"25.6","ms6654-13":"31.6","ms6654-14":"16.0","ms6654-15":"21.8","ms6654-16":"20.6","ms6654-17":"16.7","ms6654-18":"13.0","ms6654-19":"35.2","ms6654-20":"24.2","ms6654-21":"18.3","ms6654-22":"18.3","ms6654-23":"11.0","ms6654-24":"22.2","ms6654-25":"14.5","ms6654-26":"21.3","ms6654-27":"15.5","ms6654-28":"28.7","ms6654-29":"25.9","ms6654-30":"22.5"},{"Metabolite":"DHA","ms6654-1":"1.2","ms6654-2":"0.8","ms6654-3":"2.7","ms6654-4":"1.8","ms6654-5":"2.0","ms6654-6":"2.7","ms6654-7":"1.6","ms6654-8":"1.6","ms6654-9":"2.0","ms6654-10":"1.3","ms6654-11":"1.3","ms6654-12":"3.2","ms6654-13":"4.0","ms6654-14":"2.5","ms6654-15":"2.7","ms6654-16":"1.4","ms6654-17":"0.6","ms6654-18":"1.7","ms6654-19":"3.7","ms6654-20":"1.4","ms6654-21":"2.6","ms6654-22":"1.6","ms6654-23":"2.2","ms6654-24":"1.6","ms6654-25":"1.4","ms6654-26":"1.5","ms6654-27":"1.3","ms6654-28":"1.9","ms6654-29":"2.4","ms6654-30":"2.9"},{"Metabolite":"myristic","ms6654-1":"3.3","ms6654-2":"13.0","ms6654-3":"13.3","ms6654-4":"12.7","ms6654-5":"9.3","ms6654-6":"16.1","ms6654-7":"8.7","ms6654-8":"14.3","ms6654-9":"12.5","ms6654-10":"5.8","ms6654-11":"3.9","ms6654-12":"18.8","ms6654-13":"22.3","ms6654-14":"9.6","ms6654-15":"9.8","ms6654-16":"7.2","ms6654-17":"11.0","ms6654-18":"10.2","ms6654-19":"19.6","ms6654-20":"17.8","ms6654-21":"9.4","ms6654-22":"6.6","ms6654-23":"7.9","ms6654-24":"13.9","ms6654-25":"12.4","ms6654-26":"8.9","ms6654-27":"6.1","ms6654-28":"13.6","ms6654-29":"9.9","ms6654-30":"18.3"},{"Metabolite":"palmitoleic","ms6654-1":"7.6","ms6654-2":"33.7","ms6654-3":"23.9","ms6654-4":"17.8","ms6654-5":"23.7","ms6654-6":"25.2","ms6654-7":"22.4","ms6654-8":"18.8","ms6654-9":"32.5","ms6654-10":"11.1","ms6654-11":"8.5","ms6654-12":"41.5","ms6654-13":"52.2","ms6654-14":"25.6","ms6654-15":"20.0","ms6654-16":"30.5","ms6654-17":"12.4","ms6654-18":"23.1","ms6654-19":"45.2","ms6654-20":"69.7","ms6654-21":"13.6","ms6654-22":"24.2","ms6654-23":"24.9","ms6654-24":"45.3","ms6654-25":"30.8","ms6654-26":"35.1","ms6654-27":"21.0","ms6654-28":"49.6","ms6654-29":"33.2","ms6654-30":"39.2"},{"Metabolite":"arachidonic","ms6654-1":"2.9","ms6654-2":"3.4","ms6654-3":"6.6","ms6654-4":"5.9","ms6654-5":"5.6","ms6654-6":"5.2","ms6654-7":"7.1","ms6654-8":"3.8","ms6654-9":"5.7","ms6654-10":"3.5","ms6654-11":"4.6","ms6654-12":"7.3","ms6654-13":"9.2","ms6654-14":"5.0","ms6654-15":"5.1","ms6654-16":"3.9","ms6654-17":"2.8","ms6654-18":"4.3","ms6654-19":"7.8","ms6654-20":"4.5","ms6654-21":"6.2","ms6654-22":"3.8","ms6654-23":"4.5","ms6654-24":"5.9","ms6654-25":"3.9","ms6654-26":"5.9","ms6654-27":"4.6","ms6654-28":"6.0","ms6654-29":"6.2","ms6654-30":"5.9"},{"Metabolite":"palmitelaidic","ms6654-1":"0.0","ms6654-2":"0.0","ms6654-3":"0.0","ms6654-4":"0.0","ms6654-5":"0.0","ms6654-6":"0.0","ms6654-7":"0.0","ms6654-8":"0.0","ms6654-9":"0.0","ms6654-10":"0.0","ms6654-11":"0.0","ms6654-12":"0.0","ms6654-13":"0.0","ms6654-14":"0.0","ms6654-15":"0.0","ms6654-16":"0.0","ms6654-17":"0.0","ms6654-18":"0.0","ms6654-19":"0.0","ms6654-20":"0.0","ms6654-21":"0.0","ms6654-22":"0.0","ms6654-23":"0.0","ms6654-24":"0.0","ms6654-25":"0.0","ms6654-26":"0.0","ms6654-27":"0.0","ms6654-28":"0.0","ms6654-29":"0.0","ms6654-30":"0.0"},{"Metabolite":"linoleic","ms6654-1":"67.1","ms6654-2":"208.2","ms6654-3":"182.7","ms6654-4":"120.8","ms6654-5":"141.7","ms6654-6":"196.1","ms6654-7":"186.7","ms6654-8":"120.2","ms6654-9":"147.2","ms6654-10":"128.7","ms6654-11":"96.3","ms6654-12":"157.2","ms6654-13":"238.7","ms6654-14":"145.0","ms6654-15":"156.4","ms6654-16":"135.2","ms6654-17":"94.0","ms6654-18":"109.3","ms6654-19":"258.5","ms6654-20":"193.0","ms6654-21":"144.3","ms6654-22":"152.7","ms6654-23":"76.7","ms6654-24":"159.8","ms6654-25":"97.6","ms6654-26":"181.6","ms6654-27":"139.7","ms6654-28":"205.1","ms6654-29":"212.8","ms6654-30":"179.0"},{"Metabolite":"palmitic","ms6654-1":"73.0","ms6654-2":"210.0","ms6654-3":"215.1","ms6654-4":"179.3","ms6654-5":"168.5","ms6654-6":"222.1","ms6654-7":"219.1","ms6654-8":"174.5","ms6654-9":"213.9","ms6654-10":"108.9","ms6654-11":"92.0","ms6654-12":"279.9","ms6654-13":"326.7","ms6654-14":"181.9","ms6654-15":"167.0","ms6654-16":"131.1","ms6654-17":"90.3","ms6654-18":"144.4","ms6654-19":"346.6","ms6654-20":"259.6","ms6654-21":"180.1","ms6654-22":"179.5","ms6654-23":"110.6","ms6654-24":"184.7","ms6654-25":"165.4","ms6654-26":"194.7","ms6654-27":"133.4","ms6654-28":"257.3","ms6654-29":"220.2","ms6654-30":"313.6"},{"Metabolite":"oleic","ms6654-1":"105.8","ms6654-2":"407.4","ms6654-3":"315.5","ms6654-4":"248.0","ms6654-5":"255.5","ms6654-6":"326.9","ms6654-7":"331.2","ms6654-8":"196.0","ms6654-9":"310.4","ms6654-10":"165.0","ms6654-11":"144.4","ms6654-12":"354.0","ms6654-13":"436.9","ms6654-14":"295.2","ms6654-15":"229.7","ms6654-16":"193.4","ms6654-17":"104.5","ms6654-18":"219.4","ms6654-19":"528.6","ms6654-20":"363.4","ms6654-21":"200.7","ms6654-22":"276.5","ms6654-23":"172.5","ms6654-24":"252.6","ms6654-25":"194.9","ms6654-26":"307.0","ms6654-27":"199.1","ms6654-28":"417.7","ms6654-29":"329.1","ms6654-30":"339.5"},{"Metabolite":"elaidic","ms6654-1":"6.8","ms6654-2":"16.4","ms6654-3":"16.3","ms6654-4":"10.9","ms6654-5":"13.0","ms6654-6":"14.6","ms6654-7":"14.0","ms6654-8":"7.7","ms6654-9":"14.3","ms6654-10":"4.8","ms6654-11":"7.5","ms6654-12":"16.5","ms6654-13":"17.0","ms6654-14":"10.6","ms6654-15":"9.9","ms6654-16":"8.9","ms6654-17":"16.4","ms6654-18":"11.9","ms6654-19":"17.9","ms6654-20":"8.3","ms6654-21":"9.1","ms6654-22":"12.7","ms6654-23":"9.7","ms6654-24":"9.4","ms6654-25":"10.6","ms6654-26":"15.3","ms6654-27":"6.3","ms6654-28":"13.3","ms6654-29":"10.1","ms6654-30":"12.8"},{"Metabolite":"stearic","ms6654-1":"28.5","ms6654-2":"43.5","ms6654-3":"53.6","ms6654-4":"53.6","ms6654-5":"46.8","ms6654-6":"48.7","ms6654-7":"59.4","ms6654-8":"37.5","ms6654-9":"40.9","ms6654-10":"31.2","ms6654-11":"34.8","ms6654-12":"36.6","ms6654-13":"48.2","ms6654-14":"38.4","ms6654-15":"39.9","ms6654-16":"37.1","ms6654-17":"29.8","ms6654-18":"46.9","ms6654-19":"51.1","ms6654-20":"48.7","ms6654-21":"45.1","ms6654-22":"47.3","ms6654-23":"31.7","ms6654-24":"36.1","ms6654-25":"27.8","ms6654-26":"38.7","ms6654-27":"23.8","ms6654-28":"44.5","ms6654-29":"42.3","ms6654-30":"51.3"}],
+
+"Metabolites":[{"metabolite_name":"EPA"},{"metabolite_name":"linolenic"},{"metabolite_name":"DHA"},{"metabolite_name":"myristic"},{"metabolite_name":"palmitoleic"},{"metabolite_name":"arachidonic"},{"metabolite_name":"palmitelaidic"},{"metabolite_name":"linoleic"},{"metabolite_name":"palmitic"},{"metabolite_name":"oleic"},{"metabolite_name":"elaidic"},{"metabolite_name":"stearic"}]
+}
+
+}
+]

@@ -1,0 +1,1429 @@
+# mwTab metadata of study ST000388, analysis AN000624
+# Exported by mwtab2mztabm 0.1.0.
+# Sample metadata is listed in [[SUBJECT_SAMPLE_FACTORS]].
+
+[mwtab2mztabm]
+format_version = 1
+factor_order = ["Smoking Status", "Gender", "Emphysema/COPD", "Group"]
+additional_data_order = ["Cancer Type", "Nodule Classification"]
+
+["METABOLOMICS WORKBENCH"]
+STUDY_ID = "ST000388"
+ANALYSIS_ID = "AN000624"
+VERSION = "1"
+CREATED_ON = "July 9, 2016, 11:53 am"
+
+[PROJECT]
+PROJECT_TITLE = "Serum phosphatidylethanolamine levels distinguish benign from malignant solitary pulmonary nodules and represent a potential diagnostic biomarker for lung cancer."
+PROJECT_SUMMARY = "Recent computed tomography (CT) screening trials showed that it is effective for early detection of lung cancer, but were plagued by high false positive rates. Additional blood biomarker tests designed to complement CT screening and reduce false positive rates are highly desirable. In the current study, we expand upon our initial experimental findings as part of the discovery phase by evaluating metabolites in serum from subjects with benign or malignant SPNs using a combined approach of gas chromatography time-of-flight mass spectrometry (GC-TOFMS) and hydrophilic liquid chromatography accurate mass quadrupole time-of-flight mass spectrometry (HILIC-qTOFMS). Furthermore, we evaluated serum collected pre-diagnosis and at-diagnosis of lung cancer in addition to samples obtained post-surgical intervention from subjects with malignant SPNs (post-diagnosis). We hypothesize that our systems biology approach to identify candidate metabolomics biomarkers will ultimately lead to improved early detection of lung cancer and can be used in as a companion blood test to LDCT screening."
+INSTITUTE = "University of California, Davis"
+DEPARTMENT = "Genome and Biomedical Sciences Facility"
+LABORATORY = "WCMC Metabolomics Core"
+LAST_NAME = "Fiehn"
+FIRST_NAME = "Oliver"
+ADDRESS = "1315 Genome and Biomedical Sciences Facility, 451 Health Sciences Drive, Davis, CA 95616"
+EMAIL = "ofiehn@ucdavis.edu"
+PHONE = "(530) 754-8258"
+FUNDING_SOURCE = "NIH U24DK097154"
+PUBLICATIONS = "doi: 10.3233/CBM-160602."
+
+[STUDY]
+STUDY_TITLE = "Serum phosphatidylethanolamine levels distinguish benign from malignant solitary pulmonary nodules and represent a potential diagnostic biomarker for lung cancer (part I)"
+STUDY_SUMMARY = "Recent computed tomography (CT) screening trials showed that it is effective for early detection of lung cancer, but were plagued by high false positive rates. Additional blood biomarker tests designed to complement CT screening and reduce false positive rates are highly desirable. In the current study, we expand upon our initial experimental findings as part of the discovery phase by evaluating metabolites in serum from subjects with benign or malignant SPNs using a combined approach of gas chromatography time-of-flight mass spectrometry (GC-TOFMS) and hydrophilic liquid chromatography accurate mass quadrupole time-of-flight mass spectrometry (HILIC-qTOFMS). Furthermore, we evaluated serum collected pre-diagnosis and at-diagnosis of lung cancer in addition to samples obtained post-surgical intervention from subjects with malignant SPNs (post-diagnosis). We hypothesize that our systems biology approach to identify candidate metabolomics biomarkers will ultimately lead to improved early detection of lung cancer and can be used in as a companion blood test to LDCT screening."
+INSTITUTE = "University of California, Davis"
+DEPARTMENT = "Genome and Biomedical Sciences Facility"
+LABORATORY = "WCMC Metabolomics Core"
+LAST_NAME = "Fiehn"
+FIRST_NAME = "Oliver"
+ADDRESS = "1315 Genome and Biomedical Sciences Facility, 451 Health Sciences Drive, Davis, CA 95616"
+EMAIL = "ofiehn@ucdavis.edu"
+PHONE = "(530) 754-8258"
+PUBLICATIONS = "doi: 10.3233/CBM-160602."
+
+[SUBJECT]
+SUBJECT_TYPE = "Human"
+SUBJECT_SPECIES = "Homo sapiens"
+TAXONOMY_ID = "9606"
+AGE_OR_AGE_RANGE = "53-81"
+GENDER = "Male/Female"
+HUMAN_SMOKING_STATUS = "Former/Current"
+
+[COLLECTION]
+COLLECTION_SUMMARY = "Blood samples were collected from all patients enrolled in the protocol before diagnosis (>6 months prior to surgery, pre-diagnostic). Additional blood samples were collected from some of the lung cancer patients, at-diagnosis (at diagnosis) and post-treatment (after surgery). All but one patient had their “at-diagnosis” sample collected before surgery, usually within days prior to surgery, likely on their pre-operation visit. Surgery was usually performed within 1–3 months of diagnosis. Diagnosis was made by biopsy and/or surgery with all tissue diagnoses confirmed by pathology."
+SAMPLE_TYPE = "Blood"
+BLOOD_SERUM_OR_PLASMA = "Serum"
+
+[TREATMENT]
+TREATMENT_SUMMARY = "The NYU Lung Cancer Biomarker Center performs low-dose CT-scan screening for high-risk smokers as part of the National Cancer Institute’s Early Detection Research Network Program (EDRN). Lung cancer cases for this study were confirmed by pathology (Table 1). Patients with benign nodules were those with stable nodules or ground glass opacity (GGO) over at least two year period with annual CT scans performed. Post-diagnosis samples were collected at least one month post-surgery. Selection of cases was performed by NYU and the blinded serum samples were sent to University of California, Davis Medical Center (UCDMC) for analysis. None of the study subjects had previous cancer or chemotherapy. All subjects had blood drawn by EDRN protocol, performed spirometry according to ATS guidelines,and answered questionnaires with smoking and occupational history."
+
+[SAMPLEPREP]
+SAMPLEPREP_SUMMARY = "1. Switch on bath to pre-cool at –20°C (±2°C validity temperature range) 2. Gently rotate or aspirate the blood samples for about 10s to obtain a homogenised sample. 3. Aliquot 30?l of plasma sample to a 1.0 mL extraction solution. The extraction solution has to be prechilled using the ThermoElectron Neslab RTE 740 cooling bath set to -20°C. 4. Vortex the sample for about 10s and shake for 5 min at 4°C using the Orbital Mixing Chilling/Heating Plate. If you are using more than one sample, keep the rest of the sample on ice (chilled at <0°C with sodium chloride). 5. Centrifuge samples for 2min at 14000 rcf using the centrifuge Eppendorf 5415 D. 6. Aliquot two 450?L portions of the supernatant. One for analysis and one for a backup sample. Store the backup aliquot in -20°C freezer. 7. Evaporate one 450?L aliquots of the sample in the Labconco Centrivap cold trap concentrator to complete dryness. 8. The dried aliquot is then re-suspended with 450 ?L 50% acetonitrile (degassed as given above). 9. Centrifuged for 2 min at 14000 rcf using the centrifuge Eppendorf 5415. 10. Remove supernatant to a new Eppendorf tube. 11. Evaporate the supernatant to dryness in the Labconco Centrivap cold trap concentrator. 12. Submit to derivatization."
+SAMPLEPREP_PROTOCOL_FILENAME = "SOP blood-GCTOF-11082012.pdf"
+
+[CHROMATOGRAPHY]
+CHROMATOGRAPHY_TYPE = "HILIC"
+INSTRUMENT_NAME = "Agilent 6530"
+COLUMN_NAME = "Waters Acquity BEH HILIC (150 x 2.1mm, 1.7um) attached"
+FLOW_GRADIENT = "100%B to 45% B"
+FLOW_RATE = "0.4 mL/min"
+COLUMN_TEMPERATURE = "45 C"
+METHODS_FILENAME = "CH_LungNodule_HILIC_Pos_101_AcqMethodReport"
+SOLVENT_A = "H2O + 4mM Acetic Acid + 6 mM Ammonium Acetate"
+SOLVENT_B = "9:1 Acetonitrile: H2O + 4mM Acetic Acid + 6mM Ammonium Acetate"
+COLUMN_PRESSURE = "1200 bar"
+ANALYTICAL_TIME = "20 min"
+RANDOMIZATION_ORDER = "Excel generated"
+
+[ANALYSIS]
+ANALYSIS_TYPE = "MS"
+LABORATORY_NAME = "WCMC Metabolomics Core"
+ANALYSIS_PROTOCOL_FILE = "CH_LungNodule_HILIC_Pos_101_AcqMethodReport.pdf"
+
+[MS]
+MS_COMMENTS = "-"
+INSTRUMENT_NAME = "Agilent 6530A QTOF"
+INSTRUMENT_TYPE = "QTOF"
+MS_TYPE = "ESI"
+ION_MODE = "POSITIVE"
+CAPILLARY_VOLTAGE = "3000 V"
+DRY_GAS_FLOW = "8 L/min"
+DRY_GAS_TEMP = "350 C"
+FRAGMENT_VOLTAGE = "125 V"
+NEBULIZER = "35 psig"
+OCTPOLE_VOLTAGE = "750 V"
+SCANNING_CYCLE = "2 Hz"
+SCANNING_RANGE = "57-1400"
+SKIMMER_VOLTAGE = "65 V"
+
+[MS_METABOLITE_DATA]
+Units = "counts"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "63"
+"Sample ID" = "LungNodule_63"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Male"
+"Emphysema/COPD" = "Yes"
+Group = "Benign"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "N/A"
+"Nodule Classification" = "SOLID NODULES ONLY"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "44"
+"Sample ID" = "LungNodule_44"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Male"
+"Emphysema/COPD" = "No"
+Group = "Benign"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "N/A"
+"Nodule Classification" = "SOLID NODULES ONLY"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "111"
+"Sample ID" = "LungNodule_111"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Male"
+"Emphysema/COPD" = "Yes"
+Group = "Benign"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "N/A"
+"Nodule Classification" = "SOLID NODULES ONLY"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "33"
+"Sample ID" = "LungNodule_33"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Male"
+"Emphysema/COPD" = "Yes"
+Group = "Benign"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "N/A"
+"Nodule Classification" = "SOLID NODULES ONLY"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "56"
+"Sample ID" = "LungNodule_56"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Male"
+"Emphysema/COPD" = "Yes"
+Group = "Benign"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "N/A"
+"Nodule Classification" = "GGO ONLY"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "116"
+"Sample ID" = "LungNodule_116"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Female"
+"Emphysema/COPD" = "No"
+Group = "Benign"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "N/A"
+"Nodule Classification" = "GGO ONLY"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "119"
+"Sample ID" = "LungNodule_119"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Female"
+"Emphysema/COPD" = "Yes"
+Group = "Benign"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "N/A"
+"Nodule Classification" = "GGO + SN"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "109"
+"Sample ID" = "LungNodule_109_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Female"
+"Emphysema/COPD" = "No"
+Group = "Benign"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "N/A"
+"Nodule Classification" = "SOLID NODULES ONLY"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "74"
+"Sample ID" = "LungNodule_74"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Current"
+Gender = "Female"
+"Emphysema/COPD" = "No"
+Group = "Benign"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "N/A"
+"Nodule Classification" = "SOLID NODULES ONLY"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "10"
+"Sample ID" = "LungNodule_10"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Current"
+Gender = "Female"
+"Emphysema/COPD" = "Yes"
+Group = "Benign"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "N/A"
+"Nodule Classification" = "GGO + SN"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "122"
+"Sample ID" = "LungNodule_122"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Female"
+"Emphysema/COPD" = "Yes"
+Group = "Benign"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "N/A"
+"Nodule Classification" = "GGO + SN"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "9"
+"Sample ID" = "LungNodule_9"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Current"
+Gender = "Female"
+"Emphysema/COPD" = "Yes"
+Group = "Benign"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "N/A"
+"Nodule Classification" = "GGO ONLY"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "97"
+"Sample ID" = "LungNodule_97"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Female"
+"Emphysema/COPD" = "Yes"
+Group = "Benign"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "N/A"
+"Nodule Classification" = "SOLID NODULES ONLY"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "21"
+"Sample ID" = "LungNodule_21"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Current"
+Gender = "Female"
+"Emphysema/COPD" = "Yes"
+Group = "Benign"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "N/A"
+"Nodule Classification" = "GGO ONLY"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "4"
+"Sample ID" = "LungNodule_4"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Current"
+Gender = "Female"
+"Emphysema/COPD" = "Yes"
+Group = "Benign"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "N/A"
+"Nodule Classification" = "SOLID NODULES ONLY"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "27"
+"Sample ID" = "LungNodule_27"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Female"
+"Emphysema/COPD" = "No"
+Group = "Benign"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "N/A"
+"Nodule Classification" = "SOLID NODULES ONLY"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "99"
+"Sample ID" = "LungNodule_99"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Female"
+"Emphysema/COPD" = "Yes"
+Group = "Benign"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "N/A"
+"Nodule Classification" = "SOLID NODULES ONLY"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "3"
+"Sample ID" = "LungNodule_3"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Current"
+Gender = "Male"
+"Emphysema/COPD" = "Yes"
+Group = "Benign"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "N/A"
+"Nodule Classification" = "SOLID NODULES ONLY"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "29"
+"Sample ID" = "LungNodule_29"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Current"
+Gender = "Female"
+"Emphysema/COPD" = "Yes"
+Group = "Benign"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "N/A"
+"Nodule Classification" = "SOLID NODULES ONLY"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "68"
+"Sample ID" = "LungNodule_68"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Current"
+Gender = "Male"
+"Emphysema/COPD" = "No"
+Group = "Benign"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "N/A"
+"Nodule Classification" = "SOLID NODULES ONLY"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "15"
+"Sample ID" = "LungNodule_15"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Current"
+Gender = "Male"
+"Emphysema/COPD" = "Yes"
+Group = "Benign"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "N/A"
+"Nodule Classification" = "GGO ONLY"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "23"
+"Sample ID" = "LungNodule_23"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Current"
+Gender = "Female"
+"Emphysema/COPD" = "No"
+Group = "Benign"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "N/A"
+"Nodule Classification" = "SOLID NODULES ONLY"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "1"
+"Sample ID" = "LungNodule_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Female"
+"Emphysema/COPD" = "No"
+Group = "Benign"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "N/A"
+"Nodule Classification" = "GGO + SN"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "13"
+"Sample ID" = "LungNodule_13"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Current"
+Gender = "Female"
+"Emphysema/COPD" = "Yes"
+Group = "Benign"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "N/A"
+"Nodule Classification" = "GGO ONLY"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "24"
+"Sample ID" = "LungNodule_24"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Male"
+"Emphysema/COPD" = "No"
+Group = "Benign"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "N/A"
+"Nodule Classification" = "SOLID NODULES ONLY"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "34"
+"Sample ID" = "LungNodule_34"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Current"
+Gender = "Male"
+"Emphysema/COPD" = "No"
+Group = "Benign"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "N/A"
+"Nodule Classification" = "GGO + SN"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "20"
+"Sample ID" = "LungNodule_20"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Current"
+Gender = "Female"
+"Emphysema/COPD" = "Yes"
+Group = "Benign"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "N/A"
+"Nodule Classification" = "GGO ONLY"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "57"
+"Sample ID" = "LungNodule_57"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Female"
+"Emphysema/COPD" = "No"
+Group = "Benign"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "N/A"
+"Nodule Classification" = "GGO ONLY"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "75"
+"Sample ID" = "LungNodule_75"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Female"
+"Emphysema/COPD" = "Yes"
+Group = "Benign"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "N/A"
+"Nodule Classification" = "GGO ONLY"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "115"
+"Sample ID" = "LungNodule_115"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Female"
+"Emphysema/COPD" = "Yes"
+Group = "Benign"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "N/A"
+"Nodule Classification" = "GGO + SN"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "85"
+"Sample ID" = "LungNodule_85"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Male"
+"Emphysema/COPD" = "Yes"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "adeno 1a"
+"Nodule Classification" = "GGO + SN"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "5"
+"Sample ID" = "LungNodule_5"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Current"
+Gender = "Male"
+"Emphysema/COPD" = "Yes"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "small cell"
+"Nodule Classification" = "SOLID NODULES ONLY"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "11"
+"Sample ID" = "LungNodule_11"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Current"
+Gender = "Male"
+"Emphysema/COPD" = "Yes"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "adeno 1b"
+"Nodule Classification" = "GGO + SN"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "12"
+"Sample ID" = "LungNodule_12"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Male"
+"Emphysema/COPD" = "Yes"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "adeno 1a and Small cell"
+"Nodule Classification" = "GGO + SN"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "19"
+"Sample ID" = "LungNodule_19"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Female"
+"Emphysema/COPD" = "No"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "adeno 1a"
+"Nodule Classification" = "SOLID NODULES ONLY"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "6"
+"Sample ID" = "LungNodule_6"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Male"
+"Emphysema/COPD" = "No"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "adeno 1a"
+"Nodule Classification" = "GGO ONLY"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "103"
+"Sample ID" = "LungNodule_103"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Female"
+"Emphysema/COPD" = "No"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "adeno 1a"
+"Nodule Classification" = "GGO + SN"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "8"
+"Sample ID" = "LungNodule_8"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Female"
+"Emphysema/COPD" = "Yes"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "adeno 1a"
+"Nodule Classification" = "GGO + SN"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "2"
+"Sample ID" = "LungNodule_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Current"
+Gender = "Female"
+"Emphysema/COPD" = "Yes"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "adeno 1a"
+"Nodule Classification" = "GGO + SN"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "18"
+"Sample ID" = "LungNodule_18"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Female"
+"Emphysema/COPD" = "No"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "adenocarcinoma 1A"
+"Nodule Classification" = "Single Nodule"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "26"
+"Sample ID" = "LungNodule_26"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Female"
+"Emphysema/COPD" = "No"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "squamous 1a"
+"Nodule Classification" = "GGO + SN"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "37"
+"Sample ID" = "LungNodule_37"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Female"
+"Emphysema/COPD" = "Yes"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "small cell (metastatic)"
+"Nodule Classification" = "GGO + SN"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "22"
+"Sample ID" = "LungNodule_22"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Female"
+"Emphysema/COPD" = "No"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "adeno 1A"
+"Nodule Classification" = "SOLID NODULES ONLY"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "55"
+"Sample ID" = "LungNodule_55"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Female"
+"Emphysema/COPD" = "Yes"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "adeno 1A"
+"Nodule Classification" = "GGO + SN"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "46"
+"Sample ID" = "LungNodule_46"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Current"
+Gender = "Female"
+"Emphysema/COPD" = "No"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "adeno stage 2"
+"Nodule Classification" = "SOLID NODULES ONLY"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "28"
+"Sample ID" = "LungNodule_28"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Male"
+"Emphysema/COPD" = "No"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "adeno Stg IV"
+"Nodule Classification" = "No NODULES"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "16"
+"Sample ID" = "LungNodule_16"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Female"
+"Emphysema/COPD" = "No"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "adeno 1A"
+"Nodule Classification" = "GGO + SN"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "42"
+"Sample ID" = "LungNodule_42"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Male"
+"Emphysema/COPD" = "No"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "adeno 1b"
+"Nodule Classification" = "GGO ONLY"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "107"
+"Sample ID" = "LungNodule_107"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Current"
+Gender = "Female"
+"Emphysema/COPD" = "Yes"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "adeno 1A"
+"Nodule Classification" = "GGO ONLY"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "25"
+"Sample ID" = "LungNodule_25"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Female"
+"Emphysema/COPD" = "No"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "adeno  1a"
+"Nodule Classification" = "GGO + SN"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "14"
+"Sample ID" = "LungNodule_14"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Current"
+Gender = "Female"
+"Emphysema/COPD" = "No"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "adeno  1a"
+"Nodule Classification" = "No NODULES"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "87"
+"Sample ID" = "LungNodule_87"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Current"
+Gender = "Male"
+"Emphysema/COPD" = "No"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "squa IIIa"
+"Nodule Classification" = "SOLID NODULES ONLY"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "92"
+"Sample ID" = "LungNodule_92"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Female"
+"Emphysema/COPD" = "No"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "adeno 1a"
+"Nodule Classification" = "GGO + SN"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "86"
+"Sample ID" = "LungNodule_86"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Current"
+Gender = "Female"
+"Emphysema/COPD" = "Yes"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "adeno 1a"
+"Nodule Classification" = "GGO + SN"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "41"
+"Sample ID" = "LungNodule_41"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Female"
+"Emphysema/COPD" = "Yes"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "adeno 1a"
+"Nodule Classification" = "GGO + SN"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "47"
+"Sample ID" = "LungNodule_47"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Current"
+Gender = "Male"
+"Emphysema/COPD" = "Yes"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "small cell"
+"Nodule Classification" = "SOLID NODULES ONLY"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "38"
+"Sample ID" = "LungNodule_38"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Female"
+"Emphysema/COPD" = "Yes"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "adeno 1A"
+"Nodule Classification" = "GGO + SN"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "17"
+"Sample ID" = "LungNodule_17"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Female"
+"Emphysema/COPD" = "No"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "adeno  1a"
+"Nodule Classification" = "GGO + SN"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "52"
+"Sample ID" = "LungNodule_52"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Current"
+Gender = "Male"
+"Emphysema/COPD" = "No"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "squa IIIa"
+"Nodule Classification" = "SOLID NODULES ONLY"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "100"
+"Sample ID" = "LungNodule_100"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Male"
+"Emphysema/COPD" = "Yes"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "adeno 1a"
+"Nodule Classification" = "GGO + SN"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "89"
+"Sample ID" = "LungNodule_89"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Current"
+Gender = "Male"
+"Emphysema/COPD" = "Yes"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "adeno 1b"
+"Nodule Classification" = "GGO + SN"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "83"
+"Sample ID" = "LungNodule_83"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Male"
+"Emphysema/COPD" = "No"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "adeno 1b"
+"Nodule Classification" = "GGO + SN"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "53"
+"Sample ID" = "LungNodule_53"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Female"
+"Emphysema/COPD" = "No"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "adeno 1a"
+"Nodule Classification" = "SOLID NODULES ONLY"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "78"
+"Sample ID" = "LungNodule_78"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Male"
+"Emphysema/COPD" = "No"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "adeno 1a"
+"Nodule Classification" = "GGO ONLY"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "91"
+"Sample ID" = "LungNodule_91"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Female"
+"Emphysema/COPD" = "No"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "adeno 1a"
+"Nodule Classification" = "GGO + SN"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "93"
+"Sample ID" = "LungNodule_93"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Current"
+Gender = "Female"
+"Emphysema/COPD" = "Yes"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "adeno 1b"
+"Nodule Classification" = "GGO + SN"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "108"
+"Sample ID" = "LungNodule_108"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Current"
+Gender = "Male"
+"Emphysema/COPD" = "Yes"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "adeno 1a"
+"Nodule Classification" = "SOLID NODULES ONLY"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "112"
+"Sample ID" = "LungNodule_112"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Female"
+"Emphysema/COPD" = "Yes"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "adeno 1a"
+"Nodule Classification" = "GGO + SN"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "65"
+"Sample ID" = "LungNodule_65"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Current"
+Gender = "Female"
+"Emphysema/COPD" = "Yes"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "squamous 1b"
+"Nodule Classification" = "SOLID NODULES ONLY"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "73"
+"Sample ID" = "LungNodule_73"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Current"
+Gender = "Female"
+"Emphysema/COPD" = "Yes"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "adeno 1a"
+"Nodule Classification" = "GGO + SN"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "36"
+"Sample ID" = "LungNodule_36"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Female"
+"Emphysema/COPD" = "No"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "adenocarcinoma 1A"
+"Nodule Classification" = "Single Nodule"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "50"
+"Sample ID" = "LungNodule_50"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Female"
+"Emphysema/COPD" = "No"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "squamous 1a"
+"Nodule Classification" = "GGO + SN"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "106"
+"Sample ID" = "LungNodule_106"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Female"
+"Emphysema/COPD" = "Yes"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "adeno 1A"
+"Nodule Classification" = "GGO + SN"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "102"
+"Sample ID" = "LungNodule_102"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Female"
+"Emphysema/COPD" = "Yes"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "adeno 1A"
+"Nodule Classification" = "GGO + SN"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "113"
+"Sample ID" = "LungNodule_113"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Current"
+Gender = "Female"
+"Emphysema/COPD" = "No"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "adeno stage 2"
+"Nodule Classification" = "SOLID NODULES ONLY"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "101"
+"Sample ID" = "LungNodule_101"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Female"
+"Emphysema/COPD" = "No"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "adeno 1A"
+"Nodule Classification" = "GGO + SN"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "121"
+"Sample ID" = "LungNodule_121"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Male"
+"Emphysema/COPD" = "No"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "adeno 1b"
+"Nodule Classification" = "GGO ONLY"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "124"
+"Sample ID" = "LungNodule_124"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Current"
+Gender = "Female"
+"Emphysema/COPD" = "Yes"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "adeno 1A"
+"Nodule Classification" = "GGO ONLY"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "77"
+"Sample ID" = "LungNodule_77"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Current"
+Gender = "Male"
+"Emphysema/COPD" = "Yes"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "small cell"
+"Nodule Classification" = "SOLID NODULES ONLY"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "72"
+"Sample ID" = "LungNodule_72"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Male"
+"Emphysema/COPD" = "No"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "adeno 1a"
+"Nodule Classification" = "GGO ONLY"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "80"
+"Sample ID" = "LungNodule_80"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Male"
+"Emphysema/COPD" = "Yes"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "adeno 1a"
+"Nodule Classification" = "GGO + SN"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "49"
+"Sample ID" = "LungNodule_49"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Current"
+Gender = "Male"
+"Emphysema/COPD" = "Yes"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "adeno 1b"
+"Nodule Classification" = "GGO + SN"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "125"
+"Sample ID" = "LungNodule_125"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Male"
+"Emphysema/COPD" = "Yes"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "adeno 1a and Small cell"
+"Nodule Classification" = "GGO + SN"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "105"
+"Sample ID" = "LungNodule_105"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Female"
+"Emphysema/COPD" = "No"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "adeno 1a"
+"Nodule Classification" = "SOLID NODULES ONLY"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "110"
+"Sample ID" = "LungNodule_110"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Female"
+"Emphysema/COPD" = "No"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "adeno 1a"
+"Nodule Classification" = "GGO + SN"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "45"
+"Sample ID" = "LungNodule_45"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Current"
+Gender = "Male"
+"Emphysema/COPD" = "Yes"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "adeno 1a"
+"Nodule Classification" = "SOLID NODULES ONLY"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "114"
+"Sample ID" = "LungNodule_114"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Female"
+"Emphysema/COPD" = "Yes"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "adeno 1a"
+"Nodule Classification" = "GGO + SN"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "117"
+"Sample ID" = "LungNodule_117"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Current"
+Gender = "Female"
+"Emphysema/COPD" = "Yes"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "squamous 1b"
+"Nodule Classification" = "SOLID NODULES ONLY"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "66"
+"Sample ID" = "LungNodule_66"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Current"
+Gender = "Female"
+"Emphysema/COPD" = "Yes"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "adeno 1a"
+"Nodule Classification" = "GGO + SN"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "118"
+"Sample ID" = "LungNodule_118"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Female"
+"Emphysema/COPD" = "Yes"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "small cell (metastatic)"
+"Nodule Classification" = "GGO + SN"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "58"
+"Sample ID" = "LungNodule_58"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Female"
+"Emphysema/COPD" = "No"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "adeno 1A"
+"Nodule Classification" = "SOLID NODULES ONLY"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "64"
+"Sample ID" = "LungNodule_64"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Female"
+"Emphysema/COPD" = "Yes"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "adeno 1A"
+"Nodule Classification" = "GGO + SN"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "76"
+"Sample ID" = "LungNodule_76"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Current"
+Gender = "Female"
+"Emphysema/COPD" = "No"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "adeno stage 2"
+"Nodule Classification" = "SOLID NODULES ONLY"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "81"
+"Sample ID" = "LungNodule_81"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Female"
+"Emphysema/COPD" = "No"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "adeno 1A"
+"Nodule Classification" = "GGO + SN"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "82"
+"Sample ID" = "LungNodule_82"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Smoking Status" = "Former"
+Gender = "Male"
+"Emphysema/COPD" = "No"
+Group = "Cancer"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"Cancer Type" = "adeno Stg IV"
+"Nodule Classification" = "No NODULES"

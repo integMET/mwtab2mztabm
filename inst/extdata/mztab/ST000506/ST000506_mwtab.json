@@ -1,0 +1,117 @@
+[
+{
+"METABOLOMICS WORKBENCH":{"STUDY_ID":"ST000506","ANALYSIS_ID":"AN000775","VERSION":"1","CREATED_ON":"November 29, 2016, 3:15 pm"},
+
+"PROJECT":{"PROJECT_TITLE":"Mayo Metabolomics Pilot and Feasibility Award: Metabolic Dissection of Aberrant Glutamine Metabolism in Prostate Cancer","PROJECT_SUMMARY":"In this project, we propose to define the specific role(s) of three crucial oncogenic signaling cascades (androgen receptor, Myc and AMPK) in regulating glutamine metabolism in prostate cancer using 13C-labeled glutamine with mass spectrometry-based metabolic flux analyses.","INSTITUTE":"Mayo Clinic","LAST_NAME":"Frigo","FIRST_NAME":"Daniel","ADDRESS":"Department of Biology and Biochemistry, University of Houston, Houston, Texas 77204-5001","EMAIL":"frigo@uh.edu","PHONE":"832-842-8824"},
+
+"STUDY":{"STUDY_TITLE":"Timecourse of TCA panel in LNCaP Cells","STUDY_SUMMARY":"Timecourse of TCA panel in LNCaP Cells","INSTITUTE":"Mayo Clinic","LAST_NAME":"Frigo","FIRST_NAME":"Daniel","ADDRESS":"Department of Biology and Biochemistry, University of Houston, Houston, Texas 77204-5001","EMAIL":"frigo@uh.edu","PHONE":"832-842-8824"},
+
+"SUBJECT":{"SUBJECT_TYPE":"Human","SUBJECT_SPECIES":"Homo sapiens","TAXONOMY_ID":"9606"},
+"SUBJECT_SAMPLE_FACTORS":[
+{
+"Subject ID":"-",
+"Sample ID":"sample # 1",
+"Factors":{"Treatment":"vehicle (ethanol)"},
+"Additional sample data":{"13C media incubation time":"24 hours","assay":"TCA media concentrations"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"sample # 2",
+"Factors":{"Treatment":"100 pM R1881"},
+"Additional sample data":{"13C media incubation time":"24 hours","assay":"TCA media concentrations"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"sample # 3",
+"Factors":{"Treatment":"1 nM R1881"},
+"Additional sample data":{"13C media incubation time":"24 hours","assay":"TCA media concentrations"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"sample # 4",
+"Factors":{"Treatment":"10 nM R1881"},
+"Additional sample data":{"13C media incubation time":"24 hours","assay":"TCA media concentrations"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"sample # 5",
+"Factors":{"Treatment":"vehicle (ethanol)"},
+"Additional sample data":{"13C media incubation time":"24 hours","assay":"TCA media concentrations"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"sample # 6",
+"Factors":{"Treatment":"100 pM R1881"},
+"Additional sample data":{"13C media incubation time":"24 hours","assay":"TCA media concentrations"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"sample # 7",
+"Factors":{"Treatment":"10 nM R1881"},
+"Additional sample data":{"13C media incubation time":"24 hours","assay":"TCA media concentrations"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"sample # 8",
+"Factors":{"Treatment":"vehicle (ethanol)"},
+"Additional sample data":{"13C media incubation time":"72 hours","assay":"TCA media concentrations"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"sample # 9",
+"Factors":{"Treatment":"100 pM R1881"},
+"Additional sample data":{"13C media incubation time":"72 hours","assay":"TCA media concentrations"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"sample # 10",
+"Factors":{"Treatment":"1 nM R1881"},
+"Additional sample data":{"13C media incubation time":"72 hours","assay":"TCA media concentrations"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"sample # 11",
+"Factors":{"Treatment":"10 nM R1881"},
+"Additional sample data":{"13C media incubation time":"72 hours","assay":"TCA media concentrations"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"sample # 12",
+"Factors":{"Treatment":"vehicle (ethanol)"},
+"Additional sample data":{"13C media incubation time":"72 hours","assay":"TCA media concentrations"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"sample # 13",
+"Factors":{"Treatment":"100 pM R1881"},
+"Additional sample data":{"13C media incubation time":"72 hours","assay":"TCA media concentrations"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"sample # 14",
+"Factors":{"Treatment":"10 nM R1881"},
+"Additional sample data":{"13C media incubation time":"72 hours","assay":"TCA media concentrations"}
+}
+],
+"COLLECTION":{"COLLECTION_SUMMARY":"LNCaP media"},
+
+"TREATMENT":{"TREATMENT_SUMMARY":"LNCaP cells that were serum starved and incubated with 2mM [U-13C]glutamine and treated with dose response of a synthetic androgen (R1881) for 24 or 72 hours."},
+
+"SAMPLEPREP":{"SAMPLEPREP_SUMMARY":"TCA media concentrations"},
+
+"CHROMATOGRAPHY":{"CHROMATOGRAPHY_TYPE":"GC","INSTRUMENT_NAME":"Agilent 7890B","COLUMN_NAME":"Agilent HP5-MS (30m Ã— 0.25mm, 0.25 um)"},
+
+"ANALYSIS":{"ANALYSIS_TYPE":"MS"},
+
+"MS":{"MS_COMMENTS":"-","INSTRUMENT_NAME":"Agilent 5975","INSTRUMENT_TYPE":"Single quadrupole","MS_TYPE":"EI","ION_MODE":"POSITIVE"},
+
+"MS_METABOLITE_DATA":{
+"Units":"nmol/ml",
+
+"Data":[{"Metabolite":"Lactate","sample # 1":"683.4","sample # 2":"714.3","sample # 3":"710.6","sample # 4":"768.9","sample # 5":"668.1","sample # 6":"727.3","sample # 7":"759.0","sample # 8":"1075.7","sample # 9":"1891.0","sample # 10":"2333.7","sample # 11":"2349.2","sample # 12":"1182.0","sample # 13":"1986.3","sample # 14":"2413.2"},{"Metabolite":"Succinate","sample # 1":"1.470","sample # 2":"1.069","sample # 3":"0.938","sample # 4":"1.022","sample # 5":"0.946","sample # 6":"1.001","sample # 7":"0.890","sample # 8":"3.634","sample # 9":"4.450","sample # 10":"4.133","sample # 11":"4.252","sample # 12":"3.787","sample # 13":"4.621","sample # 14":"4.492"},{"Metabolite":"Fumarate","sample # 1":"1.453","sample # 2":"0.907","sample # 3":"0.627","sample # 4":"0.646","sample # 5":"0.612","sample # 6":"0.558","sample # 7":"0.443","sample # 8":"0.710","sample # 9":"0.815","sample # 10":"0.826","sample # 11":"0.791","sample # 12":"0.637","sample # 13":"0.810","sample # 14":"0.850"},{"Metabolite":"Oxaloacetate","sample # 1":"1.980","sample # 2":"1.947","sample # 3":"1.916","sample # 4":"1.935","sample # 5":"2.011","sample # 6":"2.044","sample # 7":"1.985","sample # 8":"1.994","sample # 9":"2.098","sample # 10":"2.499","sample # 11":"2.144","sample # 12":"3.074","sample # 13":"2.661","sample # 14":"4.237"},{"Metabolite":"Ketoglutarate","sample # 1":"0.826","sample # 2":"0.871","sample # 3":"0.793","sample # 4":"0.925","sample # 5":"0.811","sample # 6":"0.943","sample # 7":"0.872","sample # 8":"1.582","sample # 9":"2.152","sample # 10":"1.780","sample # 11":"1.829","sample # 12":"1.878","sample # 13":"2.129","sample # 14":"2.152"},{"Metabolite":"Malate","sample # 1":"1.215","sample # 2":"0.728","sample # 3":"0.687","sample # 4":"0.657","sample # 5":"0.679","sample # 6":"0.644","sample # 7":"0.597","sample # 8":"2.033","sample # 9":"2.425","sample # 10":"2.415","sample # 11":"2.526","sample # 12":"1.813","sample # 13":"2.497","sample # 14":"2.521"},{"Metabolite":"Glutamate","sample # 1":"8.165","sample # 2":"8.042","sample # 3":"7.931","sample # 4":"7.672","sample # 5":"8.092","sample # 6":"7.906","sample # 7":"7.751","sample # 8":"11.933","sample # 9":"14.600","sample # 10":"13.059","sample # 11":"14.831","sample # 12":"9.537","sample # 13":"14.450","sample # 14":"14.049"},{"Metabolite":"cis-Aconitic Acid","sample # 1":"1.369","sample # 2":"0.848","sample # 3":"0.677","sample # 4":"0.630","sample # 5":"0.666","sample # 6":"0.593","sample # 7":"0.549","sample # 8":"0.712","sample # 9":"0.635","sample # 10":"0.537","sample # 11":"0.568","sample # 12":"0.674","sample # 13":"0.601","sample # 14":"0.485"},{"Metabolite":"Citrate","sample # 1":"5.650","sample # 2":"5.389","sample # 3":"6.286","sample # 4":"6.899","sample # 5":"4.778","sample # 6":"5.694","sample # 7":"6.613","sample # 8":"18.315","sample # 9":"27.089","sample # 10":"30.453","sample # 11":"31.496","sample # 12":"17.766","sample # 13":"27.150","sample # 14":"31.203"},{"Metabolite":"Isocitrate","sample # 1":"2.947","sample # 2":"0.917","sample # 3":"0.501","sample # 4":"0.309","sample # 5":"0.288","sample # 6":"0.219","sample # 7":"0.151","sample # 8":"0.205","sample # 9":"0.157","sample # 10":"0.135","sample # 11":"0.133","sample # 12":"0.171","sample # 13":"0.152","sample # 14":"0.136"}],
+
+"Metabolites":[{"metabolite_name":"Lactate"},{"metabolite_name":"Succinate"},{"metabolite_name":"Fumarate"},{"metabolite_name":"Oxaloacetate"},{"metabolite_name":"Ketoglutarate"},{"metabolite_name":"Malate"},{"metabolite_name":"Glutamate"},{"metabolite_name":"cis-Aconitic Acid"},{"metabolite_name":"Citrate"},{"metabolite_name":"Isocitrate"}]
+}
+
+}
+]

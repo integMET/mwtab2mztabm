@@ -1,0 +1,212 @@
+# mwTab metadata of study ST001320, analysis AN002196
+# Exported by mwtab2mztabm 0.1.0.
+# Sample metadata is listed in [[SUBJECT_SAMPLE_FACTORS]].
+
+[mwtab2mztabm]
+format_version = 1
+factor_order = ["Treatment", "Treatment_Time(min)"]
+additional_data_order = "RAW_FILE_NAME"
+
+["METABOLOMICS WORKBENCH"]
+STUDY_ID = "ST001320"
+ANALYSIS_ID = "AN002196"
+VERSION = "1"
+CREATED_ON = "February 21, 2020, 10:19 am"
+
+[PROJECT]
+PROJECT_TITLE = "GSK3 inhibits macropinocytosis and lysosomal activity through the Wnt destruction complex machinery"
+PROJECT_SUMMARY = "Canonical Wnt signaling is emerging as a major regulator of endocytosis. Here we report that mutation of Axin1, a tumor-suppressor part of the β-catenin destruction complex, results in the activation of macropinocytosis in Alexander hepatocellular carcinoma (HCC) cells. Axin1 binds Glycogen Synthase Kinase 3 (GSK3), and we found that inhibition of GSK3 by Lithium chloride (LiCl), CHIR99021 or dominant-negative GSK3 triggered macropinocytosis. GSK3 inhibition caused a rapid increase in endolysosomes that was independent of new protein synthesis. GSK3 inhibition or Axin1 mutation increased lysosomal activity, which could be followed with tracers for active cathepsin D, β-glucosidase, and ovalbumin degradation. Microinjection of LiCl into the blastula cavity of Xenopus embryos caused a striking increase in dextran macropinocytosis. The effects of GSK3 inhibition on macropinocytosis and protein degradation in endolysosomes were blocked by the macropinocytosis inhibitors EIPA or IPA-2, suggesting that the increased membrane trafficking drives lysosomal activity and nutrient acquisition."
+INSTITUTE = "University of California, Los Angeles"
+DEPARTMENT = "Biological Chemisty"
+LABORATORY = "De Robertis Lab"
+LAST_NAME = "De Robertis"
+FIRST_NAME = "Edward"
+ADDRESS = "5-612A MRL"
+EMAIL = "ederobertis@mednet.ucla.edu"
+PHONE = "(310) 206-1401"
+
+[STUDY]
+STUDY_TITLE = "Examination of labeled glucose utilization in central carbon metabolism in HeLa cells post WNT stimulation"
+STUDY_TYPE = "In vitro"
+STUDY_SUMMARY = "HeLa cells were treated with media containing either vehicle or WNT in combination with UC13-glucose for 20 min or 60 min."
+INSTITUTE = "University of California, Los Angeles"
+DEPARTMENT = "Biological Chemisty"
+LABORATORY = "Christofk Lab"
+LAST_NAME = "Christofk"
+FIRST_NAME = "Heather"
+ADDRESS = "615 Charles E Young Drive South Los Angeles, CA 90095"
+EMAIL = "hchristofk@mednet.ucla.edu"
+PHONE = "(310) 794-4248"
+
+[SUBJECT]
+SUBJECT_TYPE = "Cultured cells"
+SUBJECT_SPECIES = "Homo sapiens"
+TAXONOMY_ID = "9606"
+
+[COLLECTION]
+COLLECTION_SUMMARY = "Extraction began by placing the 6-well dishes on ice and washing each well with 2mL of a 150 mM ammonium acetate solution (pH 7.4, 4°C). Post wash, metabolites were extracted from each well on dry ice with 500 μL of a (1:4) dH20, MeOH solution at -80°C. The samples were then incubated for 15 min at -80°C. Afterwards, the cells were scraped into solutions which were then transferred to eppitubes and spun down at 4°C for 10 min at 17,000g. The supernatants were transferred to new glass vials and dried with an EZ2-Elite lyophilizer (Genevac). These dried metabolites were then stored at -80°C until they could be run on the LC/MS."
+SAMPLE_TYPE = "Cultured cells"
+STORAGE_CONDITIONS = "Described in summary"
+
+[TREATMENT]
+TREATMENT_SUMMARY = "The cells were incubated with DMEM(no glucose) supplemented with 10% dialyzed FBS, 1% P/S, and 10 mM UC13-glucose with either vehicle (0.1% BSA in dH20) or wnt (100ng/mL) added. Cells were treated for either 20 min or 60 min with each treatment group having a vehicle matched time control."
+
+[SAMPLEPREP]
+SAMPLEPREP_SUMMARY = "Extraction began by placing the 6-well dishes on ice and washing each well with 2mL of a 150 mM ammonium acetate solution (pH 7.4, 4°C). Post wash, metabolites were extracted from each well on dry ice with 500 μL of a (1:4) dH20, MeOH solution at -80°C. The samples were then incubated for 15 min at -80°C. Afterwards, the metabolite solutions were transferred to eppitubes and spun down at 4°C for 10 min at 17,000g. The supernatants were transferred to new vials and dried with an EZ2-Elite lyophilizer (Genevac). These dried metabolites were then stored at -80°C until they could be run on the LC/MS."
+EXTRACT_STORAGE = "-80℃"
+
+[CHROMATOGRAPHY]
+CHROMATOGRAPHY_SUMMARY = "Samples were run on a Vanquish (Thermo Scientific) UHPLC system with mobile phase A (5mM NH4AcO, pH 9.9) and mobile phase B (ACN) at a flow rate of 200 µL/min on a Luna 3 um NH2 100A (150 × 2.0mm) at 40°C with a gradient going from 15% A to 95% A in 18 min followed by an 11 minute isocratic step."
+CHROMATOGRAPHY_TYPE = "HILIC"
+INSTRUMENT_NAME = "Thermo Vanquish"
+COLUMN_NAME = "Phenomenex Luna NH2 (150 x 2.1mm, 3um)"
+FLOW_GRADIENT = "15% A to 95% A in 18 min followed by an 11 minute isocratic step"
+FLOW_RATE = "200 µL/min"
+COLUMN_TEMPERATURE = "40"
+SOLVENT_A = "5mM NH4 acetate pH 9.9"
+SOLVENT_B = "acetonitrile"
+
+[ANALYSIS]
+ANALYSIS_TYPE = "MS"
+
+[MS]
+INSTRUMENT_NAME = "Thermo Q Exactive Orbitrap"
+INSTRUMENT_TYPE = "Orbitrap"
+MS_TYPE = "ESI"
+ION_MODE = "UNSPECIFIED"
+MS_COMMENTS = "Method runs in polarity switching mode. Features were assigned via MzMine 2 and an in house list of MS1 and RT times."
+
+[MS_METABOLITE_DATA]
+Units = "MS1 AUC integration"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "HeLa-veh-20min-01"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Treatment = "vehicle"
+"Treatment_Time(min)" = "20"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "HeLa-veh-20min-01.RAW"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "HeLa-veh-20min-02"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Treatment = "vehicle"
+"Treatment_Time(min)" = "20"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "HeLa-veh-20min-02.RAW"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "HeLa-veh-20min-03"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Treatment = "vehicle"
+"Treatment_Time(min)" = "20"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "HeLa-veh-20min-03.RAW"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "HeLa-veh-60min-01"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Treatment = "vehicle"
+"Treatment_Time(min)" = "60"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "HeLa-veh-60min-01.RAW"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "HeLa-veh-60min-02"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Treatment = "vehicle"
+"Treatment_Time(min)" = "60"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "HeLa-veh-60min-02.RAW"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "HeLa-veh-60min-03"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Treatment = "vehicle"
+"Treatment_Time(min)" = "60"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "HeLa-veh-60min-03.RAW"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "HeLa-wnt-20min-01"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Treatment = "wnt"
+"Treatment_Time(min)" = "20"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "HeLa-wnt-20min-01.RAW"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "HeLa-wnt-20min-02"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Treatment = "wnt"
+"Treatment_Time(min)" = "20"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "HeLa-wnt-20min-02.RAW"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "HeLa-wnt-20min-03"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Treatment = "wnt"
+"Treatment_Time(min)" = "20"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "HeLa-wnt-20min-03.RAW"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "HeLa-wnt-60min-01"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Treatment = "wnt"
+"Treatment_Time(min)" = "60"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "HeLa-wnt-60min-01.RAW"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "HeLa-wnt-60min-02"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Treatment = "wnt"
+"Treatment_Time(min)" = "60"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "HeLa-wnt-60min-02.RAW"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "HeLa-wnt-60min-03"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Treatment = "wnt"
+"Treatment_Time(min)" = "60"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+RAW_FILE_NAME = "HeLa-wnt-60min-03.RAW"

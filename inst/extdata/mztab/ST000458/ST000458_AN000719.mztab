@@ -1,0 +1,313 @@
+MTD	mzTab-version	2.1.0-M
+MTD	mzTab-ID	ST000458_AN000719
+MTD	mzTab-profile	M+S
+MTD	title	Effect of BCAT1 knockdown on amino acid steady state levels of Raji cells
+MTD	description	Cells were collected at 0, 48, 96 and 144 hours after Doxycycline addition
+MTD	instrument[1]-name	[MS, MS:1000031, instrument model, Agilent 6490 QQQ]
+MTD	instrument[1]-source	[MS, MS:1000073, electrospray ionization, ]
+MTD	instrument[1]-analyzer[1]	[MS, MS:1000081, quadrupole, ]
+MTD	software[1]	[MS, MS:1000799, custom unreleased software tool, mwtab2mztabm 0.1.0]
+MTD	contact[1]-name	Mario Fernandez
+MTD	contact[1]-affiliation	University of Florida
+MTD	contact[1]-email	mario.fernandez@moffitt.org
+MTD	uri[1]	https://www.metabolomicsworkbench.org/data/DRCCMetadata.php?Mode=Study&StudyID=ST000458
+MTD	quantification_method	[MS, MS:1001834, LC-MS label-free quantitation analysis, ]
+MTD	sample[1]	Raji_001
+MTD	sample[1]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[1]-tissue[1]	[,, Cell, ]
+MTD	sample[1]-custom[1]	[,,Subject ID, Raji_shBCAT1]
+MTD	sample[10]	Raji_010
+MTD	sample[10]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[10]-tissue[1]	[,, Cell, ]
+MTD	sample[10]-custom[1]	[,,Subject ID, Raji_shBCAT1]
+MTD	sample[11]	Raji_011
+MTD	sample[11]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[11]-tissue[1]	[,, Cell, ]
+MTD	sample[11]-custom[1]	[,,Subject ID, Raji_shBCAT1]
+MTD	sample[12]	Raji_012
+MTD	sample[12]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[12]-tissue[1]	[,, Cell, ]
+MTD	sample[12]-custom[1]	[,,Subject ID, Raji_shBCAT1]
+MTD	sample[13]	Raji_013
+MTD	sample[13]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[13]-tissue[1]	[,, Cell, ]
+MTD	sample[13]-custom[1]	[,,Subject ID, Raji_shBCAT1]
+MTD	sample[14]	Raji_014
+MTD	sample[14]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[14]-tissue[1]	[,, Cell, ]
+MTD	sample[14]-custom[1]	[,,Subject ID, Raji_shBCAT1]
+MTD	sample[15]	Raji_015
+MTD	sample[15]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[15]-tissue[1]	[,, Cell, ]
+MTD	sample[15]-custom[1]	[,,Subject ID, Raji_shBCAT1]
+MTD	sample[16]	Raji_016
+MTD	sample[16]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[16]-tissue[1]	[,, Cell, ]
+MTD	sample[16]-custom[1]	[,,Subject ID, Raji_shBCAT1]
+MTD	sample[17]	Raji_017
+MTD	sample[17]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[17]-tissue[1]	[,, Cell, ]
+MTD	sample[17]-custom[1]	[,,Subject ID, Raji_shBCAT1]
+MTD	sample[18]	Raji_018
+MTD	sample[18]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[18]-tissue[1]	[,, Cell, ]
+MTD	sample[18]-custom[1]	[,,Subject ID, Raji_shBCAT1]
+MTD	sample[19]	Raji_019
+MTD	sample[19]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[19]-tissue[1]	[,, Cell, ]
+MTD	sample[19]-custom[1]	[,,Subject ID, Raji_shBCAT1]
+MTD	sample[2]	Raji_002
+MTD	sample[2]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[2]-tissue[1]	[,, Cell, ]
+MTD	sample[2]-custom[1]	[,,Subject ID, Raji_shBCAT1]
+MTD	sample[20]	Raji_020
+MTD	sample[20]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[20]-tissue[1]	[,, Cell, ]
+MTD	sample[20]-custom[1]	[,,Subject ID, Raji_shBCAT1]
+MTD	sample[21]	Raji_021
+MTD	sample[21]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[21]-tissue[1]	[,, Cell, ]
+MTD	sample[21]-custom[1]	[,,Subject ID, Raji_shBCAT1]
+MTD	sample[3]	Raji_003
+MTD	sample[3]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[3]-tissue[1]	[,, Cell, ]
+MTD	sample[3]-custom[1]	[,,Subject ID, Raji_shBCAT1]
+MTD	sample[4]	Raji_004
+MTD	sample[4]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[4]-tissue[1]	[,, Cell, ]
+MTD	sample[4]-custom[1]	[,,Subject ID, Raji_shBCAT1]
+MTD	sample[5]	Raji_005
+MTD	sample[5]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[5]-tissue[1]	[,, Cell, ]
+MTD	sample[5]-custom[1]	[,,Subject ID, Raji_shBCAT1]
+MTD	sample[6]	Raji_006
+MTD	sample[6]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[6]-tissue[1]	[,, Cell, ]
+MTD	sample[6]-custom[1]	[,,Subject ID, Raji_shBCAT1]
+MTD	sample[7]	Raji_007
+MTD	sample[7]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[7]-tissue[1]	[,, Cell, ]
+MTD	sample[7]-custom[1]	[,,Subject ID, Raji_shBCAT1]
+MTD	sample[8]	Raji_008
+MTD	sample[8]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[8]-tissue[1]	[,, Cell, ]
+MTD	sample[8]-custom[1]	[,,Subject ID, Raji_shBCAT1]
+MTD	sample[9]	Raji_009
+MTD	sample[9]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[9]-tissue[1]	[,, Cell, ]
+MTD	sample[9]-custom[1]	[,,Subject ID, Raji_shBCAT1]
+MTD	ms_run[1]-location	Raji_001
+MTD	ms_run[1]-instrument_ref	instrument[1]
+MTD	ms_run[1]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[2]-location	Raji_002
+MTD	ms_run[2]-instrument_ref	instrument[1]
+MTD	ms_run[2]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[3]-location	Raji_003
+MTD	ms_run[3]-instrument_ref	instrument[1]
+MTD	ms_run[3]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[4]-location	Raji_004
+MTD	ms_run[4]-instrument_ref	instrument[1]
+MTD	ms_run[4]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[5]-location	Raji_005
+MTD	ms_run[5]-instrument_ref	instrument[1]
+MTD	ms_run[5]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[6]-location	Raji_006
+MTD	ms_run[6]-instrument_ref	instrument[1]
+MTD	ms_run[6]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[7]-location	Raji_007
+MTD	ms_run[7]-instrument_ref	instrument[1]
+MTD	ms_run[7]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[8]-location	Raji_008
+MTD	ms_run[8]-instrument_ref	instrument[1]
+MTD	ms_run[8]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[9]-location	Raji_009
+MTD	ms_run[9]-instrument_ref	instrument[1]
+MTD	ms_run[9]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[10]-location	Raji_010
+MTD	ms_run[10]-instrument_ref	instrument[1]
+MTD	ms_run[10]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[11]-location	Raji_011
+MTD	ms_run[11]-instrument_ref	instrument[1]
+MTD	ms_run[11]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[12]-location	Raji_012
+MTD	ms_run[12]-instrument_ref	instrument[1]
+MTD	ms_run[12]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[13]-location	Raji_013
+MTD	ms_run[13]-instrument_ref	instrument[1]
+MTD	ms_run[13]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[14]-location	Raji_014
+MTD	ms_run[14]-instrument_ref	instrument[1]
+MTD	ms_run[14]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[15]-location	Raji_015
+MTD	ms_run[15]-instrument_ref	instrument[1]
+MTD	ms_run[15]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[16]-location	Raji_016
+MTD	ms_run[16]-instrument_ref	instrument[1]
+MTD	ms_run[16]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[17]-location	Raji_017
+MTD	ms_run[17]-instrument_ref	instrument[1]
+MTD	ms_run[17]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[18]-location	Raji_018
+MTD	ms_run[18]-instrument_ref	instrument[1]
+MTD	ms_run[18]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[19]-location	Raji_019
+MTD	ms_run[19]-instrument_ref	instrument[1]
+MTD	ms_run[19]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[20]-location	Raji_020
+MTD	ms_run[20]-instrument_ref	instrument[1]
+MTD	ms_run[20]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[21]-location	Raji_021
+MTD	ms_run[21]-instrument_ref	instrument[1]
+MTD	ms_run[21]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	assay[1]	Raji_001
+MTD	assay[1]-sample_ref	sample[1]
+MTD	assay[1]-ms_run_ref	ms_run[1]
+MTD	assay[10]	Raji_010
+MTD	assay[10]-sample_ref	sample[10]
+MTD	assay[10]-ms_run_ref	ms_run[10]
+MTD	assay[11]	Raji_011
+MTD	assay[11]-sample_ref	sample[11]
+MTD	assay[11]-ms_run_ref	ms_run[11]
+MTD	assay[12]	Raji_012
+MTD	assay[12]-sample_ref	sample[12]
+MTD	assay[12]-ms_run_ref	ms_run[12]
+MTD	assay[13]	Raji_013
+MTD	assay[13]-sample_ref	sample[13]
+MTD	assay[13]-ms_run_ref	ms_run[13]
+MTD	assay[14]	Raji_014
+MTD	assay[14]-sample_ref	sample[14]
+MTD	assay[14]-ms_run_ref	ms_run[14]
+MTD	assay[15]	Raji_015
+MTD	assay[15]-sample_ref	sample[15]
+MTD	assay[15]-ms_run_ref	ms_run[15]
+MTD	assay[16]	Raji_016
+MTD	assay[16]-sample_ref	sample[16]
+MTD	assay[16]-ms_run_ref	ms_run[16]
+MTD	assay[17]	Raji_017
+MTD	assay[17]-sample_ref	sample[17]
+MTD	assay[17]-ms_run_ref	ms_run[17]
+MTD	assay[18]	Raji_018
+MTD	assay[18]-sample_ref	sample[18]
+MTD	assay[18]-ms_run_ref	ms_run[18]
+MTD	assay[19]	Raji_019
+MTD	assay[19]-sample_ref	sample[19]
+MTD	assay[19]-ms_run_ref	ms_run[19]
+MTD	assay[2]	Raji_002
+MTD	assay[2]-sample_ref	sample[2]
+MTD	assay[2]-ms_run_ref	ms_run[2]
+MTD	assay[20]	Raji_020
+MTD	assay[20]-sample_ref	sample[20]
+MTD	assay[20]-ms_run_ref	ms_run[20]
+MTD	assay[21]	Raji_021
+MTD	assay[21]-sample_ref	sample[21]
+MTD	assay[21]-ms_run_ref	ms_run[21]
+MTD	assay[3]	Raji_003
+MTD	assay[3]-sample_ref	sample[3]
+MTD	assay[3]-ms_run_ref	ms_run[3]
+MTD	assay[4]	Raji_004
+MTD	assay[4]-sample_ref	sample[4]
+MTD	assay[4]-ms_run_ref	ms_run[4]
+MTD	assay[5]	Raji_005
+MTD	assay[5]-sample_ref	sample[5]
+MTD	assay[5]-ms_run_ref	ms_run[5]
+MTD	assay[6]	Raji_006
+MTD	assay[6]-sample_ref	sample[6]
+MTD	assay[6]-ms_run_ref	ms_run[6]
+MTD	assay[7]	Raji_007
+MTD	assay[7]-sample_ref	sample[7]
+MTD	assay[7]-ms_run_ref	ms_run[7]
+MTD	assay[8]	Raji_008
+MTD	assay[8]-sample_ref	sample[8]
+MTD	assay[8]-ms_run_ref	ms_run[8]
+MTD	assay[9]	Raji_009
+MTD	assay[9]-sample_ref	sample[9]
+MTD	assay[9]-ms_run_ref	ms_run[9]
+MTD	study_variable_group[1]	[,,Time,]
+MTD	study_variable_group[1]-description	mwTab sample factor Time
+MTD	study_variable_group[1]-type	[STATO, STATO:0000252, categorical variable, ]
+MTD	study_variable_group[1]-datatype	xsd:string
+MTD	study_variable_group[1]-study_variable_refs	study_variable[1]|study_variable[2]|study_variable[3]|study_variable[4]
+MTD	study_variable_group[2]	[,,Treatment,]
+MTD	study_variable_group[2]-description	mwTab sample factor Treatment
+MTD	study_variable_group[2]-type	[STATO, STATO:0000252, categorical variable, ]
+MTD	study_variable_group[2]-datatype	xsd:string
+MTD	study_variable_group[2]-study_variable_refs	study_variable[5]|study_variable[6]
+MTD	study_variable[1]	-
+MTD	study_variable[1]-assay_refs	assay[1]|assay[2]|assay[3]
+MTD	study_variable[1]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[1]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[1]-description	Variable Time, value -
+MTD	study_variable[2]	48(hrs)
+MTD	study_variable[2]-assay_refs	assay[4]|assay[5]|assay[6]|assay[7]|assay[8]|assay[9]
+MTD	study_variable[2]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[2]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[2]-description	Variable Time, value 48(hrs)
+MTD	study_variable[3]	96(hrs)
+MTD	study_variable[3]-assay_refs	assay[10]|assay[11]|assay[12]|assay[13]|assay[14]|assay[15]
+MTD	study_variable[3]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[3]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[3]-description	Variable Time, value 96(hrs)
+MTD	study_variable[4]	144(hrs)
+MTD	study_variable[4]-assay_refs	assay[16]|assay[17]|assay[18]|assay[19]|assay[20]|assay[21]
+MTD	study_variable[4]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[4]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[4]-description	Variable Time, value 144(hrs)
+MTD	study_variable[5]	Vehicle
+MTD	study_variable[5]-assay_refs	assay[1]|assay[2]|assay[3]|assay[4]|assay[5]|assay[6]|assay[10]|assay[11]|assay[12]|assay[16]|assay[17]|assay[18]
+MTD	study_variable[5]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[5]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[5]-description	Variable Treatment, value Vehicle
+MTD	study_variable[6]	Doxycycline
+MTD	study_variable[6]-assay_refs	assay[7]|assay[8]|assay[9]|assay[13]|assay[14]|assay[15]|assay[19]|assay[20]|assay[21]
+MTD	study_variable[6]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[6]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[6]-description	Variable Treatment, value Doxycycline
+MTD	custom[1]	[,, Metabolomics Workbench analysis ID, AN000719]
+MTD	custom[2]	[,, chromatography type, Reversed phase]
+MTD	custom[3]	[,, chromatography instrument, Agilent 1290 Infinity]
+MTD	custom[4]	[,, chromatography column, "Waters AccQ Tag (100 x 2mm, 1.7um)"]
+MTD	cv[1]-label	MS
+MTD	cv[1]-full_name	PSI-MS controlled vocabulary
+MTD	cv[1]-version	4.1.138
+MTD	cv[1]-uri	https://www.ebi.ac.uk/ols4/ontologies/ms
+MTD	cv[2]-label	PRIDE
+MTD	cv[2]-full_name	PRIDE PRoteomics IDEntifications (PRIDE) database controlled vocabulary
+MTD	cv[2]-version	16:10:2023 11:38
+MTD	cv[2]-uri	https://www.ebi.ac.uk/ols/ontologies/pride
+MTD	cv[3]-label	STATO
+MTD	cv[3]-full_name	General purpose STATistics Ontology
+MTD	cv[3]-version	2026-04-20
+MTD	cv[3]-uri	https://www.ebi.ac.uk/ols4/ontologies/stato
+MTD	cv[4]-label	NCBITaxon
+MTD	cv[4]-full_name	NCBI organismal classification
+MTD	cv[4]-version	unknown
+MTD	cv[4]-uri	http://purl.obolibrary.org/obo/ncbitaxon.owl
+MTD	database[1]	[,, PubChem, ]
+MTD	database[1]-prefix	PubChem
+MTD	database[1]-version	Unknown
+MTD	database[1]-uri	https://pubchem.ncbi.nlm.nih.gov
+MTD	small_molecule-quantification_unit	[,, nmol/mg protein, ]
+MTD	small_molecule-identification_reliability	[MS, MS:1002896, compound identification confidence level, ]
+
+SMH	SML_ID	SMF_ID_REFS	database_identifier	chemical_formula	smiles	inchi	chemical_name	uri	theoretical_neutral_mass	adduct_ions	reliability	best_id_confidence_measure	best_id_confidence_value	abundance_assay[1]	abundance_assay[2]	abundance_assay[3]	abundance_assay[4]	abundance_assay[5]	abundance_assay[6]	abundance_assay[7]	abundance_assay[8]	abundance_assay[9]	abundance_assay[10]	abundance_assay[11]	abundance_assay[12]	abundance_assay[13]	abundance_assay[14]	abundance_assay[15]	abundance_assay[16]	abundance_assay[17]	abundance_assay[18]	abundance_assay[19]	abundance_assay[20]	abundance_assay[21]	abundance_study_variable[1]	abundance_study_variable[2]	abundance_study_variable[3]	abundance_study_variable[4]	abundance_study_variable[5]	abundance_study_variable[6]	abundance_variation_study_variable[1]	abundance_variation_study_variable[2]	abundance_variation_study_variable[3]	abundance_variation_study_variable[4]	abundance_variation_study_variable[5]	abundance_variation_study_variable[6]	opt_global_metabolite_name	opt_global_retention_index	opt_global_quantified_m_z	opt_global_pubchem_id	opt_global_kegg_id
+SML	1	null	PubChem:5950	null	null	null	Alanine	https://pubchem.ncbi.nlm.nih.gov/compound/5950	null	null	2	null	null	8.61	9.38	10.48	11.99	16.05	30.5	20.1	20.93	null	40.58	21.65	33.49	28.7	41.31	38.33	21.57	13.5	19.53	14.94	21.99	19.71	9.49	19.914	34.01	18.54	19.7775	25.75125	0.0990348168582644	0.346863159234017	0.226367108271935	0.189617502592754	0.522742671010112	0.368900315916964	Alanine	4.16	260.17	5950	null
+SML	2	null	PubChem:6322	null	null	null	Arginine	https://pubchem.ncbi.nlm.nih.gov/compound/6322	null	null	2	null	null	2.84	3.06	3.24	5.56	6.37	17.8	10.56	14.12	null	4.47	4.23	5.79	14.58	25.38	24.73	3.87	4.44	5.3	7.75	8.4	6.74	3.04666666666667	10.882	13.1966666666667	6.08333333333333	5.58083333333333	14.0325	0.0657548323908829	0.475570125343291	0.75380083487663	0.301220785045773	0.718136931041801	0.525019401921705	Arginine	2.68	345.21	6322	null
+SML	3	null	PubChem:6267	null	null	null	Asparagine	https://pubchem.ncbi.nlm.nih.gov/compound/6267	null	null	2	null	null	5.27	5.82	6.22	7.65	8.25	22.21	10.36	14.29	null	16.55	11.74	14.61	14.6	23.72	20.6	14.11	7.58	13.34	13.24	16.64	14.67	5.77	12.552	16.97	13.2633333333333	11.1125	16.015	0.0826637089616071	0.477412387494216	0.260157088766929	0.22968923769575	0.468411057848429	0.266223745450663	Asparagine	2.25	303.13	6267	null
+SML	4	null	PubChem:5960	null	null	null	Aspartate	https://pubchem.ncbi.nlm.nih.gov/compound/5960	null	null	2	null	null	null	null	null	null	null	null	null	null	null	1.68	1.47	1.64	1.41	2.16	null	2.06	null	2.18	2.46	3.34	2.48	null	null	1.672	2.504	1.806	2.37	null	null	0.17658233279028	0.200031640159726	0.166278986793916	0.292846459062627	Aspartate	2.99	304.11	5960	null
+SML	5	null	PubChem:9750	null	null	null	Citrulline	https://pubchem.ncbi.nlm.nih.gov/compound/9750	null	null	2	null	null	null	null	2.68	2.54	2.26	null	null	3.33	null	20.13	11.26	14.37	null	null	null	5.53	4.52	5.79	null	null	null	2.68	2.71	15.2533333333333	5.28	7.67555555555556	3.33	null	0.204755489284208	0.295049774844933	0.127063432709996	0.81303600262198	null	Citrulline	3.33	346.21	9750	null
+SML	6	null	PubChem:33032	null	null	null	Glutamate	https://pubchem.ncbi.nlm.nih.gov/compound/33032	null	null	2	null	null	64.58	68.59	87.8	87.61	83.22	243.36	95.63	163.08	null	94.78	100.75	87.35	133.78	165.1	147.41	102.3	29.68	147.29	129.14	161.97	151.39	73.6566666666667	134.58	121.528333333333	120.295	99.7758333333333	143.4375	0.168504829689509	0.51220077187337	0.261087762353651	0.408019617371142	0.529916573013747	0.163729732462575	Glutamate	3.35	318.11	33032	null
+SML	7	null	PubChem:5961	null	null	null	Glutamine	https://pubchem.ncbi.nlm.nih.gov/compound/5961	null	null	2	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	null	39.36	null	50.85	30.62	41.25	28.92	null	null	null	38.2	45.105	33.5966666666667	null	null	null	0.232028379003819	0.180127633651113	0.198896594628518	Glutamine	2.65	317.21	5961	null
+SML	8	null	PubChem:750	null	null	null	Glycine	https://pubchem.ncbi.nlm.nih.gov/compound/750	null	null	2	null	null	9.85	13.34	14	18.42	18.42	48.88	22.98	33.27	null	64.83	40.12	46.89	58.87	74.77	67.83	23.51	18.23	18.28	21.51	28.23	27.52	12.3966666666667	28.394	58.885	22.88	27.8975	41.8725	0.179889477964439	0.456392987158216	0.22319808201684	0.190720163823968	0.632973914430363	0.517169313928686	Glycine	2.81	246.08	750	null
+SML	9	null	PubChem:6274	null	null	null	Histidine	https://pubchem.ncbi.nlm.nih.gov/compound/6274	null	null	2	null	null	0.81	0.95	1.09	1.44	1.71	3.61	1.92	2.28	null	3.53	2.39	3.37	2.93	4.14	4.27	2	1.25	1.92	2.38	2.45	2.81	0.95	2.192	3.43833333333333	2.135	2.00583333333333	2.8975	0.147368421052632	0.387792507058979	0.207882799629542	0.253321749997121	0.504736837258411	0.298635085491512	Histidine	2.07	326.21	6274	null
+SML	10	null	PubChem:6306	null	null	null	Isoleucine	https://pubchem.ncbi.nlm.nih.gov/compound/6306	null	null	2	null	null	1.94	2.16	2.78	2.97	4.46	9.92	5.05	8.62	null	12.85	5.84	8.92	8.21	13.29	13.58	5.07	4.35	4.13	5.25	7.75	7.39	2.29333333333333	6.204	10.4483333333333	5.65666666666667	5.44916666666667	8.6425	0.189934839813019	0.4732247869424	0.309343368214533	0.273117704146478	0.624621200587833	0.373519069872584	Isoleucine	8.15	302.21	6306	null
+SML	11	null	PubChem:6106	null	null	null	Leucine	https://pubchem.ncbi.nlm.nih.gov/compound/6106	null	null	2	null	null	2.01	2.43	2.51	3.79	4.11	10.21	5.39	6.88	null	10.28	5.95	9.47	9.67	11.16	11.97	4.7	4.6	4.08	5.3	8.05	6.57	2.31666666666667	6.076	9.75	5.55	5.345	8.12375	0.11593229973228	0.429949073560991	0.213777643824939	0.268931217368589	0.562900662291506	0.314924716763151	Leucine	8.26	302.21	6106	null
+SML	12	null	PubChem:5962	null	null	null	Lysine	https://pubchem.ncbi.nlm.nih.gov/compound/5962	null	null	2	null	null	null	null	null	null	null	null	null	null	null	3	2.47	3.23	2.37	4.22	3.93	null	null	null	null	null	null	null	null	3.20333333333333	null	2.9	3.50666666666667	null	null	0.235104463053369	null	0.134394312206242	0.283746441329623	Lysine	6.66	487.21	5962	null
+SML	13	null	PubChem:6262	null	null	null	Ornithine	https://pubchem.ncbi.nlm.nih.gov/compound/6262	null	null	2	null	null	null	null	null	null	null	null	null	null	null	3.88	2.07	2.43	null	null	null	null	1.91	null	null	null	null	null	null	2.79333333333333	1.91	2.5725	null	null	null	0.343009747131827	null	0.349225580682696	null	Ornithine	5.93	473.22	6262	null
+SML	14	null	PubChem:6140	null	null	null	Phenylalanine	https://pubchem.ncbi.nlm.nih.gov/compound/6140	null	null	2	null	null	0.79	0.6	0.93	1.21	1.28	2.69	1.34	2.01	null	3.24	2.34	2.75	2.59	3.54	3.68	1.3	1.49	1.32	1.78	2.38	1.99	0.773333333333333	1.706	3.02333333333333	1.71	1.66166666666667	2.41375	0.214176866358704	0.373278062281144	0.179620649657765	0.248217888091365	0.520931291536565	0.343109724073655	Phenylalanine	8.40	336.21	6140	null
+SML	15	null	PubChem:145742	null	null	null	Proline	https://pubchem.ncbi.nlm.nih.gov/compound/145742	null	null	2	null	null	16.13	18.89	21.35	22.58	28.71	49	29.29	45.93	null	96.14	64.74	92.85	62.81	91.97	79.31	27.09	34.44	29.56	22.77	26.83	29.85	18.79	35.102	81.3033333333333	28.4233333333333	41.79	48.595	0.138980116357586	0.331568041366348	0.181397546684738	0.136989413371178	0.672969064506058	0.544375625989054	Proline	4.84	286.16	145742	null
+SML	16	null	PubChem:5951	null	null	null	Serine	https://pubchem.ncbi.nlm.nih.gov/compound/5951	null	null	2	null	null	null	null	null	null	null	3.58	2.46	3.98	null	2.15	1.7	1.8	3.64	5.03	4.09	8.47	null	7.19	5.99	9.61	7.59	null	3.34	3.06833333333333	7.77	4.14833333333333	5.29875	null	0.235900785671763	0.450253210110551	0.175202430633118	0.713098714969303	0.442003350152849	Serine	2.60	276.11	5951	null
+SML	17	null	PubChem:6288	null	null	null	Threonine	https://pubchem.ncbi.nlm.nih.gov/compound/6288	null	null	2	null	null	null	null	null	null	3.64	7.96	4.27	7.45	null	6.21	4.16	6.09	5.13	8.3	7.29	6.68	null	5.32	6.3	6.94	7.41	null	5.83	6.19666666666667	6.53	5.72285714285714	6.63625	null	0.375678468235554	0.238453232232635	0.120630662133586	0.259532764492858	0.201602831901086	Threonine	3.74	290.11	6288	null
+SML	18	null	PubChem:6305	null	null	null	Tryptophan	https://pubchem.ncbi.nlm.nih.gov/compound/6305	null	null	2	null	null	null	null	null	null	null	1.36	null	null	null	0.93	0.78	0.94	0.91	1.49	1.24	null	null	null	null	null	0.97	null	1.36	1.04833333333333	0.97	1.0025	1.1525	null	null	0.251901757364296	null	0.248693995228322	0.231566267159783	Tryptophan	8.54	375.21	6305	null
+SML	19	null	PubChem:6057	null	null	null	Tyrosine	https://pubchem.ncbi.nlm.nih.gov/compound/6057	null	null	2	null	null	null	null	null	null	1.91	4.6	1.95	3.06	null	4.16	3.06	3.98	3.21	6.35	6.22	2.22	null	1.83	2.86	2.94	3.56	null	2.88	4.49666666666667	2.682	3.10857142857143	3.76875	null	0.439049651171044	0.322338874109871	0.250707938573427	0.370352237330369	0.429608356319908	Tyrosine	6.66	352.21	6057	null
+SML	20	null	PubChem:6287	null	null	null	Valine	https://pubchem.ncbi.nlm.nih.gov/compound/6287	null	null	2	null	null	null	null	null	null	null	null	null	null	null	4.12	2.94	3.94	4.03	6.99	5.25	null	null	null	null	null	null	null	null	4.545	null	3.66666666666667	5.42333333333333	null	null	0.309018532673661	null	0.173376769298056	0.274294984819779	Valine	7.09	288.21	6287	null
+

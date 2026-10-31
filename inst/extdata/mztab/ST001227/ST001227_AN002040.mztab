@@ -1,0 +1,534 @@
+MTD	mzTab-version	2.1.0-M
+MTD	mzTab-ID	ST001227_AN002040
+MTD	mzTab-profile	M+S
+MTD	title	Aquamin and Prevention of Colon Cancer (part-III)
+MTD	description	We propose to evaluate microbial and metabolic profiles in baseline and endpoint colonic mucosal, fecal, and serum samples from human patients at risk for CRC and enrolled in a 90-day phase I clinical trial. Patients will receive daily supplementation with calcium alone, a calcium-rich multimineral (Aquamin?), or placebo (maltodextrin) (n=10 per group). We hypothesize that dietary supplementation will correlate with CRC-protective metabolic profiles and that multimineral supplementation will generate more favorable profiles than calcium supplementation alone.
+MTD	instrument[1]-name	[MS, MS:1000031, instrument model, Agilent 5975]
+MTD	instrument[1]-source	[MS, MS:1000389, electron ionization, ]
+MTD	instrument[1]-analyzer[1]	[MS, MS:1000081, quadrupole, ]
+MTD	software[1]	[MS, MS:1000799, custom unreleased software tool, mwtab2mztabm 0.1.0]
+MTD	contact[1]-name	Maureen Kachman
+MTD	contact[1]-affiliation	University of Michigan
+MTD	contact[1]-email	mkachman@med.umich.edu
+MTD	uri[1]	https://www.metabolomicsworkbench.org/data/DRCCMetadata.php?Mode=Study&StudyID=ST001227
+MTD	quantification_method	[MS, MS:1001833, quantitation analysis summary, ]
+MTD	sample[1]	S00031727
+MTD	sample[1]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[1]-tissue[1]	[,, Colon, ]
+MTD	sample[1]-custom[1]	[,,Subject ID, SU0021803]
+MTD	sample[1]-custom[2]	[,,Sample type, Sample]
+MTD	sample[1]-custom[3]	[,,Biological material, Tissues]
+MTD	sample[1]-custom[4]	[,,10001 Visit 2 Colon NA#2, 10001 Visit 2 Colon NA#2]
+MTD	sample[10]	S00031736
+MTD	sample[10]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[10]-tissue[1]	[,, Colon, ]
+MTD	sample[10]-custom[1]	[,,Subject ID, SU0021812]
+MTD	sample[10]-custom[2]	[,,Sample type, Sample]
+MTD	sample[10]-custom[3]	[,,Biological material, Tissues]
+MTD	sample[10]-custom[4]	[,,10001 Visit 2 Colon NA#2, 10010 Visit 2 Colon NA#2]
+MTD	sample[11]	S00031737
+MTD	sample[11]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[11]-tissue[1]	[,, Colon, ]
+MTD	sample[11]-custom[1]	[,,Subject ID, SU0021813]
+MTD	sample[11]-custom[2]	[,,Sample type, Sample]
+MTD	sample[11]-custom[3]	[,,Biological material, Tissues]
+MTD	sample[11]-custom[4]	[,,10001 Visit 2 Colon NA#2, 10011 Visit 2 Colon NA#2]
+MTD	sample[12]	S00031738
+MTD	sample[12]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[12]-tissue[1]	[,, Colon, ]
+MTD	sample[12]-custom[1]	[,,Subject ID, SU0021814]
+MTD	sample[12]-custom[2]	[,,Sample type, Sample]
+MTD	sample[12]-custom[3]	[,,Biological material, Tissues]
+MTD	sample[12]-custom[4]	[,,10001 Visit 2 Colon NA#2, 10012 Visit 2 Colon NA#2]
+MTD	sample[13]	S00031739
+MTD	sample[13]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[13]-tissue[1]	[,, Colon, ]
+MTD	sample[13]-custom[1]	[,,Subject ID, SU0021815]
+MTD	sample[13]-custom[2]	[,,Sample type, Sample]
+MTD	sample[13]-custom[3]	[,,Biological material, Tissues]
+MTD	sample[13]-custom[4]	[,,10001 Visit 2 Colon NA#2, 10013 Visit 2 Colon NA#2]
+MTD	sample[14]	S00031740
+MTD	sample[14]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[14]-tissue[1]	[,, Colon, ]
+MTD	sample[14]-custom[1]	[,,Subject ID, SU0021816]
+MTD	sample[14]-custom[2]	[,,Sample type, Sample]
+MTD	sample[14]-custom[3]	[,,Biological material, Tissues]
+MTD	sample[14]-custom[4]	[,,10001 Visit 2 Colon NA#2, 10014 Visit 2 Colon NA#2]
+MTD	sample[15]	S00031741
+MTD	sample[15]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[15]-tissue[1]	[,, Colon, ]
+MTD	sample[15]-custom[1]	[,,Subject ID, SU0021817]
+MTD	sample[15]-custom[2]	[,,Sample type, Sample]
+MTD	sample[15]-custom[3]	[,,Biological material, Tissues]
+MTD	sample[15]-custom[4]	[,,10001 Visit 2 Colon NA#2, 10015 Visit 2 Colon NA#2]
+MTD	sample[16]	S00031742
+MTD	sample[16]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[16]-tissue[1]	[,, Colon, ]
+MTD	sample[16]-custom[1]	[,,Subject ID, SU0021818]
+MTD	sample[16]-custom[2]	[,,Sample type, Sample]
+MTD	sample[16]-custom[3]	[,,Biological material, Tissues]
+MTD	sample[16]-custom[4]	[,,10001 Visit 2 Colon NA#2, 10016 Visit 2 Colon NA#2]
+MTD	sample[17]	S00031743
+MTD	sample[17]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[17]-tissue[1]	[,, Colon, ]
+MTD	sample[17]-custom[1]	[,,Subject ID, SU0021819]
+MTD	sample[17]-custom[2]	[,,Sample type, Sample]
+MTD	sample[17]-custom[3]	[,,Biological material, Tissues]
+MTD	sample[17]-custom[4]	[,,10001 Visit 2 Colon NA#2, 10017 Visit 2 Colon NA#2]
+MTD	sample[18]	S00031744
+MTD	sample[18]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[18]-tissue[1]	[,, Colon, ]
+MTD	sample[18]-custom[1]	[,,Subject ID, SU0021820]
+MTD	sample[18]-custom[2]	[,,Sample type, Sample]
+MTD	sample[18]-custom[3]	[,,Biological material, Tissues]
+MTD	sample[18]-custom[4]	[,,10001 Visit 2 Colon NA#2, 10018 Visit 2 Colon NA#2]
+MTD	sample[19]	S00031745
+MTD	sample[19]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[19]-tissue[1]	[,, Colon, ]
+MTD	sample[19]-custom[1]	[,,Subject ID, SU0021803]
+MTD	sample[19]-custom[2]	[,,Sample type, Sample]
+MTD	sample[19]-custom[3]	[,,Biological material, Tissues]
+MTD	sample[19]-custom[4]	[,,10001 Visit 2 Colon NA#2, 10001 Visit 3 Colon NA#2]
+MTD	sample[2]	S00031728
+MTD	sample[2]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[2]-tissue[1]	[,, Colon, ]
+MTD	sample[2]-custom[1]	[,,Subject ID, SU0021804]
+MTD	sample[2]-custom[2]	[,,Sample type, Sample]
+MTD	sample[2]-custom[3]	[,,Biological material, Tissues]
+MTD	sample[2]-custom[4]	[,,10001 Visit 2 Colon NA#2, 10002 Visit 2 Colon NA#2]
+MTD	sample[20]	S00031746
+MTD	sample[20]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[20]-tissue[1]	[,, Colon, ]
+MTD	sample[20]-custom[1]	[,,Subject ID, SU0021804]
+MTD	sample[20]-custom[2]	[,,Sample type, Sample]
+MTD	sample[20]-custom[3]	[,,Biological material, Tissues]
+MTD	sample[20]-custom[4]	[,,10001 Visit 2 Colon NA#2, 10002 Visit 3 Colon NA#2]
+MTD	sample[21]	S00031747
+MTD	sample[21]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[21]-tissue[1]	[,, Colon, ]
+MTD	sample[21]-custom[1]	[,,Subject ID, SU0021805]
+MTD	sample[21]-custom[2]	[,,Sample type, Sample]
+MTD	sample[21]-custom[3]	[,,Biological material, Tissues]
+MTD	sample[21]-custom[4]	[,,10001 Visit 2 Colon NA#2, 10003 Visit 3 Colon NA#2]
+MTD	sample[22]	S00031748
+MTD	sample[22]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[22]-tissue[1]	[,, Colon, ]
+MTD	sample[22]-custom[1]	[,,Subject ID, SU0021806]
+MTD	sample[22]-custom[2]	[,,Sample type, Sample]
+MTD	sample[22]-custom[3]	[,,Biological material, Tissues]
+MTD	sample[22]-custom[4]	[,,10001 Visit 2 Colon NA#2, 10004 Visit 3 Colon NA#2]
+MTD	sample[23]	S00031749
+MTD	sample[23]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[23]-tissue[1]	[,, Colon, ]
+MTD	sample[23]-custom[1]	[,,Subject ID, SU0021807]
+MTD	sample[23]-custom[2]	[,,Sample type, Sample]
+MTD	sample[23]-custom[3]	[,,Biological material, Tissues]
+MTD	sample[23]-custom[4]	[,,10001 Visit 2 Colon NA#2, 10005 Visit 3 Colon NA#2]
+MTD	sample[24]	S00031750
+MTD	sample[24]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[24]-tissue[1]	[,, Colon, ]
+MTD	sample[24]-custom[1]	[,,Subject ID, SU0021808]
+MTD	sample[24]-custom[2]	[,,Sample type, Sample]
+MTD	sample[24]-custom[3]	[,,Biological material, Tissues]
+MTD	sample[24]-custom[4]	[,,10001 Visit 2 Colon NA#2, 10006 Visit 3 Colon NA#2]
+MTD	sample[25]	S00031751
+MTD	sample[25]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[25]-tissue[1]	[,, Colon, ]
+MTD	sample[25]-custom[1]	[,,Subject ID, SU0021809]
+MTD	sample[25]-custom[2]	[,,Sample type, Sample]
+MTD	sample[25]-custom[3]	[,,Biological material, Tissues]
+MTD	sample[25]-custom[4]	[,,10001 Visit 2 Colon NA#2, 10007 Visit 3 Colon NA#2]
+MTD	sample[26]	S00031752
+MTD	sample[26]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[26]-tissue[1]	[,, Colon, ]
+MTD	sample[26]-custom[1]	[,,Subject ID, SU0021810]
+MTD	sample[26]-custom[2]	[,,Sample type, Sample]
+MTD	sample[26]-custom[3]	[,,Biological material, Tissues]
+MTD	sample[26]-custom[4]	[,,10001 Visit 2 Colon NA#2, 10008 Visit 3 Colon NA#2]
+MTD	sample[27]	S00031753
+MTD	sample[27]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[27]-tissue[1]	[,, Colon, ]
+MTD	sample[27]-custom[1]	[,,Subject ID, SU0021811]
+MTD	sample[27]-custom[2]	[,,Sample type, Sample]
+MTD	sample[27]-custom[3]	[,,Biological material, Tissues]
+MTD	sample[27]-custom[4]	[,,10001 Visit 2 Colon NA#2, 10009 Visit 3 Colon NA#2]
+MTD	sample[28]	S00031754
+MTD	sample[28]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[28]-tissue[1]	[,, Colon, ]
+MTD	sample[28]-custom[1]	[,,Subject ID, SU0021812]
+MTD	sample[28]-custom[2]	[,,Sample type, Sample]
+MTD	sample[28]-custom[3]	[,,Biological material, Tissues]
+MTD	sample[28]-custom[4]	[,,10001 Visit 2 Colon NA#2, 10010 Visit 3 Colon NA#2]
+MTD	sample[29]	S00031755
+MTD	sample[29]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[29]-tissue[1]	[,, Colon, ]
+MTD	sample[29]-custom[1]	[,,Subject ID, SU0021813]
+MTD	sample[29]-custom[2]	[,,Sample type, Sample]
+MTD	sample[29]-custom[3]	[,,Biological material, Tissues]
+MTD	sample[29]-custom[4]	[,,10001 Visit 2 Colon NA#2, 10011 Visit 3 Colon NA#2]
+MTD	sample[3]	S00031729
+MTD	sample[3]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[3]-tissue[1]	[,, Colon, ]
+MTD	sample[3]-custom[1]	[,,Subject ID, SU0021805]
+MTD	sample[3]-custom[2]	[,,Sample type, Sample]
+MTD	sample[3]-custom[3]	[,,Biological material, Tissues]
+MTD	sample[3]-custom[4]	[,,10001 Visit 2 Colon NA#2, 10003 Visit 2 Colon NA#2]
+MTD	sample[30]	S00031756
+MTD	sample[30]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[30]-tissue[1]	[,, Colon, ]
+MTD	sample[30]-custom[1]	[,,Subject ID, SU0021814]
+MTD	sample[30]-custom[2]	[,,Sample type, Sample]
+MTD	sample[30]-custom[3]	[,,Biological material, Tissues]
+MTD	sample[30]-custom[4]	[,,10001 Visit 2 Colon NA#2, 10012 Visit 3 Colon NA#2]
+MTD	sample[31]	S00031757
+MTD	sample[31]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[31]-tissue[1]	[,, Colon, ]
+MTD	sample[31]-custom[1]	[,,Subject ID, SU0021815]
+MTD	sample[31]-custom[2]	[,,Sample type, Sample]
+MTD	sample[31]-custom[3]	[,,Biological material, Tissues]
+MTD	sample[31]-custom[4]	[,,10001 Visit 2 Colon NA#2, 10013 Visit 3 Colon NA#2]
+MTD	sample[32]	S00031758
+MTD	sample[32]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[32]-tissue[1]	[,, Colon, ]
+MTD	sample[32]-custom[1]	[,,Subject ID, SU0021816]
+MTD	sample[32]-custom[2]	[,,Sample type, Sample]
+MTD	sample[32]-custom[3]	[,,Biological material, Tissues]
+MTD	sample[32]-custom[4]	[,,10001 Visit 2 Colon NA#2, 10014 Visit 3 Colon NA#2]
+MTD	sample[33]	S00031759
+MTD	sample[33]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[33]-tissue[1]	[,, Colon, ]
+MTD	sample[33]-custom[1]	[,,Subject ID, SU0021817]
+MTD	sample[33]-custom[2]	[,,Sample type, Sample]
+MTD	sample[33]-custom[3]	[,,Biological material, Tissues]
+MTD	sample[33]-custom[4]	[,,10001 Visit 2 Colon NA#2, 10015 Visit 3 Colon NA#2]
+MTD	sample[34]	S00031760
+MTD	sample[34]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[34]-tissue[1]	[,, Colon, ]
+MTD	sample[34]-custom[1]	[,,Subject ID, SU0021818]
+MTD	sample[34]-custom[2]	[,,Sample type, Sample]
+MTD	sample[34]-custom[3]	[,,Biological material, Tissues]
+MTD	sample[34]-custom[4]	[,,10001 Visit 2 Colon NA#2, 10016 Visit 3 Colon NA#2]
+MTD	sample[35]	S00031761
+MTD	sample[35]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[35]-tissue[1]	[,, Colon, ]
+MTD	sample[35]-custom[1]	[,,Subject ID, SU0021819]
+MTD	sample[35]-custom[2]	[,,Sample type, Sample]
+MTD	sample[35]-custom[3]	[,,Biological material, Tissues]
+MTD	sample[35]-custom[4]	[,,10001 Visit 2 Colon NA#2, 10017 Visit 3 Colon NA#2]
+MTD	sample[36]	S00031762
+MTD	sample[36]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[36]-tissue[1]	[,, Colon, ]
+MTD	sample[36]-custom[1]	[,,Subject ID, SU0021820]
+MTD	sample[36]-custom[2]	[,,Sample type, Sample]
+MTD	sample[36]-custom[3]	[,,Biological material, Tissues]
+MTD	sample[36]-custom[4]	[,,10001 Visit 2 Colon NA#2, 10018 Visit 3 Colon NA#2]
+MTD	sample[4]	S00031730
+MTD	sample[4]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[4]-tissue[1]	[,, Colon, ]
+MTD	sample[4]-custom[1]	[,,Subject ID, SU0021806]
+MTD	sample[4]-custom[2]	[,,Sample type, Sample]
+MTD	sample[4]-custom[3]	[,,Biological material, Tissues]
+MTD	sample[4]-custom[4]	[,,10001 Visit 2 Colon NA#2, 10004 Visit 2 Colon NA#2]
+MTD	sample[5]	S00031731
+MTD	sample[5]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[5]-tissue[1]	[,, Colon, ]
+MTD	sample[5]-custom[1]	[,,Subject ID, SU0021807]
+MTD	sample[5]-custom[2]	[,,Sample type, Sample]
+MTD	sample[5]-custom[3]	[,,Biological material, Tissues]
+MTD	sample[5]-custom[4]	[,,10001 Visit 2 Colon NA#2, 10005 Visit 2 Colon NA#2]
+MTD	sample[6]	S00031732
+MTD	sample[6]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[6]-tissue[1]	[,, Colon, ]
+MTD	sample[6]-custom[1]	[,,Subject ID, SU0021808]
+MTD	sample[6]-custom[2]	[,,Sample type, Sample]
+MTD	sample[6]-custom[3]	[,,Biological material, Tissues]
+MTD	sample[6]-custom[4]	[,,10001 Visit 2 Colon NA#2, 10006 Visit 2 Colon NA#2]
+MTD	sample[7]	S00031733
+MTD	sample[7]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[7]-tissue[1]	[,, Colon, ]
+MTD	sample[7]-custom[1]	[,,Subject ID, SU0021809]
+MTD	sample[7]-custom[2]	[,,Sample type, Sample]
+MTD	sample[7]-custom[3]	[,,Biological material, Tissues]
+MTD	sample[7]-custom[4]	[,,10001 Visit 2 Colon NA#2, 10007 Visit 2 Colon NA#2]
+MTD	sample[8]	S00031734
+MTD	sample[8]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[8]-tissue[1]	[,, Colon, ]
+MTD	sample[8]-custom[1]	[,,Subject ID, SU0021810]
+MTD	sample[8]-custom[2]	[,,Sample type, Sample]
+MTD	sample[8]-custom[3]	[,,Biological material, Tissues]
+MTD	sample[8]-custom[4]	[,,10001 Visit 2 Colon NA#2, 10008 Visit 2 Colon NA#2]
+MTD	sample[9]	S00031735
+MTD	sample[9]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[9]-tissue[1]	[,, Colon, ]
+MTD	sample[9]-custom[1]	[,,Subject ID, SU0021811]
+MTD	sample[9]-custom[2]	[,,Sample type, Sample]
+MTD	sample[9]-custom[3]	[,,Biological material, Tissues]
+MTD	sample[9]-custom[4]	[,,10001 Visit 2 Colon NA#2, 10009 Visit 2 Colon NA#2]
+MTD	ms_run[1]-location	S00031727
+MTD	ms_run[1]-instrument_ref	instrument[1]
+MTD	ms_run[1]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[2]-location	S00031728
+MTD	ms_run[2]-instrument_ref	instrument[1]
+MTD	ms_run[2]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[3]-location	S00031729
+MTD	ms_run[3]-instrument_ref	instrument[1]
+MTD	ms_run[3]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[4]-location	S00031730
+MTD	ms_run[4]-instrument_ref	instrument[1]
+MTD	ms_run[4]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[5]-location	S00031731
+MTD	ms_run[5]-instrument_ref	instrument[1]
+MTD	ms_run[5]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[6]-location	S00031732
+MTD	ms_run[6]-instrument_ref	instrument[1]
+MTD	ms_run[6]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[7]-location	S00031733
+MTD	ms_run[7]-instrument_ref	instrument[1]
+MTD	ms_run[7]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[8]-location	S00031734
+MTD	ms_run[8]-instrument_ref	instrument[1]
+MTD	ms_run[8]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[9]-location	S00031735
+MTD	ms_run[9]-instrument_ref	instrument[1]
+MTD	ms_run[9]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[10]-location	S00031736
+MTD	ms_run[10]-instrument_ref	instrument[1]
+MTD	ms_run[10]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[11]-location	S00031737
+MTD	ms_run[11]-instrument_ref	instrument[1]
+MTD	ms_run[11]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[12]-location	S00031738
+MTD	ms_run[12]-instrument_ref	instrument[1]
+MTD	ms_run[12]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[13]-location	S00031739
+MTD	ms_run[13]-instrument_ref	instrument[1]
+MTD	ms_run[13]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[14]-location	S00031740
+MTD	ms_run[14]-instrument_ref	instrument[1]
+MTD	ms_run[14]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[15]-location	S00031741
+MTD	ms_run[15]-instrument_ref	instrument[1]
+MTD	ms_run[15]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[16]-location	S00031742
+MTD	ms_run[16]-instrument_ref	instrument[1]
+MTD	ms_run[16]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[17]-location	S00031743
+MTD	ms_run[17]-instrument_ref	instrument[1]
+MTD	ms_run[17]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[18]-location	S00031744
+MTD	ms_run[18]-instrument_ref	instrument[1]
+MTD	ms_run[18]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[19]-location	S00031745
+MTD	ms_run[19]-instrument_ref	instrument[1]
+MTD	ms_run[19]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[20]-location	S00031746
+MTD	ms_run[20]-instrument_ref	instrument[1]
+MTD	ms_run[20]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[21]-location	S00031747
+MTD	ms_run[21]-instrument_ref	instrument[1]
+MTD	ms_run[21]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[22]-location	S00031748
+MTD	ms_run[22]-instrument_ref	instrument[1]
+MTD	ms_run[22]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[23]-location	S00031749
+MTD	ms_run[23]-instrument_ref	instrument[1]
+MTD	ms_run[23]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[24]-location	S00031750
+MTD	ms_run[24]-instrument_ref	instrument[1]
+MTD	ms_run[24]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[25]-location	S00031751
+MTD	ms_run[25]-instrument_ref	instrument[1]
+MTD	ms_run[25]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[26]-location	S00031752
+MTD	ms_run[26]-instrument_ref	instrument[1]
+MTD	ms_run[26]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[27]-location	S00031753
+MTD	ms_run[27]-instrument_ref	instrument[1]
+MTD	ms_run[27]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[28]-location	S00031754
+MTD	ms_run[28]-instrument_ref	instrument[1]
+MTD	ms_run[28]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[29]-location	S00031755
+MTD	ms_run[29]-instrument_ref	instrument[1]
+MTD	ms_run[29]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[30]-location	S00031756
+MTD	ms_run[30]-instrument_ref	instrument[1]
+MTD	ms_run[30]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[31]-location	S00031757
+MTD	ms_run[31]-instrument_ref	instrument[1]
+MTD	ms_run[31]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[32]-location	S00031758
+MTD	ms_run[32]-instrument_ref	instrument[1]
+MTD	ms_run[32]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[33]-location	S00031759
+MTD	ms_run[33]-instrument_ref	instrument[1]
+MTD	ms_run[33]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[34]-location	S00031760
+MTD	ms_run[34]-instrument_ref	instrument[1]
+MTD	ms_run[34]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[35]-location	S00031761
+MTD	ms_run[35]-instrument_ref	instrument[1]
+MTD	ms_run[35]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[36]-location	S00031762
+MTD	ms_run[36]-instrument_ref	instrument[1]
+MTD	ms_run[36]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	assay[1]	S00031727
+MTD	assay[1]-sample_ref	sample[1]
+MTD	assay[1]-ms_run_ref	ms_run[1]
+MTD	assay[10]	S00031736
+MTD	assay[10]-sample_ref	sample[10]
+MTD	assay[10]-ms_run_ref	ms_run[10]
+MTD	assay[11]	S00031737
+MTD	assay[11]-sample_ref	sample[11]
+MTD	assay[11]-ms_run_ref	ms_run[11]
+MTD	assay[12]	S00031738
+MTD	assay[12]-sample_ref	sample[12]
+MTD	assay[12]-ms_run_ref	ms_run[12]
+MTD	assay[13]	S00031739
+MTD	assay[13]-sample_ref	sample[13]
+MTD	assay[13]-ms_run_ref	ms_run[13]
+MTD	assay[14]	S00031740
+MTD	assay[14]-sample_ref	sample[14]
+MTD	assay[14]-ms_run_ref	ms_run[14]
+MTD	assay[15]	S00031741
+MTD	assay[15]-sample_ref	sample[15]
+MTD	assay[15]-ms_run_ref	ms_run[15]
+MTD	assay[16]	S00031742
+MTD	assay[16]-sample_ref	sample[16]
+MTD	assay[16]-ms_run_ref	ms_run[16]
+MTD	assay[17]	S00031743
+MTD	assay[17]-sample_ref	sample[17]
+MTD	assay[17]-ms_run_ref	ms_run[17]
+MTD	assay[18]	S00031744
+MTD	assay[18]-sample_ref	sample[18]
+MTD	assay[18]-ms_run_ref	ms_run[18]
+MTD	assay[19]	S00031745
+MTD	assay[19]-sample_ref	sample[19]
+MTD	assay[19]-ms_run_ref	ms_run[19]
+MTD	assay[2]	S00031728
+MTD	assay[2]-sample_ref	sample[2]
+MTD	assay[2]-ms_run_ref	ms_run[2]
+MTD	assay[20]	S00031746
+MTD	assay[20]-sample_ref	sample[20]
+MTD	assay[20]-ms_run_ref	ms_run[20]
+MTD	assay[21]	S00031747
+MTD	assay[21]-sample_ref	sample[21]
+MTD	assay[21]-ms_run_ref	ms_run[21]
+MTD	assay[22]	S00031748
+MTD	assay[22]-sample_ref	sample[22]
+MTD	assay[22]-ms_run_ref	ms_run[22]
+MTD	assay[23]	S00031749
+MTD	assay[23]-sample_ref	sample[23]
+MTD	assay[23]-ms_run_ref	ms_run[23]
+MTD	assay[24]	S00031750
+MTD	assay[24]-sample_ref	sample[24]
+MTD	assay[24]-ms_run_ref	ms_run[24]
+MTD	assay[25]	S00031751
+MTD	assay[25]-sample_ref	sample[25]
+MTD	assay[25]-ms_run_ref	ms_run[25]
+MTD	assay[26]	S00031752
+MTD	assay[26]-sample_ref	sample[26]
+MTD	assay[26]-ms_run_ref	ms_run[26]
+MTD	assay[27]	S00031753
+MTD	assay[27]-sample_ref	sample[27]
+MTD	assay[27]-ms_run_ref	ms_run[27]
+MTD	assay[28]	S00031754
+MTD	assay[28]-sample_ref	sample[28]
+MTD	assay[28]-ms_run_ref	ms_run[28]
+MTD	assay[29]	S00031755
+MTD	assay[29]-sample_ref	sample[29]
+MTD	assay[29]-ms_run_ref	ms_run[29]
+MTD	assay[3]	S00031729
+MTD	assay[3]-sample_ref	sample[3]
+MTD	assay[3]-ms_run_ref	ms_run[3]
+MTD	assay[30]	S00031756
+MTD	assay[30]-sample_ref	sample[30]
+MTD	assay[30]-ms_run_ref	ms_run[30]
+MTD	assay[31]	S00031757
+MTD	assay[31]-sample_ref	sample[31]
+MTD	assay[31]-ms_run_ref	ms_run[31]
+MTD	assay[32]	S00031758
+MTD	assay[32]-sample_ref	sample[32]
+MTD	assay[32]-ms_run_ref	ms_run[32]
+MTD	assay[33]	S00031759
+MTD	assay[33]-sample_ref	sample[33]
+MTD	assay[33]-ms_run_ref	ms_run[33]
+MTD	assay[34]	S00031760
+MTD	assay[34]-sample_ref	sample[34]
+MTD	assay[34]-ms_run_ref	ms_run[34]
+MTD	assay[35]	S00031761
+MTD	assay[35]-sample_ref	sample[35]
+MTD	assay[35]-ms_run_ref	ms_run[35]
+MTD	assay[36]	S00031762
+MTD	assay[36]-sample_ref	sample[36]
+MTD	assay[36]-ms_run_ref	ms_run[36]
+MTD	assay[4]	S00031730
+MTD	assay[4]-sample_ref	sample[4]
+MTD	assay[4]-ms_run_ref	ms_run[4]
+MTD	assay[5]	S00031731
+MTD	assay[5]-sample_ref	sample[5]
+MTD	assay[5]-ms_run_ref	ms_run[5]
+MTD	assay[6]	S00031732
+MTD	assay[6]-sample_ref	sample[6]
+MTD	assay[6]-ms_run_ref	ms_run[6]
+MTD	assay[7]	S00031733
+MTD	assay[7]-sample_ref	sample[7]
+MTD	assay[7]-ms_run_ref	ms_run[7]
+MTD	assay[8]	S00031734
+MTD	assay[8]-sample_ref	sample[8]
+MTD	assay[8]-ms_run_ref	ms_run[8]
+MTD	assay[9]	S00031735
+MTD	assay[9]-sample_ref	sample[9]
+MTD	assay[9]-ms_run_ref	ms_run[9]
+MTD	study_variable_group[1]	[,,Time Point,]
+MTD	study_variable_group[1]-description	mwTab sample factor Time Point
+MTD	study_variable_group[1]-type	[STATO, STATO:0000252, categorical variable, ]
+MTD	study_variable_group[1]-datatype	xsd:string
+MTD	study_variable_group[1]-study_variable_refs	study_variable[1]|study_variable[2]
+MTD	study_variable[1]	Baseline
+MTD	study_variable[1]-assay_refs	assay[1]|assay[2]|assay[3]|assay[4]|assay[5]|assay[6]|assay[7]|assay[8]|assay[9]|assay[10]|assay[11]|assay[12]|assay[13]|assay[14]|assay[15]|assay[16]|assay[17]|assay[18]
+MTD	study_variable[1]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[1]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[1]-description	Variable Time Point, value Baseline
+MTD	study_variable[2]	Day 90
+MTD	study_variable[2]-assay_refs	assay[19]|assay[20]|assay[21]|assay[22]|assay[23]|assay[24]|assay[25]|assay[26]|assay[27]|assay[28]|assay[29]|assay[30]|assay[31]|assay[32]|assay[33]|assay[34]|assay[35]|assay[36]
+MTD	study_variable[2]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[2]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[2]-description	Variable Time Point, value Day 90
+MTD	custom[1]	[,, Metabolomics Workbench analysis ID, AN002040]
+MTD	custom[2]	[,, chromatography type, GC]
+MTD	custom[3]	[,, chromatography instrument, Agilent 7890N]
+MTD	custom[4]	[,, chromatography column, "Agilent HP5-MS (15m ? 0.25mm, 0.25 um)"]
+MTD	cv[1]-label	MS
+MTD	cv[1]-full_name	PSI-MS controlled vocabulary
+MTD	cv[1]-version	4.1.138
+MTD	cv[1]-uri	https://www.ebi.ac.uk/ols4/ontologies/ms
+MTD	cv[2]-label	PRIDE
+MTD	cv[2]-full_name	PRIDE PRoteomics IDEntifications (PRIDE) database controlled vocabulary
+MTD	cv[2]-version	16:10:2023 11:38
+MTD	cv[2]-uri	https://www.ebi.ac.uk/ols/ontologies/pride
+MTD	cv[3]-label	STATO
+MTD	cv[3]-full_name	General purpose STATistics Ontology
+MTD	cv[3]-version	2026-04-20
+MTD	cv[3]-uri	https://www.ebi.ac.uk/ols4/ontologies/stato
+MTD	cv[4]-label	NCBITaxon
+MTD	cv[4]-full_name	NCBI organismal classification
+MTD	cv[4]-version	unknown
+MTD	cv[4]-uri	http://purl.obolibrary.org/obo/ncbitaxon.owl
+MTD	database[1]	[,, PubChem, ]
+MTD	database[1]-prefix	PubChem
+MTD	database[1]-version	Unknown
+MTD	database[1]-uri	https://pubchem.ncbi.nlm.nih.gov
+MTD	small_molecule-quantification_unit	[,, nmol/mg (wet weight), ]
+MTD	small_molecule-identification_reliability	[MS, MS:1002896, compound identification confidence level, ]
+
+SMH	SML_ID	SMF_ID_REFS	database_identifier	chemical_formula	smiles	inchi	chemical_name	uri	theoretical_neutral_mass	adduct_ions	reliability	best_id_confidence_measure	best_id_confidence_value	abundance_assay[1]	abundance_assay[2]	abundance_assay[3]	abundance_assay[4]	abundance_assay[5]	abundance_assay[6]	abundance_assay[7]	abundance_assay[8]	abundance_assay[9]	abundance_assay[10]	abundance_assay[11]	abundance_assay[12]	abundance_assay[13]	abundance_assay[14]	abundance_assay[15]	abundance_assay[16]	abundance_assay[17]	abundance_assay[18]	abundance_assay[19]	abundance_assay[20]	abundance_assay[21]	abundance_assay[22]	abundance_assay[23]	abundance_assay[24]	abundance_assay[25]	abundance_assay[26]	abundance_assay[27]	abundance_assay[28]	abundance_assay[29]	abundance_assay[30]	abundance_assay[31]	abundance_assay[32]	abundance_assay[33]	abundance_assay[34]	abundance_assay[35]	abundance_assay[36]	abundance_study_variable[1]	abundance_study_variable[2]	abundance_variation_study_variable[1]	abundance_variation_study_variable[2]	opt_global_metabolite_name	opt_global_pubchem_id
+SML	1	null	PubChem:176	null	null	null	Acetate	https://pubchem.ncbi.nlm.nih.gov/compound/176	null	null	2	null	null	3.6755	7.9369	8.8608	11.3465	9.4553	4.0828	4.8496	3.5015	4.0795	3.5908	5.5384	7.0338	1.6242	5.5459	5.4278	1.8769	4.1716	7.1746	5.5851	3.8787	13.606	6.2643	4.1944	5.1344	4.0642	5.4253	7.5384	6.3228	5.7407	5.0823	2.0215	4.9227	4.996	2.851	3.5456	4.6715	5.54291111111111	5.32471666666667	0.474348887765552	0.459017061431513	Acetate	176
+SML	2	null	PubChem:1032	null	null	null	Propionate	https://pubchem.ncbi.nlm.nih.gov/compound/1032	null	null	2	null	null	0.0882	1.1139	0.2671	1.0976	0.1918	0.1802	0.3423	0.0938	0.139	0.3949	0.0692	0.1001	0.2271	0.2454	0.1928	0.1997	0.0743	0.3105	0.1648	0.2022	1.7902	0.3886	0.2231	0.3091	0.1392	0.3146	0.2317	0.4101	0.1821	0.3784	0.3259	0.3066	0.3283	0.1827	0.1864	0.1566	0.295994444444444	0.345588888888889	1.04409791319867	1.07277853004998	Propionate	1032
+SML	3	null	PubChem:264	null	null	null	Butyrate	https://pubchem.ncbi.nlm.nih.gov/compound/264	null	null	2	null	null	0.0533	0.3863	0.1203	0.5606	0.0474	0.0427	0.1558	0.0411	0.0323	0.106	0.0032	0.0751	0.0499	0.1132	0.2534	0.0458	0.0438	0.1036	0.0677	0.1039	0.5644	0.1265	0.0855	0.1213	0.0634	0.1904	0.055	0.1899	0.045	0.122	0.0592	0.0753	0.1352	0.0643	0.0575	0.0683	0.1241	0.121933333333333	1.14929737631707	0.974772660317319	Butyrate	264
+SML	4	null	PubChem:10430	null	null	null	Isovalerate	https://pubchem.ncbi.nlm.nih.gov/compound/10430	null	null	2	null	null	0	0.0381	0.0059	0.0275	0.0098	0.0073	0.031	0.005	0.0051	0.0482	0.0014	0.0077	0.0065	0.0328	0.0466	0.0086	0.001	0.0123	0.0254	0.0128	0.1011	0.0062	0.0244	0.0307	0.0101	0.0278	0.0057	0.0095	0.0053	0.0236	0.0267	0.0098	0.0191	0.0061	0.0102	0.0132	0.0163777777777778	0.0204277777777778	0.990779052401528	1.07297033758623	Isovalerate	10430
+SML	5	null	PubChem:7991	null	null	null	Valerate	https://pubchem.ncbi.nlm.nih.gov/compound/7991	null	null	2	null	null	0.0538	0.0979	0.0813	0.0968	0.034	0.0326	0.0717	0.0274	0.0503	0.1114	0.0191	0.1436	0.0411	0.0904	0.0918	0.0344	0.0373	0.0648	0.0779	0.0614	0.2267	0.0477	0.1156	0.157	0.0388	0.103	0.0385	0.0625	0.0335	0.1033	0.0435	0.0474	0.0985	0.0561	0.05	0.0554	0.0655388888888889	0.0787111111111111	0.526493889937933	0.630393469055663	Valerate	7991
+SML	6	null	PubChem:8892	null	null	null	Hexanoate	https://pubchem.ncbi.nlm.nih.gov/compound/8892	null	null	2	null	null	0.1221	0.0962	0.1603	0.128	0.1087	0.0612	0.1646	0.0364	0.1465	0.1147	0.0665	0.4309	0.0727	0.1187	0.3884	0.0704	0.1284	0.1833	0.1968	0.1067	0.0943	0.1071	0.2583	0.1872	0.0827	0.1623	0.0919	0.1329	0.1041	0.1905	0.1011	0.1382	0.2228	0.1466	0.1375	0.1265	0.144333333333333	0.14375	0.723211675154928	0.34603588411089	Hexanoate	8892
+SML	7	null	PubChem:8094	null	null	null	Heptanoate	https://pubchem.ncbi.nlm.nih.gov/compound/8094	null	null	2	null	null	0	0.0012	0.0047	0.0015	0.0017	5e-04	0.0045	0.0012	0.0025	0.0114	0.0012	4e-04	8e-04	0.0124	0.0179	0.0019	0.0015	0.0046	0.007	2e-04	0.0065	0.0036	0.0126	0.0108	0.0034	0.0076	0.0044	0.0038	0.0022	0.0084	0.0024	0.003	0.0094	0.0037	0.0049	0.0059	0.00388333333333333	0.00554444444444444	1.27813520622458	0.587642675749294	Heptanoate	8094
+SML	8	null	PubChem:379	null	null	null	Octanoate	https://pubchem.ncbi.nlm.nih.gov/compound/379	null	null	2	null	null	0	0.0025	0.0017	0.0016	5e-04	3e-04	0.0023	5e-04	4e-04	3e-04	7e-04	0.0023	4e-04	0.0012	0.0343	0.001	0.0019	0.0063	0.0014	0.0021	0.0102	0.0042	0.0019	0	0.003	0.0074	0.0035	0.0049	0.003	0.0013	0.0021	0.0027	0.0064	0.0034	0.0011	0.0024	0.00323333333333333	0.00338888888888889	2.4396692185329	0.739742605231309	Octanoate	379
+

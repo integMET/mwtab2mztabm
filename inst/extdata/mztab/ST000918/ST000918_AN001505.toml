@@ -1,0 +1,617 @@
+# mwTab metadata of study ST000918, analysis AN001505
+# Exported by mwtab2mztabm 0.1.0.
+# Sample metadata is listed in [[SUBJECT_SAMPLE_FACTORS]].
+
+[mwtab2mztabm]
+format_version = 1
+factor_order = "Disease Status"
+additional_data_order = []
+
+["METABOLOMICS WORKBENCH"]
+STUDY_ID = "ST000918"
+ANALYSIS_ID = "AN001505"
+VERSION = "1"
+CREATED_ON = "03-03-2022"
+
+[PROJECT]
+PROJECT_TITLE = "Multiplatform plasma metabolic and lipid fingerprinting of breast cancer: a pilot control-case study in Colombian Hispanic women."
+PROJECT_SUMMARY = "In this pilot study, a metabolomic approaches was performed to establish a plasma metabolic fingerprint of Colombian Hispanic women with breast cancer. Data from NMR, GC-MS and LC-MS were combined and compared."
+INSTITUTE = "Universidad de los Andes, Colombia"
+DEPARTMENT = "Chemistry"
+LAST_NAME = "Cala"
+FIRST_NAME = "Monica"
+ADDRESS = "Cra. 1 #18a-12"
+EMAIL = "mp.cala10@uniandes.edu.co"
+PHONE = "+571 3394949"
+DOI = "http://dx.doi.org/10.21228/M8QM3R"
+
+[STUDY]
+STUDY_TITLE = "Plasma metabolic fingerprint for breast cancer (MS) - part I"
+STUDY_TYPE = "control - case"
+STUDY_SUMMARY = "Breast cancer is a highly heterogeneous disease associated with metabolic reprogramming. The shifts in the metabolome caused by breast cancer still lack data from Latin populations of Hispanic origin. In this pilot study, metabolomic and lipidomic approaches were performed to establish a plasma metabolic fingerprint of Colombian Hispanic women with breast cancer. NMR, GC-MS and LC-MS datasets were combined and compared. Statistics showed discrimination between breast cancer and healthy subjects on all analytical platforms."
+INSTITUTE = "Universidad de los Andes, Colombia"
+DEPARTMENT = "Chemistry"
+LAST_NAME = "Cala"
+FIRST_NAME = "Monica"
+ADDRESS = "Cra. 1 #18a-12"
+EMAIL = "mp.cala10@uniandes.edu.co"
+PHONE = "+571 3394949"
+SUBMIT_DATE = "2017-12-29"
+
+[SUBJECT]
+SUBJECT_TYPE = "Human"
+SUBJECT_SPECIES = "Homo sapiens"
+TAXONOMY_ID = "9606"
+AGE_OR_AGE_RANGE = "35 - 65"
+WEIGHT_OR_WEIGHT_RANGE = "61 - 75"
+GENDER = "Female"
+
+[COLLECTION]
+COLLECTION_SUMMARY = "Venous blood samples were taken in the morning after overnight fasting and were collected using K3EDTA tubes"
+SAMPLE_TYPE = "Blood"
+COLLECTION_METHOD = "Venous"
+COLLECTION_FREQUENCY = "one"
+VOLUMEORAMOUNT_COLLECTED = "5 mL"
+STORAGE_CONDITIONS = "-80C"
+ADDITIVES = "K3EDTA"
+BLOOD_SERUM_OR_PLASMA = "Plasma"
+
+[TREATMENT]
+TREATMENT_SUMMARY = "None"
+HUMAN_FASTING = "Overnight"
+
+[SAMPLEPREP]
+SAMPLEPREP_SUMMARY = "40 µL of plasma was deproteinized with cold acetonitrile (1:3,−20 °C), followed by a two-step derivatization: (i) methoximation with O-Methoxyamine hydrochloride in pyridine (15 mg/mL, room temperature, 16 h) followed by (ii) silylation with BSTFA containing 1% TMCS (70 °C, 1 h)."
+PROCESSING_METHOD = "Protein precipitation followed by metabolite extraction"
+PROCESSING_STORAGE_CONDITIONS = "On ice"
+EXTRACTION_METHOD = "Acetonitrile"
+SAMPLE_DERIVATIZATION = "Methoximation and silylation"
+
+[CHROMATOGRAPHY]
+CHROMATOGRAPHY_SUMMARY = "Untargeted LC/MS method"
+CHROMATOGRAPHY_COMMENTS = "HPLC system 1200 series coupled to Q-TOF 6520"
+INSTRUMENT_NAME = "Agilent 1200"
+COLUMN_NAME = "Phenomenex Kinetex C18 (150 x 2.1mm, 2.6 um)"
+COLUMN_PRESSURE = "300 bar"
+COLUMN_TEMPERATURE = "40°C"
+FLOW_GRADIENT = "25% B increased then to 95% B in 35 min, returned to initial conditions in 1 min and was kept constant for 9 min to ensure re-equilibration of the column"
+FLOW_RATE = "0.3 mL/min"
+SAMPLE_INJECTION = "10 uL"
+SOLVENT_A = "0.1% (v/v) formic acid in water"
+SOLVENT_B = "0.1% (v/v) formic acid in acetonitrile"
+CHROMATOGRAPHY_TYPE = "Reversed phase"
+
+[ANALYSIS]
+ANALYSIS_TYPE = "MS"
+
+[MS]
+INSTRUMENT_NAME = "Agilent 6530 QTOF"
+INSTRUMENT_TYPE = "QTOF"
+MS_TYPE = "ESI"
+ION_MODE = "NEGATIVE"
+CAPILLARY_VOLTAGE = "4000 V"
+SCAN_RANGE_MOVERZ = "100 / 1200 m/z"
+SCANNING = "1.38 scan/s"
+MS_RESULTS_FILE = "ST000918_AN001505_Results.txt UNITS:peak area Has m/z:Yes Has RT:Yes RT units:Minutes"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BCP01"
+"Sample ID" = "BCP01"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Breast cancer patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BCP02"
+"Sample ID" = "BCP02"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Breast cancer patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BCP03"
+"Sample ID" = "BCP03"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Breast cancer patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BCP04"
+"Sample ID" = "BCP04"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Breast cancer patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BCP05"
+"Sample ID" = "BCP05"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Breast cancer patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BCP06"
+"Sample ID" = "BCP06"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Breast cancer patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BCP07"
+"Sample ID" = "BCP07"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Breast cancer patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BCP08"
+"Sample ID" = "BCP08"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Breast cancer patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BCP09"
+"Sample ID" = "BCP09"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Breast cancer patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BCP10"
+"Sample ID" = "BCP10"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Breast cancer patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BCP11"
+"Sample ID" = "BCP11"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Breast cancer patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BCP12"
+"Sample ID" = "BCP12"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Breast cancer patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BCP13"
+"Sample ID" = "BCP13"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Breast cancer patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BCP14"
+"Sample ID" = "BCP14"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Breast cancer patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BCP15"
+"Sample ID" = "BCP15"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Breast cancer patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BCP16"
+"Sample ID" = "BCP16"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Breast cancer patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BCP17"
+"Sample ID" = "BCP17"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Breast cancer patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BCP18"
+"Sample ID" = "BCP18"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Breast cancer patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BCP19"
+"Sample ID" = "BCP19"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Breast cancer patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BCP20"
+"Sample ID" = "BCP20"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Breast cancer patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BCP21"
+"Sample ID" = "BCP21"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Breast cancer patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BCP22"
+"Sample ID" = "BCP22"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Breast cancer patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BCP23"
+"Sample ID" = "BCP23"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Breast cancer patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BCP24"
+"Sample ID" = "BCP24"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Breast cancer patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BCP25"
+"Sample ID" = "BCP25"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Breast cancer patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BCP26"
+"Sample ID" = "BCP26"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Breast cancer patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BCP27"
+"Sample ID" = "BCP27"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Breast cancer patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BCP28"
+"Sample ID" = "BCP28"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Breast cancer patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "BCP29"
+"Sample ID" = "BCP29"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Breast cancer patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "CP01"
+"Sample ID" = "CP01"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Control patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "CP02"
+"Sample ID" = "CP02"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Control patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "CP03"
+"Sample ID" = "CP03"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Control patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "CP04"
+"Sample ID" = "CP04"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Control patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "CP05"
+"Sample ID" = "CP05"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Control patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "CP06"
+"Sample ID" = "CP06"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Control patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "CP07"
+"Sample ID" = "CP07"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Control patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "CP08"
+"Sample ID" = "CP08"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Control patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "CP09"
+"Sample ID" = "CP09"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Control patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "CP10"
+"Sample ID" = "CP10"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Control patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "CP11"
+"Sample ID" = "CP11"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Control patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "CP12"
+"Sample ID" = "CP12"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Control patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "CP13"
+"Sample ID" = "CP13"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Control patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "CP14"
+"Sample ID" = "CP14"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Control patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "CP15"
+"Sample ID" = "CP15"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Control patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "CP16"
+"Sample ID" = "CP16"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Control patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "CP17"
+"Sample ID" = "CP17"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Control patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "CP18"
+"Sample ID" = "CP18"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Control patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "CP19"
+"Sample ID" = "CP19"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Control patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "CP20"
+"Sample ID" = "CP20"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Control patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "CP21"
+"Sample ID" = "CP21"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Control patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "CP22"
+"Sample ID" = "CP22"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Control patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "CP23"
+"Sample ID" = "CP23"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Control patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "CP24"
+"Sample ID" = "CP24"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Control patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "CP25"
+"Sample ID" = "CP25"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Control patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "CP26"
+"Sample ID" = "CP26"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Control patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "CP27"
+"Sample ID" = "CP27"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Control patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "CP28"
+"Sample ID" = "CP28"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Control patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "CP29"
+"Sample ID" = "CP29"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Disease Status" = "Control patient"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]

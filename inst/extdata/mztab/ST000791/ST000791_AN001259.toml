@@ -1,0 +1,616 @@
+# mwTab metadata of study ST000791, analysis AN001259
+# Exported by mwtab2mztabm 0.1.0.
+# Sample metadata is listed in [[SUBJECT_SAMPLE_FACTORS]].
+
+[mwtab2mztabm]
+format_version = 1
+factor_order = "Grouping"
+additional_data_order = ["sample type", "species"]
+
+["METABOLOMICS WORKBENCH"]
+STUDY_ID = "ST000791"
+ANALYSIS_ID = "AN001259"
+VERSION = "1"
+CREATED_ON = "July 12, 2017, 2:43 pm"
+
+[PROJECT]
+PROJECT_TITLE = "Mayo Pilot and Feasibility: Identifying metabolic adaptations characteristic of multiple myeloma cells via mass spectrometry-based metabolite profiling"
+PROJECT_SUMMARY = "Multiple myeloma (MM) is a clonal plasma cell malignancy that remains incurable in most afflicted patients. It can be preceded by an asymptomatic, premalignant stage known as smoldering multiple myeloma (SMM) that does not require therapy but has an increased life-long risk of progression to MM. However, one-third of SMM patients are “high risk” for imminent progression to MM within two years of diagnosis compared to the remainder of SMM patients who continue on an indolent asymptomatic course for several years. The diagnosis of MM cannot be made until they experience overt end-organ damage such as renal failure, lytic bone destruction, anemia and hypercalcemia. Currently, we lack sensitive biomarkers that can identify all SMM patients at high risk of progression to MM. Being able to identify high risk SMM patients could allow us to initiate systemic chemotherapy before they progress to MM. Cancer cells undergo distinct metabolic adaptations to meet the augmented cellular demand for energy and nutrients created by their increased rates of cellular proliferation. The presence of an altered cellular metabolism in clonal PCs from MM patients and its role as an essential factor in the progression of SMM to MM is unknown. We hypothesize that the clonal PCs in high risk SMM patients likely have an altered metabolic phenotype similar to those present in MM patients but different when compared to clonal PCs in the remainder of the SMM patients whose clinical course remains indolent. Thus, two specific aims are proposed in this study: Aim 1 will verify if there are differences in the regulation of the metabolic pathways in clonal PCs from MM patients compared to normal PCs from healthy patients; Aim 2 will assess whether the clonal PCs from high risk SMM patients bear a distinct metabolic phenotype compared to clonal PCs from standard risk SMM patients."
+INSTITUTE = "Mayo Clinic"
+LAST_NAME = "Gonsalves"
+FIRST_NAME = "Wilson"
+ADDRESS = "200 First St. SW, Rochester, Minnesota, 55905, USA"
+EMAIL = "gonsalves.wilson@mayo.edu"
+PHONE = "507-266-0792"
+
+[STUDY]
+STUDY_TITLE = "Identifying metabolic adaptations characteristic of multiple myeloma cells via amino acids concentrations from bone marrow plasma"
+STUDY_SUMMARY = "Will be assessing the targeted amino acids concentrations of high risk versus low risk smoldering myeloma patients based on peripheral blood plasma and bone marrow plasma."
+INSTITUTE = "Mayo Clinic"
+LAST_NAME = "Gonsalves"
+FIRST_NAME = "Wilson"
+ADDRESS = "200 First St. SW, Rochester, Minnesota, 55905, USA"
+EMAIL = "gonsalves.wilson@mayo.edu"
+PHONE = "507-266-0792"
+
+[SUBJECT]
+SUBJECT_TYPE = "Human"
+SUBJECT_SPECIES = "Homo sapiens"
+TAXONOMY_ID = "9606"
+
+[COLLECTION]
+COLLECTION_SUMMARY = "In order to analyze the metabolites of clonal PCs (intracellular) and BM plasma (extracellular) separately, they have to be separated out from the BM samples. Thus, upon acquiring the BM samples from patients they will be placed in centrifuged at 2500 rpm for 10 minutes to separate out the plasma from the cellular fraction. The separated BM plasma is then stored in separate vials and snap frozen under liquid nitrogen for 20 seconds before storing at -80οC for further analysis. The leftover cellular component present as a pellet will be washed and reconstituted with an equal volume of RPMI 1640 medium. Erythrocytes are lysed using ammonium chloride lysing solution. After incubation on ice for 5 min, the cell suspension is diluted with RPMI medium. The cells are again pelleted by centrifugation and then suspended in RoboSep buffer (250ml PBS, 2% BSA, 1mM EDTA). The clonal CD138 positive PCs are purified using positive selection by mixing the cells with a CD138 positive selection cocktail and anti-CD138 magnetic-activated cell separation microbeads (ROBOSEP™ cell separation system, StemCell Technologies Inc) in the automated RoboSep cell separation system. The purified samples containing only CD138 positive cells are re‐suspended and then centrifuged to form a cell pellet. The goal will be to obtain at least 1-2 x 107 clonal PCs per sample. The cell pellet will be snap frozen under liquid nitrogen for 20 seconds before storing at -80οC for further analysis. Both the BM plasma samples as well as the clonal PCs pellet will be provided to the metabolomics core for sample preparation for LC-MS analysis. For Aim 2, we will be using stored BM samples from SMM patients that have already had their BM plasma and clonal PCs separated from each other and stored at -80οC. It is important to note that all these samples were collected and frozen in a timely manner. Furthermore consistency in sample collection, storage and processing is imperative for the optimal conduct of metabolomics-based experiments. This ensures that all samples being analyzed and compared with each other would have been manipulated similarly, limiting any handling biases. All patient samples in the Predolin Foundation Biobank were collected and stored by following a standardized operating procedure. BM samples were processed for BM plasma separation and clonal PCs enrichment but were then immediately snap frozen for storage at -80οC within approximately 3 hours of collection from the patient. All samples were collected in patients who have been fasting for at least 6 to 8 hours prior. To further ensure consistency in our analysis of this study, we will only use samples that have never been thawed since initial storage to preserve the stability of the metabolites originally present in the samples."
+
+[TREATMENT]
+TREATMENT_SUMMARY = "We will use matched BM plasma and purified clonal marrow PCs from the BM samples of SMM patients collected at the time of their diagnosis and stored within the Mayo Clinic Predolin Foundation Biobank. We will select BM samples from patients with SMM who progressed to MM within 2 years of their samples being collected and stored; this will constitute the high risk SMM group. We will also select BM samples from SMM patients who have not progressed to MM within at least 2 years of follow up of their samples being collected and stored; this will constitute the standard risk SMM group. The strength of this approach is that we will utilize stored SMM samples from one of the most comprehensively characterized monoclonal gammopathy biobanks available. Secondly, all samples will be obtained from collection dates at least 2 years prior in order to ensure adequate follow-up time to assess their current clinical status. This would avoid the need to prospectively collect samples from SMM patients and clinically follow them for a number of years before we are able to gauge who were clinically high or standard risk for progression. There are over 700 SMM patients who have had their BM samples collected and stored in the biobank from 1996 to 2013; more than half these patients have progressed to MM."
+
+[SAMPLEPREP]
+SAMPLEPREP_SUMMARY = "amino acids concentrations"
+
+[CHROMATOGRAPHY]
+CHROMATOGRAPHY_TYPE = "Reversed phase"
+INSTRUMENT_NAME = "Waters Acquity"
+COLUMN_NAME = "Waters Acquity BEH C18 (150 x 2.1mm, 1.7um)"
+
+[ANALYSIS]
+ANALYSIS_TYPE = "MS"
+
+[MS]
+MS_COMMENTS = "-"
+INSTRUMENT_NAME = "Thermo Quantum Ultra"
+INSTRUMENT_TYPE = "Triple quadrupole"
+MS_TYPE = "ESI"
+ION_MODE = "POSITIVE"
+
+[MS_METABOLITE_DATA]
+Units = "uM"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6274-1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Grouping = "Quick Progress"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"sample type" = "bone marrow plasma"
+species = "human"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6274-2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Grouping = "Quick Progress"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"sample type" = "bone marrow plasma"
+species = "human"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6274-3"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Grouping = "Quick Progress"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"sample type" = "bone marrow plasma"
+species = "human"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6274-4"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Grouping = "Quick Progress"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"sample type" = "bone marrow plasma"
+species = "human"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6274-5"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Grouping = "Quick Progress"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"sample type" = "bone marrow plasma"
+species = "human"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6274-6"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Grouping = "Quick Progress"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"sample type" = "bone marrow plasma"
+species = "human"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6274-7"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Grouping = "Quick Progress"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"sample type" = "bone marrow plasma"
+species = "human"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6274-8"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Grouping = "Quick Progress"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"sample type" = "bone marrow plasma"
+species = "human"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6274-9"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Grouping = "Quick Progress"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"sample type" = "bone marrow plasma"
+species = "human"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6274-10"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Grouping = "Quick Progress"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"sample type" = "bone marrow plasma"
+species = "human"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6274-11"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Grouping = "Quick Progress"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"sample type" = "bone marrow plasma"
+species = "human"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6274-12"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Grouping = "Quick Progress"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"sample type" = "bone marrow plasma"
+species = "human"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6274-13"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Grouping = "Quick Progress"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"sample type" = "bone marrow plasma"
+species = "human"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6274-14"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Grouping = "Quick Progress"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"sample type" = "bone marrow plasma"
+species = "human"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6274-15"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Grouping = "Quick Progress"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"sample type" = "bone marrow plasma"
+species = "human"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6274-16"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Grouping = "Slow Progress"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"sample type" = "bone marrow plasma"
+species = "human"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6274-17"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Grouping = "Slow Progress"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"sample type" = "bone marrow plasma"
+species = "human"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6274-18"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Grouping = "Slow Progress"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"sample type" = "bone marrow plasma"
+species = "human"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6274-19"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Grouping = "Slow Progress"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"sample type" = "bone marrow plasma"
+species = "human"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6274-20"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Grouping = "Slow Progress"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"sample type" = "bone marrow plasma"
+species = "human"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6274-21"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Grouping = "Slow Progress"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"sample type" = "bone marrow plasma"
+species = "human"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6274-22"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Grouping = "Slow Progress"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"sample type" = "bone marrow plasma"
+species = "human"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6274-23"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Grouping = "Slow Progress"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"sample type" = "bone marrow plasma"
+species = "human"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6274-24"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Grouping = "Slow Progress"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"sample type" = "bone marrow plasma"
+species = "human"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6274-25"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Grouping = "Slow Progress"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"sample type" = "bone marrow plasma"
+species = "human"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6274-26"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Grouping = "Quick Progress"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"sample type" = "peripheral plasma"
+species = "Human"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6274-27"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Grouping = "Quick Progress"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"sample type" = "peripheral plasma"
+species = "Human"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6274-28"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Grouping = "Quick Progress"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"sample type" = "peripheral plasma"
+species = "Human"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6274-29"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Grouping = "Quick Progress"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"sample type" = "peripheral plasma"
+species = "Human"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6274-30"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Grouping = "Quick Progress"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"sample type" = "peripheral plasma"
+species = "Human"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6274-31"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Grouping = "Quick Progress"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"sample type" = "peripheral plasma"
+species = "Human"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6274-32"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Grouping = "Quick Progress"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"sample type" = "peripheral plasma"
+species = "Human"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6274-33"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Grouping = "Quick Progress"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"sample type" = "peripheral plasma"
+species = "Human"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6274-34"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Grouping = "Quick Progress"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"sample type" = "peripheral plasma"
+species = "Human"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6274-35"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Grouping = "Quick Progress"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"sample type" = "peripheral plasma"
+species = "Human"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6274-36"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Grouping = "Quick Progress"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"sample type" = "peripheral plasma"
+species = "Human"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6274-37"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Grouping = "Quick Progress"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"sample type" = "peripheral plasma"
+species = "Human"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6274-38"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Grouping = "Quick Progress"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"sample type" = "peripheral plasma"
+species = "Human"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6274-39"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Grouping = "Quick Progress"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"sample type" = "peripheral plasma"
+species = "Human"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6274-40"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Grouping = "Quick Progress"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"sample type" = "peripheral plasma"
+species = "Human"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6274-41"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Grouping = "Slow Progress"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"sample type" = "peripheral plasma"
+species = "Human"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6274-42"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Grouping = "Slow Progress"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"sample type" = "peripheral plasma"
+species = "Human"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6274-43"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Grouping = "Slow Progress"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"sample type" = "peripheral plasma"
+species = "Human"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6274-44"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Grouping = "Slow Progress"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"sample type" = "peripheral plasma"
+species = "Human"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6274-45"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Grouping = "Slow Progress"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"sample type" = "peripheral plasma"
+species = "Human"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6274-46"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Grouping = "Slow Progress"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"sample type" = "peripheral plasma"
+species = "Human"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6274-47"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Grouping = "Slow Progress"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"sample type" = "peripheral plasma"
+species = "Human"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6274-48"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Grouping = "Slow Progress"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"sample type" = "peripheral plasma"
+species = "Human"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6274-49"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Grouping = "Slow Progress"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"sample type" = "peripheral plasma"
+species = "Human"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6274-50"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Grouping = "Slow Progress"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+"sample type" = "peripheral plasma"
+species = "Human"

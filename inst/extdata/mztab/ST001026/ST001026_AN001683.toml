@@ -1,0 +1,499 @@
+# mwTab metadata of study ST001026, analysis AN001683
+# Exported by mwtab2mztabm 0.1.0.
+# Sample metadata is listed in [[SUBJECT_SAMPLE_FACTORS]].
+
+[mwtab2mztabm]
+format_version = 1
+factor_order = ["sample type", "Grouping"]
+additional_data_order = ["species", "protein ug/vial"]
+
+["METABOLOMICS WORKBENCH"]
+STUDY_ID = "ST001026"
+ANALYSIS_ID = "AN001683"
+VERSION = "1"
+CREATED_ON = "July 19, 2018, 1:36 pm"
+
+[PROJECT]
+PROJECT_TITLE = "Mayo Pilot and Feasibility: H3K27M cells and glutamine metabolomics quatitation studies"
+PROJECT_SUMMARY = "In children, tumors affecting the brain and nervous system result in more cancer-related deaths than any other type of tumor. It is thus critical to identify new approaches for therapy. Among pediatric patients, one of the most devastating brain tumor types is Diffuse Intrinsic Pontine Gliomas (DIPG). Our understanding of this deadly disease has recently been advanced by important discoveries, including the discovery that the majority of DIPG tumors harbor the histone H3K27M mutation. This mutation results in global hypomethylation of H3K27 residues and is the pathological hallmark for this disease. Glutamine (Gln) addiction has been reported in many cancers including malignant adult gliomas. Glutamine likely promotes cancer cell proliferation and survival likely through generation of the TCA cycle intermediate alpha-ketoglutarate (α-KG). Importantly, α-KG is a critical co-factor for histone lysine demethylases including JMJD3, the enzyme responsible for removing the methyl groups from H3K27me3. Our preliminary data shows H3K27M tumor cells require Gln for survival, and if Gln is removed from the culture media, cells can be rescued by the addition of α-KG. Furthermore, Gln deprivation leads to an increase in H3K27 trimethylation similar to direct inhibition of JMJD3. It is for these reasons we hypothesize that H3K27M tumors are dependent on Gln derived α-KG both for feeding the TCA cycle and for further decreasing H3K27 trimethylation. Inhibition of Gln metabolism will likely uncover novel therapeutic targets for this deadly disease. In Aim 1 we will study Gln and glucose metabolism in H3K27M tumor cells and compare this to Wild Type (WT) tumors and Embryonic Stem Cells (ESCs). In Aim 2 we will validate the therapeutic validity of inhibiting Gln metabolism in H3K27M tumors."
+INSTITUTE = "Mayo Clinic"
+LAST_NAME = "Daniels"
+FIRST_NAME = "David"
+ADDRESS = "200 First Street SW Rochester, MN 55905"
+EMAIL = "daniels.david@mayo.edu"
+PHONE = "507-284-2511"
+
+[STUDY]
+STUDY_TITLE = "TCA cycle metabolomics of H3K27M Cell Nucleus Fraction and Cell Mitonchonrdial Fraction (Part-IV)"
+STUDY_SUMMARY = "Testing TCA concentrations of Diffuse Intrinsic Pontine Gliomas (DIPG) cellines with H3K27M mutations. Preliminary studies show H3K27M tumor cells are addicted to Gln for survival. Removal of Gln from media resulted in tumor cell death which was rescued by the addition of α-KG. These data show that Gln is taken up and metabolized by H3K27M tumor cells and that Gln derived α-KG is critical for the survival of these tumors. Interestingly, tumor cell death with Gln deprivation was similar to the effect of the JMJD3 inhibitor GSKJ4. Therefore, Gln derived α-KG may be required for both anaplerosis and to drive JMJD3 demethylation. We hypothesize that H3K27M tumors are reliant on α-KG that is derived from Gln to drive the TCA cycle and further decrease H3K27 methylation levels. Furthermore, inhibition of Gln metabolism may represent a novel therapeutic approach for tumors with this mutation. In this study, TCA cycle metabolomics are analyzed of H3K27M cells grown in regular glutamine media, glutamine free media, and glutamine free media with alpha-ketoglutarate. Additionally, cell nucleus and cell mitochrondial fractions are run separately."
+INSTITUTE = "Mayo Clinic"
+LAST_NAME = "Daniels"
+FIRST_NAME = "David"
+ADDRESS = "200 First Street SW Rochester, MN 55905"
+EMAIL = "daniels.david@mayo.edu"
+PHONE = "507-284-2511"
+
+[SUBJECT]
+SUBJECT_TYPE = "Human"
+SUBJECT_SPECIES = "Homo sapiens"
+TAXONOMY_ID = "9606"
+
+[COLLECTION]
+COLLECTION_SUMMARY = "DIPG IV and DIPG XVII cell lines are collected in this experiment. Susupension cells are harvested using centrifugation at 1200 rpm for 5 min. 1 mL of the supernatant media werr collected in an eppendorf tube and snapped frozen. The cell pellets were broken up into single cell suspension and counted. 1 million cells were taken from the stock and washed 1 x with PBS using table top centrifuge with 10 sec quick spin. The resulting cell pellet was snap frozen. Both the frozen media and cell pellet are stored in -80 C prior transfer."
+SAMPLE_TYPE = "Glioma cells"
+
+[TREATMENT]
+TREATMENT_SUMMARY = "Glutamine is required for survival in H3K27M cell lines. DIPG cell lines with the H3K27M mutation were grown in regular media (45mM glucose + 4.5 mM glutamine), glutamine (Gln) free media, and Gln free media with alpha-ketoglutarate (α-KG). Study Design Factors IV REG / GF / aKG = DIPG IV celline grown in regular media / glutamine free media / glutamine free meida with alpha-ketoglutarate XVII REG / GF / aKG = DIPG XVII celline grown in regular media / glutamine free media / glutamine free meida with alpha-ketoglutarate"
+
+[SAMPLEPREP]
+SAMPLEPREP_SUMMARY = "TCA Concentrations in glioma cell lines separated into nucleus and mitochondrial fractions."
+
+[CHROMATOGRAPHY]
+CHROMATOGRAPHY_TYPE = "GC"
+INSTRUMENT_NAME = "Agilent 7890B"
+COLUMN_NAME = "Agilent HP5-MS (30m Ã— 0.25mm, 0.25 um)"
+
+[ANALYSIS]
+ANALYSIS_TYPE = "MS"
+
+[MS]
+MS_COMMENTS = "-"
+INSTRUMENT_NAME = "Agilent 5977A"
+INSTRUMENT_TYPE = "Single quadrupole"
+MS_TYPE = "EI"
+ION_MODE = "POSITIVE"
+
+[MS_METABOLITE_DATA]
+Units = "nmol/vial"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6808 - 1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"sample type" = "Nucleus fraction"
+Grouping = "IV REG"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+species = "Human cell line"
+"protein ug/vial" = "389"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6808 - 2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"sample type" = "Nucleus fraction"
+Grouping = "IV REG"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+species = "Human cell line"
+"protein ug/vial" = "382"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6808 - 3"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"sample type" = "Nucleus fraction"
+Grouping = "IV REG"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+species = "Human cell line"
+"protein ug/vial" = "469"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6808 - 4"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"sample type" = "Mito Fraction"
+Grouping = "IV REG"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+species = "Human cell line"
+"protein ug/vial" = "197"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6808 - 5"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"sample type" = "Mito Fraction"
+Grouping = "IV REG"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+species = "Human cell line"
+"protein ug/vial" = "251"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6808 - 6"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"sample type" = "Mito Fraction"
+Grouping = "IV REG"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+species = "Human cell line"
+"protein ug/vial" = "145"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6808 - 7"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"sample type" = "Nucleus fraction"
+Grouping = "IV GF"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+species = "Human cell line"
+"protein ug/vial" = "249"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6808 - 8"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"sample type" = "Nucleus fraction"
+Grouping = "IV GF"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+species = "Human cell line"
+"protein ug/vial" = "274"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6808 - 9"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"sample type" = "Nucleus fraction"
+Grouping = "IV GF"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+species = "Human cell line"
+"protein ug/vial" = "285"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6808 - 10"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"sample type" = "Mito Fraction"
+Grouping = "IV GF"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+species = "Human cell line"
+"protein ug/vial" = "107"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6808 - 11"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"sample type" = "Mito Fraction"
+Grouping = "IV GF"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+species = "Human cell line"
+"protein ug/vial" = "59"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6808 - 12"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"sample type" = "Mito Fraction"
+Grouping = "IV GF"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+species = "Human cell line"
+"protein ug/vial" = "97"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6808 - 13"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"sample type" = "Nucleus fraction"
+Grouping = "IV aKG"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+species = "Human cell line"
+"protein ug/vial" = "307"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6808 - 14"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"sample type" = "Nucleus fraction"
+Grouping = "IV aKG"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+species = "Human cell line"
+"protein ug/vial" = "235"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6808 - 15"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"sample type" = "Nucleus fraction"
+Grouping = "IV aKG"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+species = "Human cell line"
+"protein ug/vial" = "344"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6808 - 16"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"sample type" = "Mito Fraction"
+Grouping = "IV aKG"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+species = "Human cell line"
+"protein ug/vial" = "65"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6808 - 17"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"sample type" = "Mito Fraction"
+Grouping = "IV aKG"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+species = "Human cell line"
+"protein ug/vial" = "61"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6808 - 18"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"sample type" = "Mito Fraction"
+Grouping = "IV aKG"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+species = "Human cell line"
+"protein ug/vial" = "71"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6808 - 19"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"sample type" = "Nucleus fraction"
+Grouping = "XVII REG"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+species = "Human cell line"
+"protein ug/vial" = "601"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6808 - 20"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"sample type" = "Nucleus fraction"
+Grouping = "XVII REG"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+species = "Human cell line"
+"protein ug/vial" = "628"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6808 - 21"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"sample type" = "Nucleus fraction"
+Grouping = "XVII REG"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+species = "Human cell line"
+"protein ug/vial" = "589"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6808 - 22"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"sample type" = "Mito Fraction"
+Grouping = "XVII REG"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+species = "Human cell line"
+"protein ug/vial" = "254"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6808 - 23"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"sample type" = "Mito Fraction"
+Grouping = "XVII REG"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+species = "Human cell line"
+"protein ug/vial" = "246"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6808 - 24"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"sample type" = "Mito Fraction"
+Grouping = "XVII REG"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+species = "Human cell line"
+"protein ug/vial" = "263"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6808 - 25"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"sample type" = "Nucleus fraction"
+Grouping = "XVII GF"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+species = "Human cell line"
+"protein ug/vial" = "333"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6808 - 26"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"sample type" = "Nucleus fraction"
+Grouping = "XVII GF"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+species = "Human cell line"
+"protein ug/vial" = "484"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6808 - 27"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"sample type" = "Nucleus fraction"
+Grouping = "XVII GF"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+species = "Human cell line"
+"protein ug/vial" = "398"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6808 - 28"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"sample type" = "Mito Fraction"
+Grouping = "XVII GF"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+species = "Human cell line"
+"protein ug/vial" = "114"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6808 - 29"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"sample type" = "Mito Fraction"
+Grouping = "XVII GF"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+species = "Human cell line"
+"protein ug/vial" = "250"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6808 - 30"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"sample type" = "Mito Fraction"
+Grouping = "XVII GF"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+species = "Human cell line"
+"protein ug/vial" = "167"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6808 - 31"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"sample type" = "Nucleus fraction"
+Grouping = "XVII aKG"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+species = "Human cell line"
+"protein ug/vial" = "176"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6808 - 32"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"sample type" = "Nucleus fraction"
+Grouping = "XVII aKG"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+species = "Human cell line"
+"protein ug/vial" = "254"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6808 - 33"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"sample type" = "Nucleus fraction"
+Grouping = "XVII aKG"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+species = "Human cell line"
+"protein ug/vial" = "206"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6808 - 34"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"sample type" = "Mito Fraction"
+Grouping = "XVII aKG"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+species = "Human cell line"
+"protein ug/vial" = "64"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6808 - 35"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"sample type" = "Mito Fraction"
+Grouping = "XVII aKG"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+species = "Human cell line"
+"protein ug/vial" = "42"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "ms6808 - 36"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"sample type" = "Mito Fraction"
+Grouping = "XVII aKG"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+species = "Human cell line"
+"protein ug/vial" = "138"

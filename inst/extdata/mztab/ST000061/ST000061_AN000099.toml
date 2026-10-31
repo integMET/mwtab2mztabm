@@ -1,0 +1,1274 @@
+# mwTab metadata of study ST000061, analysis AN000099
+# Exported by mwtab2mztabm 0.1.0.
+# Sample metadata is listed in [[SUBJECT_SAMPLE_FACTORS]].
+
+[mwtab2mztabm]
+format_version = 1
+factor_order = "Source"
+additional_data_order = []
+
+["METABOLOMICS WORKBENCH"]
+STUDY_ID = "ST000061"
+ANALYSIS_ID = "AN000099"
+VERSION = "1"
+CREATED_ON = "2016-09-17"
+
+[PROJECT]
+PROJECT_TITLE = "Metabolic Profiling of Visceral and Subcutaneous Adipose Tissue from Colorectal Patients: Unraveling the Link Between Adipose Tissue and Cancer"
+PROJECT_TYPE = "biomarker study"
+PROJECT_SUMMARY = "This West Coast Metabolomics Center pilot and feasibility project was granted Johanna Lampe (Fred Hutchinson Cancer Research Center at Univ. of Washington, In the current investigation, unbiased profiling of the metabolome and lipidome adipose tissue samples (visceral(VAT) and subcutaenous (SAT)) and serum of 50 patients, including stages I-IV, from the Fred Hutchinson Cancer Center and the German Cancer Research Center (Heidelberg, Germany) was conducted. The and metabolome of adipose tissue (VAT/SAT) and serum were analyzed using UPLC-QTOFMS analysis and GC-TOFMS analyses, respectively. The primary of this project were to 1) compare the metabolome and lipidome of matched VAT SAT adipose tissue of n=50 Colorectal Cancer Cell (CRC) patients, 2) the associations between the lipidome and metabolome in adipose tissue and serum of n=50 CRC patients and 3) test the associations between the of VAT and serum with the tumor stage of CRC patients."
+INSTITUTE = "University of California, Davis"
+DEPARTMENT = "Genome and Biomedical Sciences Facility"
+LABORATORY = "WCMC Metabolomics Core"
+LAST_NAME = "Fiehn"
+FIRST_NAME = "Oliver"
+ADDRESS = "1315 Genome and Biomedical Sciences Facility,451 Health Sciences Drive, Davis, 95616"
+EMAIL = "ofiehn@ucdavis.edu"
+PHONE = "(530) 754-8258"
+FUNDING_SOURCE = "NIH U24DK097154"
+
+[STUDY]
+STUDY_TITLE = "Metabolic Profiling of Visceral and Subcutaneous Adipose Tissue from Colorectal Patients: GC-TOF MS analyis of subcutaneous and visceral adipose tissue samples"
+STUDY_TYPE = "biomarker study"
+STUDY_SUMMARY = "This West Coast Metabolomics Center pilot and feasibility project was granted Johanna Lampe (Fred Hutchinson Cancer Research Center at Univ. of Washington, In the current investigation, unbiased profiling of the metabolome and lipidome adipose tissue samples (visceral(VAT) and subcutaenous (SAT)) and serum of 50 patients, including stages I-IV, from the Fred Hutchinson Cancer Center and the German Cancer Research Center (Heidelberg, Germany) was conducted. The and metabolome of adipose tissue (VAT/SAT) and serum were analyzed using UPLC-QTOFMS analysis and GC-TOFMS analyses, respectively.  The primary of this project were to 1) compare the metabolome and lipidome SAT adipose tissue of n=50 Colorectal Cancer Cell (CRC) patients, 2) the associations between the lipidome and metabolome in adipose tissue and serum of n=50 CRC patients and 3) test the associations between the of VAT and serum with the tumor stage of CRC patients. "
+INSTITUTE = "University of California, Davis"
+DEPARTMENT = "Genome and Biomedical Sciences Facility"
+LABORATORY = "WCMC Metabolomics Core"
+LAST_NAME = "Fiehn"
+FIRST_NAME = "Oliver"
+ADDRESS = "1315 Genome and Biomedical Sciences Facility451 Health Sciences DriveDavis, CA"
+EMAIL = "ofiehn@ucdavis.edu"
+PHONE = "(530) 754-8258"
+NUM_GROUPS = "3"
+TOTAL_SUBJECTS = "130"
+STUDY_COMMENTS = "2014-03-05 17:49:16.898"
+
+[SUBJECT]
+SUBJECT_TYPE = "Human Fat Tissue"
+SUBJECT_SPECIES = "Homo sapiens"
+TAXONOMY_ID = "9606"
+SPECIES_GROUP = "Human"
+
+[COLLECTION]
+COLLECTION_SUMMARY = "-"
+
+[TREATMENT]
+TREATMENT_SUMMARY = "-"
+TREATMENT_PROTOCOL_FILENAME = "Protocol_for_primary_metabolites_lampe_trial_1_0214.docx"
+TREATMENT_PROTOCOL_COMMENTS = "Protocoll-changes.docx"
+
+[SAMPLEPREP]
+SAMPLEPREP_SUMMARY = "-"
+SAMPLEPREP_PROTOCOL_FILENAME = "Data_Dictionary_Fiehn_laboratory_GCTOF_MS_primary_metabolism_10-15-2013_general.pdf"
+SAMPLE_SPIKING = "FAMEs"
+
+[CHROMATOGRAPHY]
+CHROMATOGRAPHY_TYPE = "GC"
+INSTRUMENT_NAME = "Agilent 6890N"
+COLUMN_NAME = "Restek Corporation Rtx-5Sil MS"
+METHODS_FILENAME = "Data_Dictionary_Fiehn_laboratory_GCTOF_MS_primary_metabolism_10-15-2013_general.pdf"
+COLUMN_PRESSURE = "7.7 PSI (initial condition)"
+COLUMN_TEMPERATURE = "50 - 330C"
+FLOW_RATE = "1 ml/min"
+INJECTION_TEMPERATURE = "50C ramped to 250C by 12C/s"
+SAMPLE_INJECTION = "0.5l"
+OVEN_TEMPERATURE = "50C for 1 min, then ramped at 20C/min to 330C, held constant for 5 min"
+TRANSFERLINE_TEMPERATURE = "230C"
+WASHING_BUFFER = "Ethyl Acetate"
+SAMPLE_LOOP_SIZE = "30 m length x 0.25 mm internal diameter"
+RANDOMIZATION_ORDER = "Excel generated"
+
+[ANALYSIS]
+ANALYSIS_TYPE = "MS"
+LABORATORY_NAME = "WCMC Metabolomics Core"
+ACQUISITION_PARAMETERS_FILE = "Data_Dictionary_Fiehn_laboratory_GCTOF_MS_primary_metabolism_10-15-2013_general.pdf"
+SOFTWARE_VERSION = "ChromaTOF"
+OPERATOR_NAME = "Luis Valdiviez"
+PROCESSING_PARAMETERS_FILE = "Data_Dictionary_Fiehn_laboratory_GCTOF_MS_primary_metabolism_10-15-2013_general.pdf"
+DETECTOR_TYPE = "TOF"
+DATA_FORMAT = ".peg, .txt, .cdf"
+
+[MS]
+INSTRUMENT_NAME = "Leco GC-TOF"
+INSTRUMENT_TYPE = "GC-TOF"
+MS_TYPE = "EI"
+ION_MODE = "POSITIVE"
+ION_SOURCE_TEMPERATURE = "250°C"
+IONIZATION_ENERGY = "70eV"
+MASS_ACCURACY = "Nominal"
+SOURCE_TEMPERATURE = "250°C"
+SCANNING_RANGE = "80-500 Da"
+MS_COMMENTS = "GC-TOF MS analysis (positive ion mode)"
+
+[MS_METABOLITE_DATA]
+Units = "Peak area"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 1"
+"Sample ID" = "SAT_1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 10"
+"Sample ID" = "SAT_10"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 11"
+"Sample ID" = "SAT_11"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 12"
+"Sample ID" = "SAT_12"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 13"
+"Sample ID" = "SAT_13"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 14"
+"Sample ID" = "SAT_14"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 15"
+"Sample ID" = "SAT_15"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 16"
+"Sample ID" = "SAT_16"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 17"
+"Sample ID" = "SAT_17"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 18"
+"Sample ID" = "SAT_18"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 19"
+"Sample ID" = "SAT_19"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 2"
+"Sample ID" = "SAT_2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 20"
+"Sample ID" = "SAT_20"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 21"
+"Sample ID" = "SAT_21"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 22"
+"Sample ID" = "SAT_22"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 23"
+"Sample ID" = "SAT_23"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 24"
+"Sample ID" = "SAT_24"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 25"
+"Sample ID" = "SAT_25"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 26"
+"Sample ID" = "SAT_26"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 27"
+"Sample ID" = "SAT_27"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 28"
+"Sample ID" = "SAT_28"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 29"
+"Sample ID" = "SAT_29"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 3"
+"Sample ID" = "SAT_3"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 30"
+"Sample ID" = "SAT_30"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 31"
+"Sample ID" = "SAT_31"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 32"
+"Sample ID" = "SAT_32"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 33"
+"Sample ID" = "SAT_33"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 34"
+"Sample ID" = "SAT_34"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 35"
+"Sample ID" = "SAT_35"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 36"
+"Sample ID" = "SAT_36"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 37"
+"Sample ID" = "SAT_37"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 38"
+"Sample ID" = "SAT_38"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 39"
+"Sample ID" = "SAT_39"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 4"
+"Sample ID" = "SAT_4"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 40"
+"Sample ID" = "SAT_40"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 41"
+"Sample ID" = "SAT_41"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 42"
+"Sample ID" = "SAT_42"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 43"
+"Sample ID" = "SAT_43"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 44"
+"Sample ID" = "SAT_44"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 45"
+"Sample ID" = "SAT_45"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 46"
+"Sample ID" = "SAT_46"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 47"
+"Sample ID" = "SAT_47"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 48"
+"Sample ID" = "SAT_48"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 49"
+"Sample ID" = "SAT_49"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 5"
+"Sample ID" = "SAT_5"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 50"
+"Sample ID" = "SAT_50"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 51"
+"Sample ID" = "SAT_51"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 52"
+"Sample ID" = "SAT_52"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 53"
+"Sample ID" = "SAT_53"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 54"
+"Sample ID" = "SAT_54"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 55"
+"Sample ID" = "SAT_55"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 56"
+"Sample ID" = "SAT_56"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 57"
+"Sample ID" = "SAT_57"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 58"
+"Sample ID" = "SAT_58"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 59"
+"Sample ID" = "SAT_59"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 6"
+"Sample ID" = "SAT_6"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 7"
+"Sample ID" = "SAT_7"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 8"
+"Sample ID" = "SAT_8"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 9"
+"Sample ID" = "SAT_9"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 1 - Subcutaenous Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 1"
+"Sample ID" = "VAT__1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 10"
+"Sample ID" = "VAT__10"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 11"
+"Sample ID" = "VAT__11"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 12"
+"Sample ID" = "VAT__12"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 13"
+"Sample ID" = "VAT__13"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 14"
+"Sample ID" = "VAT__14"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 15"
+"Sample ID" = "VAT__15"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 16"
+"Sample ID" = "VAT__16"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 17"
+"Sample ID" = "VAT__17"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 18"
+"Sample ID" = "VAT__18"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 19"
+"Sample ID" = "VAT__19"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 2"
+"Sample ID" = "VAT__2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 20"
+"Sample ID" = "VAT__20"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 21"
+"Sample ID" = "VAT__21"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 22"
+"Sample ID" = "VAT__22"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 23"
+"Sample ID" = "VAT__23"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 24"
+"Sample ID" = "VAT__24"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 25"
+"Sample ID" = "VAT__25"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 26"
+"Sample ID" = "VAT__26"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 27"
+"Sample ID" = "VAT__27"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 28"
+"Sample ID" = "VAT__28"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 29"
+"Sample ID" = "VAT__29"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 3"
+"Sample ID" = "VAT__3"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 30"
+"Sample ID" = "VAT__30"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 31"
+"Sample ID" = "VAT__31"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 32"
+"Sample ID" = "VAT__32"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 33"
+"Sample ID" = "VAT__33"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 34"
+"Sample ID" = "VAT__34"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 35"
+"Sample ID" = "VAT__35"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 36"
+"Sample ID" = "VAT__36"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 37"
+"Sample ID" = "VAT__37"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 38"
+"Sample ID" = "VAT__38"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 39"
+"Sample ID" = "VAT__39"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 4"
+"Sample ID" = "VAT__4"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 40"
+"Sample ID" = "VAT__40"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 41"
+"Sample ID" = "VAT__41"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 42"
+"Sample ID" = "VAT__42"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 43"
+"Sample ID" = "VAT__43"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 44"
+"Sample ID" = "VAT__44"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 45"
+"Sample ID" = "VAT__45"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 46"
+"Sample ID" = "VAT__46"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 47"
+"Sample ID" = "VAT__47"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 48"
+"Sample ID" = "VAT__48"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 49"
+"Sample ID" = "VAT__49"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 5"
+"Sample ID" = "VAT__5"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 50"
+"Sample ID" = "VAT__50"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 51"
+"Sample ID" = "VAT__51"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 52"
+"Sample ID" = "VAT__52"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 53"
+"Sample ID" = "VAT__53"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 54"
+"Sample ID" = "VAT__54"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 55"
+"Sample ID" = "VAT__55"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 56"
+"Sample ID" = "VAT__56"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 57"
+"Sample ID" = "VAT__57"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 58"
+"Sample ID" = "VAT__58"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 59"
+"Sample ID" = "VAT__59"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 6"
+"Sample ID" = "VAT__6"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 7"
+"Sample ID" = "VAT__7"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 8"
+"Sample ID" = "VAT__8"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "Patient 9"
+"Sample ID" = "VAT__9"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Group 2 - Visceral Fat"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "Methodblank01"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Method Blanks and BioRec Plasma - QC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "Methodblank02"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Method Blanks and BioRec Plasma - QC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "Methodblank03"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Method Blanks and BioRec Plasma - QC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "Methodblank04"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Method Blanks and BioRec Plasma - QC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "Methodblank05"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Method Blanks and BioRec Plasma - QC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "Methodblank06"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Method Blanks and BioRec Plasma - QC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "QC_01"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Method Blanks and BioRec Plasma - QC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "QC_02"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Method Blanks and BioRec Plasma - QC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "QC_03"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Method Blanks and BioRec Plasma - QC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "QC_04"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Method Blanks and BioRec Plasma - QC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "QC_05"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Method Blanks and BioRec Plasma - QC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "QC_06"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Source = "Method Blanks and BioRec Plasma - QC"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]

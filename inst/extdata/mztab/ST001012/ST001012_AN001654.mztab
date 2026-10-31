@@ -1,0 +1,450 @@
+MTD	mzTab-version	2.1.0-M
+MTD	mzTab-ID	ST001012_AN001654
+MTD	mzTab-profile	M+S
+MTD	title	Amino Acid Concentrations in Serum for Muscle Wasting in Cancer Cachexia (part-VII)
+MTD	description	Amino Acid Concentrations of Muscle Wasting in Cancer Cachexia. Serum samples from 10 control patients, 10 weight stable pancreatic cancer patients, and 10 pancreatic cancer patients with significant weight loss. Samples are divided evenly between males and females.
+MTD	instrument[1]-name	[MS, MS:1000031, instrument model, Thermo Quantum Ultra]
+MTD	instrument[1]-source	[MS, MS:1000073, electrospray ionization, ]
+MTD	instrument[1]-analyzer[1]	[MS, MS:1000081, quadrupole, ]
+MTD	software[1]	[MS, MS:1000799, custom unreleased software tool, mwtab2mztabm 0.1.0]
+MTD	contact[1]-name	Denis Guttridge
+MTD	contact[1]-affiliation	Mayo Clinic
+MTD	contact[1]-email	denis.guttridge@osumc.edu
+MTD	uri[1]	https://www.metabolomicsworkbench.org/data/DRCCMetadata.php?Mode=Study&StudyID=ST001012
+MTD	quantification_method	[MS, MS:1001834, LC-MS label-free quantitation analysis, ]
+MTD	sample[1]	ms6650-1
+MTD	sample[1]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[1]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[1]-custom[1]	[,,Sample type, Serum]
+MTD	sample[1]-custom[2]	[,,Species, Human]
+MTD	sample[10]	ms6650-10
+MTD	sample[10]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[10]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[10]-custom[1]	[,,Sample type, Serum]
+MTD	sample[10]-custom[2]	[,,Species, Human]
+MTD	sample[11]	ms6650-11
+MTD	sample[11]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[11]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[11]-custom[1]	[,,Sample type, Serum]
+MTD	sample[11]-custom[2]	[,,Species, Human]
+MTD	sample[12]	ms6650-12
+MTD	sample[12]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[12]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[12]-custom[1]	[,,Sample type, Serum]
+MTD	sample[12]-custom[2]	[,,Species, Human]
+MTD	sample[13]	ms6650-13
+MTD	sample[13]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[13]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[13]-custom[1]	[,,Sample type, Serum]
+MTD	sample[13]-custom[2]	[,,Species, Human]
+MTD	sample[14]	ms6650-14
+MTD	sample[14]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[14]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[14]-custom[1]	[,,Sample type, Serum]
+MTD	sample[14]-custom[2]	[,,Species, Human]
+MTD	sample[15]	ms6650-15
+MTD	sample[15]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[15]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[15]-custom[1]	[,,Sample type, Serum]
+MTD	sample[15]-custom[2]	[,,Species, Human]
+MTD	sample[16]	ms6650-16
+MTD	sample[16]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[16]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[16]-custom[1]	[,,Sample type, Serum]
+MTD	sample[16]-custom[2]	[,,Species, Human]
+MTD	sample[17]	ms6650-17
+MTD	sample[17]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[17]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[17]-custom[1]	[,,Sample type, Serum]
+MTD	sample[17]-custom[2]	[,,Species, Human]
+MTD	sample[18]	ms6650-18
+MTD	sample[18]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[18]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[18]-custom[1]	[,,Sample type, Serum]
+MTD	sample[18]-custom[2]	[,,Species, Human]
+MTD	sample[19]	ms6650-19
+MTD	sample[19]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[19]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[19]-custom[1]	[,,Sample type, Serum]
+MTD	sample[19]-custom[2]	[,,Species, Human]
+MTD	sample[2]	ms6650-2
+MTD	sample[2]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[2]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[2]-custom[1]	[,,Sample type, Serum]
+MTD	sample[2]-custom[2]	[,,Species, Human]
+MTD	sample[20]	ms6650-20
+MTD	sample[20]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[20]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[20]-custom[1]	[,,Sample type, Serum]
+MTD	sample[20]-custom[2]	[,,Species, Human]
+MTD	sample[21]	ms6650-21
+MTD	sample[21]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[21]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[21]-custom[1]	[,,Sample type, Serum]
+MTD	sample[21]-custom[2]	[,,Species, Human]
+MTD	sample[22]	ms6650-22
+MTD	sample[22]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[22]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[22]-custom[1]	[,,Sample type, Serum]
+MTD	sample[22]-custom[2]	[,,Species, Human]
+MTD	sample[23]	ms6650-23
+MTD	sample[23]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[23]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[23]-custom[1]	[,,Sample type, Serum]
+MTD	sample[23]-custom[2]	[,,Species, Human]
+MTD	sample[24]	ms6650-24
+MTD	sample[24]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[24]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[24]-custom[1]	[,,Sample type, Serum]
+MTD	sample[24]-custom[2]	[,,Species, Human]
+MTD	sample[25]	ms6650-25
+MTD	sample[25]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[25]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[25]-custom[1]	[,,Sample type, Serum]
+MTD	sample[25]-custom[2]	[,,Species, Human]
+MTD	sample[26]	ms6650-26
+MTD	sample[26]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[26]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[26]-custom[1]	[,,Sample type, Serum]
+MTD	sample[26]-custom[2]	[,,Species, Human]
+MTD	sample[27]	ms6650-27
+MTD	sample[27]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[27]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[27]-custom[1]	[,,Sample type, Serum]
+MTD	sample[27]-custom[2]	[,,Species, Human]
+MTD	sample[28]	ms6650-28
+MTD	sample[28]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[28]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[28]-custom[1]	[,,Sample type, Serum]
+MTD	sample[28]-custom[2]	[,,Species, Human]
+MTD	sample[29]	ms6650-29
+MTD	sample[29]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[29]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[29]-custom[1]	[,,Sample type, Serum]
+MTD	sample[29]-custom[2]	[,,Species, Human]
+MTD	sample[3]	ms6650-3
+MTD	sample[3]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[3]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[3]-custom[1]	[,,Sample type, Serum]
+MTD	sample[3]-custom[2]	[,,Species, Human]
+MTD	sample[30]	ms6650-30
+MTD	sample[30]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[30]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[30]-custom[1]	[,,Sample type, Serum]
+MTD	sample[30]-custom[2]	[,,Species, Human]
+MTD	sample[4]	ms6650-4
+MTD	sample[4]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[4]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[4]-custom[1]	[,,Sample type, Serum]
+MTD	sample[4]-custom[2]	[,,Species, Human]
+MTD	sample[5]	ms6650-5
+MTD	sample[5]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[5]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[5]-custom[1]	[,,Sample type, Serum]
+MTD	sample[5]-custom[2]	[,,Species, Human]
+MTD	sample[6]	ms6650-6
+MTD	sample[6]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[6]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[6]-custom[1]	[,,Sample type, Serum]
+MTD	sample[6]-custom[2]	[,,Species, Human]
+MTD	sample[7]	ms6650-7
+MTD	sample[7]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[7]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[7]-custom[1]	[,,Sample type, Serum]
+MTD	sample[7]-custom[2]	[,,Species, Human]
+MTD	sample[8]	ms6650-8
+MTD	sample[8]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[8]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[8]-custom[1]	[,,Sample type, Serum]
+MTD	sample[8]-custom[2]	[,,Species, Human]
+MTD	sample[9]	ms6650-9
+MTD	sample[9]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[9]-tissue[1]	[,, Blood (serum), ]
+MTD	sample[9]-custom[1]	[,,Sample type, Serum]
+MTD	sample[9]-custom[2]	[,,Species, Human]
+MTD	ms_run[1]-location	ms6650-1
+MTD	ms_run[1]-instrument_ref	instrument[1]
+MTD	ms_run[1]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[2]-location	ms6650-2
+MTD	ms_run[2]-instrument_ref	instrument[1]
+MTD	ms_run[2]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[3]-location	ms6650-3
+MTD	ms_run[3]-instrument_ref	instrument[1]
+MTD	ms_run[3]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[4]-location	ms6650-4
+MTD	ms_run[4]-instrument_ref	instrument[1]
+MTD	ms_run[4]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[5]-location	ms6650-5
+MTD	ms_run[5]-instrument_ref	instrument[1]
+MTD	ms_run[5]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[6]-location	ms6650-6
+MTD	ms_run[6]-instrument_ref	instrument[1]
+MTD	ms_run[6]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[7]-location	ms6650-7
+MTD	ms_run[7]-instrument_ref	instrument[1]
+MTD	ms_run[7]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[8]-location	ms6650-8
+MTD	ms_run[8]-instrument_ref	instrument[1]
+MTD	ms_run[8]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[9]-location	ms6650-9
+MTD	ms_run[9]-instrument_ref	instrument[1]
+MTD	ms_run[9]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[10]-location	ms6650-10
+MTD	ms_run[10]-instrument_ref	instrument[1]
+MTD	ms_run[10]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[11]-location	ms6650-11
+MTD	ms_run[11]-instrument_ref	instrument[1]
+MTD	ms_run[11]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[12]-location	ms6650-12
+MTD	ms_run[12]-instrument_ref	instrument[1]
+MTD	ms_run[12]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[13]-location	ms6650-13
+MTD	ms_run[13]-instrument_ref	instrument[1]
+MTD	ms_run[13]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[14]-location	ms6650-14
+MTD	ms_run[14]-instrument_ref	instrument[1]
+MTD	ms_run[14]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[15]-location	ms6650-15
+MTD	ms_run[15]-instrument_ref	instrument[1]
+MTD	ms_run[15]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[16]-location	ms6650-16
+MTD	ms_run[16]-instrument_ref	instrument[1]
+MTD	ms_run[16]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[17]-location	ms6650-17
+MTD	ms_run[17]-instrument_ref	instrument[1]
+MTD	ms_run[17]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[18]-location	ms6650-18
+MTD	ms_run[18]-instrument_ref	instrument[1]
+MTD	ms_run[18]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[19]-location	ms6650-19
+MTD	ms_run[19]-instrument_ref	instrument[1]
+MTD	ms_run[19]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[20]-location	ms6650-20
+MTD	ms_run[20]-instrument_ref	instrument[1]
+MTD	ms_run[20]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[21]-location	ms6650-21
+MTD	ms_run[21]-instrument_ref	instrument[1]
+MTD	ms_run[21]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[22]-location	ms6650-22
+MTD	ms_run[22]-instrument_ref	instrument[1]
+MTD	ms_run[22]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[23]-location	ms6650-23
+MTD	ms_run[23]-instrument_ref	instrument[1]
+MTD	ms_run[23]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[24]-location	ms6650-24
+MTD	ms_run[24]-instrument_ref	instrument[1]
+MTD	ms_run[24]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[25]-location	ms6650-25
+MTD	ms_run[25]-instrument_ref	instrument[1]
+MTD	ms_run[25]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[26]-location	ms6650-26
+MTD	ms_run[26]-instrument_ref	instrument[1]
+MTD	ms_run[26]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[27]-location	ms6650-27
+MTD	ms_run[27]-instrument_ref	instrument[1]
+MTD	ms_run[27]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[28]-location	ms6650-28
+MTD	ms_run[28]-instrument_ref	instrument[1]
+MTD	ms_run[28]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[29]-location	ms6650-29
+MTD	ms_run[29]-instrument_ref	instrument[1]
+MTD	ms_run[29]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[30]-location	ms6650-30
+MTD	ms_run[30]-instrument_ref	instrument[1]
+MTD	ms_run[30]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	assay[1]	ms6650-1
+MTD	assay[1]-sample_ref	sample[1]
+MTD	assay[1]-ms_run_ref	ms_run[1]
+MTD	assay[10]	ms6650-10
+MTD	assay[10]-sample_ref	sample[10]
+MTD	assay[10]-ms_run_ref	ms_run[10]
+MTD	assay[11]	ms6650-11
+MTD	assay[11]-sample_ref	sample[11]
+MTD	assay[11]-ms_run_ref	ms_run[11]
+MTD	assay[12]	ms6650-12
+MTD	assay[12]-sample_ref	sample[12]
+MTD	assay[12]-ms_run_ref	ms_run[12]
+MTD	assay[13]	ms6650-13
+MTD	assay[13]-sample_ref	sample[13]
+MTD	assay[13]-ms_run_ref	ms_run[13]
+MTD	assay[14]	ms6650-14
+MTD	assay[14]-sample_ref	sample[14]
+MTD	assay[14]-ms_run_ref	ms_run[14]
+MTD	assay[15]	ms6650-15
+MTD	assay[15]-sample_ref	sample[15]
+MTD	assay[15]-ms_run_ref	ms_run[15]
+MTD	assay[16]	ms6650-16
+MTD	assay[16]-sample_ref	sample[16]
+MTD	assay[16]-ms_run_ref	ms_run[16]
+MTD	assay[17]	ms6650-17
+MTD	assay[17]-sample_ref	sample[17]
+MTD	assay[17]-ms_run_ref	ms_run[17]
+MTD	assay[18]	ms6650-18
+MTD	assay[18]-sample_ref	sample[18]
+MTD	assay[18]-ms_run_ref	ms_run[18]
+MTD	assay[19]	ms6650-19
+MTD	assay[19]-sample_ref	sample[19]
+MTD	assay[19]-ms_run_ref	ms_run[19]
+MTD	assay[2]	ms6650-2
+MTD	assay[2]-sample_ref	sample[2]
+MTD	assay[2]-ms_run_ref	ms_run[2]
+MTD	assay[20]	ms6650-20
+MTD	assay[20]-sample_ref	sample[20]
+MTD	assay[20]-ms_run_ref	ms_run[20]
+MTD	assay[21]	ms6650-21
+MTD	assay[21]-sample_ref	sample[21]
+MTD	assay[21]-ms_run_ref	ms_run[21]
+MTD	assay[22]	ms6650-22
+MTD	assay[22]-sample_ref	sample[22]
+MTD	assay[22]-ms_run_ref	ms_run[22]
+MTD	assay[23]	ms6650-23
+MTD	assay[23]-sample_ref	sample[23]
+MTD	assay[23]-ms_run_ref	ms_run[23]
+MTD	assay[24]	ms6650-24
+MTD	assay[24]-sample_ref	sample[24]
+MTD	assay[24]-ms_run_ref	ms_run[24]
+MTD	assay[25]	ms6650-25
+MTD	assay[25]-sample_ref	sample[25]
+MTD	assay[25]-ms_run_ref	ms_run[25]
+MTD	assay[26]	ms6650-26
+MTD	assay[26]-sample_ref	sample[26]
+MTD	assay[26]-ms_run_ref	ms_run[26]
+MTD	assay[27]	ms6650-27
+MTD	assay[27]-sample_ref	sample[27]
+MTD	assay[27]-ms_run_ref	ms_run[27]
+MTD	assay[28]	ms6650-28
+MTD	assay[28]-sample_ref	sample[28]
+MTD	assay[28]-ms_run_ref	ms_run[28]
+MTD	assay[29]	ms6650-29
+MTD	assay[29]-sample_ref	sample[29]
+MTD	assay[29]-ms_run_ref	ms_run[29]
+MTD	assay[3]	ms6650-3
+MTD	assay[3]-sample_ref	sample[3]
+MTD	assay[3]-ms_run_ref	ms_run[3]
+MTD	assay[30]	ms6650-30
+MTD	assay[30]-sample_ref	sample[30]
+MTD	assay[30]-ms_run_ref	ms_run[30]
+MTD	assay[4]	ms6650-4
+MTD	assay[4]-sample_ref	sample[4]
+MTD	assay[4]-ms_run_ref	ms_run[4]
+MTD	assay[5]	ms6650-5
+MTD	assay[5]-sample_ref	sample[5]
+MTD	assay[5]-ms_run_ref	ms_run[5]
+MTD	assay[6]	ms6650-6
+MTD	assay[6]-sample_ref	sample[6]
+MTD	assay[6]-ms_run_ref	ms_run[6]
+MTD	assay[7]	ms6650-7
+MTD	assay[7]-sample_ref	sample[7]
+MTD	assay[7]-ms_run_ref	ms_run[7]
+MTD	assay[8]	ms6650-8
+MTD	assay[8]-sample_ref	sample[8]
+MTD	assay[8]-ms_run_ref	ms_run[8]
+MTD	assay[9]	ms6650-9
+MTD	assay[9]-sample_ref	sample[9]
+MTD	assay[9]-ms_run_ref	ms_run[9]
+MTD	study_variable_group[1]	[,,Grouping,]
+MTD	study_variable_group[1]-description	mwTab sample factor Grouping
+MTD	study_variable_group[1]-type	[STATO, STATO:0000252, categorical variable, ]
+MTD	study_variable_group[1]-datatype	xsd:string
+MTD	study_variable_group[1]-study_variable_refs	study_variable[1]|study_variable[2]|study_variable[3]
+MTD	study_variable_group[2]	[,,Gender,]
+MTD	study_variable_group[2]-description	mwTab sample factor Gender
+MTD	study_variable_group[2]-type	[STATO, STATO:0000252, categorical variable, ]
+MTD	study_variable_group[2]-datatype	xsd:string
+MTD	study_variable_group[2]-study_variable_refs	study_variable[4]|study_variable[5]
+MTD	study_variable[1]	Weight Losing
+MTD	study_variable[1]-assay_refs	assay[1]|assay[5]|assay[6]|assay[13]|assay[14]|assay[21]|assay[22]|assay[26]|assay[29]|assay[30]
+MTD	study_variable[1]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[1]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[1]-description	Variable Grouping, value Weight Losing
+MTD	study_variable[2]	Control
+MTD	study_variable[2]-assay_refs	assay[2]|assay[3]|assay[4]|assay[7]|assay[9]|assay[10]|assay[15]|assay[18]|assay[20]|assay[27]
+MTD	study_variable[2]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[2]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[2]-description	Variable Grouping, value Control
+MTD	study_variable[3]	Weight Stable
+MTD	study_variable[3]-assay_refs	assay[8]|assay[11]|assay[12]|assay[16]|assay[17]|assay[19]|assay[23]|assay[24]|assay[25]|assay[28]
+MTD	study_variable[3]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[3]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[3]-description	Variable Grouping, value Weight Stable
+MTD	study_variable[4]	Female
+MTD	study_variable[4]-assay_refs	assay[1]|assay[3]|assay[4]|assay[7]|assay[9]|assay[16]|assay[17]|assay[18]|assay[19]|assay[21]|assay[22]|assay[24]|assay[25]|assay[26]|assay[29]
+MTD	study_variable[4]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[4]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[4]-description	Variable Gender, value Female
+MTD	study_variable[5]	Male
+MTD	study_variable[5]-assay_refs	assay[2]|assay[5]|assay[6]|assay[8]|assay[10]|assay[11]|assay[12]|assay[13]|assay[14]|assay[15]|assay[20]|assay[23]|assay[27]|assay[28]|assay[30]
+MTD	study_variable[5]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[5]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[5]-description	Variable Gender, value Male
+MTD	custom[1]	[,, Metabolomics Workbench analysis ID, AN001654]
+MTD	custom[2]	[,, chromatography type, Reversed phase]
+MTD	custom[3]	[,, chromatography instrument, Waters Acquity]
+MTD	custom[4]	[,, chromatography column, "Waters Acquity BEH C18 (150 x 2.1mm, 1.7um)"]
+MTD	cv[1]-label	MS
+MTD	cv[1]-full_name	PSI-MS controlled vocabulary
+MTD	cv[1]-version	4.1.138
+MTD	cv[1]-uri	https://www.ebi.ac.uk/ols4/ontologies/ms
+MTD	cv[2]-label	PRIDE
+MTD	cv[2]-full_name	PRIDE PRoteomics IDEntifications (PRIDE) database controlled vocabulary
+MTD	cv[2]-version	16:10:2023 11:38
+MTD	cv[2]-uri	https://www.ebi.ac.uk/ols/ontologies/pride
+MTD	cv[3]-label	STATO
+MTD	cv[3]-full_name	General purpose STATistics Ontology
+MTD	cv[3]-version	2026-04-20
+MTD	cv[3]-uri	https://www.ebi.ac.uk/ols4/ontologies/stato
+MTD	cv[4]-label	NCBITaxon
+MTD	cv[4]-full_name	NCBI organismal classification
+MTD	cv[4]-version	unknown
+MTD	cv[4]-uri	http://purl.obolibrary.org/obo/ncbitaxon.owl
+MTD	database[1]	[,, "no database", null ]
+MTD	database[1]-prefix	null
+MTD	database[1]-version	Unknown
+MTD	database[1]-uri	null
+MTD	small_molecule-quantification_unit	[,, uM, ]
+MTD	small_molecule-identification_reliability	[MS, MS:1002896, compound identification confidence level, ]
+
+SMH	SML_ID	SMF_ID_REFS	database_identifier	chemical_formula	smiles	inchi	chemical_name	uri	theoretical_neutral_mass	adduct_ions	reliability	best_id_confidence_measure	best_id_confidence_value	abundance_assay[1]	abundance_assay[2]	abundance_assay[3]	abundance_assay[4]	abundance_assay[5]	abundance_assay[6]	abundance_assay[7]	abundance_assay[8]	abundance_assay[9]	abundance_assay[10]	abundance_assay[11]	abundance_assay[12]	abundance_assay[13]	abundance_assay[14]	abundance_assay[15]	abundance_assay[16]	abundance_assay[17]	abundance_assay[18]	abundance_assay[19]	abundance_assay[20]	abundance_assay[21]	abundance_assay[22]	abundance_assay[23]	abundance_assay[24]	abundance_assay[25]	abundance_assay[26]	abundance_assay[27]	abundance_assay[28]	abundance_assay[29]	abundance_assay[30]	abundance_study_variable[1]	abundance_study_variable[2]	abundance_study_variable[3]	abundance_study_variable[4]	abundance_study_variable[5]	abundance_variation_study_variable[1]	abundance_variation_study_variable[2]	abundance_variation_study_variable[3]	abundance_variation_study_variable[4]	abundance_variation_study_variable[5]	opt_global_metabolite_name
+SML	1	null	null	null	null	null	null	null	null	null	2	null	null	42.9	69.3	69.2	53.4	35.7	57.4	72.3	97	107.6	64	40.7	47.7	69	29.1	62.3	42	42.1	58.9	35.5	91	44	39.5	50.8	32.7	38.6	51.2	40.9	57.4	18.1	63.2	45.01	68.89	48.45	49.8666666666667	58.3666666666667	0.347203796658426	0.273274717467979	0.382939553511241	0.423904018939734	0.324465486854712	Histidine
+SML	2	null	null	null	null	null	null	null	null	null	2	null	null	7	10.7	14.8	8	7.6	6.9	10	11.9	10.1	12.5	6.9	10.7	6.1	4.5	5.2	12.8	9.7	11.2	7.4	27.3	11.7	12.3	13.1	9.2	11.4	10.8	6.2	8	9	9.8	8.57	11.6	10.11	10.36	9.82666666666667	0.299370576590663	0.534822534442843	0.219914523450302	0.204200856634402	0.564799074049439	Hydroxyproline
+SML	3	null	null	null	null	null	null	null	null	null	2	null	null	20.3	0	5	0	5.7	1.2	3.5	12.4	1	17.9	1.5	2.9	12.1	0	1.1	12.9	0	1.1	13	8.4	0.8	3.4	0	1.2	0	11.1	0	14.3	4.6	3.9	6.31	3.8	5.82	5.19333333333333	5.42666666666667	1.0106923963214	1.48668037209687	1.09726137628746	1.19633057993652	1.11755323055624	1-Methylhistidine
+SML	4	null	null	null	null	null	null	null	null	null	2	null	null	5.7	4	6.4	4.2	3.1	2.7	3.4	3.3	5	4.2	2.8	3.5	4.4	3.4	5.8	4	3.3	6.4	2	11.4	1.5	1.4	2.1	2.5	1.4	3.4	2.7	2.1	1.9	2	2.95	5.35	2.7	3.5	3.83333333333333	0.46127443789718	0.459646737717708	0.302406141084343	0.502704058330934	0.606740426747415	3-Methylhistidine
+SML	5	null	null	null	null	null	null	null	null	null	2	null	null	28	35.5	38.9	33.2	35.3	37	34.5	29.8	34.8	39	24.9	33.3	49.1	19.4	34.7	31.6	26.6	28.2	36.9	40	29.8	28.5	36.1	32.3	29.2	33.3	38.5	35	23.1	37.7	32.12	35.73	31.57	31.26	35.02	0.26118057092003	0.09927675586909	0.125890917368877	0.13371786646704	0.19311062307951	Asparagine
+SML	6	null	null	null	null	null	null	null	null	null	2	null	null	1.4	1.7	10.1	3.8	1.9	3.6	2.2	0.8	7.8	0.8	0	6.3	0.1	0.5	2.3	2.1	1.2	3.5	3.1	2	1.5	2.6	4.7	5.2	0.2	1.9	1.3	1.9	1	0.9	1.54	3.55	2.55	3.17333333333333	1.92	0.667284809281306	0.854743800601972	0.86259654098292	0.848291054435206	0.911553991578937	Phosphoethanolamine
+SML	7	null	null	null	null	null	null	null	null	null	2	null	null	38.9	39.3	21.8	31.6	47.6	50.5	46.8	50.8	42.1	88.7	43.5	49.9	48.2	18.3	49.9	59	58	39	35.7	47.3	21.1	48.4	61.9	42.5	47	47.6	47.5	16.4	35.1	57.1	41.28	45.4	46.47	40.9733333333333	47.7933333333333	0.31200154378922	0.384435384084861	0.287246160260353	0.269631931486721	0.350593714566232	Arginine
+SML	8	null	null	null	null	null	null	null	null	null	2	null	null	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	null	null	null	null	null	Carnosine
+SML	9	null	null	null	null	null	null	null	null	null	2	null	null	51.3	42.8	102.3	67.7	84.5	84.2	83.8	56.7	125.2	43.2	97.1	99.9	71	66.6	46.9	59.2	38.2	73.6	83.3	80.6	54.9	80.1	65.3	102	58.2	68	31.6	65	55.2	57.5	67.33	69.77	72.49	73.5333333333333	66.1933333333333	0.186042530255889	0.42402672471915	0.300071211052789	0.314394889877813	0.307343524900847	Taurine
+SML	10	null	null	null	null	null	null	null	null	null	2	null	null	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	null	null	null	null	null	Anserine
+SML	11	null	null	null	null	null	null	null	null	null	2	null	null	74	67.2	129	82.4	136.3	95.7	99.5	82.8	87.6	121.7	56.6	59.4	111	83.7	59.8	68.5	68.9	86.7	92.1	73.4	91	92.4	78.7	66.8	55.6	76.1	101.4	108.9	102.6	95.5	95.83	90.87	73.83	84.88	88.8066666666667	0.189307109810668	0.246629906139859	0.230543627312818	0.212172619327314	0.270797522832433	Serine
+SML	12	null	null	null	null	null	null	null	null	null	2	null	null	467.7	561.2	524	568.4	498.1	447.7	525.6	490.7	583.2	732.2	142.7	438	397.2	259.8	527	457.4	467.1	418.1	733.8	443.5	527.8	552.5	523.5	486.4	421.9	507.3	544.4	513.9	455.9	586.8	470.08	542.76	467.54	513.14	473.78	0.195684949981764	0.156348436948881	0.307187704239451	0.153945748534755	0.28990715632938	Glutamine
+SML	13	null	null	null	null	null	null	null	null	null	2	null	null	4	5.8	5.7	4.4	6.5	5.5	3.1	5	7.9	4.1	8.9	5.9	6.2	5	3.7	3.9	4.1	4.7	4.8	4.9	3.1	4.6	5.9	5.5	4.4	5.1	4.6	5.9	3.3	5.7	4.9	4.89	5.43	4.57333333333333	5.57333333333333	0.235653171097806	0.273931959059682	0.263758537982088	0.265041105031993	0.216850556430202	Ethanolamine
+SML	14	null	null	null	null	null	null	null	null	null	2	null	null	275.4	252.4	378.5	222.3	314.1	218.9	375.9	222.8	348.4	260.5	134.9	147.7	224.1	188.2	126.6	233.3	277.5	202.2	292.6	198.3	246.8	194.7	164.8	204.4	189.1	232	247.7	197.4	202.5	157.5	225.42	261.28	206.45	258.373333333333	203.726666666667	0.200443350707224	0.317272407649174	0.25091769085725	0.251207634187018	0.257421558085558	Glycine
+SML	15	null	null	null	null	null	null	null	null	null	2	null	null	2.4	1.4	7	3.3	3.1	3.5	3.1	3.5	4.9	5.4	6.9	5.8	3.5	3	2.6	3	2.3	4.8	4.6	3.6	3.6	4.5	4.8	5.6	3.9	3.7	2.3	4	3.2	3.2	3.37	3.84	4.44	3.99333333333333	3.77333333333333	0.161956078090968	0.435967886070964	0.313378867223894	0.315830470146043	0.377786867404367	Aspartic Acid
+SML	16	null	null	null	null	null	null	null	null	null	2	null	null	0.5	0.3	1.2	0.5	1	1.7	1	0.5	0.4	0.9	0.7	0.9	0.6	0.8	0.6	0.5	0.8	0.7	1	1	0.7	0.5	0.7	0.7	0.6	0.5	0.4	0.6	0.9	1	0.82	0.7	0.7	0.7	0.78	0.448261748035454	0.441600880737891	0.233284737407922	0.337198196772619	0.431239931216452	Sarcosine
+SML	17	null	null	null	null	null	null	null	null	null	2	null	null	33.9	29.6	33.9	10.4	30.8	27.1	24.3	29.8	25.7	55.5	45.4	29.9	22.1	16.7	23.4	37.2	45.2	28.4	27.5	38.6	11.5	14.9	23	18	18.4	28.1	16.9	22.5	15.8	18.2	21.91	28.67	29.69	24.88	28.6333333333333	0.348201900120252	0.431086729683568	0.338528809561061	0.404519672678323	0.378176220625753	Citrulline
+SML	18	null	null	null	null	null	null	null	null	null	2	null	null	67.3	21.5	98.2	38.8	110.4	61.5	75.6	108.9	73.4	141.9	263.4	102.5	231.7	107.1	77.5	66.8	28.6	104.9	54.3	79	62.1	90.2	96.1	77.6	116.5	49.1	53	80.3	71.6	76.5	92.75	76.38	99.5	71.6666666666667	107.42	0.568374020251509	0.448694216850023	0.637823922735388	0.335542403160818	0.593869830623238	Glutamic Acid
+SML	19	null	null	null	null	null	null	null	null	null	2	null	null	1.9	1.2	3	0.7	0.6	3.5	0.6	2.8	1.7	5	0.9	3.1	2.3	2	2	1.1	0	1	3.2	2.2	1.7	1.4	1.8	1.3	0.5	0.9	0.8	1.2	0.6	1.9	1.68	1.82	1.59	1.30666666666667	2.08666666666667	0.521791446780206	0.744770710907907	0.696856102747661	0.682960552536221	0.559131511421464	beta-Alanine
+SML	20	null	null	null	null	null	null	null	null	null	2	null	null	49.4	83.8	103.1	59.8	100.7	86.9	90.2	67.5	65.9	111.6	54	78.9	148.8	42.7	64.5	50	85.4	87.8	93.2	196.3	65.8	94.2	114.1	81.4	81.7	94.9	105.4	89.1	60.7	112.7	85.68	96.84	79.53	77.5666666666667	97.1333333333333	0.374810331685506	0.40572438449684	0.236543343151013	0.224858989602513	0.39653934620321	Threonine
+SML	21	null	null	null	null	null	null	null	null	null	2	null	null	230.5	281.5	246.2	222.6	163.3	235.7	253.1	340.1	399.3	350.8	171.3	324.3	269.6	110.2	222.9	110.1	203.1	363.8	299.7	379.4	300	132.5	328.8	350.9	273	201.5	237.7	255.8	236.1	316.5	219.59	295.73	265.71	254.826666666667	265.86	0.311301154535306	0.236128358267647	0.303575515390519	0.314376150719772	0.289889358659213	Alanine
+SML	22	null	null	null	null	null	null	null	null	null	2	null	null	0.1	0.12	0.17	0.12	0.05	0.06	0.03	0.04	0.13	0.07	0.06	0.05	0.05	0.04	0.04	0.09	0.03	0.1	0.06	0.11	0.04	0.05	0.09	0.04	0.05	0.04	0.06	0.11	0.02	0.02	0.047	0.095	0.062	0.0713333333333333	0.0646666666666667	0.481538870830297	0.463503326793786	0.421965954201045	0.622139963019749	0.459725785334355	gamma-Amino-N-butyric-acid
+SML	23	null	null	null	null	null	null	null	null	null	2	null	null	0.4	0.6	1.1	0.4	0.4	0.7	0.5	0.4	0.9	1	0.5	1	0.6	0.3	1	0.2	0.4	0.8	0.1	0.9	0.5	0.5	0.7	0.4	0.3	0.6	0.5	0.8	0.4	1	0.54	0.77	0.48	0.5	0.693333333333333	0.372422299481441	0.324242135256693	0.579351489294839	0.523722936566382	0.355249100036753	alpha-Aminoadipic-acid
+SML	24	null	null	null	null	null	null	null	null	null	2	null	null	3.9	2.9	1.8	1.8	2.4	1.3	1.5	1.2	1.5	2.5	3.6	3.5	1.5	1.7	2.1	4.1	0.5	0.7	2.1	1.8	0.5	1	0.7	1	0.7	1.1	3.3	1.3	1.2	1	1.56	1.99	1.87	1.56	2.05333333333333	0.617961130492069	0.377126294990456	0.731076870593984	0.707123384419375	0.457920480982886	beta-Aminoisobutyric-acid
+SML	25	null	null	null	null	null	null	null	null	null	2	null	null	134	131.3	130.6	127.4	119.5	109.8	128	129.5	186.7	221.8	102.8	138.9	143.8	60.1	104.9	76.5	238.6	175.9	141.7	201.9	146.2	138.4	151.6	130.1	150	93.8	118.4	98.7	127.5	154.4	122.75	152.69	135.84	141.693333333333	132.493333333333	0.232495268915313	0.263307580889395	0.32104991550803	0.267684280089738	0.304087640303543	Proline
+SML	26	null	null	null	null	null	null	null	null	null	2	null	null	0	0	0	0	0.1	0	0	0	0	0	0.1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.01	0	0.01	0	0.0133333333333333	3.16227766016838	null	3.16227766016838	null	2.63899331455874	Hydroxylysine 1
+SML	27	null	null	null	null	null	null	null	null	null	2	null	null	0.8	0.5	1	0.4	0.6	0.4	0.4	0.5	0.6	0.5	0.6	0.3	0.6	0.4	0.4	0.3	0.3	0.5	0.4	0.8	0.3	1	0.4	0.4	0.5	0.6	0.6	0.3	0.4	0.6	0.57	0.57	0.4	0.526666666666667	0.5	0.370319068982165	0.341492428553367	0.263523138347365	0.445099826309019	0.272554057547699	Hydroxylysine 2
+SML	28	null	null	null	null	null	null	null	null	null	2	null	null	9.3	22	22.7	19.1	28.8	29.5	11.9	9.1	8.4	16	10.1	22.4	26.2	11.1	13.1	9.4	3.5	13.9	6.2	25	18.6	22.3	16.2	11.4	6.2	18.1	15.1	14.8	34.3	19.1	21.73	16.72	10.93	14.3533333333333	18.5666666666667	0.371355986875598	0.318053381119917	0.511098142085664	0.56981841967631	0.36302384457787	alpha-Amino-N-butyric-acid
+SML	29	null	null	null	null	null	null	null	null	null	2	null	null	42.8	64.9	122.1	17.3	54.7	59.9	55.4	76.8	79	131.3	46.2	48.7	105.7	32.1	45.4	46.5	57.5	89.2	81.2	88.7	31.9	47.6	47.8	40.8	55	46.4	39.6	83.8	49.4	73.8	54.43	73.29	58.43	57.4733333333333	66.6266666666667	0.402129317228924	0.492145311041369	0.274933900482467	0.450536021542968	0.407166510794855	Ornithine
+SML	30	null	null	null	null	null	null	null	null	null	2	null	null	0.4	0.1	1	0.3	0.2	0.4	0.2	0.2	0.4	0.6	0.3	0.3	1.1	0.1	0.2	0.1	0.2	0.3	0.2	1.6	0.1	0.2	0.3	0.2	0.2	0.2	0.3	0.2	0.2	1.7	0.46	0.5	0.22	0.28	0.506666666666667	1.14208048144032	0.928559218478941	0.287479787288034	0.777789346945285	1.0376042006689	Cystathionine 1
+SML	31	null	null	null	null	null	null	null	null	null	2	null	null	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	null	null	null	null	null	Cystathionine 2
+SML	32	null	null	null	null	null	null	null	null	null	2	null	null	130.8	120.4	171.4	98.3	120.7	175.8	145.1	164.7	182.7	158.2	112.1	178	196.3	104.5	151	113.7	105.8	160.8	131.6	199.5	139.8	130.7	164.2	135.2	144	146.5	170.7	156.3	148.3	239.8	153.32	155.81	140.56	138.98	160.813333333333	0.262267334523812	0.189262066559397	0.178280411219458	0.163676226946034	0.226347665972375	Lysine
+SML	33	null	null	null	null	null	null	null	null	null	2	null	null	53.8	36.7	56.9	22.4	33.7	36.1	39.8	36.2	43.7	31.6	6.5	29.6	61.7	33	58.7	36.7	31.5	37.1	42.2	53.7	25.4	38.5	42	35.7	39.1	50.7	41.4	31.8	50.6	40.3	42.38	42.2	33.13	40.2733333333333	38.2	0.266835360042074	0.272471778540917	0.310340968537585	0.244403480622756	0.347231351664319	Cystine
+SML	34	null	null	null	null	null	null	null	null	null	2	null	null	39.3	39.3	48	37.6	34.2	42.8	38.4	70.2	53.7	76	33.3	60.5	62.7	34.7	48.1	32	45.9	51.7	46.6	61.5	29.3	35.6	64.6	44.1	36.2	36.5	66.3	50.7	35.4	102.4	45.29	52.06	48.41	40.6866666666667	56.4866666666667	0.486345160882309	0.244527886266628	0.272236673562745	0.177623805633824	0.335040114503771	Tyrosine
+SML	35	null	null	null	null	null	null	null	null	null	2	null	null	11.8	18.6	16.2	20.1	17.3	19.7	19.8	23.1	18	29	11.5	18.5	22.3	10.3	16	11.2	14.6	15.2	17.1	24.4	13.4	13.6	22.6	16	15.6	18.3	23.5	18.6	14.1	26.2	16.7	20.08	16.88	15.6666666666667	20.1066666666667	0.299906426682522	0.217733224832807	0.238489054920769	0.170330506390459	0.255136741229144	Methionine
+SML	36	null	null	null	null	null	null	null	null	null	2	null	null	136.1	175.4	236	119.8	181.9	190.1	171.4	203.1	185.4	200	130.2	233.9	167.1	130	223.1	131.8	138.9	193.6	132.3	238.9	171.2	169.2	192.5	156.5	119.7	214.7	134.8	198.8	178.1	273.9	181.23	187.84	163.77	163.646666666667	191.58	0.224536514718748	0.211645445085566	0.243144251573884	0.21194442903413	0.215203950794867	Valine
+SML	37	null	null	null	null	null	null	null	null	null	2	null	null	57	52.9	68.2	36.2	65.1	61.9	45.8	77.4	44.9	89.7	44.8	65	52.3	45.7	59.1	36.9	38.3	50	43.3	70.2	41.2	62.8	63.6	52.7	41.3	65.6	38.2	59.2	63.4	86.6	60.16	55.52	52.25	49.84	62.1133333333333	0.208343943067701	0.298700424409518	0.259778798210623	0.222038722360308	0.236417506951024	Isoleucine
+SML	38	null	null	null	null	null	null	null	null	null	2	null	null	1.8	1.8	1.5	1.9	2.9	2	1.1	1.2	1.4	2.1	1	1.4	1.1	1.2	1.8	1	1.3	0.6	1.4	1.9	1.4	2.2	1.8	1.1	1.1	1.4	1.4	1.5	1.4	1.9	1.73	1.55	1.28	1.37333333333333	1.66666666666667	0.316661259085821	0.29052163626035	0.197642353760524	0.283976137096683	0.293647018422751	allo-Isoleucine
+SML	39	null	null	null	null	null	null	null	null	null	2	null	null	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.1	0.3	0	0	0	0	0	0	0.1	0	0	0	0	0	0	0	0	0.05	0.0333333333333333	0	null	null	1.9436506316151	2.44948974278318	null	Homocystine
+SML	40	null	null	null	null	null	null	null	null	null	2	null	null	69.1	111.9	125.2	55.5	101.5	107.4	96.3	126.9	107.6	102.3	74	127.3	95.6	71.5	134.4	67.5	71.2	93.9	58	128.3	71.3	95.6	96.8	92.8	66.6	118.9	72.9	109.3	87.7	148.5	96.71	102.83	89.04	85.1466666666667	107.24	0.254194677190335	0.240609011844235	0.286516667285772	0.253801016954746	0.216716338888573	Leucine
+SML	41	null	null	null	null	null	null	null	null	null	2	null	null	30.7	43.7	55	41.5	40.5	50.1	43.6	50.4	59.7	44.5	38.7	55.6	45.6	34.2	59.1	33.9	37	41.7	34.1	52	29.1	38	53	52.6	35	42.9	54.6	44.5	32.9	57.4	40.14	49.54	43.48	40.5133333333333	48.26	0.225586486469155	0.146951711545772	0.200814150803568	0.224694636675623	0.151154056058855	Phenylalanine
+SML	42	null	null	null	null	null	null	null	null	null	2	null	null	29.7	29.9	44.5	13	24.2	32.6	27.9	49.5	40.8	44.5	27.8	39.2	28.9	29.7	33.6	31.1	29.7	47.8	15.2	31.8	23.3	31.3	47.9	31.1	22.8	22.8	34.1	31.2	24.8	51.9	29.92	34.79	32.55	29.0533333333333	35.7866666666667	0.283335386965557	0.295465988925795	0.323829052364256	0.33454951442547	0.242443065111203	Tryptophan
+

@@ -1,0 +1,501 @@
+MTD	mzTab-version	2.1.0-M
+MTD	mzTab-ID	ST001026_AN001683
+MTD	mzTab-profile	M+S
+MTD	title	TCA cycle metabolomics of H3K27M Cell Nucleus Fraction and Cell Mitonchonrdial Fraction (Part-IV)
+MTD	description	Testing TCA concentrations of Diffuse Intrinsic Pontine Gliomas (DIPG) cellines with H3K27M mutations. Preliminary studies show H3K27M tumor cells are addicted to Gln for survival. Removal of Gln from media resulted in tumor cell death which was rescued by the addition of α-KG. These data show that Gln is taken up and metabolized by H3K27M tumor cells and that Gln derived α-KG is critical for the survival of these tumors. Interestingly, tumor cell death with Gln deprivation was similar to the effect of the JMJD3 inhibitor GSKJ4. Therefore, Gln derived α-KG may be required for both anaplerosis and to drive JMJD3 demethylation. We hypothesize that H3K27M tumors are reliant on α-KG that is derived from Gln to drive the TCA cycle and further decrease H3K27 methylation levels. Furthermore, inhibition of Gln metabolism may represent a novel therapeutic approach for tumors with this mutation. In this study, TCA cycle metabolomics are analyzed of H3K27M cells grown in regular glutamine media, glutamine free media, and glutamine free media with alpha-ketoglutarate. Additionally, cell nucleus and cell mitochrondial fractions are run separately.
+MTD	instrument[1]-name	[MS, MS:1000031, instrument model, Agilent 5977A]
+MTD	instrument[1]-source	[MS, MS:1000389, electron ionization, ]
+MTD	instrument[1]-analyzer[1]	[MS, MS:1000081, quadrupole, ]
+MTD	software[1]	[MS, MS:1000799, custom unreleased software tool, mwtab2mztabm 0.1.0]
+MTD	contact[1]-name	David Daniels
+MTD	contact[1]-affiliation	Mayo Clinic
+MTD	contact[1]-email	daniels.david@mayo.edu
+MTD	uri[1]	https://www.metabolomicsworkbench.org/data/DRCCMetadata.php?Mode=Study&StudyID=ST001026
+MTD	quantification_method	[MS, MS:1001833, quantitation analysis summary, ]
+MTD	sample[1]	ms6808 - 1
+MTD	sample[1]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[1]-tissue[1]	[,, Glioma cells, ]
+MTD	sample[1]-custom[1]	[,,species (mwTab), Human cell line]
+MTD	sample[1]-custom[2]	[,,protein ug/vial, 389]
+MTD	sample[10]	ms6808 - 10
+MTD	sample[10]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[10]-tissue[1]	[,, Glioma cells, ]
+MTD	sample[10]-custom[1]	[,,species (mwTab), Human cell line]
+MTD	sample[10]-custom[2]	[,,protein ug/vial, 107]
+MTD	sample[11]	ms6808 - 11
+MTD	sample[11]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[11]-tissue[1]	[,, Glioma cells, ]
+MTD	sample[11]-custom[1]	[,,species (mwTab), Human cell line]
+MTD	sample[11]-custom[2]	[,,protein ug/vial, 59]
+MTD	sample[12]	ms6808 - 12
+MTD	sample[12]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[12]-tissue[1]	[,, Glioma cells, ]
+MTD	sample[12]-custom[1]	[,,species (mwTab), Human cell line]
+MTD	sample[12]-custom[2]	[,,protein ug/vial, 97]
+MTD	sample[13]	ms6808 - 13
+MTD	sample[13]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[13]-tissue[1]	[,, Glioma cells, ]
+MTD	sample[13]-custom[1]	[,,species (mwTab), Human cell line]
+MTD	sample[13]-custom[2]	[,,protein ug/vial, 307]
+MTD	sample[14]	ms6808 - 14
+MTD	sample[14]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[14]-tissue[1]	[,, Glioma cells, ]
+MTD	sample[14]-custom[1]	[,,species (mwTab), Human cell line]
+MTD	sample[14]-custom[2]	[,,protein ug/vial, 235]
+MTD	sample[15]	ms6808 - 15
+MTD	sample[15]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[15]-tissue[1]	[,, Glioma cells, ]
+MTD	sample[15]-custom[1]	[,,species (mwTab), Human cell line]
+MTD	sample[15]-custom[2]	[,,protein ug/vial, 344]
+MTD	sample[16]	ms6808 - 16
+MTD	sample[16]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[16]-tissue[1]	[,, Glioma cells, ]
+MTD	sample[16]-custom[1]	[,,species (mwTab), Human cell line]
+MTD	sample[16]-custom[2]	[,,protein ug/vial, 65]
+MTD	sample[17]	ms6808 - 17
+MTD	sample[17]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[17]-tissue[1]	[,, Glioma cells, ]
+MTD	sample[17]-custom[1]	[,,species (mwTab), Human cell line]
+MTD	sample[17]-custom[2]	[,,protein ug/vial, 61]
+MTD	sample[18]	ms6808 - 18
+MTD	sample[18]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[18]-tissue[1]	[,, Glioma cells, ]
+MTD	sample[18]-custom[1]	[,,species (mwTab), Human cell line]
+MTD	sample[18]-custom[2]	[,,protein ug/vial, 71]
+MTD	sample[19]	ms6808 - 19
+MTD	sample[19]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[19]-tissue[1]	[,, Glioma cells, ]
+MTD	sample[19]-custom[1]	[,,species (mwTab), Human cell line]
+MTD	sample[19]-custom[2]	[,,protein ug/vial, 601]
+MTD	sample[2]	ms6808 - 2
+MTD	sample[2]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[2]-tissue[1]	[,, Glioma cells, ]
+MTD	sample[2]-custom[1]	[,,species (mwTab), Human cell line]
+MTD	sample[2]-custom[2]	[,,protein ug/vial, 382]
+MTD	sample[20]	ms6808 - 20
+MTD	sample[20]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[20]-tissue[1]	[,, Glioma cells, ]
+MTD	sample[20]-custom[1]	[,,species (mwTab), Human cell line]
+MTD	sample[20]-custom[2]	[,,protein ug/vial, 628]
+MTD	sample[21]	ms6808 - 21
+MTD	sample[21]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[21]-tissue[1]	[,, Glioma cells, ]
+MTD	sample[21]-custom[1]	[,,species (mwTab), Human cell line]
+MTD	sample[21]-custom[2]	[,,protein ug/vial, 589]
+MTD	sample[22]	ms6808 - 22
+MTD	sample[22]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[22]-tissue[1]	[,, Glioma cells, ]
+MTD	sample[22]-custom[1]	[,,species (mwTab), Human cell line]
+MTD	sample[22]-custom[2]	[,,protein ug/vial, 254]
+MTD	sample[23]	ms6808 - 23
+MTD	sample[23]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[23]-tissue[1]	[,, Glioma cells, ]
+MTD	sample[23]-custom[1]	[,,species (mwTab), Human cell line]
+MTD	sample[23]-custom[2]	[,,protein ug/vial, 246]
+MTD	sample[24]	ms6808 - 24
+MTD	sample[24]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[24]-tissue[1]	[,, Glioma cells, ]
+MTD	sample[24]-custom[1]	[,,species (mwTab), Human cell line]
+MTD	sample[24]-custom[2]	[,,protein ug/vial, 263]
+MTD	sample[25]	ms6808 - 25
+MTD	sample[25]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[25]-tissue[1]	[,, Glioma cells, ]
+MTD	sample[25]-custom[1]	[,,species (mwTab), Human cell line]
+MTD	sample[25]-custom[2]	[,,protein ug/vial, 333]
+MTD	sample[26]	ms6808 - 26
+MTD	sample[26]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[26]-tissue[1]	[,, Glioma cells, ]
+MTD	sample[26]-custom[1]	[,,species (mwTab), Human cell line]
+MTD	sample[26]-custom[2]	[,,protein ug/vial, 484]
+MTD	sample[27]	ms6808 - 27
+MTD	sample[27]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[27]-tissue[1]	[,, Glioma cells, ]
+MTD	sample[27]-custom[1]	[,,species (mwTab), Human cell line]
+MTD	sample[27]-custom[2]	[,,protein ug/vial, 398]
+MTD	sample[28]	ms6808 - 28
+MTD	sample[28]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[28]-tissue[1]	[,, Glioma cells, ]
+MTD	sample[28]-custom[1]	[,,species (mwTab), Human cell line]
+MTD	sample[28]-custom[2]	[,,protein ug/vial, 114]
+MTD	sample[29]	ms6808 - 29
+MTD	sample[29]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[29]-tissue[1]	[,, Glioma cells, ]
+MTD	sample[29]-custom[1]	[,,species (mwTab), Human cell line]
+MTD	sample[29]-custom[2]	[,,protein ug/vial, 250]
+MTD	sample[3]	ms6808 - 3
+MTD	sample[3]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[3]-tissue[1]	[,, Glioma cells, ]
+MTD	sample[3]-custom[1]	[,,species (mwTab), Human cell line]
+MTD	sample[3]-custom[2]	[,,protein ug/vial, 469]
+MTD	sample[30]	ms6808 - 30
+MTD	sample[30]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[30]-tissue[1]	[,, Glioma cells, ]
+MTD	sample[30]-custom[1]	[,,species (mwTab), Human cell line]
+MTD	sample[30]-custom[2]	[,,protein ug/vial, 167]
+MTD	sample[31]	ms6808 - 31
+MTD	sample[31]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[31]-tissue[1]	[,, Glioma cells, ]
+MTD	sample[31]-custom[1]	[,,species (mwTab), Human cell line]
+MTD	sample[31]-custom[2]	[,,protein ug/vial, 176]
+MTD	sample[32]	ms6808 - 32
+MTD	sample[32]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[32]-tissue[1]	[,, Glioma cells, ]
+MTD	sample[32]-custom[1]	[,,species (mwTab), Human cell line]
+MTD	sample[32]-custom[2]	[,,protein ug/vial, 254]
+MTD	sample[33]	ms6808 - 33
+MTD	sample[33]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[33]-tissue[1]	[,, Glioma cells, ]
+MTD	sample[33]-custom[1]	[,,species (mwTab), Human cell line]
+MTD	sample[33]-custom[2]	[,,protein ug/vial, 206]
+MTD	sample[34]	ms6808 - 34
+MTD	sample[34]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[34]-tissue[1]	[,, Glioma cells, ]
+MTD	sample[34]-custom[1]	[,,species (mwTab), Human cell line]
+MTD	sample[34]-custom[2]	[,,protein ug/vial, 64]
+MTD	sample[35]	ms6808 - 35
+MTD	sample[35]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[35]-tissue[1]	[,, Glioma cells, ]
+MTD	sample[35]-custom[1]	[,,species (mwTab), Human cell line]
+MTD	sample[35]-custom[2]	[,,protein ug/vial, 42]
+MTD	sample[36]	ms6808 - 36
+MTD	sample[36]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[36]-tissue[1]	[,, Glioma cells, ]
+MTD	sample[36]-custom[1]	[,,species (mwTab), Human cell line]
+MTD	sample[36]-custom[2]	[,,protein ug/vial, 138]
+MTD	sample[4]	ms6808 - 4
+MTD	sample[4]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[4]-tissue[1]	[,, Glioma cells, ]
+MTD	sample[4]-custom[1]	[,,species (mwTab), Human cell line]
+MTD	sample[4]-custom[2]	[,,protein ug/vial, 197]
+MTD	sample[5]	ms6808 - 5
+MTD	sample[5]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[5]-tissue[1]	[,, Glioma cells, ]
+MTD	sample[5]-custom[1]	[,,species (mwTab), Human cell line]
+MTD	sample[5]-custom[2]	[,,protein ug/vial, 251]
+MTD	sample[6]	ms6808 - 6
+MTD	sample[6]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[6]-tissue[1]	[,, Glioma cells, ]
+MTD	sample[6]-custom[1]	[,,species (mwTab), Human cell line]
+MTD	sample[6]-custom[2]	[,,protein ug/vial, 145]
+MTD	sample[7]	ms6808 - 7
+MTD	sample[7]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[7]-tissue[1]	[,, Glioma cells, ]
+MTD	sample[7]-custom[1]	[,,species (mwTab), Human cell line]
+MTD	sample[7]-custom[2]	[,,protein ug/vial, 249]
+MTD	sample[8]	ms6808 - 8
+MTD	sample[8]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[8]-tissue[1]	[,, Glioma cells, ]
+MTD	sample[8]-custom[1]	[,,species (mwTab), Human cell line]
+MTD	sample[8]-custom[2]	[,,protein ug/vial, 274]
+MTD	sample[9]	ms6808 - 9
+MTD	sample[9]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[9]-tissue[1]	[,, Glioma cells, ]
+MTD	sample[9]-custom[1]	[,,species (mwTab), Human cell line]
+MTD	sample[9]-custom[2]	[,,protein ug/vial, 285]
+MTD	ms_run[1]-location	ms6808 - 1
+MTD	ms_run[1]-instrument_ref	instrument[1]
+MTD	ms_run[1]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[2]-location	ms6808 - 2
+MTD	ms_run[2]-instrument_ref	instrument[1]
+MTD	ms_run[2]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[3]-location	ms6808 - 3
+MTD	ms_run[3]-instrument_ref	instrument[1]
+MTD	ms_run[3]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[4]-location	ms6808 - 4
+MTD	ms_run[4]-instrument_ref	instrument[1]
+MTD	ms_run[4]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[5]-location	ms6808 - 5
+MTD	ms_run[5]-instrument_ref	instrument[1]
+MTD	ms_run[5]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[6]-location	ms6808 - 6
+MTD	ms_run[6]-instrument_ref	instrument[1]
+MTD	ms_run[6]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[7]-location	ms6808 - 7
+MTD	ms_run[7]-instrument_ref	instrument[1]
+MTD	ms_run[7]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[8]-location	ms6808 - 8
+MTD	ms_run[8]-instrument_ref	instrument[1]
+MTD	ms_run[8]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[9]-location	ms6808 - 9
+MTD	ms_run[9]-instrument_ref	instrument[1]
+MTD	ms_run[9]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[10]-location	ms6808 - 10
+MTD	ms_run[10]-instrument_ref	instrument[1]
+MTD	ms_run[10]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[11]-location	ms6808 - 11
+MTD	ms_run[11]-instrument_ref	instrument[1]
+MTD	ms_run[11]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[12]-location	ms6808 - 12
+MTD	ms_run[12]-instrument_ref	instrument[1]
+MTD	ms_run[12]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[13]-location	ms6808 - 13
+MTD	ms_run[13]-instrument_ref	instrument[1]
+MTD	ms_run[13]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[14]-location	ms6808 - 14
+MTD	ms_run[14]-instrument_ref	instrument[1]
+MTD	ms_run[14]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[15]-location	ms6808 - 15
+MTD	ms_run[15]-instrument_ref	instrument[1]
+MTD	ms_run[15]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[16]-location	ms6808 - 16
+MTD	ms_run[16]-instrument_ref	instrument[1]
+MTD	ms_run[16]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[17]-location	ms6808 - 17
+MTD	ms_run[17]-instrument_ref	instrument[1]
+MTD	ms_run[17]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[18]-location	ms6808 - 18
+MTD	ms_run[18]-instrument_ref	instrument[1]
+MTD	ms_run[18]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[19]-location	ms6808 - 19
+MTD	ms_run[19]-instrument_ref	instrument[1]
+MTD	ms_run[19]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[20]-location	ms6808 - 20
+MTD	ms_run[20]-instrument_ref	instrument[1]
+MTD	ms_run[20]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[21]-location	ms6808 - 21
+MTD	ms_run[21]-instrument_ref	instrument[1]
+MTD	ms_run[21]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[22]-location	ms6808 - 22
+MTD	ms_run[22]-instrument_ref	instrument[1]
+MTD	ms_run[22]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[23]-location	ms6808 - 23
+MTD	ms_run[23]-instrument_ref	instrument[1]
+MTD	ms_run[23]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[24]-location	ms6808 - 24
+MTD	ms_run[24]-instrument_ref	instrument[1]
+MTD	ms_run[24]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[25]-location	ms6808 - 25
+MTD	ms_run[25]-instrument_ref	instrument[1]
+MTD	ms_run[25]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[26]-location	ms6808 - 26
+MTD	ms_run[26]-instrument_ref	instrument[1]
+MTD	ms_run[26]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[27]-location	ms6808 - 27
+MTD	ms_run[27]-instrument_ref	instrument[1]
+MTD	ms_run[27]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[28]-location	ms6808 - 28
+MTD	ms_run[28]-instrument_ref	instrument[1]
+MTD	ms_run[28]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[29]-location	ms6808 - 29
+MTD	ms_run[29]-instrument_ref	instrument[1]
+MTD	ms_run[29]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[30]-location	ms6808 - 30
+MTD	ms_run[30]-instrument_ref	instrument[1]
+MTD	ms_run[30]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[31]-location	ms6808 - 31
+MTD	ms_run[31]-instrument_ref	instrument[1]
+MTD	ms_run[31]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[32]-location	ms6808 - 32
+MTD	ms_run[32]-instrument_ref	instrument[1]
+MTD	ms_run[32]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[33]-location	ms6808 - 33
+MTD	ms_run[33]-instrument_ref	instrument[1]
+MTD	ms_run[33]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[34]-location	ms6808 - 34
+MTD	ms_run[34]-instrument_ref	instrument[1]
+MTD	ms_run[34]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[35]-location	ms6808 - 35
+MTD	ms_run[35]-instrument_ref	instrument[1]
+MTD	ms_run[35]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[36]-location	ms6808 - 36
+MTD	ms_run[36]-instrument_ref	instrument[1]
+MTD	ms_run[36]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	assay[1]	ms6808 - 1
+MTD	assay[1]-sample_ref	sample[1]
+MTD	assay[1]-ms_run_ref	ms_run[1]
+MTD	assay[10]	ms6808 - 10
+MTD	assay[10]-sample_ref	sample[10]
+MTD	assay[10]-ms_run_ref	ms_run[10]
+MTD	assay[11]	ms6808 - 11
+MTD	assay[11]-sample_ref	sample[11]
+MTD	assay[11]-ms_run_ref	ms_run[11]
+MTD	assay[12]	ms6808 - 12
+MTD	assay[12]-sample_ref	sample[12]
+MTD	assay[12]-ms_run_ref	ms_run[12]
+MTD	assay[13]	ms6808 - 13
+MTD	assay[13]-sample_ref	sample[13]
+MTD	assay[13]-ms_run_ref	ms_run[13]
+MTD	assay[14]	ms6808 - 14
+MTD	assay[14]-sample_ref	sample[14]
+MTD	assay[14]-ms_run_ref	ms_run[14]
+MTD	assay[15]	ms6808 - 15
+MTD	assay[15]-sample_ref	sample[15]
+MTD	assay[15]-ms_run_ref	ms_run[15]
+MTD	assay[16]	ms6808 - 16
+MTD	assay[16]-sample_ref	sample[16]
+MTD	assay[16]-ms_run_ref	ms_run[16]
+MTD	assay[17]	ms6808 - 17
+MTD	assay[17]-sample_ref	sample[17]
+MTD	assay[17]-ms_run_ref	ms_run[17]
+MTD	assay[18]	ms6808 - 18
+MTD	assay[18]-sample_ref	sample[18]
+MTD	assay[18]-ms_run_ref	ms_run[18]
+MTD	assay[19]	ms6808 - 19
+MTD	assay[19]-sample_ref	sample[19]
+MTD	assay[19]-ms_run_ref	ms_run[19]
+MTD	assay[2]	ms6808 - 2
+MTD	assay[2]-sample_ref	sample[2]
+MTD	assay[2]-ms_run_ref	ms_run[2]
+MTD	assay[20]	ms6808 - 20
+MTD	assay[20]-sample_ref	sample[20]
+MTD	assay[20]-ms_run_ref	ms_run[20]
+MTD	assay[21]	ms6808 - 21
+MTD	assay[21]-sample_ref	sample[21]
+MTD	assay[21]-ms_run_ref	ms_run[21]
+MTD	assay[22]	ms6808 - 22
+MTD	assay[22]-sample_ref	sample[22]
+MTD	assay[22]-ms_run_ref	ms_run[22]
+MTD	assay[23]	ms6808 - 23
+MTD	assay[23]-sample_ref	sample[23]
+MTD	assay[23]-ms_run_ref	ms_run[23]
+MTD	assay[24]	ms6808 - 24
+MTD	assay[24]-sample_ref	sample[24]
+MTD	assay[24]-ms_run_ref	ms_run[24]
+MTD	assay[25]	ms6808 - 25
+MTD	assay[25]-sample_ref	sample[25]
+MTD	assay[25]-ms_run_ref	ms_run[25]
+MTD	assay[26]	ms6808 - 26
+MTD	assay[26]-sample_ref	sample[26]
+MTD	assay[26]-ms_run_ref	ms_run[26]
+MTD	assay[27]	ms6808 - 27
+MTD	assay[27]-sample_ref	sample[27]
+MTD	assay[27]-ms_run_ref	ms_run[27]
+MTD	assay[28]	ms6808 - 28
+MTD	assay[28]-sample_ref	sample[28]
+MTD	assay[28]-ms_run_ref	ms_run[28]
+MTD	assay[29]	ms6808 - 29
+MTD	assay[29]-sample_ref	sample[29]
+MTD	assay[29]-ms_run_ref	ms_run[29]
+MTD	assay[3]	ms6808 - 3
+MTD	assay[3]-sample_ref	sample[3]
+MTD	assay[3]-ms_run_ref	ms_run[3]
+MTD	assay[30]	ms6808 - 30
+MTD	assay[30]-sample_ref	sample[30]
+MTD	assay[30]-ms_run_ref	ms_run[30]
+MTD	assay[31]	ms6808 - 31
+MTD	assay[31]-sample_ref	sample[31]
+MTD	assay[31]-ms_run_ref	ms_run[31]
+MTD	assay[32]	ms6808 - 32
+MTD	assay[32]-sample_ref	sample[32]
+MTD	assay[32]-ms_run_ref	ms_run[32]
+MTD	assay[33]	ms6808 - 33
+MTD	assay[33]-sample_ref	sample[33]
+MTD	assay[33]-ms_run_ref	ms_run[33]
+MTD	assay[34]	ms6808 - 34
+MTD	assay[34]-sample_ref	sample[34]
+MTD	assay[34]-ms_run_ref	ms_run[34]
+MTD	assay[35]	ms6808 - 35
+MTD	assay[35]-sample_ref	sample[35]
+MTD	assay[35]-ms_run_ref	ms_run[35]
+MTD	assay[36]	ms6808 - 36
+MTD	assay[36]-sample_ref	sample[36]
+MTD	assay[36]-ms_run_ref	ms_run[36]
+MTD	assay[4]	ms6808 - 4
+MTD	assay[4]-sample_ref	sample[4]
+MTD	assay[4]-ms_run_ref	ms_run[4]
+MTD	assay[5]	ms6808 - 5
+MTD	assay[5]-sample_ref	sample[5]
+MTD	assay[5]-ms_run_ref	ms_run[5]
+MTD	assay[6]	ms6808 - 6
+MTD	assay[6]-sample_ref	sample[6]
+MTD	assay[6]-ms_run_ref	ms_run[6]
+MTD	assay[7]	ms6808 - 7
+MTD	assay[7]-sample_ref	sample[7]
+MTD	assay[7]-ms_run_ref	ms_run[7]
+MTD	assay[8]	ms6808 - 8
+MTD	assay[8]-sample_ref	sample[8]
+MTD	assay[8]-ms_run_ref	ms_run[8]
+MTD	assay[9]	ms6808 - 9
+MTD	assay[9]-sample_ref	sample[9]
+MTD	assay[9]-ms_run_ref	ms_run[9]
+MTD	study_variable_group[1]	[,,sample type,]
+MTD	study_variable_group[1]-description	mwTab sample factor sample type
+MTD	study_variable_group[1]-type	[STATO, STATO:0000252, categorical variable, ]
+MTD	study_variable_group[1]-datatype	xsd:string
+MTD	study_variable_group[1]-study_variable_refs	study_variable[1]|study_variable[2]
+MTD	study_variable_group[2]	[,,Grouping,]
+MTD	study_variable_group[2]-description	mwTab sample factor Grouping
+MTD	study_variable_group[2]-type	[STATO, STATO:0000252, categorical variable, ]
+MTD	study_variable_group[2]-datatype	xsd:string
+MTD	study_variable_group[2]-study_variable_refs	study_variable[3]|study_variable[4]|study_variable[5]|study_variable[6]|study_variable[7]|study_variable[8]
+MTD	study_variable[1]	Nucleus fraction
+MTD	study_variable[1]-assay_refs	assay[1]|assay[2]|assay[3]|assay[7]|assay[8]|assay[9]|assay[13]|assay[14]|assay[15]|assay[19]|assay[20]|assay[21]|assay[25]|assay[26]|assay[27]|assay[31]|assay[32]|assay[33]
+MTD	study_variable[1]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[1]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[1]-description	Variable sample type, value Nucleus fraction
+MTD	study_variable[2]	Mito Fraction
+MTD	study_variable[2]-assay_refs	assay[4]|assay[5]|assay[6]|assay[10]|assay[11]|assay[12]|assay[16]|assay[17]|assay[18]|assay[22]|assay[23]|assay[24]|assay[28]|assay[29]|assay[30]|assay[34]|assay[35]|assay[36]
+MTD	study_variable[2]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[2]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[2]-description	Variable sample type, value Mito Fraction
+MTD	study_variable[3]	IV REG
+MTD	study_variable[3]-assay_refs	assay[1]|assay[2]|assay[3]|assay[4]|assay[5]|assay[6]
+MTD	study_variable[3]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[3]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[3]-description	Variable Grouping, value IV REG
+MTD	study_variable[4]	IV GF
+MTD	study_variable[4]-assay_refs	assay[7]|assay[8]|assay[9]|assay[10]|assay[11]|assay[12]
+MTD	study_variable[4]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[4]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[4]-description	Variable Grouping, value IV GF
+MTD	study_variable[5]	IV aKG
+MTD	study_variable[5]-assay_refs	assay[13]|assay[14]|assay[15]|assay[16]|assay[17]|assay[18]
+MTD	study_variable[5]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[5]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[5]-description	Variable Grouping, value IV aKG
+MTD	study_variable[6]	XVII REG
+MTD	study_variable[6]-assay_refs	assay[19]|assay[20]|assay[21]|assay[22]|assay[23]|assay[24]
+MTD	study_variable[6]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[6]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[6]-description	Variable Grouping, value XVII REG
+MTD	study_variable[7]	XVII GF
+MTD	study_variable[7]-assay_refs	assay[25]|assay[26]|assay[27]|assay[28]|assay[29]|assay[30]
+MTD	study_variable[7]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[7]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[7]-description	Variable Grouping, value XVII GF
+MTD	study_variable[8]	XVII aKG
+MTD	study_variable[8]-assay_refs	assay[31]|assay[32]|assay[33]|assay[34]|assay[35]|assay[36]
+MTD	study_variable[8]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[8]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[8]-description	Variable Grouping, value XVII aKG
+MTD	custom[1]	[,, Metabolomics Workbench analysis ID, AN001683]
+MTD	custom[2]	[,, chromatography type, GC]
+MTD	custom[3]	[,, chromatography instrument, Agilent 7890B]
+MTD	custom[4]	[,, chromatography column, "Agilent HP5-MS (30m Ã— 0.25mm, 0.25 um)"]
+MTD	cv[1]-label	MS
+MTD	cv[1]-full_name	PSI-MS controlled vocabulary
+MTD	cv[1]-version	4.1.138
+MTD	cv[1]-uri	https://www.ebi.ac.uk/ols4/ontologies/ms
+MTD	cv[2]-label	PRIDE
+MTD	cv[2]-full_name	PRIDE PRoteomics IDEntifications (PRIDE) database controlled vocabulary
+MTD	cv[2]-version	16:10:2023 11:38
+MTD	cv[2]-uri	https://www.ebi.ac.uk/ols/ontologies/pride
+MTD	cv[3]-label	STATO
+MTD	cv[3]-full_name	General purpose STATistics Ontology
+MTD	cv[3]-version	2026-04-20
+MTD	cv[3]-uri	https://www.ebi.ac.uk/ols4/ontologies/stato
+MTD	cv[4]-label	NCBITaxon
+MTD	cv[4]-full_name	NCBI organismal classification
+MTD	cv[4]-version	unknown
+MTD	cv[4]-uri	http://purl.obolibrary.org/obo/ncbitaxon.owl
+MTD	database[1]	[,, "no database", null ]
+MTD	database[1]-prefix	null
+MTD	database[1]-version	Unknown
+MTD	database[1]-uri	null
+MTD	small_molecule-quantification_unit	[,, nmol/vial, ]
+MTD	small_molecule-identification_reliability	[MS, MS:1002896, compound identification confidence level, ]
+
+SMH	SML_ID	SMF_ID_REFS	database_identifier	chemical_formula	smiles	inchi	chemical_name	uri	theoretical_neutral_mass	adduct_ions	reliability	best_id_confidence_measure	best_id_confidence_value	abundance_assay[1]	abundance_assay[2]	abundance_assay[3]	abundance_assay[4]	abundance_assay[5]	abundance_assay[6]	abundance_assay[7]	abundance_assay[8]	abundance_assay[9]	abundance_assay[10]	abundance_assay[11]	abundance_assay[12]	abundance_assay[13]	abundance_assay[14]	abundance_assay[15]	abundance_assay[16]	abundance_assay[17]	abundance_assay[18]	abundance_assay[19]	abundance_assay[20]	abundance_assay[21]	abundance_assay[22]	abundance_assay[23]	abundance_assay[24]	abundance_assay[25]	abundance_assay[26]	abundance_assay[27]	abundance_assay[28]	abundance_assay[29]	abundance_assay[30]	abundance_assay[31]	abundance_assay[32]	abundance_assay[33]	abundance_assay[34]	abundance_assay[35]	abundance_assay[36]	abundance_study_variable[1]	abundance_study_variable[2]	abundance_study_variable[3]	abundance_study_variable[4]	abundance_study_variable[5]	abundance_study_variable[6]	abundance_study_variable[7]	abundance_study_variable[8]	abundance_variation_study_variable[1]	abundance_variation_study_variable[2]	abundance_variation_study_variable[3]	abundance_variation_study_variable[4]	abundance_variation_study_variable[5]	abundance_variation_study_variable[6]	abundance_variation_study_variable[7]	abundance_variation_study_variable[8]	opt_global_metabolite_name
+SML	1	null	null	null	null	null	null	null	null	null	2	null	null	1.59	1.24	2.16	1.24	1.51	1.03	1.6	1.51	1.75	2.53	2.73	1.91	2.82	2.53	2.51	2.89	3.24	1.56	4.67	3.46	5.41	2.25	2.76	2.21	2.32	2.46	3.66	3.64	3.01	3.25	5.4	3.26	3.18	3.35	3.87	3.34	2.86277777777778	2.57333333333333	1.46166666666667	2.005	2.59166666666667	3.46	3.05666666666667	3.73333333333333	0.44465337881559	0.329986663407227	0.272130846290217	0.252779770901542	0.220731903390489	0.383058659978072	0.187509818220765	0.228176975488013	Lactate
+SML	2	null	null	null	null	null	null	null	null	null	2	null	null	0.26	0.22	0.39	0.08	0.2	0.09	0.08	0.08	0.09	0.05	0.03	0.04	0.14	0.09	0.21	0.05	0.05	0.1	0.4	0.33	0.42	0.23	0.17	0.16	0.07	0.07	0.12	0.04	0.1	0.07	0.06	0.08	0.06	0.04	0.05	0.06	0.176111111111111	0.0894444444444445	0.206666666666667	0.0616666666666667	0.106666666666667	0.285	0.0783333333333333	0.0583333333333333	0.736018961203077	0.675691633231907	0.557327501392613	0.402693633128415	0.570772502841544	0.401137195425342	0.355771148358783	0.227856023284307	Succinate
+SML	3	null	null	null	null	null	null	null	null	null	2	null	null	0.07	0.047	0	0.053	0	0.034	0	0.034	0	0	0.115	0.027	0	0.021	0.023	0.031	0.021	0	0	0	0	0	0.04	0	0	0	0	0.041	0	0.305	0.143	0	0	0	0	0	0.0187777777777778	0.0370555555555556	0.034	0.0293333333333333	0.016	0.00666666666666667	0.0576666666666667	0.0238333333333333	1.97312632606867	1.97346893884471	0.846118759405145	1.52057174436199	0.808161493762231	2.44948974278318	2.12033963200087	2.44948974278318	Fumarate
+SML	4	null	null	null	null	null	null	null	null	null	2	null	null	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	null	null	null	null	null	null	null	null	Oxaloacetate
+SML	5	null	null	null	null	null	null	null	null	null	2	null	null	0.012	0.011	0.011	0.008	0.009	0.007	0.015	0.011	0.009	0.008	0.005	0.005	0.04	0.023	0.049	0.014	0.012	0	0.016	0.014	0.016	0.014	0.009	0.008	0.008	0.009	0.011	0.005	0.01	0.008	0.023	0.035	0.024	0.017	0.018	0.034	0.0187222222222222	0.0106111111111111	0.00966666666666667	0.00883333333333333	0.023	0.0128333333333333	0.0085	0.0251666666666667	0.626331530029335	0.693384524851765	0.203419051086243	0.432071352044297	0.800755786658876	0.271798045928005	0.243958133568561	0.30718769875814	Ketoglutarate
+SML	6	null	null	null	null	null	null	null	null	null	2	null	null	0.03	0.027	0.036	0.024	0.051	0.022	0.016	0.015	0.012	0.024	0.015	0.018	0.025	0.019	0.025	0.029	0.017	0.042	0.06	0.042	0.04	0.048	0.215	0.039	0.014	0.015	0.024	0.009	0.015	0.017	0.029	0.017	0.027	0.009	0.011	0.011	0.0262777777777778	0.0342222222222222	0.0316666666666667	0.0166666666666667	0.0261666666666667	0.074	0.0156666666666667	0.0173333333333333	0.466223484586126	1.3736346327221	0.336973658521547	0.244948974278318	0.340463585364943	0.939320426374272	0.311830995073383	0.502508500325525	Malate
+SML	7	null	null	null	null	null	null	null	null	null	2	null	null	0.171	0.091	0.205	0.105	0.206	0.095	0.043	0.033	0.04	0.05	0.024	0.033	0.061	0.037	0.065	0.044	0.032	0	0.28	0.245	0.274	0.304	0.238	0.335	0.066	0.066	0.09	0.055	0.1	0.073	0.068	0.027	0.018	0.02	0.026	0.037	0.104444444444444	0.0987222222222222	0.1455	0.0371666666666667	0.0398333333333333	0.279333333333333	0.075	0.0326666666666667	0.846978225268377	1.03144105084093	0.376585895252166	0.245074546845716	0.589272280016758	0.130295837015276	0.224380628991601	0.56766251684245	Aspartate
+SML	8	null	null	null	null	null	null	null	null	null	2	null	null	0.001	0.003	0.004	0.001	0	0	0	0	0	0.002	0.002	0	0.003	0	0	0.003	0.003	0	0.005	0.004	0	0	0	0	0	0	0.002	0.002	0.002	0	0.011	0.015	0.01	0.007	0.008	0.006	0.00322222222222222	0.002	0.0015	0.000666666666666667	0.0015	0.0015	0.001	0.0095	1.38608882061983	1.2833778958395	1.09544511501033	1.54919333848297	1.09544511501033	1.56347191994114	1.09544511501033	0.344324783869392	2-Hydroxyglutarate
+SML	9	null	null	null	null	null	null	null	null	null	2	null	null	1.17	0.63	1.31	1.02	2.38	0.63	0.9	0.51	0.43	1.44	0.74	0.64	1.27	0.5	0.58	0.6	0.74	0	1.9	1.41	1.44	0.79	0.89	1.03	0.51	0.43	0.51	0.43	0.91	0.85	0.31	0.5	0.57	0.3	0.55	0.96	0.826666666666667	0.827777777777778	1.19	0.776666666666667	0.615	1.24333333333333	0.606666666666667	0.531666666666667	0.563064003832882	0.60281125214535	0.542911774965146	0.470101100867407	0.6654956997654	0.336176353217249	0.355320795917027	0.45225886871886	Glutamate
+SML	10	null	null	null	null	null	null	null	null	null	2	null	null	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	null	null	null	null	null	null	null	null	cis-Aconitic Acid
+SML	11	null	null	null	null	null	null	null	null	null	2	null	null	0.513	0.389	0.479	0.197	0.388	0.196	0.322	0.186	0.235	0.217	0.054	0.109	0.342	0.195	0.631	0.087	0.101	0	0.527	0.411	0.469	0.583	0.701	0.413	0.146	0.162	0.25	0.091	0.205	0.179	0.108	0.118	0.088	0.06	0.049	0.09	0.3095	0.206666666666667	0.360333333333333	0.187166666666667	0.226	0.517333333333333	0.172166666666667	0.0855	0.540859647222207	0.936594577162918	0.377794076451422	0.508006560246143	1.01762985528081	0.216403929732078	0.313421809675377	0.312589373697638	Citrate
+SML	12	null	null	null	null	null	null	null	null	null	2	null	null	0.069	0.011	0.106	0.005	0.02	0.004	0.017	0.018	0.014	0.006	0.002	0.004	0.048	0.004	0.017	0.003	0.002	0	0.058	0.028	0.04	0.023	0.008	0.008	0.004	0.006	0.014	0.002	0.006	0.005	0.002	0.003	0.003	0.001	0	0	0.0256666666666667	0.0055	0.0358333333333333	0.0101666666666667	0.0123333333333333	0.0275	0.00616666666666667	0.0015	1.1058671119939	1.1570838237598	1.17440524975138	0.688290358284333	1.49915973543341	0.702769021457734	0.667955899744079	0.918936583472681	Isocitrate
+

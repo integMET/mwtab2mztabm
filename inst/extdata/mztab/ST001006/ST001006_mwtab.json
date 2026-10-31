@@ -1,0 +1,213 @@
+[
+{
+"METABOLOMICS WORKBENCH":{"STUDY_ID":"ST001006","ANALYSIS_ID":"AN001648","VERSION":"1","CREATED_ON":"July 12, 2018, 5:25 pm"},
+
+"PROJECT":{"PROJECT_TITLE":"Mayo Pilot and Feasibility: Metabolomics of Muscle Wasting in Cancer Cachexia","PROJECT_SUMMARY":"Cachexia is a debilitating syndrome that results in severe, involuntary weight loss due to the depletion of skeletal muscle mass. This syndrome occurs in a majority of cancers and contributes to approximately one third of all cancer deaths. Currently, no effective therapy exists to combat this malignant disorder, and disappointing results from recent Phase III clinical trials indicate that a cachexia treatment is not likely to appear soon. Thus, it is clear that greater knowledge of the mechanisms driving muscle wasting in cachexia is needed in order to identify new therapeutic targets and stimulate new clinical trials. Our approach to gaining this knowledge has been to work with muscle biopsies from pancreatic cancer patients, since this population is highly prone to cachexia. We have also been expanding our studies beyond the classical mouse models of cancer cachexia in hopes of finding a new model that better recapitulates the human disease. We recently undertook RNA-Seq analysis comparing muscle biopsies from pancreatic cancer patients with and without cachexia, which has been exciting since this type of analysis has not yet been performed in patient samples. Preliminary results revealed that cachectic muscle was associated with alterations in metabolism. These data provide the rationale for performing metabolomics to ascertain whether specific metabolic pathways or metabolites can be identified as potential drivers of muscle wasting in cachexia or be used as biomarker of cachexia, which the field desperately needs. An additional need is a well-validated animal model of cancer cachexia that accurately reflects the human condition, which can be used to test mechanisms and pre-clinical compounds. We propose to perform these studies under the Mayo Clinic Metabolomics Resource Core Pilot and Feasibility Grant program to: 1) Identify metabolic alterations and biomarkers of pancreatic cancer-induced muscle wasting; and 2) Identify a suitable mouse model that recapitulates the metabolic imbalance of muscles from pancreatic cancer cachexia patients. By performing these studies, we will accelerate our understanding of the underlying causes of muscle wasting, which should translate to improving the current pipeline of anticachexia therapies.","INSTITUTE":"Mayo Clinic","LAST_NAME":"Guttridge","FIRST_NAME":"Denis","ADDRESS":"520 Biomedical Research Tower 460 W. 12th Avenue Columbus, OH 43210","EMAIL":"denis.guttridge@osumc.edu","PHONE":"614-688-3137"},
+
+"STUDY":{"STUDY_TITLE":"TCA Concentrations in Muscle Tissue of Muscle Wasting in Cancer Cachexia (part II)","STUDY_SUMMARY":"TCA Concentrations of Muscle Wasting in Cancer Cachexia. Muscle samples from 10 control patients, 10 weight stable pancreatic cancer patients, and 10 pancreatic cancer patients with significant weight loss. Samples are divided evenly between males and females.","INSTITUTE":"Mayo Clinic","LAST_NAME":"Guttridge","FIRST_NAME":"Denis","ADDRESS":"520 Biomedical Research Tower 460 W. 12th Avenue Columbus, OH 43210","EMAIL":"denis.guttridge@osumc.edu","PHONE":"614-688-3137"},
+
+"SUBJECT":{"SUBJECT_TYPE":"Human","SUBJECT_SPECIES":"Homo sapiens","TAXONOMY_ID":"9606"},
+"SUBJECT_SAMPLE_FACTORS":[
+{
+"Subject ID":"-",
+"Sample ID":"Sample # 1",
+"Factors":{"Grouping":"Weight Losing"},
+"Additional sample data":{"Gender":"Male","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"18.75","protein ug/vial":"691"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"Sample # 2",
+"Factors":{"Grouping":"Weight Losing"},
+"Additional sample data":{"Gender":"Female","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"18.75","protein ug/vial":"607"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"Sample # 3",
+"Factors":{"Grouping":"Weight Stable"},
+"Additional sample data":{"Gender":"Female","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"18.75","protein ug/vial":"748"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"Sample # 4",
+"Factors":{"Grouping":"Control"},
+"Additional sample data":{"Gender":"Female","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"18.75","protein ug/vial":"843"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"Sample # 5",
+"Factors":{"Grouping":"Control"},
+"Additional sample data":{"Gender":"Female","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"18.75","protein ug/vial":"886"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"Sample # 6",
+"Factors":{"Grouping":"Control"},
+"Additional sample data":{"Gender":"Male","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"18.75","protein ug/vial":"894"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"Sample # 7",
+"Factors":{"Grouping":"Weight Stable"},
+"Additional sample data":{"Gender":"Male","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"18.75","protein ug/vial":"634"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"Sample # 8",
+"Factors":{"Grouping":"Weight Stable"},
+"Additional sample data":{"Gender":"Female","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"18.75","protein ug/vial":"436"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"Sample # 9",
+"Factors":{"Grouping":"Control"},
+"Additional sample data":{"Gender":"Male","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"18.75","protein ug/vial":"922"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"Sample # 10",
+"Factors":{"Grouping":"Control"},
+"Additional sample data":{"Gender":"Male","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"18.75","protein ug/vial":"796"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"Sample # 11",
+"Factors":{"Grouping":"Weight Stable"},
+"Additional sample data":{"Gender":"Male","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"18.75","protein ug/vial":"922"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"Sample # 12",
+"Factors":{"Grouping":"Control"},
+"Additional sample data":{"Gender":"Female","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"18.75","protein ug/vial":"596"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"Sample # 13",
+"Factors":{"Grouping":"Weight Stable"},
+"Additional sample data":{"Gender":"Female","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"18.75","protein ug/vial":"652"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"Sample # 14",
+"Factors":{"Grouping":"Weight Losing"},
+"Additional sample data":{"Gender":"Male","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"18.75","protein ug/vial":"590"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"Sample # 15",
+"Factors":{"Grouping":"Weight Losing"},
+"Additional sample data":{"Gender":"Female","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"18.75","protein ug/vial":"626"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"Sample # 16",
+"Factors":{"Grouping":"Weight Stable"},
+"Additional sample data":{"Gender":"Male","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"18.75","protein ug/vial":"748"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"Sample # 17",
+"Factors":{"Grouping":"Control"},
+"Additional sample data":{"Gender":"Female","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"18.75","protein ug/vial":"753"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"Sample # 18",
+"Factors":{"Grouping":"Weight Losing"},
+"Additional sample data":{"Gender":"Female","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"18.75","protein ug/vial":"626"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"Sample # 19",
+"Factors":{"Grouping":"Weight Losing"},
+"Additional sample data":{"Gender":"Female","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"18.75","protein ug/vial":"442"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"Sample # 20",
+"Factors":{"Grouping":"Control"},
+"Additional sample data":{"Gender":"Male","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"18.75","protein ug/vial":"847"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"Sample # 21",
+"Factors":{"Grouping":"Weight Losing"},
+"Additional sample data":{"Gender":"Male","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"18.75","protein ug/vial":"400"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"Sample # 22",
+"Factors":{"Grouping":"Control"},
+"Additional sample data":{"Gender":"Female","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"18.75","protein ug/vial":"863"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"Sample # 23",
+"Factors":{"Grouping":"Weight Stable"},
+"Additional sample data":{"Gender":"Male","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"18.75","protein ug/vial":"1,031"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"Sample # 24",
+"Factors":{"Grouping":"Weight Losing"},
+"Additional sample data":{"Gender":"Male","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"18.75","protein ug/vial":"778"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"Sample # 25",
+"Factors":{"Grouping":"Control"},
+"Additional sample data":{"Gender":"Male","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"18.75","protein ug/vial":"1,039"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"Sample # 26",
+"Factors":{"Grouping":"Weight Stable"},
+"Additional sample data":{"Gender":"Female","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"18.75","protein ug/vial":"644"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"Sample # 27",
+"Factors":{"Grouping":"Weight Losing"},
+"Additional sample data":{"Gender":"Male","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"18.75","protein ug/vial":"845"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"Sample # 28",
+"Factors":{"Grouping":"Weight Losing"},
+"Additional sample data":{"Gender":"Female","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"18.75","protein ug/vial":"677"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"Sample # 29",
+"Factors":{"Grouping":"Weight Stable"},
+"Additional sample data":{"Gender":"Female","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"18.75","protein ug/vial":"572"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"Sample # 30",
+"Factors":{"Grouping":"Weight Stable"},
+"Additional sample data":{"Gender":"Male","Sample type":"Muscle Tissue","Species":"Human","tissue mg/vial":"18.75","protein ug/vial":"976"}
+}
+],
+"COLLECTION":{"COLLECTION_SUMMARY":"Tissue and blood donated from Cancer Cachexia Program at Ohio State University","SAMPLE_TYPE":"Muscle"},
+
+"TREATMENT":{"TREATMENT_SUMMARY":"Cancer cachexia is a multi-factorial syndrome accompanying advanced cancer, with the most notable symptom being unintentional weight loss. Cachectic patients lose both adipose tissue and skeletal muscle, with skeletal muscle loss and its associated weakness contributing to the morbidity and mortality of these patients. Despite three decades of research into mechanisms driving muscle wasting due to cancer, to date, an approved pharmacological therapy to prevent or treat cancer cachexia is still lacking. Our laboratory focuses on cancer cachexia in patients with pancreatic cancer, as up to 85% of these patients experience weight loss. Cachexia often occurs early in the progression of pancreatic cancer, making clear that cachexia in these patients is not simply a result of end-stage disease. Further, with perhaps more than ¼ of all pancreatic cancer deaths resulting from muscle weakness as opposed to tumor burden, cachexia also significantly contributes to mortality due to pancreatic cancer. Because little progress has been made in improving treatment outcomes, addressing cancer-induced muscle wasting is perhaps the best strategy to prolong pancreatic cancer patient survival and increase patient quality of life. In an effort to better understand the mechanisms driving pancreatic cancer-induced muscle wasting, the Cancer Cachexia Program at Ohio State University has begun a Pancreatic Cancer Cachexia Tissue Bank. To date, over 130 patients undergoing attempted resection for pancreatic cancer or other abdominal surgeries have donated muscle and blood to our bank. A unique aspect of our tissue bank is our focus on patients eligible for resection. In contrast to other studies using patients with late-stage disease, our patients are not end-stage, as they are considered healthy enough to undergo a major operation."},
+
+"SAMPLEPREP":{"SAMPLEPREP_SUMMARY":"TCA concentrations using muscle tissue"},
+
+"CHROMATOGRAPHY":{"CHROMATOGRAPHY_TYPE":"GC","INSTRUMENT_NAME":"Agilent 7890B","COLUMN_NAME":"Agilent HP5-MS (30m Ã— 0.25mm, 0.25 um)"},
+
+"ANALYSIS":{"ANALYSIS_TYPE":"MS"},
+
+"MS":{"MS_COMMENTS":"-","INSTRUMENT_NAME":"Agilent 5977A","INSTRUMENT_TYPE":"Single quadrupole","MS_TYPE":"EI","ION_MODE":"POSITIVE"},
+
+"MS_METABOLITE_DATA":{
+"Units":"nmol/vial",
+
+"Data":[{"Metabolite":"Lactate","Sample # 1":"43.28","Sample # 2":"95.24","Sample # 3":"42.56","Sample # 4":"135.09","Sample # 5":"99.11","Sample # 6":"102.98","Sample # 7":"100.91","Sample # 8":"31.28","Sample # 9":"283.62","Sample # 10":"215.64","Sample # 11":"128.47","Sample # 12":"111.13","Sample # 13":"132.91","Sample # 14":"132.45","Sample # 15":"105.65","Sample # 16":"183.32","Sample # 17":"199.97","Sample # 18":"116.11","Sample # 19":"80.59","Sample # 20":"195.53","Sample # 21":"118.92","Sample # 22":"211.61","Sample # 23":"253.88","Sample # 24":"122.42","Sample # 25":"126.10","Sample # 26":"57.57","Sample # 27":"215.19","Sample # 28":"125.22","Sample # 29":"103.31","Sample # 30":"205.61"},{"Metabolite":"Succinate","Sample # 1":"0.58","Sample # 2":"1.08","Sample # 3":"1.35","Sample # 4":"1.41","Sample # 5":"0.85","Sample # 6":"1.33","Sample # 7":"0.64","Sample # 8":"0.31","Sample # 9":"1.53","Sample # 10":"1.58","Sample # 11":"1.49","Sample # 12":"0.65","Sample # 13":"1.25","Sample # 14":"0.99","Sample # 15":"1.23","Sample # 16":"1.02","Sample # 17":"4.49","Sample # 18":"1.07","Sample # 19":"1.26","Sample # 20":"1.55","Sample # 21":"1.33","Sample # 22":"0.69","Sample # 23":"2.44","Sample # 24":"0.60","Sample # 25":"1.95","Sample # 26":"1.02","Sample # 27":"1.14","Sample # 28":"0.68","Sample # 29":"0.35","Sample # 30":"4.46"},{"Metabolite":"Fumarate","Sample # 1":"6.92","Sample # 2":"3.79","Sample # 3":"4.34","Sample # 4":"5.93","Sample # 5":"4.14","Sample # 6":"6.31","Sample # 7":"2.83","Sample # 8":"0.83","Sample # 9":"7.04","Sample # 10":"3.04","Sample # 11":"8.36","Sample # 12":"3.49","Sample # 13":"4.42","Sample # 14":"5.34","Sample # 15":"4.95","Sample # 16":"4.80","Sample # 17":"5.51","Sample # 18":"2.71","Sample # 19":"2.59","Sample # 20":"5.89","Sample # 21":"1.23","Sample # 22":"5.22","Sample # 23":"6.35","Sample # 24":"3.12","Sample # 25":"7.95","Sample # 26":"3.75","Sample # 27":"5.96","Sample # 28":"4.09","Sample # 29":"1.30","Sample # 30":"10.77"},{"Metabolite":"Oxaloacetate","Sample # 1":"0.00","Sample # 2":"0.00","Sample # 3":"0.00","Sample # 4":"0.00","Sample # 5":"0.00","Sample # 6":"0.00","Sample # 7":"0.00","Sample # 8":"0.00","Sample # 9":"0.00","Sample # 10":"0.00","Sample # 11":"0.00","Sample # 12":"0.00","Sample # 13":"0.00","Sample # 14":"0.00","Sample # 15":"0.00","Sample # 16":"0.00","Sample # 17":"0.00","Sample # 18":"0.00","Sample # 19":"0.00","Sample # 20":"0.00","Sample # 21":"0.00","Sample # 22":"0.00","Sample # 23":"0.00","Sample # 24":"0.00","Sample # 25":"0.00","Sample # 26":"0.00","Sample # 27":"0.00","Sample # 28":"0.00","Sample # 29":"0.00","Sample # 30":"0.00"},{"Metabolite":"Ketoglutarate","Sample # 1":"0.10","Sample # 2":"0.02","Sample # 3":"0.03","Sample # 4":"0.25","Sample # 5":"0.04","Sample # 6":"0.19","Sample # 7":"0.12","Sample # 8":"0.02","Sample # 9":"1.36","Sample # 10":"0.07","Sample # 11":"0.07","Sample # 12":"0.07","Sample # 13":"0.10","Sample # 14":"0.02","Sample # 15":"0.29","Sample # 16":"0.10","Sample # 17":"0.07","Sample # 18":"0.03","Sample # 19":"0.21","Sample # 20":"0.02","Sample # 21":"0.01","Sample # 22":"0.39","Sample # 23":"0.01","Sample # 24":"0.04","Sample # 25":"0.35","Sample # 26":"0.05","Sample # 27":"0.02","Sample # 28":"0.30","Sample # 29":"0.01","Sample # 30":"0.02"},{"Metabolite":"Malate","Sample # 1":"1.90","Sample # 2":"2.88","Sample # 3":"2.17","Sample # 4":"5.56","Sample # 5":"1.50","Sample # 6":"3.62","Sample # 7":"3.32","Sample # 8":"1.47","Sample # 9":"3.45","Sample # 10":"4.29","Sample # 11":"5.28","Sample # 12":"2.02","Sample # 13":"7.87","Sample # 14":"4.68","Sample # 15":"6.45","Sample # 16":"3.83","Sample # 17":"3.79","Sample # 18":"2.35","Sample # 19":"4.12","Sample # 20":"6.44","Sample # 21":"2.44","Sample # 22":"2.99","Sample # 23":"5.75","Sample # 24":"4.86","Sample # 25":"7.46","Sample # 26":"3.34","Sample # 27":"7.83","Sample # 28":"5.23","Sample # 29":"1.99","Sample # 30":"3.62"},{"Metabolite":"Aspartate","Sample # 1":"2.89","Sample # 2":"4.70","Sample # 3":"4.68","Sample # 4":"1.67","Sample # 5":"3.12","Sample # 6":"3.98","Sample # 7":"1.71","Sample # 8":"0.75","Sample # 9":"0.18","Sample # 10":"1.54","Sample # 11":"5.51","Sample # 12":"1.97","Sample # 13":"3.26","Sample # 14":"3.91","Sample # 15":"1.39","Sample # 16":"0.93","Sample # 17":"1.35","Sample # 18":"1.20","Sample # 19":"0.54","Sample # 20":"3.27","Sample # 21":"0.65","Sample # 22":"1.59","Sample # 23":"3.25","Sample # 24":"2.01","Sample # 25":"3.01","Sample # 26":"2.07","Sample # 27":"2.75","Sample # 28":"1.04","Sample # 29":"0.36","Sample # 30":"1.41"},{"Metabolite":"2-Hydroxyglutarate","Sample # 1":"0.02","Sample # 2":"0.02","Sample # 3":"0.05","Sample # 4":"0.06","Sample # 5":"0.07","Sample # 6":"0.07","Sample # 7":"0.04","Sample # 8":"0.02","Sample # 9":"0.12","Sample # 10":"0.04","Sample # 11":"0.05","Sample # 12":"0.04","Sample # 13":"0.04","Sample # 14":"0.04","Sample # 15":"0.05","Sample # 16":"0.06","Sample # 17":"0.04","Sample # 18":"0.05","Sample # 19":"0.02","Sample # 20":"0.05","Sample # 21":"0.03","Sample # 22":"0.07","Sample # 23":"0.07","Sample # 24":"0.07","Sample # 25":"0.05","Sample # 26":"0.03","Sample # 27":"0.04","Sample # 28":"0.06","Sample # 29":"0.02","Sample # 30":"0.08"},{"Metabolite":"Glutamate","Sample # 1":"10.92","Sample # 2":"9.82","Sample # 3":"20.00","Sample # 4":"14.25","Sample # 5":"12.49","Sample # 6":"17.03","Sample # 7":"8.10","Sample # 8":"2.71","Sample # 9":"15.05","Sample # 10":"7.88","Sample # 11":"14.16","Sample # 12":"9.08","Sample # 13":"14.51","Sample # 14":"6.58","Sample # 15":"9.00","Sample # 16":"8.74","Sample # 17":"11.71","Sample # 18":"4.00","Sample # 19":"11.03","Sample # 20":"8.29","Sample # 21":"3.19","Sample # 22":"21.21","Sample # 23":"9.67","Sample # 24":"6.14","Sample # 25":"15.01","Sample # 26":"9.28","Sample # 27":"8.85","Sample # 28":"10.25","Sample # 29":"2.86","Sample # 30":"8.87"},{"Metabolite":"cis-Aconitic Acid","Sample # 1":"0.02","Sample # 2":"0.01","Sample # 3":"0.01","Sample # 4":"0.01","Sample # 5":"0.01","Sample # 6":"0.01","Sample # 7":"0.00","Sample # 8":"0.00","Sample # 9":"0.00","Sample # 10":"0.00","Sample # 11":"0.01","Sample # 12":"0.00","Sample # 13":"0.00","Sample # 14":"0.00","Sample # 15":"0.00","Sample # 16":"0.00","Sample # 17":"0.00","Sample # 18":"0.00","Sample # 19":"0.00","Sample # 20":"0.00","Sample # 21":"0.00","Sample # 22":"0.00","Sample # 23":"0.00","Sample # 24":"0.00","Sample # 25":"0.00","Sample # 26":"0.00","Sample # 27":"0.00","Sample # 28":"0.00","Sample # 29":"0.00","Sample # 30":"0.00"},{"Metabolite":"Citrate","Sample # 1":"1.16","Sample # 2":"0.75","Sample # 3":"1.39","Sample # 4":"2.00","Sample # 5":"0.74","Sample # 6":"1.46","Sample # 7":"1.42","Sample # 8":"0.96","Sample # 9":"0.90","Sample # 10":"0.69","Sample # 11":"1.42","Sample # 12":"1.04","Sample # 13":"1.49","Sample # 14":"0.58","Sample # 15":"1.54","Sample # 16":"1.04","Sample # 17":"0.96","Sample # 18":"0.83","Sample # 19":"0.94","Sample # 20":"1.61","Sample # 21":"0.54","Sample # 22":"1.05","Sample # 23":"1.00","Sample # 24":"0.76","Sample # 25":"1.46","Sample # 26":"1.14","Sample # 27":"1.07","Sample # 28":"1.52","Sample # 29":"0.69","Sample # 30":"1.08"},{"Metabolite":"Isocitrate","Sample # 1":"0.04","Sample # 2":"0.01","Sample # 3":"0.02","Sample # 4":"0.05","Sample # 5":"0.03","Sample # 6":"0.03","Sample # 7":"0.03","Sample # 8":"0.02","Sample # 9":"0.01","Sample # 10":"0.01","Sample # 11":"0.04","Sample # 12":"0.02","Sample # 13":"0.03","Sample # 14":"0.02","Sample # 15":"0.04","Sample # 16":"0.02","Sample # 17":"0.02","Sample # 18":"0.02","Sample # 19":"0.01","Sample # 20":"0.05","Sample # 21":"0.01","Sample # 22":"0.01","Sample # 23":"0.02","Sample # 24":"0.03","Sample # 25":"0.03","Sample # 26":"0.02","Sample # 27":"0.03","Sample # 28":"0.04","Sample # 29":"0.01","Sample # 30":"0.02"}],
+
+"Metabolites":[{"metabolite_name":"Lactate"},{"metabolite_name":"Succinate"},{"metabolite_name":"Fumarate"},{"metabolite_name":"Oxaloacetate"},{"metabolite_name":"Ketoglutarate"},{"metabolite_name":"Malate"},{"metabolite_name":"Aspartate"},{"metabolite_name":"2-Hydroxyglutarate"},{"metabolite_name":"Glutamate"},{"metabolite_name":"cis-Aconitic Acid"},{"metabolite_name":"Citrate"},{"metabolite_name":"Isocitrate"}]
+}
+
+}
+]

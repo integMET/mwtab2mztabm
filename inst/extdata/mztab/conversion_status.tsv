@@ -1,0 +1,62 @@
+study	analysis	status	mztab_file	note
+ST000043	AN000070	valid	ST000043/ST000043_AN000070.mztab	
+ST000043	AN000071	failed		The mwTab analysis does not contain metabolite data (no 'MS_METABOLITE_DATA' section). The results might be provided in 
+ST000044	AN000068	valid	ST000044/ST000044_AN000068.mztab	
+ST000044	AN000069	valid	ST000044/ST000044_AN000069.mztab	
+ST000054	AN000092	valid	ST000054/ST000054_AN000092.mztab	
+ST000061	AN000099	valid	ST000061/ST000061_AN000099.mztab	
+ST000231	AN000345	valid	ST000231/ST000231_AN000345.mztab	
+ST000231	AN000346	valid	ST000231/ST000231_AN000346.mztab	
+ST000276	AN000440	valid	ST000276/ST000276_AN000440.mztab	
+ST000276	AN000441	valid	ST000276/ST000276_AN000441.mztab	
+ST000284	AN000452	failed		"Can not determine the scan polarity from ION_MODE ""UNSPECIFIED"". Please provide it with parameter 'scan_polarity'."
+ST000355	AN000580	valid	ST000355/ST000355_AN000580.mztab	
+ST000355	AN000581	failed		"Can not determine the scan polarity from ION_MODE ""UNSPECIFIED"". Please provide it with parameter 'scan_polarity'."
+ST000356	AN000582	valid	ST000356/ST000356_AN000582.mztab	
+ST000356	AN000583	failed		"Can not determine the scan polarity from ION_MODE ""UNSPECIFIED"". Please provide it with parameter 'scan_polarity'."
+ST000388	AN000624	failed		The 'MS_METABOLITE_DATA' section contains no data
+ST000389	AN000625	failed		The 'MS_METABOLITE_DATA' section contains no data
+ST000396	AN000633	valid	ST000396/ST000396_AN000633.mztab	
+ST000458	AN000719	valid	ST000458/ST000458_AN000719.mztab	
+ST000465	AN000726	valid	ST000465/ST000465_AN000726.mztab	
+ST000465	AN000727	valid	ST000465/ST000465_AN000727.mztab	
+ST000474	AN000738	valid	ST000474/ST000474_AN000738.mztab	
+ST000505	AN000774	valid	ST000505/ST000505_AN000774.mztab	
+ST000506	AN000775	invalid	ST000506/ST000506_AN000775.mztab	fails validation: ms_run location is not a valid URI (issue #2)
+ST000614	AN000939	failed		invalid JSON: control character 0x1D in metabolite name
+ST000614	AN000940	failed		invalid JSON: control character 0x1D in metabolite name
+ST000614	AN000941	failed		invalid JSON: control character 0x1D in metabolite name
+ST000614	AN000942	failed		invalid JSON: control character 0x1D in metabolite name
+ST000614	AN000943	failed		invalid JSON: control character 0x1D in metabolite name
+ST000783	AN001239	valid	ST000783/ST000783_AN001239.mztab	
+ST000791	AN001259	valid	ST000791/ST000791_AN001259.mztab	
+ST000824	AN001310	valid	ST000824/ST000824_AN001310.mztab	
+ST000918	AN001503	valid	ST000918/ST000918_AN001503.mztab	
+ST000918	AN001504	failed		The mwTab analysis does not contain metabolite data (no 'MS_METABOLITE_DATA' section). The results might be provided in 
+ST000918	AN001505	failed		The mwTab analysis does not contain metabolite data (no 'MS_METABOLITE_DATA' section). The results might be provided in 
+ST000956	AN001568	valid	ST000956/ST000956_AN001568.mztab	
+ST000956	AN001569	valid	ST000956/ST000956_AN001569.mztab	
+ST001005	AN001647	valid	ST001005/ST001005_AN001647.mztab	
+ST001006	AN001648	invalid	ST001006/ST001006_AN001648.mztab	fails validation: ms_run location is not a valid URI (issue #2)
+ST001009	AN001651	valid	ST001009/ST001009_AN001651.mztab	
+ST001010	AN001652	valid	ST001010/ST001010_AN001652.mztab	
+ST001011	AN001653	valid	ST001011/ST001011_AN001653.mztab	
+ST001012	AN001654	valid	ST001012/ST001012_AN001654.mztab	
+ST001013	AN001655	invalid	ST001013/ST001013_AN001655.mztab	fails validation: ms_run location is not a valid URI (issue #2)
+ST001014	AN001656	valid	ST001014/ST001014_AN001656.mztab	
+ST001015	AN001657	valid	ST001015/ST001015_AN001657.mztab	
+ST001016	AN001658	valid	ST001016/ST001016_AN001658.mztab	
+ST001024	AN001681	invalid	ST001024/ST001024_AN001681.mztab	fails validation: ms_run location is not a valid URI (issue #2)
+ST001026	AN001683	invalid	ST001026/ST001026_AN001683.mztab	fails validation: ms_run location is not a valid URI (issue #2)
+ST001225	AN002038	valid	ST001225/ST001225_AN002038.mztab	
+ST001226	AN002039	valid	ST001226/ST001226_AN002039.mztab	
+ST001227	AN002040	valid	ST001227/ST001227_AN002040.mztab	
+ST001228	AN002041	valid	ST001228/ST001228_AN002041.mztab	
+ST001230	AN002043	valid	ST001230/ST001230_AN002043.mztab	
+ST001320	AN002196	failed		"Can not determine the scan polarity from ION_MODE ""UNSPECIFIED"". Please provide it with parameter 'scan_polarity'."
+ST001339	AN002233	valid	ST001339/ST001339_AN002233.mztab	
+ST001610	AN002644	valid	ST001610/ST001610_AN002644.mztab	
+ST001731	AN002817	valid	ST001731/ST001731_AN002817.mztab	
+ST001731	AN002818	valid	ST001731/ST001731_AN002818.mztab	
+ST001732	AN002819	valid	ST001732/ST001732_AN002819.mztab	
+ST001732	AN002820	valid	ST001732/ST001732_AN002820.mztab	

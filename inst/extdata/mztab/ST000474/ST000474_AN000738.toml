@@ -1,0 +1,179 @@
+# mwTab metadata of study ST000474, analysis AN000738
+# Exported by mwtab2mztabm 0.1.0.
+# Sample metadata is listed in [[SUBJECT_SAMPLE_FACTORS]].
+
+[mwtab2mztabm]
+format_version = 1
+factor_order = "Treatment"
+additional_data_order = []
+
+["METABOLOMICS WORKBENCH"]
+STUDY_ID = "ST000474"
+ANALYSIS_ID = "AN000738"
+VERSION = "1"
+CREATED_ON = "September 13, 2016, 2:11 pm"
+
+[PROJECT]
+PROJECT_TITLE = "Metabolomic testing of a putative MDH inhibitor"
+PROJECT_SUMMARY = "Testing for metabolomic changes after treatment of leukemia cells with a putative MDH inhibitor"
+INSTITUTE = "Case Western Reserve University"
+DEPARTMENT = "Pathology"
+LABORATORY = "Foundation and Institutional funds"
+LAST_NAME = "Wald"
+FIRST_NAME = "David"
+ADDRESS = "2103 Cornell Rd WRB3-530 Cleveland, OH 44106"
+EMAIL = "dnw@case.edu"
+PHONE = "NA"
+
+[STUDY]
+STUDY_TITLE = "Metabolomic testing of a putative MDH inhibitor (targeted)"
+STUDY_TYPE = "drug treatment (single dose and timepoint)"
+STUDY_SUMMARY = "HL-60 cells will be treated for 15hr with a putative MDH inhibitor or vehicle (n=5 per group)"
+INSTITUTE = "University of Florida"
+DEPARTMENT = "SECIM"
+LABORATORY = "Case Western University"
+LAST_NAME = "Wald"
+FIRST_NAME = "David"
+ADDRESS = "2103 Cornell Rd WRB3-530 Cleveland, OH 44106"
+EMAIL = "dnw@case.edu"
+PHONE = "2163685668"
+NUM_GROUPS = "2"
+TOTAL_SUBJECTS = "20"
+STUDY_COMMENTS = "Total subjects: 10 for global testing and 10 for targeted testing"
+
+[SUBJECT]
+SUBJECT_TYPE = "Human leukemia cells"
+SUBJECT_SPECIES = "Homo sapiens"
+TAXONOMY_ID = "9606"
+CELL_STRAIN_DETAILS = "HL-60"
+SUBJECT_COMMENTS = "immortalized"
+CELL_COUNTS = "10 million per sample"
+
+[COLLECTION]
+COLLECTION_SUMMARY = "Cells were centrifuged to remove growth media/drug and either flash frozen or washed 1x in PBS. The cells were washed for the targeted assay but not for the global assay."
+SAMPLE_TYPE = "cell"
+STORAGE_CONDITIONS = "flash frozen"
+TISSUE_CELL_QUANTITY_TAKEN = "10 million per sample"
+
+[TREATMENT]
+TREATMENT_SUMMARY = "Cells were treated for 15hr with 1 micromolar of drug or vehicle"
+CELL_GROWTH_CONTAINER = "flasks"
+CELL_GROWTH_RATE = "~24hr per division"
+CELL_MEDIA = "RPMI with 10% FBS"
+CELL_ENVIR_COND = "5% CO2 incubator"
+CELL_MEDIA_LASTCHANGED = "15 hr"
+
+[SAMPLEPREP]
+SAMPLEPREP_SUMMARY = "Amino Acid|Global"
+SAMPLEPREP_PROTOCOL_FILENAME = "SB_OA_Assay.pdf;Appendix C_Protein_DNA_quant.pdf"
+SAMPLE_SPIKING = "Appendix A - Internal Standard Prep GLCMS.pdf"
+
+[CHROMATOGRAPHY]
+CHROMATOGRAPHY_SUMMARY = "Amino acids"
+CHROMATOGRAPHY_TYPE = "Reversed phase"
+INSTRUMENT_NAME = "Thermo Quantiva QQQ"
+COLUMN_NAME = "Waters Acquity BEH C18 (100 x 2mm, 1.7um)"
+METHODS_FILENAME = "SB_OA_Assay.pdf"
+
+[ANALYSIS]
+ANALYSIS_TYPE = "MS"
+
+[MS]
+MS_COMMENTS = "-"
+INSTRUMENT_NAME = "Thermo Quantiva QQQ"
+INSTRUMENT_TYPE = "Triple quadrupole"
+MS_TYPE = "ESI"
+ION_MODE = "POSITIVE"
+
+[MS_METABOLITE_DATA]
+Units = "Total nmoles (with relative protein adjustment)"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "untreat"
+"Sample ID" = "ut1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Treatment = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "untreat"
+"Sample ID" = "ut2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Treatment = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "untreat"
+"Sample ID" = "ut3"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Treatment = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "untreat"
+"Sample ID" = "ut4"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Treatment = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "untreat"
+"Sample ID" = "ut5"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Treatment = "-"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "treat"
+"Sample ID" = "tx1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Treatment = "MDH inhib"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "treat"
+"Sample ID" = "tx2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Treatment = "MDH inhib"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "treat"
+"Sample ID" = "tx3"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Treatment = "MDH inhib"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "treat"
+"Sample ID" = "tx4"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Treatment = "MDH inhib"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "treat"
+"Sample ID" = "tx5"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+Treatment = "MDH inhib"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]

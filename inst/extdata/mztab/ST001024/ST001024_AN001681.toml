@@ -1,0 +1,499 @@
+# mwTab metadata of study ST001024, analysis AN001681
+# Exported by mwtab2mztabm 0.1.0.
+# Sample metadata is listed in [[SUBJECT_SAMPLE_FACTORS]].
+
+[mwtab2mztabm]
+format_version = 1
+factor_order = ["Sample type", "Grouping"]
+additional_data_order = ["Species", "Volume"]
+
+["METABOLOMICS WORKBENCH"]
+STUDY_ID = "ST001024"
+ANALYSIS_ID = "AN001681"
+VERSION = "1"
+CREATED_ON = "July 19, 2018, 1:35 pm"
+
+[PROJECT]
+PROJECT_TITLE = "Mayo Pilot and Feasibility: H3K27M cells and glutamine metabolomics quatitation studies"
+PROJECT_SUMMARY = "In children, tumors affecting the brain and nervous system result in more cancer-related deaths than any other type of tumor. It is thus critical to identify new approaches for therapy. Among pediatric patients, one of the most devastating brain tumor types is Diffuse Intrinsic Pontine Gliomas (DIPG). Our understanding of this deadly disease has recently been advanced by important discoveries, including the discovery that the majority of DIPG tumors harbor the histone H3K27M mutation. This mutation results in global hypomethylation of H3K27 residues and is the pathological hallmark for this disease. Glutamine (Gln) addiction has been reported in many cancers including malignant adult gliomas. Glutamine likely promotes cancer cell proliferation and survival likely through generation of the TCA cycle intermediate alpha-ketoglutarate (α-KG). Importantly, α-KG is a critical co-factor for histone lysine demethylases including JMJD3, the enzyme responsible for removing the methyl groups from H3K27me3. Our preliminary data shows H3K27M tumor cells require Gln for survival, and if Gln is removed from the culture media, cells can be rescued by the addition of α-KG. Furthermore, Gln deprivation leads to an increase in H3K27 trimethylation similar to direct inhibition of JMJD3. It is for these reasons we hypothesize that H3K27M tumors are dependent on Gln derived α-KG both for feeding the TCA cycle and for further decreasing H3K27 trimethylation. Inhibition of Gln metabolism will likely uncover novel therapeutic targets for this deadly disease. In Aim 1 we will study Gln and glucose metabolism in H3K27M tumor cells and compare this to Wild Type (WT) tumors and Embryonic Stem Cells (ESCs). In Aim 2 we will validate the therapeutic validity of inhibiting Gln metabolism in H3K27M tumors."
+INSTITUTE = "Mayo Clinic"
+LAST_NAME = "Daniels"
+FIRST_NAME = "David"
+ADDRESS = "200 First Street SW Rochester, MN 55905"
+EMAIL = "daniels.david@mayo.edu"
+PHONE = "507-284-2511"
+
+[STUDY]
+STUDY_TITLE = "TCA cycle metabolomics of H3K27M cells grown in regular glutamine media, glutamine free media, and glutamine free media with alpha-ketoglutarate (Part-II)"
+STUDY_SUMMARY = "Testing TCA concentrations of Diffuse Intrinsic Pontine Gliomas (DIPG) cellines with H3K27M mutations. Preliminary studies show H3K27M tumor cells are addicted to Gln for survival. Removal of Gln from media resulted in tumor cell death which was rescued by the addition of α-KG. These data show that Gln is taken up and metabolized by H3K27M tumor cells and that Gln derived α-KG is critical for the survival of these tumors. Interestingly, tumor cell death with Gln deprivation was similar to the effect of the JMJD3 inhibitor GSKJ4. Therefore, Gln derived α-KG may be required for both anaplerosis and to drive JMJD3 demethylation. We hypothesize that H3K27M tumors are reliant on α-KG that is derived from Gln to drive the TCA cycle and further decrease H3K27 methylation levels. Furthermore, inhibition of Gln metabolism may represent a novel therapeutic approach for tumors with this mutation. In this study, TCA cycle metabolomics are analyzed of H3K27M cells grown in regular glutamine media, glutamine free media, and glutamine free media with alpha-ketoglutarate."
+INSTITUTE = "Mayo Clinic"
+LAST_NAME = "Daniels"
+FIRST_NAME = "David"
+ADDRESS = "200 First Street SW Rochester, MN 55905"
+EMAIL = "daniels.david@mayo.edu"
+PHONE = "507-284-2511"
+
+[SUBJECT]
+SUBJECT_TYPE = "Human"
+SUBJECT_SPECIES = "Homo sapiens"
+TAXONOMY_ID = "9606"
+
+[COLLECTION]
+COLLECTION_SUMMARY = "DIPG IV and DIPG XVII cell lines are collected in this experiment. Susupension cells are harvested using centrifugation at 1200 rpm for 5 min. 1 mL of the supernatant media werr collected in an eppendorf tube and snapped frozen. The cell pellets were broken up into single cell suspension and counted. 1 million cells were taken from the stock and washed 1 x with PBS using table top centrifuge with 10 sec quick spin. The resulting cell pellet was snap frozen. Both the frozen media and cell pellet are stored in -80 C prior transfer."
+SAMPLE_TYPE = "Glioma cells"
+
+[TREATMENT]
+TREATMENT_SUMMARY = "Glutamine is required for survival in H3K27M cell lines. DIPG cell lines with the H3K27M mutation were grown in regular media (45mM glucose + 4.5 mM glutamine), glutamine (Gln) free media, and Gln free media with alpha-ketoglutarate (α-KG). Study Design Factors IV Control / Treatment 1 / Treatment2 = DIPG IV celline grown in regular media / glutamine free media / glutamine free meida with alpha-ketoglutarate XVII Control / Treatment 1 / Treatment2 = DIPG XVII celline grown in regular media / glutamine free media / glutamine free meida with alpha-ketoglutarate"
+
+[SAMPLEPREP]
+SAMPLEPREP_SUMMARY = "TCA Concentrations in glioma cell lines"
+
+[CHROMATOGRAPHY]
+CHROMATOGRAPHY_TYPE = "GC"
+INSTRUMENT_NAME = "Agilent 7890B"
+COLUMN_NAME = "Agilent HP5-MS (30m Ã— 0.25mm, 0.25 um)"
+
+[ANALYSIS]
+ANALYSIS_TYPE = "MS"
+
+[MS]
+MS_COMMENTS = "-"
+INSTRUMENT_NAME = "Agilent 5977A"
+INSTRUMENT_TYPE = "Single quadrupole"
+MS_TYPE = "EI"
+ION_MODE = "POSITIVE"
+
+[MS_METABOLITE_DATA]
+Units = "nmol/vial"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "Sample # 1"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Sample type" = "Cells"
+Grouping = "IV Control"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Species = "Human"
+Volume = "3-5 millions"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "Sample # 2"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Sample type" = "Cells"
+Grouping = "IV Control"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Species = "Human"
+Volume = "3-5 millions"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "Sample # 3"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Sample type" = "Cells"
+Grouping = "IV Control"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Species = "Human"
+Volume = "3-5 millions"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "Sample # 4"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Sample type" = "Media"
+Grouping = "IV Control"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Species = "Human"
+Volume = "1 mL"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "Sample # 5"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Sample type" = "Media"
+Grouping = "IV Control"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Species = "Human"
+Volume = "1 mL"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "Sample # 6"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Sample type" = "Media"
+Grouping = "IV Control"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Species = "Human"
+Volume = "1 mL"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "Sample # 7"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Sample type" = "Cells"
+Grouping = "IV Treatment 1"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Species = "Human"
+Volume = "3-5 millions"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "Sample # 8"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Sample type" = "Cells"
+Grouping = "IV Treatment 1"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Species = "Human"
+Volume = "3-5 millions"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "Sample # 9"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Sample type" = "Cells"
+Grouping = "IV Treatment 1"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Species = "Human"
+Volume = "3-5 millions"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "Sample # 10"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Sample type" = "Media"
+Grouping = "IV Treatment 1"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Species = "Human"
+Volume = "1 mL"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "Sample # 11"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Sample type" = "Media"
+Grouping = "IV Treatment 1"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Species = "Human"
+Volume = "1 mL"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "Sample # 12"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Sample type" = "Media"
+Grouping = "IV Treatment 1"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Species = "Human"
+Volume = "1 mL"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "Sample # 13"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Sample type" = "Cells"
+Grouping = "IV Treatment 2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Species = "Human"
+Volume = "3-5 millions"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "Sample # 14"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Sample type" = "Cells"
+Grouping = "IV Treatment 2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Species = "Human"
+Volume = "3-5 millions"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "Sample # 15"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Sample type" = "Cells"
+Grouping = "IV Treatment 2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Species = "Human"
+Volume = "3-5 millions"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "Sample # 16"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Sample type" = "Media"
+Grouping = "IV Treatment 2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Species = "Human"
+Volume = "1 mL"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "Sample # 17"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Sample type" = "Media"
+Grouping = "IV Treatment 2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Species = "Human"
+Volume = "1 mL"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "Sample # 18"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Sample type" = "Media"
+Grouping = "IV Treatment 2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Species = "Human"
+Volume = "1 mL"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "Sample # 19"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Sample type" = "Cells"
+Grouping = "XVII Control"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Species = "Human"
+Volume = "3-5 millions"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "Sample # 20"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Sample type" = "Cells"
+Grouping = "XVII Control"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Species = "Human"
+Volume = "3-5 millions"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "Sample # 21"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Sample type" = "Cells"
+Grouping = "XVII Control"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Species = "Human"
+Volume = "3-5 millions"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "Sample # 22"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Sample type" = "Media"
+Grouping = "XVII Control"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Species = "Human"
+Volume = "1 mL"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "Sample # 23"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Sample type" = "Media"
+Grouping = "XVII Control"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Species = "Human"
+Volume = "1 mL"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "Sample # 24"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Sample type" = "Media"
+Grouping = "XVII Control"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Species = "Human"
+Volume = "1 mL"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "Sample # 25"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Sample type" = "Cells"
+Grouping = "XVII Treatment 1"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Species = "Human"
+Volume = "3-5 millions"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "Sample # 26"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Sample type" = "Cells"
+Grouping = "XVII Treatment 1"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Species = "Human"
+Volume = "3-5 millions"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "Sample # 27"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Sample type" = "Cells"
+Grouping = "XVII Treatment 1"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Species = "Human"
+Volume = "3-5 millions"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "Sample # 28"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Sample type" = "Media"
+Grouping = "XVII Treatment 1"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Species = "Human"
+Volume = "1 mL"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "Sample # 29"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Sample type" = "Media"
+Grouping = "XVII Treatment 1"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Species = "Human"
+Volume = "1 mL"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "Sample # 30"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Sample type" = "Media"
+Grouping = "XVII Treatment 1"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Species = "Human"
+Volume = "1 mL"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "Sample # 31"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Sample type" = "Cells"
+Grouping = "XVII Treatment 2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Species = "Human"
+Volume = "3-5 millions x2 vials"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "Sample # 32"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Sample type" = "Cells"
+Grouping = "XVII Treatment 2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Species = "Human"
+Volume = "3-5 millions x2 vials"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "Sample # 33"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Sample type" = "Cells"
+Grouping = "XVII Treatment 2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Species = "Human"
+Volume = "3-5 millions x2 vials"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "Sample # 34"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Sample type" = "Media"
+Grouping = "XVII Treatment 2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Species = "Human"
+Volume = "1 mL x2 vials"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "Sample # 35"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Sample type" = "Media"
+Grouping = "XVII Treatment 2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Species = "Human"
+Volume = "1 mL x2 vials"
+
+[[SUBJECT_SAMPLE_FACTORS]]
+"Subject ID" = "-"
+"Sample ID" = "Sample # 36"
+
+[SUBJECT_SAMPLE_FACTORS.Factors]
+"Sample type" = "Media"
+Grouping = "XVII Treatment 2"
+
+[SUBJECT_SAMPLE_FACTORS."Additional sample data"]
+Species = "Human"
+Volume = "1 mL x2 vials"

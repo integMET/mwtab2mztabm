@@ -1,0 +1,213 @@
+[
+{
+"METABOLOMICS WORKBENCH":{"STUDY_ID":"ST001014","ANALYSIS_ID":"AN001656","VERSION":"1","CREATED_ON":"July 17, 2018, 1:05 pm"},
+
+"PROJECT":{"PROJECT_TITLE":"Mayo Pilot and Feasibility: Metabolomics of Muscle Wasting in Cancer Cachexia","PROJECT_SUMMARY":"Cachexia is a debilitating syndrome that results in severe, involuntary weight loss due to the depletion of skeletal muscle mass. This syndrome occurs in a majority of cancers and contributes to approximately one third of all cancer deaths. Currently, no effective therapy exists to combat this malignant disorder, and disappointing results from recent Phase III clinical trials indicate that a cachexia treatment is not likely to appear soon. Thus, it is clear that greater knowledge of the mechanisms driving muscle wasting in cachexia is needed in order to identify new therapeutic targets and stimulate new clinical trials. Our approach to gaining this knowledge has been to work with muscle biopsies from pancreatic cancer patients, since this population is highly prone to cachexia. We have also been expanding our studies beyond the classical mouse models of cancer cachexia in hopes of finding a new model that better recapitulates the human disease. We recently undertook RNA-Seq analysis comparing muscle biopsies from pancreatic cancer patients with and without cachexia, which has been exciting since this type of analysis has not yet been performed in patient samples. Preliminary results revealed that cachectic muscle was associated with alterations in metabolism. These data provide the rationale for performing metabolomics to ascertain whether specific metabolic pathways or metabolites can be identified as potential drivers of muscle wasting in cachexia or be used as biomarker of cachexia, which the field desperately needs. An additional need is a well-validated animal model of cancer cachexia that accurately reflects the human condition, which can be used to test mechanisms and pre-clinical compounds. We propose to perform these studies under the Mayo Clinic Metabolomics Resource Core Pilot and Feasibility Grant program to: 1) Identify metabolic alterations and biomarkers of pancreatic cancer-induced muscle wasting; and 2) Identify a suitable mouse model that recapitulates the metabolic imbalance of muscles from pancreatic cancer cachexia patients. By performing these studies, we will accelerate our understanding of the underlying causes of muscle wasting, which should translate to improving the current pipeline of anticachexia therapies.","INSTITUTE":"Mayo Clinic","LAST_NAME":"Guttridge","FIRST_NAME":"Denis","ADDRESS":"520 Biomedical Research Tower 460 W. 12th Avenue Columbus, OH 43210","EMAIL":"denis.guttridge@osumc.edu","PHONE":"614-688-3137"},
+
+"STUDY":{"STUDY_TITLE":"Sphingolipid Concentrations in Serum for Muscle Wasting in Cancer Cachexia (part-IX)","STUDY_SUMMARY":"Sphingolipid Concentrations of Muscle Wasting in Cancer Cachexia. Serum samples from 10 control patients, 10 weight stable pancreatic cancer patients, and 10 pancreatic cancer patients with significant weight loss. Samples are divided evenly between males and females.","INSTITUTE":"Mayo Clinic","LAST_NAME":"Guttridge","FIRST_NAME":"Denis","ADDRESS":"520 Biomedical Research Tower 460 W. 12th Avenue Columbus, OH 43210","EMAIL":"denis.guttridge@osumc.edu","PHONE":"614-688-3137"},
+
+"SUBJECT":{"SUBJECT_TYPE":"Human","SUBJECT_SPECIES":"Homo sapiens","TAXONOMY_ID":"9606"},
+"SUBJECT_SAMPLE_FACTORS":[
+{
+"Subject ID":"-",
+"Sample ID":"ms6652-1",
+"Factors":{"Grouping":"Weight Losing","Gender":"Female"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6652-2",
+"Factors":{"Grouping":"Control","Gender":"Male"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6652-3",
+"Factors":{"Grouping":"Control","Gender":"Female"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6652-4",
+"Factors":{"Grouping":"Control","Gender":"Female"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6652-5",
+"Factors":{"Grouping":"Weight Losing","Gender":"Male"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6652-6",
+"Factors":{"Grouping":"Weight Losing","Gender":"Male"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6652-7",
+"Factors":{"Grouping":"Control","Gender":"Female"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6652-8",
+"Factors":{"Grouping":"Weight Stable","Gender":"Male"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6652-9",
+"Factors":{"Grouping":"Control","Gender":"Female"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6652-10",
+"Factors":{"Grouping":"Control","Gender":"Male"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6652-11",
+"Factors":{"Grouping":"Weight Stable","Gender":"Male"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6652-12",
+"Factors":{"Grouping":"Weight Stable","Gender":"Male"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6652-13",
+"Factors":{"Grouping":"Weight Losing","Gender":"Male"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6652-14",
+"Factors":{"Grouping":"Weight Losing","Gender":"Male"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6652-15",
+"Factors":{"Grouping":"Control","Gender":"Male"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6652-16",
+"Factors":{"Grouping":"Weight Stable","Gender":"Female"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6652-17",
+"Factors":{"Grouping":"Weight Stable","Gender":"Female"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6652-18",
+"Factors":{"Grouping":"Control","Gender":"Female"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6652-19",
+"Factors":{"Grouping":"Weight Stable","Gender":"Female"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6652-20",
+"Factors":{"Grouping":"Control","Gender":"Male"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6652-21",
+"Factors":{"Grouping":"Weight Losing","Gender":"Female"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6652-22",
+"Factors":{"Grouping":"Weight Losing","Gender":"Female"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6652-23",
+"Factors":{"Grouping":"Weight Stable","Gender":"Male"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6652-24",
+"Factors":{"Grouping":"Weight Stable","Gender":"Female"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6652-25",
+"Factors":{"Grouping":"Weight Stable","Gender":"Female"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6652-26",
+"Factors":{"Grouping":"Weight Losing","Gender":"Female"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6652-27",
+"Factors":{"Grouping":"Control","Gender":"Male"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6652-28",
+"Factors":{"Grouping":"Weight Stable","Gender":"Male"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6652-29",
+"Factors":{"Grouping":"Weight Losing","Gender":"Female"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+},
+{
+"Subject ID":"-",
+"Sample ID":"ms6652-30",
+"Factors":{"Grouping":"Weight Losing","Gender":"Male"},
+"Additional sample data":{"Sample type":"Serum","Species":"Human"}
+}
+],
+"COLLECTION":{"COLLECTION_SUMMARY":"Tissue and blood donated from Cancer Cachexia Program at Ohio State University","SAMPLE_TYPE":"Blood (serum)"},
+
+"TREATMENT":{"TREATMENT_SUMMARY":"Cancer cachexia is a multi-factorial syndrome accompanying advanced cancer, with the most notable symptom being unintentional weight loss. Cachectic patients lose both adipose tissue and skeletal muscle, with skeletal muscle loss and its associated weakness contributing to the morbidity and mortality of these patients. Despite three decades of research into mechanisms driving muscle wasting due to cancer, to date, an approved pharmacological therapy to prevent or treat cancer cachexia is still lacking. Our laboratory focuses on cancer cachexia in patients with pancreatic cancer, as up to 85% of these patients experience weight loss. Cachexia often occurs early in the progression of pancreatic cancer, making clear that cachexia in these patients is not simply a result of end-stage disease. Further, with perhaps more than ¼ of all pancreatic cancer deaths resulting from muscle weakness as opposed to tumor burden, cachexia also significantly contributes to mortality due to pancreatic cancer. Because little progress has been made in improving treatment outcomes, addressing cancer-induced muscle wasting is perhaps the best strategy to prolong pancreatic cancer patient survival and increase patient quality of life. In an effort to better understand the mechanisms driving pancreatic cancer-induced muscle wasting, the Cancer Cachexia Program at Ohio State University has begun a Pancreatic Cancer Cachexia Tissue Bank. To date, over 130 patients undergoing attempted resection for pancreatic cancer or other abdominal surgeries have donated muscle and blood to our bank. A unique aspect of our tissue bank is our focus on patients eligible for resection. In contrast to other studies using patients with late-stage disease, our patients are not end-stage, as they are considered healthy enough to undergo a major operation."},
+
+"SAMPLEPREP":{"SAMPLEPREP_SUMMARY":"sphingolipid concentrations using serum"},
+
+"CHROMATOGRAPHY":{"CHROMATOGRAPHY_TYPE":"Reversed phase","INSTRUMENT_NAME":"Waters Acquity","COLUMN_NAME":"Waters Acquity BEH C8 (150 x 2mm, 1.7um)"},
+
+"ANALYSIS":{"ANALYSIS_TYPE":"MS"},
+
+"MS":{"MS_COMMENTS":"-","INSTRUMENT_NAME":"Thermo Quantum Ultra","INSTRUMENT_TYPE":"Triple quadrupole","MS_TYPE":"ESI","ION_MODE":"POSITIVE"},
+
+"MS_METABOLITE_DATA":{
+"Units":"uM",
+
+"Data":[{"Metabolite":"Sph","ms6652-1":"0.009","ms6652-2":"0.007","ms6652-3":"0.048","ms6652-4":"0.033","ms6652-5":"0.024","ms6652-6":"0.032","ms6652-7":"0.009","ms6652-8":"0.022","ms6652-9":"0.072","ms6652-10":"0.012","ms6652-11":"0.032","ms6652-12":"0.028","ms6652-13":"0.035","ms6652-14":"0.018","ms6652-15":"0.009","ms6652-16":"0.009","ms6652-17":"0.008","ms6652-18":"0.027","ms6652-19":"0.014","ms6652-20":"0.019","ms6652-21":"0.012","ms6652-22":"0.016","ms6652-23":"0.031","ms6652-24":"0.016","ms6652-25":"0.018","ms6652-26":"0.013","ms6652-27":"0.010","ms6652-28":"0.033","ms6652-29":"0.008","ms6652-30":"0.012"},{"Metabolite":"SPA","ms6652-1":"0.005","ms6652-2":"0.007","ms6652-3":"0.015","ms6652-4":"0.010","ms6652-5":"0.008","ms6652-6":"0.009","ms6652-7":"0.004","ms6652-8":"0.007","ms6652-9":"0.029","ms6652-10":"0.006","ms6652-11":"0.010","ms6652-12":"0.008","ms6652-13":"0.017","ms6652-14":"0.007","ms6652-15":"0.004","ms6652-16":"0.004","ms6652-17":"0.005","ms6652-18":"0.008","ms6652-19":"0.005","ms6652-20":"0.007","ms6652-21":"0.005","ms6652-22":"0.006","ms6652-23":"0.011","ms6652-24":"0.008","ms6652-25":"0.007","ms6652-26":"0.005","ms6652-27":"0.004","ms6652-28":"0.011","ms6652-29":"0.005","ms6652-30":"0.007"},{"Metabolite":"S1P","ms6652-1":"0.461","ms6652-2":"1.063","ms6652-3":"1.873","ms6652-4":"0.850","ms6652-5":"1.250","ms6652-6":"1.255","ms6652-7":"0.632","ms6652-8":"1.070","ms6652-9":"2.890","ms6652-10":"0.814","ms6652-11":"0.720","ms6652-12":"0.730","ms6652-13":"0.633","ms6652-14":"0.804","ms6652-15":"0.362","ms6652-16":"0.798","ms6652-17":"0.796","ms6652-18":"1.761","ms6652-19":"0.886","ms6652-20":"1.216","ms6652-21":"0.760","ms6652-22":"1.057","ms6652-23":"1.280","ms6652-24":"0.944","ms6652-25":"1.127","ms6652-26":"0.784","ms6652-27":"0.652","ms6652-28":"0.926","ms6652-29":"0.690","ms6652-30":"0.417"},{"Metabolite":"C8-cer","ms6652-1":"0.00","ms6652-2":"0.00","ms6652-3":"0.00","ms6652-4":"0.00","ms6652-5":"0.00","ms6652-6":"0.00","ms6652-7":"0.00","ms6652-8":"0.00","ms6652-9":"0.00","ms6652-10":"0.00","ms6652-11":"0.00","ms6652-12":"0.00","ms6652-13":"0.00","ms6652-14":"0.00","ms6652-15":"0.00","ms6652-16":"0.00","ms6652-17":"0.00","ms6652-18":"0.00","ms6652-19":"0.00","ms6652-20":"0.00","ms6652-21":"0.00","ms6652-22":"0.00","ms6652-23":"0.00","ms6652-24":"0.00","ms6652-25":"0.00","ms6652-26":"0.00","ms6652-27":"0.00","ms6652-28":"0.00","ms6652-29":"0.00","ms6652-30":"0.00"},{"Metabolite":"C14-cer","ms6652-1":"0.007","ms6652-2":"0.010","ms6652-3":"0.011","ms6652-4":"0.007","ms6652-5":"0.005","ms6652-6":"0.006","ms6652-7":"0.010","ms6652-8":"0.012","ms6652-9":"0.018","ms6652-10":"0.007","ms6652-11":"0.005","ms6652-12":"0.013","ms6652-13":"0.053","ms6652-14":"0.007","ms6652-15":"0.008","ms6652-16":"0.008","ms6652-17":"0.025","ms6652-18":"0.010","ms6652-19":"0.010","ms6652-20":"0.009","ms6652-21":"0.006","ms6652-22":"0.008","ms6652-23":"0.007","ms6652-24":"0.012","ms6652-25":"0.011","ms6652-26":"0.016","ms6652-27":"0.004","ms6652-28":"0.008","ms6652-29":"0.008","ms6652-30":"0.013"},{"Metabolite":"C16-cer","ms6652-1":"0.361","ms6652-2":"0.368","ms6652-3":"0.438","ms6652-4":"0.352","ms6652-5":"0.315","ms6652-6":"0.413","ms6652-7":"0.422","ms6652-8":"0.330","ms6652-9":"0.573","ms6652-10":"0.494","ms6652-11":"0.286","ms6652-12":"0.400","ms6652-13":"2.969","ms6652-14":"0.425","ms6652-15":"0.321","ms6652-16":"0.402","ms6652-17":"0.544","ms6652-18":"0.323","ms6652-19":"0.595","ms6652-20":"0.445","ms6652-21":"0.321","ms6652-22":"0.697","ms6652-23":"0.260","ms6652-24":"0.408","ms6652-25":"0.406","ms6652-26":"0.529","ms6652-27":"0.249","ms6652-28":"0.422","ms6652-29":"0.582","ms6652-30":"0.438"},{"Metabolite":"C18:1-cer","ms6652-1":"0.005","ms6652-2":"0.004","ms6652-3":"0.005","ms6652-4":"0.005","ms6652-5":"0.006","ms6652-6":"0.004","ms6652-7":"0.005","ms6652-8":"0.003","ms6652-9":"0.007","ms6652-10":"0.004","ms6652-11":"0.003","ms6652-12":"0.004","ms6652-13":"0.047","ms6652-14":"0.004","ms6652-15":"0.005","ms6652-16":"0.003","ms6652-17":"0.010","ms6652-18":"0.003","ms6652-19":"0.008","ms6652-20":"0.002","ms6652-21":"0.004","ms6652-22":"0.011","ms6652-23":"0.003","ms6652-24":"0.004","ms6652-25":"0.005","ms6652-26":"0.007","ms6652-27":"0.003","ms6652-28":"0.004","ms6652-29":"0.006","ms6652-30":"0.004"},{"Metabolite":"C18-cer","ms6652-1":"0.162","ms6652-2":"0.074","ms6652-3":"0.199","ms6652-4":"0.234","ms6652-5":"0.199","ms6652-6":"0.224","ms6652-7":"0.101","ms6652-8":"0.130","ms6652-9":"0.227","ms6652-10":"0.157","ms6652-11":"0.120","ms6652-12":"0.163","ms6652-13":"2.336","ms6652-14":"0.186","ms6652-15":"0.167","ms6652-16":"0.133","ms6652-17":"0.207","ms6652-18":"0.108","ms6652-19":"0.308","ms6652-20":"0.173","ms6652-21":"0.179","ms6652-22":"0.484","ms6652-23":"0.134","ms6652-24":"0.185","ms6652-25":"0.155","ms6652-26":"0.208","ms6652-27":"0.084","ms6652-28":"0.134","ms6652-29":"0.295","ms6652-30":"0.169"},{"Metabolite":"C20-cer","ms6652-1":"0.176","ms6652-2":"0.146","ms6652-3":"0.265","ms6652-4":"0.224","ms6652-5":"0.145","ms6652-6":"0.200","ms6652-7":"0.145","ms6652-8":"0.132","ms6652-9":"0.192","ms6652-10":"0.163","ms6652-11":"0.111","ms6652-12":"0.177","ms6652-13":"0.968","ms6652-14":"0.187","ms6652-15":"0.137","ms6652-16":"0.143","ms6652-17":"0.217","ms6652-18":"0.178","ms6652-19":"0.294","ms6652-20":"0.171","ms6652-21":"0.151","ms6652-22":"0.361","ms6652-23":"0.165","ms6652-24":"0.183","ms6652-25":"0.187","ms6652-26":"0.214","ms6652-27":"0.068","ms6652-28":"0.126","ms6652-29":"0.238","ms6652-30":"0.150"},{"Metabolite":"C22-cer","ms6652-1":"0.956","ms6652-2":"1.530","ms6652-3":"1.310","ms6652-4":"0.870","ms6652-5":"0.531","ms6652-6":"0.737","ms6652-7":"1.517","ms6652-8":"0.764","ms6652-9":"1.481","ms6652-10":"1.058","ms6652-11":"0.753","ms6652-12":"1.124","ms6652-13":"1.703","ms6652-14":"0.849","ms6652-15":"0.808","ms6652-16":"0.897","ms6652-17":"1.672","ms6652-18":"1.224","ms6652-19":"1.017","ms6652-20":"1.129","ms6652-21":"0.932","ms6652-22":"1.391","ms6652-23":"0.694","ms6652-24":"1.073","ms6652-25":"1.031","ms6652-26":"1.001","ms6652-27":"0.451","ms6652-28":"0.926","ms6652-29":"1.574","ms6652-30":"0.775"},{"Metabolite":"C24:1-cer","ms6652-1":"1.084","ms6652-2":"0.708","ms6652-3":"1.377","ms6652-4":"1.223","ms6652-5":"0.766","ms6652-6":"1.072","ms6652-7":"0.699","ms6652-8":"0.893","ms6652-9":"1.250","ms6652-10":"1.856","ms6652-11":"1.029","ms6652-12":"1.089","ms6652-13":"4.975","ms6652-14":"1.472","ms6652-15":"0.829","ms6652-16":"1.302","ms6652-17":"0.820","ms6652-18":"1.105","ms6652-19":"1.609","ms6652-20":"1.173","ms6652-21":"0.917","ms6652-22":"2.227","ms6652-23":"1.059","ms6652-24":"1.031","ms6652-25":"1.119","ms6652-26":"1.308","ms6652-27":"0.578","ms6652-28":"1.155","ms6652-29":"1.900","ms6652-30":"1.026"},{"Metabolite":"C24-cer","ms6652-1":"3.146","ms6652-2":"6.553","ms6652-3":"5.393","ms6652-4":"3.127","ms6652-5":"1.730","ms6652-6":"2.041","ms6652-7":"4.875","ms6652-8":"2.560","ms6652-9":"4.803","ms6652-10":"4.546","ms6652-11":"2.325","ms6652-12":"3.361","ms6652-13":"2.673","ms6652-14":"2.513","ms6652-15":"3.010","ms6652-16":"2.969","ms6652-17":"5.225","ms6652-18":"4.496","ms6652-19":"2.642","ms6652-20":"5.172","ms6652-21":"3.141","ms6652-22":"3.867","ms6652-23":"2.240","ms6652-24":"3.423","ms6652-25":"3.100","ms6652-26":"3.350","ms6652-27":"1.678","ms6652-28":"3.433","ms6652-29":"5.018","ms6652-30":"2.389"}],
+
+"Metabolites":[{"metabolite_name":"Sph"},{"metabolite_name":"SPA"},{"metabolite_name":"S1P"},{"metabolite_name":"C8-cer"},{"metabolite_name":"C14-cer"},{"metabolite_name":"C16-cer"},{"metabolite_name":"C18:1-cer"},{"metabolite_name":"C18-cer"},{"metabolite_name":"C20-cer"},{"metabolite_name":"C22-cer"},{"metabolite_name":"C24:1-cer"},{"metabolite_name":"C24-cer"}]
+}
+
+}
+]
