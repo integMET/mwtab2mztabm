@@ -49,6 +49,12 @@ if \code{file} is provided, writes it with \code{\link[RmzTabM:writeMzTabM]{RmzT
 The assays of the MTD section are defined in the order of the sample
 columns of the Parquet file. Samples with metadata but without abundances
 are not reported.
+
+The mzTab-M file is written in UTF-8 regardless of the locale of the R
+session. If the session does not use a UTF-8 locale, the character type
+(\code{LC_CTYPE}) is changed to a UTF-8 locale during this function. A warning is
+issued if the system has no such locale, as non-ASCII characters might then be
+corrupted.
 }
 \examples{
 f <- system.file("extdata", "example_mwtab.json", package = "mwtab2mztabm")

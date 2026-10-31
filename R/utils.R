@@ -40,6 +40,26 @@ NULL
     paste0("[", label, ", ", accession, ", ", name, ", ", .cv_quote(value), "]")
 }
 
+.UTF8_LOCALES <- c("C.UTF-8", "C.utf8", "en_US.UTF-8", "en_US.utf8")
+
+## Evaluate `expr` with a UTF-8 character type. In other locales (e.g. "C", the
+## default of jobs running without `LANG`), RmzTabM::writeMzTabM() replaces
+## non-ASCII characters by "<U+00B5>" or truncates the text at these characters.
+.with_utf8_ctype <- function(expr) {
+    if (isTRUE(l10n_info()[["UTF-8"]]))
+        return(expr)
+    old <- Sys.getlocale("LC_CTYPE")
+    on.exit(Sys.setlocale("LC_CTYPE", old))
+    for (l in .UTF8_LOCALES) {
+        suppressWarnings(Sys.setlocale("LC_CTYPE", l))
+        if (isTRUE(l10n_info()[["UTF-8"]]))
+            return(expr)
+    }
+    warning("No UTF-8 locale is available: non-ASCII characters in the mzTab-M ",
+            "file might be corrupted", call. = FALSE)
+    expr
+}
+
 .pkg_version <- function() {
     as.character(packageVersion("mwtab2mztabm"))
 }
