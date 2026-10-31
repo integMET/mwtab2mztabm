@@ -3,3 +3,4 @@
 .RData
 *.Rcheck/
 mwtab2mztabm_*.tar.gz
+.DS_Store
