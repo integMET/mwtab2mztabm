@@ -113,6 +113,47 @@ test_that("mwtabToMzTabM converts all analyses", {
                  "not found")
 })
 
+test_that("mwtabToMzTabM names files with recovered IDs", {
+    mw <- unname(readMwTab(example_file))
+    modes <- vapply(mw, function(a) a[["MS"]][["ION_MODE"]], "")
+    mw <- lapply(mw, function(a) {
+        a[["METABOLOMICS WORKBENCH"]][c("STUDY_ID", "ANALYSIS_ID")] <- NULL
+        a
+    })
+    d <- tempfile()
+    dir.create(d)
+    f <- file.path(d, "ST000465_mwtab.json")
+    jsonlite::write_json(mw, f, auto_unbox = TRUE)
+    local_mocked_bindings(.study_analyses = function(id) list(
+        list(analysis_id = "AN000726", ion_mode = modes[1L]),
+        list(analysis_id = "AN000727", ion_mode = modes[2L])))
+    res <- suppressMessages(suppressWarnings(
+        mwtabToMzTabM(f, outdir = d, validate = FALSE)))
+    expect_equal(res$analysis_id, c("AN000726", "AN000727"))
+    expect_equal(basename(res$mztab), c("ST000465_AN000726.mztab",
+                                        "ST000465_AN000727.mztab"))
+    expect_true(all(file.exists(c(res$toml, res$parquet, res$mztab))))
+    lines <- readLines(res$mztab[2L])
+    expect_true("MTD\tmzTab-ID\tST000465_AN000727" %in% lines)
+})
+
+test_that("mwtabToMzTabM does not overwrite analyses without IDs", {
+    mw <- unname(readMwTab(example_file))
+    mw <- lapply(mw, function(a) {
+        a[["METABOLOMICS WORKBENCH"]][c("STUDY_ID", "ANALYSIS_ID")] <- NULL
+        a
+    })
+    d <- tempfile()
+    dir.create(d)
+    f <- file.path(d, "local.json")
+    jsonlite::write_json(mw, f, auto_unbox = TRUE)
+    res <- suppressMessages(suppressWarnings(
+        mwtabToMzTabM(f, outdir = d, validate = FALSE)))
+    expect_equal(basename(res$mztab), c("mwtab_analysis_1.mztab",
+                                        "mwtab_analysis_2.mztab"))
+    expect_true(all(file.exists(res$mztab)))
+})
+
 test_that("converted files pass the jmzTab-M validator", {
     skip_on_cran()
     skip_if_offline("github.com")

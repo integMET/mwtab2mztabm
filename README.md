@@ -198,5 +198,12 @@ key-value metadata of the file (see `?mwtabToParquet`).
   detection limit, these means are biased upward. This differs from
   `RmzTabM::smlAddStudyVariableColumns()`, whose mean is `null` if any assay is
   `null`.
+- The mwTab JSON files of some studies (e.g. ST000396) lack the `STUDY_ID` and
+  `ANALYSIS_ID`. For these, the study ID is taken from the file name and the
+  analysis IDs are retrieved from the REST service
+  (`https://www.metabolomicsworkbench.org/rest/study/study_id/ST000396/analysis`).
+  The REST service can not return the study ID of an analysis ID, so a
+  conversion of such an analysis with its analysis ID (e.g. `"AN000633"`) results
+  in files named `AN000633`; use the study ID to get `ST000396_AN000633`.
 - Only mass spectrometry analyses with a `MS_METABOLITE_DATA` section are
   supported. Analyses whose results are in a separate file are not.

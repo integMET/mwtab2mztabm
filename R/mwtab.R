@@ -103,6 +103,13 @@ downloadMwTab <- function(x, destdir = tempdir(), overwrite = FALSE,
 #' `list` with the mwTab sections (`"METABOLOMICS WORKBENCH"`, `"PROJECT"`,
 #' `"STUDY"`, `"SUBJECT_SAMPLE_FACTORS"`, `"MS_METABOLITE_DATA"`, ...).
 #'
+#' The JSON files of some studies (e.g. ST000396) do not contain the
+#' `STUDY_ID` and `ANALYSIS_ID`. These are then determined from the name of the
+#' file, which starts with the study or analysis ID if it was downloaded with
+#' [downloadMwTab()]. For a study ID, the analysis IDs are retrieved from the
+#' Metabolomics Workbench REST service. A warning is issued if the IDs can not
+#' be determined; such analyses are named `"analysis_1"`, `"analysis_2"`, etc.
+#'
 #' @param file `character(1)` with the path to the mwTab JSON file.
 #'
 #' @return Named `list` of analyses, names being the analysis IDs.
@@ -120,6 +127,7 @@ readMwTab <- function(file) {
         x <- list(x)
     if (!length(x) || !all(vapply(x, .is_mwtab_analysis, NA)))
         stop("'", file, "' is not an mwTab JSON file", call. = FALSE)
+    x <- .fill_mwtab_ids(x, file)
     ids <- vapply(x, function(z)
         .first(z[["METABOLOMICS WORKBENCH"]][["ANALYSIS_ID"]]), "")
     ids[is.na(ids)] <- paste0("analysis_", which(is.na(ids)))
@@ -130,6 +138,68 @@ readMwTab <- function(file) {
 .is_mwtab_analysis <- function(x) {
     is.list(x) && !is.null(names(x)) &&
         is.list(x[["METABOLOMICS WORKBENCH"]])
+}
+
+## Add the study and analysis IDs to analyses of an mwTab file lacking them.
+.fill_mwtab_ids <- function(x, file) {
+    miss <- vapply(x, function(z) {
+        mw <- z[["METABOLOMICS WORKBENCH"]]
+        is.na(.first(mw[["STUDY_ID"]])) || is.na(.first(mw[["ANALYSIS_ID"]]))
+    }, NA)
+    if (!any(miss))
+        return(x)
+    id <- regmatches(basename(file), regexpr("^(ST|AN)[0-9]+", basename(file)))
+    if (!length(id)) {
+        warning("'", file, "' does not contain the study and analysis IDs and ",
+                "they can not be determined from the file name",
+                call. = FALSE)
+        return(x)
+    }
+    if (startsWith(id, "AN"))
+        return(.set_mwtab_ids(x, miss, analysis = rep(id, length(x))))
+    analyses <- .match_study_analyses(x, id)
+    if (is.null(analyses))
+        warning("The analysis IDs of '", file, "' could not be determined",
+                call. = FALSE)
+    .set_mwtab_ids(x, miss, study = id, analysis = analyses)
+}
+
+.set_mwtab_ids <- function(x, miss, study = NULL, analysis = NULL) {
+    for (i in which(miss)) {
+        mw <- x[[i]][["METABOLOMICS WORKBENCH"]]
+        ids <- list(STUDY_ID = .first(mw[["STUDY_ID"]], study %||% NA_character_),
+                    ANALYSIS_ID = .first(mw[["ANALYSIS_ID"]],
+                                         analysis[i] %||% NA_character_))
+        x[[i]][["METABOLOMICS WORKBENCH"]] <-
+            c(ids[!is.na(ids)], mw[setdiff(names(mw), names(ids))])
+    }
+    x
+}
+
+## IDs of the analyses in `x` of study `id`, or `NULL` if they can not be
+## determined. The REST service lists the analyses of a study in the order of
+## its mwTab file, which is confirmed with their number and ion modes.
+.match_study_analyses <- function(x, id) {
+    res <- tryCatch(.study_analyses(id), error = function(e) NULL,
+                    warning = function(w) NULL)
+    if (length(res) != length(x))
+        return(NULL)
+    modes <- vapply(x, function(z) .first(z[["MS"]][["ION_MODE"]], ""), "")
+    rest <- vapply(res, function(z) .first(z[["ion_mode"]], ""), "")
+    if (!identical(unname(toupper(modes)), unname(toupper(rest))))
+        return(NULL)
+    vapply(res, function(z) .first(z[["analysis_id"]]), "", USE.NAMES = FALSE)
+}
+
+## List of the analyses of a study, as returned by the REST service: a single
+## analysis is returned as such, several as a named list of analyses.
+.study_analyses <- function(id) {
+    tmp <- tempfile(fileext = ".json")
+    on.exit(unlink(tmp))
+    download.file(paste0(.MW_REST, "/study_id/", id, "/analysis"), tmp,
+                  mode = "wb", quiet = TRUE)
+    res <- jsonlite::fromJSON(tmp, simplifyVector = FALSE)
+    if (is.null(res[["analysis_id"]])) unname(res) else list(res)
 }
 
 ## Return a single mwTab analysis from `x`, which can be the path to an mwTab

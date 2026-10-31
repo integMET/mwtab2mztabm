@@ -184,7 +184,9 @@ checkStudyVariableAbundance <- function(file, na.rm = TRUE, tolerance = 1e-8) {
 #'    Parquet file and write the mzTab-M file ([assembleMzTabM()]).
 #'
 #' The files are named `<STUDY_ID>_<ANALYSIS_ID>.toml`, `.parquet` and
-#' `.mztab`.
+#' `.mztab`. If the IDs can not be determined (see [readMwTab()]), the name of
+#' the analysis (e.g. `analysis_1`) is used so that each analysis has its own
+#' files.
 #'
 #' @param x `character(1)` with the path to a local mwTab JSON file or a
 #'     Metabolomics Workbench study ID, analysis ID or URL (see
@@ -226,8 +228,11 @@ mwtabToMzTabM <- function(x, outdir = ".", analysis_id = NULL, ...) {
     dir.create(outdir, recursive = TRUE, showWarnings = FALSE)
     res <- lapply(analysis_id, function(an) {
         a <- mw[[an]]
-        base <- file.path(outdir, .mztab_id(a[["METABOLOMICS WORKBENCH"]]))
-        out <- paste0(base, c(".toml", ".parquet", ".mztab"))
+        wb <- a[["METABOLOMICS WORKBENCH"]]
+        id <- .mztab_id(wb)
+        if (is.na(.first(wb[["ANALYSIS_ID"]])))
+            id <- paste0(id, "_", an)
+        out <- paste0(file.path(outdir, id), c(".toml", ".parquet", ".mztab"))
         message("Converting analysis ", an)
         withCallingHandlers({
             mwtabToToml(a, out[1L])
