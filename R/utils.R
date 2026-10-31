@@ -1,4 +1,4 @@
-#' @importFrom utils download.file head packageVersion
+#' @importFrom utils URLencode download.file head packageVersion
 #' @importFrom stats setNames
 NULL
 

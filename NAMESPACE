@@ -15,6 +15,7 @@ export(smlDatabases)
 export(smlFromParquet)
 importFrom(stats,setNames)
 importFrom(utils,
+  URLencode,
   download.file,
   head,
   packageVersion

@@ -186,6 +186,9 @@ key-value metadata of the file (see `?mwtabToParquet`).
   available in `opt_global_metabolite_name`.
 - The validator does not accept `null` as MS run location. If no raw file
   name is available, the sample ID is used.
+- The MS run location has to be a valid URI, so it is percent-encoded (e.g.
+  `Sample # 1` becomes `Sample%20%23%201`). Path separators, URIs and values
+  that are already percent-encoded are kept.
 - `RmzTabM::mzTabMValidator()` (and thus `writeMzTabM(validate = TRUE)`)
   reports files without any validation message as failed. `assembleMzTabM()`
   handles that case itself.
