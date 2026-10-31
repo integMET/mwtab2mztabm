@@ -68,46 +68,46 @@ MTD	sample[9]	sample # 9
 MTD	sample[9]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
 MTD	sample[9]-custom[1]	[,,13C media incubation time, 72 hours]
 MTD	sample[9]-custom[2]	[,,assay, TCA media concentrations]
-MTD	ms_run[1]-location	sample # 1
+MTD	ms_run[1]-location	sample%20%23%201
 MTD	ms_run[1]-instrument_ref	instrument[1]
 MTD	ms_run[1]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
-MTD	ms_run[2]-location	sample # 2
+MTD	ms_run[2]-location	sample%20%23%202
 MTD	ms_run[2]-instrument_ref	instrument[1]
 MTD	ms_run[2]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
-MTD	ms_run[3]-location	sample # 3
+MTD	ms_run[3]-location	sample%20%23%203
 MTD	ms_run[3]-instrument_ref	instrument[1]
 MTD	ms_run[3]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
-MTD	ms_run[4]-location	sample # 4
+MTD	ms_run[4]-location	sample%20%23%204
 MTD	ms_run[4]-instrument_ref	instrument[1]
 MTD	ms_run[4]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
-MTD	ms_run[5]-location	sample # 5
+MTD	ms_run[5]-location	sample%20%23%205
 MTD	ms_run[5]-instrument_ref	instrument[1]
 MTD	ms_run[5]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
-MTD	ms_run[6]-location	sample # 6
+MTD	ms_run[6]-location	sample%20%23%206
 MTD	ms_run[6]-instrument_ref	instrument[1]
 MTD	ms_run[6]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
-MTD	ms_run[7]-location	sample # 7
+MTD	ms_run[7]-location	sample%20%23%207
 MTD	ms_run[7]-instrument_ref	instrument[1]
 MTD	ms_run[7]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
-MTD	ms_run[8]-location	sample # 8
+MTD	ms_run[8]-location	sample%20%23%208
 MTD	ms_run[8]-instrument_ref	instrument[1]
 MTD	ms_run[8]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
-MTD	ms_run[9]-location	sample # 9
+MTD	ms_run[9]-location	sample%20%23%209
 MTD	ms_run[9]-instrument_ref	instrument[1]
 MTD	ms_run[9]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
-MTD	ms_run[10]-location	sample # 10
+MTD	ms_run[10]-location	sample%20%23%2010
 MTD	ms_run[10]-instrument_ref	instrument[1]
 MTD	ms_run[10]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
-MTD	ms_run[11]-location	sample # 11
+MTD	ms_run[11]-location	sample%20%23%2011
 MTD	ms_run[11]-instrument_ref	instrument[1]
 MTD	ms_run[11]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
-MTD	ms_run[12]-location	sample # 12
+MTD	ms_run[12]-location	sample%20%23%2012
 MTD	ms_run[12]-instrument_ref	instrument[1]
 MTD	ms_run[12]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
-MTD	ms_run[13]-location	sample # 13
+MTD	ms_run[13]-location	sample%20%23%2013
 MTD	ms_run[13]-instrument_ref	instrument[1]
 MTD	ms_run[13]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
-MTD	ms_run[14]-location	sample # 14
+MTD	ms_run[14]-location	sample%20%23%2014
 MTD	ms_run[14]-instrument_ref	instrument[1]
 MTD	ms_run[14]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
 MTD	assay[1]	sample # 1

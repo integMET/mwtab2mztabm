@@ -22,7 +22,7 @@
 #'   raw file name in the additional sample data (key `RAW_FILE_NAME`) and the
 #'   scan polarity from the `ION_MODE`. If no raw file name is available, the
 #'   sample ID is used as location since the jmzTab-M validator does not
-#'   accept `"null"`.
+#'   accept `"null"`. The location is percent-encoded to be a valid URI.
 #' - `assay[1-n]`: one assay per sample, linking to its sample and MS run.
 #' - `study_variable_group[1-n]`, `study_variable[1-n]`: one study variable
 #'   group for each sample factor, with one study variable for each of its
@@ -95,7 +95,7 @@ mtdFromToml <- function(x, assays = NULL, databases = NULL,
                  .custom_fields(mw, x[["CHROMATOGRAPHY"]]))
     sdata <- .sample_data(x, assays)
     has_instrument <- any(grepl("^instrument\\[1\\]", mtd[, 1L]))
-    sdata$..location <- .clean_text(sdata$..location)
+    sdata$..location <- .location_uri(.clean_text(sdata$..location))
     sdata$..scan_polarity <- scan_polarity %||% .scan_polarity(ms)
     if (length(species))
         sdata$..species <- species
@@ -182,6 +182,21 @@ mtdFromToml <- function(x, assays = NULL, databases = NULL,
     attr(res, "custom_names") <- .cv_quote(cnames)
     attr(res, "factors") <- .cv_quote(fnames)
     res
+}
+
+## The location of an MS run has to be a valid URI, which file names and sample
+## IDs often are not (e.g. `"Sample # 1"`). Their reserved characters are thus
+## percent-encoded, except for path separators. Of a URI, only characters that
+## are not allowed in URIs are encoded, and values that are already
+## percent-encoded are not changed.
+.location_uri <- function(x) {
+    vapply(enc2utf8(x), function(u) {
+        if (grepl("%[[:xdigit:]]{2}", u))
+            return(u)
+        if (grepl("^[[:alpha:]][[:alnum:]+.-]*://", u))
+            return(URLencode(u))
+        gsub("%2F", "/", URLencode(u, reserved = TRUE), fixed = TRUE)
+    }, "", USE.NAMES = FALSE)
 }
 
 .names_in_order <- function(ssf, element, ord) {

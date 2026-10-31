@@ -50,7 +50,7 @@ custom parameters.
 raw file name in the additional sample data (key \code{RAW_FILE_NAME}) and the
 scan polarity from the \code{ION_MODE}. If no raw file name is available, the
 sample ID is used as location since the jmzTab-M validator does not
-accept \code{"null"}.
+accept \code{"null"}. The location is percent-encoded to be a valid URI.
 \item \code{assay[1-n]}: one assay per sample, linking to its sample and MS run.
 \item \code{study_variable_group[1-n]}, \code{study_variable[1-n]}: one study variable
 group for each sample factor, with one study variable for each of its

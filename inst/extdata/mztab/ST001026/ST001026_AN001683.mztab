@@ -192,112 +192,112 @@ MTD	sample[9]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
 MTD	sample[9]-tissue[1]	[,, Glioma cells, ]
 MTD	sample[9]-custom[1]	[,,species (mwTab), Human cell line]
 MTD	sample[9]-custom[2]	[,,protein ug/vial, 285]
-MTD	ms_run[1]-location	ms6808 - 1
+MTD	ms_run[1]-location	ms6808%20-%201
 MTD	ms_run[1]-instrument_ref	instrument[1]
 MTD	ms_run[1]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
-MTD	ms_run[2]-location	ms6808 - 2
+MTD	ms_run[2]-location	ms6808%20-%202
 MTD	ms_run[2]-instrument_ref	instrument[1]
 MTD	ms_run[2]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
-MTD	ms_run[3]-location	ms6808 - 3
+MTD	ms_run[3]-location	ms6808%20-%203
 MTD	ms_run[3]-instrument_ref	instrument[1]
 MTD	ms_run[3]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
-MTD	ms_run[4]-location	ms6808 - 4
+MTD	ms_run[4]-location	ms6808%20-%204
 MTD	ms_run[4]-instrument_ref	instrument[1]
 MTD	ms_run[4]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
-MTD	ms_run[5]-location	ms6808 - 5
+MTD	ms_run[5]-location	ms6808%20-%205
 MTD	ms_run[5]-instrument_ref	instrument[1]
 MTD	ms_run[5]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
-MTD	ms_run[6]-location	ms6808 - 6
+MTD	ms_run[6]-location	ms6808%20-%206
 MTD	ms_run[6]-instrument_ref	instrument[1]
 MTD	ms_run[6]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
-MTD	ms_run[7]-location	ms6808 - 7
+MTD	ms_run[7]-location	ms6808%20-%207
 MTD	ms_run[7]-instrument_ref	instrument[1]
 MTD	ms_run[7]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
-MTD	ms_run[8]-location	ms6808 - 8
+MTD	ms_run[8]-location	ms6808%20-%208
 MTD	ms_run[8]-instrument_ref	instrument[1]
 MTD	ms_run[8]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
-MTD	ms_run[9]-location	ms6808 - 9
+MTD	ms_run[9]-location	ms6808%20-%209
 MTD	ms_run[9]-instrument_ref	instrument[1]
 MTD	ms_run[9]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
-MTD	ms_run[10]-location	ms6808 - 10
+MTD	ms_run[10]-location	ms6808%20-%2010
 MTD	ms_run[10]-instrument_ref	instrument[1]
 MTD	ms_run[10]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
-MTD	ms_run[11]-location	ms6808 - 11
+MTD	ms_run[11]-location	ms6808%20-%2011
 MTD	ms_run[11]-instrument_ref	instrument[1]
 MTD	ms_run[11]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
-MTD	ms_run[12]-location	ms6808 - 12
+MTD	ms_run[12]-location	ms6808%20-%2012
 MTD	ms_run[12]-instrument_ref	instrument[1]
 MTD	ms_run[12]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
-MTD	ms_run[13]-location	ms6808 - 13
+MTD	ms_run[13]-location	ms6808%20-%2013
 MTD	ms_run[13]-instrument_ref	instrument[1]
 MTD	ms_run[13]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
-MTD	ms_run[14]-location	ms6808 - 14
+MTD	ms_run[14]-location	ms6808%20-%2014
 MTD	ms_run[14]-instrument_ref	instrument[1]
 MTD	ms_run[14]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
-MTD	ms_run[15]-location	ms6808 - 15
+MTD	ms_run[15]-location	ms6808%20-%2015
 MTD	ms_run[15]-instrument_ref	instrument[1]
 MTD	ms_run[15]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
-MTD	ms_run[16]-location	ms6808 - 16
+MTD	ms_run[16]-location	ms6808%20-%2016
 MTD	ms_run[16]-instrument_ref	instrument[1]
 MTD	ms_run[16]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
-MTD	ms_run[17]-location	ms6808 - 17
+MTD	ms_run[17]-location	ms6808%20-%2017
 MTD	ms_run[17]-instrument_ref	instrument[1]
 MTD	ms_run[17]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
-MTD	ms_run[18]-location	ms6808 - 18
+MTD	ms_run[18]-location	ms6808%20-%2018
 MTD	ms_run[18]-instrument_ref	instrument[1]
 MTD	ms_run[18]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
-MTD	ms_run[19]-location	ms6808 - 19
+MTD	ms_run[19]-location	ms6808%20-%2019
 MTD	ms_run[19]-instrument_ref	instrument[1]
 MTD	ms_run[19]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
-MTD	ms_run[20]-location	ms6808 - 20
+MTD	ms_run[20]-location	ms6808%20-%2020
 MTD	ms_run[20]-instrument_ref	instrument[1]
 MTD	ms_run[20]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
-MTD	ms_run[21]-location	ms6808 - 21
+MTD	ms_run[21]-location	ms6808%20-%2021
 MTD	ms_run[21]-instrument_ref	instrument[1]
 MTD	ms_run[21]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
-MTD	ms_run[22]-location	ms6808 - 22
+MTD	ms_run[22]-location	ms6808%20-%2022
 MTD	ms_run[22]-instrument_ref	instrument[1]
 MTD	ms_run[22]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
-MTD	ms_run[23]-location	ms6808 - 23
+MTD	ms_run[23]-location	ms6808%20-%2023
 MTD	ms_run[23]-instrument_ref	instrument[1]
 MTD	ms_run[23]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
-MTD	ms_run[24]-location	ms6808 - 24
+MTD	ms_run[24]-location	ms6808%20-%2024
 MTD	ms_run[24]-instrument_ref	instrument[1]
 MTD	ms_run[24]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
-MTD	ms_run[25]-location	ms6808 - 25
+MTD	ms_run[25]-location	ms6808%20-%2025
 MTD	ms_run[25]-instrument_ref	instrument[1]
 MTD	ms_run[25]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
-MTD	ms_run[26]-location	ms6808 - 26
+MTD	ms_run[26]-location	ms6808%20-%2026
 MTD	ms_run[26]-instrument_ref	instrument[1]
 MTD	ms_run[26]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
-MTD	ms_run[27]-location	ms6808 - 27
+MTD	ms_run[27]-location	ms6808%20-%2027
 MTD	ms_run[27]-instrument_ref	instrument[1]
 MTD	ms_run[27]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
-MTD	ms_run[28]-location	ms6808 - 28
+MTD	ms_run[28]-location	ms6808%20-%2028
 MTD	ms_run[28]-instrument_ref	instrument[1]
 MTD	ms_run[28]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
-MTD	ms_run[29]-location	ms6808 - 29
+MTD	ms_run[29]-location	ms6808%20-%2029
 MTD	ms_run[29]-instrument_ref	instrument[1]
 MTD	ms_run[29]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
-MTD	ms_run[30]-location	ms6808 - 30
+MTD	ms_run[30]-location	ms6808%20-%2030
 MTD	ms_run[30]-instrument_ref	instrument[1]
 MTD	ms_run[30]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
-MTD	ms_run[31]-location	ms6808 - 31
+MTD	ms_run[31]-location	ms6808%20-%2031
 MTD	ms_run[31]-instrument_ref	instrument[1]
 MTD	ms_run[31]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
-MTD	ms_run[32]-location	ms6808 - 32
+MTD	ms_run[32]-location	ms6808%20-%2032
 MTD	ms_run[32]-instrument_ref	instrument[1]
 MTD	ms_run[32]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
-MTD	ms_run[33]-location	ms6808 - 33
+MTD	ms_run[33]-location	ms6808%20-%2033
 MTD	ms_run[33]-instrument_ref	instrument[1]
 MTD	ms_run[33]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
-MTD	ms_run[34]-location	ms6808 - 34
+MTD	ms_run[34]-location	ms6808%20-%2034
 MTD	ms_run[34]-instrument_ref	instrument[1]
 MTD	ms_run[34]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
-MTD	ms_run[35]-location	ms6808 - 35
+MTD	ms_run[35]-location	ms6808%20-%2035
 MTD	ms_run[35]-instrument_ref	instrument[1]
 MTD	ms_run[35]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
-MTD	ms_run[36]-location	ms6808 - 36
+MTD	ms_run[36]-location	ms6808%20-%2036
 MTD	ms_run[36]-instrument_ref	instrument[1]
 MTD	ms_run[36]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
 MTD	assay[1]	ms6808 - 1

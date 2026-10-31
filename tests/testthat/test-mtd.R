@@ -91,6 +91,39 @@ test_that("mtdFromToml maps GC-MS analyses", {
     expect_equal(mtd_value(mtd, "ms_run[1]-location"), "S1")
 })
 
+test_that("mtdFromToml reports locations as valid URIs", {
+    x <- readMwTabToml(example_toml("AN999999"))
+    x$SUBJECT_SAMPLE_FACTORS[[1L]]$`Sample ID` <- "Sample # 1"
+    mtd <- mtdFromToml(x)
+    expect_equal(mtd_value(mtd, "ms_run[1]-location"), "Sample%20%23%201")
+    ## the sample name itself is kept
+    expect_equal(mtd_value(mtd, "sample[1]"), "Sample # 1")
+
+    x <- readMwTabToml(example_toml())
+    x$SUBJECT_SAMPLE_FACTORS[[1L]]$`Additional sample data`$RAW_FILE_NAME <-
+        "run 1.mzML"
+    mtd <- mtdFromToml(x)
+    expect_equal(mtd_value(mtd, "ms_run[1]-location"), "run%201.mzML")
+})
+
+test_that(".location_uri percent-encodes locations once", {
+    f <- mwtab2mztabm:::.location_uri
+    expect_equal(f(c("s1.mzML", "a-b_c.d~e")), c("s1.mzML", "a-b_c.d~e"))
+    expect_equal(f(c("ms6808 - 1", "100% b", "a+b:c")),
+                 c("ms6808%20-%201", "100%25%20b", "a%2Bb%3Ac"))
+    expect_equal(f("µl sample"), "%C2%B5l%20sample")
+    ## path separators are kept
+    expect_equal(f("data/run 1.raw"), "data/run%201.raw")
+    expect_equal(f("/data/run 1.raw"), "/data/run%201.raw")
+    ## URIs: only characters that are not allowed are encoded
+    expect_equal(f("file:///data/run 1.raw"), "file:///data/run%201.raw")
+    expect_equal(f("https://example.org/a.raw?x=1#y"),
+                 "https://example.org/a.raw?x=1#y")
+    ## not encoded twice
+    expect_equal(f("Sample%20%23%201"), "Sample%20%23%201")
+    expect_equal(f(f("Sample # 1")), f("Sample # 1"))
+})
+
 test_that("mtdFromToml maps hybrid analyzers and skips placeholders", {
     x <- readMwTabToml(example_toml())
     x$MS$INSTRUMENT_TYPE <- "QTOF"
