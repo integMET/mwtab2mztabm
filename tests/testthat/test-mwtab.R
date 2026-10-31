@@ -45,6 +45,39 @@ test_that("readMwTab reads all analyses", {
     expect_error(readMwTab(f), "not an mwTab")
 })
 
+test_that("readMwTab removes control characters of invalid JSON files", {
+    bytes <- readBin(example_file, "raw", file.size(example_file))
+    f <- tempfile(fileext = ".json")
+
+    ## a control character within a string makes the JSON invalid
+    s <- charToRaw("\"STUDY_ID\":\"")
+    i <- grepRaw(s, bytes, fixed = TRUE)[1L] + length(s) - 1L
+    writeBin(c(bytes[seq_len(i)], as.raw(c(0x1d, 0x00)),
+               bytes[-seq_len(i)]), f)
+    expect_error(jsonlite::fromJSON(f))
+    expect_warning(mw <- readMwTab(f), "Removed 2 control character")
+    expect_warning(readMwTab(f), basename(f), fixed = TRUE)
+    expect_equal(mw, readMwTab(example_file))
+
+    ## tabs, line feeds, carriage returns and UTF-8 characters are kept
+    txt <- paste0("{\"METABOLOMICS WORKBENCH\":\t{\r\n\"STUDY_ID\":\"ST1\",",
+                  "\"ANALYSIS_ID\":\"AN1\"},\n\"X\":\"10 ", intToUtf8(0xb5),
+                  "M\"}")
+    writeBin(c(charToRaw(enc2utf8(txt))), f)
+    expect_no_warning(mw <- readMwTab(f))
+    expect_equal(mw[["AN1"]]$X, paste0("10 ", intToUtf8(0xb5), "M"))
+
+    bad <- c(charToRaw(enc2utf8(txt)))
+    i <- grepRaw(charToRaw("10 "), bad, fixed = TRUE)
+    writeBin(c(bad[seq_len(i - 1L)], as.raw(0x1d), bad[i:length(bad)]), f)
+    expect_warning(mw <- readMwTab(f), "Removed 1 control character")
+    expect_equal(mw[["AN1"]]$X, paste0("10 ", intToUtf8(0xb5), "M"))
+})
+
+test_that("readMwTab does not warn for valid JSON files", {
+    expect_no_warning(readMwTab(example_file))
+})
+
 ## mwTab JSON file of the example without the study and analysis IDs.
 example_without_ids <- function(file) {
     mw <- unname(readMwTab(example_file))

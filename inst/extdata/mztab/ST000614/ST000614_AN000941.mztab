@@ -1,0 +1,1043 @@
+MTD	mzTab-version	2.1.0-M
+MTD	mzTab-ID	ST000614_AN000941
+MTD	mzTab-profile	M+S
+MTD	title	Tobacco-specific carcinogens in Bladder Cancer
+MTD	description	Smoking induced methylation plays a critical role in the accumulation of methylated metabolites, DNA adducts damage and altered metabolism in BCa. These deregulated metabolites can be detected non-invasively and can be used as causal biomarkers that can predict the risk of developing BCa in smokers
+MTD	instrument[1]-name	[MS, MS:1000031, instrument model, Agilent 6495 QQQ]
+MTD	instrument[1]-source	[MS, MS:1000073, electrospray ionization, ]
+MTD	instrument[1]-analyzer[1]	[MS, MS:1000081, quadrupole, ]
+MTD	software[1]	[MS, MS:1000799, custom unreleased software tool, mwtab2mztabm 0.1.0]
+MTD	contact[1]-name	Nagireddy Putluri
+MTD	contact[1]-affiliation	Baylor College of Medicine
+MTD	contact[1]-email	putluri@bcm.edu
+MTD	uri[1]	https://www.metabolomicsworkbench.org/data/DRCCMetadata.php?Mode=Study&StudyID=ST000614
+MTD	quantification_method	[MS, MS:1001834, LC-MS label-free quantitation analysis, ]
+MTD	sample[1]	4856
+MTD	sample[1]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[10]	18890
+MTD	sample[10]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[100]	H335-14
+MTD	sample[100]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[101]	H4407-14
+MTD	sample[101]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[102]	H4545-14
+MTD	sample[102]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[103]	H4868-14
+MTD	sample[103]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[104]	H6181-14
+MTD	sample[104]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[105]	H6655-14(H5347-14)
+MTD	sample[105]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[106]	H6828-14
+MTD	sample[106]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[107]	H7959-14
+MTD	sample[107]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[108]	H8220-14(H10472-14)
+MTD	sample[108]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[109]	H8541-14
+MTD	sample[109]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[11]	19071
+MTD	sample[11]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[110]	H8739-14
+MTD	sample[110]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[111]	W00015-15
+MTD	sample[111]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[112]	W00760-14
+MTD	sample[112]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[113]	W00853-14
+MTD	sample[113]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[114]	W101-14
+MTD	sample[114]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[115]	W114-14
+MTD	sample[115]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[116]	W446-14
+MTD	sample[116]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[117]	W465-14
+MTD	sample[117]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[118]	W610-14
+MTD	sample[118]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[119]	W768-13
+MTD	sample[119]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[12]	19229
+MTD	sample[12]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[13]	19367
+MTD	sample[13]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[14]	19627
+MTD	sample[14]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[15]	19801
+MTD	sample[15]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[16]	19846
+MTD	sample[16]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[17]	20500
+MTD	sample[17]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[18]	20636
+MTD	sample[18]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[19]	20957
+MTD	sample[19]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[2]	8230
+MTD	sample[2]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[20]	21813
+MTD	sample[20]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[21]	21964
+MTD	sample[21]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[22]	21981
+MTD	sample[22]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[23]	22018
+MTD	sample[23]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[24]	22186
+MTD	sample[24]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[25]	22201
+MTD	sample[25]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[26]	22233
+MTD	sample[26]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[27]	04755f1cc
+MTD	sample[27]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[28]	07d3d7e4
+MTD	sample[28]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[29]	0a15bd3c
+MTD	sample[29]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[3]	13742
+MTD	sample[3]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[30]	0d33871d
+MTD	sample[30]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[31]	0e54addb
+MTD	sample[31]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[32]	17F35E1F
+MTD	sample[32]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[33]	1afbc5b2
+MTD	sample[33]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[34]	1b44fdcd
+MTD	sample[34]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[35]	200945e 4
+MTD	sample[35]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[36]	2192252c
+MTD	sample[36]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[37]	276330f9
+MTD	sample[37]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[38]	31842d51
+MTD	sample[38]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[39]	4b24c7f3
+MTD	sample[39]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[4]	14021
+MTD	sample[4]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[40]	5A929F9E
+MTD	sample[40]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[41]	5b47e65a
+MTD	sample[41]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[42]	62e27a7e
+MTD	sample[42]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[43]	6394FAA2
+MTD	sample[43]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[44]	9AB7EADC
+MTD	sample[44]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[45]	9B7DA93A
+MTD	sample[45]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[46]	a98f2fbe
+MTD	sample[46]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[47]	cfc7fle8
+MTD	sample[47]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[48]	dac57f3d
+MTD	sample[48]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[49]	ddae2cee
+MTD	sample[49]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[5]	16276
+MTD	sample[5]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[50]	ee79a098
+MTD	sample[50]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[51]	H00545-15
+MTD	sample[51]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[52]	H11273-14
+MTD	sample[52]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[53]	H1135-15
+MTD	sample[53]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[54]	H13302-13
+MTD	sample[54]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[55]	H13329-13
+MTD	sample[55]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[56]	H13928
+MTD	sample[56]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[57]	H14335-13
+MTD	sample[57]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[58]	H14745-13
+MTD	sample[58]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[59]	H15082-14
+MTD	sample[59]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[6]	16368
+MTD	sample[6]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[60]	H15695-13
+MTD	sample[60]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[61]	H15923-13
+MTD	sample[61]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[62]	H16027-13
+MTD	sample[62]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[63]	H16542-13
+MTD	sample[63]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[64]	H16586-14
+MTD	sample[64]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[65]	H16912-13
+MTD	sample[65]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[66]	H1694-14
+MTD	sample[66]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[67]	H17407-14
+MTD	sample[67]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[68]	H17745-14
+MTD	sample[68]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[69]	H17983-13
+MTD	sample[69]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[7]	16763
+MTD	sample[7]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[70]	H18484-14
+MTD	sample[70]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[71]	H19025-13
+MTD	sample[71]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[72]	H19419-13
+MTD	sample[72]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[73]	H1947-14
+MTD	sample[73]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[74]	H20182-13
+MTD	sample[74]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[75]	H20232-14
+MTD	sample[75]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[76]	H20475-13
+MTD	sample[76]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[77]	H2059-14
+MTD	sample[77]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[78]	H20870-13
+MTD	sample[78]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[79]	H20909-13
+MTD	sample[79]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[8]	16867
+MTD	sample[8]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[80]	H20941-13
+MTD	sample[80]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[81]	H21013-14
+MTD	sample[81]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[82]	H2153-14
+MTD	sample[82]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[83]	H21551-14
+MTD	sample[83]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[84]	H21617-13
+MTD	sample[84]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[85]	H21750-13
+MTD	sample[85]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[86]	H21956-14
+MTD	sample[86]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[87]	H22582-13
+MTD	sample[87]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[88]	H23671-13
+MTD	sample[88]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[89]	H25045-13
+MTD	sample[89]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[9]	18132
+MTD	sample[9]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[90]	H25638-14
+MTD	sample[90]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[91]	H2574-14
+MTD	sample[91]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[92]	H25817-13
+MTD	sample[92]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[93]	H25875-14
+MTD	sample[93]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[94]	H26184-14
+MTD	sample[94]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[95]	H2693-14
+MTD	sample[95]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[96]	H27622-14
+MTD	sample[96]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[97]	H27975-13
+MTD	sample[97]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[98]	H28074-13
+MTD	sample[98]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	sample[99]	H321-14
+MTD	sample[99]-species[1]	[NCBITaxon, NCBITaxon:9606, Homo sapiens, ]
+MTD	ms_run[1]-location	4856
+MTD	ms_run[1]-instrument_ref	instrument[1]
+MTD	ms_run[1]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[2]-location	8230
+MTD	ms_run[2]-instrument_ref	instrument[1]
+MTD	ms_run[2]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[3]-location	13742
+MTD	ms_run[3]-instrument_ref	instrument[1]
+MTD	ms_run[3]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[4]-location	14021
+MTD	ms_run[4]-instrument_ref	instrument[1]
+MTD	ms_run[4]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[5]-location	16276
+MTD	ms_run[5]-instrument_ref	instrument[1]
+MTD	ms_run[5]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[6]-location	16368
+MTD	ms_run[6]-instrument_ref	instrument[1]
+MTD	ms_run[6]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[7]-location	16763
+MTD	ms_run[7]-instrument_ref	instrument[1]
+MTD	ms_run[7]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[8]-location	16867
+MTD	ms_run[8]-instrument_ref	instrument[1]
+MTD	ms_run[8]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[9]-location	18132
+MTD	ms_run[9]-instrument_ref	instrument[1]
+MTD	ms_run[9]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[10]-location	18890
+MTD	ms_run[10]-instrument_ref	instrument[1]
+MTD	ms_run[10]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[11]-location	19071
+MTD	ms_run[11]-instrument_ref	instrument[1]
+MTD	ms_run[11]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[12]-location	19229
+MTD	ms_run[12]-instrument_ref	instrument[1]
+MTD	ms_run[12]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[13]-location	19367
+MTD	ms_run[13]-instrument_ref	instrument[1]
+MTD	ms_run[13]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[14]-location	19627
+MTD	ms_run[14]-instrument_ref	instrument[1]
+MTD	ms_run[14]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[15]-location	19801
+MTD	ms_run[15]-instrument_ref	instrument[1]
+MTD	ms_run[15]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[16]-location	19846
+MTD	ms_run[16]-instrument_ref	instrument[1]
+MTD	ms_run[16]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[17]-location	20500
+MTD	ms_run[17]-instrument_ref	instrument[1]
+MTD	ms_run[17]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[18]-location	20636
+MTD	ms_run[18]-instrument_ref	instrument[1]
+MTD	ms_run[18]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[19]-location	20957
+MTD	ms_run[19]-instrument_ref	instrument[1]
+MTD	ms_run[19]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[20]-location	21813
+MTD	ms_run[20]-instrument_ref	instrument[1]
+MTD	ms_run[20]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[21]-location	21964
+MTD	ms_run[21]-instrument_ref	instrument[1]
+MTD	ms_run[21]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[22]-location	21981
+MTD	ms_run[22]-instrument_ref	instrument[1]
+MTD	ms_run[22]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[23]-location	22018
+MTD	ms_run[23]-instrument_ref	instrument[1]
+MTD	ms_run[23]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[24]-location	22186
+MTD	ms_run[24]-instrument_ref	instrument[1]
+MTD	ms_run[24]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[25]-location	22201
+MTD	ms_run[25]-instrument_ref	instrument[1]
+MTD	ms_run[25]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[26]-location	22233
+MTD	ms_run[26]-instrument_ref	instrument[1]
+MTD	ms_run[26]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[27]-location	04755f1cc
+MTD	ms_run[27]-instrument_ref	instrument[1]
+MTD	ms_run[27]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[28]-location	07d3d7e4
+MTD	ms_run[28]-instrument_ref	instrument[1]
+MTD	ms_run[28]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[29]-location	0a15bd3c
+MTD	ms_run[29]-instrument_ref	instrument[1]
+MTD	ms_run[29]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[30]-location	0d33871d
+MTD	ms_run[30]-instrument_ref	instrument[1]
+MTD	ms_run[30]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[31]-location	0e54addb
+MTD	ms_run[31]-instrument_ref	instrument[1]
+MTD	ms_run[31]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[32]-location	17F35E1F
+MTD	ms_run[32]-instrument_ref	instrument[1]
+MTD	ms_run[32]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[33]-location	1afbc5b2
+MTD	ms_run[33]-instrument_ref	instrument[1]
+MTD	ms_run[33]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[34]-location	1b44fdcd
+MTD	ms_run[34]-instrument_ref	instrument[1]
+MTD	ms_run[34]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[35]-location	200945e%204
+MTD	ms_run[35]-instrument_ref	instrument[1]
+MTD	ms_run[35]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[36]-location	2192252c
+MTD	ms_run[36]-instrument_ref	instrument[1]
+MTD	ms_run[36]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[37]-location	276330f9
+MTD	ms_run[37]-instrument_ref	instrument[1]
+MTD	ms_run[37]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[38]-location	31842d51
+MTD	ms_run[38]-instrument_ref	instrument[1]
+MTD	ms_run[38]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[39]-location	4b24c7f3
+MTD	ms_run[39]-instrument_ref	instrument[1]
+MTD	ms_run[39]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[40]-location	5A929F9E
+MTD	ms_run[40]-instrument_ref	instrument[1]
+MTD	ms_run[40]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[41]-location	5b47e65a
+MTD	ms_run[41]-instrument_ref	instrument[1]
+MTD	ms_run[41]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[42]-location	62e27a7e
+MTD	ms_run[42]-instrument_ref	instrument[1]
+MTD	ms_run[42]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[43]-location	6394FAA2
+MTD	ms_run[43]-instrument_ref	instrument[1]
+MTD	ms_run[43]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[44]-location	9AB7EADC
+MTD	ms_run[44]-instrument_ref	instrument[1]
+MTD	ms_run[44]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[45]-location	9B7DA93A
+MTD	ms_run[45]-instrument_ref	instrument[1]
+MTD	ms_run[45]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[46]-location	a98f2fbe
+MTD	ms_run[46]-instrument_ref	instrument[1]
+MTD	ms_run[46]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[47]-location	cfc7fle8
+MTD	ms_run[47]-instrument_ref	instrument[1]
+MTD	ms_run[47]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[48]-location	dac57f3d
+MTD	ms_run[48]-instrument_ref	instrument[1]
+MTD	ms_run[48]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[49]-location	ddae2cee
+MTD	ms_run[49]-instrument_ref	instrument[1]
+MTD	ms_run[49]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[50]-location	ee79a098
+MTD	ms_run[50]-instrument_ref	instrument[1]
+MTD	ms_run[50]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[51]-location	H00545-15
+MTD	ms_run[51]-instrument_ref	instrument[1]
+MTD	ms_run[51]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[52]-location	H11273-14
+MTD	ms_run[52]-instrument_ref	instrument[1]
+MTD	ms_run[52]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[53]-location	H1135-15
+MTD	ms_run[53]-instrument_ref	instrument[1]
+MTD	ms_run[53]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[54]-location	H13302-13
+MTD	ms_run[54]-instrument_ref	instrument[1]
+MTD	ms_run[54]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[55]-location	H13329-13
+MTD	ms_run[55]-instrument_ref	instrument[1]
+MTD	ms_run[55]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[56]-location	H13928
+MTD	ms_run[56]-instrument_ref	instrument[1]
+MTD	ms_run[56]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[57]-location	H14335-13
+MTD	ms_run[57]-instrument_ref	instrument[1]
+MTD	ms_run[57]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[58]-location	H14745-13
+MTD	ms_run[58]-instrument_ref	instrument[1]
+MTD	ms_run[58]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[59]-location	H15082-14
+MTD	ms_run[59]-instrument_ref	instrument[1]
+MTD	ms_run[59]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[60]-location	H15695-13
+MTD	ms_run[60]-instrument_ref	instrument[1]
+MTD	ms_run[60]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[61]-location	H15923-13
+MTD	ms_run[61]-instrument_ref	instrument[1]
+MTD	ms_run[61]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[62]-location	H16027-13
+MTD	ms_run[62]-instrument_ref	instrument[1]
+MTD	ms_run[62]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[63]-location	H16542-13
+MTD	ms_run[63]-instrument_ref	instrument[1]
+MTD	ms_run[63]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[64]-location	H16586-14
+MTD	ms_run[64]-instrument_ref	instrument[1]
+MTD	ms_run[64]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[65]-location	H16912-13
+MTD	ms_run[65]-instrument_ref	instrument[1]
+MTD	ms_run[65]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[66]-location	H1694-14
+MTD	ms_run[66]-instrument_ref	instrument[1]
+MTD	ms_run[66]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[67]-location	H17407-14
+MTD	ms_run[67]-instrument_ref	instrument[1]
+MTD	ms_run[67]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[68]-location	H17745-14
+MTD	ms_run[68]-instrument_ref	instrument[1]
+MTD	ms_run[68]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[69]-location	H17983-13
+MTD	ms_run[69]-instrument_ref	instrument[1]
+MTD	ms_run[69]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[70]-location	H18484-14
+MTD	ms_run[70]-instrument_ref	instrument[1]
+MTD	ms_run[70]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[71]-location	H19025-13
+MTD	ms_run[71]-instrument_ref	instrument[1]
+MTD	ms_run[71]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[72]-location	H19419-13
+MTD	ms_run[72]-instrument_ref	instrument[1]
+MTD	ms_run[72]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[73]-location	H1947-14
+MTD	ms_run[73]-instrument_ref	instrument[1]
+MTD	ms_run[73]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[74]-location	H20182-13
+MTD	ms_run[74]-instrument_ref	instrument[1]
+MTD	ms_run[74]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[75]-location	H20232-14
+MTD	ms_run[75]-instrument_ref	instrument[1]
+MTD	ms_run[75]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[76]-location	H20475-13
+MTD	ms_run[76]-instrument_ref	instrument[1]
+MTD	ms_run[76]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[77]-location	H2059-14
+MTD	ms_run[77]-instrument_ref	instrument[1]
+MTD	ms_run[77]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[78]-location	H20870-13
+MTD	ms_run[78]-instrument_ref	instrument[1]
+MTD	ms_run[78]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[79]-location	H20909-13
+MTD	ms_run[79]-instrument_ref	instrument[1]
+MTD	ms_run[79]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[80]-location	H20941-13
+MTD	ms_run[80]-instrument_ref	instrument[1]
+MTD	ms_run[80]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[81]-location	H21013-14
+MTD	ms_run[81]-instrument_ref	instrument[1]
+MTD	ms_run[81]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[82]-location	H2153-14
+MTD	ms_run[82]-instrument_ref	instrument[1]
+MTD	ms_run[82]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[83]-location	H21551-14
+MTD	ms_run[83]-instrument_ref	instrument[1]
+MTD	ms_run[83]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[84]-location	H21617-13
+MTD	ms_run[84]-instrument_ref	instrument[1]
+MTD	ms_run[84]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[85]-location	H21750-13
+MTD	ms_run[85]-instrument_ref	instrument[1]
+MTD	ms_run[85]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[86]-location	H21956-14
+MTD	ms_run[86]-instrument_ref	instrument[1]
+MTD	ms_run[86]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[87]-location	H22582-13
+MTD	ms_run[87]-instrument_ref	instrument[1]
+MTD	ms_run[87]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[88]-location	H23671-13
+MTD	ms_run[88]-instrument_ref	instrument[1]
+MTD	ms_run[88]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[89]-location	H25045-13
+MTD	ms_run[89]-instrument_ref	instrument[1]
+MTD	ms_run[89]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[90]-location	H25638-14
+MTD	ms_run[90]-instrument_ref	instrument[1]
+MTD	ms_run[90]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[91]-location	H2574-14
+MTD	ms_run[91]-instrument_ref	instrument[1]
+MTD	ms_run[91]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[92]-location	H25817-13
+MTD	ms_run[92]-instrument_ref	instrument[1]
+MTD	ms_run[92]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[93]-location	H25875-14
+MTD	ms_run[93]-instrument_ref	instrument[1]
+MTD	ms_run[93]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[94]-location	H26184-14
+MTD	ms_run[94]-instrument_ref	instrument[1]
+MTD	ms_run[94]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[95]-location	H2693-14
+MTD	ms_run[95]-instrument_ref	instrument[1]
+MTD	ms_run[95]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[96]-location	H27622-14
+MTD	ms_run[96]-instrument_ref	instrument[1]
+MTD	ms_run[96]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[97]-location	H27975-13
+MTD	ms_run[97]-instrument_ref	instrument[1]
+MTD	ms_run[97]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[98]-location	H28074-13
+MTD	ms_run[98]-instrument_ref	instrument[1]
+MTD	ms_run[98]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[99]-location	H321-14
+MTD	ms_run[99]-instrument_ref	instrument[1]
+MTD	ms_run[99]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[100]-location	H335-14
+MTD	ms_run[100]-instrument_ref	instrument[1]
+MTD	ms_run[100]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[101]-location	H4407-14
+MTD	ms_run[101]-instrument_ref	instrument[1]
+MTD	ms_run[101]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[102]-location	H4545-14
+MTD	ms_run[102]-instrument_ref	instrument[1]
+MTD	ms_run[102]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[103]-location	H4868-14
+MTD	ms_run[103]-instrument_ref	instrument[1]
+MTD	ms_run[103]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[104]-location	H6181-14
+MTD	ms_run[104]-instrument_ref	instrument[1]
+MTD	ms_run[104]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[105]-location	H6655-14%28H5347-14%29
+MTD	ms_run[105]-instrument_ref	instrument[1]
+MTD	ms_run[105]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[106]-location	H6828-14
+MTD	ms_run[106]-instrument_ref	instrument[1]
+MTD	ms_run[106]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[107]-location	H7959-14
+MTD	ms_run[107]-instrument_ref	instrument[1]
+MTD	ms_run[107]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[108]-location	H8220-14%28H10472-14%29
+MTD	ms_run[108]-instrument_ref	instrument[1]
+MTD	ms_run[108]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[109]-location	H8541-14
+MTD	ms_run[109]-instrument_ref	instrument[1]
+MTD	ms_run[109]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[110]-location	H8739-14
+MTD	ms_run[110]-instrument_ref	instrument[1]
+MTD	ms_run[110]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[111]-location	W00015-15
+MTD	ms_run[111]-instrument_ref	instrument[1]
+MTD	ms_run[111]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[112]-location	W00760-14
+MTD	ms_run[112]-instrument_ref	instrument[1]
+MTD	ms_run[112]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[113]-location	W00853-14
+MTD	ms_run[113]-instrument_ref	instrument[1]
+MTD	ms_run[113]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[114]-location	W101-14
+MTD	ms_run[114]-instrument_ref	instrument[1]
+MTD	ms_run[114]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[115]-location	W114-14
+MTD	ms_run[115]-instrument_ref	instrument[1]
+MTD	ms_run[115]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[116]-location	W446-14
+MTD	ms_run[116]-instrument_ref	instrument[1]
+MTD	ms_run[116]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[117]-location	W465-14
+MTD	ms_run[117]-instrument_ref	instrument[1]
+MTD	ms_run[117]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[118]-location	W610-14
+MTD	ms_run[118]-instrument_ref	instrument[1]
+MTD	ms_run[118]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	ms_run[119]-location	W768-13
+MTD	ms_run[119]-instrument_ref	instrument[1]
+MTD	ms_run[119]-scan_polarity[1]	[MS, MS:1000130, positive scan, ]
+MTD	assay[1]	4856
+MTD	assay[1]-sample_ref	sample[1]
+MTD	assay[1]-ms_run_ref	ms_run[1]
+MTD	assay[10]	18890
+MTD	assay[10]-sample_ref	sample[10]
+MTD	assay[10]-ms_run_ref	ms_run[10]
+MTD	assay[100]	H335-14
+MTD	assay[100]-sample_ref	sample[100]
+MTD	assay[100]-ms_run_ref	ms_run[100]
+MTD	assay[101]	H4407-14
+MTD	assay[101]-sample_ref	sample[101]
+MTD	assay[101]-ms_run_ref	ms_run[101]
+MTD	assay[102]	H4545-14
+MTD	assay[102]-sample_ref	sample[102]
+MTD	assay[102]-ms_run_ref	ms_run[102]
+MTD	assay[103]	H4868-14
+MTD	assay[103]-sample_ref	sample[103]
+MTD	assay[103]-ms_run_ref	ms_run[103]
+MTD	assay[104]	H6181-14
+MTD	assay[104]-sample_ref	sample[104]
+MTD	assay[104]-ms_run_ref	ms_run[104]
+MTD	assay[105]	H6655-14(H5347-14)
+MTD	assay[105]-sample_ref	sample[105]
+MTD	assay[105]-ms_run_ref	ms_run[105]
+MTD	assay[106]	H6828-14
+MTD	assay[106]-sample_ref	sample[106]
+MTD	assay[106]-ms_run_ref	ms_run[106]
+MTD	assay[107]	H7959-14
+MTD	assay[107]-sample_ref	sample[107]
+MTD	assay[107]-ms_run_ref	ms_run[107]
+MTD	assay[108]	H8220-14(H10472-14)
+MTD	assay[108]-sample_ref	sample[108]
+MTD	assay[108]-ms_run_ref	ms_run[108]
+MTD	assay[109]	H8541-14
+MTD	assay[109]-sample_ref	sample[109]
+MTD	assay[109]-ms_run_ref	ms_run[109]
+MTD	assay[11]	19071
+MTD	assay[11]-sample_ref	sample[11]
+MTD	assay[11]-ms_run_ref	ms_run[11]
+MTD	assay[110]	H8739-14
+MTD	assay[110]-sample_ref	sample[110]
+MTD	assay[110]-ms_run_ref	ms_run[110]
+MTD	assay[111]	W00015-15
+MTD	assay[111]-sample_ref	sample[111]
+MTD	assay[111]-ms_run_ref	ms_run[111]
+MTD	assay[112]	W00760-14
+MTD	assay[112]-sample_ref	sample[112]
+MTD	assay[112]-ms_run_ref	ms_run[112]
+MTD	assay[113]	W00853-14
+MTD	assay[113]-sample_ref	sample[113]
+MTD	assay[113]-ms_run_ref	ms_run[113]
+MTD	assay[114]	W101-14
+MTD	assay[114]-sample_ref	sample[114]
+MTD	assay[114]-ms_run_ref	ms_run[114]
+MTD	assay[115]	W114-14
+MTD	assay[115]-sample_ref	sample[115]
+MTD	assay[115]-ms_run_ref	ms_run[115]
+MTD	assay[116]	W446-14
+MTD	assay[116]-sample_ref	sample[116]
+MTD	assay[116]-ms_run_ref	ms_run[116]
+MTD	assay[117]	W465-14
+MTD	assay[117]-sample_ref	sample[117]
+MTD	assay[117]-ms_run_ref	ms_run[117]
+MTD	assay[118]	W610-14
+MTD	assay[118]-sample_ref	sample[118]
+MTD	assay[118]-ms_run_ref	ms_run[118]
+MTD	assay[119]	W768-13
+MTD	assay[119]-sample_ref	sample[119]
+MTD	assay[119]-ms_run_ref	ms_run[119]
+MTD	assay[12]	19229
+MTD	assay[12]-sample_ref	sample[12]
+MTD	assay[12]-ms_run_ref	ms_run[12]
+MTD	assay[13]	19367
+MTD	assay[13]-sample_ref	sample[13]
+MTD	assay[13]-ms_run_ref	ms_run[13]
+MTD	assay[14]	19627
+MTD	assay[14]-sample_ref	sample[14]
+MTD	assay[14]-ms_run_ref	ms_run[14]
+MTD	assay[15]	19801
+MTD	assay[15]-sample_ref	sample[15]
+MTD	assay[15]-ms_run_ref	ms_run[15]
+MTD	assay[16]	19846
+MTD	assay[16]-sample_ref	sample[16]
+MTD	assay[16]-ms_run_ref	ms_run[16]
+MTD	assay[17]	20500
+MTD	assay[17]-sample_ref	sample[17]
+MTD	assay[17]-ms_run_ref	ms_run[17]
+MTD	assay[18]	20636
+MTD	assay[18]-sample_ref	sample[18]
+MTD	assay[18]-ms_run_ref	ms_run[18]
+MTD	assay[19]	20957
+MTD	assay[19]-sample_ref	sample[19]
+MTD	assay[19]-ms_run_ref	ms_run[19]
+MTD	assay[2]	8230
+MTD	assay[2]-sample_ref	sample[2]
+MTD	assay[2]-ms_run_ref	ms_run[2]
+MTD	assay[20]	21813
+MTD	assay[20]-sample_ref	sample[20]
+MTD	assay[20]-ms_run_ref	ms_run[20]
+MTD	assay[21]	21964
+MTD	assay[21]-sample_ref	sample[21]
+MTD	assay[21]-ms_run_ref	ms_run[21]
+MTD	assay[22]	21981
+MTD	assay[22]-sample_ref	sample[22]
+MTD	assay[22]-ms_run_ref	ms_run[22]
+MTD	assay[23]	22018
+MTD	assay[23]-sample_ref	sample[23]
+MTD	assay[23]-ms_run_ref	ms_run[23]
+MTD	assay[24]	22186
+MTD	assay[24]-sample_ref	sample[24]
+MTD	assay[24]-ms_run_ref	ms_run[24]
+MTD	assay[25]	22201
+MTD	assay[25]-sample_ref	sample[25]
+MTD	assay[25]-ms_run_ref	ms_run[25]
+MTD	assay[26]	22233
+MTD	assay[26]-sample_ref	sample[26]
+MTD	assay[26]-ms_run_ref	ms_run[26]
+MTD	assay[27]	04755f1cc
+MTD	assay[27]-sample_ref	sample[27]
+MTD	assay[27]-ms_run_ref	ms_run[27]
+MTD	assay[28]	07d3d7e4
+MTD	assay[28]-sample_ref	sample[28]
+MTD	assay[28]-ms_run_ref	ms_run[28]
+MTD	assay[29]	0a15bd3c
+MTD	assay[29]-sample_ref	sample[29]
+MTD	assay[29]-ms_run_ref	ms_run[29]
+MTD	assay[3]	13742
+MTD	assay[3]-sample_ref	sample[3]
+MTD	assay[3]-ms_run_ref	ms_run[3]
+MTD	assay[30]	0d33871d
+MTD	assay[30]-sample_ref	sample[30]
+MTD	assay[30]-ms_run_ref	ms_run[30]
+MTD	assay[31]	0e54addb
+MTD	assay[31]-sample_ref	sample[31]
+MTD	assay[31]-ms_run_ref	ms_run[31]
+MTD	assay[32]	17F35E1F
+MTD	assay[32]-sample_ref	sample[32]
+MTD	assay[32]-ms_run_ref	ms_run[32]
+MTD	assay[33]	1afbc5b2
+MTD	assay[33]-sample_ref	sample[33]
+MTD	assay[33]-ms_run_ref	ms_run[33]
+MTD	assay[34]	1b44fdcd
+MTD	assay[34]-sample_ref	sample[34]
+MTD	assay[34]-ms_run_ref	ms_run[34]
+MTD	assay[35]	200945e 4
+MTD	assay[35]-sample_ref	sample[35]
+MTD	assay[35]-ms_run_ref	ms_run[35]
+MTD	assay[36]	2192252c
+MTD	assay[36]-sample_ref	sample[36]
+MTD	assay[36]-ms_run_ref	ms_run[36]
+MTD	assay[37]	276330f9
+MTD	assay[37]-sample_ref	sample[37]
+MTD	assay[37]-ms_run_ref	ms_run[37]
+MTD	assay[38]	31842d51
+MTD	assay[38]-sample_ref	sample[38]
+MTD	assay[38]-ms_run_ref	ms_run[38]
+MTD	assay[39]	4b24c7f3
+MTD	assay[39]-sample_ref	sample[39]
+MTD	assay[39]-ms_run_ref	ms_run[39]
+MTD	assay[4]	14021
+MTD	assay[4]-sample_ref	sample[4]
+MTD	assay[4]-ms_run_ref	ms_run[4]
+MTD	assay[40]	5A929F9E
+MTD	assay[40]-sample_ref	sample[40]
+MTD	assay[40]-ms_run_ref	ms_run[40]
+MTD	assay[41]	5b47e65a
+MTD	assay[41]-sample_ref	sample[41]
+MTD	assay[41]-ms_run_ref	ms_run[41]
+MTD	assay[42]	62e27a7e
+MTD	assay[42]-sample_ref	sample[42]
+MTD	assay[42]-ms_run_ref	ms_run[42]
+MTD	assay[43]	6394FAA2
+MTD	assay[43]-sample_ref	sample[43]
+MTD	assay[43]-ms_run_ref	ms_run[43]
+MTD	assay[44]	9AB7EADC
+MTD	assay[44]-sample_ref	sample[44]
+MTD	assay[44]-ms_run_ref	ms_run[44]
+MTD	assay[45]	9B7DA93A
+MTD	assay[45]-sample_ref	sample[45]
+MTD	assay[45]-ms_run_ref	ms_run[45]
+MTD	assay[46]	a98f2fbe
+MTD	assay[46]-sample_ref	sample[46]
+MTD	assay[46]-ms_run_ref	ms_run[46]
+MTD	assay[47]	cfc7fle8
+MTD	assay[47]-sample_ref	sample[47]
+MTD	assay[47]-ms_run_ref	ms_run[47]
+MTD	assay[48]	dac57f3d
+MTD	assay[48]-sample_ref	sample[48]
+MTD	assay[48]-ms_run_ref	ms_run[48]
+MTD	assay[49]	ddae2cee
+MTD	assay[49]-sample_ref	sample[49]
+MTD	assay[49]-ms_run_ref	ms_run[49]
+MTD	assay[5]	16276
+MTD	assay[5]-sample_ref	sample[5]
+MTD	assay[5]-ms_run_ref	ms_run[5]
+MTD	assay[50]	ee79a098
+MTD	assay[50]-sample_ref	sample[50]
+MTD	assay[50]-ms_run_ref	ms_run[50]
+MTD	assay[51]	H00545-15
+MTD	assay[51]-sample_ref	sample[51]
+MTD	assay[51]-ms_run_ref	ms_run[51]
+MTD	assay[52]	H11273-14
+MTD	assay[52]-sample_ref	sample[52]
+MTD	assay[52]-ms_run_ref	ms_run[52]
+MTD	assay[53]	H1135-15
+MTD	assay[53]-sample_ref	sample[53]
+MTD	assay[53]-ms_run_ref	ms_run[53]
+MTD	assay[54]	H13302-13
+MTD	assay[54]-sample_ref	sample[54]
+MTD	assay[54]-ms_run_ref	ms_run[54]
+MTD	assay[55]	H13329-13
+MTD	assay[55]-sample_ref	sample[55]
+MTD	assay[55]-ms_run_ref	ms_run[55]
+MTD	assay[56]	H13928
+MTD	assay[56]-sample_ref	sample[56]
+MTD	assay[56]-ms_run_ref	ms_run[56]
+MTD	assay[57]	H14335-13
+MTD	assay[57]-sample_ref	sample[57]
+MTD	assay[57]-ms_run_ref	ms_run[57]
+MTD	assay[58]	H14745-13
+MTD	assay[58]-sample_ref	sample[58]
+MTD	assay[58]-ms_run_ref	ms_run[58]
+MTD	assay[59]	H15082-14
+MTD	assay[59]-sample_ref	sample[59]
+MTD	assay[59]-ms_run_ref	ms_run[59]
+MTD	assay[6]	16368
+MTD	assay[6]-sample_ref	sample[6]
+MTD	assay[6]-ms_run_ref	ms_run[6]
+MTD	assay[60]	H15695-13
+MTD	assay[60]-sample_ref	sample[60]
+MTD	assay[60]-ms_run_ref	ms_run[60]
+MTD	assay[61]	H15923-13
+MTD	assay[61]-sample_ref	sample[61]
+MTD	assay[61]-ms_run_ref	ms_run[61]
+MTD	assay[62]	H16027-13
+MTD	assay[62]-sample_ref	sample[62]
+MTD	assay[62]-ms_run_ref	ms_run[62]
+MTD	assay[63]	H16542-13
+MTD	assay[63]-sample_ref	sample[63]
+MTD	assay[63]-ms_run_ref	ms_run[63]
+MTD	assay[64]	H16586-14
+MTD	assay[64]-sample_ref	sample[64]
+MTD	assay[64]-ms_run_ref	ms_run[64]
+MTD	assay[65]	H16912-13
+MTD	assay[65]-sample_ref	sample[65]
+MTD	assay[65]-ms_run_ref	ms_run[65]
+MTD	assay[66]	H1694-14
+MTD	assay[66]-sample_ref	sample[66]
+MTD	assay[66]-ms_run_ref	ms_run[66]
+MTD	assay[67]	H17407-14
+MTD	assay[67]-sample_ref	sample[67]
+MTD	assay[67]-ms_run_ref	ms_run[67]
+MTD	assay[68]	H17745-14
+MTD	assay[68]-sample_ref	sample[68]
+MTD	assay[68]-ms_run_ref	ms_run[68]
+MTD	assay[69]	H17983-13
+MTD	assay[69]-sample_ref	sample[69]
+MTD	assay[69]-ms_run_ref	ms_run[69]
+MTD	assay[7]	16763
+MTD	assay[7]-sample_ref	sample[7]
+MTD	assay[7]-ms_run_ref	ms_run[7]
+MTD	assay[70]	H18484-14
+MTD	assay[70]-sample_ref	sample[70]
+MTD	assay[70]-ms_run_ref	ms_run[70]
+MTD	assay[71]	H19025-13
+MTD	assay[71]-sample_ref	sample[71]
+MTD	assay[71]-ms_run_ref	ms_run[71]
+MTD	assay[72]	H19419-13
+MTD	assay[72]-sample_ref	sample[72]
+MTD	assay[72]-ms_run_ref	ms_run[72]
+MTD	assay[73]	H1947-14
+MTD	assay[73]-sample_ref	sample[73]
+MTD	assay[73]-ms_run_ref	ms_run[73]
+MTD	assay[74]	H20182-13
+MTD	assay[74]-sample_ref	sample[74]
+MTD	assay[74]-ms_run_ref	ms_run[74]
+MTD	assay[75]	H20232-14
+MTD	assay[75]-sample_ref	sample[75]
+MTD	assay[75]-ms_run_ref	ms_run[75]
+MTD	assay[76]	H20475-13
+MTD	assay[76]-sample_ref	sample[76]
+MTD	assay[76]-ms_run_ref	ms_run[76]
+MTD	assay[77]	H2059-14
+MTD	assay[77]-sample_ref	sample[77]
+MTD	assay[77]-ms_run_ref	ms_run[77]
+MTD	assay[78]	H20870-13
+MTD	assay[78]-sample_ref	sample[78]
+MTD	assay[78]-ms_run_ref	ms_run[78]
+MTD	assay[79]	H20909-13
+MTD	assay[79]-sample_ref	sample[79]
+MTD	assay[79]-ms_run_ref	ms_run[79]
+MTD	assay[8]	16867
+MTD	assay[8]-sample_ref	sample[8]
+MTD	assay[8]-ms_run_ref	ms_run[8]
+MTD	assay[80]	H20941-13
+MTD	assay[80]-sample_ref	sample[80]
+MTD	assay[80]-ms_run_ref	ms_run[80]
+MTD	assay[81]	H21013-14
+MTD	assay[81]-sample_ref	sample[81]
+MTD	assay[81]-ms_run_ref	ms_run[81]
+MTD	assay[82]	H2153-14
+MTD	assay[82]-sample_ref	sample[82]
+MTD	assay[82]-ms_run_ref	ms_run[82]
+MTD	assay[83]	H21551-14
+MTD	assay[83]-sample_ref	sample[83]
+MTD	assay[83]-ms_run_ref	ms_run[83]
+MTD	assay[84]	H21617-13
+MTD	assay[84]-sample_ref	sample[84]
+MTD	assay[84]-ms_run_ref	ms_run[84]
+MTD	assay[85]	H21750-13
+MTD	assay[85]-sample_ref	sample[85]
+MTD	assay[85]-ms_run_ref	ms_run[85]
+MTD	assay[86]	H21956-14
+MTD	assay[86]-sample_ref	sample[86]
+MTD	assay[86]-ms_run_ref	ms_run[86]
+MTD	assay[87]	H22582-13
+MTD	assay[87]-sample_ref	sample[87]
+MTD	assay[87]-ms_run_ref	ms_run[87]
+MTD	assay[88]	H23671-13
+MTD	assay[88]-sample_ref	sample[88]
+MTD	assay[88]-ms_run_ref	ms_run[88]
+MTD	assay[89]	H25045-13
+MTD	assay[89]-sample_ref	sample[89]
+MTD	assay[89]-ms_run_ref	ms_run[89]
+MTD	assay[9]	18132
+MTD	assay[9]-sample_ref	sample[9]
+MTD	assay[9]-ms_run_ref	ms_run[9]
+MTD	assay[90]	H25638-14
+MTD	assay[90]-sample_ref	sample[90]
+MTD	assay[90]-ms_run_ref	ms_run[90]
+MTD	assay[91]	H2574-14
+MTD	assay[91]-sample_ref	sample[91]
+MTD	assay[91]-ms_run_ref	ms_run[91]
+MTD	assay[92]	H25817-13
+MTD	assay[92]-sample_ref	sample[92]
+MTD	assay[92]-ms_run_ref	ms_run[92]
+MTD	assay[93]	H25875-14
+MTD	assay[93]-sample_ref	sample[93]
+MTD	assay[93]-ms_run_ref	ms_run[93]
+MTD	assay[94]	H26184-14
+MTD	assay[94]-sample_ref	sample[94]
+MTD	assay[94]-ms_run_ref	ms_run[94]
+MTD	assay[95]	H2693-14
+MTD	assay[95]-sample_ref	sample[95]
+MTD	assay[95]-ms_run_ref	ms_run[95]
+MTD	assay[96]	H27622-14
+MTD	assay[96]-sample_ref	sample[96]
+MTD	assay[96]-ms_run_ref	ms_run[96]
+MTD	assay[97]	H27975-13
+MTD	assay[97]-sample_ref	sample[97]
+MTD	assay[97]-ms_run_ref	ms_run[97]
+MTD	assay[98]	H28074-13
+MTD	assay[98]-sample_ref	sample[98]
+MTD	assay[98]-ms_run_ref	ms_run[98]
+MTD	assay[99]	H321-14
+MTD	assay[99]-sample_ref	sample[99]
+MTD	assay[99]-ms_run_ref	ms_run[99]
+MTD	study_variable_group[1]	[,,Diagonsis,]
+MTD	study_variable_group[1]-description	mwTab sample factor Diagonsis
+MTD	study_variable_group[1]-type	[STATO, STATO:0000252, categorical variable, ]
+MTD	study_variable_group[1]-datatype	xsd:string
+MTD	study_variable_group[1]-study_variable_refs	study_variable[1]
+MTD	study_variable_group[2]	[,,Smoking Status,]
+MTD	study_variable_group[2]-description	mwTab sample factor Smoking Status
+MTD	study_variable_group[2]-type	[STATO, STATO:0000252, categorical variable, ]
+MTD	study_variable_group[2]-datatype	xsd:string
+MTD	study_variable_group[2]-study_variable_refs	study_variable[2]|study_variable[3]|study_variable[4]
+MTD	study_variable[1]	Cancer
+MTD	study_variable[1]-assay_refs	assay[1]|assay[2]|assay[3]|assay[4]|assay[5]|assay[6]|assay[7]|assay[8]|assay[9]|assay[10]|assay[11]|assay[12]|assay[13]|assay[14]|assay[15]|assay[16]|assay[17]|assay[18]|assay[19]|assay[20]|assay[21]|assay[22]|assay[23]|assay[24]|assay[25]|assay[26]|assay[27]|assay[28]|assay[29]|assay[30]|assay[31]|assay[32]|assay[33]|assay[34]|assay[35]|assay[36]|assay[37]|assay[38]|assay[39]|assay[40]|assay[41]|assay[42]|assay[43]|assay[44]|assay[45]|assay[46]|assay[47]|assay[48]|assay[49]|assay[50]|assay[51]|assay[52]|assay[53]|assay[54]|assay[55]|assay[56]|assay[57]|assay[58]|assay[59]|assay[60]|assay[61]|assay[62]|assay[63]|assay[64]|assay[65]|assay[66]|assay[67]|assay[68]|assay[69]|assay[70]|assay[71]|assay[72]|assay[73]|assay[74]|assay[75]|assay[76]|assay[77]|assay[78]|assay[79]|assay[80]|assay[81]|assay[82]|assay[83]|assay[84]|assay[85]|assay[86]|assay[87]|assay[88]|assay[89]|assay[90]|assay[91]|assay[92]|assay[93]|assay[94]|assay[95]|assay[96]|assay[97]|assay[98]|assay[99]|assay[100]|assay[101]|assay[102]|assay[103]|assay[104]|assay[105]|assay[106]|assay[107]|assay[108]|assay[109]|assay[110]|assay[111]|assay[112]|assay[113]|assay[114]|assay[115]|assay[116]|assay[117]|assay[118]|assay[119]
+MTD	study_variable[1]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[1]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[1]-description	Variable Diagonsis, value Cancer
+MTD	study_variable[2]	Former Smoker
+MTD	study_variable[2]-assay_refs	assay[1]|assay[2]|assay[5]|assay[6]|assay[7]|assay[9]|assay[10]|assay[11]|assay[14]|assay[15]|assay[16]|assay[17]|assay[18]|assay[20]|assay[24]|assay[25]|assay[26]|assay[28]|assay[29]|assay[30]|assay[31]|assay[34]|assay[35]|assay[37]|assay[38]|assay[39]|assay[43]|assay[46]|assay[48]|assay[49]|assay[51]|assay[65]|assay[69]|assay[70]|assay[71]|assay[82]|assay[83]|assay[89]|assay[105]|assay[108]|assay[113]|assay[115]
+MTD	study_variable[2]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[2]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[2]-description	Variable Smoking Status, value Former Smoker
+MTD	study_variable[3]	Current Smoker
+MTD	study_variable[3]-assay_refs	assay[3]|assay[4]|assay[8]|assay[12]|assay[19]|assay[22]|assay[23]|assay[27]|assay[32]|assay[33]|assay[36]|assay[40]|assay[41]|assay[44]|assay[45]|assay[55]|assay[56]|assay[57]|assay[62]|assay[67]|assay[68]|assay[75]|assay[76]|assay[80]|assay[81]|assay[84]|assay[86]|assay[95]|assay[100]|assay[101]|assay[102]|assay[104]|assay[106]|assay[109]|assay[118]|assay[119]
+MTD	study_variable[3]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[3]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[3]-description	Variable Smoking Status, value Current Smoker
+MTD	study_variable[4]	Non-Smoker
+MTD	study_variable[4]-assay_refs	assay[13]|assay[21]|assay[42]|assay[47]|assay[50]|assay[52]|assay[53]|assay[54]|assay[58]|assay[59]|assay[60]|assay[61]|assay[63]|assay[64]|assay[66]|assay[72]|assay[73]|assay[74]|assay[77]|assay[78]|assay[79]|assay[85]|assay[87]|assay[88]|assay[90]|assay[91]|assay[92]|assay[93]|assay[94]|assay[96]|assay[97]|assay[98]|assay[99]|assay[103]|assay[107]|assay[110]|assay[111]|assay[112]|assay[114]|assay[116]|assay[117]
+MTD	study_variable[4]-average_function	[MS, MS:1002962, mean, ]
+MTD	study_variable[4]-variation_function	[MS, MS:1002963, variation coefficient, ]
+MTD	study_variable[4]-description	Variable Smoking Status, value Non-Smoker
+MTD	custom[1]	[,, Metabolomics Workbench analysis ID, AN000941]
+MTD	custom[2]	[,, chromatography type, HILIC]
+MTD	custom[3]	[,, chromatography instrument, Unspecified]
+MTD	custom[4]	[,, chromatography column, "Waters XBridge Amide (100 x 4.6mm, 3.5um)"]
+MTD	cv[1]-label	MS
+MTD	cv[1]-full_name	PSI-MS controlled vocabulary
+MTD	cv[1]-version	4.1.138
+MTD	cv[1]-uri	https://www.ebi.ac.uk/ols4/ontologies/ms
+MTD	cv[2]-label	PRIDE
+MTD	cv[2]-full_name	PRIDE PRoteomics IDEntifications (PRIDE) database controlled vocabulary
+MTD	cv[2]-version	16:10:2023 11:38
+MTD	cv[2]-uri	https://www.ebi.ac.uk/ols/ontologies/pride
+MTD	cv[3]-label	STATO
+MTD	cv[3]-full_name	General purpose STATistics Ontology
+MTD	cv[3]-version	2026-04-20
+MTD	cv[3]-uri	https://www.ebi.ac.uk/ols4/ontologies/stato
+MTD	cv[4]-label	NCBITaxon
+MTD	cv[4]-full_name	NCBI organismal classification
+MTD	cv[4]-version	unknown
+MTD	cv[4]-uri	http://purl.obolibrary.org/obo/ncbitaxon.owl
+MTD	database[1]	[,, KEGG, ]
+MTD	database[1]-prefix	KEGG
+MTD	database[1]-version	Unknown
+MTD	database[1]-uri	https://www.kegg.jp
+MTD	small_molecule-quantification_unit	[,, Peak intensity, ]
+MTD	small_molecule-identification_reliability	[MS, MS:1002896, compound identification confidence level, ]
+
+SMH	SML_ID	SMF_ID_REFS	database_identifier	chemical_formula	smiles	inchi	chemical_name	uri	theoretical_neutral_mass	adduct_ions	reliability	best_id_confidence_measure	best_id_confidence_value	abundance_assay[1]	abundance_assay[2]	abundance_assay[3]	abundance_assay[4]	abundance_assay[5]	abundance_assay[6]	abundance_assay[7]	abundance_assay[8]	abundance_assay[9]	abundance_assay[10]	abundance_assay[11]	abundance_assay[12]	abundance_assay[13]	abundance_assay[14]	abundance_assay[15]	abundance_assay[16]	abundance_assay[17]	abundance_assay[18]	abundance_assay[19]	abundance_assay[20]	abundance_assay[21]	abundance_assay[22]	abundance_assay[23]	abundance_assay[24]	abundance_assay[25]	abundance_assay[26]	abundance_assay[27]	abundance_assay[28]	abundance_assay[29]	abundance_assay[30]	abundance_assay[31]	abundance_assay[32]	abundance_assay[33]	abundance_assay[34]	abundance_assay[35]	abundance_assay[36]	abundance_assay[37]	abundance_assay[38]	abundance_assay[39]	abundance_assay[40]	abundance_assay[41]	abundance_assay[42]	abundance_assay[43]	abundance_assay[44]	abundance_assay[45]	abundance_assay[46]	abundance_assay[47]	abundance_assay[48]	abundance_assay[49]	abundance_assay[50]	abundance_assay[51]	abundance_assay[52]	abundance_assay[53]	abundance_assay[54]	abundance_assay[55]	abundance_assay[56]	abundance_assay[57]	abundance_assay[58]	abundance_assay[59]	abundance_assay[60]	abundance_assay[61]	abundance_assay[62]	abundance_assay[63]	abundance_assay[64]	abundance_assay[65]	abundance_assay[66]	abundance_assay[67]	abundance_assay[68]	abundance_assay[69]	abundance_assay[70]	abundance_assay[71]	abundance_assay[72]	abundance_assay[73]	abundance_assay[74]	abundance_assay[75]	abundance_assay[76]	abundance_assay[77]	abundance_assay[78]	abundance_assay[79]	abundance_assay[80]	abundance_assay[81]	abundance_assay[82]	abundance_assay[83]	abundance_assay[84]	abundance_assay[85]	abundance_assay[86]	abundance_assay[87]	abundance_assay[88]	abundance_assay[89]	abundance_assay[90]	abundance_assay[91]	abundance_assay[92]	abundance_assay[93]	abundance_assay[94]	abundance_assay[95]	abundance_assay[96]	abundance_assay[97]	abundance_assay[98]	abundance_assay[99]	abundance_assay[100]	abundance_assay[101]	abundance_assay[102]	abundance_assay[103]	abundance_assay[104]	abundance_assay[105]	abundance_assay[106]	abundance_assay[107]	abundance_assay[108]	abundance_assay[109]	abundance_assay[110]	abundance_assay[111]	abundance_assay[112]	abundance_assay[113]	abundance_assay[114]	abundance_assay[115]	abundance_assay[116]	abundance_assay[117]	abundance_assay[118]	abundance_assay[119]	abundance_study_variable[1]	abundance_study_variable[2]	abundance_study_variable[3]	abundance_study_variable[4]	abundance_variation_study_variable[1]	abundance_variation_study_variable[2]	abundance_variation_study_variable[3]	abundance_variation_study_variable[4]	opt_global_metabolite_name	opt_global_kegg_id
+SML	1	null	KEGG:C01152	null	null	null	1 methyl L-histidine	https://www.kegg.jp/entry/C01152	null	null	2	null	null	6918694	10658968	649858	1451291	4417255	5996371	4280829	2843567	8381570	6586200	22762936	4066909	7914	5104302	4810226	3372564	2355457	14627808	2218772	1969836	13957	3999082	2293147	1105571	1813353	10083475	3776236	1271308	1669646	8760124	4521241	2889383	6538793	2348387	2992032	5703014	3514303	4371039	5414588	5591687	5930444	1450	4463043	400317	6561072	1072387	1057	3358070	876843	0	401852	3163	163016	31650	4307744	2512362	5993	1148422	21061885	2930565	5153425	15207	341736	792163	64232	342	1938377	1536046	67982	10492	291473	2829	1398	28824	4075422	3270	827	2410	5876	441166	2254433	3055815	96053	2743021	38340	105716	6799	68620	3102703	119958	6490	566	694798	251244	162178	947058	10525	14037	28042	2865363	764857	214614	363	109823	426342	87472	19367	3910	219641	1289	213582	122904	2692059	1997	677871	429	104704	2157140	351489	2410908.71428571	4065933.57142857	2271802.94444444	837659.048780488	1.53683806739342	1.08636204095425	0.908770315288673	4.02016167446316	1 methyl L-histidine	C01152
+SML	2	null	KEGG:C14790	null	null	null	1 naphthylamine	https://www.kegg.jp/entry/C14790	null	null	2	null	null	10118	39783	29435	33219	45772	4344	10694	25810	39226	24008	36784	12697	636	15705	21407	17523	15082	15460	16827	28852	546	16443	24848	3814	13081	19855	7686	15698	11858	26187	7576	5196	21134	12767	16615	38166	2753	4121	26676	4285	13423	3517	4657	9899	2945	14066	1375	14689	6136	0	4574	950	3891	194	26548	12773	946	7884	38276	6756	10636	1439	14251	10531	1362	1712	9429	13014	4593	751	7917	1351	2267	943	28395	685	2216	2094	2638	19207	5996	4929	24342	15376	2345	27855	3509	317	19153	10842	1144	663	10852	15624	32903	6461	2176	190	2029	8864	46821	12751	1054	5287	11188	28560	654	8582	29635	729	866	16605	21055	2072	32627	932	14797	15691	13648	12527.2352941176	15866.1904761905	17162.1111111111	5037.19512195122	0.91695059994082	0.714912682365176	0.673984886002857	1.42816778993922	1 naphthylamine	C14790
+SML	3	null	KEGG:C14790	null	null	null	1 naphthylamine2	https://www.kegg.jp/entry/C14790	null	null	2	null	null	45724	131092	152307	146333	14384	15162	27595	104827	118507	48329	99236	24483	2429	36787	34521	48606	47647	35291	50542	93354	3999	80564	45406	16177	41981	39072	27754	49777	62747	68602	25300	12490	28993	26337	92446	10474	16083	8785	105541	9174	46242	13364	14731	33127	7417	26501	4558	80832	44469	0	8380	3123	44269	1635	70624	38743	2789	21854	109391	12832	25151	3044	29039	1563	8589	9179	17835	83491	14944	2374	20404	1530	1439	2693	33774	3481	9700	8479	9676	9128	13348	22057	92843	33990	5417	109238	15467	9980	158326	80385	7810	2281	19872	45616	174134	17573	7870	1370	16016	27241	169413	53766	4649	18656	37819	100631	3062	24670	26468	2626	44036	61828	106191	7692	58135	2861	5819	11281	24892	38273.7899159664	49294	50169.4444444444	16539.8292682927	1.06104434100075	0.768896411012373	0.981250718679073	1.39588337571886	1 naphthylamine2	C14790
+SML	4	null	KEGG:C02227	null	null	null	2 naphthylamine	https://www.kegg.jp/entry/C02227	null	null	2	null	null	13472	54259	51556	48208	96402	7465	10987	42400	2747	18944	41648	8379	1027	13220	13591	20545	17059	12776	20328	40927	6302	34316	21675	5317	15265	12397	8860	20692	26978	31117	7866	5208	41913	13466	37272	77162	7153	3295	5529	4869	28903	5187	6503	14807	3448	12089	1950	36575	15762	0	4844	1086	8317	656	25212	15050	1276	8574	5521	7078	8498	988	11377	5681	4064	3682	7643	22438	6024	992	9539	656	398	812	42611	740	3575	219	4486	52476	4835	9036	3541	15797	1426	37889	431	433	28436	10221	222	769	19183	18565	2600	12500	1471	509	4403	7982	67742	22639	1575	10111	12353	40747	1249	11370	55108	936	5470	22859	41561	3187	21329	982	1604	51738	11436	15769.5294117647	18438.2619047619	25252.5	4709.19512195122	1.13852736933398	0.962106579110507	0.8291585923658	1.18140531394014	2 naphthylamine	C02227
+SML	5	null	KEGG:C00989	null	null	null	4 Hydroxybutyric acid	https://www.kegg.jp/entry/C00989	null	null	2	null	null	5968520	9501280	3934349	6136878	2859971	2995406	8340697	55015	7830075	4388004	4867738	4377189	37280	5958682	3930605	6014511	6443765	3186282	3149643	6946568	29765	8049996	8706426	2497491	3539993	4273707	5287599	2946796	1319199	2359863	3119853	1922601	1090897	1712369	2978518	3757069	3429897	3714722	3946234	2460025	3107745	92197	4961732	4293682	2199028	4068506	75112	3606147	2321986	0	3117065	3475	176293	41256	5376053	3158606	43365	4755352	8693628	3885452	5098177	68105	4672150	30436	39920	6611	2062144	2376932	256938	41737	3203266	32332	38145	61548	4465356	17140	29272	46205	56347	2267205	580819	2563334	5589127	3144590	29515	4195082	42854	9822	4194758	404940	88411	27833	106254	516853	3582629	261641	39509	45047	39733	4104782	4195156	1302647	10437	5859285	532436	2916691	19525	829940	2660521	16484	296937	33987	5252439	25298	3137898	17459	52237	2929933	6740954	2599243.03361345	3780666.07142857	3349337.13888889	730385.585365854	0.946547208410052	0.573484588956278	0.637431433414495	2.56070793783243	4 Hydroxybutyric acid	C00989
+SML	6	null	KEGG:C00261	null	null	null	4aminobenzaldehyde1	https://www.kegg.jp/entry/C00261	null	null	2	null	null	47586	8236	94263	8997	126656	60481	50966	5470	7990	43904	99959	78202	705	104412	92413	49901	54920	49179	67455	10581	1185	214466	69263	77986	163289	62166	162634	103358	170054	10360	48576	82197	129477	60593	113752	96059	56753	160881	169751	85997	101589	5519	50182	135037	82969	88473	1704	15829	111677	0	136078	3039	96341	771	73288	47004	628	95684	171698	92849	103168	926	197729	128501	653	1445	87306	15880	39109	709	72190	1495	5611	467	130892	112678	1835	116	1587	214185	24225	51415	9980	83957	1193	97100	152	908	9526	187224	626	2068	228341	226598	231611	10936	373	729	1191	91026	532142	243111	870	244509	107125	237000	2118	108338	697648	3854	194070	20999	11569	4771	270885	2735	9657	144694	158750	82201.1596638655	73534.3095238095	135628.75	44167.3658536585	1.22403920704482	0.789191898987733	1.02126077929068	1.67839703853045	4aminobenzaldehyde1	C00261
+SML	7	null	KEGG:C02376	null	null	null	5-Methylcytosine	https://www.kegg.jp/entry/C02376	null	null	2	null	null	208996	482717	317514	593581	541732	149951	101477	1533729	1185849	242013	1385077	282265	944	471430	127375	542555	79175	208427	35737	1866363	2366	1437105	206890	27927	60459	88500	343592	69556	324275	619810	189689	85800	395969	42799	307721	589864	172898	640219	743137	163915	789163	178	438678	128616	186117	41311	177	462811	268474	0	46335	84	14571	2033	320998	25852	2449	313674	623242	437777	311830	1539	95282	218247	2570	61	188014	67501	38184	889	11752	166	134	495	499652	1155	156	236	548	40967	68584	90621	36752	31967	2066	11462	658	3040	319707	38631	525	629	97885	51692	54465	16998	1306	1223	14187	272381	35331	7986	274	6466	16440	8075	1107	13682	11923	98	15329	31411	586031	193	17282	435	121407	199398	29809	207300.605042017	315991.571428571	249328.638888889	59055.9756097561	1.61450045638926	1.25319408353714	1.45524833493133	2.27160304339376	5-Methylcytosine	C02376
+SML	8	null	KEGG:C00292	null	null	null	Aniline1	https://www.kegg.jp/entry/C00292	null	null	2	null	null	728879	46448	111303	116333	85783	302339	1027005	373044	231602	177699	333469	283465	3041	148573	1778398	337527	172658	242590	1089495	151499	5888	348976	1039436	1169978	803751	2894268	110278	1663135	27997	155816	315501	290196	35209	275543	783497	94124	780672	164883	228456	380088	32253	10446	140090	709395	505490	1407297	3705	262587	202186	0	1252137	1624	20956	6672	600774	256247	2479	259902	844241	148269	751361	5272	241836	71619	7687	3777	415741	235569	59828	2773	823805	9868	1808	3183	25764	684425	11894	12527	268	474128	52097	291272	97091	182121	765	413590	987	7554	29335	482952	1836	16515	79816	306004	758130	311720	3001	12018	652	1520507	78805	1769406	2450	906739	277713	234355	1423	436573	136996	26739	206431	199252	216625	1259	603050	11661	47626	371023	779836	341971.848739496	503286.071428571	428419.138888889	100818.195121951	1.37226838079287	1.17956331657245	0.987075141178849	1.94060258620987	Aniline1	C00292
+SML	9	null	KEGG:C01407	null	null	null	benzene1	https://www.kegg.jp/entry/C01407	null	null	2	null	null	793271	1398213	1309380	467988	1243035	1028650	974862	307515	661759	912154	621429	761429	8532	684871	1411248	780086	286169	1020949	489647	535827	14731	531116	722066	917751	542993	737223	1002241	1206173	1006049	280825	857483	902524	1224296	1376899	449797	927666	830800	1075680	181715	736924	888510	6994	1123285	1250980	761896	587560	2972	439202	997598	0	411626	6156	45987	8063	473878	936088	8943	822711	628538	831288	812195	1212	180155	473846	2883	4431	746742	686812	50781	7224	383031	6517	6303	8098	803356	1641201	2073	383	10839	1189194	372647	701760	48283	509114	3164	260126	214	9376	71286	106934	8652	6954	46886	832117	399442	86617	4756	19013	13239	651498	913875	512735	5585	362433	592900	130635	7469	292555	616617	6126	542034	125474	354266	6607	397378	11104	80720	1077976	898371	500491.218487395	673274.5	707696.472222222	141557.390243902	0.868397881414233	0.591868041628028	0.523631810231863	1.89934460239698	benzene1	C01407
+SML	10	null	KEGG:C14318	null	null	null	benzi(ghi)perylene1	https://www.kegg.jp/entry/C14318	null	null	2	null	null	3485	323	2246	777	1408	831	2765	715	1821	1240	560	2617	2232	951	1121	2347	847	730	2226	1855	1170	434	1190	1912	2173	947	1829	1951	30093	330	1941	386	1330	2578	1546	27114	819	4169	820	788	1113	10364	2384	1154	1319	920	1997	912	628	0	1008	7902	595	1076	592	1426	587	384	8956	428	1368	2262	10664	653	376	380	1474	12267	459	542	297	521	448	410	1107	3010	638	476	15190	5405	2015	1866	438	456	505	3949	314	545	586	2577	1681	892	895	1718	1096	544	564	610	988	13975	16962	9527	296	359	7716	446	2012	6887	11354	11063	592	1287	2166	435	10795	3976	2681	23294	9596	3142.57983193277	2560.54761904762	4622.13888888889	2439.68292682927	1.64653962372552	1.88657364443856	1.44188608168905	1.49866280399204	benzi(ghi)perylene1	C14318
+SML	11	null	null	null	null	null	null	null	null	null	2	null	null	12700	2726	235703	390978	1486	22672	3217	158985	592	1986	531	80676	3094	59566	1560	7252	3781	3696	82404	415	155	180642	140573	6086	1568	1843	161557	1574	1730	543	5463	50900	73473	13933	8455	123069	7420	6065	4495	208484	166383	914	4421	160774	6992	3508	707	7584	8541	0	4083	753	152989	251	385071	9243	419	1826	487	3842	22790	364	4071	5895	612	738	5813	126719	7117	3116	10136	130	2247	471	7212	1894	6722	37	953	107897	1958	57994	1179	145927	338	2169	202	1928	439	20504	270	524	3645	4473	2929	7209	626	484	598	6611	260070	23203	1170	158112	7864	83387	490	8612	224471	566	3750	3176	1118	14938	3167	571	5516	23036	228078	38798.9243697479	7401.09523809524	111838.222222222	6830.48780487805	1.98597407445157	1.68036088347494	0.951049906273557	3.50573001350051	cotinine1	null
+SML	12	null	KEGG:C05594	null	null	null	Hydroxy methoxy Phenyl Glycol	https://www.kegg.jp/entry/C05594	null	null	2	null	null	7984	15258	10402	7615	658	6787	10404	7196	715	10981	4407	9373	1039	14467	11790	14685	11102	9197	3486	1414	1593	1546	7519	7098	6153	11087	6879	3637	679	3763	13922	8462	9157	2225	75	4200	5483	10235	7845	6396	11741	867	5895	2698	6084	6262	984	2110	8014	0	8811	98	10151	1300	10202	4216	1173	10526	7603	9354	11333	1492	11060	8229	333	182	7286	10701	3088	1057	12645	863	1031	899	9563	64	650	158	1223	9941	307	11697	1862	7517	1270	3577	74	388	9679	13225	142	639	1946	11263	462	5438	2559	1015	90	8069	7999	2862	614	14191	3771	468	1078	2328	8434	447	9570	1856	404	1116	12275	355	9985	10522	9869	5513.98319327731	6721	6435.25	3468.60975609756	0.817979983734078	0.696290325226599	0.58768475690981	1.23894020254071	Hydroxy methoxy Phenyl Glycol	C05594
+SML	13	null	KEGG:C02216	null	null	null	Methyl Adenine	https://www.kegg.jp/entry/C02216	null	null	2	null	null	128514	156218	24682	64386	18539	83593	13175	92743	15371	26693	66638	107535	4369	37892	62813	46135	26058	25886	72107	23308	66	44389	41774	56065	76570	86647	54577	68686	35911	92985	29772	20573	9777	42368	41956	23092	138974	19780	36382	46316	10678	1603	16884	19319	46555	79916	1286	56603	28885	0	19339	10	24994	3763	28633	100730	2348	6349	25129	30126	22273	809	16974	23026	1905	659	40641	22385	46212	2586	60483	261	2785	3472	14865	898	1127	4244	6696	149087	39201	121560	93673	41040	605	133456	12257	1641	48545	46655	8112	574	12396	8428	120622	479231	8192	356	182	17709	15417	38412	3147	20279	588629	96114	697	9648	6619	1748	31005	41428	80091	2778	53926	3853	2765	6305	44452	43946.2268907563	65852.7142857143	44959.0277777778	20616.1463414634	1.69534073255769	1.37553390988945	0.880022760573395	3.60777521489796	Methyl Adenine	C02216
+SML	14	null	KEGG:C14601	null	null	null	Methyl methoxyacetate	https://www.kegg.jp/entry/C14601	null	null	2	null	null	1524112	2355244	912327	1496966	722647	755912	2069348	1393113	1994104	1098870	1247683	1058019	16086	1559399	1018243	1554185	1701876	829105	742015	1766748	12031	2009797	2154815	595096	857299	1099290	1188709	763246	341982	621539	769231	521610	249239	397038	757764	911388	923856	920304	996726	615448	756929	38442	1216313	1091990	568005	969277	31445	873750	596448	0	803498	251	505806	17174	1384097	751968	17480	1181487	2330827	967501	1237997	29579	1114039	785621	17499	2771	512482	561003	733771	18235	842634	13145	15714	26095	797859	5105	12088	19803	23409	531414	161411	682306	1394562	781840	11969	1023575	18556	4495	1073534	1009984	37951	11243	255123	1304097	898557	562038	16250	18444	15253	919862	1089358	313319	4457	1424790	143199	715704	7623	219535	643122	6465	752844	839015	1315565	9762	774180	7241	856520	684961	1638525	719097.445378152	974170.309523809	848788.361111111	343928.341463415	0.82455201882155	0.543954171459887	0.60361370072525	1.5709238477759	Methyl methoxyacetate	C14601
+SML	15	null	KEGG:C01026	null	null	null	N, N Dimethyl Glycine	https://www.kegg.jp/entry/C01026	null	null	2	null	null	69133687	107210255	44592505	68066335	35501425	30751799	100100338	65982111	95004932	51559677	57234381	52339906	432806	77126544	48449048	73292248	76646594	41629847	37817987	80499278	367807	96762481	109413127	26983466	45913249	53095032	58998026	40037939	17476409	28827419	35739770	24096385	13971440	20594022	36296817	44925711	41415652	42623233	49721178	28799807	39169817	1104342	60148485	59640518	22600753	47616535	881977	45719585	27834042	0	37265700	39695	20483872	465794	63507835	41847025	476695	58902665	114762674	45064079	58570338	853371	53053247	37398848	484967	74314	23929361	27053544	31817298	512048	38593091	386531	452041	739378	37108843	181658	323469	525563	377207	27819352	6336858	28464631	62207474	36887732	365021	58285937	484307	119182	46662168	48527508	1088392	337548	11954932	64945051	37268336	23260570	510055	524877	511801	47386658	20700641	15357585	121504	71697493	6243414	38532786	240855	9048502	32083872	178890	35568026	43612467	58385741	273328	37963451	213917	66151215	35379698	75541900	34291105.487395	45757889.7857143	40705946.9166667	16912099.8292683	0.835461920061125	0.541412021970944	0.622667433922407	1.61429158811994	N, N Dimethyl Glycine	C01026
+SML	16	null	KEGG:C03065	null	null	null	N-methyl L-alanine	https://www.kegg.jp/entry/C03065	null	null	2	null	null	17175533	27308299	11351938	18338318	8979060	8283592	23637189	16396597	22027040	13014635	12802766	12485907	121398	17931361	12230579	18063652	19676017	9851936	8298571	20419552	87887	21257352	24809221	7812525	9881180	12552218	14004994	8435972	4195309	6901803	8888843	5964720	3229557	4651722	8550101	11042960	11299466	10952018	11011157	7097967	8910929	269742	13930084	12025643	6260008	12059975	214845	10243327	6856533	0	9380884	11067	6122576	120691	16007336	8991219	127694	13833899	25994003	10988277	14025123	202027	13196201	9096684	115731	21915	6175226	6429321	8121315	122482	9970965	94258	109462	193014	12933968	39855	86420	138442	166016	6438107	1985649	8153465	15677501	9281047	85025	11258548	130809	30006	12616015	11490324	254071	78811	3101693	15947460	10516588	6753453	111357	125932	109149	11325087	13069610	4098152	30841	17590133	1775831	8509036	55168	2988109	8094324	45320	8865318	9592350	15155954	73462	9006040	47932	15907298	8351884	18303299	8417127.95798319	11254946.0952381	10033410.8888889	4090919.48780488	0.813927564533356	0.533798129396177	0.58370599152473	1.5739471251583	N-methyl L-alanine	C03065
+SML	17	null	KEGG:C14403	null	null	null	o-toluidene2	https://www.kegg.jp/entry/C14403	null	null	2	null	null	25580	4812	18542	2204	15823	12349	13277	2188	2133	4759	2330	8311	33	18384	6982	3814	3752	14860	17184	1804	70	2556	18217	4129	7922	17697	20494	5770	12434	2012	21008	13065	17596	2252	1942	3352	6556	43000	2362	7240	22992	179	6228	33506	21609	6679	32	2243	13894	0	6231	107	2295	5	9377	20444	246	7046	1762	14699	8719	152	12213	4309	24	35	10060	19202	3420	191	4213	74	480	96	13118	21665	31	31	39	12643	3946	6347	5359	1948	68	19925	60	220	2909	8174	12	124	10102	6604	4406	20802	83	80	154	21189	21983	10460	15	8822	1570	4908	57	6806	9150	175	4757	28940	1369	156	2754	51	8554	15004	5860	7672.15966386555	7809.04761904762	12321.2222222222	3449.82926829268	1.09164921712741	1.05553352678779	0.668265362199802	1.83836679870243	o-toluidene2	C14403
+SML	18	null	KEGG:C00019	null	null	null	S-(5'-Adenosyl)-L-methionine	https://www.kegg.jp/entry/C00019	null	null	2	null	null	701827	24906	13510	70193	15908	35552	118101	31069	5811	18373	11355	12362	309948	156423	141603	109899	12454	20743	60091	61915	187917	10287	92377	12787	21164	14919	47476	26953	66819	8208	35243	38392	17118	57556	437	18331	15255	17842	1896	235603	586986	331455	88961	338340	442959	17344	314068	2213	60464	null	34744	2225579	2215974	7591199	891516	374024	4431933	18306	50945	10653	311531	662901	335118	2218483	56567	3316593	441629	111627	2891387	4818819	30553	256890	2432161	7468730	1864321	2860	3385386	3118132	1845483	496929	274	32919	31556	187991	542342	143812	3362233	3286547	33981	2585386	3311864	3276755	2238022	2356944	101837	1587129	3311635	3831791	5759838	132654	316103	16673	3394301	168015	33239	44935	492497	33157	22732	2219370	2247865	3302508	32390	33123574	39815	2230381	2299811	106682	286635	1232869.31355932	236953.761904762	356143.805555556	3067633.6	2.7160855887568	3.59971620200383	2.19670913883363	1.69682339655054	S-(5'-Adenosyl)-L-methionine	C00019
+

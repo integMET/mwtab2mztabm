@@ -110,6 +110,9 @@ downloadMwTab <- function(x, destdir = tempdir(), overwrite = FALSE,
 #' Metabolomics Workbench REST service. A warning is issued if the IDs can not
 #' be determined; such analyses are named `"analysis_1"`, `"analysis_2"`, etc.
 #'
+#' The JSON files of some studies (e.g. ST000614) are invalid because they
+#' contain unescaped control characters. These are removed with a warning.
+#'
 #' @param file `character(1)` with the path to the mwTab JSON file.
 #'
 #' @return Named `list` of analyses, names being the analysis IDs.
@@ -122,7 +125,8 @@ downloadMwTab <- function(x, destdir = tempdir(), overwrite = FALSE,
 #' names(mw)
 #' names(mw[[1L]])
 readMwTab <- function(file) {
-    x <- jsonlite::fromJSON(file, simplifyVector = FALSE)
+    x <- jsonlite::fromJSON(.remove_control_chars(file),
+                            simplifyVector = FALSE)
     if (.is_mwtab_analysis(x))
         x <- list(x)
     if (!length(x) || !all(vapply(x, .is_mwtab_analysis, NA)))
@@ -133,6 +137,25 @@ readMwTab <- function(file) {
     ids[is.na(ids)] <- paste0("analysis_", which(is.na(ids)))
     names(x) <- ids
     x
+}
+
+## Unescaped control characters are not allowed in JSON, but occur in the files
+## of some studies (e.g. ST000614). Returns the content of `file` without them,
+## or `file` itself if it contains none. Tabs, line feeds and carriage returns
+## are kept as they are valid white space between JSON values.
+.remove_control_chars <- function(file) {
+    if (!file.exists(file))
+        return(file)
+    bytes <- readBin(file, "raw", file.size(file))
+    bad <- bytes < as.raw(0x20) & !bytes %in% as.raw(c(0x09, 0x0a, 0x0d))
+    if (!any(bad))
+        return(file)
+    warning("Removed ", sum(bad), " control character(s) from '", file, "', ",
+            "which is not valid JSON. Text at these positions, such as ",
+            "metabolite names, might be damaged.", call. = FALSE)
+    json <- rawToChar(bytes[!bad])
+    Encoding(json) <- "UTF-8"
+    json
 }
 
 .is_mwtab_analysis <- function(x) {

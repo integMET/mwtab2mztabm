@@ -23,11 +23,11 @@ ST000465	AN000727	valid	ST000465/ST000465_AN000727.mztab
 ST000474	AN000738	valid	ST000474/ST000474_AN000738.mztab	
 ST000505	AN000774	valid	ST000505/ST000505_AN000774.mztab	
 ST000506	AN000775	valid	ST000506/ST000506_AN000775.mztab	
-ST000614	AN000939	failed		invalid JSON: control character 0x1D in metabolite name
-ST000614	AN000940	failed		invalid JSON: control character 0x1D in metabolite name
-ST000614	AN000941	failed		invalid JSON: control character 0x1D in metabolite name
-ST000614	AN000942	failed		invalid JSON: control character 0x1D in metabolite name
-ST000614	AN000943	failed		invalid JSON: control character 0x1D in metabolite name
+ST000614	AN000939	valid	ST000614/ST000614_AN000939.mztab	"control characters removed from the JSON; chemical_name ""uorene"" is damaged in the source (probably fluorene)"
+ST000614	AN000940	valid	ST000614/ST000614_AN000940.mztab	control characters removed from the JSON
+ST000614	AN000941	valid	ST000614/ST000614_AN000941.mztab	control characters removed from the JSON
+ST000614	AN000942	valid	ST000614/ST000614_AN000942.mztab	control characters removed from the JSON
+ST000614	AN000943	valid	ST000614/ST000614_AN000943.mztab	control characters removed from the JSON
 ST000783	AN001239	valid	ST000783/ST000783_AN001239.mztab	
 ST000791	AN001259	valid	ST000791/ST000791_AN001259.mztab	
 ST000824	AN001310	valid	ST000824/ST000824_AN001310.mztab	
